@@ -143,9 +143,9 @@ module DrugParser =
         RenalImpairment(Id(x.Id),gi,am)
 
     let patientAndCarerAdvice (x:drugProvider.Topic2) =
-        let r = sectionParagraphs "generalInformation" x.Body.Sections
+        let r = sectionParagraphs "patientResources" x.Body.Sections
                 |> PatientResources
-                PatientAndCarerAdvice(Id(x.Id),r)
+        PatientAndCarerAdvice(Id(x.Id),r)
 
     
    

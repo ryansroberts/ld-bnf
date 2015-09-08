@@ -41,7 +41,7 @@ let parse (x:drugProvider.Topic) =
             | HasOutputClass "hepaticImpairment" -> Some(generalInformation MonographSection.HepaticImpairment x)
             | HasOutputClass "renalImpairment" -> Some(renalImpairment x)
             | HasOutputClass "patientAndCarerAdvice" -> Some(patientAndCarerAdvice x)
-            //| HasOutputClass "medicinalForms" -> Some(medicinalForms x)
+            | HasOutputClass "medicinalForms" -> Some(medicinalForms x)
             | _ -> None
 
     let sections =
