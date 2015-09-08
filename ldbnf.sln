@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
@@ -34,6 +35,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ldbnf.Tests", "tests\ldbnf.Tests\ldbnf.Tests.fsproj", "{28082C2B-3FFD-42E8-9978-3E64D0FE68C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "splitter", "splitter\splitter.csproj", "{FF579EAA-4721-4966-BA94-43C4BFCE65B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +51,10 @@ Global
 		{28082C2B-3FFD-42E8-9978-3E64D0FE68C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28082C2B-3FFD-42E8-9978-3E64D0FE68C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28082C2B-3FFD-42E8-9978-3E64D0FE68C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF579EAA-4721-4966-BA94-43C4BFCE65B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF579EAA-4721-4966-BA94-43C4BFCE65B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF579EAA-4721-4966-BA94-43C4BFCE65B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF579EAA-4721-4966-BA94-43C4BFCE65B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
