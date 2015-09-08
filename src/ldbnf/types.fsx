@@ -43,13 +43,19 @@ type RouteOfAdministration = | RouteOfAdministration of Route * PatientGroup seq
 
 type IndicationsAndDose = | IndicationsAndDose  of TheraputicIndication seq * RouteOfAdministration seq
 
+type GeneralInformation = | GeneralInformation of string seq
+
+type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of string seq
+
+type PatientResources = | PatientResources of string seq
+
 type MonographSection =
   | IndicationsAndDose of IndicationsAndDose
-  | Pregnancy of ReferenceableContent
-  | BreastFeeding of ReferenceableContent
-  | HepaticImpairment of ReferenceableContent
-  | RenalImpairment of ReferenceableContent
-  | PatientAndCarerAdvice of ReferenceableContent
+  | Pregnancy of Id * GeneralInformation
+  | BreastFeeding of Id * GeneralInformation
+  | HepaticImpairment of Id * GeneralInformation
+  | RenalImpairment of Id * GeneralInformation * AdditionalMonitoringInRenalImpairment
+  | PatientAndCarerAdvice of Id * PatientResources
   | MedicinalForms of ReferenceableContent * MedicinalFormLink seq
 
 type Drug = | Drug of InteractionLinks *
@@ -94,14 +100,16 @@ type PatientGroup with
   static member from (x:drugProvider.Li) = {Group = x.Ps.[0]; Dosage = x.Ps.[1];}
 
 type TheraputicIndication with
-  static member from (x:Option<drugProvider.Sectiondiv>) =
-    match x with
-    | Some(y) -> y.Ps |> Array.map value |> Array.choose id |> Array.map TheraputicIndication
-    | None -> Array.empty<TheraputicIndication>
+  static member from x = Array.map TheraputicIndication
+
+let paragraphs (x:Option<drugProvider.Sectiondiv>)  =
+  match x with
+    | Some(x) -> x.Ps |> Array.map value |> Array.choose id
+    | None -> Array.empty<string>
 
 type IndicationsAndDose with
   static member from (x:drugProvider.Topic2) =
-    let theraputicIndications = x.Body.Sections.[0].Sectiondiv |> TheraputicIndication.from
+    let theraputicIndications = x.Body.Sections.[0].Sectiondiv |> paragraphs |> Array.map TheraputicIndication 
     let routes = x.Body.Sections.[0].Ps |> Array.map (value >> Route)
     let groups = x.Body.Sections.[0].Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
     let routesOfAdministration = Array.zip routes groups |> Array.map RouteOfAdministration
@@ -121,11 +129,12 @@ let inline classFn x =
     | HasName "inheritsFromClass" ->  optn InheritsFromClass name x
     | _ -> None
 
+let generalInformation (c,(x:drugProvider.Topic2)) = 
+    let gi = x.Body.Sections.[0].Sectiondiv |> (paragraphs >> Array.toSeq >> GeneralInformation)
+    c(Id(x.Id),gi)
+
 let drugXml = drugProvider.GetSample()
 
-
-let shizzle = drugXml.Topics.[0].Body.Sections.[0].Sectiondiv
-    
 let interactionLinks = InteractionLinks(drugXml.Body.P.Xrefs |> Array.map InteractionLink.from)
 
 let classifications = Classifications(drugXml.Body.Datas
@@ -143,9 +152,9 @@ let vtmid =
 
 let inline sectionFn x =
     match x with
-    | HasOutputClass "pregnancy" -> Some(Pregnancy(ReferenceableContent.from x))
-    | HasOutputClass "breastFeeding" -> Some(BreastFeeding(ReferenceableContent.from x))
-    | HasOutputClass "hepaticImpairment" -> Some(HepaticImpairment(ReferenceableContent.from x))
+    | HasOutputClass "pregnancy" -> Some(generalInformation(MonographSection.Pregnancy,x))
+    | HasOutputClass "breastFeeding" -> Some(generalInformation(MonographSection.BreastFeeding,x))
+    | HasOutputClass "hepaticImpairment" -> Some(generalInformation(MonographSection.HepaticImpairment,x))
     | HasOutputClass "renalImpairment" -> Some(RenalImpairment(ReferenceableContent.from x))
     | HasOutputClass "patientAndCarerAdvice" -> Some(PatientAndCarerAdvice(ReferenceableContent.from x))
     | HasOutputClass "medicinalForms" -> Some(medicinalForms x)
