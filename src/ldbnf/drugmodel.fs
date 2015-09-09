@@ -1,6 +1,5 @@
 namespace Bnf
 open FSharp.Data
-open Arachne.Uri
 
 module Drug =
     type Html = | Html of string
@@ -14,10 +13,9 @@ module Drug =
 
     type InteractionLinks = | InteractionLinks of InteractionLink seq
 
-
     type Classification =
-    | DrugClassification of string 
-    | InheritsFromClass of string 
+        | DrugClassification of string 
+        | InheritsFromClass of string 
 
     type Classifications = | Classifications of Classification seq
 
@@ -59,6 +57,8 @@ module Drug =
 
 module DrugParser =
     open Drug
+
+    let (|?) = defaultArg
 
     let inline name arg =
       ( ^a : (member Name : string) arg)
@@ -122,10 +122,16 @@ module DrugParser =
 
     let inline optn t f x = Some (t (f x))
 
+    let inline opt t f x =
+        let y = f x
+        match y with
+          | Some(y) -> Some (t (y))
+          | None -> None
+        
     let inline classFn x =
         match x with 
-        | HasName "drugClassification" ->  optn DrugClassification name x 
-        | HasName "inheritsFromClass" ->  optn InheritsFromClass name x
+        | HasName "drugClassification" ->  opt DrugClassification value x
+        | HasName "inheritsFromClass" ->  opt InheritsFromClass value x
         | _ -> None
 
     let generalInformation c (x:drugProvider.Topic2) = 
@@ -146,6 +152,36 @@ module DrugParser =
         let r = sectionParagraphs "patientResources" x.Body.Sections
                 |> PatientResources
         PatientAndCarerAdvice(Id(x.Id),r)
-
     
-   
+    let parse (x:drugProvider.Topic) =
+        let interactionLinks = InteractionLinks(x.Body.P.Xrefs |> Array.map InteractionLink.from)
+
+        let classifications = Classifications(x.Body.Datas
+                            |> Array.filter (hasName "classifications")
+                            |> Array.collect (fun c -> c.Datas)
+                            |> Array.collect (fun c -> c.Datas)
+                            |> Array.map classFn
+                            |> Array.choose id)
+
+        let vtmid =
+            (x.Body.Datas
+            |> Array.filter ( hasName "vtmid" )
+            |> Array.map (value >> Option.map Vtmid)
+            |> Array.choose id).[0]
+
+        let inline sectionFn x =
+            match x with
+                | HasOutputClass "indicationsAndDose" -> Some(IndicationsAndDose (IndicationsAndDose.from x))
+                | HasOutputClass "pregnancy" -> Some(generalInformation MonographSection.Pregnancy x)
+                | HasOutputClass "breastFeeding" -> Some(generalInformation MonographSection.BreastFeeding x)
+                | HasOutputClass "hepaticImpairment" -> Some(generalInformation MonographSection.HepaticImpairment x)
+                | HasOutputClass "renalImpairment" -> Some(renalImpairment x)
+                | HasOutputClass "patientAndCarerAdvice" -> Some(patientAndCarerAdvice x)
+                | HasOutputClass "medicinalForms" -> Some(medicinalForms x)
+                | _ -> None
+
+        let sections =
+            x.Topics |> Array.map sectionFn |> Array.choose id
+
+        Drug(interactionLinks,classifications,vtmid,sections)
+ 
