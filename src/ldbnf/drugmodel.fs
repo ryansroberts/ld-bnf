@@ -2,6 +2,8 @@ namespace Bnf
 open FSharp.Data
 
 module Drug =
+    type Paragraph = | Paragraph of string
+    type Paragraphs = | Paragraphs of Paragraph seq 
     type Html = | Html of string
     type Content = | Content of Html //content as a string is dumb
     type Id = | Id of string
@@ -42,7 +44,7 @@ module Drug =
     type PatientResources = | PatientResources of string seq
 
     type MonographSection =
-    | IndicationsAndDose of IndicationsAndDose
+    | IndicationsAndDoseGroup of IndicationsAndDose seq
     | Pregnancy of Id * GeneralInformation
     | BreastFeeding of Id * GeneralInformation
     | HepaticImpairment of Id * GeneralInformation
@@ -66,8 +68,16 @@ module DrugParser =
     let inline value arg =
       ( ^a : (member Value : ^b) arg)
 
+    type OutputClass = | OutputClass of Option<string> with
+       static member lift (x:Option<string>) = OutputClass(x)
+       static member lift (x:string) = OutputClass(Some(x))
+       
+
+    let inline outputclasso  arg = 
+       OutputClass.lift(( ^a : (member Outputclass : Option<string>) arg))
+
     let inline outputclass arg =
-      ( ^a : (member Outputclass : string) arg)
+       OutputClass.lift(( ^a : (member Outputclass : string) arg))
 
     let inline (|HasName|_|) n x =
         if (name x) = n then Some(HasName)
@@ -81,13 +91,27 @@ module DrugParser =
 
     let inline hasOutputclass s x = outputclass x = s
 
-    type drugProvider = XmlProvider<"PHP1494.xml">
+    type drugProvider = XmlProvider<"SuperDrug.xml">
 
+    type Paragraphs with
+        static member from (x:Option<drugProvider.Sectiondiv>) =
+          match x with
+            | Some(x) -> Paragraphs.from x
+            | None -> Paragraphs Array.empty<Paragraph>
+        static member from (x:drugProvider.Sectiondiv) =
+          x.Ps |> Array.map value |> Array.choose id |> Seq.map Paragraph |> Paragraphs
+        static member from (x:drugProvider.Section) =
+          x.Ps |> Array.map value |> Array.choose id |> Seq.map Paragraph |> Paragraphs
+          
+    type Route with       
+      static member from (Paragraph x) = Route x
+      static member from (Paragraphs xs) = Seq.map Route.from xs
+ 
     type InteractionLink with
         static member from (x:drugProvider.Xref) = InteractionLink {Url = x.Href ; Title = x.Value}
 
     type MedicinalFormLink with
-        static member from (x:drugProvider.Xref2) = MedicinalFormLink {Url = x.Href ; Title = x.Value}
+        static member from (x:drugProvider.Xref6) = MedicinalFormLink {Url = x.Href ; Title = x.Value}
 
     type Content with
         static member from x = Content(Html(x.ToString()))
@@ -96,23 +120,26 @@ module DrugParser =
         static member from (x:drugProvider.Topic2) = ReferenceableContent(Content.from x,Id(x.Id),x.Title)
 
     type PatientGroup with
-        static member from (x:drugProvider.Li) = {Group = x.Ps.[0]; Dosage = x.Ps.[1];}
+        static member from (x:drugProvider.Li) = {Group = x.Ps.[0].Value |? ""; Dosage = x.Ps.[1].Value |? "";}
 
     type TheraputicIndication with
-        static member from x = Array.map TheraputicIndication
+      static member from (Paragraph x) = TheraputicIndication x
+      static member from (Paragraphs xs) = Seq.map TheraputicIndication.from xs
 
-    let paragraphs (x:Option<drugProvider.Sectiondiv>)  =
-        match x with
-            | Some(x) -> x.Ps |> Array.map value |> Array.choose id
-            | None -> Array.empty<string>
+
+    let sections (n:string) (x:drugProvider.Topic2) = x.Body.Sections |> Array.filter (fun s -> outputclasso s = OutputClass.lift n)
+
 
     type IndicationsAndDose with
-        static member from (x:drugProvider.Topic2) =
-            let theraputicIndications = x.Body.Sections.[0].Sectiondiv |> paragraphs |> Array.map TheraputicIndication 
-            let routes = x.Body.Sections.[0].Ps |> Array.map (value >> Route)
-            let groups = x.Body.Sections.[0].Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
+      static member from (x:drugProvider.Section) =
+            let theraputicIndications = x.Sectiondivs.[0] |> ( Paragraphs.from >> TheraputicIndication.from )
+            let routes = x |> (Paragraphs.from >> Route.from >> Seq.toArray)
+            let groups = x.Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
             let routesOfAdministration = Array.zip routes groups |> Array.map RouteOfAdministration
             IndicationsAndDose.IndicationsAndDose(theraputicIndications,routesOfAdministration)
+
+    let indicationGroups (x:drugProvider.Topic2) =
+        sections "indicationAndDoseGroup" x |> Array.map IndicationsAndDose.from
 
 
     let medicinalForms (x:drugProvider.Topic2) =
@@ -135,7 +162,7 @@ module DrugParser =
         | _ -> None
 
     let generalInformation c (x:drugProvider.Topic2) = 
-        let gi = x.Body.Sections.[0].Sectiondiv |> (paragraphs >> Array.toSeq >> GeneralInformation)
+        let gi = sections "generalInformation" x |> Array.map (Paragraphs.from >> GeneralInformation)
         c(Id(x.Id),gi)
 
     let sectionParagraphs c (x:drugProvider.Section []) =
