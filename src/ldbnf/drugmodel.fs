@@ -72,7 +72,7 @@ module Drug =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
         | BreastFeeding of Id * GeneralInformation seq
-        | HepaticImpairment of Id * GeneralInformation
+        | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
         | MedicinalForms of ReferenceableContent * MedicinalFormLink seq
@@ -316,11 +316,10 @@ module DrugParser =
         c(Id(x.Id),gi)
       static member pregnancyfrom = MonographSection.buidgi Pregnancy
       static member breastFeedingFrom = MonographSection.buidgi BreastFeeding
-      static member hepaticImparmentFrom = 
-        let da t gi =
-          let hi = x.Body.Sections |> subsections "doseAdjustments" DoseAdjustment.from |> Array.toSeq
-          HepaticImpairment(Id(t.Id),hi,gi)
-        MonographSection.buidgi da
+      static member hepaticImparmentFrom (x:drugProvider.Topic) =
+        let hi = x.Body.Sections |> subsections "doseAdjustments" DoseAdjustment.from |> Array.toSeq
+        let c (i,gi) = HepaticImpairment(i, gi, hi)
+        MonographSection.buidgi c x
 
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
@@ -335,10 +334,10 @@ module DrugParser =
 
         let inline sectionFn x =
             match x with
-                //| HasOutputClass "indicationsAndDose" -> Some(IndicationsAndDose (IndicationsAndDose.from x))
+                //| HasOutputClass "indicationsAndDose" _ -> Some(IndicationsAndDose (IndicationsAndDose.from x))
                 | HasOutputClass "pregnancy" _ -> Some(MonographSection.pregnancyfrom x)
                 | HasOutputClass "breastFeeding" _ -> Some(MonographSection.breastFeedingFrom x)
-                | HasOutputClass "hepaticImpairment" _ -> Some(generalInformation MonographSection.HepaticImpairment x)
+                | HasOutputClass "hepaticImpairment" _ -> Some(MonographSection.hepaticImparmentFrom x)
                 | HasOutputClass "renalImpairment" _ -> Some(renalImpairment x)
                 | HasOutputClass "patientAndCarerAdvice" _ -> Some(patientAndCarerAdvice x)
                 | HasOutputClass "medicinalForms" _ -> Some(medicinalForms x)
