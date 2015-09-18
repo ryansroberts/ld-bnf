@@ -17,8 +17,6 @@ module Drug =
 
     type InteractionLink = | InteractionLink of Link
 
-    type InteractionLinks = | InteractionLinks of InteractionLink seq
-
     type InheritsFromClass = | InheritsFromClass of Link
 
     type Classification = | Classification of Link * InheritsFromClass seq
@@ -77,7 +75,7 @@ module Drug =
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
         | MedicinalForms of ReferenceableContent * MedicinalFormLink seq
 
-    type Drug = | Drug of InteractionLinks *
+    type Drug = | Drug of InteractionLink seq *
                         Classification seq *
                         Vtmid *
                         MonographSection seq *
@@ -174,15 +172,15 @@ module DrugParser =
 
     type IndicationsAndDose with
       static member from (x:drugProvider.Section) =
-            let theraputicIndications = x.Sectiondivs.[0] |> ( Paragraphs.from >> TheraputicIndication.from )
-            let routes = x |> (Paragraphs.from >> Route.from >> Seq.toArray)
-            let groups = x.Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
-            let routesOfAdministration = Array.zip routes groups |> Array.map RouteOfAdministration
-            IndicationsAndDose.IndicationsAndDose(theraputicIndications,routesOfAdministration)
+         let theraputicIndications = x.Sectiondivs.[0] |> ( Paragraphs.from >> TheraputicIndication.from )
+         let routes = x |> (Paragraphs.from >> Route.from >> Seq.toArray)
+         let groups = x.Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
+         let routesOfAdministration = Array.zip routes groups |> Array.map RouteOfAdministration
+         IndicationsAndDose.IndicationsAndDose(theraputicIndications,routesOfAdministration)
 
-    let indicationGroups (x:drugProvider.Topic) =
-        sections "indicationAndDoseGroup" x |> Array.map IndicationsAndDose.from
-
+    type MonographSection with
+      static member indicationsAndDoseGroup (x:drugProvider.Topic) =
+         IndicationsAndDoseGroup(x.Body.Sections |> Array.filter (hasOutputclasso "indicationAndDoseGroup") |> Array.map IndicationsAndDose.from)
 
     let medicinalForms (x:drugProvider.Topic) =
         let content = ReferenceableContent.from x
@@ -330,11 +328,11 @@ module DrugParser =
                               |> Array.filter (hasName "classifications")
                               |> Array.collect (fun cs -> Classification.fromlist cs)
 
-        let vtmid = x.Body.Datas |> Array.tryPick (Some >=> withname "vtmid" >>| Vtmid.from)
+        let vtmid = x.Body.Datas |> Array.pick (Some >=> withname "vtmid" >=> Vtmid.from)
 
         let inline sectionFn x =
             match x with
-                | HasOutputClass "indicationsAndDose" _ -> Some(IndicationsAndDose (IndicationsAndDose.from x))
+                | HasOutputClass "indicationsAndDose" _ -> Some(MonographSection.indicationsAndDoseGroup x)
                 | HasOutputClass "pregnancy" _ -> Some(MonographSection.pregnancyfrom x)
                 | HasOutputClass "breastFeeding" _ -> Some(MonographSection.breastFeedingFrom x)
                 | HasOutputClass "hepaticImpairment" _ -> Some(MonographSection.hepaticImparmentFrom x)
