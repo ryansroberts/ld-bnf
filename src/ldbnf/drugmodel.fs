@@ -334,7 +334,7 @@ module DrugParser =
 
         let inline sectionFn x =
             match x with
-                //| HasOutputClass "indicationsAndDose" _ -> Some(IndicationsAndDose (IndicationsAndDose.from x))
+                | HasOutputClass "indicationsAndDose" _ -> Some(IndicationsAndDose (IndicationsAndDose.from x))
                 | HasOutputClass "pregnancy" _ -> Some(MonographSection.pregnancyfrom x)
                 | HasOutputClass "breastFeeding" _ -> Some(MonographSection.breastFeedingFrom x)
                 | HasOutputClass "hepaticImpairment" _ -> Some(MonographSection.hepaticImparmentFrom x)
