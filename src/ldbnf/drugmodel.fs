@@ -4,7 +4,7 @@ open FSharp.Data
 module Drug =
     //sensible compromise to reference the types provided to avoid replication
     type drugProvider = XmlProvider<"SuperDrug.xml", Global=true>
-  
+
     type Paragraph = | Paragraph of string
     type Paragraphs = | Paragraphs of Paragraph seq
     type Title = | Title of Paragraph
@@ -121,11 +121,11 @@ module DrugParser =
     type Paragraphs with
         static member from (x:Option<drugProvider.Sectiondiv>) =
           match x with
-            | Some(x) -> Paragraphs.from x
+            | Some(x) -> Paragraphs.fromsd x
             | None -> Paragraphs Array.empty<Paragraph>
-        static member from (x:drugProvider.Sectiondiv) =
+        static member fromsd (x:drugProvider.Sectiondiv) =
           x.Ps |> Array.map value |> Array.choose id |> Seq.map Paragraph |> Paragraphs
-        static member from (x:drugProvider.Section) =
+        static member froms (x:drugProvider.Section) =
           x.Ps |> Array.map value |> Array.choose id |> Seq.map Paragraph |> Paragraphs
 
     type Paragraph with
@@ -172,8 +172,8 @@ module DrugParser =
 
     type IndicationsAndDose with
       static member from (x:drugProvider.Section) =
-         let theraputicIndications = x.Sectiondivs.[0] |> ( Paragraphs.from >> TheraputicIndication.from )
-         let routes = x |> (Paragraphs.from >> Route.from >> Seq.toArray)
+         let theraputicIndications = x.Sectiondivs.[0] |> ( Paragraphs.fromsd >> TheraputicIndication.from )
+         let routes = x |> (Paragraphs.froms >> Route.from >> Seq.toArray)
          let groups = x.Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
          let routesOfAdministration = Array.zip routes groups |> Array.map RouteOfAdministration
          IndicationsAndDose.IndicationsAndDose(theraputicIndications,routesOfAdministration)
@@ -194,7 +194,7 @@ module DrugParser =
         match y with
           | Some(y) -> Some (t (y))
           | None -> None
- 
+
     type Specificity with
       static member from (x:drugProvider.P) =
         let r = x.Phs |> Array.filter (hasOutputclass "route") |> Array.map Route.from |> Array.tryPick Some 
@@ -223,14 +223,14 @@ module DrugParser =
       static member from (x:drugProvider.Section) =
         x.Sectiondivs |> Array.map DoseAdjustment.from
 
-    let subsections cl c s = 
+    let subsections cl c s =
       s |> Array.filter (hasOutputclasso cl) |> Array.collect c
 
     let renalImpairment (x:drugProvider.Topic) =
       let gi = x.Body.Sections |> subsections "generalInformation" GeneralInformation.from
       let am = x.Body.Sections
                |> Array.filter (hasOutputclasso "additionalMonitoringInRenalImpairment")
-               |> Array.map (Paragraphs.from >> AdditionalMonitoringInRenalImpairment)
+               |> Array.map (Paragraphs.froms >> AdditionalMonitoringInRenalImpairment)
       let da = x.Body.Sections |> subsections "doseAdjustments" DoseAdjustment.from
       RenalImpairment(Id(x.Id),gi,am,da)
 
@@ -245,7 +245,6 @@ module DrugParser =
       let am = x.Body.Sections |> subsections "adviceAroundMissedDoses" (fun s -> s.Sectiondivs |> Array.map AdviceAroundMissedDoses) 
       PatientAndCarerAdvice(Id(x.Id),am,ga)
 
-    
     let withname = (|HasName|_|)
 
     let (>=>) a b x =
@@ -309,14 +308,14 @@ module DrugParser =
           | None -> None
 
     type MonographSection with
-      static member buidgi c (x:drugProvider.Topic) = 
+      static member buidgi c (x:drugProvider.Topic) =
         let gi = x.Body.Sections |> subsections "generalInformation" GeneralInformation.from |> Array.toSeq
         c(Id(x.Id),gi)
       static member pregnancyfrom = MonographSection.buidgi Pregnancy
       static member breastFeedingFrom = MonographSection.buidgi BreastFeeding
       static member hepaticImparmentFrom (x:drugProvider.Topic) =
         let hi = x.Body.Sections |> subsections "doseAdjustments" DoseAdjustment.from |> Array.toSeq
-        let c (i,gi) = HepaticImpairment(i, gi, hi)
+        let c (i,gi) = HepaticImpairment(i, gi, hi) //build a partial constructor
         MonographSection.buidgi c x
 
     let parse (x:drugProvider.Topic) =
@@ -344,7 +343,7 @@ module DrugParser =
         let sections =
           x.Topics |> Array.map sectionFn |> Array.choose id
 
-        let primaryDomainOfEffect = PrimaryDomainOfEffect.from x.Body 
+        let primaryDomainOfEffect = PrimaryDomainOfEffect.from x.Body
         let secondaryDomainsOfEffect = SecondaryDomainsOfEffect.from x.Body
 
         Drug(interactionLinks,classifications,vtmid,sections,primaryDomainOfEffect, secondaryDomainsOfEffect)
