@@ -45,7 +45,7 @@ module Drug =
 
     type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of Paragraphs
 
-    type LicensingVariationStatement = | LicensingVariationStatement of string seq
+    type LicensingVariationStatement = | LicensingVariationStatement of Paragraphs
 
     type PatientResources = | PatientResources of Paragraphs
 
@@ -73,7 +73,7 @@ module Drug =
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
-        | MedicinalForms of ReferenceableContent * MedicinalFormLink seq
+        | MedicinalForms of Id * Option<LicensingVariationStatement> * Paragraphs * MedicinalFormLink seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -183,9 +183,13 @@ module DrugParser =
          IndicationsAndDoseGroup(x.Body.Sections |> Array.filter (hasOutputclasso "indicationAndDoseGroup") |> Array.map IndicationsAndDose.from)
 
     let medicinalForms (x:drugProvider.Topic) =
-        let content = ReferenceableContent.from x
-        let links = x.Xrefs |> Array.map MedicinalFormLink.from
-        MedicinalForms(content,links)
+      let lvs = x.Body.Sections
+                |> Array.filter (hasOutputclasso "licensingVariationStatement") 
+                |> Array.map (Paragraphs.froms >> LicensingVariationStatement)
+                |> Array.tryPick Some
+      let ps = Paragraphs(x.Body.Ps |> Array.map Paragraph.from)
+      let links = x.Xrefs |> Array.map MedicinalFormLink.from
+      MedicinalForms(Id(x.Id),lvs,ps,links)
 
     let inline optn t f x = Some (t (f x))
 
