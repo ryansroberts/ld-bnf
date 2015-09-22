@@ -74,6 +74,8 @@ module Drug =
 
     type ExceptionToLegalCategory = | ExceptionToLegalCategory of Option<Specificity> * drugProvider.Sectiondiv
 
+    type DentalPractitionersFormulary = | DentalPractitionersFormulary of Option<Specificity> * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -83,7 +85,8 @@ module Drug =
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
         | MedicinalForms of Id * Option<LicensingVariationStatement> * Paragraphs * MedicinalFormLink seq
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
-        | ExceptionsToLegalCategory of ExceptionToLegalCategory seq
+        | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
+        | ProfessionSpecificInformation of Id *DentalPractitionersFormulary seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -365,7 +368,17 @@ module DrugParser =
 
     type MonographSection with
       static member exceptionsToLegalCategory (x:drugProvider.Topic) =
-        ExceptionsToLegalCategory(x.Body.Sections |> Array.collect (fun s -> s.Sectiondivs) |> Array.map ExceptionToLegalCategory.from)
+        ExceptionsToLegalCategory(Id(x.id),x.Body.Sections |> Array.collect (fun s -> s.Sectiondivs) |> Array.map ExceptionToLegalCategory.from)
+
+    type DentalPractitionersFormulary with
+      static member from (x:drugProvider.Sectiondiv) =
+        DentalPractitionersFormulary(extractSpecificity x,x)
+      static member from (x:drugProvider.Section) =
+        x.Sectiondivs |> DentalPractitionersFormulary.from
+
+    type MonographSection with
+      static member professionSpecificInformation (x:drugProvider.Topic) =
+        ProfessionSpecificInformation(Id(x.Id)),x.Body.Sections |> Array.filter (outputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from)
 
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
@@ -388,6 +401,7 @@ module DrugParser =
                 | HasOutputClass "patientAndCarerAdvice" _ -> Some(patientAndCarerAdvice x)
                 | HasOutputClass "medicinalForms" _ -> Some(medicinalForms x)
                 | HasOutputClass "exceptionsToLegalCategory" _ -> Some(MonographSection.exceptionsToLegalCategory x)
+                | HasOutputClass "professionSpecificInformation" _ -> Some(MonographSection.professionSpecificInformation x)
                 | _ -> None
 
         let sections =
