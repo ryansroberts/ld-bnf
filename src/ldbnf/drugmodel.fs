@@ -66,6 +66,13 @@ module Drug =
 
     type SecondaryDomainsOfEffect = | SecondaryDomainsOfEffect of DomainOfEffect seq
 
+    type AllergyAndCrossSensitivityContraindications =
+      | AllergyAndCrossSensitivityContraindications of drugProvider.Sectiondiv
+
+    type AllergyAndCrossSensitivityCrossSensitivity =
+        | AllergyAndCrossSensitivityCrossSensitivity of Option<Link> * drugProvider.Sectiondiv
+
+
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -74,6 +81,7 @@ module Drug =
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
         | MedicinalForms of Id * Option<LicensingVariationStatement> * Paragraphs * MedicinalFormLink seq
+        | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -115,6 +123,10 @@ module DrugParser =
         if (outputclass x) = OutputClass.lift n then Some(x)
         else None
 
+    let inline (|HasOutputClasso|_|) (n:string) x =
+        if (outputclasso x) = OutputClass.lift n then Some(x)
+        else None
+
     let inline hasOutputclass (s:string) x = outputclass x = OutputClass.lift s
     let inline hasOutputclasso (s:string) x = outputclasso x = OutputClass.lift s
 
@@ -138,11 +150,16 @@ module DrugParser =
       static member from (x:drugProvider.Ph) = Route(x.Value.Value)
 
     type Link with
+      static member from (r:drugProvider.Xref) =
+        {Url = r.Href; Title = r.Value}
       static member from (x:drugProvider.Data) =
         match x.Xref with
-          |Some(r) -> Some({Url = r.Href; Title = r.Value})
+          |Some(r) -> Some(Link.from r)
           |None -> None
-
+      static member from (x:drugProvider.P) =
+        x.Xrefs |> Array.map Link.from |> Array.tryPick Some
+      static member from (x:drugProvider.Sectiondiv) =
+        x.Ps |> Array.choose Link.from
 
     type Indication with
       static member from (x:drugProvider.Ph) = Indication(x.Value.Value)
@@ -188,6 +205,7 @@ module DrugParser =
                 |> Array.map (Paragraphs.froms >> LicensingVariationStatement)
                 |> Array.tryPick Some
       let ps = Paragraphs(x.Body.Ps |> Array.map Paragraph.from)
+      let content = ReferenceableContent.from x
       let links = x.Xrefs |> Array.map MedicinalFormLink.from
       MedicinalForms(Id(x.Id),lvs,ps,links)
 
@@ -250,6 +268,7 @@ module DrugParser =
       PatientAndCarerAdvice(Id(x.Id),am,ga)
 
     let withname = (|HasName|_|)
+    let withclass = (|HasOutputClasso|_|)
 
     let (>=>) a b x =
       match (a x) with
@@ -321,6 +340,22 @@ module DrugParser =
         let hi = x.Body.Sections |> subsections "doseAdjustments" DoseAdjustment.from |> Array.toSeq
         let c (i,gi) = HepaticImpairment(i, gi, hi) //build a partial constructor
         MonographSection.buidgi c x
+
+    type AllergyAndCrossSensitivityContraindications with
+      static member from (x:drugProvider.Section) = x.Sectiondivs |> Array.map AllergyAndCrossSensitivityContraindications |> Array.tryPick Some
+
+    type AllergyAndCrossSensitivityCrossSensitivity with
+      static member from (x:drugProvider.Section) = 
+        let l = x.Sectiondivs |> Array.collect Link.from |> Array.tryPick Some
+        AllergyAndCrossSensitivityCrossSensitivity(l,x.Sectiondivs.[0])
+
+    type MonographSection with
+      static member allergyAndCrossSensitivity (x:drugProvider.Topic) =
+        let ac = x.Body.Sections
+                 |> Array.tryPick (Some >=> withclass "allergyAndCrossSensitivityContraindications" >=> AllergyAndCrossSensitivityContraindications.from)
+        let acss = x.Body.Sections
+                 |> Array.tryPick (Some >=> withclass "allergyAndCrossSensitivityCrossSensitivity" >>| AllergyAndCrossSensitivityCrossSensitivity.from)
+        AllergyAndCrossSensitivity(Id(x.Id),ac,acss)
 
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
