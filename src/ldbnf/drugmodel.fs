@@ -81,6 +81,8 @@ module Drug =
     type PreTreatmentScreening = | PreTreatmentScreening of drugProvider.Sectiondiv
 
     type LessSuitableForPrescribing = | LessSuitableForPrescribing of Option<Specificity> * drugProvider.Sectiondiv
+ 
+    type HandlingAndStorage = | HandlingAndStorage of Option<Specificity> * drugProvider.Sectiondiv
 
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
@@ -96,6 +98,7 @@ module Drug =
         | EffectOnLaboratoryTests of Id * EffectOnLaboratoryTest seq
         | PreTreatmentScreenings of Id * PreTreatmentScreening seq
         | LessSuitableForPrescribings of Id * LessSuitableForPrescribing seq
+        | HandlingAndStorages of Id * HandlingAndStorage seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
