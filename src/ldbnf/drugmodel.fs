@@ -78,6 +78,8 @@ module Drug =
 
     type EffectOnLaboratoryTest = | EffectOnLaboratoryTest of drugProvider.Sectiondiv
 
+    type PreTreatmentScreening = | PreTreatmentScreening of drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -90,6 +92,7 @@ module Drug =
         | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
         | ProfessionSpecificInformation of Id *DentalPractitionersFormulary seq
         | EffectOnLaboratoryTests of Id * EffectOnLaboratoryTest seq
+        | PreTreatmentScreenings of Id * PreTreatmentScreening seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -233,6 +236,9 @@ module DrugParser =
 
     let extractSpecificity (x:drugProvider.Sectiondiv) =
       x.Ps |> Array.filter (hasOutputclasso "specificity") |> Array.map Specificity.from |> Array.tryPick Some
+
+    let addSpecificity x =
+      extractSpecificity x, x
 
     type Title with
       static member from (x:drugProvider.P) =
@@ -383,13 +389,14 @@ module DrugParser =
       static member professionSpecificInformation (x:drugProvider.Topic) =
         ProfessionSpecificInformation(Id(x.Id),x.Body.Sections |> Array.filter (hasOutputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from)
 
-    type EffectOnLaboratoryTest with
-      static member from (x:drugProvider.Section) =
-        x.Sectiondivs |> Array.map EffectOnLaboratoryTest
+    let allsections (x:drugProvider.Topic) =
+      x.Body.Sections |> Array.collect (fun s -> s.Sectiondivs)
 
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
-        EffectOnLaboratoryTests(Id(x.Id),x.Body.Sections |> Array.collect EffectOnLaboratoryTest.from)
+        EffectOnLaboratoryTests(Id(x.Id),allsections x |> Array.map EffectOnLaboratoryTest)
+      static member preTreatmentScreening (x:drugProvider.Topic) =
+        PreTreatmentScreenings(Id(x.Id), allsections x |> Array.map PreTreatmentScreening)
 
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
@@ -422,5 +429,9 @@ module DrugParser =
         let primaryDomainOfEffect = PrimaryDomainOfEffect.from x.Body
         let secondaryDomainsOfEffect = SecondaryDomainsOfEffect.from x.Body
 
-        Drug(interactionLinks,classifications,vtmid,sections,primaryDomainOfEffect, secondaryDomainsOfEffect)
- 
+        Drug(interactionLinks,classifications,vtmid,sections,primaryDomainOfEffect,secondaryDomainsOfEffect)
+
+//todo: create functors to map to urls for certain types
+//todo: use rdf library to map to triples
+//todo: script to process all of the files and extract all possible urls
+//todo: script to process all of the files into triples
