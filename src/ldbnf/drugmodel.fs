@@ -76,6 +76,8 @@ module Drug =
 
     type DentalPractitionersFormulary = | DentalPractitionersFormulary of Option<Specificity> * drugProvider.Sectiondiv
 
+    type EffectOnLaboratoryTest = | EffectOnLaboratoryTest of drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -87,6 +89,7 @@ module Drug =
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
         | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
         | ProfessionSpecificInformation of Id *DentalPractitionersFormulary seq
+        | EffectOnLaboratoryTests of Id * EffectOnLaboratoryTest seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -380,6 +383,14 @@ module DrugParser =
       static member professionSpecificInformation (x:drugProvider.Topic) =
         ProfessionSpecificInformation(Id(x.Id),x.Body.Sections |> Array.filter (hasOutputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from)
 
+    type EffectOnLaboratoryTest with
+      static member from (x:drugProvider.Section) =
+        x.Sectiondivs |> Array.map EffectOnLaboratoryTest
+
+    type MonographSection with
+      static member effectOnLaboratoryTests (x:drugProvider.Topic) =
+        EffectOnLaboratoryTests(Id(x.Id),x.Body.Sections |> Array.collect EffectOnLaboratoryTest.from)
+
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
                                |> Array.filter (hasOutputclasso "interactionsLinks")
@@ -402,6 +413,7 @@ module DrugParser =
                 | HasOutputClass "medicinalForms" _ -> Some(medicinalForms x)
                 | HasOutputClass "exceptionsToLegalCategory" _ -> Some(MonographSection.exceptionsToLegalCategory x)
                 | HasOutputClass "professionSpecificInformation" _ -> Some(MonographSection.professionSpecificInformation x)
+                | HasOutputClass "effectOnLaboratoryTests" _ -> Some(MonographSection.effectOnLaboratoryTests x)
                 | _ -> None
 
         let sections =
