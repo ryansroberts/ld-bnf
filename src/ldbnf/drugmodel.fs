@@ -84,6 +84,8 @@ module Drug =
  
     type HandlingAndStorage = | HandlingAndStorage of Option<Specificity> * drugProvider.Sectiondiv
 
+    type TreatmentCessation = | TreatmentCessation of drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -99,6 +101,7 @@ module Drug =
         | PreTreatmentScreenings of Id * PreTreatmentScreening seq
         | LessSuitableForPrescribings of Id * LessSuitableForPrescribing seq
         | HandlingAndStorages of Id * HandlingAndStorage seq
+        | TreatmentCessations of Id * TreatmentCessation seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -405,6 +408,10 @@ module DrugParser =
         PreTreatmentScreenings(Id(x.Id), allsections x |> Array.map PreTreatmentScreening)
       static member lessSuitableForPrescribings (x:drugProvider.Topic) =
         LessSuitableForPrescribings(Id(x.Id), allsections x |> Array.map (addSpecificity >> LessSuitableForPrescribing))
+      static member handlingAndStorages (x:drugProvider.Topic) =
+        HandlingAndStorages(Id(x.Id), allsections x |> Array.map (addSpecificity >> HandlingAndStorage))
+      static member treatmentCessations (x:drugProvider.Topic) =
+        TreatmentCessations(Id(x.Id), allsections x |> Array.map TreatmentCessation)
 
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
@@ -431,6 +438,8 @@ module DrugParser =
                 | HasOutputClass "effectOnLaboratoryTests" _ -> Some(MonographSection.effectOnLaboratoryTests x)
                 | HasOutputClass "preTreatmentScreening" _ -> Some(MonographSection.preTreatmentScreenings x)
                 | HasOutputClass "lessSuitableForPrescribing" _ -> Some(MonographSection.lessSuitableForPrescribings x)
+                | HasOutputClass "handlingAndStorage" _ -> Some(MonographSection.handlingAndStorages x)
+                | HasOutputClass "treatmentCessation" _ -> Some(MonographSection.treatmentCessations x)
                 | _ -> None
 
         let sections =
