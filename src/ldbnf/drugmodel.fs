@@ -72,6 +72,7 @@ module Drug =
     type AllergyAndCrossSensitivityCrossSensitivity =
         | AllergyAndCrossSensitivityCrossSensitivity of Option<Link> * drugProvider.Sectiondiv
 
+    type ExceptionToLegalCategory = | ExceptionToLegalCategory of Option<Specificity> * drugProvider.Sectiondiv
 
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
@@ -82,6 +83,7 @@ module Drug =
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
         | MedicinalForms of Id * Option<LicensingVariationStatement> * Paragraphs * MedicinalFormLink seq
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
+        | ExceptionsToLegalCategory of ExceptionToLegalCategory seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -357,6 +359,14 @@ module DrugParser =
                  |> Array.tryPick (Some >=> withclass "allergyAndCrossSensitivityCrossSensitivity" >>| AllergyAndCrossSensitivityCrossSensitivity.from)
         AllergyAndCrossSensitivity(Id(x.Id),ac,acss)
 
+    type ExceptionToLegalCategory with
+      static member from (x:drugProvider.Sectiondiv) =
+        ExceptionToLegalCategory(extractSpecificity x,x)
+
+    type MonographSection with
+      static member exceptionsToLegalCategory (x:drugProvider.Topic) =
+        ExceptionsToLegalCategory(x.Body.Sections |> Array.collect (fun s -> s.Sectiondivs) |> Array.map ExceptionToLegalCategory.from)
+
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
                                |> Array.filter (hasOutputclasso "interactionsLinks")
@@ -377,6 +387,7 @@ module DrugParser =
                 | HasOutputClass "renalImpairment" _ -> Some(renalImpairment x)
                 | HasOutputClass "patientAndCarerAdvice" _ -> Some(patientAndCarerAdvice x)
                 | HasOutputClass "medicinalForms" _ -> Some(medicinalForms x)
+                | HasOutputClass "exceptionsToLegalCategory" _ -> Some(MonographSection.exceptionsToLegalCategory x)
                 | _ -> None
 
         let sections =
