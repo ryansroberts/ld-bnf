@@ -374,7 +374,7 @@ module DrugParser =
       static member from (x:drugProvider.Sectiondiv) =
         DentalPractitionersFormulary(extractSpecificity x,x)
       static member from (x:drugProvider.Section) =
-        x.Sectiondivs |> DentalPractitionersFormulary.from
+        x.Sectiondivs |> Array.map DentalPractitionersFormulary.from
 
     type MonographSection with
       static member professionSpecificInformation (x:drugProvider.Topic) =
