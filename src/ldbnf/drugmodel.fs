@@ -80,6 +80,8 @@ module Drug =
 
     type PreTreatmentScreening = | PreTreatmentScreening of drugProvider.Sectiondiv
 
+    type LessSuitableForPrescribing = | LessSuitableForPrescribing of Option<Specificity> * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -93,6 +95,7 @@ module Drug =
         | ProfessionSpecificInformation of Id *DentalPractitionersFormulary seq
         | EffectOnLaboratoryTests of Id * EffectOnLaboratoryTest seq
         | PreTreatmentScreenings of Id * PreTreatmentScreening seq
+        | LessSuitableForPrescribings of Id * LessSuitableForPrescribing seq
 
     type Drug = | Drug of InteractionLink seq *
                         Classification seq *
@@ -395,8 +398,10 @@ module DrugParser =
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
         EffectOnLaboratoryTests(Id(x.Id),allsections x |> Array.map EffectOnLaboratoryTest)
-      static member preTreatmentScreening (x:drugProvider.Topic) =
+      static member preTreatmentScreenings (x:drugProvider.Topic) =
         PreTreatmentScreenings(Id(x.Id), allsections x |> Array.map PreTreatmentScreening)
+      static member lessSuitableForPrescribings (x:drugProvider.Topic) =
+        LessSuitableForPrescribings(Id(x.Id), allsections x |> Array.map (addSpecificity >> LessSuitableForPrescribing))
 
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
@@ -421,6 +426,8 @@ module DrugParser =
                 | HasOutputClass "exceptionsToLegalCategory" _ -> Some(MonographSection.exceptionsToLegalCategory x)
                 | HasOutputClass "professionSpecificInformation" _ -> Some(MonographSection.professionSpecificInformation x)
                 | HasOutputClass "effectOnLaboratoryTests" _ -> Some(MonographSection.effectOnLaboratoryTests x)
+                | HasOutputClass "preTreatmentScreening" _ -> Some(MonographSection.preTreatmentScreenings x)
+                | HasOutputClass "lessSuitableForPrescribing" _ -> Some(MonographSection.lessSuitableForPrescribings x)
                 | _ -> None
 
         let sections =
