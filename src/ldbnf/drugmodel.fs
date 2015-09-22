@@ -378,7 +378,7 @@ module DrugParser =
 
     type MonographSection with
       static member professionSpecificInformation (x:drugProvider.Topic) =
-        ProfessionSpecificInformation(Id(x.Id)),x.Body.Sections |> Array.filter (outputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from)
+        ProfessionSpecificInformation(Id(x.Id),x.Body.Sections |> Array.filter (hasOutputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from)
 
     let parse (x:drugProvider.Topic) =
         let interactionLinks = x.Body.Ps
