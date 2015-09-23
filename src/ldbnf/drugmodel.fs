@@ -21,6 +21,7 @@ module Drug =
 
     type Classification = | Classification of Link * InheritsFromClass seq
 
+    type DrugName = | DrugName of string
 
     type Vtmid = | Vtmid of int
 
@@ -103,12 +104,14 @@ module Drug =
         | HandlingAndStorages of Id * HandlingAndStorage seq
         | TreatmentCessations of Id * TreatmentCessation seq
 
-    type Drug = | Drug of InteractionLink seq *
-                        Classification seq *
-                        Vtmid *
-                        MonographSection seq *
-                        PrimaryDomainOfEffect *
-                        SecondaryDomainsOfEffect
+    type Drug = {id : Id;
+                 name : DrugName;
+                 interactionLinks : InteractionLink seq;
+                 classifications : Classification seq;
+                 vtmid : Vtmid;
+                 sections : MonographSection seq;
+                 primaryDomainOfEffect : PrimaryDomainOfEffect;
+                 secondaryDomainsOfEffect : SecondaryDomainsOfEffect;}
 
 module DrugParser =
     open Drug
@@ -172,14 +175,14 @@ module DrugParser =
     type Link with
       static member from (r:drugProvider.Xref) =
         {Url = r.Href; Title = r.Value}
-      static member from (x:drugProvider.Data) =
-        match x.Xref with
-          |Some(r) -> Some(Link.from r)
-          |None -> None
       static member from (x:drugProvider.P) =
         x.Xrefs |> Array.map Link.from |> Array.tryPick Some
       static member from (x:drugProvider.Sectiondiv) =
         x.Ps |> Array.choose Link.from
+      static member fromd (x:drugProvider.Data) =
+        match x.Xref with
+          |Some(r) -> Some(Link.from r)
+          |None -> None
 
     type Indication with
       static member from (x:drugProvider.Ph) = Indication(x.Value.Value)
@@ -225,7 +228,6 @@ module DrugParser =
                 |> Array.map (Paragraphs.froms >> LicensingVariationStatement)
                 |> Array.tryPick Some
       let ps = Paragraphs(x.Body.Ps |> Array.map Paragraph.from)
-      let content = ReferenceableContent.from x
       let links = x.Xrefs |> Array.map MedicinalFormLink.from
       MedicinalForms(Id(x.Id),lvs,ps,links)
 
@@ -305,8 +307,8 @@ module DrugParser =
 
     type Classification with
       static member from (x:drugProvider.Data) =
-        let l = x.Datas |> Array.tryPick (Some >=> withname "drugClassification" >=> Link.from)
-        let i = x.Datas |> Array.choose (Some >=> withname "inheritsFromClass" >=> Link.from >>| InheritsFromClass)
+        let l = x.Datas |> Array.tryPick (Some >=> withname "drugClassification" >=> Link.fromd)
+        let i = x.Datas |> Array.choose (Some >=> withname "inheritsFromClass" >=> Link.fromd >>| InheritsFromClass)
         Classification(l.Value,i)
       static member fromlist (x:drugProvider.Data) =
         x.Datas |> Array.filter (hasName "classification") |> Array.map Classification.from
@@ -386,7 +388,7 @@ module DrugParser =
 
     type MonographSection with
       static member exceptionsToLegalCategory (x:drugProvider.Topic) =
-        ExceptionsToLegalCategory(Id(x.id),x.Body.Sections |> Array.collect (fun s -> s.Sectiondivs) |> Array.map ExceptionToLegalCategory.from)
+        ExceptionsToLegalCategory(Id(x.Id),x.Body.Sections |> Array.collect (fun s -> s.Sectiondivs) |> Array.map ExceptionToLegalCategory.from)
 
     type DentalPractitionersFormulary with
       static member from (x:drugProvider.Sectiondiv) =
@@ -414,6 +416,8 @@ module DrugParser =
         TreatmentCessations(Id(x.Id), allsections x |> Array.map TreatmentCessation)
 
     let parse (x:drugProvider.Topic) =
+        let name = DrugName(x.Title.Value)
+
         let interactionLinks = x.Body.Ps
                                |> Array.filter (hasOutputclasso "interactionsLinks")
                                |> Array.collect (fun p -> p.Xrefs |> Array.map InteractionLink.from)
@@ -448,8 +452,8 @@ module DrugParser =
         let primaryDomainOfEffect = PrimaryDomainOfEffect.from x.Body
         let secondaryDomainsOfEffect = SecondaryDomainsOfEffect.from x.Body
 
-        Drug(interactionLinks,classifications,vtmid,sections,primaryDomainOfEffect,secondaryDomainsOfEffect)
-
+        //Drug(name,interactionLinks,classifications,vtmid,sections,primaryDomainOfEffect,secondaryDomainsOfEffect)
+        {id = Id(x.Id); name = name; interactionLinks = interactionLinks; classifications = classifications; vtmid = vtmid; sections = sections; primaryDomainOfEffect = primaryDomainOfEffect; secondaryDomainsOfEffect = secondaryDomainsOfEffect}
 //todo: create functors to map to urls for certain types
 //todo: use rdf library to map to triples
 //todo: script to process all of the files and extract all possible urls

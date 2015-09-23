@@ -17,6 +17,7 @@ NUGET
     FSharp.Formatting (2.10.0)
       FSharp.Compiler.Service (>= 0.0.87)
       FSharpVSPowerTools.Core (1.8.0)
+    FSharp.RDF (1.1.5)
     FSharpVSPowerTools.Core (1.8.0)
       FSharp.Compiler.Service (>= 0.0.87)
     FsPickler (1.4.0)
@@ -39,5 +40,5 @@ NUGET
 GITHUB
   remote: fsharp/FAKE
   specs:
-    modules/Octokit/Octokit.fsx (78394818c15fe91416b6ba94d40ea5ffb0f487b1)
+    modules/Octokit/Octokit.fsx (448a0e59aa1381714d045bf81c3ab5692aad6259)
       Octokit
