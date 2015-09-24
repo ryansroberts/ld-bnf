@@ -46,9 +46,10 @@ module Iterator =
       return fn
     }
 
+  [<EntryPoint>]
   let main args = 
     let parser = ArgumentParser.Create<Arguments>()
-    let usage = parser.Usage()
+    let useage = parser.Usage()
     let results = parser.Parse args
     let xmlDirectory = results.GetResult <@ XmlDirectory @>
     let outputDirectory = results.GetResult <@ OutputDirectory @>
@@ -58,5 +59,4 @@ module Iterator =
         |> AsyncSeq.map (apply outputDirectory)
         |> AsyncSeq.iter (fun s -> printfn "%s" (Async.RunSynchronously s))
         |> Async.RunSynchronously
-
     0
