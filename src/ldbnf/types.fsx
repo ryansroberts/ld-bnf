@@ -29,5 +29,9 @@ open Bnf.DrugRdf
 
 let drugModel = parse(drugProvider.GetSample())
 
+let s = ""
+let sb = new System.Text.StringBuilder(s)
+
 let graph = Graph.from drugModel
 
+graph |> Graph.writeTtl (toString sb) |> ignore
