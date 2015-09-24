@@ -2,8 +2,10 @@ source https://nuget.org/api/v2
 
 nuget Arachne.Uri
 nuget Argu
+nuget FSharp.Control.AsyncSeq
 nuget FSharp.Formatting
 nuget FSharp.RDF
+nuget FSharpx.Async
 nuget FsPickler.Json
 nuget NUnit 
 nuget NUnit.Runners
