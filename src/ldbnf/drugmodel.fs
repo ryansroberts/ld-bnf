@@ -19,7 +19,7 @@ module Drug =
 
     type InheritsFromClass = | InheritsFromClass of Link
 
-    type Classification = | Classification of Link * InheritsFromClass seq
+    type Classification = | Classification of Option<Link> * InheritsFromClass seq
 
     type DrugName = | DrugName of string
 
@@ -108,7 +108,7 @@ module Drug =
                  name : DrugName;
                  interactionLinks : InteractionLink seq;
                  classifications : Classification seq;
-                 vtmid : Vtmid;
+                 vtmid : Option<Vtmid>;
                  sections : MonographSection seq;
                  primaryDomainOfEffect : PrimaryDomainOfEffect;
                  secondaryDomainsOfEffect : SecondaryDomainsOfEffect;}
@@ -197,7 +197,7 @@ module DrugParser =
         static member from x = Content(Html(x.ToString()))
 
     type ReferenceableContent with
-        static member from (x:drugProvider.Topic) = ReferenceableContent(Content.from x,Id(x.Id),x.Title.Value)
+        static member from (x:drugProvider.Topic) = ReferenceableContent(Content.from x,Id(x.Id),x.Title)
 
     type PatientGroup with
         static member from (x:drugProvider.Li) = {Group = x.Ps.[0].Value |? ""; Dosage = x.Ps.[1].Value |? "";}
@@ -309,7 +309,7 @@ module DrugParser =
       static member from (x:drugProvider.Data) =
         let l = x.Datas |> Array.tryPick (Some >=> withname "drugClassification" >=> Link.fromd)
         let i = x.Datas |> Array.choose (Some >=> withname "inheritsFromClass" >=> Link.fromd >>| InheritsFromClass)
-        Classification(l.Value,i)
+        Classification(l,i)
       static member fromlist (x:drugProvider.Data) =
         x.Datas |> Array.filter (hasName "classification") |> Array.map Classification.from
 
@@ -416,7 +416,7 @@ module DrugParser =
         TreatmentCessations(Id(x.Id), allsections x |> Array.map TreatmentCessation)
 
     let parse (x:drugProvider.Topic) =
-        let name = DrugName(x.Title.Value)
+        let name = DrugName(x.Title)
 
         let interactionLinks = x.Body.Ps
                                |> Array.filter (hasOutputclasso "interactionsLinks")
@@ -426,7 +426,7 @@ module DrugParser =
                               |> Array.filter (hasName "classifications")
                               |> Array.collect (fun cs -> Classification.fromlist cs)
 
-        let vtmid = x.Body.Datas |> Array.pick (Some >=> withname "vtmid" >=> Vtmid.from)
+        let vtmid = x.Body.Datas |> Array.tryPick (Some >=> withname "vtmid" >=> Vtmid.from)
 
         let inline sectionFn x =
             match x with
@@ -454,7 +454,4 @@ module DrugParser =
 
         //Drug(name,interactionLinks,classifications,vtmid,sections,primaryDomainOfEffect,secondaryDomainsOfEffect)
         {id = Id(x.Id); name = name; interactionLinks = interactionLinks; classifications = classifications; vtmid = vtmid; sections = sections; primaryDomainOfEffect = primaryDomainOfEffect; secondaryDomainsOfEffect = secondaryDomainsOfEffect}
-//todo: create functors to map to urls for certain types
-//todo: use rdf library to map to triples
-//todo: script to process all of the files and extract all possible urls
-//todo: script to process all of the files into triples
+        

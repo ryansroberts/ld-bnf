@@ -15,6 +15,9 @@
 #load "./drugmodel.fs"
 #load "./rdf.fs"
 
+open System
+open System.IO
+
 open System.Xml.Linq
 open FSharp.Data
 open Arachne.Uri
@@ -27,11 +30,17 @@ open Assertion
 open rdf
 open Bnf.DrugRdf
 
-let drugModel = parse(drugProvider.GetSample())
+let private xmlFromFileSynch (fileName : string) =
+    let file = File.OpenText fileName
+    drugProvider.Load file
 
-let s = ""
-let sb = new System.Text.StringBuilder(s)
+let d = xmlFromFileSynch "../../process/PHP100015.xml"
 
-let graph = Graph.from drugModel
+let drugModel = parse d
 
-graph |> Graph.writeTtl (toString sb) |> ignore
+//let s = ""
+//let sb = new System.Text.StringBuilder(s)
+
+//let graph = Graph.from drugModel
+
+//graph |> Graph.writeTtl (toString sb) |> ignore

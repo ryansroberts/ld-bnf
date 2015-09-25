@@ -27,12 +27,20 @@ module Iterator =
   let private fromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
                                                      return file.ReadToEnd() }
 
+  let private xmlFromFileSynch (fileName : string) =
+    let file = File.OpenText fileName
+    drugProvider.Load file
+
   /// writes a file
   let private toFile fileName (contents : string) =
     async {
       File.AsyncWriteAllText(fileName, contents) |> Async.Start
       return ()
     }
+
+  let private toFileSynch fileName (contents : string) =
+    File.WriteAllText(fileName, contents)
+    ()
 
   let (++) a b = System.IO.Path.Combine(a, b)
 
@@ -47,8 +55,7 @@ module Iterator =
           | OutputDirectory _ -> "Specify an output directory for the ttl"
 
   let generate f o =
-    async {
-        let! d = xmlFromFile f
+        let d = xmlFromFileSynch f
         let m = parse d
         let s = ""
         let sb = new System.Text.StringBuilder(s)
@@ -58,16 +65,14 @@ module Iterator =
         graph |> Graph.writeTtl (toString sb) |> ignore
         let fn = Path.GetFileNameWithoutExtension f
 
-        return (sb.ToString(),o ++ fn ++ ".ttl")
-    }
+        (sb.ToString(),o ++ fn ++ ".ttl")
 
   let apply o f =
-    async {
-      let! (text,fn) = generate f o
+      printfn "%s" f
+      let (text,fn) = generate f o
       let fn = (o ++ fn)
-      toFile fn text |> Async.Start
-      return fn
-    }
+      toFileSynch fn text
+      fn
 
   [<EntryPoint>]
   let main args = 
@@ -76,10 +81,12 @@ module Iterator =
     let results = parser.ParseCommandLine(args,errorHandler=ProcessExiter())
     let xmlDirectory = results.GetResult <@ XmlDirectory @>
     let outputDirectory = results.GetResult <@ OutputDirectory @>
+    printfn "%s" xmlDirectory
 
-    let fs = Directory.EnumerateDirectories xmlDirectory
-    AsyncSeq.ofSeq fs
-        |> AsyncSeq.map (apply outputDirectory)
-        |> AsyncSeq.iter (fun s -> printfn "%s" (Async.RunSynchronously s))
-        |> Async.RunSynchronously
+    let fs = Directory.EnumerateFiles xmlDirectory
+    fs |> Seq.map (apply outputDirectory) |> Seq.iter (fun s -> printfn "%s" s)
+    //AsyncSeq.ofSeq fs
+    //    |> AsyncSeq.map (apply outputDirectory)
+    //    |> AsyncSeq.iter (fun s -> printfn "%s" (Async.RunSynchronously s))
+    //    |> Async.RunSynchronously
     0
