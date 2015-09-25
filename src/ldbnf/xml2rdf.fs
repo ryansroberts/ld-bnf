@@ -8,11 +8,24 @@ open FSharp.Control
 open FSharpx.Control
 open System.Text.RegularExpressions
 
+open System.Xml.Linq
+open FSharp.Data
+open Bnf.Drug
+open Bnf.DrugParser
+open FSharp.RDF
+
+open resource
+open Assertion
+open rdf
+open Bnf.DrugRdf
+
 
 module Iterator =
-  let private fromFile (fileName : string) = async { use! file = File.AsyncOpenText
-                                                                  fileName
-                                                    return file.ReadToEnd() }
+  let private xmlFromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
+                                                        return drugProvider.Load file }
+
+  let private fromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
+                                                     return file.ReadToEnd() }
 
   /// writes a file
   let private toFile fileName (contents : string) =
@@ -33,14 +46,24 @@ module Iterator =
           | XmlDirectory _ -> "Specify a directoy for the source xml"
           | OutputDirectory _ -> "Specify an output directory for the ttl"
 
-  let generate x =
+  let generate f o =
     async {
-        return ("content",x ++ "filename")
+        let! d = xmlFromFile f
+        let m = parse d
+        let s = ""
+        let sb = new System.Text.StringBuilder(s)
+
+        let graph = Graph.from m
+
+        graph |> Graph.writeTtl (toString sb) |> ignore
+        let fn = Path.GetFileNameWithoutExtension f
+
+        return (sb.ToString(),o ++ fn ++ ".ttl")
     }
 
   let apply o f =
     async {
-      let! (text,fn) = generate f
+      let! (text,fn) = generate f o
       let fn = (o ++ fn)
       toFile fn text |> Async.Start
       return fn

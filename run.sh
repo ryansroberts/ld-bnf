@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mono splitter/bin/Debug/splitter.exe bnf.xml process
-mono bin/ldbnf/ldbnf.exe process
+mono splitter/bin/Release/splitter.exe bnf.xml process drug
+mono bin/ldbnf/ldbnf.exe --xmldirectory process --outputdirectory process
