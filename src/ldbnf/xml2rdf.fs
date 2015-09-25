@@ -50,7 +50,7 @@ module Iterator =
   let main args = 
     let parser = ArgumentParser.Create<Arguments>()
     let useage = parser.Usage()
-    let results = parser.Parse args
+    let results = parser.ParseCommandLine(args,errorHandler=ProcessExiter())
     let xmlDirectory = results.GetResult <@ XmlDirectory @>
     let outputDirectory = results.GetResult <@ OutputDirectory @>
 
