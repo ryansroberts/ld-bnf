@@ -11,6 +11,8 @@ namespace splitter
         public string Id { get; set; }
 
         public XElement Content { get; set; }
+
+        public string Type { get; set; }
     }
 
     class Program
@@ -37,11 +39,18 @@ namespace splitter
             if (!Directory.Exists(outputdir))
                 Directory.CreateDirectory(outputdir);
 
+            Func<Fragment, bool> process = f => true;
+            if (args.Length > 2)
+            {
+                var types = args[2].Split(new[] {','});
+                process = f => types.Contains(f.Type);
+            }
+
             var doc = XDocument.Load(filename);
 
             var fragments = ProcessWithId(doc.Root);
 
-            foreach (var fragment in fragments)
+            foreach (var fragment in fragments.Where(process))
             {
                 var path = Path.Combine(outputdir, fragment.Id + ".xml");
                 using (var stream = new StreamWriter(path))
@@ -56,7 +65,8 @@ namespace splitter
                 .Concat(new List<Fragment>{new Fragment
             {
                 Id = DeriveId(element),
-                Content = CreateLinks(element)
+                Content = CreateLinks(element),
+                Type = GetTopicType(element)
             }});
 
             return childFragments;
