@@ -34,7 +34,7 @@ let private xmlFromFileSynch (fileName : string) =
     let file = File.OpenText fileName
     drugProvider.Load file
 
-let d = xmlFromFileSynch "../../process/PHP100015.xml"
+let d = xmlFromFileSynch "../../process/PHP107558.xml"
 
 let drugModel = parse d
 

@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<sample>
 <topic id="PHP226" outputclass="drug" type="drug" namespace="/drugs/dicobalt-edetate" basename="dicobalt-edetate">
   <title>DICOBALT EDETATE</title>
   <body>
@@ -1719,3 +1720,17 @@ Post administration total plasma cortisol levels during 30-minute test for diagn
     <xref format="dita" scope="local" type="drugs" href="#drugs" title="Drugs">Drugs</xref>
   </parents>
 </topic>
+<topic id="PHP107558" outputclass="drug">
+  <title>ST JOHN'S WORT</title>
+  <topic id="PHP107570" outputclass="drugAction">
+    <title>Drug action</title>
+    <body>
+      <section>
+        <sectiondiv>
+          <p>St John's wort is a herbal medicine included only for its potential to interact with drugs.</p>
+        </sectiondiv>
+      </section>
+    </body>
+  </topic>
+</topic>
+</sample>

@@ -63,9 +63,9 @@ module Iterator =
         let graph = Graph.from m
 
         graph |> Graph.writeTtl (toString sb) |> ignore
-        let fn = Path.GetFileNameWithoutExtension f
-
-        (sb.ToString(),o ++ fn ++ ".ttl")
+        let fn = Path.GetFileName f
+        let nfn = Path.ChangeExtension(fn,"ttl")
+        (sb.ToString(),nfn)
 
   let apply o f =
       printfn "%s" f
