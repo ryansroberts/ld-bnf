@@ -11,8 +11,6 @@ module DrugRdf =
   let getid (Id n) = "http://bnf.nice.org.uk/" + n + ".html"
   let getvtmid (Vtmid i) = Some(string i)
 
-  type Classification with
-    static member uri (Classification (l,is)) = !!l.Url
   type InheritsFromClass with
     static member uri (InheritsFromClass l) = !!l.Url
 
@@ -28,15 +26,14 @@ module DrugRdf =
       let s = [ Some(a !!"base:Drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!":vtmid" >> Some)]
-      let r =
-        resource !!(getid x.id) (s |> List.choose id)
-      [r] |> Assert.graph og
 
-    static member from (x:Classification) =
-      let c (Classification(l,is)) = l,is
+      let dr r = resource !!(getid x.id) r
 
-      let s = snd(c x) |> Seq.map (fun i -> a (InheritsFromClass.uri i)) |> Seq.toList
+      let rd = dr (s |> List.choose id)
+      let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
+      [rd;rc] |> Assert.graph og
 
-      let title (Classification (l,is)) = l.Title
-      resource (Classification.uri x) (( dataProperty !!"rdfs:label" ((title x)^^xsd.string) :: s))
+    static member from (Classification (l,is)) =
+      let s = is |> Seq.map (InheritsFromClass.uri >> a) |> Seq.toList
+      one !!"base:classification" !!l.Url ( dataProperty !!"rdfs:label" (l.Title^^xsd.string) :: s)
 
