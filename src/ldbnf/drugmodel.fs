@@ -19,7 +19,7 @@ module Drug =
 
     type InheritsFromClass = | InheritsFromClass of Link
 
-    type Classification = | Classification of Option<Link> * InheritsFromClass seq
+    type Classification = | Classification of Link * InheritsFromClass seq
 
     type DrugName = | DrugName of string
 
@@ -181,7 +181,7 @@ module DrugParser =
         x.Ps |> Array.choose Link.from
       static member fromd (x:drugProvider.Data) =
         match x.Xref with
-          |Some(r) -> Some(Link.from r)
+        |Some(r) -> Some(Link.from r)
           |None -> None
 
     type Indication with
@@ -330,9 +330,11 @@ module DrugParser =
       static member from (x:drugProvider.Data) =
         let l = x.Datas |> Array.tryPick (Some >=> withname "drugClassification" >=> Link.fromd)
         let i = x.Datas |> Array.choose (Some >=> withname "inheritsFromClass" >=> Link.fromd >>| InheritsFromClass)
-        Classification(l,i)
+        match l with
+          | Some(l) -> Some( Classification(l,i))
+          | None -> None
       static member fromlist (x:drugProvider.Data) =
-        x.Datas |> Array.filter (hasName "classification") |> Array.map Classification.from
+        x.Datas |> Array.filter (hasName "classification") |> Array.choose Classification.from
 
     type TheraputicUse with
       static member from (x:drugProvider.Data) =
@@ -436,8 +438,8 @@ module DrugParser =
     type MonographSection with
       static member professionSpecificInformation (x:drugProvider.Topic) =
         let psi = match x.Body with
-          | Some(b) -> b.Sections |> Array.filter (hasOutputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from
-          | None -> Array.empty<DentalPractitionersFormulary>
+                  | Some(b) -> b.Sections |> Array.filter (hasOutputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from
+                  | None -> Array.empty<DentalPractitionersFormulary>
         ProfessionSpecificInformation(Id(x.Id),psi)
 
     let allsections (x:drugProvider.Topic) =
