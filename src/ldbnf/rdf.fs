@@ -33,7 +33,7 @@ module DrugRdf =
       let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
       [rd;rc] |> Assert.graph og
 
-    static member from (Classification (l,is)) =
+    static member from (Classification (Id l,is)) =
       let s = is |> Seq.map (InheritsFromClass.uri >> a) |> Seq.toList
-      one !!"base:classification" !!("base:classification" + l.Url) ( dataProperty !!"rdfs:label" (l.Title^^xsd.string) :: s)
+      one !!"base:classification" !!("base:classification#" + l) ( dataProperty !!"rdfs:label" (l^^xsd.string) :: s)
 

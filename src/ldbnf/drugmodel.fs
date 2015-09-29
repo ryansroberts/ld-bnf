@@ -19,7 +19,7 @@ module Drug =
 
     type InheritsFromClass = | InheritsFromClass of Link
 
-    type Classification = | Classification of Link * InheritsFromClass seq
+    type Classification = | Classification of Id * InheritsFromClass seq
 
     type DrugName = | DrugName of string
 
@@ -328,7 +328,7 @@ module DrugParser =
 
     type Classification with
       static member from (x:drugProvider.Data) =
-        let l = x.Datas |> Array.tryPick (Some >=> withname "drugClassification" >=> Link.fromd)
+        let l = x.Datas |> Array.tryPick (Some >=> withname "drugClassification" >=> (fun d -> d.String >>= (Id >> Some)))
         let i = x.Datas |> Array.choose (Some >=> withname "inheritsFromClass" >=> Link.fromd >>| InheritsFromClass)
         match l with
           | Some(l) -> Some( Classification(l,i))

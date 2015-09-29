@@ -8,9 +8,12 @@
     <p outputclass="constituentDrugs">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format="dita" href="#PHP3619">rifampicin</xref>, <xref format="dita" href="#PHP3604">ethambutol hydrochloride</xref>, <xref format="dita" href="#PHP3608">isoniazid</xref>, <xref format="dita" href="#PHP3612">pyrazinamide</xref>, <xref format="dita" href="#PHP3619">rifampicin</xref>.</p>
     <data name="classifications">
       <data name="classification">
-        <data name="drugClassification">
-          <xref format="dita" scope="local" type="drugClassification" href="#PHP106980_149" title="Corticosteroids">Corticosteroids</xref>
-        </data>
+        <data name="drugClassification">PHP106980:116</data>
+      </data>
+
+      <data name="classification">
+          <data name="drugClassification">PHP106980:116</data>
+       
         <data name="inheritsFromClass">
           <xref format="dita" scope="local" type="drugClass" href="#PHP34650" title="CORTICOSTEROIDS (INHALED)">CORTICOSTEROIDS (INHALED)</xref>
         </data>
@@ -25,19 +28,7 @@
         </data>
       </data>
       <data name="classification">
-        <data name="drugClassification">
-          <xref format="dita" scope="local" type="drugClassification" href="#PHP106980_265" title="Magnesium">Magnesium</xref>
-        </data>
-      </data>
-      <data name="classification">
-        <data name="drugClassification">
-          <xref format="dita" scope="local" type="drugClassification" href="#PHP106980_314" title="Osmotic laxative">Osmotic laxative</xref>
-        </data>
-      </data>
-      <data name="classification">
-        <data name="drugClassification">
-          <xref format="dita" scope="local" type="drugClassification" href="#PHP106980_154" title="Defoaming drugs">Defoaming drugs</xref>
-        </data>
+          <data name="drugClassification">PHP106980:116</data>
       </data>
     </data>
     <data name="primaryDomainOfEffect">
