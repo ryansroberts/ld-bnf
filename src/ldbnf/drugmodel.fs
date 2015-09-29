@@ -34,7 +34,7 @@ module Drug =
     type Route = | Route of string
     type Indication = | Indication of string
 
-    type RouteOfAdministration = | RouteOfAdministration of Route * PatientGroup seq 
+    type RouteOfAdministration = | RouteOfAdministration of Option<Route> * PatientGroup seq 
 
     type IndicationsAndDose = | IndicationsAndDose  of TheraputicIndication seq * RouteOfAdministration seq
 
@@ -215,9 +215,13 @@ module DrugParser =
     type IndicationsAndDose with
       static member from (x:drugProvider.Section) =
          let theraputicIndications = x.Sectiondivs.[0] |> ( Paragraphs.fromsd >> TheraputicIndication.from )
-         let routes = x |> (Paragraphs.froms >> Route.from >> Seq.toArray)
+         let routes = x |> (Paragraphs.froms >> Route.from >> Seq.toArray) |> Array.map Some
          let groups = x.Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
-         let routesOfAdministration = Array.zip routes groups |> Array.map RouteOfAdministration
+         //if there are no routes then return something else
+         let routesOfAdministration =
+            match routes with
+            | [||] -> [|RouteOfAdministration(None,groups.[0]) |]
+            | _ -> Array.zip routes groups |> Array.map RouteOfAdministration
          IndicationsAndDose.IndicationsAndDose(theraputicIndications,routesOfAdministration)
 
     type MonographSection with
@@ -304,8 +308,8 @@ module DrugParser =
     let patientAndCarerAdvice (x:drugProvider.Topic) =
       match x.Body with
         | Some(b) -> 
-          let ga = x.Body.Sections |> subsections "generalPatientAdvice" GeneralPatientAdvice.from
-          let am = x.Body.Sections |> subsections "adviceAroundMissedDoses" (fun s -> s.Sectiondivs |> Array.map AdviceAroundMissedDoses) 
+          let ga = b.Sections |> subsections "generalPatientAdvice" GeneralPatientAdvice.from
+          let am = b.Sections |> subsections "adviceAroundMissedDoses" (fun s -> s.Sectiondivs |> Array.map AdviceAroundMissedDoses) 
           Some(PatientAndCarerAdvice(Id(x.Id),am,ga))
         | None -> None
 
@@ -419,8 +423,8 @@ module DrugParser =
     type MonographSection with
       static member exceptionsToLegalCategory (x:drugProvider.Topic) =
         let es = match x.Body with
-          | Some(b) -> b.Sections |> Array.collect (fun s -> s.Sectiondivs) |> Array.map ExceptionToLegalCategory.from
-          | None -> Array.empty<ExceptionToLegalCategory>
+                       | Some(b) -> b.Sections |> Array.collect (fun s -> s.Sectiondivs) |> Array.map ExceptionToLegalCategory.from
+                       | None -> Array.empty<ExceptionToLegalCategory>
         ExceptionsToLegalCategory(Id(x.Id),es)
 
     type DentalPractitionersFormulary with
