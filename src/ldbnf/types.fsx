@@ -38,9 +38,9 @@ let d = xmlFromFileSynch "../../process/PHP1616.xml"
 
 let drugModel = parse d
 
-//let s = ""
-//let sb = new System.Text.StringBuilder(s)
+let s = ""
+let sb = new System.Text.StringBuilder(s)
 
-//let graph = Graph.from drugModel
+let graph = Graph.from drugModel
 
-//graph |> Graph.writeTtl (toString sb) |> ignore
+graph |> Graph.writeTtl (toString sb) |> ignore

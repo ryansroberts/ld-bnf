@@ -12,7 +12,7 @@ module DrugRdf =
   let getvtmid (Vtmid i) = Some(string i)
 
   type InheritsFromClass with
-    static member uri (InheritsFromClass l) = !!("ld.nice.org.uk/ns/bnf/classification" + l.Url)
+    static member uri (InheritsFromClass l) = !!("base:classification" + l.Url)
 
   let (>>=) a b = Option.bind b a
 
@@ -35,5 +35,5 @@ module DrugRdf =
 
     static member from (Classification (l,is)) =
       let s = is |> Seq.map (InheritsFromClass.uri >> a) |> Seq.toList
-      one !!"base:classification" !!("ld.nice.org.uk/ns/bnf/classification" + l.Url) ( dataProperty !!"rdfs:label" (l.Title^^xsd.string) :: s)
+      one !!"base:classification" !!("base:classification" + l.Url) ( dataProperty !!"rdfs:label" (l.Title^^xsd.string) :: s)
 
