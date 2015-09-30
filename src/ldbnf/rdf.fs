@@ -10,9 +10,10 @@ module DrugRdf =
   let getval (DrugName n) = n
   let getid (Id n) = "http://bnf.nice.org.uk/" + n + ".html"
   let getvtmid (Vtmid i) = Some(string i)
+  let tosys (Sys s) = s
 
-  type InheritsFromClass with
-    static member uri (InheritsFromClass l) = !!("base:classification" + l.Url)
+  type Uri with
+    static member from (InheritsFromClass l) = !!("base:classification" + l.Url)
 
   let (>>=) a b = Option.bind b a
 
@@ -20,24 +21,57 @@ module DrugRdf =
   //---/classification#PHP106980
 
   type Graph with
-    static member from (x:Drug) =
-      let og = Graph.empty (!!"http://ld.nice.org.uk/ns/bnf") [("base",!!"http://ld.nice.org.uk/ns/bnf")]
+    static member ReallyEmpty xp =
+      let vds = new VDS.RDF.Graph()
+      xp |> List.iter (fun (p, (Uri.Sys ns)) -> vds.NamespaceMap.AddNamespace(p, ns))
+      Graph vds
 
-      let s = [ Some(a !!"base:Drug")
+    static member from (x:Drug) =
+      let og = Graph.ReallyEmpty ["nidebnf",!!"http://ld.nice.org.uk/ns/bnf/"]
+      
+      let s = [ Some(a !!"nicebnf:drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
-                x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"base:vtmid" >> Some)]
+                x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)]
 
       let dr r = resource !!(getid x.id) r
 
       let rd = dr (s |> List.choose id)
       let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
       let il = dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
+
       [rd;rc;il] |> Assert.graph og
 
     static member from (Classification (Id l,is)) =
-      let s = is |> Seq.map (InheritsFromClass.uri >> a) |> Seq.toList
-      one !!"base:classification" !!("base:classification#" + l) ( dataProperty !!"rdfs:label" (l^^xsd.string) :: s)
+      let s = is |> Seq.map (Uri.from >> a) |> Seq.toList
+      one !!"nicebnf:classification" !!("nicebnf:classification#" + l) ( dataProperty !!"rdfs:label" (l^^xsd.string) :: s)
 
     static member from (InteractionLink (l)) =
-      objectProperty !!"base:Interaction" !!("base:interactions/" + l.Url)
+      objectProperty !!"nicebnf:interaction" !!("nicebnf:interactions#" + l.Url)
 
+    //abandoning this for the time being
+    static member from (TheraputicUse (n,u)) =
+      //build the child theraputic use
+      one !!"nicebnf:therapeuticUse" (!!("nicebnf:theraputicuse#" + n)) [
+        dataProperty !!"rdfs:label" (n^^xsd.string)
+        ]
+
+    //static member from (DomainOfEffect (n,p,s)) =
+
+    static member from (Route s) =
+      Some(objectProperty !!"nicebnf:route" !!("nicebnf:route#" + s))
+
+    static member from (Indication s) =
+      Some(objectProperty !!"nicebnf:indication" !!("nicebnf:indication#" + s))
+
+    static member from (Specificity (Paragraph s,r,i)) =
+      let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
+               r >>= Graph.from
+               i >>= Graph.from]
+      blank !!"nicebnf:specificity" (s |> List.choose id)
+
+    static member from (GeneralInformation (sd,sp)) =
+      let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
+               sp >>= (Graph.from >> Some)]
+      blank !!"nicebnf:generalInformation" (s |> List.choose id)
+
+    //static member from (Pregnancy (Id(i),gis)) =
