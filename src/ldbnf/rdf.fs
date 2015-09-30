@@ -31,9 +31,13 @@ module DrugRdf =
 
       let rd = dr (s |> List.choose id)
       let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
-      [rd;rc] |> Assert.graph og
+      let il = dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
+      [rd;rc;il] |> Assert.graph og
 
     static member from (Classification (Id l,is)) =
       let s = is |> Seq.map (InheritsFromClass.uri >> a) |> Seq.toList
       one !!"base:classification" !!("base:classification#" + l) ( dataProperty !!"rdfs:label" (l^^xsd.string) :: s)
+
+    static member from (InteractionLink (l)) =
+      objectProperty !!"base:Interaction" !!("base:interactions/" + l.Url)
 
