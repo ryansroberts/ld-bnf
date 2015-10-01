@@ -38,7 +38,7 @@ module DrugRdf =
       let rd = dr (s |> List.choose id)
       let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
       let il = dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
-      let se = dr (x.sections |> Seq.map Graph.from |> Seq.toList)
+      let se = dr (x.sections |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
 
       [rd;rc;il;se] |> Assert.graph og
 
@@ -83,5 +83,5 @@ module DrugRdf =
 
     static member from (x:MonographSection) =
       match x with
-        | Pregnancy (Id(i),gis) -> Graph.general "pregnancy" i gis
-        | _ -> List.empty<>
+        | Pregnancy (Id(i),gis) -> Some(Graph.general "pregnancy" i gis)
+        | _ -> None
