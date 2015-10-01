@@ -38,8 +38,9 @@ module DrugRdf =
       let rd = dr (s |> List.choose id)
       let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
       let il = dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
+      let se = dr (x.sections |> Seq.map Graph.from |> Seq.toList)
 
-      [rd;rc;il] |> Assert.graph og
+      [rd;rc;il;se] |> Assert.graph og
 
     static member from (Classification (Id l,is)) =
       let s = is |> Seq.map (Uri.from >> a) |> Seq.toList
@@ -75,3 +76,12 @@ module DrugRdf =
       blank !!"nicebnf:generalInformation" (s |> List.choose id)
 
     //static member from (Pregnancy (Id(i),gis)) =
+    //  one !!"nicebnf:pregnancy" !!("nicebnf:pregnancy#" + i) (gis |> Seq.map Graph.from |> Seq.toList) 
+
+    static member general n i (gis:seq<GeneralInformation>) =
+      one !!("nicebnf:" + n) !!((sprintf "nicebnf:%s#" n) + i) (gis |> Seq.map Graph.from |> Seq.toList)
+
+    static member from (x:MonographSection) =
+      match x with
+        | Pregnancy (Id(i),gis) -> Graph.general "pregnancy" i gis
+        | _ -> List.empty<>
