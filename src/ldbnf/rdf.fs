@@ -84,4 +84,5 @@ module DrugRdf =
     static member from (x:MonographSection) =
       match x with
         | Pregnancy (Id(i),gis) -> Some(Graph.general "pregnancy" i gis)
+        | BreastFeeding (Id(i),gis) -> Some(Graph.general "breastfeeding" i gis)
         | _ -> None
