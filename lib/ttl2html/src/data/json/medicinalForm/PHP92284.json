@@ -1,0 +1,69 @@
+{
+    "xml": "<topic id=\"PHP92284\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/paracetamol-with-tramadol/effervescent-tablet\" basename=\"effervescent-tablet\" title=\"Effervescent tablet\">\n<title>Effervescent tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n<p>Label <ph outputclass=\"labelNumber\">29</ph> - Do not take more than 2 at any one time. Do not take more than 8 in 24 hours </p>\n<p>Label <ph outputclass=\"labelNumber\">30</ph> - Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well </p>\n</section>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tramacet 37.5mg/325mg effervescent tablets <ph outputclass=\"manufacturer\">(Grunenthal Ltd)</ph>\n</title>\n<data name=\"ampid\">17418411000001102</data>\n<p outputclass=\"controlledDrugs\">Schedule 3 (CD No Register Exempt Safe Custody)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 325&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Tramadol hydrochloride 37.5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.68</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;9.68</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85632\" title=\"PARACETAMOL WITH TRAMADOL\" namespace=\"/drugs/paracetamol-with-tramadol\">PARACETAMOL WITH TRAMADOL</xref>\n</parents>\n</topic>",
+    "id": "PHP92284",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/paracetamol-with-tramadol/effervescent-tablet",
+    "basename": "effervescent-tablet",
+    "form": "Effervescent tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "29",
+            "textContent": "Do not take more than 2 at any one time. Do not take more than 8 in 24 hours",
+            "html": "Label <ph outputclass=\"labelNumber\">29</ph> - Do not take more than 2 at any one time. Do not take more than 8 in 24 hours"
+        },
+        {
+            "number": "30",
+            "textContent": "Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well",
+            "html": "Label <ph outputclass=\"labelNumber\">30</ph> - Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well"
+        }
+    ],
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Tramacet 37.5mg/325mg effervescent tablets (Grunenthal Ltd) ",
+            "header": "Tramacet 37.5mg/325mg effervescent tablets <ph outputclass=\"manufacturer\">(Grunenthal Ltd)</ph>",
+            "manufacturer": "(Grunenthal Ltd)",
+            "name": "Tramacet 37.5mg/325mg effervescent tablets",
+            "ampid": "17418411000001102",
+            "controlledDrugs": "Schedule 3 (CD No Register Exempt Safe Custody)",
+            "strengthOfActiveIngredient": "Tramadol hydrochloride 37.5 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.68 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.68</ph>",
+                        "nhsIndicativePrice": "&#163;9.68"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;9.68 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;9.68</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;9.68"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85632",
+        "label": "PARACETAMOL WITH TRAMADOL"
+    }
+}

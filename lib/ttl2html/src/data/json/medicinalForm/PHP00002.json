@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP00002\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cetrimide-with-undecenoic-acid/shampoo\" basename=\"shampoo\" title=\"Shampoo\">\n<title>Shampoo</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Ceanel Concentrate shampoo <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">790511000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Cetrimide 100&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Phenylethyl alcohol 75&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Undecenoic acid 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.40</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP100017\" title=\"CETRIMIDE WITH UNDECENOIC ACID\" namespace=\"/drugs/cetrimide-with-undecenoic-acid\">CETRIMIDE WITH UNDECENOIC ACID</xref>\n</parents>\n</topic>",
+    "id": "PHP00002",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cetrimide-with-undecenoic-acid/shampoo",
+    "basename": "shampoo",
+    "form": "Shampoo",
+    "products": [
+        {
+            "title": "Ceanel Concentrate shampoo (Alliance Pharmaceuticals Ltd) ",
+            "header": "Ceanel Concentrate shampoo <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Alliance Pharmaceuticals Ltd)",
+            "name": "Ceanel Concentrate shampoo",
+            "ampid": "790511000001106",
+            "strengthOfActiveIngredient": "Undecenoic acid 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml P ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.40</ph>",
+                        "nhsIndicativePrice": "&#163;3.40"
+                    }
+                },
+                {
+                    "textContent": " 500 ml P ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.80</ph>",
+                        "nhsIndicativePrice": "&#163;9.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP100017",
+        "label": "CETRIMIDE WITH UNDECENOIC ACID"
+    }
+}

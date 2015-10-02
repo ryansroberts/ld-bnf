@@ -1,0 +1,110 @@
+{
+    "xml": "<topic id=\"PHP95069\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/symbicort-2006-turbohaler\" basename=\"symbicort-2006-turbohaler\" title=\"Symbicort 200/6 Turbohaler\">\n<title>Symbicort 200/6 Turbohaler<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP95321\" outputclass=\"indicationsAndDose\" rev=\"1.73\" parent=\"/clinical-medicinal-product-information/symbicort-2006-turbohaler\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Asthma maintenance therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>Initially 1&#8211;2&#8239;puffs twice daily; reduced to 1&#8239;puff daily, dose reduced only in well controlled asthma.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1&#8211;2&#8239;puffs twice daily, increased if necessary up to 4&#8239;puffs twice daily; reduced to 1&#8239;puff daily, dose reduced only in well controlled asthma.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Asthma, maintenance and reliever therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Maintenance 2&#8239;puffs daily in 1&#8211;2 divided doses, increased if necessary to 2&#8239;puffs twice daily; 1&#8239;puff as required for relief of symptoms, increased if necessary up to 6&#8239;puffs as required, up to 12 puffs daily can be used for a limited time but medical assessment should be considered; maximum 8&#8239;puffs per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic obstructive pulmonary disease with forced expiratory volume in 1 second &lt;50% of predicted</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>2&#8239;puffs twice daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP95336\" outputclass=\"unlicensedUse\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/symbicort-2006-turbohaler\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">inhalation</ph> in children</p>\n<p>\n<i>Symbicort</i>\n<tm tmtype=\"reg\"/> not licensed for use in children for asthma maintenance and reliever therapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95069",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/symbicort-2006-turbohaler",
+    "basename": "symbicort-2006-turbohaler",
+    "title": "Symbicort 200/6 Turbohaler",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Asthma maintenance therapy",
+                        "html": "Asthma maintenance therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 1&#8211;2 puffs twice daily; reduced to 1 puff daily, dose reduced only in well controlled asthma.",
+                        "html": "<p>Initially 1&#8211;2&#8239;puffs twice daily; reduced to 1&#8239;puff daily, dose reduced only in well controlled asthma.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 1&#8211;2 puffs twice daily, increased if necessary up to 4 puffs twice daily; reduced to 1 puff daily, dose reduced only in well controlled asthma.",
+                        "html": "<p>Initially 1&#8211;2&#8239;puffs twice daily, increased if necessary up to 4&#8239;puffs twice daily; reduced to 1&#8239;puff daily, dose reduced only in well controlled asthma.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Asthma, maintenance and reliever therapy",
+                        "html": "Asthma, maintenance and reliever therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "Maintenance 2 puffs daily in 1&#8211;2 divided doses, increased if necessary to 2 puffs twice daily; 1 puff as required for relief of symptoms, increased if necessary up to 6 puffs as required, up to 12 puffs daily can be used for a limited time but medical assessment should be considered; maximum 8 puffs per day.",
+                        "html": "<p>Maintenance 2&#8239;puffs daily in 1&#8211;2 divided doses, increased if necessary to 2&#8239;puffs twice daily; 1&#8239;puff as required for relief of symptoms, increased if necessary up to 6&#8239;puffs as required, up to 12 puffs daily can be used for a limited time but medical assessment should be considered; maximum 8&#8239;puffs per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic obstructive pulmonary disease with forced expiratory volume in 1 second <50% of predicted",
+                        "html": "Chronic obstructive pulmonary disease with forced expiratory volume in 1 second &lt;50% of predicted"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "2 puffs twice daily.",
+                        "html": "<p>2&#8239;puffs twice daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "When used by inhalation in children",
+                    "html": "When used by <ph outputclass=\"route\">inhalation</ph> in children",
+                    "patientType": "children",
+                    "routes": [
+                        "inhalation"
+                    ]
+                },
+                "textContent": "Symbicort not licensed for use in children for asthma maintenance and reliever therapy.",
+                "html": "<p>\n<i>Symbicort</i>\n<tm tmtype=\"reg\"/> not licensed for use in children for asthma maintenance and reliever therapy.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

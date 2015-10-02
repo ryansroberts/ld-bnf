@@ -1,0 +1,41 @@
+{
+    "xml": "<topic id=\"PHP92460\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/diphtheria-with-poliomyelitis-and-tetanus-vaccine/suspension-for-injection\" basename=\"suspension-for-injection\" title=\"Suspension for injection\">\n<title>Suspension for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Neomycin, polymyxin b, streptomycin</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Revaxis vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>\n</title>\n<data name=\"ampid\">7374311000001101</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88119\" title=\"DIPHTHERIA WITH POLIOMYELITIS AND TETANUS VACCINE\" namespace=\"/drugs/diphtheria-with-poliomyelitis-and-tetanus-vaccine\">DIPHTHERIA WITH POLIOMYELITIS AND TETANUS VACCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP92460",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/diphtheria-with-poliomyelitis-and-tetanus-vaccine/suspension-for-injection",
+    "basename": "suspension-for-injection",
+    "form": "Suspension for injection",
+    "excipients": [
+        "Neomycin",
+        "polymyxin b",
+        "streptomycin"
+    ],
+    "products": [
+        {
+            "title": "Revaxis vaccine suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd) ",
+            "header": "Revaxis vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>",
+            "manufacturer": "(sanofi pasteur MSD Ltd)",
+            "name": "Revaxis vaccine suspension for injection 0.5ml pre-filled syringes",
+            "ampid": "7374311000001101",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.50</ph>",
+                        "nhsIndicativePrice": "&#163;6.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88119",
+        "label": "DIPHTHERIA WITH POLIOMYELITIS AND TETANUS VACCINE"
+    }
+}

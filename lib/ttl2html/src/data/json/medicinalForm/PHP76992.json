@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP76992\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/lopinavir-with-ritonavir/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Alcohol, propylene glycol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Kaletra 80mg/20mg/1ml oral solution <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>\n</title>\n<data name=\"ampid\">4690111000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Lopinavir 80&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Ritonavir 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;307.39</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3809\" title=\"LOPINAVIR WITH RITONAVIR\" namespace=\"/drugs/lopinavir-with-ritonavir\">LOPINAVIR WITH RITONAVIR</xref>\n</parents>\n</topic>",
+    "id": "PHP76992",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/lopinavir-with-ritonavir/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "excipients": [
+        "Alcohol",
+        "propylene glycol"
+    ],
+    "products": [
+        {
+            "title": "Kaletra 80mg/20mg/1ml oral solution (AbbVie Ltd) ",
+            "header": "Kaletra 80mg/20mg/1ml oral solution <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>",
+            "manufacturer": "(AbbVie Ltd)",
+            "name": "Kaletra 80mg/20mg/1ml oral solution",
+            "ampid": "4690111000001104",
+            "strengthOfActiveIngredient": "Ritonavir 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 300 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;307.39 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;307.39</ph>",
+                        "nhsIndicativePrice": "&#163;307.39"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3809",
+        "label": "LOPINAVIR WITH RITONAVIR"
+    }
+}

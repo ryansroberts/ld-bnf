@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP77632\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/fluorescein-sodium/eye-drops\" basename=\"eye-drops\" title=\"Eye drops\">\n<title>Eye drops</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Minims fluorescein sodium 1% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3980511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Fluorescein sodium 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.89</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Minims fluorescein sodium 2% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3980811000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Fluorescein sodium 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.89</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7142\" title=\"FLUORESCEIN SODIUM\" namespace=\"/drugs/fluorescein-sodium\">FLUORESCEIN SODIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP77632",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/fluorescein-sodium/eye-drops",
+    "basename": "eye-drops",
+    "form": "Eye drops",
+    "products": [
+        {
+            "title": "Minims fluorescein sodium 1% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd) ",
+            "header": "Minims fluorescein sodium 1% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>",
+            "manufacturer": "(Bausch & Lomb UK Ltd)",
+            "name": "Minims fluorescein sodium 1% eye drops 0.5ml unit dose",
+            "ampid": "3980511000001107",
+            "strengthOfActiveIngredient": "Fluorescein sodium 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 20 unit dose P ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.89 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.89</ph>",
+                        "nhsIndicativePrice": "&#163;8.89"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Minims fluorescein sodium 2% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd) ",
+            "header": "Minims fluorescein sodium 2% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>",
+            "manufacturer": "(Bausch & Lomb UK Ltd)",
+            "name": "Minims fluorescein sodium 2% eye drops 0.5ml unit dose",
+            "ampid": "3980811000001105",
+            "strengthOfActiveIngredient": "Fluorescein sodium 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 20 unit dose P ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.89 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.89</ph>",
+                        "nhsIndicativePrice": "&#163;8.89"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7142",
+        "label": "FLUORESCEIN SODIUM"
+    }
+}

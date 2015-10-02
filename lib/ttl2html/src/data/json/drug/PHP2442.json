@@ -1,0 +1,976 @@
+{
+    "xml": "<topic id=\"PHP2442\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/duloxetine\" basename=\"duloxetine\" title=\"DULOXETINE\">\n<title>DULOXETINE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1024\" namespace=\"/interactions/list-of-drug-interactions/antidepressants/antidepressants-ssri-related/duloxetine\">Duloxetine</xref>\n</p>\n<data name=\"vtmid\">407033009</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_834633408\" title=\"Serotonin and noradrenaline re-uptake inhibitors\">Serotonin and noradrenaline re-uptake inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\r\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP61252\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/duloxetine\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Inhibits the re-uptake of serotonin and noradrenaline.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61152\" outputclass=\"indicationsAndDose\" rev=\"1.28\" parent=\"/drugs/duloxetine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Major depressive disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>60&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Generalised anxiety disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 30&#8239;mg once daily, increased if necessary to 60&#8239;mg once daily; maximum 120&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Diabetic neuropathy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>60&#8239;mg once daily, discontinue if inadequate response after 2 months; review treatment at least every 3 months, maximum dose to be given in divided doses; maximum 120&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Moderate to severe stress urinary incontinence</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult female\">\n<p>Adult (female)</p>\n<p>40&#8239;mg twice daily, patient should be assessed for benefit and tolerability after 2&#8211;4 weeks, alternatively initially 20&#8239;mg twice daily for 2 weeks, this can minimise side effects, then increased to 40&#8239;mg twice daily, the patient should be assessed for benefit and tolerability after 2&#8211;4 weeks.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61304\" outputclass=\"cautions\" rev=\"1.13\" parent=\"/drugs/duloxetine\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Bleeding disorders</ph>; <ph outputclass=\"caution\">cardiac disease</ph>; <ph outputclass=\"caution\">elderly</ph>; <ph outputclass=\"caution\">history of mania</ph>; <ph outputclass=\"caution\">history of seizures</ph>; <ph outputclass=\"caution\">hypertension (avoid if uncontrolled)</ph>; <ph outputclass=\"caution\">raised intra-ocular pressure</ph>; <ph outputclass=\"caution\">susceptibility to angle-closure glaucoma</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61135\" outputclass=\"interactions\" rev=\"1.8\" parent=\"/drugs/duloxetine\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Caution with concomitant use of drugs that increase risk of bleeding.</p>\n<p>Appendix 1 (duloxetine).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61042\" outputclass=\"sideEffects\" rev=\"1.13\" parent=\"/drugs/duloxetine\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain</ph>; <ph outputclass=\"sideEffect\">abnormal dreams</ph>; <ph outputclass=\"sideEffect\">anorexia</ph>; <ph outputclass=\"sideEffect\">anxiety</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">decreased appetite</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hot flush</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">nervousness</ph>; <ph outputclass=\"sideEffect\">palpitation</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">sexual dysfunction</ph>; <ph outputclass=\"sideEffect\">sweating</ph>; <ph outputclass=\"sideEffect\">tremor</ph>; <ph outputclass=\"sideEffect\">visual disturbances</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>; <ph outputclass=\"sideEffect\">weakness</ph>; <ph outputclass=\"sideEffect\">weight changes</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bruxism</ph>; <ph outputclass=\"sideEffect\">cold extremities</ph>; <ph outputclass=\"sideEffect\">dysphagia</ph>; <ph outputclass=\"sideEffect\">gastritis</ph>; <ph outputclass=\"sideEffect\">halitosis</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">hypothyroidism</ph>; <ph outputclass=\"sideEffect\">impaired attention</ph>; <ph outputclass=\"sideEffect\">impaired temperature regulation</ph>; <ph outputclass=\"sideEffect\">movement disorders</ph>; <ph outputclass=\"sideEffect\">muscle twitching</ph>; <ph outputclass=\"sideEffect\">musculoskeletal pain</ph>; <ph outputclass=\"sideEffect\">photosensitivity</ph>; <ph outputclass=\"sideEffect\">postural hypotension</ph>; <ph outputclass=\"sideEffect\">raised cholesterol</ph>; <ph outputclass=\"sideEffect\">stomatitis</ph>; <ph outputclass=\"sideEffect\">syncope</ph>; <ph outputclass=\"sideEffect\">tachycardia</ph>; <ph outputclass=\"sideEffect\">taste disturbance</ph>; <ph outputclass=\"sideEffect\">thirst</ph>; <ph outputclass=\"sideEffect\">urinary disorders</ph>; <ph outputclass=\"sideEffect\">vertigo</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Mania</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Angle-closure glaucoma</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anaphylaxis</ph>; <ph outputclass=\"sideEffect\">angioedema</ph>; <ph outputclass=\"sideEffect\">chest pain</ph>; <ph outputclass=\"sideEffect\">hallucinations</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">hyponatraemia</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">seizures</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">suicidal behaviour</ph>; <ph outputclass=\"sideEffect\">supraventricular arrhythmia</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Suicidal behaviour and antidepressant therapy</p>\n<p>The use of antidepressants has been linked with suicidal thoughts and behaviour; children, young adults, and patients with a history of suicidal behaviour are particularly at risk. Where necessary patients should be monitored for suicidal behaviour, self-harm, or hostility, particularly at the beginning of treatment or if the dose is changed.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Hyponatraemia and antidepressant therapy</p>\n<p>Hyponatraemia (usually in the elderly and possibly due to inappropriate secretion of antidiuretic hormone) has been associated with all types of antidepressants; however, it has been reported more frequently with SSRIs than with other antidepressants. Hyponatraemia should be considered in all patients who develop drowsiness, confusion, or convulsions while taking an antidepressant.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61125\" outputclass=\"pregnancy\" parent=\"/drugs/duloxetine\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Toxicity in <i>animal </i> studies&#8212;avoid in patients with stress urinary incontinence; in other conditions use only if potential benefit outweighs risk. Risk of neonatal withdrawal symptoms if used near term.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61318\" outputclass=\"breastFeeding\" parent=\"/drugs/duloxetine\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk&#8212;manufacturer advises avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61226\" outputclass=\"hepaticImpairment\" parent=\"/drugs/duloxetine\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61092\" outputclass=\"renalImpairment\" parent=\"/drugs/duloxetine\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60988\" outputclass=\"treatmentCessation\" rev=\"1.8\" parent=\"/drugs/duloxetine\">\n<title>Treatment cessation</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Withdrawal</p>\n<p>Nausea, vomiting, headache, anxiety, dizziness, paraesthesia, sleep disturbances, and tremor are the most common features of abrupt withdrawal or marked reduction of the dose; dose should be reduced over at least 1&#8211;2 weeks.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP2442-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/duloxetine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77849\" title=\"Gastro-resistant capsule\" namespace=\"/drugs/duloxetine/gastro-resistant-capsule\">Gastro-resistant capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78166\" namespace=\"/treatment-summaries/diabetes\" title=\"Diabetes\" count=\"4\" rel=\"backlink\">Diabetes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78258\" namespace=\"/treatment-summaries/antidepressant-drugs\" title=\"Antidepressant drugs\" count=\"1\" rel=\"backlink\">Antidepressant drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78573\" namespace=\"/treatment-summaries/urinary-frequency-enuresis-and-incontinence\" title=\"Urinary frequency, enuresis and incontinence\" count=\"1\" rel=\"backlink\">Urinary frequency, enuresis and incontinence</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1024\" namespace=\"/interactions/list-of-drug-interactions/antidepressants/antidepressants-ssri-related/duloxetine\" title=\"Duloxetine\" count=\"1\" rel=\"link\">Duloxetine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77849\" namespace=\"/drugs/duloxetine/gastro-resistant-capsule\" title=\"Gastro-resistant capsule\" count=\"1\" rel=\"link\">Gastro-resistant capsule</xref>\n</links>\n</topic>",
+    "id": "PHP2442",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/duloxetine",
+    "basename": "duloxetine",
+    "title": "DULOXETINE",
+    "interactants": [
+        {
+            "id": "bnf_int_1024",
+            "label": "Duloxetine"
+        }
+    ],
+    "vtmid": "407033009",
+    "drugClassification": [
+        "Serotonin and noradrenaline re-uptake inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Inhibits the re-uptake of serotonin and noradrenaline.",
+                "html": "<p>Inhibits the re-uptake of serotonin and noradrenaline.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Major depressive disorder",
+                        "html": "Major depressive disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "60 mg once daily.",
+                        "html": "<p>60&#8239;mg once daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Generalised anxiety disorder",
+                        "html": "Generalised anxiety disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 30 mg once daily, increased if necessary to 60 mg once daily; maximum 120 mg per day.",
+                        "html": "<p>Initially 30&#8239;mg once daily, increased if necessary to 60&#8239;mg once daily; maximum 120&#8239;mg per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Diabetic neuropathy",
+                        "html": "Diabetic neuropathy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "60 mg once daily, discontinue if inadequate response after 2 months; review treatment at least every 3 months, maximum dose to be given in divided doses; maximum 120 mg per day.",
+                        "html": "<p>60&#8239;mg once daily, discontinue if inadequate response after 2 months; review treatment at least every 3 months, maximum dose to be given in divided doses; maximum 120&#8239;mg per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Moderate to severe stress urinary incontinence",
+                        "html": "Moderate to severe stress urinary incontinence"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult female": [
+                    {
+                        "textContent": "40 mg twice daily, patient should be assessed for benefit and tolerability after 2&#8211;4 weeks, alternatively initially 20 mg twice daily for 2 weeks, this can minimise side effects, then increased to 40 mg twice daily, the patient should be assessed for benefit and tolerability after 2&#8211;4 weeks.",
+                        "html": "<p>40&#8239;mg twice daily, patient should be assessed for benefit and tolerability after 2&#8211;4 weeks, alternatively initially 20&#8239;mg twice daily for 2 weeks, this can minimise side effects, then increased to 40&#8239;mg twice daily, the patient should be assessed for benefit and tolerability after 2&#8211;4 weeks.</p>",
+                        "ageGroup": "adult (female)"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Bleeding disorders",
+                "html": "Bleeding disorders"
+            },
+            {
+                "type": "cautions",
+                "textContent": "cardiac disease",
+                "html": "cardiac disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly",
+                "html": "elderly"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of mania",
+                "html": "history of mania"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of seizures",
+                "html": "history of seizures"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypertension (avoid if uncontrolled)",
+                "html": "hypertension (avoid if uncontrolled)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "raised intra-ocular pressure",
+                "html": "raised intra-ocular pressure"
+            },
+            {
+                "type": "cautions",
+                "textContent": "susceptibility to angle-closure glaucoma",
+                "html": "susceptibility to angle-closure glaucoma"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Caution with concomitant use of drugs that increase risk of bleeding.\n\nAppendix 1 (duloxetine).",
+                "html": "<p>Caution with concomitant use of drugs that increase risk of bleeding.</p><p>Appendix 1 (duloxetine).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain",
+                        "html": "Abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "abnormal dreams",
+                        "html": "abnormal dreams",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anorexia",
+                        "html": "anorexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anxiety",
+                        "html": "anxiety",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite",
+                        "html": "decreased appetite",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hot flush",
+                        "html": "hot flush",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nervousness",
+                        "html": "nervousness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "palpitation",
+                        "html": "palpitation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sexual dysfunction",
+                        "html": "sexual dysfunction",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sweating",
+                        "html": "sweating",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "visual disturbances",
+                        "html": "visual disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "weakness",
+                        "html": "weakness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "weight changes",
+                        "html": "weight changes",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Bruxism",
+                        "html": "Bruxism",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "cold extremities",
+                        "html": "cold extremities",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dysphagia",
+                        "html": "dysphagia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "gastritis",
+                        "html": "gastritis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "halitosis",
+                        "html": "halitosis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypothyroidism",
+                        "html": "hypothyroidism",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "impaired attention",
+                        "html": "impaired attention",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "impaired temperature regulation",
+                        "html": "impaired temperature regulation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "movement disorders",
+                        "html": "movement disorders",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "muscle twitching",
+                        "html": "muscle twitching",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "musculoskeletal pain",
+                        "html": "musculoskeletal pain",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "photosensitivity",
+                        "html": "photosensitivity",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "postural hypotension",
+                        "html": "postural hypotension",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "raised cholesterol",
+                        "html": "raised cholesterol",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "stomatitis",
+                        "html": "stomatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "syncope",
+                        "html": "syncope",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "taste disturbance",
+                        "html": "taste disturbance",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "thirst",
+                        "html": "thirst",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "urinary disorders",
+                        "html": "urinary disorders",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "vertigo",
+                        "html": "vertigo",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Mania",
+                        "html": "Mania",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Angle-closure glaucoma",
+                        "html": "Angle-closure glaucoma",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Anaphylaxis",
+                        "html": "Anaphylaxis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "angioedema",
+                        "html": "angioedema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "chest pain",
+                        "html": "chest pain",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hallucinations",
+                        "html": "hallucinations",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyponatraemia",
+                        "html": "hyponatraemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "seizures",
+                        "html": "seizures",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "suicidal behaviour",
+                        "html": "suicidal behaviour",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "supraventricular arrhythmia",
+                        "html": "supraventricular arrhythmia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Suicidal behaviour and antidepressant therapy",
+                "textContent": "The use of antidepressants has been linked with suicidal thoughts and behaviour; children, young adults, and patients with a history of suicidal behaviour are particularly at risk. Where necessary patients should be monitored for suicidal behaviour, self-harm, or hostility, particularly at the beginning of treatment or if the dose is changed.",
+                "html": "<p>The use of antidepressants has been linked with suicidal thoughts and behaviour; children, young adults, and patients with a history of suicidal behaviour are particularly at risk. Where necessary patients should be monitored for suicidal behaviour, self-harm, or hostility, particularly at the beginning of treatment or if the dose is changed.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Hyponatraemia and antidepressant therapy",
+                "textContent": "Hyponatraemia (usually in the elderly and possibly due to inappropriate secretion of antidiuretic hormone) has been associated with all types of antidepressants; however, it has been reported more frequently with SSRIs than with other antidepressants. Hyponatraemia should be considered in all patients who develop drowsiness, confusion, or convulsions while taking an antidepressant.",
+                "html": "<p>Hyponatraemia (usually in the elderly and possibly due to inappropriate secretion of antidiuretic hormone) has been associated with all types of antidepressants; however, it has been reported more frequently with SSRIs than with other antidepressants. Hyponatraemia should be considered in all patients who develop drowsiness, confusion, or convulsions while taking an antidepressant.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Toxicity in animal studies&#8212;avoid in patients with stress urinary incontinence; in other conditions use only if potential benefit outweighs risk. Risk of neonatal withdrawal symptoms if used near term.",
+                "html": "<p>Toxicity in <i>animal </i> studies&#8212;avoid in patients with stress urinary incontinence; in other conditions use only if potential benefit outweighs risk. Risk of neonatal withdrawal symptoms if used near term.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk&#8212;manufacturer advises avoid.",
+                "html": "<p>Present in milk&#8212;manufacturer advises avoid.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid.",
+                "html": "<p>Manufacturer advises avoid.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "treatmentCessation": {
+        "treatmentCessation": [
+            {
+                "type": "treatmentCessation",
+                "title": "Withdrawal",
+                "textContent": "Nausea, vomiting, headache, anxiety, dizziness, paraesthesia, sleep disturbances, and tremor are the most common features of abrupt withdrawal or marked reduction of the dose; dose should be reduced over at least 1&#8211;2 weeks.",
+                "html": "<p>Nausea, vomiting, headache, anxiety, dizziness, paraesthesia, sleep disturbances, and tremor are the most common features of abrupt withdrawal or marked reduction of the dose; dose should be reduced over at least 1&#8211;2 weeks.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77849",
+                "label": "Gastro-resistant capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78166",
+                "label": "Diabetes",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78258",
+                "label": "Antidepressant drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78573",
+                "label": "Urinary frequency, enuresis and incontinence",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1024",
+                "label": "Duloxetine",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77849",
+                "label": "Gastro-resistant capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "xml": "<topic id=\"PHP81605\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/xylocaine\" basename=\"xylocaine\" title=\"Xylocaine\">\n<title>Xylocaine<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82949\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/xylocaine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bronchoscopy</p>\n<p outputclass=\"therapeuticIndication\">Laryngoscopy</p>\n<p outputclass=\"therapeuticIndication\">Oesophagoscopy</p>\n<p outputclass=\"therapeuticIndication\">Endotracheal intubation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Up to 20&#8239;doses.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dental practice</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;5&#8239;doses.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Maxillary sinus puncture</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3&#8239;doses.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">During delivery in obstetrics</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Up to 20&#8239;doses.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Relief of pain in oral lesions</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply thinly to the ulcer using a cotton bud.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP94579\" outputclass=\"professionSpecificInformation\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/xylocaine\">\n<title>Profession specific information</title>\n<body>\n<section outputclass=\"dentalPractitionersFormulary\">\n<title>Dental practitioners' formulary</title>\n<sectiondiv>\n<p>May be prescribed as lidocaine spray 10%.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81605",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/xylocaine",
+    "basename": "xylocaine",
+    "title": "Xylocaine",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Bronchoscopy",
+                        "html": "Bronchoscopy"
+                    },
+                    {
+                        "textContent": "Laryngoscopy",
+                        "html": "Laryngoscopy"
+                    },
+                    {
+                        "textContent": "Oesophagoscopy",
+                        "html": "Oesophagoscopy"
+                    },
+                    {
+                        "textContent": "Endotracheal intubation",
+                        "html": "Endotracheal intubation"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Up to 20 doses.",
+                        "html": "<p>Up to 20&#8239;doses.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Dental practice",
+                        "html": "Dental practice"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;5 doses.",
+                        "html": "<p>1&#8211;5&#8239;doses.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Maxillary sinus puncture",
+                        "html": "Maxillary sinus puncture"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "3 doses.",
+                        "html": "<p>3&#8239;doses.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "During delivery in obstetrics",
+                        "html": "During delivery in obstetrics"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Up to 20 doses.",
+                        "html": "<p>Up to 20&#8239;doses.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Relief of pain in oral lesions",
+                        "html": "Relief of pain in oral lesions"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply thinly to the ulcer using a cotton bud.",
+                        "html": "<p>Apply thinly to the ulcer using a cotton bud.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "professionSpecificInformation": {
+        "dentalPractitionersFormulary": [
+            {
+                "type": "dentalPractitionersFormulary",
+                "textContent": "May be prescribed as lidocaine spray 10%.",
+                "html": "<p>May be prescribed as lidocaine spray 10%.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "xml": "<topic id=\"PHP92295\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/potassium-bicarbonate-with-potassium-chloride/effervescent-tablet\" basename=\"effervescent-tablet\" title=\"Effervescent tablet\">\n<title>Effervescent tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sando-K effervescent tablets <ph outputclass=\"manufacturer\">(HK Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">3402911000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Potassium bicarbonate 400&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Potassium chloride 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.65</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;7.65</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP87989\" title=\"POTASSIUM BICARBONATE WITH POTASSIUM CHLORIDE\" namespace=\"/drugs/potassium-bicarbonate-with-potassium-chloride\">POTASSIUM BICARBONATE WITH POTASSIUM CHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP92295",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/potassium-bicarbonate-with-potassium-chloride/effervescent-tablet",
+    "basename": "effervescent-tablet",
+    "form": "Effervescent tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Sando-K effervescent tablets (HK Pharma Ltd) ",
+            "header": "Sando-K effervescent tablets <ph outputclass=\"manufacturer\">(HK Pharma Ltd)</ph>",
+            "manufacturer": "(HK Pharma Ltd)",
+            "name": "Sando-K effervescent tablets",
+            "ampid": "3402911000001104",
+            "strengthOfActiveIngredient": "Potassium chloride 600 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.65 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.65</ph>",
+                        "nhsIndicativePrice": "&#163;7.65"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;7.65 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;7.65</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;7.65"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP87989",
+        "label": "POTASSIUM BICARBONATE WITH POTASSIUM CHLORIDE"
+    }
+}

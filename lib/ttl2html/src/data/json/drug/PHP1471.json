@@ -1,0 +1,448 @@
+{
+    "xml": "<topic id=\"PHP1471\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/bivalirudin\" basename=\"bivalirudin\" title=\"BIVALIRUDIN\">\n<title>BIVALIRUDIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1084\" namespace=\"/interactions/list-of-drug-interactions/anticoagulants/bivalirudin\">Bivalirudin</xref>\n</p>\n<data name=\"vtmid\">400610005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_385077519\" title=\"Thrombin inhibitors\">Thrombin inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP71851\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/bivalirudin\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Bivalirudin, a hirudin analogue, is a thrombin inhibitor.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71822\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/drugs/bivalirudin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Unstable angina or non-ST-segment elevation myocardial infarction in patients planned for urgent or early intervention (in addition to aspirin and clopidogrel)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8239;micrograms/kg, then (by intravenous infusion) 250&#8239;micrograms/kg/hour (for up to 72 hours in medically managed patients).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Unstable angina or non-ST-segment elevation myocardial infarction (in addition to aspirin and clopidogrel) in patients proceeding to percutaneous coronary intervention or coronary artery bypass surgery without cardiopulmonary bypass</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8239;micrograms/kg for 1 dose, then (by intravenous injection) 500&#8239;micrograms/kg for 1 dose, then (by intravenous infusion) 1.75&#8239;mg/kg/hour for duration of procedure; (by intravenous infusion) reduced to 250&#8239;micrograms/kg/hour for 4&#8211;12 hours as necessary following percutaneous coronary intervention, for patients proceeding to coronary artery bypass surgery with cardiopulmonary bypass, discontinue intravenous infusion 1 hour before procedure and treat with unfractionated heparin.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Anticoagulation in patients undergoing percutaneous coronary intervention including patients with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention (in addition to aspirin and clopidogrel)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 750&#8239;micrograms/kg, followed immediately by (by intravenous infusion) 1.75&#8239;mg/kg/hour during procedure and for up to 4 hours after procedure, then (by intravenous infusion) reduced to 250&#8239;micrograms/kg/hour may be continued for a further 4&#8211;12 hours if necessary.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71857\" outputclass=\"contraindications\" rev=\"1.7\" parent=\"/drugs/bivalirudin\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Active bleeding</ph>; <ph outputclass=\"contraindication\">bleeding disorders</ph>; <ph outputclass=\"contraindication\">severe hypertension</ph>; <ph outputclass=\"contraindication\">subacute bacterial endocarditis</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71872\" outputclass=\"cautions\" rev=\"1.7\" parent=\"/drugs/bivalirudin\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Brachytherapy procedures</ph>; <ph outputclass=\"caution\">previous exposure to lepirudin (theoretical risk from lepirudin antibodies)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71807\" outputclass=\"interactions\" rev=\"1.14\" parent=\"/drugs/bivalirudin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (bivalirudin).</p>\n<p>Caution with concomitant use of drugs that increase risk of bleeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71747\" outputclass=\"sideEffects\" rev=\"1.11\" parent=\"/drugs/bivalirudin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bleeding (discontinue)</ph>; <ph outputclass=\"sideEffect\">ecchymosis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Allergic reactions</ph>; <ph outputclass=\"sideEffect\">anaemia</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">isolated reports of anaphylaxis</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Back pain</ph>; <ph outputclass=\"sideEffect\">bradycardia</ph>; <ph outputclass=\"sideEffect\">dyspnoea</ph>; <ph outputclass=\"sideEffect\">tachycardia</ph>; <ph outputclass=\"sideEffect\">thrombosis</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71797\" outputclass=\"pregnancy\" parent=\"/drugs/bivalirudin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71877\" outputclass=\"breastFeeding\" parent=\"/drugs/bivalirudin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71768\" outputclass=\"renalImpairment\" parent=\"/drugs/bivalirudin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">When used for <ph outputclass=\"indication\">percutaneous coronary intervention</ph>\n</p>\n<p>Reduce rate of infusion to 1.4&#8239;mg/kg/hour if eGFR 30&#8211;60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInRenalImpairment\">\n<sectiondiv>\n<p outputclass=\"specificity\">When used for <ph outputclass=\"indication\">Percutaneous coronary intervention</ph>\n</p>\n<p>Monitor blood clotting parameters in renal impairment if eGFR 30&#8211;60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71887\" outputclass=\"directionsForAdministration\" rev=\"1.15\" parent=\"/drugs/bivalirudin\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For <i>intravenous infusion</i> (<i>Angiox</i>\n<tm tmtype=\"reg\"/>), give continuously in Glucose 5% or Sodium chloride 0.9%. Reconstitute each 250-mg vial with 5&#8239;mL water for injections then withdraw 5&#8239;mL and dilute to 50&#8239;mL with infusion fluid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71653\" outputclass=\"nationalFunding\" rev=\"1.20\" parent=\"/drugs/bivalirudin\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA230</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Bivalirudin for the treatment of ST-segment elevation myocardial infarction (July 2011)</p>\r\n<p>Bivalirudin in combination with aspirin and clopidogrel is recommended for the treatment of adults with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA230\">www.nice.org.uk/TA230</xref>\n</sectiondiv>\n</sectiondiv>\r\n<sectiondiv outputclass=\"smcDecisions\">\r\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\r\n<sectiondiv outputclass=\"smcDecision\">\r\n<sectiondiv>\r\n<p>The <i>Scottish Medicines Consortium</i> has advised (November 2008) that bivalirudin (<i>Angiox</i>\r\n<tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland for patients with acute coronary syndromes planned for urgent or early intervention who would have been considered for treatment with unfractionated heparin in combination with a glycoprotein IIb/IIIa inhibitor; it should not be used as an alternative to heparin alone.</p>\n</sectiondiv>\n</sectiondiv>\r\n<sectiondiv outputclass=\"smcDecision\">\r\n<sectiondiv>\r\n<p>The <i>Scottish Medicines Consortium</i> has advised (August 2010) that bivalirudin (<i>Angiox</i>\r\n<tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland as an anticoagulant in patients undergoing percutaneous coronary intervention who would have been considered for treatment with unfractionated heparin in combination with a glycoprotein IIb/IIIa inhibitor; it should not be used as an alternative to heparin alone.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP1471-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/bivalirudin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77389\" title=\"Powder for solution for injection\" namespace=\"/drugs/bivalirudin/powder-for-solution-for-injection\">Powder for solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78144\" namespace=\"/treatment-summaries/acute-coronary-syndromes\" title=\"Acute coronary syndromes\" count=\"2\" rel=\"backlink\">Acute coronary syndromes</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1084\" namespace=\"/interactions/list-of-drug-interactions/anticoagulants/bivalirudin\" title=\"Bivalirudin\" count=\"1\" rel=\"link\">Bivalirudin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77389\" namespace=\"/drugs/bivalirudin/powder-for-solution-for-injection\" title=\"Powder for solution for injection\" count=\"1\" rel=\"link\">Powder for solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP1471",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/bivalirudin",
+    "basename": "bivalirudin",
+    "title": "BIVALIRUDIN",
+    "interactants": [
+        {
+            "id": "bnf_int_1084",
+            "label": "Bivalirudin"
+        }
+    ],
+    "vtmid": "400610005",
+    "drugClassification": [
+        "Thrombin inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Bivalirudin, a hirudin analogue, is a thrombin inhibitor.",
+                "html": "<p>Bivalirudin, a hirudin analogue, is a thrombin inhibitor.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Unstable angina or non-ST-segment elevation myocardial infarction in patients planned for urgent or early intervention (in addition to aspirin and clopidogrel)",
+                        "html": "Unstable angina or non-ST-segment elevation myocardial infarction in patients planned for urgent or early intervention (in addition to aspirin and clopidogrel)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100 micrograms/kg, then (by intravenous infusion) 250 micrograms/kg/hour (for up to 72 hours in medically managed patients).",
+                        "html": "<p>Initially 100&#8239;micrograms/kg, then (by intravenous infusion) 250&#8239;micrograms/kg/hour (for up to 72 hours in medically managed patients).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Unstable angina or non-ST-segment elevation myocardial infarction (in addition to aspirin and clopidogrel) in patients proceeding to percutaneous coronary intervention or coronary artery bypass surgery without cardiopulmonary bypass",
+                        "html": "Unstable angina or non-ST-segment elevation myocardial infarction (in addition to aspirin and clopidogrel) in patients proceeding to percutaneous coronary intervention or coronary artery bypass surgery without cardiopulmonary bypass"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100 micrograms/kg for 1 dose, then (by intravenous injection) 500 micrograms/kg for 1 dose, then (by intravenous infusion) 1.75 mg/kg/hour for duration of procedure; (by intravenous infusion) reduced to 250 micrograms/kg/hour for 4&#8211;12 hours as necessary following percutaneous coronary intervention, for patients proceeding to coronary artery bypass surgery with cardiopulmonary bypass, discontinue intravenous infusion 1 hour before procedure and treat with unfractionated heparin.",
+                        "html": "<p>Initially 100&#8239;micrograms/kg for 1 dose, then (by intravenous injection) 500&#8239;micrograms/kg for 1 dose, then (by intravenous infusion) 1.75&#8239;mg/kg/hour for duration of procedure; (by intravenous infusion) reduced to 250&#8239;micrograms/kg/hour for 4&#8211;12 hours as necessary following percutaneous coronary intervention, for patients proceeding to coronary artery bypass surgery with cardiopulmonary bypass, discontinue intravenous infusion 1 hour before procedure and treat with unfractionated heparin.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Anticoagulation in patients undergoing percutaneous coronary intervention including patients with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention (in addition to aspirin and clopidogrel)",
+                        "html": "Anticoagulation in patients undergoing percutaneous coronary intervention including patients with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention (in addition to aspirin and clopidogrel)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 750 micrograms/kg, followed immediately by (by intravenous infusion) 1.75 mg/kg/hour during procedure and for up to 4 hours after procedure, then (by intravenous infusion) reduced to 250 micrograms/kg/hour may be continued for a further 4&#8211;12 hours if necessary.",
+                        "html": "<p>Initially 750&#8239;micrograms/kg, followed immediately by (by intravenous infusion) 1.75&#8239;mg/kg/hour during procedure and for up to 4 hours after procedure, then (by intravenous infusion) reduced to 250&#8239;micrograms/kg/hour may be continued for a further 4&#8211;12 hours if necessary.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Active bleeding",
+                "html": "Active bleeding"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "bleeding disorders",
+                "html": "bleeding disorders"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "severe hypertension",
+                "html": "severe hypertension"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "subacute bacterial endocarditis",
+                "html": "subacute bacterial endocarditis"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Brachytherapy procedures",
+                "html": "Brachytherapy procedures"
+            },
+            {
+                "type": "cautions",
+                "textContent": "previous exposure to lepirudin (theoretical risk from lepirudin antibodies)",
+                "html": "previous exposure to lepirudin (theoretical risk from lepirudin antibodies)"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (bivalirudin).\n\nCaution with concomitant use of drugs that increase risk of bleeding.",
+                "html": "<p>Appendix 1 (bivalirudin).</p><p>Caution with concomitant use of drugs that increase risk of bleeding.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Bleeding (discontinue)",
+                        "html": "Bleeding (discontinue)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "ecchymosis",
+                        "html": "ecchymosis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Allergic reactions",
+                        "html": "Allergic reactions",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "anaemia",
+                        "html": "anaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "isolated reports of anaphylaxis",
+                        "html": "isolated reports of anaphylaxis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Back pain",
+                        "html": "Back pain",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "bradycardia",
+                        "html": "bradycardia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "dyspnoea",
+                        "html": "dyspnoea",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "thrombosis",
+                        "html": "thrombosis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution&#8212;no information available.",
+                "html": "<p>Manufacturer advises caution&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "When used for percutaneous coronary intervention",
+                    "html": "When used for <ph outputclass=\"indication\">percutaneous coronary intervention</ph>",
+                    "indications": [
+                        "percutaneous coronary intervention"
+                    ]
+                },
+                "textContent": "Reduce rate of infusion to 1.4 mg/kg/hour if eGFR 30&#8211;60 mL/minute/1.73 m2.",
+                "html": "<p>Reduce rate of infusion to 1.4&#8239;mg/kg/hour if eGFR 30&#8211;60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "specificity": {
+                    "textContent": "When used for Percutaneous coronary intervention",
+                    "html": "When used for <ph outputclass=\"indication\">Percutaneous coronary intervention</ph>",
+                    "indications": [
+                        "Percutaneous coronary intervention"
+                    ]
+                },
+                "textContent": "Monitor blood clotting parameters in renal impairment if eGFR 30&#8211;60 mL/minute/1.73 m2.",
+                "html": "<p>Monitor blood clotting parameters in renal impairment if eGFR 30&#8211;60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For intravenous infusion (Angiox ), give continuously in Glucose 5% or Sodium chloride 0.9%. Reconstitute each 250-mg vial with 5 mL water for injections then withdraw 5 mL and dilute to 50 mL with infusion fluid.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Angiox</i>\n<tm tmtype=\"reg\"/>), give continuously in Glucose 5% or Sodium chloride 0.9%. Reconstitute each 250-mg vial with 5&#8239;mL water for injections then withdraw 5&#8239;mL and dilute to 50&#8239;mL with infusion fluid.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA230",
+                        "label": "www.nice.org.uk/TA230"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA230",
+                "textContent": "Bivalirudin for the treatment of ST-segment elevation myocardial infarction (July 2011) Bivalirudin in combination with aspirin and clopidogrel is recommended for the treatment of adults with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention.\n\nwww.nice.org.uk/TA230",
+                "html": "<p outputclass=\"title\">Bivalirudin for the treatment of ST-segment elevation myocardial infarction (July 2011)</p> <p>Bivalirudin in combination with aspirin and clopidogrel is recommended for the treatment of adults with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA230\">www.nice.org.uk/TA230</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77389",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78144",
+                "label": "Acute coronary syndromes",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1084",
+                "label": "Bivalirudin",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77389",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

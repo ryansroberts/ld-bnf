@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP92451\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/magnesium-carbonate-with-magnesium-trisilicate-and-sodium-bicarbonate/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Magnesium trisilicate oral suspension <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3080911000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium carbonate light 50&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium trisilicate 50&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium bicarbonate 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.28</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1.28</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Magnesium trisilicate oral suspension <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">3081411000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium carbonate light 50&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium trisilicate 50&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium bicarbonate 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.28</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1.28</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88111\" title=\"MAGNESIUM CARBONATE WITH MAGNESIUM TRISILICATE AND SODIUM BICARBONATE\" namespace=\"/drugs/magnesium-carbonate-with-magnesium-trisilicate-and-sodium-bicarbonate\">MAGNESIUM CARBONATE WITH MAGNESIUM TRISILICATE AND SODIUM BICARBONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP92451",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/magnesium-carbonate-with-magnesium-trisilicate-and-sodium-bicarbonate/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "products": [
+        {
+            "title": "Magnesium trisilicate oral suspension (A A H Pharmaceuticals Ltd) ",
+            "header": "Magnesium trisilicate oral suspension <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Magnesium trisilicate oral suspension",
+            "ampid": "3080911000001109",
+            "strengthOfActiveIngredient": "Sodium bicarbonate 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 200 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.28</ph>",
+                        "nhsIndicativePrice": "&#163;1.28"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1.28 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1.28</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1.28"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Magnesium trisilicate oral suspension (Thornton & Ross Ltd) ",
+            "header": "Magnesium trisilicate oral suspension <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Magnesium trisilicate oral suspension",
+            "ampid": "3081411000001105",
+            "strengthOfActiveIngredient": "Sodium bicarbonate 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 200 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.28</ph>",
+                        "nhsIndicativePrice": "&#163;1.28"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1.28 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1.28</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1.28"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88111",
+        "label": "MAGNESIUM CARBONATE WITH MAGNESIUM TRISILICATE AND SODIUM BICARBONATE"
+    }
+}

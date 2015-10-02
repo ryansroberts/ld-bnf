@@ -1,0 +1,94 @@
+{
+    "xml": "<topic id=\"PHP78022\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/innohep-20000-unitsml\" basename=\"innohep-20000-unitsml\" title=\"Innohep 20,000 units/mL\">\n<title>Innohep<tm tmtype=\"reg\"/> 20,000 units/mL</title>\n<topic id=\"PHP59247\" outputclass=\"indicationsAndDose\" rev=\"1.29\" parent=\"/clinical-medicinal-product-information/innohep-20000-unitsml\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Extended treatment of venous thromboembolism in patients with solid tumours</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis of venous thromboembolism in patients with solid tumours</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>175&#8239;units/kg once daily for up to 6 months.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of deep-vein thrombosis</p>\n<p outputclass=\"therapeuticIndication\">Treatment of pulmonary embolism</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>175&#8239;units/kg once daily until adequate oral anticoagulation established, treatment regimens do not require anticoagulation monitoring.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of venous thromboembolism in pregnancy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>175&#8239;units/kg once daily, dose based on early pregnancy body-weight, treatment regimens do not require anticoagulation monitoring.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78022",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/innohep-20000-unitsml",
+    "basename": "innohep-20000-unitsml",
+    "title": "Innohep 20,000 units/mL",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Extended treatment of venous thromboembolism in patients with solid tumours",
+                        "html": "Extended treatment of venous thromboembolism in patients with solid tumours"
+                    },
+                    {
+                        "textContent": "Prophylaxis of venous thromboembolism in patients with solid tumours",
+                        "html": "Prophylaxis of venous thromboembolism in patients with solid tumours"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "175 units/kg once daily for up to 6 months.",
+                        "html": "<p>175&#8239;units/kg once daily for up to 6 months.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of deep-vein thrombosis",
+                        "html": "Treatment of deep-vein thrombosis"
+                    },
+                    {
+                        "textContent": "Treatment of pulmonary embolism",
+                        "html": "Treatment of pulmonary embolism"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "175 units/kg once daily until adequate oral anticoagulation established, treatment regimens do not require anticoagulation monitoring.",
+                        "html": "<p>175&#8239;units/kg once daily until adequate oral anticoagulation established, treatment regimens do not require anticoagulation monitoring.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of venous thromboembolism in pregnancy",
+                        "html": "Treatment of venous thromboembolism in pregnancy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "175 units/kg once daily, dose based on early pregnancy body-weight, treatment regimens do not require anticoagulation monitoring.",
+                        "html": "<p>175&#8239;units/kg once daily, dose based on early pregnancy body-weight, treatment regimens do not require anticoagulation monitoring.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP77552\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-phenylbutyrate/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Ammonaps 500mg tablets <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>\n</title>\n<data name=\"ampid\">4891511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium phenylbutyrate 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;493.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6344\" title=\"SODIUM PHENYLBUTYRATE\" namespace=\"/drugs/sodium-phenylbutyrate\">SODIUM PHENYLBUTYRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP77552",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-phenylbutyrate/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Ammonaps 500mg tablets (Swedish Orphan Biovitrum Ltd) ",
+            "header": "Ammonaps 500mg tablets <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>",
+            "manufacturer": "(Swedish Orphan Biovitrum Ltd)",
+            "name": "Ammonaps 500mg tablets",
+            "ampid": "4891511000001107",
+            "strengthOfActiveIngredient": "Sodium phenylbutyrate 500 mg",
+            "packs": [
+                {
+                    "textContent": " 250 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;493.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;493.00</ph>",
+                        "nhsIndicativePrice": "&#163;493.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6344",
+        "label": "SODIUM PHENYLBUTYRATE"
+    }
+}

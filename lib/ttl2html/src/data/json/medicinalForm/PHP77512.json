@@ -1,0 +1,81 @@
+{
+    "xml": "<topic id=\"PHP77512\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ketorolac-trometamol/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Ketorolac 30mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">19572711000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ketorolac trometamol 30&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.56</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ketorolac 30mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Beacon Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">13648811000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ketorolac trometamol 30&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.56</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Toradol 30mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">4061511000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ketorolac trometamol 30&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.36</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7160\" title=\"KETOROLAC TROMETAMOL\" namespace=\"/drugs/ketorolac-trometamol\">KETOROLAC TROMETAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP77512",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ketorolac-trometamol/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Ketorolac 30mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) ",
+            "header": "Ketorolac 30mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Ketorolac 30mg/1ml solution for injection ampoules",
+            "ampid": "19572711000001100",
+            "strengthOfActiveIngredient": "Ketorolac trometamol 30 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 6 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.56</ph>",
+                        "nhsIndicativePrice": "&#163;6.56"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Ketorolac 30mg/1ml solution for injection ampoules (Beacon Pharmaceuticals Ltd) ",
+            "header": "Ketorolac 30mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Beacon Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Beacon Pharmaceuticals Ltd)",
+            "name": "Ketorolac 30mg/1ml solution for injection ampoules",
+            "ampid": "13648811000001102",
+            "strengthOfActiveIngredient": "Ketorolac trometamol 30 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 6 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.56</ph>",
+                        "nhsIndicativePrice": "&#163;6.56"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Toradol 30mg/1ml solution for injection ampoules (Roche Products Ltd) ",
+            "header": "Toradol 30mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "Toradol 30mg/1ml solution for injection ampoules",
+            "ampid": "4061511000001105",
+            "strengthOfActiveIngredient": "Ketorolac trometamol 30 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.36 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.36</ph>",
+                        "nhsIndicativePrice": "&#163;5.36"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7160",
+        "label": "KETOROLAC TROMETAMOL"
+    }
+}

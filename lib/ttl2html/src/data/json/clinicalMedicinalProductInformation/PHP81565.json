@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP81565\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/berinert\" basename=\"berinert\" title=\"Berinert\">\n<title>Berinert<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP83414\" outputclass=\"indicationsAndDose\" rev=\"1.30\" parent=\"/clinical-medicinal-product-information/berinert\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute attacks of hereditary angioedema (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8239;units/kg.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Short-term prophylaxis of hereditary angioedema before dental, medical, or surgical procedures (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1000&#8239;units for 1 dose, to be administered less than 6 hours before procedure.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81565",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/berinert",
+    "basename": "berinert",
+    "title": "Berinert",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute attacks of hereditary angioedema (under expert supervision)",
+                        "html": "Acute attacks of hereditary angioedema (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By slow intravenous injection or by intravenous infusion",
+                    "html": "By slow intravenous injection or by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "20 units/kg.",
+                        "html": "<p>20&#8239;units/kg.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Short-term prophylaxis of hereditary angioedema before dental, medical, or surgical procedures (under expert supervision)",
+                        "html": "Short-term prophylaxis of hereditary angioedema before dental, medical, or surgical procedures (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By slow intravenous injection or by intravenous infusion",
+                    "html": "By slow intravenous injection or by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "1000 units for 1 dose, to be administered less than 6 hours before procedure.",
+                        "html": "<p>1000&#8239;units for 1 dose, to be administered less than 6 hours before procedure.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

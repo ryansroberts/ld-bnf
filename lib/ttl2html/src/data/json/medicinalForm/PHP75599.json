@@ -1,0 +1,110 @@
+{
+    "xml": "<topic id=\"PHP75599\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chlorhexidine/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP99727\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/hibitane-obstetric\">Hibitane Obstetric<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Acriflex 0.25% cream <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">3993211000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 2.5&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.90</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Germolene Wound Care cream <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">23274911000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine hydrochloride 5&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.07</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Eczmol 1% cream <ph outputclass=\"manufacturer\">(Genus Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">17067011000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 10&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.70</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Hibitane Obstetric 1% cream <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3955311000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 10&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8126\" title=\"CHLORHEXIDINE\" namespace=\"/drugs/chlorhexidine\">CHLORHEXIDINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75599",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chlorhexidine/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "productInformationGroups": [
+        {
+            "id": "PHP99727",
+            "label": "Hibitane Obstetric&reg;  ",
+            "html": "Hibitane Obstetric<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Acriflex 0.25% cream (Thornton & Ross Ltd) ",
+            "header": "Acriflex 0.25% cream <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Acriflex 0.25% cream",
+            "ampid": "3993211000001103",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 2.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.90</ph>",
+                        "nhsIndicativePrice": "&#163;1.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Germolene Wound Care cream (Bayer Plc) ",
+            "header": "Germolene Wound Care cream <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Germolene Wound Care cream",
+            "ampid": "23274911000001100",
+            "strengthOfActiveIngredient": "Chlorhexidine hydrochloride 5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.07 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.07</ph>",
+                        "nhsIndicativePrice": "&#163;2.07"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Eczmol 1% cream (Genus Pharmaceuticals Ltd) ",
+            "header": "Eczmol 1% cream <ph outputclass=\"manufacturer\">(Genus Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Genus Pharmaceuticals Ltd)",
+            "name": "Eczmol 1% cream",
+            "ampid": "17067011000001104",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 250 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.70</ph>",
+                        "nhsIndicativePrice": "&#163;3.70"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Hibitane Obstetric 1% cream (Derma UK Ltd) ",
+            "header": "Hibitane Obstetric 1% cream <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>",
+            "manufacturer": "(Derma UK Ltd)",
+            "name": "Hibitane Obstetric 1% cream",
+            "ampid": "3955311000001101",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 250 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph>",
+                        "nhsIndicativePrice": "&#163;12.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8126",
+        "label": "CHLORHEXIDINE"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "xml": "<topic id=\"PHP75182\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/co-trimoxazole/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Alcohol, propylene glycol, sulfites</p>\n</section>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Septrin for Infusion 80mg/400mg/5ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>\n</title>\n<data name=\"ampid\">3626011000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sulfamethoxazole 80&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Trimethoprim 16&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.76</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3575\" title=\"CO-TRIMOXAZOLE\" namespace=\"/drugs/co-trimoxazole\">CO-TRIMOXAZOLE</xref>\n</parents>\n</topic>",
+    "id": "PHP75182",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/co-trimoxazole/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "excipients": [
+        "Alcohol",
+        "propylene glycol",
+        "sulfites"
+    ],
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Septrin for Infusion 80mg/400mg/5ml solution for infusion ampoules (Aspen Pharma Trading Ltd) ",
+            "header": "Septrin for Infusion 80mg/400mg/5ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>",
+            "manufacturer": "(Aspen Pharma Trading Ltd)",
+            "name": "Septrin for Infusion 80mg/400mg/5ml solution for infusion ampoules",
+            "ampid": "3626011000001108",
+            "strengthOfActiveIngredient": "Trimethoprim 16 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.76 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.76</ph>",
+                        "nhsIndicativePrice": "&#163;17.76"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3575",
+        "label": "CO-TRIMOXAZOLE"
+    }
+}

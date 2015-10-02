@@ -1,0 +1,133 @@
+{
+    "xml": "<topic id=\"PHP85603\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/ezetimibe-with-simvastatin\" basename=\"ezetimibe-with-simvastatin\" title=\"EZETIMIBE WITH SIMVASTATIN\">\n<title>EZETIMIBE WITH SIMVASTATIN </title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_970\" namespace=\"/interactions/list-of-drug-interactions/lipid-regulating-drugs/ezetimibe\">Ezetimibe</xref>, <xref format=\"dita\" href=\"#bnf_int_605\" namespace=\"/interactions/list-of-drug-interactions/lipid-regulating-drugs/statins/simvastatin\">Simvastatin</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP1668\" namespace=\"/drugs/ezetimibe\">ezetimibe</xref>, <xref format=\"dita\" href=\"#PHP1647\" namespace=\"/drugs/simvastatin\">simvastatin</xref>.</p>\n<data name=\"vtmid\">414175005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_757641530\" title=\"Cholesterol absorption inhibitors\">Cholesterol absorption inhibitors</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_957233137\" title=\"Statins\">Statins</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP87130\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/ezetimibe-with-simvastatin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Homozygous familial hypercholesterolaemia, primary hypercholesterolaemia, and mixed hyperlipidaemia in patients stabilised on the individual components in the same proportions, or for patients not adequately controlled by statin alone</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85603-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/ezetimibe-with-simvastatin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92254\" title=\"Tablet\" namespace=\"/drugs/ezetimibe-with-simvastatin/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_970\" namespace=\"/interactions/list-of-drug-interactions/lipid-regulating-drugs/ezetimibe\" title=\"Ezetimibe\" count=\"1\" rel=\"link\">Ezetimibe</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_605\" namespace=\"/interactions/list-of-drug-interactions/lipid-regulating-drugs/statins/simvastatin\" title=\"Simvastatin\" count=\"1\" rel=\"link\">Simvastatin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1668\" namespace=\"/drugs/ezetimibe\" title=\"EZETIMIBE\" count=\"1\" rel=\"link\">EZETIMIBE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1647\" namespace=\"/drugs/simvastatin\" title=\"SIMVASTATIN\" count=\"1\" rel=\"link\">SIMVASTATIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92254\" namespace=\"/drugs/ezetimibe-with-simvastatin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP85603",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/ezetimibe-with-simvastatin",
+    "basename": "ezetimibe-with-simvastatin",
+    "title": "EZETIMIBE WITH SIMVASTATIN",
+    "interactants": [
+        {
+            "id": "bnf_int_970",
+            "label": "Ezetimibe"
+        },
+        {
+            "id": "bnf_int_605",
+            "label": "Simvastatin"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP1668",
+            "label": "ezetimibe"
+        },
+        {
+            "id": "PHP1647",
+            "label": "simvastatin"
+        }
+    ],
+    "vtmid": "414175005",
+    "drugClassification": [
+        "Cholesterol absorption inhibitors",
+        "Statins"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Homozygous familial hypercholesterolaemia, primary hypercholesterolaemia, and mixed hyperlipidaemia in patients stabilised on the individual components in the same proportions, or for patients not adequately controlled by statin alone",
+                        "html": "Homozygous familial hypercholesterolaemia, primary hypercholesterolaemia, and mixed hyperlipidaemia in patients stabilised on the individual components in the same proportions, or for patients not adequately controlled by statin alone"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92254",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_970",
+                "label": "Ezetimibe",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_605",
+                "label": "Simvastatin",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP1668",
+                "label": "EZETIMIBE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1647",
+                "label": "SIMVASTATIN",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92254",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

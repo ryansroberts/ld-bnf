@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP81611\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/asacol-suppositories\" basename=\"asacol-suppositories\" title=\"Asacol suppositories\">\n<title>Asacol<tm tmtype=\"reg\"/> suppositories</title>\n<topic id=\"PHP83162\" outputclass=\"indicationsAndDose\" rev=\"1.18\" parent=\"/clinical-medicinal-product-information/asacol-suppositories\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of acute attack of mild to moderate ulcerative colitis and maintenance of remission</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>0.75&#8211;1.5&#8239;g daily in divided doses, last dose to be administered at bedtime.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81611",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/asacol-suppositories",
+    "basename": "asacol-suppositories",
+    "title": "Asacol suppositories",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of acute attack of mild to moderate ulcerative colitis and maintenance of remission",
+                        "html": "Treatment of acute attack of mild to moderate ulcerative colitis and maintenance of remission"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "adult": [
+                    {
+                        "textContent": "0.75&#8211;1.5 g daily in divided doses, last dose to be administered at bedtime.",
+                        "html": "<p>0.75&#8211;1.5&#8239;g daily in divided doses, last dose to be administered at bedtime.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

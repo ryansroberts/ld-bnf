@@ -1,0 +1,144 @@
+{
+    "xml": "<topic id=\"PHP92559\" outputclass=\"drug\" rev=\"1.23\" type=\"drug\" namespace=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin\" basename=\"chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin\" title=\"CHLORHEXIDINE HYDROCHLORIDE WITH HYDROCORTISONE AND NYSTATIN\">\n<title>CHLORHEXIDINE HYDROCHLORIDE WITH HYDROCORTISONE AND NYSTATIN </title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP8126\" namespace=\"/drugs/chlorhexidine\">chlorhexidine</xref>, <xref format=\"dita\" href=\"#PHP515\" namespace=\"/drugs/hydrocortisone\">hydrocortisone</xref>.</p>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_680737373\" title=\"Disinfectants and preservatives\">Disinfectants and preservatives</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832374428\" title=\"Corticosteroids\">Corticosteroids</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_667920323\" title=\"Polyene antifungals\">Polyene antifungals</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP93255\" outputclass=\"indicationsAndDose\" rev=\"1.24\" parent=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mild inflammatory skin disorders such as eczemas</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>To be applied thinly (consult product literature).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>To be applied thinly (consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"potency\">\n<title>Potency</title>\n<p>Chlorhexidine hydrochloride 1% with hydrocortisone 0.5% and nystatin cream: mild</p>\n<p>Chlorhexidine hydrochloride 1% with hydrocortisone 1% and nystatin ointment: mild</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93258\" outputclass=\"patientAndCarerAdvice\" rev=\"1.19\" parent=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on application of chlorhexidine hydrochloride with hydrocortisone and nystatin preparations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP92559-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93570\" title=\"Cream\" namespace=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin/cream\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93569\" title=\"Ointment\" namespace=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin/ointment\">Ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"3\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8126\" namespace=\"/drugs/chlorhexidine\" title=\"CHLORHEXIDINE\" count=\"1\" rel=\"link\">CHLORHEXIDINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP515\" namespace=\"/drugs/hydrocortisone\" title=\"HYDROCORTISONE\" count=\"1\" rel=\"link\">HYDROCORTISONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93570\" namespace=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93569\" namespace=\"/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin/ointment\" title=\"Ointment\" count=\"1\" rel=\"link\">Ointment</xref>\n</links>\n</topic>",
+    "id": "PHP92559",
+    "outputclass": "drug",
+    "rev": "1.23",
+    "type": "drug",
+    "namespace": "/drugs/chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin",
+    "basename": "chlorhexidine-hydrochloride-with-hydrocortisone-and-nystatin",
+    "title": "CHLORHEXIDINE HYDROCHLORIDE WITH HYDROCORTISONE AND NYSTATIN",
+    "constituents": [
+        {
+            "id": "PHP8126",
+            "label": "chlorhexidine"
+        },
+        {
+            "id": "PHP515",
+            "label": "hydrocortisone"
+        }
+    ],
+    "drugClassification": [
+        "Disinfectants and preservatives",
+        "Corticosteroids",
+        "Polyene antifungals"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mild inflammatory skin disorders such as eczemas",
+                        "html": "Mild inflammatory skin disorders such as eczemas"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "To be applied thinly (consult product literature).",
+                        "html": "<p>To be applied thinly (consult product literature).</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "To be applied thinly (consult product literature).",
+                        "html": "<p>To be applied thinly (consult product literature).</p>"
+                    }
+                ]
+            }
+        ],
+        "potency": [
+            {
+                "type": "potency",
+                "title": "Potency",
+                "textContent": "Chlorhexidine hydrochloride 1% with hydrocortisone 0.5% and nystatin cream: mild\n\nChlorhexidine hydrochloride 1% with hydrocortisone 1% and nystatin ointment: mild",
+                "html": "<p>Chlorhexidine hydrochloride 1% with hydrocortisone 0.5% and nystatin cream: mild</p><p>Chlorhexidine hydrochloride 1% with hydrocortisone 1% and nystatin ointment: mild</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on application of chlorhexidine hydrochloride with hydrocortisone and nystatin preparations.",
+                "html": "<p>Patients or carers should be given advice on application of chlorhexidine hydrochloride with hydrocortisone and nystatin preparations.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP93570",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP93569",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP8126",
+                "label": "CHLORHEXIDINE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP515",
+                "label": "HYDROCORTISONE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP93570",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP93569",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

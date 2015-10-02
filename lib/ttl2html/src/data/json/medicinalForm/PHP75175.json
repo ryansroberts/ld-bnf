@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP75175\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/co-trimoxazole/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Septrin Paediatric 40mg/200mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>\n</title>\n<data name=\"ampid\">3757311000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sulfamethoxazole 40&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Trimethoprim 8&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.45</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Septrin Adult 80mg/400mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>\n</title>\n<data name=\"ampid\">96711000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sulfamethoxazole 80&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Trimethoprim 16&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.41</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3575\" title=\"CO-TRIMOXAZOLE\" namespace=\"/drugs/co-trimoxazole\">CO-TRIMOXAZOLE</xref>\n</parents>\n</topic>",
+    "id": "PHP75175",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/co-trimoxazole/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "9",
+            "textContent": "Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop"
+        }
+    ],
+    "products": [
+        {
+            "title": "Septrin Paediatric 40mg/200mg/5ml oral suspension (Aspen Pharma Trading Ltd) ",
+            "header": "Septrin Paediatric 40mg/200mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>",
+            "manufacturer": "(Aspen Pharma Trading Ltd)",
+            "name": "Septrin Paediatric 40mg/200mg/5ml oral suspension",
+            "ampid": "3757311000001102",
+            "strengthOfActiveIngredient": "Trimethoprim 8 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 100 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.45 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.45</ph>",
+                        "nhsIndicativePrice": "&#163;2.45"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Septrin Adult 80mg/400mg/5ml oral suspension (Aspen Pharma Trading Ltd) ",
+            "header": "Septrin Adult 80mg/400mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>",
+            "manufacturer": "(Aspen Pharma Trading Ltd)",
+            "name": "Septrin Adult 80mg/400mg/5ml oral suspension",
+            "ampid": "96711000001102",
+            "strengthOfActiveIngredient": "Trimethoprim 16 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 100 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.41 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.41</ph>",
+                        "nhsIndicativePrice": "&#163;4.41"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3575",
+        "label": "CO-TRIMOXAZOLE"
+    }
+}

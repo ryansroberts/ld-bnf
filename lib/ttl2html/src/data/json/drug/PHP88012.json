@@ -1,0 +1,124 @@
+{
+    "xml": "<topic id=\"PHP88012\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/timolol-with-travoprost\" basename=\"timolol-with-travoprost\" title=\"TIMOLOL WITH TRAVOPROST\">\n<title>TIMOLOL WITH TRAVOPROST</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_456\" namespace=\"/interactions/list-of-drug-interactions/beta-blockers/timolol\">Timolol</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP1025\" namespace=\"/drugs/timolol-maleate\">timolol maleate</xref>, <xref format=\"dita\" href=\"#PHP6996\" namespace=\"/drugs/travoprost\">travoprost</xref>.</p>\n<data name=\"vtmid\">424258009</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_613648210\" title=\"Beta-adrenoceptor blockers\">Beta-adrenoceptor blockers</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_772995579\" title=\"Prostaglandin analogues and prostamides\">Prostaglandin analogues and prostamides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP88899\" outputclass=\"indicationsAndDose\" rev=\"1.9\" parent=\"/drugs/timolol-with-travoprost\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Raised intra-ocular pressure in patients with open-angle glaucoma or ocular hypertension when beta-blocker or prostaglandin analogue alone not adequate</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply once daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88012-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/timolol-with-travoprost\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92324\" title=\"Eye drops\" namespace=\"/drugs/timolol-with-travoprost/eye-drops\">Eye drops</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_456\" namespace=\"/interactions/list-of-drug-interactions/beta-blockers/timolol\" title=\"Timolol\" count=\"1\" rel=\"link\">Timolol</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1025\" namespace=\"/drugs/timolol-maleate\" title=\"TIMOLOL MALEATE\" count=\"1\" rel=\"link\">TIMOLOL MALEATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6996\" namespace=\"/drugs/travoprost\" title=\"TRAVOPROST\" count=\"1\" rel=\"link\">TRAVOPROST</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92324\" namespace=\"/drugs/timolol-with-travoprost/eye-drops\" title=\"Eye drops\" count=\"1\" rel=\"link\">Eye drops</xref>\n</links>\n</topic>",
+    "id": "PHP88012",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/timolol-with-travoprost",
+    "basename": "timolol-with-travoprost",
+    "title": "TIMOLOL WITH TRAVOPROST",
+    "interactants": [
+        {
+            "id": "bnf_int_456",
+            "label": "Timolol"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP1025",
+            "label": "timolol maleate"
+        },
+        {
+            "id": "PHP6996",
+            "label": "travoprost"
+        }
+    ],
+    "vtmid": "424258009",
+    "drugClassification": [
+        "Beta-adrenoceptor blockers",
+        "Prostaglandin analogues and prostamides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Raised intra-ocular pressure in patients with open-angle glaucoma or ocular hypertension when beta-blocker or prostaglandin analogue alone not adequate",
+                        "html": "Raised intra-ocular pressure in patients with open-angle glaucoma or ocular hypertension when beta-blocker or prostaglandin analogue alone not adequate"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye"
+                    ],
+                    "textContent": "To the eye",
+                    "html": "To the eye"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply once daily.",
+                        "html": "<p>Apply once daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92324",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_456",
+                "label": "Timolol",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP1025",
+                "label": "TIMOLOL MALEATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP6996",
+                "label": "TRAVOPROST",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92324",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

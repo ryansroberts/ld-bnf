@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP77664\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/selenium/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Selenase 100micrograms/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">9184211000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Selenium (as Sodium selenite) 50&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Selenase 500micrograms/10ml solution for injection vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">9183911000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Selenium (as Sodium selenite) 50&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6176\" title=\"SELENIUM\" namespace=\"/drugs/selenium\">SELENIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP77664",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/selenium/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Selenase 100micrograms/2ml solution for injection ampoules (Baxter Healthcare Ltd) ",
+            "header": "Selenase 100micrograms/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Selenase 100micrograms/2ml solution for injection ampoules",
+            "ampid": "9184211000001101",
+            "strengthOfActiveIngredient": "Selenium (as Sodium selenite) 50 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Selenase 500micrograms/10ml solution for injection vials (Baxter Healthcare Ltd) ",
+            "header": "Selenase 500micrograms/10ml solution for injection vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Selenase 500micrograms/10ml solution for injection vials",
+            "ampid": "9183911000001108",
+            "strengthOfActiveIngredient": "Selenium (as Sodium selenite) 50 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6176",
+        "label": "SELENIUM"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP101302\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/retigabine/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Trobalt tablets starter pack <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">18771411000001102</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">63</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.33</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2964\" title=\"RETIGABINE\" namespace=\"/drugs/retigabine\">RETIGABINE</xref>\n</parents>\n</topic>",
+    "id": "PHP101302",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/retigabine/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Trobalt tablets starter pack (GlaxoSmithKline UK Ltd) &#9660; ",
+            "header": "Trobalt tablets starter pack <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Trobalt tablets starter pack",
+            "ampid": "18771411000001102",
+            "packs": [
+                {
+                    "textContent": " 63 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">63</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "63",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.33 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.33</ph>",
+                        "nhsIndicativePrice": "&#163;24.33"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2964",
+        "label": "RETIGABINE"
+    }
+}

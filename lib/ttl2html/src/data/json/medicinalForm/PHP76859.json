@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP76859\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/maraviroc/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Celsentri 150mg tablets <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>\n</title>\n<data name=\"ampid\">12660911000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Maraviroc 150&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;441.27</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Celsentri 300mg tablets <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>\n</title>\n<data name=\"ampid\">12661211000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Maraviroc 300&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;441.27</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3834\" title=\"MARAVIROC\" namespace=\"/drugs/maraviroc\">MARAVIROC</xref>\n</parents>\n</topic>",
+    "id": "PHP76859",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/maraviroc/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Celsentri 150mg tablets (ViiV Healthcare UK Ltd) ",
+            "header": "Celsentri 150mg tablets <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>",
+            "manufacturer": "(ViiV Healthcare UK Ltd)",
+            "name": "Celsentri 150mg tablets",
+            "ampid": "12660911000001105",
+            "strengthOfActiveIngredient": "Maraviroc 150 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;441.27 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;441.27</ph>",
+                        "nhsIndicativePrice": "&#163;441.27"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Celsentri 300mg tablets (ViiV Healthcare UK Ltd) ",
+            "header": "Celsentri 300mg tablets <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>",
+            "manufacturer": "(ViiV Healthcare UK Ltd)",
+            "name": "Celsentri 300mg tablets",
+            "ampid": "12661211000001107",
+            "strengthOfActiveIngredient": "Maraviroc 300 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;441.27 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;441.27</ph>",
+                        "nhsIndicativePrice": "&#163;441.27"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3834",
+        "label": "MARAVIROC"
+    }
+}

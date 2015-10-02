@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75993\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/loratadine/oral-lyophilisate\" basename=\"oral-lyophilisate\" title=\"Oral lyophilisate\">\n<title>Oral lyophilisate</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Clarityn Rapide Allergy 10mg tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">20984011000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Loratadine 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.24</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1921\" title=\"LORATADINE\" namespace=\"/drugs/loratadine\">LORATADINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75993",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/loratadine/oral-lyophilisate",
+    "basename": "oral-lyophilisate",
+    "form": "Oral lyophilisate",
+    "products": [
+        {
+            "title": "Clarityn Rapide Allergy 10mg tablets (Bayer Plc) ",
+            "header": "Clarityn Rapide Allergy 10mg tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Clarityn Rapide Allergy 10mg tablets",
+            "ampid": "20984011000001105",
+            "strengthOfActiveIngredient": "Loratadine 10 mg",
+            "packs": [
+                {
+                    "textContent": " 10 tablet GSL ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.24 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.24</ph>",
+                        "nhsIndicativePrice": "&#163;3.24"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1921",
+        "label": "LORATADINE"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "xml": "<topic id=\"PHP77846\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/valproic-acid/gastro-resistant-tablet\" basename=\"gastro-resistant-tablet\" title=\"Gastro-resistant tablet\">\n<title>Gastro-resistant tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Depakote 250mg gastro-resistant tablets <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">3846411000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Valproic acid (as Valproate semisodium) 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">90</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.08</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;17.08</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Depakote 500mg gastro-resistant tablets <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">3847111000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Valproic acid (as Valproate semisodium) 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">90</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;34.11</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;34.11</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2331\" title=\"VALPROIC ACID\" namespace=\"/drugs/valproic-acid\">VALPROIC ACID</xref>\n</parents>\n</topic>",
+    "id": "PHP77846",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/valproic-acid/gastro-resistant-tablet",
+    "basename": "gastro-resistant-tablet",
+    "form": "Gastro-resistant tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Depakote 250mg gastro-resistant tablets (Sanofi) &#9660; ",
+            "header": "Depakote 250mg gastro-resistant tablets <ph outputclass=\"manufacturer\">(Sanofi)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Sanofi)",
+            "blackTriangle": "&#9660;",
+            "name": "Depakote 250mg gastro-resistant tablets",
+            "ampid": "3846411000001106",
+            "strengthOfActiveIngredient": "Valproic acid (as Valproate semisodium) 250 mg",
+            "packs": [
+                {
+                    "textContent": " 90 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">90</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "90",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.08</ph>",
+                        "nhsIndicativePrice": "&#163;17.08"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;17.08 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;17.08</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;17.08"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Depakote 500mg gastro-resistant tablets (Sanofi) &#9660; ",
+            "header": "Depakote 500mg gastro-resistant tablets <ph outputclass=\"manufacturer\">(Sanofi)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Sanofi)",
+            "blackTriangle": "&#9660;",
+            "name": "Depakote 500mg gastro-resistant tablets",
+            "ampid": "3847111000001103",
+            "strengthOfActiveIngredient": "Valproic acid (as Valproate semisodium) 500 mg",
+            "packs": [
+                {
+                    "textContent": " 90 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">90</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "90",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;34.11 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;34.11</ph>",
+                        "nhsIndicativePrice": "&#163;34.11"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;34.11 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;34.11</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;34.11"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2331",
+        "label": "VALPROIC ACID"
+    }
+}

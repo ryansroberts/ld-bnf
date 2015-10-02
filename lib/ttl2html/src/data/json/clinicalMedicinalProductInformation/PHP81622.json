@@ -1,0 +1,98 @@
+{
+    "xml": "<topic id=\"PHP81622\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/salofalk-granules\" basename=\"salofalk-granules\" title=\"Salofalk granules\">\n<title>Salofalk<tm tmtype=\"reg\"/> granules</title>\n<topic id=\"PHP83517\" outputclass=\"indicationsAndDose\" rev=\"1.38\" parent=\"/clinical-medicinal-product-information/salofalk-granules\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of mild to moderate ulcerative colitis, acute attack</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;17 years (body-weight up to 40 kg)</p>\n<p>30&#8211;50&#8239;mg/kg once daily, dose preferably given in the morning, alternatively 10&#8211;20&#8239;mg/kg 3 times a day.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;17 years (body-weight 40 kg and above)</p>\n<p>1.5&#8211;3&#8239;g once daily, dose preferably given in the morning, alternatively 0.5&#8211;1&#8239;g 3 times a day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.5&#8211;3&#8239;g once daily, dose preferably taken in the morning, alternatively 0.5&#8211;1&#8239;g 3 times a day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Maintenance of remission of ulcerative colitis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;17 years (body-weight up to 40 kg)</p>\n<p>7.5&#8211;15&#8239;mg/kg twice daily, total daily dose may alternatively be given in 3 divided doses.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;17 years (body-weight 40 kg and above)</p>\n<p>500&#8239;mg 3 times a day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg 3 times a day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83533\" outputclass=\"directionsForAdministration\" rev=\"1.7\" parent=\"/clinical-medicinal-product-information/salofalk-granules\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Granules should be placed on tongue and washed down with water without chewing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81622",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/salofalk-granules",
+    "basename": "salofalk-granules",
+    "title": "Salofalk granules",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of mild to moderate ulcerative colitis, acute attack",
+                        "html": "Treatment of mild to moderate ulcerative colitis, acute attack"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "30&#8211;50 mg/kg once daily, dose preferably given in the morning, alternatively 10&#8211;20 mg/kg 3 times a day.",
+                        "html": "<p>30&#8211;50&#8239;mg/kg once daily, dose preferably given in the morning, alternatively 10&#8211;20&#8239;mg/kg 3 times a day.</p>",
+                        "ageGroup": "5&#8211;17 years (body-weight up to 40 kg)"
+                    },
+                    {
+                        "textContent": "1.5&#8211;3 g once daily, dose preferably given in the morning, alternatively 0.5&#8211;1 g 3 times a day.",
+                        "html": "<p>1.5&#8211;3&#8239;g once daily, dose preferably given in the morning, alternatively 0.5&#8211;1&#8239;g 3 times a day.</p>",
+                        "ageGroup": "5&#8211;17 years (body-weight 40 kg and above)"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "1.5&#8211;3 g once daily, dose preferably taken in the morning, alternatively 0.5&#8211;1 g 3 times a day.",
+                        "html": "<p>1.5&#8211;3&#8239;g once daily, dose preferably taken in the morning, alternatively 0.5&#8211;1&#8239;g 3 times a day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Maintenance of remission of ulcerative colitis",
+                        "html": "Maintenance of remission of ulcerative colitis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "7.5&#8211;15 mg/kg twice daily, total daily dose may alternatively be given in 3 divided doses.",
+                        "html": "<p>7.5&#8211;15&#8239;mg/kg twice daily, total daily dose may alternatively be given in 3 divided doses.</p>",
+                        "ageGroup": "5&#8211;17 years (body-weight up to 40 kg)"
+                    },
+                    {
+                        "textContent": "500 mg 3 times a day.",
+                        "html": "<p>500&#8239;mg 3 times a day.</p>",
+                        "ageGroup": "5&#8211;17 years (body-weight 40 kg and above)"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "500 mg 3 times a day.",
+                        "html": "<p>500&#8239;mg 3 times a day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Granules should be placed on tongue and washed down with water without chewing.",
+                "html": "<p>Granules should be placed on tongue and washed down with water without chewing.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

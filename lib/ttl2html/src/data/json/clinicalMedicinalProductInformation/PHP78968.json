@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP78968\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/cymbalta\" basename=\"cymbalta\" title=\"Cymbalta\">\n<title>Cymbalta<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP79417\" outputclass=\"nationalFunding\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/cymbalta\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use for <ph outputclass=\"indication\">Diabetic neuropathy</ph>\n</p>\n<p>The <i>Scottish Medicines Consortium</i> has advised (September 2006) that duloxetine (<i>Cymbalta</i>\n<tm tmtype=\"reg\"/>) should be restricted for use by specialists when other treatments for diabetic peripheral neuropathic pain are unsuitable or inadequate.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78968",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/cymbalta",
+    "basename": "cymbalta",
+    "title": "Cymbalta",
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "With oral use for Diabetic neuropathy The Scottish Medicines Consortium has advised (September 2006) that duloxetine (Cymbalta ) should be restricted for use by specialists when other treatments for diabetic peripheral neuropathic pain are unsuitable or inadequate.",
+                "html": "<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use for <ph outputclass=\"indication\">Diabetic neuropathy</ph> </p> <p>The <i>Scottish Medicines Consortium</i> has advised (September 2006) that duloxetine (<i>Cymbalta</i> <tm tmtype=\"reg\"/>) should be restricted for use by specialists when other treatments for diabetic peripheral neuropathic pain are unsuitable or inadequate.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

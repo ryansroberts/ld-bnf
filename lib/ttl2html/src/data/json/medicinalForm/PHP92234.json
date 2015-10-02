@@ -1,0 +1,45 @@
+{
+    "xml": "<topic id=\"PHP92234\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cobicistat-with-elvitegravir-emtricitabine-and-tenofovir/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Stribild 150mg/150mg/200mg/245mg tablets <ph outputclass=\"manufacturer\">(Gilead Sciences International Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">23163711000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Cobicistat 150&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Elvitegravir 150&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Emtricitabine 200&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Tenofovir disoproxil (as Tenofovir disoproxil fumarate) 245&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;879.51</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85586\" title=\"COBICISTAT WITH ELVITEGRAVIR, EMTRICITABINE AND TENOFOVIR\" namespace=\"/drugs/cobicistat-with-elvitegravir-emtricitabine-and-tenofovir\">COBICISTAT WITH ELVITEGRAVIR, EMTRICITABINE AND TENOFOVIR</xref>\n</parents>\n</topic>",
+    "id": "PHP92234",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cobicistat-with-elvitegravir-emtricitabine-and-tenofovir/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Stribild 150mg/150mg/200mg/245mg tablets (Gilead Sciences International Ltd) &#9660; ",
+            "header": "Stribild 150mg/150mg/200mg/245mg tablets <ph outputclass=\"manufacturer\">(Gilead Sciences International Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Gilead Sciences International Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Stribild 150mg/150mg/200mg/245mg tablets",
+            "ampid": "23163711000001109",
+            "strengthOfActiveIngredient": "Tenofovir disoproxil (as Tenofovir disoproxil fumarate) 245 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;879.51 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;879.51</ph>",
+                        "nhsIndicativePrice": "&#163;879.51"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85586",
+        "label": "COBICISTAT WITH ELVITEGRAVIR, EMTRICITABINE AND TENOFOVIR"
+    }
+}

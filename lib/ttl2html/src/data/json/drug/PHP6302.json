@@ -1,0 +1,790 @@
+{
+    "xml": "<topic id=\"PHP6302\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/penicillamine\" basename=\"penicillamine\" title=\"PENICILLAMINE\">\n<title>PENICILLAMINE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_658\" namespace=\"/interactions/list-of-drug-interactions/penicillamine\">Penicillamine</xref>\n</p>\n<data name=\"vtmid\">4219002</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_322571566\" title=\"Copper chelators\">Copper chelators</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_308759379\" title=\"Disease-modifying anti-rheumatic drugs\">Disease-modifying anti-rheumatic drugs</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">   </data>\r\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP67415\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/penicillamine\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Penicillamine aids the elimination of copper ions in Wilson's disease (hepatolenticular degeneration).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67314\" outputclass=\"indicationsAndDose\" rev=\"1.62\" parent=\"/drugs/penicillamine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe active rheumatoid arthritis (administered on expert advice)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 125&#8211;250&#8239;mg daily for 1 month, then increased in steps of 125&#8211;250&#8239;mg, at intervals of not less than 4 weeks; maintenance 500&#8211;750&#8239;mg daily in divided doses, then reduced in steps of 125&#8211;250&#8239;mg every 12&#8239;weeks, dose reduction attempted only if remission sustained for 6 months; maximum 1.5&#8239;g per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially up to 125&#8239;mg daily for 1 month, then increased in steps of up to 125&#8239;mg, at intervals of at least 4 weeks; maximum 1&#8239;g per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Wilson&#8217;s disease</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.5&#8211;2&#8239;g daily in divided doses, to be taken before food; maintenance 0.75&#8211;1&#8239;g daily for 1 year; maximum 2&#8239;g per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>20&#8239;mg/kg daily in divided doses, adjusted according to response; maximum 2&#8239;g per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Autoimmune hepatitis (used rarely; after disease controlled with corticosteroids)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 500&#8239;mg daily in divided doses, to be increased slowly over 3 months; maintenance 1.25&#8239;g daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Cystinuria, therapeutic</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;3&#8239;g daily in divided doses, to be adjusted to maintain urinary cystine below 200&#8239;mg/litre, to be taken before food.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Cystinuria, prophylactic</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>0.5&#8211;1&#8239;g daily, maintain urinary cystine below 300&#8239;mg/litre and adequate fluid intake (at least 3&#8239;litres daily), to be taken at bedtime.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Minimum dose to maintain urinary cystine below 200&#8239;mg/litre is recommended.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67436\" outputclass=\"contraindications\" rev=\"1.10\" parent=\"/drugs/penicillamine\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Lupus erythematosus</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67444\" outputclass=\"cautions\" rev=\"1.16\" parent=\"/drugs/penicillamine\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Neurological involvement in Wilson's disease</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67305\" outputclass=\"interactions\" rev=\"1.11\" parent=\"/drugs/penicillamine\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Caution with concomitant nephrotoxic drugs (increased risk of toxicity).</p>\n<p>Appendix 1 (penicillamine).</p>\n</sectiondiv>\n<sectiondiv>\n<p>Caution with gold treatment (avoid concomitant use if adverse reactions to gold).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67218\" outputclass=\"sideEffects\" rev=\"1.29\" parent=\"/drugs/penicillamine\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anorexia</ph>; <ph outputclass=\"sideEffect\">fever</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">proteinuria</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">breast enlargement (male and female)</ph>; <ph outputclass=\"sideEffect\">elastosis perforans</ph>; <ph outputclass=\"sideEffect\">haematuria (withdraw immediately if cause unknown)</ph>; <ph outputclass=\"sideEffect\">mouth ulceration</ph>; <ph outputclass=\"sideEffect\">pseudoxanthoma elasticum</ph>; <ph outputclass=\"sideEffect\">skin laxity</ph>; <ph outputclass=\"sideEffect\">stomatitis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agranulocytosis</ph>; <ph outputclass=\"sideEffect\">aplastic anaemia</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">bronchiolitis</ph>; <ph outputclass=\"sideEffect\">cholestatic jaundice</ph>; <ph outputclass=\"sideEffect\">dermatomyositis</ph>; <ph outputclass=\"sideEffect\">glomerulonephritis</ph>; <ph outputclass=\"sideEffect\">Goodpasture&#8217;s syndrome</ph>; <ph outputclass=\"sideEffect\">haemolytic anaemia</ph>; <ph outputclass=\"sideEffect\">haemolytic leucopenia</ph>; <ph outputclass=\"sideEffect\">late rashes (consider dose reduction)</ph>; <ph outputclass=\"sideEffect\">lupus erythematosus</ph>; <ph outputclass=\"sideEffect\">myasthenia gravis</ph>; <ph outputclass=\"sideEffect\">nephrotic syndrome</ph>; <ph outputclass=\"sideEffect\">neuropathy (especially if neurological involvement in Wilson's disease&#8212;prophylactic pyridoxine recommended)</ph>; <ph outputclass=\"sideEffect\">neutropenia</ph>; <ph outputclass=\"sideEffect\">pancreatitis</ph>; <ph outputclass=\"sideEffect\">pemphigus</ph>; <ph outputclass=\"sideEffect\">pneumonitis</ph>; <ph outputclass=\"sideEffect\">polymyositis</ph>; <ph outputclass=\"sideEffect\">pulmonary haemorrhage</ph>; <ph outputclass=\"sideEffect\">rheumatoid arthritis</ph>; <ph outputclass=\"sideEffect\">septic arthritis (in patients with rheumatoid arthritis)</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">taste loss (mineral supplements not recommended)</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Proteinuria</p>\n<p>Proteinuria, associated with immune complex nephritis, occurs in up to 30% of patients, but may resolve despite continuation of treatment; treatment may be continued provided that renal function tests remain normal, oedema is absent, and the 24-hour urinary excretion of protein does not exceed 2&#8239;g.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Rash</p>\n<p>Rashes are a common side-effect. Those that occur in the first few months of treatment disappear when the drug is stopped and treatment may then be re-introduced at a lower dose level and gradually increased.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Taste loss</p>\n<p>Loss of taste can occur about 6 weeks after treatment is started but usually returns 6 weeks later irrespective of whether treatment is discontinued.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Nausea</p>\n<p>Nausea may occur but is not usually a problem provided that penicillamine is taken before food or on retiring and that low initial doses are used and only gradually increased.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67450\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.15\" parent=\"/drugs/penicillamine\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityCrossSensitivity\">\n<sectiondiv>\n<p>Patients who are hypersensitive to penicillin may react rarely to penicillamine.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67287\" outputclass=\"pregnancy\" parent=\"/drugs/penicillamine\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Fetal abnormalities reported rarely; avoid if possible.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67448\" outputclass=\"breastFeeding\" parent=\"/drugs/penicillamine\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67262\" outputclass=\"renalImpairment\" parent=\"/drugs/penicillamine\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Monitor renal function or avoid (consult product literature).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67178\" outputclass=\"monitoringRequirements\" parent=\"/drugs/penicillamine\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Blood counts, including platelets, and urine examinations should be carried out before starting treatment and then every 1 or 2 weeks for the first 2 months then every 4 weeks to detect blood disorders and proteinuria (they should also be carried out in the week after any dose increase).</p>\n<p>A reduction in platelet count calls for discontinuation with subsequent re-introduction at a lower dosage and then, if possible, gradual increase.</p>\n<p>Longer intervals may be adequate in cystinuria and Wilson&#8217;s disease.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Consider withdrawal if platelet count falls below 120 000/mm<sup>3</sup> or white blood cells below 2500/mm<sup>3</sup> or if 3 successive falls within reference range (can restart at reduced dose when counts return to within reference range but permanent withdrawal necessary if recurrence of leucopenia or thrombocytopenia).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67277\" outputclass=\"patientAndCarerAdvice\" rev=\"1.16\" parent=\"/drugs/penicillamine\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Counselling on the symptoms of blood disorders is advised. Warn patient and carers to tell doctor immediately if sore throat, fever, infection, non-specific illness, unexplained bleeding and bruising, purpura, mouth ulcers, or rashes develop.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP6302-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/penicillamine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77671\" title=\"Tablet\" namespace=\"/drugs/penicillamine/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97237\" namespace=\"/guidance/adverse-reactions-to-drugs\" title=\"Adverse reactions to drugs\" count=\"2\" rel=\"backlink\">Adverse reactions to drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78195\" namespace=\"/treatment-summaries/vitamins\" title=\"Vitamins\" count=\"1\" rel=\"backlink\">Vitamins</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78421\" namespace=\"/treatment-summaries/rheumatic-disease-suppressing-drugs\" title=\"Rheumatic disease, suppressing drugs\" count=\"5\" rel=\"backlink\">Rheumatic disease, suppressing drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78614\" namespace=\"/treatment-summaries/arthritis\" title=\"Arthritis\" count=\"1\" rel=\"backlink\">Arthritis</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_658\" namespace=\"/interactions/list-of-drug-interactions/penicillamine\" title=\"Penicillamine\" count=\"1\" rel=\"link\">Penicillamine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77671\" namespace=\"/drugs/penicillamine/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP6302",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/penicillamine",
+    "basename": "penicillamine",
+    "title": "PENICILLAMINE",
+    "interactants": [
+        {
+            "id": "bnf_int_658",
+            "label": "Penicillamine"
+        }
+    ],
+    "vtmid": "4219002",
+    "drugClassification": [
+        "Copper chelators",
+        "Disease-modifying anti-rheumatic drugs"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Penicillamine aids the elimination of copper ions in Wilson's disease (hepatolenticular degeneration).",
+                "html": "<p>Penicillamine aids the elimination of copper ions in Wilson's disease (hepatolenticular degeneration).</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe active rheumatoid arthritis (administered on expert advice)",
+                        "html": "Severe active rheumatoid arthritis (administered on expert advice)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 125&#8211;250 mg daily for 1 month, then increased in steps of 125&#8211;250 mg, at intervals of not less than 4 weeks; maintenance 500&#8211;750 mg daily in divided doses, then reduced in steps of 125&#8211;250 mg every 12 weeks, dose reduction attempted only if remission sustained for 6 months; maximum 1.5 g per day.",
+                        "html": "<p>Initially 125&#8211;250&#8239;mg daily for 1 month, then increased in steps of 125&#8211;250&#8239;mg, at intervals of not less than 4 weeks; maintenance 500&#8211;750&#8239;mg daily in divided doses, then reduced in steps of 125&#8211;250&#8239;mg every 12&#8239;weeks, dose reduction attempted only if remission sustained for 6 months; maximum 1.5&#8239;g per day.</p>"
+                    },
+                    {
+                        "textContent": "Initially up to 125 mg daily for 1 month, then increased in steps of up to 125 mg, at intervals of at least 4 weeks; maximum 1 g per day.",
+                        "html": "<p>Initially up to 125&#8239;mg daily for 1 month, then increased in steps of up to 125&#8239;mg, at intervals of at least 4 weeks; maximum 1&#8239;g per day.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Wilson&#8217;s disease",
+                        "html": "Wilson&#8217;s disease"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1.5&#8211;2 g daily in divided doses, to be taken before food; maintenance 0.75&#8211;1 g daily for 1 year; maximum 2 g per day.",
+                        "html": "<p>1.5&#8211;2&#8239;g daily in divided doses, to be taken before food; maintenance 0.75&#8211;1&#8239;g daily for 1 year; maximum 2&#8239;g per day.</p>"
+                    },
+                    {
+                        "textContent": "20 mg/kg daily in divided doses, adjusted according to response; maximum 2 g per day.",
+                        "html": "<p>20&#8239;mg/kg daily in divided doses, adjusted according to response; maximum 2&#8239;g per day.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Autoimmune hepatitis (used rarely; after disease controlled with corticosteroids)",
+                        "html": "Autoimmune hepatitis (used rarely; after disease controlled with corticosteroids)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 500 mg daily in divided doses, to be increased slowly over 3 months; maintenance 1.25 g daily.",
+                        "html": "<p>Initially 500&#8239;mg daily in divided doses, to be increased slowly over 3 months; maintenance 1.25&#8239;g daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Cystinuria, therapeutic",
+                        "html": "Cystinuria, therapeutic"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;3 g daily in divided doses, to be adjusted to maintain urinary cystine below 200 mg/litre, to be taken before food.",
+                        "html": "<p>1&#8211;3&#8239;g daily in divided doses, to be adjusted to maintain urinary cystine below 200&#8239;mg/litre, to be taken before food.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Cystinuria, prophylactic",
+                        "html": "Cystinuria, prophylactic"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "0.5&#8211;1 g daily, maintain urinary cystine below 300 mg/litre and adequate fluid intake (at least 3 litres daily), to be taken at bedtime.",
+                        "html": "<p>0.5&#8211;1&#8239;g daily, maintain urinary cystine below 300&#8239;mg/litre and adequate fluid intake (at least 3&#8239;litres daily), to be taken at bedtime.</p>"
+                    },
+                    {
+                        "textContent": "Minimum dose to maintain urinary cystine below 200 mg/litre is recommended.",
+                        "html": "<p>Minimum dose to maintain urinary cystine below 200&#8239;mg/litre is recommended.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Lupus erythematosus",
+                "html": "Lupus erythematosus"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Neurological involvement in Wilson's disease",
+                "html": "Neurological involvement in Wilson's disease"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Caution with concomitant nephrotoxic drugs (increased risk of toxicity).\n\nAppendix 1 (penicillamine).",
+                "html": "<p>Caution with concomitant nephrotoxic drugs (increased risk of toxicity).</p><p>Appendix 1 (penicillamine).</p>"
+            },
+            {
+                "type": "general",
+                "textContent": "Caution with gold treatment (avoid concomitant use if adverse reactions to gold).",
+                "html": "<p>Caution with gold treatment (avoid concomitant use if adverse reactions to gold).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Anorexia",
+                        "html": "Anorexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fever",
+                        "html": "fever",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "proteinuria",
+                        "html": "proteinuria",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "breast enlargement (male and female)",
+                        "html": "breast enlargement (male and female)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "elastosis perforans",
+                        "html": "elastosis perforans",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "haematuria (withdraw immediately if cause unknown)",
+                        "html": "haematuria (withdraw immediately if cause unknown)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "mouth ulceration",
+                        "html": "mouth ulceration",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "pseudoxanthoma elasticum",
+                        "html": "pseudoxanthoma elasticum",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "skin laxity",
+                        "html": "skin laxity",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "stomatitis",
+                        "html": "stomatitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Agranulocytosis",
+                        "html": "Agranulocytosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "aplastic anaemia",
+                        "html": "aplastic anaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "bronchiolitis",
+                        "html": "bronchiolitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "cholestatic jaundice",
+                        "html": "cholestatic jaundice",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dermatomyositis",
+                        "html": "dermatomyositis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "glomerulonephritis",
+                        "html": "glomerulonephritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Goodpasture&#8217;s syndrome",
+                        "html": "Goodpasture&#8217;s syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "haemolytic anaemia",
+                        "html": "haemolytic anaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "haemolytic leucopenia",
+                        "html": "haemolytic leucopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "late rashes (consider dose reduction)",
+                        "html": "late rashes (consider dose reduction)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "lupus erythematosus",
+                        "html": "lupus erythematosus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "myasthenia gravis",
+                        "html": "myasthenia gravis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nephrotic syndrome",
+                        "html": "nephrotic syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "neuropathy (especially if neurological involvement in Wilson's disease&#8212;prophylactic pyridoxine recommended)",
+                        "html": "neuropathy (especially if neurological involvement in Wilson's disease&#8212;prophylactic pyridoxine recommended)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "neutropenia",
+                        "html": "neutropenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pancreatitis",
+                        "html": "pancreatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pemphigus",
+                        "html": "pemphigus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pneumonitis",
+                        "html": "pneumonitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "polymyositis",
+                        "html": "polymyositis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pulmonary haemorrhage",
+                        "html": "pulmonary haemorrhage",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rheumatoid arthritis",
+                        "html": "rheumatoid arthritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "septic arthritis (in patients with rheumatoid arthritis)",
+                        "html": "septic arthritis (in patients with rheumatoid arthritis)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "taste loss (mineral supplements not recommended)",
+                        "html": "taste loss (mineral supplements not recommended)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Proteinuria",
+                "textContent": "Proteinuria, associated with immune complex nephritis, occurs in up to 30% of patients, but may resolve despite continuation of treatment; treatment may be continued provided that renal function tests remain normal, oedema is absent, and the 24-hour urinary excretion of protein does not exceed 2 g.",
+                "html": "<p>Proteinuria, associated with immune complex nephritis, occurs in up to 30% of patients, but may resolve despite continuation of treatment; treatment may be continued provided that renal function tests remain normal, oedema is absent, and the 24-hour urinary excretion of protein does not exceed 2&#8239;g.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Rash",
+                "textContent": "Rashes are a common side-effect. Those that occur in the first few months of treatment disappear when the drug is stopped and treatment may then be re-introduced at a lower dose level and gradually increased.",
+                "html": "<p>Rashes are a common side-effect. Those that occur in the first few months of treatment disappear when the drug is stopped and treatment may then be re-introduced at a lower dose level and gradually increased.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Taste loss",
+                "textContent": "Loss of taste can occur about 6 weeks after treatment is started but usually returns 6 weeks later irrespective of whether treatment is discontinued.",
+                "html": "<p>Loss of taste can occur about 6 weeks after treatment is started but usually returns 6 weeks later irrespective of whether treatment is discontinued.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Nausea",
+                "textContent": "Nausea may occur but is not usually a problem provided that penicillamine is taken before food or on retiring and that low initial doses are used and only gradually increased.",
+                "html": "<p>Nausea may occur but is not usually a problem provided that penicillamine is taken before food or on retiring and that low initial doses are used and only gradually increased.</p>"
+            }
+        ]
+    },
+    "allergyAndCrossSensitivity": {
+        "crossSensitivity": [
+            {
+                "type": "crossSensitivity",
+                "textContent": "Patients who are hypersensitive to penicillin may react rarely to penicillamine.",
+                "html": "<p>Patients who are hypersensitive to penicillin may react rarely to penicillamine.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Fetal abnormalities reported rarely; avoid if possible.",
+                "html": "<p>Fetal abnormalities reported rarely; avoid if possible.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose.",
+                "html": "<p>Reduce dose.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Monitor renal function or avoid (consult product literature).",
+                "html": "<p>Monitor renal function or avoid (consult product literature).</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Blood counts, including platelets, and urine examinations should be carried out before starting treatment and then every 1 or 2 weeks for the first 2 months then every 4 weeks to detect blood disorders and proteinuria (they should also be carried out in the week after any dose increase).\n\nA reduction in platelet count calls for discontinuation with subsequent re-introduction at a lower dosage and then, if possible, gradual increase.\n\nLonger intervals may be adequate in cystinuria and Wilson&#8217;s disease.",
+                "html": "<p>Blood counts, including platelets, and urine examinations should be carried out before starting treatment and then every 1 or 2 weeks for the first 2 months then every 4 weeks to detect blood disorders and proteinuria (they should also be carried out in the week after any dose increase).</p><p>A reduction in platelet count calls for discontinuation with subsequent re-introduction at a lower dosage and then, if possible, gradual increase.</p><p>Longer intervals may be adequate in cystinuria and Wilson&#8217;s disease.</p>"
+            },
+            {
+                "type": "patientParameters",
+                "textContent": "Consider withdrawal if platelet count falls below 120 000/mm3 or white blood cells below 2500/mm3 or if 3 successive falls within reference range (can restart at reduced dose when counts return to within reference range but permanent withdrawal necessary if recurrence of leucopenia or thrombocytopenia).",
+                "html": "<p>Consider withdrawal if platelet count falls below 120 000/mm<sup>3</sup> or white blood cells below 2500/mm<sup>3</sup> or if 3 successive falls within reference range (can restart at reduced dose when counts return to within reference range but permanent withdrawal necessary if recurrence of leucopenia or thrombocytopenia).</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Counselling on the symptoms of blood disorders is advised. Warn patient and carers to tell doctor immediately if sore throat, fever, infection, non-specific illness, unexplained bleeding and bruising, purpura, mouth ulcers, or rashes develop.",
+                "html": "<p>Counselling on the symptoms of blood disorders is advised. Warn patient and carers to tell doctor immediately if sore throat, fever, infection, non-specific illness, unexplained bleeding and bruising, purpura, mouth ulcers, or rashes develop.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77671",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP97237",
+                "label": "Adverse reactions to drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78195",
+                "label": "Vitamins",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78421",
+                "label": "Rheumatic disease, suppressing drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78614",
+                "label": "Arthritis",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_658",
+                "label": "Penicillamine",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77671",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

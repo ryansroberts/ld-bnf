@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP81620\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/pentasa-retention-enema\" basename=\"pentasa-retention-enema\" title=\"Pentasa retention enema\">\n<title>Pentasa<tm tmtype=\"reg\"/> retention enema</title>\n<topic id=\"PHP83453\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/pentasa-retention-enema\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of acute attack of mild to moderate ulcerative colitis or maintenance of remission</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;g once daily, dose to be administered at bedtime.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectosigmoid region</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>1&#8239;g once daily, dose to be administered at bedtime.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81620",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/pentasa-retention-enema",
+    "basename": "pentasa-retention-enema",
+    "title": "Pentasa retention enema",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of acute attack of mild to moderate ulcerative colitis or maintenance of remission",
+                        "html": "Treatment of acute attack of mild to moderate ulcerative colitis or maintenance of remission"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 g once daily, dose to be administered at bedtime.",
+                        "html": "<p>1&#8239;g once daily, dose to be administered at bedtime.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectosigmoid region",
+                        "html": "Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectosigmoid region"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "child": [
+                    {
+                        "textContent": "1 g once daily, dose to be administered at bedtime.",
+                        "html": "<p>1&#8239;g once daily, dose to be administered at bedtime.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

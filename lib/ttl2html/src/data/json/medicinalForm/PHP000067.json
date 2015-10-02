@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP000067\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dienogest-with-estradiol-valerate/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Qlaira tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">15470011000001100</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">84</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;25.18</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94804\" title=\"DIENOGEST WITH ESTRADIOL VALERATE\" namespace=\"/drugs/dienogest-with-estradiol-valerate\">DIENOGEST WITH ESTRADIOL VALERATE</xref>\n</parents>\n</topic>",
+    "id": "PHP000067",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dienogest-with-estradiol-valerate/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Qlaira tablets (Bayer Plc) ",
+            "header": "Qlaira tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Qlaira tablets",
+            "ampid": "15470011000001100",
+            "packs": [
+                {
+                    "textContent": " 84 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">84</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "84",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;25.18 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;25.18</ph>",
+                        "nhsIndicativePrice": "&#163;25.18"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP94804",
+        "label": "DIENOGEST WITH ESTRADIOL VALERATE"
+    }
+}

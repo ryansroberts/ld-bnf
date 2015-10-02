@@ -1,0 +1,42 @@
+{
+    "xml": "<topic id=\"PHP75531\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cabazitaxel/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Ethanol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>JEVTANA 60mg/1.5ml concentrate and solvent for solution for infusion vials <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">19177911000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Cabazitaxel 40&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3696.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5557\" title=\"CABAZITAXEL\" namespace=\"/drugs/cabazitaxel\">CABAZITAXEL</xref>\n</parents>\n</topic>",
+    "id": "PHP75531",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cabazitaxel/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "excipients": [
+        "Ethanol"
+    ],
+    "products": [
+        {
+            "title": "JEVTANA 60mg/1.5ml concentrate and solvent for solution for infusion vials (Sanofi) &#9660; ",
+            "header": "JEVTANA 60mg/1.5ml concentrate and solvent for solution for infusion vials <ph outputclass=\"manufacturer\">(Sanofi)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Sanofi)",
+            "blackTriangle": "&#9660;",
+            "name": "JEVTANA 60mg/1.5ml concentrate and solvent for solution for infusion vials",
+            "ampid": "19177911000001106",
+            "strengthOfActiveIngredient": "Cabazitaxel 40 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3696.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3696.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;3696.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5557",
+        "label": "CABAZITAXEL"
+    }
+}

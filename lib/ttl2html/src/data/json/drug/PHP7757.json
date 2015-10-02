@@ -1,0 +1,750 @@
+{
+    "xml": "<topic id=\"PHP7757\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/acitretin\" basename=\"acitretin\" title=\"ACITRETIN\">\n<title>ACITRETIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_683\" namespace=\"/interactions/list-of-drug-interactions/retinoids/acitretin\">Acitretin</xref>\n</p>\n<data name=\"vtmid\">108914001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_527690857\" title=\"Retinoid and related drugs\">Retinoid and related drugs</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP60144\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/acitretin\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Acitretin is a metabolite of etretinate.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60086\" outputclass=\"indicationsAndDose\" rev=\"1.29\" parent=\"/drugs/acitretin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe extensive psoriasis resistant to other forms of therapy</p>\n<p outputclass=\"therapeuticIndication\">Palmoplantar pustular psoriasis</p>\n<p outputclass=\"therapeuticIndication\">Severe congenital ichthyosis (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 25&#8211;30&#8239;mg daily for 2&#8211;4 weeks, then adjusted according to response to 25&#8211;50&#8239;mg daily, increased to up to 75&#8239;mg daily, dose only increased to 75&#8239;mg daily for short periods in psoriasis.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe Darier&#8217;s disease (keratosis follicularis) (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 10&#8239;mg daily for 2&#8211;4 weeks, then adjusted according to response to 25&#8211;50&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60187\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drugs/acitretin\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Hyperlipidaemia</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60216\" outputclass=\"cautions\" rev=\"1.22\" parent=\"/drugs/acitretin\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Avoid excessive exposure to sunlight and unsupervised use of sunlamps</ph>; <ph outputclass=\"caution\">diabetes (can alter glucose tolerance&#8212;initial frequent blood glucose checks)</ph>; <ph outputclass=\"caution\">do not donate blood during and for 2 years after stopping therapy (teratogenic risk)</ph>; <ph outputclass=\"caution\">in children use only in exceptional circumstances and monitor growth parameters and bone development (premature epiphyseal closure reported)</ph>; <ph outputclass=\"caution\">investigate atypical musculoskeletal symptoms</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60057\" outputclass=\"interactions\" rev=\"1.10\" parent=\"/drugs/acitretin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (retinoids).</p>\n<p>Avoid concomitant use of keratolytics.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59977\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drugs/acitretin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain</ph>; <ph outputclass=\"sideEffect\">abnormal hair texture</ph>; <ph outputclass=\"sideEffect\">alopecia (reversible on withdrawal)</ph>; <ph outputclass=\"sideEffect\">arthralgia</ph>; <ph outputclass=\"sideEffect\">brittle nails</ph>; <ph outputclass=\"sideEffect\">dermatitis</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dryness and inflammation of mucous membranes</ph>; <ph outputclass=\"sideEffect\">dryness of conjunctiva (causing conjunctivitis and decreased tolerance to contact lenses)</ph>; <ph outputclass=\"sideEffect\">epidermal fragility</ph>; <ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">paronychia</ph>; <ph outputclass=\"sideEffect\">peripheral oedema</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">reversible increase in serum-cholesterol (with high doses)</ph>; <ph outputclass=\"sideEffect\">reversible increase in serum-triglyceride concentrations (with high doses)</ph>; <ph outputclass=\"sideEffect\">skin exfoliation</ph>; <ph outputclass=\"sideEffect\">sticky skin</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dizziness</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">photosensitivity</ph>; <ph outputclass=\"sideEffect\">visual disturbances</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Peripheral neuropathy</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Benign intracranial hypertension</ph>; <ph outputclass=\"sideEffect\">bone pain</ph>; <ph outputclass=\"sideEffect\">exostosis</ph>; <ph outputclass=\"sideEffect\">night blindness</ph>; <ph outputclass=\"sideEffect\">ulcerative keratitis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Drowsiness</ph>; <ph outputclass=\"sideEffect\">dry skin</ph>; <ph outputclass=\"sideEffect\">flushing</ph>; <ph outputclass=\"sideEffect\">granulomatous lesions</ph>; <ph outputclass=\"sideEffect\">impaired hearing</ph>; <ph outputclass=\"sideEffect\">initial worsening of psoriasis</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">rectal haemorrhage</ph>; <ph outputclass=\"sideEffect\">sweating</ph>; <ph outputclass=\"sideEffect\">taste disturbance</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Exostosis</p>\n<p> Skeletal hyperostosis and extra-osseous calcification reported following long-term treatment with etretinate (of which Acitretin is a metabolite) and premature epiphyseal closure in children.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Benign intracranial hypertension</p>\n<p>Discontinue if severe headache, nausea, vomiting, or visual disturbances occur.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60205\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/acitretin\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Effective contraception must be used.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Pregnancy prevention</p>\n<p>In females of child-bearing potential (including those with a history of infertility), exclude pregnancy up to 3 days before treatment, every month during treatment, and every 1&#8211;3 months for 3 years after stopping treatment. Treatment should be started on day 2 or 3 of menstrual cycle. Females of child-bearing age must practise effective contraception for at least 1 month before starting treatment, during treatment, and for at least 3 years after stopping treatment. Females should be advised to use at least 1 method of contraception, but ideally they should use 2 methods of contraception. Oral progestogen-only contraceptives are not considered effective. Barrier methods should not be used alone but can be used in conjunction with other contraceptive methods. Females should be advised to seek medical attention immediately if they become pregnant during treatment or within 3 years of stopping treatment. They should also be advised to avoid alcohol during treatment and for 2 months after stopping treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60036\" outputclass=\"pregnancy\" parent=\"/drugs/acitretin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;teratogenic.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60237\" outputclass=\"breastFeeding\" parent=\"/drugs/acitretin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60118\" outputclass=\"hepaticImpairment\" parent=\"/drugs/acitretin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe impairment&#8212;risk of further impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60015\" outputclass=\"renalImpairment\" parent=\"/drugs/acitretin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe impairment; increased risk of toxicity.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59920\" outputclass=\"monitoringRequirements\" parent=\"/drugs/acitretin\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Check liver function at start, then every 2&#8211;4 weeks for first 2 months and then every 3 months.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Monitor serum-triglyceride and serum-cholesterol concentrations before treatment, 1 month after starting, then every 3 months.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61602\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/drugs/acitretin\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Each prescription for acitretin should be limited to a supply of up to 30 days&#8217; treatment and dispensed within 7 days of the date stated on the prescription.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60029\" outputclass=\"patientAndCarerAdvice\" rev=\"1.12\" parent=\"/drugs/acitretin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"patientResources\">\n<sectiondiv>\n<p>A patient information leaflet should be provided.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Females of child-bearing potential must be advised on pregnancy prevention.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP7757-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/acitretin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution, oral suspension</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76104\" title=\"Capsule\" namespace=\"/drugs/acitretin/capsule\">Capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78319\" namespace=\"/treatment-summaries/psoriasis\" title=\"Psoriasis\" count=\"6\" rel=\"backlink\">Psoriasis</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_683\" namespace=\"/interactions/list-of-drug-interactions/retinoids/acitretin\" title=\"Acitretin\" count=\"1\" rel=\"link\">Acitretin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76104\" namespace=\"/drugs/acitretin/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n</links>\n</topic>",
+    "id": "PHP7757",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/acitretin",
+    "basename": "acitretin",
+    "title": "ACITRETIN",
+    "interactants": [
+        {
+            "id": "bnf_int_683",
+            "label": "Acitretin"
+        }
+    ],
+    "vtmid": "108914001",
+    "drugClassification": [
+        "Retinoid and related drugs"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Acitretin is a metabolite of etretinate.",
+                "html": "<p>Acitretin is a metabolite of etretinate.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe extensive psoriasis resistant to other forms of therapy",
+                        "html": "Severe extensive psoriasis resistant to other forms of therapy"
+                    },
+                    {
+                        "textContent": "Palmoplantar pustular psoriasis",
+                        "html": "Palmoplantar pustular psoriasis"
+                    },
+                    {
+                        "textContent": "Severe congenital ichthyosis (under expert supervision)",
+                        "html": "Severe congenital ichthyosis (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 25&#8211;30 mg daily for 2&#8211;4 weeks, then adjusted according to response to 25&#8211;50 mg daily, increased to up to 75 mg daily, dose only increased to 75 mg daily for short periods in psoriasis.",
+                        "html": "<p>Initially 25&#8211;30&#8239;mg daily for 2&#8211;4 weeks, then adjusted according to response to 25&#8211;50&#8239;mg daily, increased to up to 75&#8239;mg daily, dose only increased to 75&#8239;mg daily for short periods in psoriasis.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe Darier&#8217;s disease (keratosis follicularis) (under expert supervision)",
+                        "html": "Severe Darier&#8217;s disease (keratosis follicularis) (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 10 mg daily for 2&#8211;4 weeks, then adjusted according to response to 25&#8211;50 mg daily.",
+                        "html": "<p>Initially 10&#8239;mg daily for 2&#8211;4 weeks, then adjusted according to response to 25&#8211;50&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Hyperlipidaemia",
+                "html": "Hyperlipidaemia"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid excessive exposure to sunlight and unsupervised use of sunlamps",
+                "html": "Avoid excessive exposure to sunlight and unsupervised use of sunlamps"
+            },
+            {
+                "type": "cautions",
+                "textContent": "diabetes (can alter glucose tolerance&#8212;initial frequent blood glucose checks)",
+                "html": "diabetes (can alter glucose tolerance&#8212;initial frequent blood glucose checks)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "do not donate blood during and for 2 years after stopping therapy (teratogenic risk)",
+                "html": "do not donate blood during and for 2 years after stopping therapy (teratogenic risk)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "in children use only in exceptional circumstances and monitor growth parameters and bone development (premature epiphyseal closure reported)",
+                "html": "in children use only in exceptional circumstances and monitor growth parameters and bone development (premature epiphyseal closure reported)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "investigate atypical musculoskeletal symptoms",
+                "html": "investigate atypical musculoskeletal symptoms"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (retinoids).\n\nAvoid concomitant use of keratolytics.",
+                "html": "<p>Appendix 1 (retinoids).</p><p>Avoid concomitant use of keratolytics.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain",
+                        "html": "Abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "abnormal hair texture",
+                        "html": "abnormal hair texture",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "alopecia (reversible on withdrawal)",
+                        "html": "alopecia (reversible on withdrawal)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arthralgia",
+                        "html": "arthralgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "brittle nails",
+                        "html": "brittle nails",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dermatitis",
+                        "html": "dermatitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dryness and inflammation of mucous membranes",
+                        "html": "dryness and inflammation of mucous membranes",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dryness of conjunctiva (causing conjunctivitis and decreased tolerance to contact lenses)",
+                        "html": "dryness of conjunctiva (causing conjunctivitis and decreased tolerance to contact lenses)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "epidermal fragility",
+                        "html": "epidermal fragility",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paronychia",
+                        "html": "paronychia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "peripheral oedema",
+                        "html": "peripheral oedema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "reversible increase in serum-cholesterol (with high doses)",
+                        "html": "reversible increase in serum-cholesterol (with high doses)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "reversible increase in serum-triglyceride concentrations (with high doses)",
+                        "html": "reversible increase in serum-triglyceride concentrations (with high doses)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "skin exfoliation",
+                        "html": "skin exfoliation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sticky skin",
+                        "html": "sticky skin",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Dizziness",
+                        "html": "Dizziness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "photosensitivity",
+                        "html": "photosensitivity",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "visual disturbances",
+                        "html": "visual disturbances",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Peripheral neuropathy",
+                        "html": "Peripheral neuropathy",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Benign intracranial hypertension",
+                        "html": "Benign intracranial hypertension",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "bone pain",
+                        "html": "bone pain",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "exostosis",
+                        "html": "exostosis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "night blindness",
+                        "html": "night blindness",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "ulcerative keratitis",
+                        "html": "ulcerative keratitis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Drowsiness",
+                        "html": "Drowsiness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dry skin",
+                        "html": "dry skin",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "flushing",
+                        "html": "flushing",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "granulomatous lesions",
+                        "html": "granulomatous lesions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "impaired hearing",
+                        "html": "impaired hearing",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "initial worsening of psoriasis",
+                        "html": "initial worsening of psoriasis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rectal haemorrhage",
+                        "html": "rectal haemorrhage",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "sweating",
+                        "html": "sweating",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "taste disturbance",
+                        "html": "taste disturbance",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Exostosis",
+                "textContent": "Skeletal hyperostosis and extra-osseous calcification reported following long-term treatment with etretinate (of which Acitretin is a metabolite) and premature epiphyseal closure in children.",
+                "html": "<p> Skeletal hyperostosis and extra-osseous calcification reported following long-term treatment with etretinate (of which Acitretin is a metabolite) and premature epiphyseal closure in children.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Benign intracranial hypertension",
+                "textContent": "Discontinue if severe headache, nausea, vomiting, or visual disturbances occur.",
+                "html": "<p>Discontinue if severe headache, nausea, vomiting, or visual disturbances occur.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Effective contraception must be used.",
+                "html": "<p>Effective contraception must be used.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "title": "Pregnancy prevention",
+                "textContent": "In females of child-bearing potential (including those with a history of infertility), exclude pregnancy up to 3 days before treatment, every month during treatment, and every 1&#8211;3 months for 3 years after stopping treatment. Treatment should be started on day 2 or 3 of menstrual cycle. Females of child-bearing age must practise effective contraception for at least 1 month before starting treatment, during treatment, and for at least 3 years after stopping treatment. Females should be advised to use at least 1 method of contraception, but ideally they should use 2 methods of contraception. Oral progestogen-only contraceptives are not considered effective. Barrier methods should not be used alone but can be used in conjunction with other contraceptive methods. Females should be advised to seek medical attention immediately if they become pregnant during treatment or within 3 years of stopping treatment. They should also be advised to avoid alcohol during treatment and for 2 months after stopping treatment.",
+                "html": "<p>In females of child-bearing potential (including those with a history of infertility), exclude pregnancy up to 3 days before treatment, every month during treatment, and every 1&#8211;3 months for 3 years after stopping treatment. Treatment should be started on day 2 or 3 of menstrual cycle. Females of child-bearing age must practise effective contraception for at least 1 month before starting treatment, during treatment, and for at least 3 years after stopping treatment. Females should be advised to use at least 1 method of contraception, but ideally they should use 2 methods of contraception. Oral progestogen-only contraceptives are not considered effective. Barrier methods should not be used alone but can be used in conjunction with other contraceptive methods. Females should be advised to seek medical attention immediately if they become pregnant during treatment or within 3 years of stopping treatment. They should also be advised to avoid alcohol during treatment and for 2 months after stopping treatment.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;teratogenic.",
+                "html": "<p>Avoid&#8212;teratogenic.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid.",
+                "html": "<p>Avoid.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe impairment&#8212;risk of further impairment.",
+                "html": "<p>Avoid in severe impairment&#8212;risk of further impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe impairment; increased risk of toxicity.",
+                "html": "<p>Avoid in severe impairment; increased risk of toxicity.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Check liver function at start, then every 2&#8211;4 weeks for first 2 months and then every 3 months.",
+                "html": "<p>Check liver function at start, then every 2&#8211;4 weeks for first 2 months and then every 3 months.</p>"
+            },
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor serum-triglyceride and serum-cholesterol concentrations before treatment, 1 month after starting, then every 3 months.",
+                "html": "<p>Monitor serum-triglyceride and serum-cholesterol concentrations before treatment, 1 month after starting, then every 3 months.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Each prescription for acitretin should be limited to a supply of up to 30 days&#8217; treatment and dispensed within 7 days of the date stated on the prescription.",
+                "html": "<p>Each prescription for acitretin should be limited to a supply of up to 30 days&#8217; treatment and dispensed within 7 days of the date stated on the prescription.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "textContent": "A patient information leaflet should be provided.",
+                "html": "<p>A patient information leaflet should be provided.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Females of child-bearing potential must be advised on pregnancy prevention.",
+                "html": "<p>Females of child-bearing potential must be advised on pregnancy prevention.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution",
+                "oral suspension"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76104",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78319",
+                "label": "Psoriasis",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_683",
+                "label": "Acitretin",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76104",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "xml": "<topic id=\"PHP34493\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/ivermectin\" basename=\"ivermectin\" title=\"IVERMECTIN\">\n<title>IVERMECTIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1369\" namespace=\"/interactions/list-of-drug-interactions/anthelmintics/ivermectin\">Ivermectin</xref>\n</p>\n<data name=\"vtmid\">96138006</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_438434956\" title=\"Anthelmintics\">Anthelmintics</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP58987\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/drugs/ivermectin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic <ph outputclass=\"organism\">\n<i>Strongyloides</i>\n</ph> infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;micrograms/kg daily for 2 days.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">\n<ph outputclass=\"organism\">\n<i>Onchocerciasis</i>\n</ph>\n</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>150&#8239;micrograms/kg for 1 dose, retreatment at intervals of 6 to 12 months may be required depending on symptoms.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Scabies, in combination with topical drugs, for the treatment of hyperkeratotic (crusted or &#8216;Norwegian&#8217;) scabies that does not respond to topical treatment alone</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;micrograms/kg for 1 dose, further doses of 200&#8239;micrograms/kg may be required.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58952\" outputclass=\"unlicensedUse\" rev=\"1.11\" parent=\"/drugs/ivermectin\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Ivermectin is an unlicensed drug.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58983\" outputclass=\"interactions\" rev=\"1.8\" parent=\"/drugs/ivermectin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (ivermectin).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58964\" outputclass=\"sideEffects\" rev=\"1.15\" parent=\"/drugs/ivermectin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Aggravation of itching</ph>; <ph outputclass=\"sideEffect\">aggravation of rash</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP34493-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/ivermectin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: tablet</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP000076\" title=\"Cream\" namespace=\"/drugs/ivermectin/cream\">Cream</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78284\" namespace=\"/treatment-summaries/skin-infections\" title=\"Skin infections\" count=\"1\" rel=\"backlink\">Skin infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78420\" namespace=\"/treatment-summaries/helminth-infections\" title=\"Helminth infections\" count=\"3\" rel=\"backlink\">Helminth infections</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1369\" namespace=\"/interactions/list-of-drug-interactions/anthelmintics/ivermectin\" title=\"Ivermectin\" count=\"1\" rel=\"link\">Ivermectin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP000076\" namespace=\"/drugs/ivermectin/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n</links>\n</topic>",
+    "id": "PHP34493",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/ivermectin",
+    "basename": "ivermectin",
+    "title": "IVERMECTIN",
+    "interactants": [
+        {
+            "id": "bnf_int_1369",
+            "label": "Ivermectin"
+        }
+    ],
+    "vtmid": "96138006",
+    "drugClassification": [
+        "Anthelmintics"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic Strongyloides infection",
+                        "html": "Chronic <ph outputclass=\"organism\"> <i>Strongyloides</i> </ph> infection",
+                        "organism": "Strongyloides"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth",
+                    "organism": "Strongyloides"
+                },
+                "adult": [
+                    {
+                        "textContent": "200 micrograms/kg daily for 2 days.",
+                        "html": "<p>200&#8239;micrograms/kg daily for 2 days.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Onchocerciasis",
+                        "html": "<ph outputclass=\"organism\"> <i>Onchocerciasis</i> </ph>",
+                        "organism": "Onchocerciasis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth",
+                    "organism": "Onchocerciasis"
+                },
+                "adult": [
+                    {
+                        "textContent": "150 micrograms/kg for 1 dose, retreatment at intervals of 6 to 12 months may be required depending on symptoms.",
+                        "html": "<p>150&#8239;micrograms/kg for 1 dose, retreatment at intervals of 6 to 12 months may be required depending on symptoms.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Scabies, in combination with topical drugs, for the treatment of hyperkeratotic (crusted or &#8216;Norwegian&#8217;) scabies that does not respond to topical treatment alone",
+                        "html": "Scabies, in combination with topical drugs, for the treatment of hyperkeratotic (crusted or &#8216;Norwegian&#8217;) scabies that does not respond to topical treatment alone"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "200 micrograms/kg for 1 dose, further doses of 200 micrograms/kg may be required.",
+                        "html": "<p>200&#8239;micrograms/kg for 1 dose, further doses of 200&#8239;micrograms/kg may be required.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Ivermectin is an unlicensed drug.",
+                "html": "<p>Ivermectin is an unlicensed drug.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (ivermectin).",
+                "html": "<p>Appendix 1 (ivermectin).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Aggravation of itching",
+                        "html": "Aggravation of itching",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "aggravation of rash",
+                        "html": "aggravation of rash",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "tablet"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP000076",
+                "label": "Cream",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78284",
+                "label": "Skin infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78420",
+                "label": "Helminth infections",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1369",
+                "label": "Ivermectin",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP000076",
+                "label": "Cream",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

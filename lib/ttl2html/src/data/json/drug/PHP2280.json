@@ -1,0 +1,734 @@
+{
+    "xml": "<topic id=\"PHP2280\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/paliperidone\" basename=\"paliperidone\" title=\"PALIPERIDONE\">\n<title>PALIPERIDONE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1101\" namespace=\"/interactions/list-of-drug-interactions/antipsychotics/paliperidone\">Paliperidone</xref>\n</p>\n<data name=\"vtmid\">425483000</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_358387308\" title=\"Antipsychotics (second-generation)\">Antipsychotics (second-generation)</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_850282295\" title=\"Antipsychotics (second-generation, depot injections)\">Antipsychotics (second-generation, depot injections)</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34569\" title=\"ANTIPSYCHOTIC DRUGS\" namespace=\"/drug-classes/antipsychotic-drugs\">ANTIPSYCHOTIC DRUGS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP49158\" outputclass=\"drugAction\" rev=\"1.6\" parent=\"/drugs/paliperidone\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Paliperidone is a metabolite of risperidone.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49113\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/drugs/paliperidone\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Maintenance in schizophrenia in patients previously responsive to paliperidone or risperidone</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>150&#8239;mg for 1 dose on day 1, then 100&#8239;mg for 1 dose on day 8, to be injected into the deltoid muscle, dose subsequently adjusted at monthly intervals according to response; maintenance 75&#8239;mg once a month, alternatively maintenance 25&#8211;150&#8239;mg once a month, following the second dose, monthly maintenance doses can be administered into either the deltoid or gluteal muscle, for missed doses see product literature.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Schizophrenia</p>\n<p outputclass=\"therapeuticIndication\">Psychotic or manic symptoms of schizoaffective disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>6&#8239;mg once daily, dose to be taken in the morning, then adjusted in steps of 3&#8239;mg if required, dose to be adjusted over at least 5 days; usual dose 3&#8211;12&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49168\" outputclass=\"contraindications\" rev=\"1.15\" parent=\"/drugs/paliperidone\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<sectiondiv outputclass=\"additionalContraindications\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With intramuscular use</p>\n<p>\n<ph outputclass=\"contraindication\">children</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49204\" outputclass=\"cautions\" rev=\"1.15\" parent=\"/drugs/paliperidone\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<title>General cautions:</title>\n<p>\n<ph outputclass=\"caution\">Cataract surgery (risk of intraoperative floppy iris syndrome)</ph>; <ph outputclass=\"caution\">elderly patients with dementia</ph>; <ph outputclass=\"caution\">elderly patients with risk factors for stroke</ph>; <ph outputclass=\"caution\">predisposition to gastro-intestinal obstruction</ph>; <ph outputclass=\"caution\">prolactin-dependent tumours</ph>\n</p>\n<sectiondiv outputclass=\"additionalCautions\">\n<p outputclass=\"title\">Specific cautions:</p>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With intramuscular use</p>\n<p>\n<ph outputclass=\"caution\">when transferring from oral to depot therapy, the dose by mouth should be reduced gradually</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48965\" outputclass=\"sideEffects\" rev=\"1.10\" parent=\"/drugs/paliperidone\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<title>General side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anxiety</ph>; <ph outputclass=\"sideEffect\">appetite changes</ph>; <ph outputclass=\"sideEffect\">arthralgia</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">epistaxis</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">infection</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">oedema</ph>; <ph outputclass=\"sideEffect\">respiratory disorders</ph>; <ph outputclass=\"sideEffect\">sleep disorders</ph>; <ph outputclass=\"sideEffect\">toothache</ph>; <ph outputclass=\"sideEffect\">urinary disorders</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">elevated plasma-cholesterol concentrations</ph>; <ph outputclass=\"sideEffect\">elevated plasma-triglyceride concentrations</ph>; <ph outputclass=\"sideEffect\">hypoaesthesia</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">taste disturbances</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>; <ph outputclass=\"sideEffect\">visual disorders</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Inappropriate antidiuretic hormone secretion</ph>; <ph outputclass=\"sideEffect\">intestinal obstruction</ph>; <ph outputclass=\"sideEffect\">intra-operative floppy iris syndrome</ph>; <ph outputclass=\"sideEffect\">pancreatitis</ph>; <ph outputclass=\"sideEffect\">pulmonary embolism</ph>; <ph outputclass=\"sideEffect\">rhabdomyolysis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"specificSideEffects\">\n<title>Specific side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intramuscular use</p>\n<p>\n<ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">nodules</ph>; <ph outputclass=\"sideEffect\">pain at injection site</ph>; <ph outputclass=\"sideEffect\">swelling</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use</p>\n<p>If the dose needs to be reduced to alleviate side-effects, it is important to recognise that the plasma-drug concentration may not fall for some time after reducing the dose, therefore it may be a month or longer before side-effects subside.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49090\" outputclass=\"pregnancy\" parent=\"/drugs/paliperidone\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use only if potential benefit outweighs risk&#8212;toxicity in <i>animal</i> studies; if discontinuation during pregnancy is necessary, withdraw gradually.</p>\n<p>Extrapyramidal effects and withdrawal syndrome have been reported occasionally in the neonate when antipsychotic drugs are taken during the third trimester of pregnancy.</p>\n<p>Following maternal use of antipsychotic drugs in the third trimester, neonates should be monitored for symptoms including agitation, hypertonia, hypotonia, tremor, drowsiness, feeding problems, and respiratory distress.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49215\" outputclass=\"breastFeeding\" parent=\"/drugs/paliperidone\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;present in milk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49144\" outputclass=\"hepaticImpairment\" parent=\"/drugs/paliperidone\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Caution in severe impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49059\" outputclass=\"renalImpairment\" parent=\"/drugs/paliperidone\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Initially 3&#8239;mg once daily if eGFR 50&#8211;80&#8239;mL/minute/1.73&#8239;m<sup>2</sup> (max. 6&#8239;mg once daily).</p>\n<p>Initially 1.5&#8239;mg once daily if eGFR 10&#8211;50&#8239;mL/minute/1.73&#8239;m<sup>2</sup> (max. 3&#8239;mg once daily).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use</p>\n<p>Initial dose 100&#8239;mg on day 1 and then 75&#8239;mg on day 8 if eGFR 50&#8211;80&#8239;mL/minute/1.73&#8239;m<sup>2</sup>; recommended maintenance dose 50&#8239;mg (range 25&#8211;100&#8239;mg) monthly if eGFR 50&#8211;80&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Avoid if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use</p>\n<p>Avoid if eGFR less than 50&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48935\" outputclass=\"monitoringRequirements\" parent=\"/drugs/paliperidone\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use</p>\n<p>Treatment requires careful monitoring for optimum effect.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49232\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/drugs/paliperidone\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use</p>\n<p>Correct injection technique (including the use of z-track technique) and rotation of injection sites are essential.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Always take with breakfast or always take on an empty stomach.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49076\" outputclass=\"patientAndCarerAdvice\" rev=\"1.8\" parent=\"/drugs/paliperidone\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundMissedDoses\">\n<title>Missed doses</title>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use</p>\n<p>For missed doses see product literature.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Patients or carers should be given advice on how to administer paliperidone tablets.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP2280-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/paliperidone\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77932\" title=\"Modified-release tablet\" namespace=\"/drugs/paliperidone/modified-release-tablet\">Modified-release tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74586\" title=\"Suspension for injection\" namespace=\"/drugs/paliperidone/suspension-for-injection\">Suspension for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1101\" namespace=\"/interactions/list-of-drug-interactions/antipsychotics/paliperidone\" title=\"Paliperidone\" count=\"1\" rel=\"link\">Paliperidone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34569\" namespace=\"/drug-classes/antipsychotic-drugs\" title=\"ANTIPSYCHOTIC DRUGS\" count=\"1\" rel=\"link\">ANTIPSYCHOTIC DRUGS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77932\" namespace=\"/drugs/paliperidone/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74586\" namespace=\"/drugs/paliperidone/suspension-for-injection\" title=\"Suspension for injection\" count=\"1\" rel=\"link\">Suspension for injection</xref>\n</links>\n</topic>",
+    "id": "PHP2280",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/paliperidone",
+    "basename": "paliperidone",
+    "title": "PALIPERIDONE",
+    "interactants": [
+        {
+            "id": "bnf_int_1101",
+            "label": "Paliperidone"
+        }
+    ],
+    "vtmid": "425483000",
+    "drugClassification": [
+        "Antipsychotics (second-generation)",
+        "Antipsychotics (second-generation, depot injections)"
+    ],
+    "inheritsFromClass": [
+        "ANTIPSYCHOTIC DRUGS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Paliperidone is a metabolite of risperidone.",
+                "html": "<p>Paliperidone is a metabolite of risperidone.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Maintenance in schizophrenia in patients previously responsive to paliperidone or risperidone",
+                        "html": "Maintenance in schizophrenia in patients previously responsive to paliperidone or risperidone"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "150 mg for 1 dose on day 1, then 100 mg for 1 dose on day 8, to be injected into the deltoid muscle, dose subsequently adjusted at monthly intervals according to response; maintenance 75 mg once a month, alternatively maintenance 25&#8211;150 mg once a month, following the second dose, monthly maintenance doses can be administered into either the deltoid or gluteal muscle, for missed doses see product literature.",
+                        "html": "<p>150&#8239;mg for 1 dose on day 1, then 100&#8239;mg for 1 dose on day 8, to be injected into the deltoid muscle, dose subsequently adjusted at monthly intervals according to response; maintenance 75&#8239;mg once a month, alternatively maintenance 25&#8211;150&#8239;mg once a month, following the second dose, monthly maintenance doses can be administered into either the deltoid or gluteal muscle, for missed doses see product literature.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Schizophrenia",
+                        "html": "Schizophrenia"
+                    },
+                    {
+                        "textContent": "Psychotic or manic symptoms of schizoaffective disorder",
+                        "html": "Psychotic or manic symptoms of schizoaffective disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "6 mg once daily, dose to be taken in the morning, then adjusted in steps of 3 mg if required, dose to be adjusted over at least 5 days; usual dose 3&#8211;12 mg daily.",
+                        "html": "<p>6&#8239;mg once daily, dose to be taken in the morning, then adjusted in steps of 3&#8239;mg if required, dose to be adjusted over at least 5 days; usual dose 3&#8211;12&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "children",
+                "html": "children",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With intramuscular use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                }
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Cataract surgery (risk of intraoperative floppy iris syndrome)",
+                "html": "Cataract surgery (risk of intraoperative floppy iris syndrome)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly patients with dementia",
+                "html": "elderly patients with dementia"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly patients with risk factors for stroke",
+                "html": "elderly patients with risk factors for stroke"
+            },
+            {
+                "type": "cautions",
+                "textContent": "predisposition to gastro-intestinal obstruction",
+                "html": "predisposition to gastro-intestinal obstruction"
+            },
+            {
+                "type": "cautions",
+                "textContent": "prolactin-dependent tumours",
+                "html": "prolactin-dependent tumours"
+            }
+        ],
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "when transferring from oral to depot therapy, the dose by mouth should be reduced gradually",
+                "html": "when transferring from oral to depot therapy, the dose by mouth should be reduced gradually",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With intramuscular use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                }
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Anxiety",
+                        "html": "Anxiety",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "appetite changes",
+                        "html": "appetite changes",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arthralgia",
+                        "html": "arthralgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "epistaxis",
+                        "html": "epistaxis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "infection",
+                        "html": "infection",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "oedema",
+                        "html": "oedema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "respiratory disorders",
+                        "html": "respiratory disorders",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sleep disorders",
+                        "html": "sleep disorders",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "toothache",
+                        "html": "toothache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "urinary disorders",
+                        "html": "urinary disorders",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "elevated plasma-cholesterol concentrations",
+                        "html": "elevated plasma-cholesterol concentrations",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "elevated plasma-triglyceride concentrations",
+                        "html": "elevated plasma-triglyceride concentrations",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypoaesthesia",
+                        "html": "hypoaesthesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "taste disturbances",
+                        "html": "taste disturbances",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "visual disorders",
+                        "html": "visual disorders",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Inappropriate antidiuretic hormone secretion",
+                        "html": "Inappropriate antidiuretic hormone secretion",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "intestinal obstruction",
+                        "html": "intestinal obstruction",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "intra-operative floppy iris syndrome",
+                        "html": "intra-operative floppy iris syndrome",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "pancreatitis",
+                        "html": "pancreatitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "pulmonary embolism",
+                        "html": "pulmonary embolism",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "rhabdomyolysis",
+                        "html": "rhabdomyolysis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ]
+            }
+        },
+        "specific": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intramuscular use",
+                            "html": "With intramuscular use",
+                            "routes": [
+                                "intramuscular"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nodules",
+                        "html": "nodules",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intramuscular use",
+                            "html": "With intramuscular use",
+                            "routes": [
+                                "intramuscular"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "pain at injection site",
+                        "html": "pain at injection site",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intramuscular use",
+                            "html": "With intramuscular use",
+                            "routes": [
+                                "intramuscular"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "swelling",
+                        "html": "swelling",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intramuscular use",
+                            "html": "With intramuscular use",
+                            "routes": [
+                                "intramuscular"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                },
+                "textContent": "If the dose needs to be reduced to alleviate side-effects, it is important to recognise that the plasma-drug concentration may not fall for some time after reducing the dose, therefore it may be a month or longer before side-effects subside.",
+                "html": "<p>If the dose needs to be reduced to alleviate side-effects, it is important to recognise that the plasma-drug concentration may not fall for some time after reducing the dose, therefore it may be a month or longer before side-effects subside.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use only if potential benefit outweighs risk&#8212;toxicity in animal studies; if discontinuation during pregnancy is necessary, withdraw gradually.\n\nExtrapyramidal effects and withdrawal syndrome have been reported occasionally in the neonate when antipsychotic drugs are taken during the third trimester of pregnancy.\n\nFollowing maternal use of antipsychotic drugs in the third trimester, neonates should be monitored for symptoms including agitation, hypertonia, hypotonia, tremor, drowsiness, feeding problems, and respiratory distress.",
+                "html": "<p>Use only if potential benefit outweighs risk&#8212;toxicity in <i>animal</i> studies; if discontinuation during pregnancy is necessary, withdraw gradually.</p><p>Extrapyramidal effects and withdrawal syndrome have been reported occasionally in the neonate when antipsychotic drugs are taken during the third trimester of pregnancy.</p><p>Following maternal use of antipsychotic drugs in the third trimester, neonates should be monitored for symptoms including agitation, hypertonia, hypotonia, tremor, drowsiness, feeding problems, and respiratory distress.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;present in milk.",
+                "html": "<p>Avoid&#8212;present in milk.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Caution in severe impairment&#8212;no information available.",
+                "html": "<p>Caution in severe impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Initially 3 mg once daily if eGFR 50&#8211;80 mL/minute/1.73 m2 (max. 6 mg once daily).\n\nInitially 1.5 mg once daily if eGFR 10&#8211;50 mL/minute/1.73 m2 (max. 3 mg once daily).",
+                "html": "<p>Initially 3&#8239;mg once daily if eGFR 50&#8211;80&#8239;mL/minute/1.73&#8239;m<sup>2</sup> (max. 6&#8239;mg once daily).</p><p>Initially 1.5&#8239;mg once daily if eGFR 10&#8211;50&#8239;mL/minute/1.73&#8239;m<sup>2</sup> (max. 3&#8239;mg once daily).</p>"
+            },
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                },
+                "textContent": "Initial dose 100 mg on day 1 and then 75 mg on day 8 if eGFR 50&#8211;80 mL/minute/1.73 m2; recommended maintenance dose 50 mg (range 25&#8211;100 mg) monthly if eGFR 50&#8211;80 mL/minute/1.73 m2.",
+                "html": "<p>Initial dose 100&#8239;mg on day 1 and then 75&#8239;mg on day 8 if eGFR 50&#8211;80&#8239;mL/minute/1.73&#8239;m<sup>2</sup>; recommended maintenance dose 50&#8239;mg (range 25&#8211;100&#8239;mg) monthly if eGFR 50&#8211;80&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid if eGFR less than 10 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                },
+                "textContent": "Avoid if eGFR less than 50 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 50&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                },
+                "textContent": "Treatment requires careful monitoring for optimum effect.",
+                "html": "<p>Treatment requires careful monitoring for optimum effect.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                },
+                "textContent": "Correct injection technique (including the use of z-track technique) and rotation of injection sites are essential.",
+                "html": "<p>Correct injection technique (including the use of z-track technique) and rotation of injection sites are essential.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Always take with breakfast or always take on an empty stomach.",
+                "html": "<p>Always take with breakfast or always take on an empty stomach.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundMissedDoses": [
+            {
+                "type": "adviceAroundMissedDoses",
+                "specificity": {
+                    "textContent": "With intramuscular use",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use",
+                    "routes": [
+                        "intramuscular"
+                    ]
+                },
+                "textContent": "For missed doses see product literature.",
+                "html": "<p>For missed doses see product literature.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Patients or carers should be given advice on how to administer paliperidone tablets.",
+                "html": "<p>Patients or carers should be given advice on how to administer paliperidone tablets.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77932",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74586",
+                "label": "Suspension for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1101",
+                "label": "Paliperidone",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34569",
+                "label": "ANTIPSYCHOTIC DRUGS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77932",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74586",
+                "label": "Suspension for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

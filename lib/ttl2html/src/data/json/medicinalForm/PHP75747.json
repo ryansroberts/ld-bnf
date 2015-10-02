@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75747\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/omalizumab/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Xolair 150mg/1ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">18667311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Omalizumab 150&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;256.15</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Xolair 75mg/0.5ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">18667011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Omalizumab 150&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;128.07</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1967\" title=\"OMALIZUMAB\" namespace=\"/drugs/omalizumab\">OMALIZUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP75747",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/omalizumab/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Xolair 150mg/1ml solution for injection pre-filled syringes (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Xolair 150mg/1ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Xolair 150mg/1ml solution for injection pre-filled syringes",
+            "ampid": "18667311000001104",
+            "strengthOfActiveIngredient": "Omalizumab 150 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;256.15 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;256.15</ph>",
+                        "nhsIndicativePrice": "&#163;256.15"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Xolair 75mg/0.5ml solution for injection pre-filled syringes (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Xolair 75mg/0.5ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Xolair 75mg/0.5ml solution for injection pre-filled syringes",
+            "ampid": "18667011000001102",
+            "strengthOfActiveIngredient": "Omalizumab 150 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;128.07 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;128.07</ph>",
+                        "nhsIndicativePrice": "&#163;128.07"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1967",
+        "label": "OMALIZUMAB"
+    }
+}

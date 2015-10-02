@@ -1,0 +1,115 @@
+{
+    "xml": "<topic id=\"PHP87989\" outputclass=\"drug\" rev=\"1.19\" type=\"drug\" namespace=\"/drugs/potassium-bicarbonate-with-potassium-chloride\" basename=\"potassium-bicarbonate-with-potassium-chloride\" title=\"POTASSIUM BICARBONATE WITH POTASSIUM CHLORIDE\">\n<title>POTASSIUM BICARBONATE WITH POTASSIUM CHLORIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_662\" namespace=\"/interactions/list-of-drug-interactions/potassium-salts\">Potassium Salts</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP5965\" namespace=\"/drugs/potassium-chloride\">potassium chloride</xref>.</p>\n<data name=\"vtmid\">418142007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_153412058\" title=\"Bicarbonate\">Bicarbonate</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_576667290\" title=\"Potassium\">Potassium</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP88278\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/potassium-bicarbonate-with-potassium-chloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Potassium depletion</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Dosed according to the deficit or daily maintenance requirements (consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP87989-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/potassium-bicarbonate-with-potassium-chloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92295\" title=\"Effervescent tablet\" namespace=\"/drugs/potassium-bicarbonate-with-potassium-chloride/effervescent-tablet\">Effervescent tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_662\" namespace=\"/interactions/list-of-drug-interactions/potassium-salts\" title=\"Potassium Salts\" count=\"1\" rel=\"link\">Potassium Salts</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5965\" namespace=\"/drugs/potassium-chloride\" title=\"POTASSIUM CHLORIDE\" count=\"1\" rel=\"link\">POTASSIUM CHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92295\" namespace=\"/drugs/potassium-bicarbonate-with-potassium-chloride/effervescent-tablet\" title=\"Effervescent tablet\" count=\"1\" rel=\"link\">Effervescent tablet</xref>\n</links>\n</topic>",
+    "id": "PHP87989",
+    "outputclass": "drug",
+    "rev": "1.19",
+    "type": "drug",
+    "namespace": "/drugs/potassium-bicarbonate-with-potassium-chloride",
+    "basename": "potassium-bicarbonate-with-potassium-chloride",
+    "title": "POTASSIUM BICARBONATE WITH POTASSIUM CHLORIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_662",
+            "label": "Potassium Salts"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP5965",
+            "label": "potassium chloride"
+        }
+    ],
+    "vtmid": "418142007",
+    "drugClassification": [
+        "Bicarbonate",
+        "Potassium"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Potassium depletion",
+                        "html": "Potassium depletion"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Dosed according to the deficit or daily maintenance requirements (consult product literature).",
+                        "html": "<p>Dosed according to the deficit or daily maintenance requirements (consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92295",
+                "label": "Effervescent tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_662",
+                "label": "Potassium Salts",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP5965",
+                "label": "POTASSIUM CHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92295",
+                "label": "Effervescent tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

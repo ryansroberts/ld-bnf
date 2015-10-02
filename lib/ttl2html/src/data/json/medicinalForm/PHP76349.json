@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP76349\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/lomustine/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Lomustine 40mg capsules <ph outputclass=\"manufacturer\">(medac UK)</ph>\n</title>\n<data name=\"ampid\">4367011000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Lomustine 40&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;743.64</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5272\" title=\"LOMUSTINE\" namespace=\"/drugs/lomustine\">LOMUSTINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76349",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/lomustine/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Lomustine 40mg capsules (medac UK) ",
+            "header": "Lomustine 40mg capsules <ph outputclass=\"manufacturer\">(medac UK)</ph>",
+            "manufacturer": "(medac UK)",
+            "name": "Lomustine 40mg capsules",
+            "ampid": "4367011000001108",
+            "strengthOfActiveIngredient": "Lomustine 40 mg",
+            "packs": [
+                {
+                    "textContent": " 20 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;743.64 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;743.64</ph>",
+                        "nhsIndicativePrice": "&#163;743.64"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5272",
+        "label": "LOMUSTINE"
+    }
+}

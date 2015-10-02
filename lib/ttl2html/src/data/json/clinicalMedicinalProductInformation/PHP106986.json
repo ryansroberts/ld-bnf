@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP106986\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/sorbisterit-powder\" basename=\"sorbisterit-powder\" title=\"Sorbisterit powder\">\n<title>Sorbisterit<tm tmtype=\"reg\"/> powder</title>\n<topic id=\"PHP107009\" outputclass=\"indicationsAndDose\" rev=\"1.23\" parent=\"/clinical-medicinal-product-information/sorbisterit-powder\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hyperkalaemia associated with anuria or severe oliguria, and in dialysis patients</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8239;g 1&#8211;3 times a day.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>40&#8239;g 1&#8211;3 times a day, retained for 6 hours followed by irrigation to remove resin from colon.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107062\" outputclass=\"directionsForAdministration\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/sorbisterit-powder\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>By mouth</i>, administer in a small amount of water or soft drink&#8212;do not give with fruit juice or squash, which have a high potassium content.</p>\n<p>\n<i>By rectum</i>, mix each 40&#8239;g of resin with 150&#8239;mL of 5% glucose.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP106986",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/sorbisterit-powder",
+    "basename": "sorbisterit-powder",
+    "title": "Sorbisterit powder",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hyperkalaemia associated with anuria or severe oliguria, and in dialysis patients",
+                        "html": "Hyperkalaemia associated with anuria or severe oliguria, and in dialysis patients"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "adult": [
+                    {
+                        "textContent": "20 g 1&#8211;3 times a day.",
+                        "html": "<p>20&#8239;g 1&#8211;3 times a day.</p>"
+                    },
+                    {
+                        "textContent": "40 g 1&#8211;3 times a day, retained for 6 hours followed by irrigation to remove resin from colon.",
+                        "html": "<p>40&#8239;g 1&#8211;3 times a day, retained for 6 hours followed by irrigation to remove resin from colon.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "By mouth, administer in a small amount of water or soft drink&#8212;do not give with fruit juice or squash, which have a high potassium content.\n\nBy rectum, mix each 40 g of resin with 150 mL of 5% glucose.",
+                "html": "<p>\n<i>By mouth</i>, administer in a small amount of water or soft drink&#8212;do not give with fruit juice or squash, which have a high potassium content.</p><p>\n<i>By rectum</i>, mix each 40&#8239;g of resin with 150&#8239;mL of 5% glucose.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

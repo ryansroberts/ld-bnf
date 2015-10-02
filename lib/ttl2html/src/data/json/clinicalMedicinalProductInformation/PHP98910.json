@@ -1,0 +1,61 @@
+{
+    "xml": "<topic id=\"PHP98910\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/emerade-300-micrograms\" basename=\"emerade-300-micrograms\" title=\"Emerade 300 micrograms\">\n<title>Emerade<tm tmtype=\"reg\"/> 300 micrograms</title>\n<topic id=\"PHP98937\" outputclass=\"indicationsAndDose\" rev=\"1.31\" parent=\"/clinical-medicinal-product-information/emerade-300-micrograms\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute anaphylaxis (for self-administration)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child (body-weight 30 kg and above)</p>\n<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 30 kg and above)</p>\n<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP99015\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/emerade-300-micrograms\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"patientResources\">\n<sectiondiv>\n<p>0.2&#8239;mL of the solution remains in the auto-injector device after use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98910",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/emerade-300-micrograms",
+    "basename": "emerade-300-micrograms",
+    "title": "Emerade 300 micrograms",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute anaphylaxis (for self-administration)",
+                        "html": "Acute anaphylaxis (for self-administration)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "300 micrograms, then 300 micrograms after 5&#8211;15 minutes as required.",
+                        "html": "<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>",
+                        "ageGroup": "(body-weight 30 kg and above)"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "300 micrograms, then 300 micrograms after 5&#8211;15 minutes as required.",
+                        "html": "<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>",
+                        "ageGroup": "(body-weight 30 kg and above)"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "textContent": "0.2 mL of the solution remains in the auto-injector device after use.",
+                "html": "<p>0.2&#8239;mL of the solution remains in the auto-injector device after use.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "xml": "<topic id=\"PHP80934\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/havrix-monodose\" basename=\"havrix-monodose\" title=\"Havrix Monodose\">\n<title>Havrix Monodose<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP81363\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/havrix-monodose\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Immunisation against hepatitis A infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;15 years</p>\n<p>Initially 0.5&#8239;mL for 1 dose, then 0.5&#8239;mL after 6&#8211;12&#8239;months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 16&#8211;17 years</p>\n<p>Initially 1&#8239;mL for 1 dose, then 1&#8239;mL after 6&#8211;12&#8239;months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1&#8239;mL for 1 dose, then 1&#8239;mL after 6&#8211;12&#8239;months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80934",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/havrix-monodose",
+    "basename": "havrix-monodose",
+    "title": "Havrix Monodose",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Immunisation against hepatitis A infection",
+                        "html": "Immunisation against hepatitis A infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 0.5 mL for 1 dose, then 0.5 mL after 6&#8211;12 months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.",
+                        "html": "<p>Initially 0.5&#8239;mL for 1 dose, then 0.5&#8239;mL after 6&#8211;12&#8239;months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.</p>",
+                        "ageGroup": "1&#8211;15 years"
+                    },
+                    {
+                        "textContent": "Initially 1 mL for 1 dose, then 1 mL after 6&#8211;12 months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.",
+                        "html": "<p>Initially 1&#8239;mL for 1 dose, then 1&#8239;mL after 6&#8211;12&#8239;months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.</p>",
+                        "ageGroup": "16&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 1 mL for 1 dose, then 1 mL after 6&#8211;12 months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.",
+                        "html": "<p>Initially 1&#8239;mL for 1 dose, then 1&#8239;mL after 6&#8211;12&#8239;months, dose given as booster; booster dose may be delayed by up to 3 years if not given after recommended interval following primary dose, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

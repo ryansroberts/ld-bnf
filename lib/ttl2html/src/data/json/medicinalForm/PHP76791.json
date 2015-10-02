@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP76791\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/atorvastatin/chewable-tablet\" basename=\"chewable-tablet\" title=\"Chewable tablet\">\n<title>Chewable tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">24</ph> - Suck or chew this medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Lipitor 10mg chewable tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">19719311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Atorvastatin (as Atorvastatin calcium trihydrate) 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.80</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;13.80</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Lipitor 20mg chewable tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">19719611000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Atorvastatin (as Atorvastatin calcium trihydrate) 20&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;26.40</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;26.40</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1633\" title=\"ATORVASTATIN\" namespace=\"/drugs/atorvastatin\">ATORVASTATIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76791",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/atorvastatin/chewable-tablet",
+    "basename": "chewable-tablet",
+    "form": "Chewable tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "24",
+            "textContent": "Suck or chew this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">24</ph> - Suck or chew this medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Lipitor 10mg chewable tablets (Pfizer Ltd) ",
+            "header": "Lipitor 10mg chewable tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Lipitor 10mg chewable tablets",
+            "ampid": "19719311000001104",
+            "strengthOfActiveIngredient": "Atorvastatin (as Atorvastatin calcium trihydrate) 10 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.80</ph>",
+                        "nhsIndicativePrice": "&#163;13.80"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;13.80 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;13.80</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;13.80"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Lipitor 20mg chewable tablets (Pfizer Ltd) ",
+            "header": "Lipitor 20mg chewable tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Lipitor 20mg chewable tablets",
+            "ampid": "19719611000001109",
+            "strengthOfActiveIngredient": "Atorvastatin (as Atorvastatin calcium trihydrate) 20 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;26.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;26.40</ph>",
+                        "nhsIndicativePrice": "&#163;26.40"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;26.40 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;26.40</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;26.40"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1633",
+        "label": "ATORVASTATIN"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "xml": "<topic id=\"PHP75196\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/aluminium-chloride-hexahydrate/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aluminium chloride 20% solution <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">27948611000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aluminium chloride 200&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Anhydrol Forte 20% solution <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">371211000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aluminium chloride 200&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.51</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Driclor 20% solution <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>\n</title>\n<data name=\"ampid\">502111000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aluminium chloride 200&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">75</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.01</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8200\" title=\"ALUMINIUM CHLORIDE HEXAHYDRATE\" namespace=\"/drugs/aluminium-chloride-hexahydrate\">ALUMINIUM CHLORIDE HEXAHYDRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75196",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/aluminium-chloride-hexahydrate/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "15",
+            "textContent": "Caution: flammable. Keep your body away from fire or flames after you have put on the medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Aluminium chloride 20% solution (Ennogen Healthcare Ltd) ",
+            "header": "Aluminium chloride 20% solution <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Aluminium chloride 20% solution",
+            "ampid": "27948611000001109",
+            "strengthOfActiveIngredient": "Aluminium chloride 200 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 60 ml P ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Anhydrol Forte 20% solution (Dermal Laboratories Ltd) ",
+            "header": "Anhydrol Forte 20% solution <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>",
+            "manufacturer": "(Dermal Laboratories Ltd)",
+            "name": "Anhydrol Forte 20% solution",
+            "ampid": "371211000001109",
+            "strengthOfActiveIngredient": "Aluminium chloride 200 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 60 ml P ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.51 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.51</ph>",
+                        "nhsIndicativePrice": "&#163;2.51"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Driclor 20% solution (GlaxoSmithKline Consumer Healthcare) ",
+            "header": "Driclor 20% solution <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>",
+            "manufacturer": "(GlaxoSmithKline Consumer Healthcare)",
+            "name": "Driclor 20% solution",
+            "ampid": "502111000001104",
+            "strengthOfActiveIngredient": "Aluminium chloride 200 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 75 ml P ",
+                    "html": "<ph outputclass=\"packSize\">75</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "75",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.01 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.01</ph>",
+                        "nhsIndicativePrice": "&#163;3.01"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8200",
+        "label": "ALUMINIUM CHLORIDE HEXAHYDRATE"
+    }
+}

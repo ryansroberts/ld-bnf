@@ -1,0 +1,478 @@
+{
+    "xml": "<topic id=\"PHP34485\" outputclass=\"drug\" rev=\"1.12\" type=\"drug\" namespace=\"/drugs/canagliflozin\" basename=\"canagliflozin\" title=\"CANAGLIFLOZIN\">\n<title>CANAGLIFLOZIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1283\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/canagliflozin\">Canagliflozin</xref>\n</p>\n<data name=\"vtmid\">703681008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_387708906\" title=\"Sodium glucose co-transporter 2 inhibitors\">Sodium glucose co-transporter 2 inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP49845\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/canagliflozin\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Reversibly inhibits sodium-glucose co-transporter 2 (SGLT2) in the renal proximal convoluted tubule to reduce glucose reabsorption and increase urinary glucose excretion.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49832\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/drugs/canagliflozin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Type 2 diabetes mellitus as monotherapy if metformin inappropriate</p>\n<p outputclass=\"therapeuticIndication\">Type 2 diabetes mellitus in combination with insulin or other antidiabetic drugs (if existing treatment fails to achieve adequate glycaemic control)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8239;mg once daily; increased if tolerated to 300&#8239;mg once daily if required, dose to be taken preferably before breakfast.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseAdjustments\">\n<title>Dose adjustments due to interactions</title>\n<sectiondiv>\n<p>Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49860\" outputclass=\"importantSafetyInformation\" rev=\"1.19\" parent=\"/drugs/canagliflozin\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">MHRA/CHM advice (June 2015): Risk of diabetic ketoacidosis with sodium-glucose co-transporter 2 inhibitors (canagliflozin, dapagliflozin or empagliflozin)</p>\n<p>Serious and potentially life-threatening cases of diabetic ketoacidosis (DKA) have been reported in patients taking the SGLT2 inhibitor canagliflozin for type 2 diabetes. To minimise the risk of such effects when treating patients with a SGLT2 inhibitor, the European Medicines Agency has issued the following advice:</p>\n<ul>\n<li>Test for raised ketones in patients presenting with symptoms of DKA, even if plasma glucose levels are near-normal; omitting this test could delay diagnosis of DKA.</li>\n<li>Discontinue treatment if DKA is suspected.</li>\n<li>If DKA is confirmed, take appropriate measures to correct the DKA and monitor glucose levels.</li>\n<li>Patients should be advised on how to recognise the signs and symptoms of DKA such as nausea, vomiting, anorexia, abdominal pain, excessive thirst, difficulty breathing, confusion, unusual fatigue, or sleepiness, and to seek prompt medical attention if symptoms of DKA develop.</li>\n</ul>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49870\" outputclass=\"contraindications\" rev=\"1.5\" parent=\"/drugs/canagliflozin\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Ketoacidosis</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49897\" outputclass=\"cautions\" rev=\"1.15\" parent=\"/drugs/canagliflozin\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Cardiovascular disease (risk of hypotension)</ph>; <ph outputclass=\"caution\">elderly (risk of hypotension)</ph>; <ph outputclass=\"caution\">elevated haematocrit</ph>; <ph outputclass=\"caution\">history of hypotension</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Volume depletion</p>\n<p>Correct hypovolaemia before starting treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49828\" outputclass=\"interactions\" rev=\"1.6\" parent=\"/drugs/canagliflozin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (antidiabetics).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49800\" outputclass=\"sideEffects\" rev=\"1.13\" parent=\"/drugs/canagliflozin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Constipation</ph>; <ph outputclass=\"sideEffect\">dyslipidaemia</ph>; <ph outputclass=\"sideEffect\">genital infection</ph>; <ph outputclass=\"sideEffect\">hypoglycaemia (in combination with insulin or sulfonylurea)</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">polyuria</ph>; <ph outputclass=\"sideEffect\">raised haematocrit</ph>; <ph outputclass=\"sideEffect\">thirst</ph>; <ph outputclass=\"sideEffect\">urinary frequency</ph>; <ph outputclass=\"sideEffect\">urinary-tract infection</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dehydration</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">hypovolaemia</ph>; <ph outputclass=\"sideEffect\">postural hypotension</ph>; <ph outputclass=\"sideEffect\">raised serum creatinine</ph>; <ph outputclass=\"sideEffect\">raised serum urea</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">syncope</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Volume depletion</p>\n<p>Consider interrupting treatment if volume depletion occurs.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49824\" outputclass=\"pregnancy\" parent=\"/drugs/canagliflozin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;toxicity in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49908\" outputclass=\"breastFeeding\" parent=\"/drugs/canagliflozin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;present in milk in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49837\" outputclass=\"hepaticImpairment\" parent=\"/drugs/canagliflozin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid in severe impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49815\" outputclass=\"renalImpairment\" parent=\"/drugs/canagliflozin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose to 100&#8239;mg once daily if eGFR falls persistently below 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup> and existing canagliflozin treatment tolerated.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid initiation if eGFR less than 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n<p>Avoid if eGFR less than 45&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInRenalImpairment\">\n<sectiondiv>\n<p>Monitor renal function at least twice a year in moderate impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49759\" outputclass=\"monitoringRequirements\" parent=\"/drugs/canagliflozin\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Determine renal function before treatment and at least annually thereafter, and before initiation of concomitant drugs that reduce renal function and periodically thereafter.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49823\" outputclass=\"patientAndCarerAdvice\" rev=\"1.34\" parent=\"/drugs/canagliflozin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be advised to report symptoms of volume depletion including postural hypotension and dizziness.</p>\n<p>Patients should be informed of the signs and symptoms of diabetic ketoacidosis, see MHRA advice.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49717\" outputclass=\"nationalFunding\" rev=\"1.25\" parent=\"/drugs/canagliflozin\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA315</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Canagliflozin in combination therapy for treating type 2 diabetes (June 2014)</p>\r\n<p>Canagliflozin in a dual therapy regimen in combination with metformin is recommended for the treatment of type 2 diabetes, only if a sulfonylurea is contra-indicated or not tolerated <i>or</i> the patient has a significant risk of hypoglycaemia.</p>\r\n<p>Canagliflozin in a triple therapy regimen is an option for the treatment of type 2 diabetes in combination with metformin and a sulfonylurea <i>or</i> metformin and a thiazolidinedione.</p>\r\n<p>Canagliflozin in combination with insulin (alone or with other antidiabetic drugs) is an option for the treatment of type 2 diabetes.</p>\r\n<p>Patients currently receiving canagliflozin in a dual or triple therapy regimen that is not recommended according to the above criteria should have the option to continue treatment until they and their clinician consider it appropriate to stop.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA315\">www.nice.org.uk/TA315</xref>\n</sectiondiv>\n</sectiondiv>\r\n<sectiondiv outputclass=\"smcDecisions\">\r\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\r\n<sectiondiv outputclass=\"smcDecision\">\r\n<sectiondiv>\r\n<p>The <i>Scottish Medicines Consortium</i> has advised (May 2014) that canagliflozin (<i>Invokana</i>\r\n<tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland for the treatment of type 2 diabetes in combination with metformin as dual therapy, or in combination with metformin and standard of care as triple therapy, or in combination with insulin and standard of care.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP34485-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/canagliflozin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101312\" title=\"Tablet\" namespace=\"/drugs/canagliflozin/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP101223\" namespace=\"/drugs/canagliflozin-with-metformin\" title=\"CANAGLIFLOZIN WITH METFORMIN\" count=\"1\" rel=\"backlink\">CANAGLIFLOZIN WITH METFORMIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78107\" namespace=\"/treatment-summaries/insulins-and-anti-diabetic-drugs\" title=\"Insulins and anti-diabetic drugs\" count=\"2\" rel=\"backlink\">Insulins and anti-diabetic drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1283\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/canagliflozin\" title=\"Canagliflozin\" count=\"1\" rel=\"link\">Canagliflozin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101312\" namespace=\"/drugs/canagliflozin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP34485",
+    "outputclass": "drug",
+    "rev": "1.12",
+    "type": "drug",
+    "namespace": "/drugs/canagliflozin",
+    "basename": "canagliflozin",
+    "title": "CANAGLIFLOZIN",
+    "interactants": [
+        {
+            "id": "bnf_int_1283",
+            "label": "Canagliflozin"
+        }
+    ],
+    "vtmid": "703681008",
+    "drugClassification": [
+        "Sodium glucose co-transporter 2 inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Reversibly inhibits sodium-glucose co-transporter 2 (SGLT2) in the renal proximal convoluted tubule to reduce glucose reabsorption and increase urinary glucose excretion.",
+                "html": "<p>Reversibly inhibits sodium-glucose co-transporter 2 (SGLT2) in the renal proximal convoluted tubule to reduce glucose reabsorption and increase urinary glucose excretion.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Type 2 diabetes mellitus as monotherapy if metformin inappropriate",
+                        "html": "Type 2 diabetes mellitus as monotherapy if metformin inappropriate"
+                    },
+                    {
+                        "textContent": "Type 2 diabetes mellitus in combination with insulin or other antidiabetic drugs (if existing treatment fails to achieve adequate glycaemic control)",
+                        "html": "Type 2 diabetes mellitus in combination with insulin or other antidiabetic drugs (if existing treatment fails to achieve adequate glycaemic control)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "100 mg once daily; increased if tolerated to 300 mg once daily if required, dose to be taken preferably before breakfast.",
+                        "html": "<p>100&#8239;mg once daily; increased if tolerated to 300&#8239;mg once daily if required, dose to be taken preferably before breakfast.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "title": "Dose adjustments due to interactions",
+                "textContent": "Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.",
+                "html": "<p>Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.</p>"
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "title": "MHRA/CHM advice (June 2015): Risk of diabetic ketoacidosis with sodium-glucose co-transporter 2 inhibitors (canagliflozin, dapagliflozin or empagliflozin)",
+                "textContent": "Serious and potentially life-threatening cases of diabetic ketoacidosis (DKA) have been reported in patients taking the SGLT2 inhibitor canagliflozin for type 2 diabetes. To minimise the risk of such effects when treating patients with a SGLT2 inhibitor, the European Medicines Agency has issued the following advice:\n\nTest for raised ketones in patients presenting with symptoms of DKA, even if plasma glucose levels are near-normal; omitting this test could delay diagnosis of DKA. Discontinue treatment if DKA is suspected. If DKA is confirmed, take appropriate measures to correct the DKA and monitor glucose levels. Patients should be advised on how to recognise the signs and symptoms of DKA such as nausea, vomiting, anorexia, abdominal pain, excessive thirst, difficulty breathing, confusion, unusual fatigue, or sleepiness, and to seek prompt medical attention if symptoms of DKA develop.",
+                "html": "<p>Serious and potentially life-threatening cases of diabetic ketoacidosis (DKA) have been reported in patients taking the SGLT2 inhibitor canagliflozin for type 2 diabetes. To minimise the risk of such effects when treating patients with a SGLT2 inhibitor, the European Medicines Agency has issued the following advice:</p><ul>\n<li>Test for raised ketones in patients presenting with symptoms of DKA, even if plasma glucose levels are near-normal; omitting this test could delay diagnosis of DKA.</li>\n<li>Discontinue treatment if DKA is suspected.</li>\n<li>If DKA is confirmed, take appropriate measures to correct the DKA and monitor glucose levels.</li>\n<li>Patients should be advised on how to recognise the signs and symptoms of DKA such as nausea, vomiting, anorexia, abdominal pain, excessive thirst, difficulty breathing, confusion, unusual fatigue, or sleepiness, and to seek prompt medical attention if symptoms of DKA develop.</li>\n</ul>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Ketoacidosis",
+                "html": "Ketoacidosis"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Cardiovascular disease (risk of hypotension)",
+                "html": "Cardiovascular disease (risk of hypotension)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly (risk of hypotension)",
+                "html": "elderly (risk of hypotension)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elevated haematocrit",
+                "html": "elevated haematocrit"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of hypotension",
+                "html": "history of hypotension"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Volume depletion",
+                "textContent": "Correct hypovolaemia before starting treatment.",
+                "html": "<p>Correct hypovolaemia before starting treatment.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (antidiabetics).",
+                "html": "<p>Appendix 1 (antidiabetics).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Constipation",
+                        "html": "Constipation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyslipidaemia",
+                        "html": "dyslipidaemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "genital infection",
+                        "html": "genital infection",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypoglycaemia (in combination with insulin or sulfonylurea)",
+                        "html": "hypoglycaemia (in combination with insulin or sulfonylurea)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "polyuria",
+                        "html": "polyuria",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "raised haematocrit",
+                        "html": "raised haematocrit",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "thirst",
+                        "html": "thirst",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "urinary frequency",
+                        "html": "urinary frequency",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "urinary-tract infection",
+                        "html": "urinary-tract infection",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Dehydration",
+                        "html": "Dehydration",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypovolaemia",
+                        "html": "hypovolaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "postural hypotension",
+                        "html": "postural hypotension",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "raised serum creatinine",
+                        "html": "raised serum creatinine",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "raised serum urea",
+                        "html": "raised serum urea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "syncope",
+                        "html": "syncope",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Volume depletion",
+                "textContent": "Consider interrupting treatment if volume depletion occurs.",
+                "html": "<p>Consider interrupting treatment if volume depletion occurs.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;toxicity in animal studies.",
+                "html": "<p>Avoid&#8212;toxicity in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;present in milk in animal studies.",
+                "html": "<p>Avoid&#8212;present in milk in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid in severe impairment&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid in severe impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose to 100 mg once daily if eGFR falls persistently below 60 mL/minute/1.73 m2 and existing canagliflozin treatment tolerated.",
+                "html": "<p>Reduce dose to 100&#8239;mg once daily if eGFR falls persistently below 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup> and existing canagliflozin treatment tolerated.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid initiation if eGFR less than 60 mL/minute/1.73 m2.\n\nAvoid if eGFR less than 45 mL/minute/1.73 m2.",
+                "html": "<p>Avoid initiation if eGFR less than 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p><p>Avoid if eGFR less than 45&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Monitor renal function at least twice a year in moderate impairment.",
+                "html": "<p>Monitor renal function at least twice a year in moderate impairment.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Determine renal function before treatment and at least annually thereafter, and before initiation of concomitant drugs that reduce renal function and periodically thereafter.",
+                "html": "<p>Determine renal function before treatment and at least annually thereafter, and before initiation of concomitant drugs that reduce renal function and periodically thereafter.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be advised to report symptoms of volume depletion including postural hypotension and dizziness.\n\nPatients should be informed of the signs and symptoms of diabetic ketoacidosis, see MHRA advice.",
+                "html": "<p>Patients should be advised to report symptoms of volume depletion including postural hypotension and dizziness.</p><p>Patients should be informed of the signs and symptoms of diabetic ketoacidosis, see MHRA advice.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA315",
+                        "label": "www.nice.org.uk/TA315"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA315",
+                "textContent": "Canagliflozin in combination therapy for treating type 2 diabetes (June 2014) Canagliflozin in a dual therapy regimen in combination with metformin is recommended for the treatment of type 2 diabetes, only if a sulfonylurea is contra-indicated or not tolerated or the patient has a significant risk of hypoglycaemia. Canagliflozin in a triple therapy regimen is an option for the treatment of type 2 diabetes in combination with metformin and a sulfonylurea or metformin and a thiazolidinedione. Canagliflozin in combination with insulin (alone or with other antidiabetic drugs) is an option for the treatment of type 2 diabetes. Patients currently receiving canagliflozin in a dual or triple therapy regimen that is not recommended according to the above criteria should have the option to continue treatment until they and their clinician consider it appropriate to stop.\n\nwww.nice.org.uk/TA315",
+                "html": "<p outputclass=\"title\">Canagliflozin in combination therapy for treating type 2 diabetes (June 2014)</p> <p>Canagliflozin in a dual therapy regimen in combination with metformin is recommended for the treatment of type 2 diabetes, only if a sulfonylurea is contra-indicated or not tolerated <i>or</i> the patient has a significant risk of hypoglycaemia.</p> <p>Canagliflozin in a triple therapy regimen is an option for the treatment of type 2 diabetes in combination with metformin and a sulfonylurea <i>or</i> metformin and a thiazolidinedione.</p> <p>Canagliflozin in combination with insulin (alone or with other antidiabetic drugs) is an option for the treatment of type 2 diabetes.</p> <p>Patients currently receiving canagliflozin in a dual or triple therapy regimen that is not recommended according to the above criteria should have the option to continue treatment until they and their clinician consider it appropriate to stop.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA315\">www.nice.org.uk/TA315</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP101312",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP101223",
+                "label": "CANAGLIFLOZIN WITH METFORMIN",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78107",
+                "label": "Insulins and anti-diabetic drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1283",
+                "label": "Canagliflozin",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP101312",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

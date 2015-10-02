@@ -1,0 +1,35 @@
+{
+    "xml": "<topic id=\"PHP75108\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/bacillus-calmette-gurin-vaccine/powder-and-solvent-for-suspension-for-injection\" basename=\"powder-and-solvent-for-suspension-for-injection\" title=\"Powder and solvent for suspension for injection\">\n<title>Powder and solvent for suspension for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials <ph outputclass=\"manufacturer\">(Statens Serum Institut)</ph>\n</title>\n<data name=\"ampid\">9316611000001101</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8249\" title=\"BACILLUS CALMETTE-GU&#201;RIN VACCINE\" namespace=\"/drugs/bacillus-calmette-gurin-vaccine\">BACILLUS CALMETTE-GU&#201;RIN VACCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75108",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/bacillus-calmette-gurin-vaccine/powder-and-solvent-for-suspension-for-injection",
+    "basename": "powder-and-solvent-for-suspension-for-injection",
+    "form": "Powder and solvent for suspension for injection",
+    "products": [
+        {
+            "title": "Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials (Statens Serum Institut) ",
+            "header": "Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials <ph outputclass=\"manufacturer\">(Statens Serum Institut)</ph>",
+            "manufacturer": "(Statens Serum Institut)",
+            "name": "Bacillus Calmette-Guerin vaccine powder and solvent for suspension for injection vials",
+            "ampid": "9316611000001101",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8249",
+        "label": "BACILLUS CALMETTE-GU&#201;RIN VACCINE"
+    }
+}

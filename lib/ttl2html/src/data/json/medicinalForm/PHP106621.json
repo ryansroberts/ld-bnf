@@ -1,0 +1,68 @@
+{
+    "xml": "<topic id=\"PHP106621\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/vitamins-with-minerals-and-trace-elements/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP107439\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/forceval-capsules\">Forceval<tm tmtype=\"reg\"/> capsules</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Forceval capsules <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">50711000001106</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Ascorbic acid 60&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Biotin 100&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Calcium 100&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chromium 200&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Copper 2&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Cyanocobalamin 3&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Ergocalciferol 400&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Folic acid 400&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Iodine 140&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Iron 12&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium 30&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Manganese 3&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Molybdenum 250&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Nicotinamide 18&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Pantothenic acid 4&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Phosphorus 77&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Potassium 4&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Pyridoxine 2&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Riboflavin 1.6&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Selenium 50&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Thiamine 1.2&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tocopheryl acetate 10&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Vitamin A 2500&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Zinc 15&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.40</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.93</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">90</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.32</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP106448\" title=\"VITAMINS WITH MINERALS AND TRACE ELEMENTS\" namespace=\"/drugs/vitamins-with-minerals-and-trace-elements\">VITAMINS WITH MINERALS AND TRACE ELEMENTS</xref>\n</parents>\n</topic>",
+    "id": "PHP106621",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/vitamins-with-minerals-and-trace-elements/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "productInformationGroups": [
+        {
+            "id": "PHP107439",
+            "label": "Forceval&reg;  capsules",
+            "html": "Forceval<tm tmtype=\"reg\"/> capsules"
+        }
+    ],
+    "products": [
+        {
+            "title": "Forceval capsules (Alliance Pharmaceuticals Ltd) ",
+            "header": "Forceval capsules <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Alliance Pharmaceuticals Ltd)",
+            "name": "Forceval capsules",
+            "ampid": "50711000001106",
+            "strengthOfActiveIngredient": "Zinc 15 mg",
+            "packs": [
+                {
+                    "textContent": " 15 capsule P ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.40</ph>",
+                        "nhsIndicativePrice": "&#163;3.40"
+                    }
+                },
+                {
+                    "textContent": " 30 capsule P ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.93 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.93</ph>",
+                        "nhsIndicativePrice": "&#163;5.93"
+                    }
+                },
+                {
+                    "textContent": " 90 capsule P ",
+                    "html": "<ph outputclass=\"packSize\">90</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "90",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.32 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.32</ph>",
+                        "nhsIndicativePrice": "&#163;14.32"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP106448",
+        "label": "VITAMINS WITH MINERALS AND TRACE ELEMENTS"
+    }
+}

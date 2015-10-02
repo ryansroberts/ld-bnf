@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP75652\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/budesonide/enema\" basename=\"enema\" title=\"Enema\">\n<title>Enema</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81630\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/entocort-enema\">Entocort<tm tmtype=\"reg\"/> enema</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Entocort 2mg/100ml enema <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3954411000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Budesonide 20&#8239;microgram per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">7</ph>\n<ph outputclass=\"unitOfMeasure\">enema</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;39.60</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP512\" title=\"BUDESONIDE\" namespace=\"/drugs/budesonide\">BUDESONIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75652",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/budesonide/enema",
+    "basename": "enema",
+    "form": "Enema",
+    "productInformationGroups": [
+        {
+            "id": "PHP81630",
+            "label": "Entocort&reg;  enema",
+            "html": "Entocort<tm tmtype=\"reg\"/> enema"
+        }
+    ],
+    "products": [
+        {
+            "title": "Entocort 2mg/100ml enema (AstraZeneca UK Ltd) ",
+            "header": "Entocort 2mg/100ml enema <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>",
+            "manufacturer": "(AstraZeneca UK Ltd)",
+            "name": "Entocort 2mg/100ml enema",
+            "ampid": "3954411000001107",
+            "strengthOfActiveIngredient": "Budesonide 20 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 7 enema POM ",
+                    "html": "<ph outputclass=\"packSize\">7</ph> <ph outputclass=\"unitOfMeasure\">enema</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "7",
+                    "unitOfMeasure": "enema",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;39.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;39.60</ph>",
+                        "nhsIndicativePrice": "&#163;39.60"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP512",
+        "label": "BUDESONIDE"
+    }
+}

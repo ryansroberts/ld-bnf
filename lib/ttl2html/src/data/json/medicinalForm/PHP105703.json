@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP105703\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/emollient-bath-and-shower-products-paraffin-containing/products-without-form\" basename=\"products-without-form\" title=\"Products without form\">\n<title>Products without form</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Hydroxybenzoates (parabens)</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP105726\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/qv-gentle-wash\">QV<tm tmtype=\"reg\"/> gentle wash</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>QV Gentle wash <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">17832711000001105</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.14</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.24</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105072\" title=\"EMOLLIENT BATH AND SHOWER PRODUCTS, PARAFFIN-CONTAINING\" namespace=\"/drugs/emollient-bath-and-shower-products-paraffin-containing\">EMOLLIENT BATH AND SHOWER PRODUCTS, PARAFFIN-CONTAINING</xref>\n</parents>\n</topic>",
+    "id": "PHP105703",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/emollient-bath-and-shower-products-paraffin-containing/products-without-form",
+    "basename": "products-without-form",
+    "form": "Products without form",
+    "excipients": [
+        "Hydroxybenzoates (parabens)"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP105726",
+            "label": "QV&reg;  gentle wash",
+            "html": "QV<tm tmtype=\"reg\"/> gentle wash"
+        }
+    ],
+    "products": [
+        {
+            "title": "QV Gentle wash (Crawford Healthcare Ltd) ",
+            "header": "QV Gentle wash <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>",
+            "manufacturer": "(Crawford Healthcare Ltd)",
+            "name": "QV Gentle wash",
+            "ampid": "17832711000001105",
+            "packs": [
+                {
+                    "textContent": " 250 ml ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.14 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.14</ph>",
+                        "nhsIndicativePrice": "&#163;3.14"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                },
+                {
+                    "textContent": " 500 ml ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.24 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.24</ph>",
+                        "nhsIndicativePrice": "&#163;5.24"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP105072",
+        "label": "EMOLLIENT BATH AND SHOWER PRODUCTS, PARAFFIN-CONTAINING"
+    }
+}

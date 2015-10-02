@@ -1,0 +1,124 @@
+{
+    "xml": "<topic id=\"PHP85597\" outputclass=\"drug\" rev=\"1.18\" type=\"drug\" namespace=\"/drugs/estradiol-with-medroxyprogesterone\" basename=\"estradiol-with-medroxyprogesterone\" title=\"ESTRADIOL WITH MEDROXYPROGESTERONE\">\n<title>ESTRADIOL WITH MEDROXYPROGESTERONE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_640\" namespace=\"/interactions/list-of-drug-interactions/oestrogens/estradiol\">Estradiol</xref>, <xref format=\"dita\" href=\"#bnf_int_672\" namespace=\"/interactions/list-of-drug-interactions/progestogens/medroxyprogesterone\">Medroxyprogesterone</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP4491\" namespace=\"/drugs/medroxyprogesterone-acetate\">medroxyprogesterone acetate</xref>, <xref format=\"dita\" href=\"#PHP94655\" namespace=\"/drugs/estradiol\">estradiol</xref>.</p>\n<data name=\"vtmid\">425045009</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_848193368\" title=\"Oestrogens\">Oestrogens</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_203813864\" title=\"Progestogens\">Progestogens</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP85597-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/estradiol-with-medroxyprogesterone\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92247\" title=\"Tablet\" namespace=\"/drugs/estradiol-with-medroxyprogesterone/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP95834\" title=\"Not applicable\" namespace=\"/drugs/estradiol-with-medroxyprogesterone/not-applicable\">Not applicable</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_640\" namespace=\"/interactions/list-of-drug-interactions/oestrogens/estradiol\" title=\"Estradiol\" count=\"1\" rel=\"link\">Estradiol</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_672\" namespace=\"/interactions/list-of-drug-interactions/progestogens/medroxyprogesterone\" title=\"Medroxyprogesterone\" count=\"1\" rel=\"link\">Medroxyprogesterone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4491\" namespace=\"/drugs/medroxyprogesterone-acetate\" title=\"MEDROXYPROGESTERONE ACETATE\" count=\"1\" rel=\"link\">MEDROXYPROGESTERONE ACETATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94655\" namespace=\"/drugs/estradiol\" title=\"ESTRADIOL\" count=\"1\" rel=\"link\">ESTRADIOL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92247\" namespace=\"/drugs/estradiol-with-medroxyprogesterone/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP95834\" namespace=\"/drugs/estradiol-with-medroxyprogesterone/not-applicable\" title=\"Not applicable\" count=\"1\" rel=\"link\">Not applicable</xref>\n</links>\n</topic>",
+    "id": "PHP85597",
+    "outputclass": "drug",
+    "rev": "1.18",
+    "type": "drug",
+    "namespace": "/drugs/estradiol-with-medroxyprogesterone",
+    "basename": "estradiol-with-medroxyprogesterone",
+    "title": "ESTRADIOL WITH MEDROXYPROGESTERONE",
+    "interactants": [
+        {
+            "id": "bnf_int_640",
+            "label": "Estradiol"
+        },
+        {
+            "id": "bnf_int_672",
+            "label": "Medroxyprogesterone"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP4491",
+            "label": "medroxyprogesterone acetate"
+        },
+        {
+            "id": "PHP94655",
+            "label": "estradiol"
+        }
+    ],
+    "vtmid": "425045009",
+    "drugClassification": [
+        "Oestrogens",
+        "Progestogens"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92247",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP95834",
+                "label": "Not applicable",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_640",
+                "label": "Estradiol",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_672",
+                "label": "Medroxyprogesterone",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP4491",
+                "label": "MEDROXYPROGESTERONE ACETATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP94655",
+                "label": "ESTRADIOL",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92247",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP95834",
+                "label": "Not applicable",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

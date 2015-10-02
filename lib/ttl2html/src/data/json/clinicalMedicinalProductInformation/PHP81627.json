@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP81627\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/budenofalk-granules\" basename=\"budenofalk-granules\" title=\"Budenofalk granules\">\n<title>Budenofalk<tm tmtype=\"reg\"/> granules</title>\n<topic id=\"PHP83764\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/clinical-medicinal-product-information/budenofalk-granules\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mild to moderate Crohn's disease affecting the ileum or ascending colon</p>\n<p outputclass=\"therapeuticIndication\">Collagenous colitis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>9&#8239;mg daily for up to 8 weeks, to be taken in the morning, dose to be reduced for the last two weeks of treatment.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83779\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/budenofalk-granules\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Granules should be placed on tongue and washed down with water without chewing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81627",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/budenofalk-granules",
+    "basename": "budenofalk-granules",
+    "title": "Budenofalk granules",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mild to moderate Crohn's disease affecting the ileum or ascending colon",
+                        "html": "Mild to moderate Crohn's disease affecting the ileum or ascending colon"
+                    },
+                    {
+                        "textContent": "Collagenous colitis",
+                        "html": "Collagenous colitis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "9 mg daily for up to 8 weeks, to be taken in the morning, dose to be reduced for the last two weeks of treatment.",
+                        "html": "<p>9&#8239;mg daily for up to 8 weeks, to be taken in the morning, dose to be reduced for the last two weeks of treatment.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Granules should be placed on tongue and washed down with water without chewing.",
+                "html": "<p>Granules should be placed on tongue and washed down with water without chewing.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

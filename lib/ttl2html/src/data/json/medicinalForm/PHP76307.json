@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP76307\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/treosulfan/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Treosulfan 1g powder for solution for injection vials <ph outputclass=\"manufacturer\">(medac UK)</ph>\n</title>\n<data name=\"ampid\">4803311000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Treosulfan 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;256.35</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Treosulfan 5g powder for solution for injection vials <ph outputclass=\"manufacturer\">(medac UK)</ph>\n</title>\n<data name=\"ampid\">4803611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Treosulfan 5&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;990.64</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5279\" title=\"TREOSULFAN\" namespace=\"/drugs/treosulfan\">TREOSULFAN</xref>\n</parents>\n</topic>",
+    "id": "PHP76307",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/treosulfan/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "products": [
+        {
+            "title": "Treosulfan 1g powder for solution for injection vials (medac UK) ",
+            "header": "Treosulfan 1g powder for solution for injection vials <ph outputclass=\"manufacturer\">(medac UK)</ph>",
+            "manufacturer": "(medac UK)",
+            "name": "Treosulfan 1g powder for solution for injection vials",
+            "ampid": "4803311000001103",
+            "strengthOfActiveIngredient": "Treosulfan 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;256.35 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;256.35</ph>",
+                        "nhsIndicativePrice": "&#163;256.35"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Treosulfan 5g powder for solution for injection vials (medac UK) ",
+            "header": "Treosulfan 5g powder for solution for injection vials <ph outputclass=\"manufacturer\">(medac UK)</ph>",
+            "manufacturer": "(medac UK)",
+            "name": "Treosulfan 5g powder for solution for injection vials",
+            "ampid": "4803611000001108",
+            "strengthOfActiveIngredient": "Treosulfan 5 gram",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;990.64 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;990.64</ph>",
+                        "nhsIndicativePrice": "&#163;990.64"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5279",
+        "label": "TREOSULFAN"
+    }
+}

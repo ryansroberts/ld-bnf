@@ -1,0 +1,86 @@
+{
+    "xml": "<topic id=\"PHP107781\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/duoresp-spiromax-160microgramsdose-45microgramsdose-dry-powder-inhaler-teva-uk-ltd\" basename=\"duoresp-spiromax-160microgramsdose-45microgramsdose-dry-powder-inhaler-teva-uk-ltd\" title=\"DuoResp Spiromax 160micrograms/dose / 4.5micrograms/dose dry powder inhaler (Teva UK Ltd)\">\n<title>DuoResp Spiromax<tm tmtype=\"reg\"/> 160micrograms/dose / 4.5micrograms/dose dry powder inhaler (Teva UK Ltd)</title>\n<topic id=\"PHP107791\" outputclass=\"indicationsAndDose\" rev=\"1.27\" parent=\"/clinical-medicinal-product-information/duoresp-spiromax-160microgramsdose-45microgramsdose-dry-powder-inhaler-teva-uk-ltd\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Asthma maintenance therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;2&#8239;inhalations twice daily, increased if necessary up to 4&#8239;inhalations twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Asthma, maintenance and reliever therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>2&#8239;inhalations daily in 1&#8211;2 divided doses, increased if necessary to 2&#8239;inhalations twice daily. 1&#8239;inhalation (max. per dose 6&#8239;inhalations) as required, for relief of symptoms, a total daily dose of up to 12 inhalations can be used for a limited time but medical assessment is recommended if more than 8 inhalations daily are needed.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic obstructive pulmonary disease with forced expiratory volume in 1 second &lt; 50% of predicted</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>2&#8239;inhalations twice daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP107781",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/duoresp-spiromax-160microgramsdose-45microgramsdose-dry-powder-inhaler-teva-uk-ltd",
+    "basename": "duoresp-spiromax-160microgramsdose-45microgramsdose-dry-powder-inhaler-teva-uk-ltd",
+    "title": "DuoResp Spiromax 160micrograms/dose / 4.5micrograms/dose dry powder inhaler (Teva UK Ltd)",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Asthma maintenance therapy",
+                        "html": "Asthma maintenance therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;2 inhalations twice daily, increased if necessary up to 4 inhalations twice daily.",
+                        "html": "<p>1&#8211;2&#8239;inhalations twice daily, increased if necessary up to 4&#8239;inhalations twice daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Asthma, maintenance and reliever therapy",
+                        "html": "Asthma, maintenance and reliever therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "2 inhalations daily in 1&#8211;2 divided doses, increased if necessary to 2 inhalations twice daily. 1 inhalation (max. per dose 6 inhalations) as required, for relief of symptoms, a total daily dose of up to 12 inhalations can be used for a limited time but medical assessment is recommended if more than 8 inhalations daily are needed.",
+                        "html": "<p>2&#8239;inhalations daily in 1&#8211;2 divided doses, increased if necessary to 2&#8239;inhalations twice daily. 1&#8239;inhalation (max. per dose 6&#8239;inhalations) as required, for relief of symptoms, a total daily dose of up to 12 inhalations can be used for a limited time but medical assessment is recommended if more than 8 inhalations daily are needed.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic obstructive pulmonary disease with forced expiratory volume in 1 second < 50% of predicted",
+                        "html": "Chronic obstructive pulmonary disease with forced expiratory volume in 1 second &lt; 50% of predicted"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "2 inhalations twice daily.",
+                        "html": "<p>2&#8239;inhalations twice daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

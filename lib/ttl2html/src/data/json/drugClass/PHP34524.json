@@ -1,0 +1,403 @@
+{
+    "xml": "<topic id=\"PHP34524\" outputclass=\"drugClass\" rev=\"1.20\" type=\"drugClass\" namespace=\"/drug-classes/sulfonylureas\" basename=\"sulfonylureas\" title=\"SULFONYLUREAS\">\n<title>SULFONYLUREAS</title>\n<topic id=\"PHP53395\" outputclass=\"drugAction\" rev=\"1.5\" parent=\"/drug-classes/sulfonylureas\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>The sulfonylureas act mainly by augmenting insulin secretion and consequently are effective only when some residual pancreatic beta-cell activity is present; during long-term administration they also have an extrapancreatic action.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53402\" outputclass=\"contraindications\" rev=\"1.7\" parent=\"/drug-classes/sulfonylureas\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Presence of ketoacidosis</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53416\" outputclass=\"cautions\" rev=\"1.9\" parent=\"/drug-classes/sulfonylureas\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Can encourage weight gain (should be prescribed only if poor control and symptoms persist despite adequate attempts at dieting)</ph>; <ph outputclass=\"caution\">elderly</ph>; <ph outputclass=\"caution\">G6PD deficiency</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53318\" outputclass=\"sideEffects\" rev=\"1.16\" parent=\"/drug-classes/sulfonylureas\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hypoglycaemia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agranulocytosis</ph>; <ph outputclass=\"sideEffect\">aplastic anaemia</ph>; <ph outputclass=\"sideEffect\">Blood disorders</ph>; <ph outputclass=\"sideEffect\">cholestatic jaundice</ph>; <ph outputclass=\"sideEffect\">haemolytic anaemia</ph>; <ph outputclass=\"sideEffect\">hepatic failure</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">pancytopenia</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Allergic skin reactions (usually in the first 6&#8211;8 weeks of therapy)</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">disturbance in liver function</ph>; <ph outputclass=\"sideEffect\">erythema multiforme (usually in the first 6&#8211;8 weeks of therapy)</ph>; <ph outputclass=\"sideEffect\">exfoliative dermatitis (usually in the first 6&#8211;8 weeks of therapy)</ph>; <ph outputclass=\"sideEffect\">fever (usually in the first 6&#8211;8 weeks of therapy)</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">Hypersensitivity reactions (usually in the first 6&#8211;8 weeks of therapy)</ph>; <ph outputclass=\"sideEffect\">jaundice (usually in the first 6&#8211;8 weeks of therapy)</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Hypoglycaemia</p>\n<p>This is uncommon and usually indicates excessive dosage. Sulfonylurea-induced hypoglycaemia may persist for many hours and must always be treated in hospital.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53382\" outputclass=\"hepaticImpairment\" parent=\"/drug-classes/sulfonylureas\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Sulfonylureas should be avoided or a reduced dose should be used in severe hepatic impairment, because there is an increased risk of hypoglycaemia.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Jaundice may occur.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53341\" outputclass=\"renalImpairment\" parent=\"/drug-classes/sulfonylureas\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Sulfonylureas should be used with care in those with mild to moderate renal impairment, because of the hazard of hypoglycaemia. Care is required to use the lowest dose that adequately controls blood glucose.</p>\n<p>Avoid where possible in severe renal impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53348\" outputclass=\"patientAndCarerAdvice\" rev=\"1.13\" parent=\"/drug-classes/sulfonylureas\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p outputclass=\"title\">Driving</p>\n<p>Drivers need to be particularly careful to avoid hypoglycaemia and should be warned of the problems.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>The risk of hypoglycaemia associated with sulfonylureas should be discussed with the patient, especially when concomitant glucose-lowering drugs are prescribed.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4140\" title=\"GLIBENCLAMIDE\" namespace=\"/drugs/glibenclamide\">GLIBENCLAMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4142\" title=\"GLICLAZIDE\" namespace=\"/drugs/gliclazide\">GLICLAZIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4148\" title=\"GLIMEPIRIDE\" namespace=\"/drugs/glimepiride\">GLIMEPIRIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4151\" title=\"GLIPIZIDE\" namespace=\"/drugs/glipizide\">GLIPIZIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4156\" title=\"TOLBUTAMIDE\" namespace=\"/drugs/tolbutamide\">TOLBUTAMIDE</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4140\" namespace=\"/drugs/glibenclamide\" title=\"GLIBENCLAMIDE\" count=\"1\" rel=\"link\">GLIBENCLAMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4142\" namespace=\"/drugs/gliclazide\" title=\"GLICLAZIDE\" count=\"1\" rel=\"link\">GLICLAZIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4148\" namespace=\"/drugs/glimepiride\" title=\"GLIMEPIRIDE\" count=\"1\" rel=\"link\">GLIMEPIRIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4151\" namespace=\"/drugs/glipizide\" title=\"GLIPIZIDE\" count=\"1\" rel=\"link\">GLIPIZIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4156\" namespace=\"/drugs/tolbutamide\" title=\"TOLBUTAMIDE\" count=\"1\" rel=\"link\">TOLBUTAMIDE</xref>\n</links>\n</topic>",
+    "id": "PHP34524",
+    "outputclass": "drugClass",
+    "rev": "1.20",
+    "type": "drugClass",
+    "namespace": "/drug-classes/sulfonylureas",
+    "basename": "sulfonylureas",
+    "title": "SULFONYLUREAS",
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "The sulfonylureas act mainly by augmenting insulin secretion and consequently are effective only when some residual pancreatic beta-cell activity is present; during long-term administration they also have an extrapancreatic action.",
+                "html": "<p>The sulfonylureas act mainly by augmenting insulin secretion and consequently are effective only when some residual pancreatic beta-cell activity is present; during long-term administration they also have an extrapancreatic action.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Presence of ketoacidosis",
+                "html": "Presence of ketoacidosis"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Can encourage weight gain (should be prescribed only if poor control and symptoms persist despite adequate attempts at dieting)",
+                "html": "Can encourage weight gain (should be prescribed only if poor control and symptoms persist despite adequate attempts at dieting)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly",
+                "html": "elderly"
+            },
+            {
+                "type": "cautions",
+                "textContent": "G6PD deficiency",
+                "html": "G6PD deficiency"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Hypoglycaemia",
+                        "html": "Hypoglycaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Agranulocytosis",
+                        "html": "Agranulocytosis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "aplastic anaemia",
+                        "html": "aplastic anaemia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "Blood disorders",
+                        "html": "Blood disorders",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "cholestatic jaundice",
+                        "html": "cholestatic jaundice",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "haemolytic anaemia",
+                        "html": "haemolytic anaemia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hepatic failure",
+                        "html": "hepatic failure",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "pancytopenia",
+                        "html": "pancytopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Allergic skin reactions (usually in the first 6&#8211;8 weeks of therapy)",
+                        "html": "Allergic skin reactions (usually in the first 6&#8211;8 weeks of therapy)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "disturbance in liver function",
+                        "html": "disturbance in liver function",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "erythema multiforme (usually in the first 6&#8211;8 weeks of therapy)",
+                        "html": "erythema multiforme (usually in the first 6&#8211;8 weeks of therapy)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "exfoliative dermatitis (usually in the first 6&#8211;8 weeks of therapy)",
+                        "html": "exfoliative dermatitis (usually in the first 6&#8211;8 weeks of therapy)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "fever (usually in the first 6&#8211;8 weeks of therapy)",
+                        "html": "fever (usually in the first 6&#8211;8 weeks of therapy)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Hypersensitivity reactions (usually in the first 6&#8211;8 weeks of therapy)",
+                        "html": "Hypersensitivity reactions (usually in the first 6&#8211;8 weeks of therapy)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "jaundice (usually in the first 6&#8211;8 weeks of therapy)",
+                        "html": "jaundice (usually in the first 6&#8211;8 weeks of therapy)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Hypoglycaemia",
+                "textContent": "This is uncommon and usually indicates excessive dosage. Sulfonylurea-induced hypoglycaemia may persist for many hours and must always be treated in hospital.",
+                "html": "<p>This is uncommon and usually indicates excessive dosage. Sulfonylurea-induced hypoglycaemia may persist for many hours and must always be treated in hospital.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Sulfonylureas should be avoided or a reduced dose should be used in severe hepatic impairment, because there is an increased risk of hypoglycaemia.",
+                "html": "<p>Sulfonylureas should be avoided or a reduced dose should be used in severe hepatic impairment, because there is an increased risk of hypoglycaemia.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Jaundice may occur.",
+                "html": "<p>Jaundice may occur.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Sulfonylureas should be used with care in those with mild to moderate renal impairment, because of the hazard of hypoglycaemia. Care is required to use the lowest dose that adequately controls blood glucose.\n\nAvoid where possible in severe renal impairment.",
+                "html": "<p>Sulfonylureas should be used with care in those with mild to moderate renal impairment, because of the hazard of hypoglycaemia. Care is required to use the lowest dose that adequately controls blood glucose.</p><p>Avoid where possible in severe renal impairment.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "title": "Driving",
+                "textContent": "Drivers need to be particularly careful to avoid hypoglycaemia and should be warned of the problems.",
+                "html": "<p>Drivers need to be particularly careful to avoid hypoglycaemia and should be warned of the problems.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "The risk of hypoglycaemia associated with sulfonylureas should be discussed with the patient, especially when concomitant glucose-lowering drugs are prescribed.",
+                "html": "<p>The risk of hypoglycaemia associated with sulfonylureas should be discussed with the patient, especially when concomitant glucose-lowering drugs are prescribed.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP4140",
+            "label": "GLIBENCLAMIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP4142",
+            "label": "GLICLAZIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP4148",
+            "label": "GLIMEPIRIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP4151",
+            "label": "GLIPIZIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP4156",
+            "label": "TOLBUTAMIDE",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP4140",
+                "label": "GLIBENCLAMIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP4142",
+                "label": "GLICLAZIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP4148",
+                "label": "GLIMEPIRIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP4151",
+                "label": "GLIPIZIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP4156",
+                "label": "TOLBUTAMIDE",
+                "type": "drug"
+            }
+        ]
+    }
+}

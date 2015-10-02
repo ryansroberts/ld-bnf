@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP97396\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/kenalog-vials\" basename=\"kenalog-vials\" title=\"Kenalog vials\">\n<title>Kenalog<tm tmtype=\"reg\"/> vials</title>\n<topic id=\"PHP97428\" outputclass=\"indicationsAndDose\" rev=\"1.28\" parent=\"/clinical-medicinal-product-information/kenalog-vials\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Local inflammation of joints and soft tissues</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intra-articular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8211;40&#8239;mg (max. per dose 80&#8239;mg), for further details consult product literature, select dose according to size. For doses below 5&#8239;mg use <i>Adcortyl</i>\n<tm tmtype=\"reg\"/>\n<i>Intra-articular/Intradermal</i> injection, where appropriate dose may be repeated when relapse occurs.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP97396",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/kenalog-vials",
+    "basename": "kenalog-vials",
+    "title": "Kenalog vials",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Local inflammation of joints and soft tissues",
+                        "html": "Local inflammation of joints and soft tissues"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intra-articular injection"
+                    ],
+                    "textContent": "By intra-articular injection",
+                    "html": "By intra-articular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "5&#8211;40 mg (max. per dose 80 mg), for further details consult product literature, select dose according to size. For doses below 5 mg use Adcortyl Intra-articular/Intradermal injection, where appropriate dose may be repeated when relapse occurs.",
+                        "html": "<p>5&#8211;40&#8239;mg (max. per dose 80&#8239;mg), for further details consult product literature, select dose according to size. For doses below 5&#8239;mg use <i>Adcortyl</i> <tm tmtype=\"reg\"/> <i>Intra-articular/Intradermal</i> injection, where appropriate dose may be repeated when relapse occurs.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

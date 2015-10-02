@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP74808\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cyanocobalamin/modified-release-tablet\" basename=\"modified-release-tablet\" title=\"Modified-release tablet\">\n<title>Modified-release tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>HealthAid Vitamin B12 1000microgram modified-release tablets <ph outputclass=\"manufacturer\">(HealthAid Ltd)</ph>\n</title>\n<data name=\"ampid\">7880211000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Cyanocobalamin 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.37</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.81</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5872\" title=\"CYANOCOBALAMIN\" namespace=\"/drugs/cyanocobalamin\">CYANOCOBALAMIN</xref>\n</parents>\n</topic>",
+    "id": "PHP74808",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cyanocobalamin/modified-release-tablet",
+    "basename": "modified-release-tablet",
+    "form": "Modified-release tablet",
+    "products": [
+        {
+            "title": "HealthAid Vitamin B12 1000microgram modified-release tablets (HealthAid Ltd) ",
+            "header": "HealthAid Vitamin B12 1000microgram modified-release tablets <ph outputclass=\"manufacturer\">(HealthAid Ltd)</ph>",
+            "manufacturer": "(HealthAid Ltd)",
+            "name": "HealthAid Vitamin B12 1000microgram modified-release tablets",
+            "ampid": "7880211000001105",
+            "strengthOfActiveIngredient": "Cyanocobalamin 1 mg",
+            "packs": [
+                {
+                    "textContent": " 50 tablet ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "tablet",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.37 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.37</ph>",
+                        "nhsIndicativePrice": "&#163;4.37"
+                    }
+                },
+                {
+                    "textContent": " 100 tablet ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.81 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.81</ph>",
+                        "nhsIndicativePrice": "&#163;7.81"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5872",
+        "label": "CYANOCOBALAMIN"
+    }
+}

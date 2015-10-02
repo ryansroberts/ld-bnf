@@ -1,0 +1,81 @@
+{
+    "xml": "<topic id=\"PHP75769\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/amikacin/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Amikin 100mg/2ml solution for injection vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4500411000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Amikacin (as Amikacin sulfate) 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.33</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Amikacin 500mg/2ml solution for injection vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">9222111000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Amikacin (as Amikacin sulfate) 250&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;60.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Amikacin 500mg/2ml solution for injection vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>\n</title>\n<data name=\"ampid\">11591311000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Amikacin (as Amikacin sulfate) 250&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;60.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3486\" title=\"AMIKACIN\" namespace=\"/drugs/amikacin\">AMIKACIN</xref>\n</parents>\n</topic>",
+    "id": "PHP75769",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/amikacin/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Amikin 100mg/2ml solution for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Amikin 100mg/2ml solution for injection vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Amikin 100mg/2ml solution for injection vials",
+            "ampid": "4500411000001101",
+            "strengthOfActiveIngredient": "Amikacin (as Amikacin sulfate) 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.33 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.33</ph>",
+                        "nhsIndicativePrice": "&#163;10.33"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Amikacin 500mg/2ml solution for injection vials (A A H Pharmaceuticals Ltd) ",
+            "header": "Amikacin 500mg/2ml solution for injection vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Amikacin 500mg/2ml solution for injection vials",
+            "ampid": "9222111000001109",
+            "strengthOfActiveIngredient": "Amikacin (as Amikacin sulfate) 250 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;60.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;60.00</ph>",
+                        "nhsIndicativePrice": "&#163;60.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Amikacin 500mg/2ml solution for injection vials (Hospira UK Ltd) ",
+            "header": "Amikacin 500mg/2ml solution for injection vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>",
+            "manufacturer": "(Hospira UK Ltd)",
+            "name": "Amikacin 500mg/2ml solution for injection vials",
+            "ampid": "11591311000001108",
+            "strengthOfActiveIngredient": "Amikacin (as Amikacin sulfate) 250 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;60.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;60.00</ph>",
+                        "nhsIndicativePrice": "&#163;60.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3486",
+        "label": "AMIKACIN"
+    }
+}

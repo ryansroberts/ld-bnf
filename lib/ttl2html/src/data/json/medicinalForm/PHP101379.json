@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP101379\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/triamcinolone-hexacetonide/suspension-for-injection\" basename=\"suspension-for-injection\" title=\"Suspension for injection\">\n<title>Suspension for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzyl alcohol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">28490511000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Triamcinolone hexacetonide 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;120.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules <ph outputclass=\"manufacturer\">(Intrapharm Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">24564611000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Triamcinolone hexacetonide 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;120.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94657\" title=\"TRIAMCINOLONE HEXACETONIDE\" namespace=\"/drugs/triamcinolone-hexacetonide\">TRIAMCINOLONE HEXACETONIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP101379",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/triamcinolone-hexacetonide/suspension-for-injection",
+    "basename": "suspension-for-injection",
+    "form": "Suspension for injection",
+    "excipients": [
+        "Benzyl alcohol"
+    ],
+    "products": [
+        {
+            "title": "Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules (A A H Pharmaceuticals Ltd) ",
+            "header": "Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules",
+            "ampid": "28490511000001105",
+            "strengthOfActiveIngredient": "Triamcinolone hexacetonide 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;120.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;120.00</ph>",
+                        "nhsIndicativePrice": "&#163;120.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules (Intrapharm Laboratories Ltd) ",
+            "header": "Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules <ph outputclass=\"manufacturer\">(Intrapharm Laboratories Ltd)</ph>",
+            "manufacturer": "(Intrapharm Laboratories Ltd)",
+            "name": "Triamcinolone hexacetonide 20mg/1ml suspension for injection ampoules",
+            "ampid": "24564611000001107",
+            "strengthOfActiveIngredient": "Triamcinolone hexacetonide 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;120.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;120.00</ph>",
+                        "nhsIndicativePrice": "&#163;120.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP94657",
+        "label": "TRIAMCINOLONE HEXACETONIDE"
+    }
+}

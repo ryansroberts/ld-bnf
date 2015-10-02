@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP92412\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/estradiol-with-nomegestrol/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Zoely 2.5mg/1.5mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">22311511000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Estradiol (as Estradiol hemihydrate) 1.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Nomegestrol 2.5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">84</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.80</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;19.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88080\" title=\"ESTRADIOL WITH NOMEGESTROL\" namespace=\"/drugs/estradiol-with-nomegestrol\">ESTRADIOL WITH NOMEGESTROL</xref>\n</parents>\n</topic>",
+    "id": "PHP92412",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/estradiol-with-nomegestrol/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Zoely 2.5mg/1.5mg tablets (Merck Sharp & Dohme Ltd) &#9660; ",
+            "header": "Zoely 2.5mg/1.5mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Zoely 2.5mg/1.5mg tablets",
+            "ampid": "22311511000001103",
+            "strengthOfActiveIngredient": "Nomegestrol 2.5 mg",
+            "packs": [
+                {
+                    "textContent": " 84 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">84</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "84",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.80</ph>",
+                        "nhsIndicativePrice": "&#163;19.80"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;19.80 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;19.80</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;19.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88080",
+        "label": "ESTRADIOL WITH NOMEGESTROL"
+    }
+}

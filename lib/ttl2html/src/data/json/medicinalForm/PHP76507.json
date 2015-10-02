@@ -1,0 +1,103 @@
+{
+    "xml": "<topic id=\"PHP76507\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/mesna/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Mesna 400mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">28094711000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Mesna 400&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;134.40</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Mesna 400mg tablets <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">15161411000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Mesna 400&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;134.30</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Mesna 600mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">28094911000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Mesna 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;190.60</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Mesna 600mg tablets <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">15163311000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Mesna 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;190.60</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5234\" title=\"MESNA\" namespace=\"/drugs/mesna\">MESNA</xref>\n</parents>\n</topic>",
+    "id": "PHP76507",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/mesna/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Mesna 400mg tablets (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Mesna 400mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Mesna 400mg tablets",
+            "ampid": "28094711000001104",
+            "strengthOfActiveIngredient": "Mesna 400 mg",
+            "packs": [
+                {
+                    "textContent": " 10 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;134.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;134.40</ph>",
+                        "nhsIndicativePrice": "&#163;134.40"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Mesna 400mg tablets (Baxter Healthcare Ltd) ",
+            "header": "Mesna 400mg tablets <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Mesna 400mg tablets",
+            "ampid": "15161411000001105",
+            "strengthOfActiveIngredient": "Mesna 400 mg",
+            "packs": [
+                {
+                    "textContent": " 10 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;134.30 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;134.30</ph>",
+                        "nhsIndicativePrice": "&#163;134.30"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Mesna 600mg tablets (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Mesna 600mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Mesna 600mg tablets",
+            "ampid": "28094911000001102",
+            "strengthOfActiveIngredient": "Mesna 600 mg",
+            "packs": [
+                {
+                    "textContent": " 10 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;190.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;190.60</ph>",
+                        "nhsIndicativePrice": "&#163;190.60"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Mesna 600mg tablets (Baxter Healthcare Ltd) ",
+            "header": "Mesna 600mg tablets <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Mesna 600mg tablets",
+            "ampid": "15163311000001102",
+            "strengthOfActiveIngredient": "Mesna 600 mg",
+            "packs": [
+                {
+                    "textContent": " 10 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;190.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;190.60</ph>",
+                        "nhsIndicativePrice": "&#163;190.60"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5234",
+        "label": "MESNA"
+    }
+}

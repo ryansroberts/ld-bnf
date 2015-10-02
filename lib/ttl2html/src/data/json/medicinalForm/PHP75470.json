@@ -1,0 +1,53 @@
+{
+    "xml": "<topic id=\"PHP75470\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/clindamycin/gel\" basename=\"gel\" title=\"Gel\">\n<title>Gel</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Propylene glycol</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP85276\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/zindaclin-gel\">Zindaclin<tm tmtype=\"reg\"/> gel</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Zindaclin 1% gel <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">3816611000001102</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Clindamycin (as Clindamycin phosphate) 10&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.66</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;8.66</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3526\" title=\"CLINDAMYCIN\" namespace=\"/drugs/clindamycin\">CLINDAMYCIN</xref>\n</parents>\n</topic>",
+    "id": "PHP75470",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/clindamycin/gel",
+    "basename": "gel",
+    "form": "Gel",
+    "excipients": [
+        "Propylene glycol"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP85276",
+            "label": "Zindaclin&reg;  gel",
+            "html": "Zindaclin<tm tmtype=\"reg\"/> gel"
+        }
+    ],
+    "products": [
+        {
+            "title": "Zindaclin 1% gel (Crawford Healthcare Ltd) ",
+            "header": "Zindaclin 1% gel <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>",
+            "manufacturer": "(Crawford Healthcare Ltd)",
+            "name": "Zindaclin 1% gel",
+            "ampid": "3816611000001102",
+            "strengthOfActiveIngredient": "Clindamycin (as Clindamycin phosphate) 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.66 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.66</ph>",
+                        "nhsIndicativePrice": "&#163;8.66"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;8.66 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;8.66</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;8.66"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3526",
+        "label": "CLINDAMYCIN"
+    }
+}

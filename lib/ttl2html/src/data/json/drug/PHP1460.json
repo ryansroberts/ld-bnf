@@ -1,0 +1,419 @@
+{
+    "xml": "<topic id=\"PHP1460\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/enoxaparin-sodium\" basename=\"enoxaparin-sodium\" title=\"ENOXAPARIN SODIUM\">\n<title>ENOXAPARIN SODIUM</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_227\" namespace=\"/interactions/list-of-drug-interactions/anticoagulants/heparins/enoxaparin\">Enoxaparin</xref>\n</p>\n<data name=\"vtmid\">108984007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_502671253\" title=\"Heparins\">Heparins</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34597\" title=\"HEPARINS\" namespace=\"/drug-classes/heparins\">HEPARINS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP53939\" outputclass=\"indicationsAndDose\" rev=\"1.61\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of venous thromboembolism in pregnancy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight up to 50 kg)</p>\n<p>40&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 50&#8211;69 kg)</p>\n<p>60&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 70&#8211;89 kg)</p>\n<p>80&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 90 kg and above)</p>\n<p>100&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of deep-vein thrombosis, especially in surgical patients&#8212;moderate risk</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8239;mg for 1 dose, dose to be given approximately 2 hours before surgery, then 20&#8239;mg every 24&#8239;hours.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of deep-vein thrombosis, especially surgical patients&#8212;high risk (e.g. orthopaedic surgery)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>40&#8239;mg for 1 dose, dose to be given 12 hours before surgery, then 40&#8239;mg every 24&#8239;hours.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of deep-vein thrombosis in medical patients</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>40&#8239;mg every 24&#8239;hours.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of deep-vein thrombosis</p>\n<p outputclass=\"therapeuticIndication\">Treatment of pulmonary embolism</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.5&#8239;mg/kg every 24&#8239;hours until adequate oral anticoagulation established.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of acute ST-segment elevation myocardial infarction (patients not undergoing percutaneous coronary intervention)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult 18&#8211;74 years</p>\n<p>Initially 30&#8239;mg, followed by (by subcutaneous injection) 1&#8239;mg/kg for 1 dose, then (by subcutaneous injection) 1&#8239;mg/kg every 12&#8239;hours (max. per dose 100&#8239;mg) for up to 8 days, maximum dose applies for the first two subcutaneous doses only.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult 75 years and over</p>\n<p>750&#8239;micrograms/kg every 12&#8239;hours (max. per dose 75&#8239;mg), maximum dose applies for the first two doses only.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of acute ST-segment elevation myocardial infarction (patients undergoing percutaneous coronary intervention)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult 18&#8211;74 years</p>\n<p>Initially 30&#8239;mg, followed by (by subcutaneous injection) 1&#8239;mg/kg for 1 dose, then (by subcutaneous injection) 1&#8239;mg/kg every 12&#8239;hours (max. per dose 100&#8239;mg) for up to 8 days, maximum dose applies for the first two subcutaneous doses only, then (by intravenous injection) 300&#8239;micrograms/kg for 1 dose, dose to be given at the time of procedure if the last subcutaneous dose was given more than 8 hours previously.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">Initially by subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult 75 years and over</p>\n<p>750&#8239;micrograms/kg every 12&#8239;hours (max. per dose 75&#8239;mg), maximum dose applies for the first two doses only, then (by intravenous injection) 300&#8239;micrograms/kg for 1 dose, dose to be given at the time of procedure if the last subcutaneous dose was given more than 8 hours previously.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Unstable angina</p>\n<p outputclass=\"therapeuticIndication\">Non-ST-segment-elevation myocardial infarction</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;mg/kg every 12&#8239;hours usually for 2&#8211;8 days (minimum 2 days).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of clotting in extracorporeal circuits</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the device as a flush</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>1&#8239;mg equivalent to 100&#8239;units.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53882\" outputclass=\"unlicensedUse\" rev=\"1.7\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Not licensed for treatment of venous thromboembolism in pregnancy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54063\" outputclass=\"cautions\" rev=\"1.20\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Low body-weight (increased risk of bleeding)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53921\" outputclass=\"pregnancy\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Not known to be harmful, low molecular weight heparins do not cross the placenta.</p>\n<p>Multidose vial contains benzyl alcohol&#8212;avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54074\" outputclass=\"breastFeeding\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Due to the relatively high molecular weight of enoxaparin and inactivation in the gastro-intestinal tract, passage into breast-milk and absorption by the nursing infant are likely to be negligible; however manufacturers advise avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54010\" outputclass=\"hepaticImpairment\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution&#8212; no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53902\" outputclass=\"renalImpairment\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Risk of bleeding increased; reduce dose if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>&#8212; consult product literature for details.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use of unfractionated heparin may be preferable.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53877\" outputclass=\"monitoringRequirements\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Routine monitoring of anti-Factor Xa activity is not usually required during treatment with enoxaparin, but may be necessary in patients at increased risk of bleeding (e.g. in renal impairment and those who are underweight or overweight).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54111\" outputclass=\"directionsForAdministration\" rev=\"1.7\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>When administered in conjunction with a thrombolytic, enoxaparin should be given between 15 minutes before and 30 minutes after the start of thrombolytic therapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP1460-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/enoxaparin-sodium\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77427\" title=\"Solution for injection\" namespace=\"/drugs/enoxaparin-sodium/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78144\" namespace=\"/treatment-summaries/acute-coronary-syndromes\" title=\"Acute coronary syndromes\" count=\"3\" rel=\"backlink\">Acute coronary syndromes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78403\" namespace=\"/treatment-summaries/venous-thromboembolism\" title=\"Venous thromboembolism\" count=\"1\" rel=\"backlink\">Venous thromboembolism</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78413\" namespace=\"/treatment-summaries/parenteral-anticoagulants\" title=\"Parenteral anticoagulants\" count=\"1\" rel=\"backlink\">Parenteral anticoagulants</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_227\" namespace=\"/interactions/list-of-drug-interactions/anticoagulants/heparins/enoxaparin\" title=\"Enoxaparin\" count=\"1\" rel=\"link\">Enoxaparin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34597\" namespace=\"/drug-classes/heparins\" title=\"HEPARINS\" count=\"1\" rel=\"link\">HEPARINS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77427\" namespace=\"/drugs/enoxaparin-sodium/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP1460",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/enoxaparin-sodium",
+    "basename": "enoxaparin-sodium",
+    "title": "ENOXAPARIN SODIUM",
+    "interactants": [
+        {
+            "id": "bnf_int_227",
+            "label": "Enoxaparin"
+        }
+    ],
+    "vtmid": "108984007",
+    "drugClassification": [
+        "Heparins"
+    ],
+    "inheritsFromClass": [
+        "HEPARINS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of venous thromboembolism in pregnancy",
+                        "html": "Treatment of venous thromboembolism in pregnancy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "40 mg twice daily, dose based on early pregnancy body-weight.",
+                        "html": "<p>40&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>",
+                        "ageGroup": "(body-weight up to 50 kg)"
+                    },
+                    {
+                        "textContent": "60 mg twice daily, dose based on early pregnancy body-weight.",
+                        "html": "<p>60&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>",
+                        "ageGroup": "(body-weight 50&#8211;69 kg)"
+                    },
+                    {
+                        "textContent": "80 mg twice daily, dose based on early pregnancy body-weight.",
+                        "html": "<p>80&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>",
+                        "ageGroup": "(body-weight 70&#8211;89 kg)"
+                    },
+                    {
+                        "textContent": "100 mg twice daily, dose based on early pregnancy body-weight.",
+                        "html": "<p>100&#8239;mg twice daily, dose based on early pregnancy body-weight.</p>",
+                        "ageGroup": "(body-weight 90 kg and above)"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of deep-vein thrombosis, especially in surgical patients&#8212;moderate risk",
+                        "html": "Prophylaxis of deep-vein thrombosis, especially in surgical patients&#8212;moderate risk"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "20 mg for 1 dose, dose to be given approximately 2 hours before surgery, then 20 mg every 24 hours.",
+                        "html": "<p>20&#8239;mg for 1 dose, dose to be given approximately 2 hours before surgery, then 20&#8239;mg every 24&#8239;hours.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of deep-vein thrombosis, especially surgical patients&#8212;high risk (e.g. orthopaedic surgery)",
+                        "html": "Prophylaxis of deep-vein thrombosis, especially surgical patients&#8212;high risk (e.g. orthopaedic surgery)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "40 mg for 1 dose, dose to be given 12 hours before surgery, then 40 mg every 24 hours.",
+                        "html": "<p>40&#8239;mg for 1 dose, dose to be given 12 hours before surgery, then 40&#8239;mg every 24&#8239;hours.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of deep-vein thrombosis in medical patients",
+                        "html": "Prophylaxis of deep-vein thrombosis in medical patients"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "40 mg every 24 hours.",
+                        "html": "<p>40&#8239;mg every 24&#8239;hours.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of deep-vein thrombosis",
+                        "html": "Treatment of deep-vein thrombosis"
+                    },
+                    {
+                        "textContent": "Treatment of pulmonary embolism",
+                        "html": "Treatment of pulmonary embolism"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1.5 mg/kg every 24 hours until adequate oral anticoagulation established.",
+                        "html": "<p>1.5&#8239;mg/kg every 24&#8239;hours until adequate oral anticoagulation established.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of acute ST-segment elevation myocardial infarction (patients not undergoing percutaneous coronary intervention)",
+                        "html": "Treatment of acute ST-segment elevation myocardial infarction (patients not undergoing percutaneous coronary intervention)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 30 mg, followed by (by subcutaneous injection) 1 mg/kg for 1 dose, then (by subcutaneous injection) 1 mg/kg every 12 hours (max. per dose 100 mg) for up to 8 days, maximum dose applies for the first two subcutaneous doses only.",
+                        "html": "<p>Initially 30&#8239;mg, followed by (by subcutaneous injection) 1&#8239;mg/kg for 1 dose, then (by subcutaneous injection) 1&#8239;mg/kg every 12&#8239;hours (max. per dose 100&#8239;mg) for up to 8 days, maximum dose applies for the first two subcutaneous doses only.</p>",
+                        "ageGroup": "18&#8211;74 years"
+                    },
+                    {
+                        "textContent": "750 micrograms/kg every 12 hours (max. per dose 75 mg), maximum dose applies for the first two doses only.",
+                        "html": "<p>750&#8239;micrograms/kg every 12&#8239;hours (max. per dose 75&#8239;mg), maximum dose applies for the first two doses only.</p>",
+                        "ageGroup": "75 years and over"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of acute ST-segment elevation myocardial infarction (patients undergoing percutaneous coronary intervention)",
+                        "html": "Treatment of acute ST-segment elevation myocardial infarction (patients undergoing percutaneous coronary intervention)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially subcutaneous injection"
+                    ],
+                    "textContent": "Initially by subcutaneous injection",
+                    "html": "Initially by subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 30 mg, followed by (by subcutaneous injection) 1 mg/kg for 1 dose, then (by subcutaneous injection) 1 mg/kg every 12 hours (max. per dose 100 mg) for up to 8 days, maximum dose applies for the first two subcutaneous doses only, then (by intravenous injection) 300 micrograms/kg for 1 dose, dose to be given at the time of procedure if the last subcutaneous dose was given more than 8 hours previously.",
+                        "html": "<p>Initially 30&#8239;mg, followed by (by subcutaneous injection) 1&#8239;mg/kg for 1 dose, then (by subcutaneous injection) 1&#8239;mg/kg every 12&#8239;hours (max. per dose 100&#8239;mg) for up to 8 days, maximum dose applies for the first two subcutaneous doses only, then (by intravenous injection) 300&#8239;micrograms/kg for 1 dose, dose to be given at the time of procedure if the last subcutaneous dose was given more than 8 hours previously.</p>",
+                        "ageGroup": "18&#8211;74 years"
+                    },
+                    {
+                        "textContent": "750 micrograms/kg every 12 hours (max. per dose 75 mg), maximum dose applies for the first two doses only, then (by intravenous injection) 300 micrograms/kg for 1 dose, dose to be given at the time of procedure if the last subcutaneous dose was given more than 8 hours previously.",
+                        "html": "<p>750&#8239;micrograms/kg every 12&#8239;hours (max. per dose 75&#8239;mg), maximum dose applies for the first two doses only, then (by intravenous injection) 300&#8239;micrograms/kg for 1 dose, dose to be given at the time of procedure if the last subcutaneous dose was given more than 8 hours previously.</p>",
+                        "ageGroup": "75 years and over"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Unstable angina",
+                        "html": "Unstable angina"
+                    },
+                    {
+                        "textContent": "Non-ST-segment-elevation myocardial infarction",
+                        "html": "Non-ST-segment-elevation myocardial infarction"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 mg/kg every 12 hours usually for 2&#8211;8 days (minimum 2 days).",
+                        "html": "<p>1&#8239;mg/kg every 12&#8239;hours usually for 2&#8211;8 days (minimum 2 days).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of clotting in extracorporeal circuits",
+                        "html": "Prevention of clotting in extracorporeal circuits"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the device as a flush"
+                    ],
+                    "textContent": "To the device as a flush",
+                    "html": "To the device as a flush"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "1 mg equivalent to 100 units.",
+                "html": "<p>1&#8239;mg equivalent to 100&#8239;units.</p>"
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Not licensed for treatment of venous thromboembolism in pregnancy.",
+                "html": "<p>Not licensed for treatment of venous thromboembolism in pregnancy.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Low body-weight (increased risk of bleeding)",
+                "html": "Low body-weight (increased risk of bleeding)"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Not known to be harmful, low molecular weight heparins do not cross the placenta.\n\nMultidose vial contains benzyl alcohol&#8212;avoid.",
+                "html": "<p>Not known to be harmful, low molecular weight heparins do not cross the placenta.</p><p>Multidose vial contains benzyl alcohol&#8212;avoid.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Due to the relatively high molecular weight of enoxaparin and inactivation in the gastro-intestinal tract, passage into breast-milk and absorption by the nursing infant are likely to be negligible; however manufacturers advise avoid.",
+                "html": "<p>Due to the relatively high molecular weight of enoxaparin and inactivation in the gastro-intestinal tract, passage into breast-milk and absorption by the nursing infant are likely to be negligible; however manufacturers advise avoid.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution&#8212; no information available.",
+                "html": "<p>Manufacturer advises caution&#8212; no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Risk of bleeding increased; reduce dose if eGFR less than 30 mL/minute/1.73 m2&#8212; consult product literature for details.",
+                "html": "<p>Risk of bleeding increased; reduce dose if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>&#8212; consult product literature for details.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use of unfractionated heparin may be preferable.",
+                "html": "<p>Use of unfractionated heparin may be preferable.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Routine monitoring of anti-Factor Xa activity is not usually required during treatment with enoxaparin, but may be necessary in patients at increased risk of bleeding (e.g. in renal impairment and those who are underweight or overweight).",
+                "html": "<p>Routine monitoring of anti-Factor Xa activity is not usually required during treatment with enoxaparin, but may be necessary in patients at increased risk of bleeding (e.g. in renal impairment and those who are underweight or overweight).</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "When administered in conjunction with a thrombolytic, enoxaparin should be given between 15 minutes before and 30 minutes after the start of thrombolytic therapy.",
+                "html": "<p>When administered in conjunction with a thrombolytic, enoxaparin should be given between 15 minutes before and 30 minutes after the start of thrombolytic therapy.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77427",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78144",
+                "label": "Acute coronary syndromes",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78403",
+                "label": "Venous thromboembolism",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78413",
+                "label": "Parenteral anticoagulants",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_227",
+                "label": "Enoxaparin",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34597",
+                "label": "HEPARINS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77427",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

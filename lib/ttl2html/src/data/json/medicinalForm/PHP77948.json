@@ -1,0 +1,107 @@
+{
+    "xml": "<topic id=\"PHP77948\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/glucose/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Glucojuice liquid <ph outputclass=\"manufacturer\">(BBI Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">19807211000001100</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;0.90</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Glucose liquid BPC 1963 <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">110011000001106</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"acbs\">(ACBS)</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.02</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Glucose liquid BPC 1963 <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>\n</title>\n<data name=\"ampid\">55811000001109</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">140</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"acbs\">(ACBS)</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;0.96</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;0.96</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">280</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"acbs\">(ACBS)</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.80</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"acbs\">(ACBS)</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.02</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6004\" title=\"GLUCOSE\" namespace=\"/drugs/glucose\">GLUCOSE</xref>\n</parents>\n</topic>",
+    "id": "PHP77948",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/glucose/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "products": [
+        {
+            "title": "Glucojuice liquid (BBI Healthcare Ltd) ",
+            "header": "Glucojuice liquid <ph outputclass=\"manufacturer\">(BBI Healthcare Ltd)</ph>",
+            "manufacturer": "(BBI Healthcare Ltd)",
+            "name": "Glucojuice liquid",
+            "ampid": "19807211000001100",
+            "packs": [
+                {
+                    "textContent": " 60 ml ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;0.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;0.90</ph>",
+                        "nhsIndicativePrice": "&#163;0.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Glucose liquid BPC 1963 (A A H Pharmaceuticals Ltd) ",
+            "header": "Glucose liquid BPC 1963 <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Glucose liquid BPC 1963",
+            "ampid": "110011000001106",
+            "packs": [
+                {
+                    "textContent": " 500 gram (ACBS) ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"acbs\">(ACBS)</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "gram",
+                    "acbs": "(ACBS)",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.02 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.02</ph>",
+                        "nhsIndicativePrice": "&#163;4.02"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Glucose liquid BPC 1963 (J M Loveridge Ltd) ",
+            "header": "Glucose liquid BPC 1963 <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>",
+            "manufacturer": "(J M Loveridge Ltd)",
+            "name": "Glucose liquid BPC 1963",
+            "ampid": "55811000001109",
+            "packs": [
+                {
+                    "textContent": " 140 gram (ACBS) ",
+                    "html": "<ph outputclass=\"packSize\">140</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"acbs\">(ACBS)</ph>",
+                    "packSize": "140",
+                    "unitOfMeasure": "gram",
+                    "acbs": "(ACBS)",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;0.96 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;0.96</ph>",
+                        "nhsIndicativePrice": "&#163;0.96"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;0.96 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;0.96</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;0.96"
+                    }
+                },
+                {
+                    "textContent": " 280 gram (ACBS) ",
+                    "html": "<ph outputclass=\"packSize\">280</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"acbs\">(ACBS)</ph>",
+                    "packSize": "280",
+                    "unitOfMeasure": "gram",
+                    "acbs": "(ACBS)",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.80</ph>",
+                        "nhsIndicativePrice": "&#163;1.80"
+                    }
+                },
+                {
+                    "textContent": " 500 gram (ACBS) ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"acbs\">(ACBS)</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "gram",
+                    "acbs": "(ACBS)",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.02 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.02</ph>",
+                        "nhsIndicativePrice": "&#163;4.02"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6004",
+        "label": "GLUCOSE"
+    }
+}

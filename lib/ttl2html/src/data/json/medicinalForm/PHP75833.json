@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP75833\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/econazole-nitrate/pessary\" basename=\"pessary\" title=\"Pessary\">\n<title>Pessary</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP97395\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/gyno-pevaryl-once\">Gyno-Pevaryl<tm tmtype=\"reg\"/> Once</xref>\r\n<xref format=\"dita\" href=\"#PHP97394\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/gyno-pevaryl-pessary\">Gyno-Pevaryl<tm tmtype=\"reg\"/> pessary</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Gyno-Pevaryl 150mg vaginal pessaries <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">4091911000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Econazole nitrate 150&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">3</ph>\n<ph outputclass=\"unitOfMeasure\">pessary</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.17</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Gyno-Pevaryl Once 150mg vaginal pessary <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">4093911000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Econazole nitrate 150&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pessary</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.69</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8022\" title=\"ECONAZOLE NITRATE\" namespace=\"/drugs/econazole-nitrate\">ECONAZOLE NITRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75833",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/econazole-nitrate/pessary",
+    "basename": "pessary",
+    "form": "Pessary",
+    "productInformationGroups": [
+        {
+            "id": "PHP97395",
+            "label": "Gyno-Pevaryl&reg;  Once",
+            "html": "Gyno-Pevaryl<tm tmtype=\"reg\"/> Once"
+        },
+        {
+            "id": "PHP97394",
+            "label": "Gyno-Pevaryl&reg;  pessary",
+            "html": "Gyno-Pevaryl<tm tmtype=\"reg\"/> pessary"
+        }
+    ],
+    "products": [
+        {
+            "title": "Gyno-Pevaryl 150mg vaginal pessaries (Janssen-Cilag Ltd) ",
+            "header": "Gyno-Pevaryl 150mg vaginal pessaries <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Gyno-Pevaryl 150mg vaginal pessaries",
+            "ampid": "4091911000001101",
+            "strengthOfActiveIngredient": "Econazole nitrate 150 mg",
+            "packs": [
+                {
+                    "textContent": " 3 pessary POM ",
+                    "html": "<ph outputclass=\"packSize\">3</ph> <ph outputclass=\"unitOfMeasure\">pessary</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "3",
+                    "unitOfMeasure": "pessary",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.17 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.17</ph>",
+                        "nhsIndicativePrice": "&#163;4.17"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gyno-Pevaryl Once 150mg vaginal pessary (Janssen-Cilag Ltd) ",
+            "header": "Gyno-Pevaryl Once 150mg vaginal pessary <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Gyno-Pevaryl Once 150mg vaginal pessary",
+            "ampid": "4093911000001100",
+            "strengthOfActiveIngredient": "Econazole nitrate 150 mg",
+            "packs": [
+                {
+                    "textContent": " 1 pessary POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pessary</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pessary",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.69 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.69</ph>",
+                        "nhsIndicativePrice": "&#163;3.69"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8022",
+        "label": "ECONAZOLE NITRATE"
+    }
+}

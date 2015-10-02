@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP81576\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/rebetol-oral-solution\" basename=\"rebetol-oral-solution\" title=\"Rebetol oral solution\">\n<title>Rebetol<tm tmtype=\"reg\"/> oral solution</title>\n<topic id=\"PHP83863\" outputclass=\"indicationsAndDose\" rev=\"1.27\" parent=\"/clinical-medicinal-product-information/rebetol-oral-solution\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic hepatitis C (in combination with interferon alfa or peginterferon alfa)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight up to 64 kg)</p>\n<p>400&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 65&#8211;80 kg)</p>\n<p>400&#8239;mg daily, dose to be given in the morning and 600&#8239;mg daily, dose to be given in the evening.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 81&#8211;104 kg)</p>\n<p>600&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 105 kg and above)</p>\n<p>600&#8239;mg daily, dose to be given in the morning and 800&#8239;mg daily, dose to be given in the evening.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81576",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/rebetol-oral-solution",
+    "basename": "rebetol-oral-solution",
+    "title": "Rebetol oral solution",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic hepatitis C (in combination with interferon alfa or peginterferon alfa)",
+                        "html": "Chronic hepatitis C (in combination with interferon alfa or peginterferon alfa)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "400 mg twice daily.",
+                        "html": "<p>400&#8239;mg twice daily.</p>",
+                        "ageGroup": "(body-weight up to 64 kg)"
+                    },
+                    {
+                        "textContent": "400 mg daily, dose to be given in the morning and 600 mg daily, dose to be given in the evening.",
+                        "html": "<p>400&#8239;mg daily, dose to be given in the morning and 600&#8239;mg daily, dose to be given in the evening.</p>",
+                        "ageGroup": "(body-weight 65&#8211;80 kg)"
+                    },
+                    {
+                        "textContent": "600 mg twice daily.",
+                        "html": "<p>600&#8239;mg twice daily.</p>",
+                        "ageGroup": "(body-weight 81&#8211;104 kg)"
+                    },
+                    {
+                        "textContent": "600 mg daily, dose to be given in the morning and 800 mg daily, dose to be given in the evening.",
+                        "html": "<p>600&#8239;mg daily, dose to be given in the morning and 800&#8239;mg daily, dose to be given in the evening.</p>",
+                        "ageGroup": "(body-weight 105 kg and above)"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

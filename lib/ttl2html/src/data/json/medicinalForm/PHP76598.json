@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP76598\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/levomenthol/stick\" basename=\"stick\" title=\"Stick\">\n<title>Stick</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>4Head sticks <ph outputclass=\"manufacturer\">(Dendron Ltd)</ph>\n</title>\n<data name=\"ampid\">8017411000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Levomenthol 1&#8239;mg per 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">3.6</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.70</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7559\" title=\"LEVOMENTHOL\" namespace=\"/drugs/levomenthol\">LEVOMENTHOL</xref>\n</parents>\n</topic>",
+    "id": "PHP76598",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/levomenthol/stick",
+    "basename": "stick",
+    "form": "Stick",
+    "products": [
+        {
+            "title": "4Head sticks (Dendron Ltd) ",
+            "header": "4Head sticks <ph outputclass=\"manufacturer\">(Dendron Ltd)</ph>",
+            "manufacturer": "(Dendron Ltd)",
+            "name": "4Head sticks",
+            "ampid": "8017411000001103",
+            "strengthOfActiveIngredient": "Levomenthol 1 mg per 1 mg",
+            "packs": [
+                {
+                    "textContent": " 3.6 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">3.6</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "3.6",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.70</ph>",
+                        "nhsIndicativePrice": "&#163;3.70"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7559",
+        "label": "LEVOMENTHOL"
+    }
+}

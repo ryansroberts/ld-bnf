@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP98039\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/herceptin-solution-for-injection\" basename=\"herceptin-solution-for-injection\" title=\"Herceptin solution for injection\">\n<title>Herceptin<tm tmtype=\"reg\"/> solution for injection</title>\n<topic id=\"PHP98276\" outputclass=\"nationalFunding\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/herceptin-solution-for-injection\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (December 2013) that subcutaneous trastuzumab injection (<i>Herceptin</i>\n<tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland for the treatment of adults with HER2 positive metastatic breast cancer and early breast cancer, when used within licensed indications excluding use in combination with an aromatase inhibitor for the treatment of postmenopausal patients with hormone-receptor positive metastatic breast cancer, not previously treated with trastuzumab.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98039",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/herceptin-solution-for-injection",
+    "basename": "herceptin-solution-for-injection",
+    "title": "Herceptin solution for injection",
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (December 2013) that subcutaneous trastuzumab injection (Herceptin ) is accepted for restricted use within NHS Scotland for the treatment of adults with HER2 positive metastatic breast cancer and early breast cancer, when used within licensed indications excluding use in combination with an aromatase inhibitor for the treatment of postmenopausal patients with hormone-receptor positive metastatic breast cancer, not previously treated with trastuzumab.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (December 2013) that subcutaneous trastuzumab injection (<i>Herceptin</i> <tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland for the treatment of adults with HER2 positive metastatic breast cancer and early breast cancer, when used within licensed indications excluding use in combination with an aromatase inhibitor for the treatment of postmenopausal patients with hormone-receptor positive metastatic breast cancer, not previously treated with trastuzumab.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

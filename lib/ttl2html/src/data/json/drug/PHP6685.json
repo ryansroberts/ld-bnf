@@ -1,0 +1,287 @@
+{
+    "xml": "<topic id=\"PHP6685\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/rasburicase\" basename=\"rasburicase\" title=\"RASBURICASE\">\n<title>RASBURICASE</title>\n<body>\n<data name=\"vtmid\">134670005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_605657976\" title=\"Urate oxidases\">Urate oxidases</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP45938\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/rasburicase\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis and treatment of acute hyperuricaemia, before and during initiation of chemotherapy, in patients with haematological malignancy and high tumour burden at risk of rapid lysis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;micrograms/kg once daily for up to 7 days according to plasma-uric acid concentration.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45888\" outputclass=\"unlicensedUse\" rev=\"1.6\" parent=\"/drugs/rasburicase\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Not licensed for use in children.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45963\" outputclass=\"contraindications\" rev=\"1.6\" parent=\"/drugs/rasburicase\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">G6PD deficiency</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45969\" outputclass=\"cautions\" rev=\"1.6\" parent=\"/drugs/rasburicase\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Atopic allergies</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45905\" outputclass=\"sideEffects\" rev=\"1.8\" parent=\"/drugs/rasburicase\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Fever</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anaphylaxis</ph>; <ph outputclass=\"sideEffect\">bronchospasm</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">haemolytic anaemia</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">methaemoglobinaemia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45933\" outputclass=\"pregnancy\" parent=\"/drugs/rasburicase\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45970\" outputclass=\"breastFeeding\" parent=\"/drugs/rasburicase\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45885\" outputclass=\"monitoringRequirements\" parent=\"/drugs/rasburicase\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor closely for hypersensitivity.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45867\" outputclass=\"effectOnLaboratoryTests\" rev=\"1.7\" parent=\"/drugs/rasburicase\">\n<title>Effect on laboratory tests</title>\n<body>\n<section>\n<sectiondiv>\n<p>May interfere with test for uric acid&#8212;consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45977\" outputclass=\"directionsForAdministration\" rev=\"1.9\" parent=\"/drugs/rasburicase\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For <i>intravenous infusion</i> (<i>Fasturtec</i>\n<sup>\n<tm tmtype=\"reg\"/>\n</sup>), give intermittently in Sodium chloride 0.9%; reconstitute with solvent provided; gently swirl vial without shaking to dissolve; dilute requisite dose to 50&#8239;mL with infusion fluid and give over 30 minutes.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP6685-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/rasburicase\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76647\" title=\"Powder and solvent for solution for infusion\" namespace=\"/drugs/rasburicase/powder-and-solvent-for-solution-for-infusion\">Powder and solvent for solution for infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78537\" namespace=\"/treatment-summaries/cytotoxic-drugs\" title=\"Cytotoxic drugs\" count=\"1\" rel=\"backlink\">Cytotoxic drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76647\" namespace=\"/drugs/rasburicase/powder-and-solvent-for-solution-for-infusion\" title=\"Powder and solvent for solution for infusion\" count=\"1\" rel=\"link\">Powder and solvent for solution for infusion</xref>\n</links>\n</topic>",
+    "id": "PHP6685",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/rasburicase",
+    "basename": "rasburicase",
+    "title": "RASBURICASE",
+    "vtmid": "134670005",
+    "drugClassification": [
+        "Urate oxidases"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis and treatment of acute hyperuricaemia, before and during initiation of chemotherapy, in patients with haematological malignancy and high tumour burden at risk of rapid lysis",
+                        "html": "Prophylaxis and treatment of acute hyperuricaemia, before and during initiation of chemotherapy, in patients with haematological malignancy and high tumour burden at risk of rapid lysis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "200 micrograms/kg once daily for up to 7 days according to plasma-uric acid concentration.",
+                        "html": "<p>200&#8239;micrograms/kg once daily for up to 7 days according to plasma-uric acid concentration.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Not licensed for use in children.",
+                "html": "<p>Not licensed for use in children.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "G6PD deficiency",
+                "html": "G6PD deficiency"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Atopic allergies",
+                "html": "Atopic allergies"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Fever",
+                        "html": "Fever",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Anaphylaxis",
+                        "html": "Anaphylaxis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "bronchospasm",
+                        "html": "bronchospasm",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "haemolytic anaemia",
+                        "html": "haemolytic anaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "methaemoglobinaemia",
+                        "html": "methaemoglobinaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor closely for hypersensitivity.",
+                "html": "<p>Monitor closely for hypersensitivity.</p>"
+            }
+        ]
+    },
+    "effectOnLaboratoryTests": {
+        "effectOnLaboratoryTests": [
+            {
+                "type": "effectOnLaboratoryTests",
+                "textContent": "May interfere with test for uric acid&#8212;consult product literature.",
+                "html": "<p>May interfere with test for uric acid&#8212;consult product literature.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For intravenous infusion (Fasturtec ), give intermittently in Sodium chloride 0.9%; reconstitute with solvent provided; gently swirl vial without shaking to dissolve; dilute requisite dose to 50 mL with infusion fluid and give over 30 minutes.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Fasturtec</i>\n<sup>\n<tm tmtype=\"reg\"/>\n</sup>), give intermittently in Sodium chloride 0.9%; reconstitute with solvent provided; gently swirl vial without shaking to dissolve; dilute requisite dose to 50&#8239;mL with infusion fluid and give over 30 minutes.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76647",
+                "label": "Powder and solvent for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78537",
+                "label": "Cytotoxic drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76647",
+                "label": "Powder and solvent for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

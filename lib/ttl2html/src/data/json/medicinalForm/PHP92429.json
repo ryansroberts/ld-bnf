@@ -1,0 +1,64 @@
+{
+    "xml": "<topic id=\"PHP92429\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/calamine-with-zinc-oxide/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Aqueous calamine cream <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">57211000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calamine 40&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cetomacrogol emulsifying wax 50&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Liquid paraffin 200&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Phenoxyethanol 5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Self-emulsifying glyceryl monostearate 50&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Zinc oxide 30&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.29</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1.29</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Cala Soothe cream <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">21889711000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calamine 40&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cetomacrogol emulsifying wax 50&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Liquid paraffin 200&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Phenoxyethanol 5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Self-emulsifying glyceryl monostearate 50&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Zinc oxide 30&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;18.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88098\" title=\"CALAMINE WITH ZINC OXIDE\" namespace=\"/drugs/calamine-with-zinc-oxide\">CALAMINE WITH ZINC OXIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP92429",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/calamine-with-zinc-oxide/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "products": [
+        {
+            "title": "Aqueous calamine cream (Thornton & Ross Ltd) ",
+            "header": "Aqueous calamine cream <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Aqueous calamine cream",
+            "ampid": "57211000001100",
+            "strengthOfActiveIngredient": "Zinc oxide 30 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 100 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.29 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.29</ph>",
+                        "nhsIndicativePrice": "&#163;1.29"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1.29 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1.29</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1.29"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Cala Soothe cream (Ennogen Healthcare Ltd) ",
+            "header": "Cala Soothe cream <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Cala Soothe cream",
+            "ampid": "21889711000001105",
+            "strengthOfActiveIngredient": "Zinc oxide 30 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 100 ml ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;18.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;18.80</ph>",
+                        "nhsIndicativePrice": "&#163;18.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88098",
+        "label": "CALAMINE WITH ZINC OXIDE"
+    }
+}

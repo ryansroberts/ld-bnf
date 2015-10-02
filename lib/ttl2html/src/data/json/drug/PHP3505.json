@@ -1,0 +1,975 @@
+{
+    "xml": "<topic id=\"PHP3505\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/clarithromycin\" basename=\"clarithromycin\" title=\"CLARITHROMYCIN\">\n<title>CLARITHROMYCIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_168\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/macrolides/clarithromycin\">Clarithromycin</xref>\n</p>\n<data name=\"vtmid\">83999008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_616564198\" title=\"Macrolides and related drugs\">Macrolides and related drugs</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34517\" title=\"MACROLIDES\" namespace=\"/drug-classes/macrolides\">MACROLIDES</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP69670\" outputclass=\"indicationsAndDose\" rev=\"1.58\" parent=\"/drugs/clarithromycin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Respiratory-tract infections</p>\n<p outputclass=\"therapeuticIndication\">Mild to moderate skin and soft-tissue infections</p>\n<p outputclass=\"therapeuticIndication\">Otitis media</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using immediate-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight up to 8 kg)</p>\n<p>7.5&#8239;mg/kg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 8&#8211;11 kg)</p>\n<p>62.5&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 12&#8211;19 kg)</p>\n<p>125&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 20&#8211;29 kg)</p>\n<p>187.5&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 30&#8211;40 kg)</p>\n<p>250&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>250&#8239;mg twice daily usually for 7&#8211;14 days, increased to 500&#8239;mg twice daily, if required in severe infections (e.g. pneumonia).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>250&#8239;mg twice daily usually for 7&#8211;14 days, increased to 500&#8239;mg twice daily, if required in severe infections (e.g. pneumonia).</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By mouth using modified-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>500&#8239;mg once daily usually for 7&#8211;14 days, increased to 1&#8239;g once daily, if required in severe infections (e.g. pneumonia).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg once daily usually for 7&#8211;14 days, increased to 1&#8239;g once daily, if required in severe infections (e.g. pneumonia).</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg every 12&#8239;hours maximum duration 5 days, switch to oral route when appropriate, to be administered into a large proximal vein.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Lyme disease</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>500&#8239;mg twice daily for 14&#8211;21 days.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg twice daily for 14&#8211;21 days.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of pertussis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight up to 8 kg)</p>\n<p>7.5&#8239;mg/kg twice daily for 7 days.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 8&#8211;11 kg)</p>\n<p>62.5&#8239;mg twice daily for 7 days.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 12&#8211;19 kg)</p>\n<p>125&#8239;mg twice daily for 7 days.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 20&#8211;29 kg)</p>\n<p>187.5&#8239;mg twice daily for 7 days.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years (body-weight 30&#8211;40 kg)</p>\n<p>250&#8239;mg twice daily for 7 days.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>500&#8239;mg twice daily for 7 days.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg twice daily for 7 days.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">\n<ph outputclass=\"organism\">\n<i>\n<i>Helicobacter pylori</i>\n</i>\n</ph> eradication in combination with a proton pump inhibitor and amoxicillin</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">\n<ph outputclass=\"organism\">\n<i>\n<i>Helicobacter pylori</i>\n</i>\n</ph> eradication in combination with a proton pump inhibitor and metronidazole</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>250&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69606\" outputclass=\"unlicensedUse\" rev=\"1.16\" parent=\"/drugs/clarithromycin\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>Tablets not licensed for use in children under 12 years; oral suspension not licensed for use in infants under 6 months.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>Intravenous infusion not licensed for use in children under 12 years.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69665\" outputclass=\"interactions\" rev=\"1.16\" parent=\"/drugs/clarithromycin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (macrolides).</p>\n<p>Caution with concomitant use of drugs that prolong the QT interval.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69625\" outputclass=\"sideEffects\" rev=\"1.19\" parent=\"/drugs/clarithromycin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dyspepsia</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hyperhidrosis</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">taste disturbances</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anorexia</ph>; <ph outputclass=\"sideEffect\">anxiety</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">chest pain</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">gastritis</ph>; <ph outputclass=\"sideEffect\">glossitis</ph>; <ph outputclass=\"sideEffect\">hepatic dysfunction including jaundice</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">stomatitis</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>; <ph outputclass=\"sideEffect\">tremor</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abnormal dreams</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">convulsions</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">hypoglycaemia</ph>; <ph outputclass=\"sideEffect\">interstitial nephritis</ph>; <ph outputclass=\"sideEffect\">myopathy</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">psychotic disorders</ph>; <ph outputclass=\"sideEffect\">renal failure</ph>; <ph outputclass=\"sideEffect\">smell disturbances</ph>; <ph outputclass=\"sideEffect\">tongue discoloration</ph>; <ph outputclass=\"sideEffect\">tooth discoloration</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69656\" outputclass=\"pregnancy\" parent=\"/drugs/clarithromycin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid, particularly in the first trimester, unless potential benefit outweighs risk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69759\" outputclass=\"breastFeeding\" parent=\"/drugs/clarithromycin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;present in milk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69703\" outputclass=\"hepaticImpairment\" parent=\"/drugs/clarithromycin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe impairment if renal impairment also present.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69641\" outputclass=\"renalImpairment\" parent=\"/drugs/clarithromycin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>Use half normal dose if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, max. duration 14 days.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Use half normal dose if estimated glomerular filtration rate less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, max. duration 14 days.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in adults</p>\n<p>Avoid <i>Klaricid XL</i>\n<tm tmtype=\"reg\"/> or clarithromycin m/r preparations if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>Avoid <i>Klaricid XL</i>\n<tm tmtype=\"reg\"/> or clarithromyin m/r preparations if estimated glomerular filtration rate less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Avoid if severe hepatic impairment also present.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69789\" outputclass=\"directionsForAdministration\" rev=\"1.14\" parent=\"/drugs/clarithromycin\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>For intermittent intravenous infusion dilute reconstituted solution further in Glucose 5% <i>or</i> Sodium chloride 0.9% to a concentration of 2&#8239;mg/mL; give into large proximal vein over 60 minutes.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> (<i>Klaricid</i>\n<tm tmtype=\"reg\"/>\n<i>I.V.</i>), give intermittently in Glucose 5% or Sodium Chloride 0.9%; dissolve initially in water for injections (500&#8239;mg in 10&#8239;mL) then dilute to a concentration of 2&#8239;mg/mL; give over 60 minutes.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69650\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/drugs/clarithromycin\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Clarithromycin for bacterial infections</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/clarithromycin-bacterial-infections\">www.medicinesforchildren.org.uk/clarithromycin-bacterial-infections</xref>\n</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP69564\" outputclass=\"professionSpecificInformation\" rev=\"1.7\" parent=\"/drugs/clarithromycin\">\n<title>Profession specific information</title>\n<body>\n<section outputclass=\"dentalPractitionersFormulary\">\n<title>Dental practitioners' formulary</title>\n<sectiondiv>\n<p>Clarithromycin Tablets may be prescribed.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Clarithromycin Oral Suspension may be prescribed.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3505-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/clarithromycin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: eye drops, infusion</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75593\" title=\"Tablet\" namespace=\"/drugs/clarithromycin/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75586\" title=\"Modified-release tablet\" namespace=\"/drugs/clarithromycin/modified-release-tablet\">Modified-release tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75614\" title=\"Granules\" namespace=\"/drugs/clarithromycin/granules\">Granules</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75600\" title=\"Oral suspension\" namespace=\"/drugs/clarithromycin/oral-suspension\">Oral suspension</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75607\" title=\"Powder for solution for infusion\" namespace=\"/drugs/clarithromycin/powder-for-solution-for-infusion\">Powder for solution for infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97237\" namespace=\"/guidance/adverse-reactions-to-drugs\" title=\"Adverse reactions to drugs\" count=\"1\" rel=\"backlink\">Adverse reactions to drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP98619\" namespace=\"/guidance/prescribing-in-dental-practice\" title=\"Prescribing in dental practice\" count=\"2\" rel=\"backlink\">Prescribing in dental practice</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78100\" namespace=\"/treatment-summaries/antiprotozoal-drugs\" title=\"Antiprotozoal drugs\" count=\"1\" rel=\"backlink\">Antiprotozoal drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78125\" namespace=\"/treatment-summaries/gastro-intestinal-system-infections-bacterial\" title=\"Gastro-intestinal system infections, bacterial\" count=\"1\" rel=\"backlink\">Gastro-intestinal system infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78207\" namespace=\"/treatment-summaries/peptic-ulceration\" title=\"Peptic ulceration\" count=\"3\" rel=\"backlink\">Peptic ulceration</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78210\" namespace=\"/treatment-summaries/antibacterials-use-for-prophylaxis\" title=\"Antibacterials, use for prophylaxis\" count=\"2\" rel=\"backlink\">Antibacterials, use for prophylaxis</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78245\" namespace=\"/treatment-summaries/lyme-disease\" title=\"Lyme disease\" count=\"1\" rel=\"backlink\">Lyme disease</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78254\" namespace=\"/treatment-summaries/anthrax\" title=\"Anthrax\" count=\"1\" rel=\"backlink\">Anthrax</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78284\" namespace=\"/treatment-summaries/skin-infections\" title=\"Skin infections\" count=\"1\" rel=\"backlink\">Skin infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78322\" namespace=\"/treatment-summaries/leprosy\" title=\"Leprosy\" count=\"1\" rel=\"backlink\">Leprosy</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78330\" namespace=\"/treatment-summaries/tuberculosis\" title=\"Tuberculosis\" count=\"1\" rel=\"backlink\">Tuberculosis</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78436\" namespace=\"/treatment-summaries/skin-infections-bacterial\" title=\"Skin infections, bacterial\" count=\"3\" rel=\"backlink\">Skin infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78449\" namespace=\"/treatment-summaries/ear-infections-bacterial\" title=\"Ear infections, bacterial\" count=\"2\" rel=\"backlink\">Ear infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78459\" namespace=\"/treatment-summaries/nose-infections-bacterial\" title=\"Nose infections, bacterial\" count=\"1\" rel=\"backlink\">Nose infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78462\" namespace=\"/treatment-summaries/macrolides\" title=\"Macrolides\" count=\"3\" rel=\"backlink\">Macrolides</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78479\" namespace=\"/treatment-summaries/oropharynx-infections-bacterial\" title=\"Oropharynx infections, bacterial\" count=\"1\" rel=\"backlink\">Oropharynx infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78577\" namespace=\"/treatment-summaries/respiratory-system-infections-bacterial\" title=\"Respiratory system infections, bacterial\" count=\"10\" rel=\"backlink\">Respiratory system infections, bacterial</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_168\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/macrolides/clarithromycin\" title=\"Clarithromycin\" count=\"1\" rel=\"link\">Clarithromycin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34517\" namespace=\"/drug-classes/macrolides\" title=\"MACROLIDES\" count=\"1\" rel=\"link\">MACROLIDES</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75593\" namespace=\"/drugs/clarithromycin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75586\" namespace=\"/drugs/clarithromycin/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75614\" namespace=\"/drugs/clarithromycin/granules\" title=\"Granules\" count=\"1\" rel=\"link\">Granules</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75600\" namespace=\"/drugs/clarithromycin/oral-suspension\" title=\"Oral suspension\" count=\"1\" rel=\"link\">Oral suspension</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75607\" namespace=\"/drugs/clarithromycin/powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\" count=\"1\" rel=\"link\">Powder for solution for infusion</xref>\n</links>\n</topic>",
+    "id": "PHP3505",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/clarithromycin",
+    "basename": "clarithromycin",
+    "title": "CLARITHROMYCIN",
+    "interactants": [
+        {
+            "id": "bnf_int_168",
+            "label": "Clarithromycin"
+        }
+    ],
+    "vtmid": "83999008",
+    "drugClassification": [
+        "Macrolides and related drugs"
+    ],
+    "inheritsFromClass": [
+        "MACROLIDES"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Respiratory-tract infections",
+                        "html": "Respiratory-tract infections"
+                    },
+                    {
+                        "textContent": "Mild to moderate skin and soft-tissue infections",
+                        "html": "Mild to moderate skin and soft-tissue infections"
+                    },
+                    {
+                        "textContent": "Otitis media",
+                        "html": "Otitis media"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "child": [
+                    {
+                        "textContent": "7.5 mg/kg twice daily.",
+                        "html": "<p>7.5&#8239;mg/kg twice daily.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight up to 8 kg)"
+                    },
+                    {
+                        "textContent": "62.5 mg twice daily.",
+                        "html": "<p>62.5&#8239;mg twice daily.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 8&#8211;11 kg)"
+                    },
+                    {
+                        "textContent": "125 mg twice daily.",
+                        "html": "<p>125&#8239;mg twice daily.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 12&#8211;19 kg)"
+                    },
+                    {
+                        "textContent": "187.5 mg twice daily.",
+                        "html": "<p>187.5&#8239;mg twice daily.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 20&#8211;29 kg)"
+                    },
+                    {
+                        "textContent": "250 mg twice daily.",
+                        "html": "<p>250&#8239;mg twice daily.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 30&#8211;40 kg)"
+                    },
+                    {
+                        "textContent": "250 mg twice daily usually for 7&#8211;14 days, increased to 500 mg twice daily, if required in severe infections (e.g. pneumonia).",
+                        "html": "<p>250&#8239;mg twice daily usually for 7&#8211;14 days, increased to 500&#8239;mg twice daily, if required in severe infections (e.g. pneumonia).</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    },
+                    {
+                        "textContent": "500 mg once daily usually for 7&#8211;14 days, increased to 1 g once daily, if required in severe infections (e.g. pneumonia).",
+                        "html": "<p>500&#8239;mg once daily usually for 7&#8211;14 days, increased to 1&#8239;g once daily, if required in severe infections (e.g. pneumonia).</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "250 mg twice daily usually for 7&#8211;14 days, increased to 500 mg twice daily, if required in severe infections (e.g. pneumonia).",
+                        "html": "<p>250&#8239;mg twice daily usually for 7&#8211;14 days, increased to 500&#8239;mg twice daily, if required in severe infections (e.g. pneumonia).</p>"
+                    },
+                    {
+                        "textContent": "500 mg once daily usually for 7&#8211;14 days, increased to 1 g once daily, if required in severe infections (e.g. pneumonia).",
+                        "html": "<p>500&#8239;mg once daily usually for 7&#8211;14 days, increased to 1&#8239;g once daily, if required in severe infections (e.g. pneumonia).</p>"
+                    },
+                    {
+                        "textContent": "500 mg every 12 hours maximum duration 5 days, switch to oral route when appropriate, to be administered into a large proximal vein.",
+                        "html": "<p>500&#8239;mg every 12&#8239;hours maximum duration 5 days, switch to oral route when appropriate, to be administered into a large proximal vein.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Lyme disease",
+                        "html": "Lyme disease"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "500 mg twice daily for 14&#8211;21 days.",
+                        "html": "<p>500&#8239;mg twice daily for 14&#8211;21 days.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "500 mg twice daily for 14&#8211;21 days.",
+                        "html": "<p>500&#8239;mg twice daily for 14&#8211;21 days.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of pertussis",
+                        "html": "Prevention of pertussis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "7.5 mg/kg twice daily for 7 days.",
+                        "html": "<p>7.5&#8239;mg/kg twice daily for 7 days.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight up to 8 kg)"
+                    },
+                    {
+                        "textContent": "62.5 mg twice daily for 7 days.",
+                        "html": "<p>62.5&#8239;mg twice daily for 7 days.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 8&#8211;11 kg)"
+                    },
+                    {
+                        "textContent": "125 mg twice daily for 7 days.",
+                        "html": "<p>125&#8239;mg twice daily for 7 days.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 12&#8211;19 kg)"
+                    },
+                    {
+                        "textContent": "187.5 mg twice daily for 7 days.",
+                        "html": "<p>187.5&#8239;mg twice daily for 7 days.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 20&#8211;29 kg)"
+                    },
+                    {
+                        "textContent": "250 mg twice daily for 7 days.",
+                        "html": "<p>250&#8239;mg twice daily for 7 days.</p>",
+                        "ageGroup": "1 month&#8211;11 years (body-weight 30&#8211;40 kg)"
+                    },
+                    {
+                        "textContent": "500 mg twice daily for 7 days.",
+                        "html": "<p>500&#8239;mg twice daily for 7 days.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "500 mg twice daily for 7 days.",
+                        "html": "<p>500&#8239;mg twice daily for 7 days.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Helicobacter pylori eradication in combination with a proton pump inhibitor and amoxicillin",
+                        "html": "<ph outputclass=\"organism\"> <i> <i>Helicobacter pylori</i> </i> </ph> eradication in combination with a proton pump inhibitor and amoxicillin",
+                        "organism": "Helicobacter pylori"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth",
+                    "organism": "Helicobacter pylori"
+                },
+                "adult": [
+                    {
+                        "textContent": "500 mg twice daily.",
+                        "html": "<p>500&#8239;mg twice daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Helicobacter pylori eradication in combination with a proton pump inhibitor and metronidazole",
+                        "html": "<ph outputclass=\"organism\"> <i> <i>Helicobacter pylori</i> </i> </ph> eradication in combination with a proton pump inhibitor and metronidazole",
+                        "organism": "Helicobacter pylori"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth",
+                    "organism": "Helicobacter pylori"
+                },
+                "adult": [
+                    {
+                        "textContent": "250 mg twice daily.",
+                        "html": "<p>250&#8239;mg twice daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With oral use in children",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Tablets not licensed for use in children under 12 years; oral suspension not licensed for use in infants under 6 months.",
+                "html": "<p>Tablets not licensed for use in children under 12 years; oral suspension not licensed for use in infants under 6 months.</p>"
+            },
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Intravenous infusion not licensed for use in children under 12 years.",
+                "html": "<p>Intravenous infusion not licensed for use in children under 12 years.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (macrolides).\n\nCaution with concomitant use of drugs that prolong the QT interval.",
+                "html": "<p>Appendix 1 (macrolides).</p><p>Caution with concomitant use of drugs that prolong the QT interval.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Dyspepsia",
+                        "html": "Dyspepsia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperhidrosis",
+                        "html": "hyperhidrosis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "taste disturbances",
+                        "html": "taste disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Anorexia",
+                        "html": "Anorexia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "anxiety",
+                        "html": "anxiety",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "chest pain",
+                        "html": "chest pain",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "gastritis",
+                        "html": "gastritis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "glossitis",
+                        "html": "glossitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hepatic dysfunction including jaundice",
+                        "html": "hepatic dysfunction including jaundice",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "stomatitis",
+                        "html": "stomatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Abnormal dreams",
+                        "html": "Abnormal dreams",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "convulsions",
+                        "html": "convulsions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypoglycaemia",
+                        "html": "hypoglycaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "interstitial nephritis",
+                        "html": "interstitial nephritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "myopathy",
+                        "html": "myopathy",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "psychotic disorders",
+                        "html": "psychotic disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "renal failure",
+                        "html": "renal failure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "smell disturbances",
+                        "html": "smell disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tongue discoloration",
+                        "html": "tongue discoloration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tooth discoloration",
+                        "html": "tooth discoloration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid, particularly in the first trimester, unless potential benefit outweighs risk.",
+                "html": "<p>Manufacturer advises avoid, particularly in the first trimester, unless potential benefit outweighs risk.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk&#8212;present in milk.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;present in milk.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe impairment if renal impairment also present.",
+                "html": "<p>Avoid in severe impairment if renal impairment also present.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "Use half normal dose if eGFR less than 30 mL/minute/1.73 m2, max. duration 14 days.",
+                "html": "<p>Use half normal dose if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, max. duration 14 days.</p>"
+            },
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Use half normal dose if estimated glomerular filtration rate less than 30 mL/minute/1.73 m2, max. duration 14 days.",
+                "html": "<p>Use half normal dose if estimated glomerular filtration rate less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, max. duration 14 days.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use in adults",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid Klaricid XL or clarithromycin m/r preparations if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Avoid <i>Klaricid XL</i>\n<tm tmtype=\"reg\"/> or clarithromycin m/r preparations if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use in children",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid Klaricid XL or clarithromyin m/r preparations if estimated glomerular filtration rate less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Avoid <i>Klaricid XL</i>\n<tm tmtype=\"reg\"/> or clarithromyin m/r preparations if estimated glomerular filtration rate less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if severe hepatic impairment also present.",
+                "html": "<p>Avoid if severe hepatic impairment also present.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intermittent intravenous infusion dilute reconstituted solution further in Glucose 5% or Sodium chloride 0.9% to a concentration of 2 mg/mL; give into large proximal vein over 60 minutes.",
+                "html": "<p>For intermittent intravenous infusion dilute reconstituted solution further in Glucose 5% <i>or</i> Sodium chloride 0.9% to a concentration of 2&#8239;mg/mL; give into large proximal vein over 60 minutes.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Klaricid I.V.), give intermittently in Glucose 5% or Sodium Chloride 0.9%; dissolve initially in water for injections (500 mg in 10 mL) then dilute to a concentration of 2 mg/mL; give over 60 minutes.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Klaricid</i>\n<tm tmtype=\"reg\"/>\n<i>I.V.</i>), give intermittently in Glucose 5% or Sodium Chloride 0.9%; dissolve initially in water for injections (500&#8239;mg in 10&#8239;mL) then dilute to a concentration of 2&#8239;mg/mL; give over 60 minutes.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/clarithromycin-bacterial-infections",
+                        "label": "www.medicinesforchildren.org.uk/clarithromycin-bacterial-infections"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Clarithromycin for bacterial infections",
+                "textContent": "www.medicinesforchildren.org.uk/clarithromycin-bacterial-infections",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/clarithromycin-bacterial-infections\">www.medicinesforchildren.org.uk/clarithromycin-bacterial-infections</xref>\n</p>"
+            }
+        ]
+    },
+    "professionSpecificInformation": {
+        "dentalPractitionersFormulary": [
+            {
+                "type": "dentalPractitionersFormulary",
+                "textContent": "Clarithromycin Tablets may be prescribed.",
+                "html": "<p>Clarithromycin Tablets may be prescribed.</p>"
+            },
+            {
+                "type": "dentalPractitionersFormulary",
+                "textContent": "Clarithromycin Oral Suspension may be prescribed.",
+                "html": "<p>Clarithromycin Oral Suspension may be prescribed.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "eye drops",
+                "infusion"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75593",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75586",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75614",
+                "label": "Granules",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75600",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75607",
+                "label": "Powder for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP97237",
+                "label": "Adverse reactions to drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP98619",
+                "label": "Prescribing in dental practice",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78100",
+                "label": "Antiprotozoal drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78125",
+                "label": "Gastro-intestinal system infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78207",
+                "label": "Peptic ulceration",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78210",
+                "label": "Antibacterials, use for prophylaxis",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78245",
+                "label": "Lyme disease",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78254",
+                "label": "Anthrax",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78284",
+                "label": "Skin infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78322",
+                "label": "Leprosy",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78330",
+                "label": "Tuberculosis",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78436",
+                "label": "Skin infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78449",
+                "label": "Ear infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78459",
+                "label": "Nose infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78462",
+                "label": "Macrolides",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78479",
+                "label": "Oropharynx infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78577",
+                "label": "Respiratory system infections, bacterial",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_168",
+                "label": "Clarithromycin",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34517",
+                "label": "MACROLIDES",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75593",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75586",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75614",
+                "label": "Granules",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75600",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75607",
+                "label": "Powder for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

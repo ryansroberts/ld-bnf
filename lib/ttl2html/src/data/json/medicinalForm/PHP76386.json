@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP76386\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-stibogluconate/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Pentostam 10g/100ml solution for injection vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4735811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Antimony pentavalent (as Sodium stibogluconate) 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;66.43</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3991\" title=\"SODIUM STIBOGLUCONATE\" namespace=\"/drugs/sodium-stibogluconate\">SODIUM STIBOGLUCONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76386",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-stibogluconate/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Pentostam 10g/100ml solution for injection vials (GlaxoSmithKline UK Ltd) ",
+            "header": "Pentostam 10g/100ml solution for injection vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Pentostam 10g/100ml solution for injection vials",
+            "ampid": "4735811000001100",
+            "strengthOfActiveIngredient": "Antimony pentavalent (as Sodium stibogluconate) 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;66.43 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;66.43</ph>",
+                        "nhsIndicativePrice": "&#163;66.43"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3991",
+        "label": "SODIUM STIBOGLUCONATE"
+    }
+}

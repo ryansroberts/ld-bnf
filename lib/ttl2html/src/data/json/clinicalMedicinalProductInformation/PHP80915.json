@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP80915\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/sinemet-cr\" basename=\"sinemet-cr\" title=\"Sinemet CR\">\n<title>Sinemet<tm tmtype=\"reg\"/> CR</title>\n<topic id=\"PHP81134\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/sinemet-cr\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Parkinson's disease (patients not receiving levodopa/dopa-decarboxylase inhibitor therapy)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1&#8239;tablet twice daily, both dose and interval then adjusted according to response at intervals of not less than 3 days.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Parkinson's disease (patients transferring from immediate-release levodopa/dopa-decarboxylase inhibitor preparations)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet twice daily, dose can be substituted for a daily dose of levodopa 300&#8211;400&#8239;mg in immediate-release <i>Sinemet</i>\n<tm tmtype=\"reg\"/> tablets (substitute <i>Sinemet</i>\n<tm tmtype=\"reg\"/>\n<i>CR</i> to provide approximately 10% more levodopa per day and extend dosing interval by 30&#8211;50%); dose and interval then adjusted according to response at intervals of not less than 3 days.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80915",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/sinemet-cr",
+    "basename": "sinemet-cr",
+    "title": "Sinemet CR",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Parkinson's disease (patients not receiving levodopa/dopa-decarboxylase inhibitor therapy)",
+                        "html": "Parkinson's disease (patients not receiving levodopa/dopa-decarboxylase inhibitor therapy)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 1 tablet twice daily, both dose and interval then adjusted according to response at intervals of not less than 3 days.",
+                        "html": "<p>Initially 1&#8239;tablet twice daily, both dose and interval then adjusted according to response at intervals of not less than 3 days.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Parkinson's disease (patients transferring from immediate-release levodopa/dopa-decarboxylase inhibitor preparations)",
+                        "html": "Parkinson's disease (patients transferring from immediate-release levodopa/dopa-decarboxylase inhibitor preparations)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet twice daily, dose can be substituted for a daily dose of levodopa 300&#8211;400 mg in immediate-release Sinemet tablets (substitute Sinemet CR to provide approximately 10% more levodopa per day and extend dosing interval by 30&#8211;50%); dose and interval then adjusted according to response at intervals of not less than 3 days.",
+                        "html": "<p>1&#8239;tablet twice daily, dose can be substituted for a daily dose of levodopa 300&#8211;400&#8239;mg in immediate-release <i>Sinemet</i> <tm tmtype=\"reg\"/> tablets (substitute <i>Sinemet</i> <tm tmtype=\"reg\"/> <i>CR</i> to provide approximately 10% more levodopa per day and extend dosing interval by 30&#8211;50%); dose and interval then adjusted according to response at intervals of not less than 3 days.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP75156\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/glycopyrronium-bromide/inhalation-powder\" basename=\"inhalation-powder\" title=\"Inhalation powder\">\n<title>Inhalation powder</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Seebri Breezhaler 44microgram inhalation powder capsules with device <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">21495411000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Glycopyrronium bromide 55&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.50</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8204\" title=\"GLYCOPYRRONIUM BROMIDE\" namespace=\"/drugs/glycopyrronium-bromide\">GLYCOPYRRONIUM BROMIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75156",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/glycopyrronium-bromide/inhalation-powder",
+    "basename": "inhalation-powder",
+    "form": "Inhalation powder",
+    "products": [
+        {
+            "title": "Seebri Breezhaler 44microgram inhalation powder capsules with device (Novartis Pharmaceuticals UK Ltd) &#9660; ",
+            "header": "Seebri Breezhaler 44microgram inhalation powder capsules with device <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Seebri Breezhaler 44microgram inhalation powder capsules with device",
+            "ampid": "21495411000001107",
+            "strengthOfActiveIngredient": "Glycopyrronium bromide 55 microgram",
+            "packs": [
+                {
+                    "textContent": " 6 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.50</ph>",
+                        "nhsIndicativePrice": "&#163;5.50"
+                    }
+                },
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>",
+                        "nhsIndicativePrice": "&#163;27.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8204",
+        "label": "GLYCOPYRRONIUM BROMIDE"
+    }
+}

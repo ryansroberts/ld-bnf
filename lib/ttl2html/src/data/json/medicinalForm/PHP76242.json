@@ -1,0 +1,100 @@
+{
+    "xml": "<topic id=\"PHP76242\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/fluocinolone-acetonide/ointment\" basename=\"ointment\" title=\"Ointment\">\n<title>Ointment</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Propylene glycol, wool fat and related substances including lanolin</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\"> \r\n </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Synalar 1 in 4 Dilution 0.00625% ointment <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">8387911000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Fluocinolone acetonide 62.5&#8239;microgram per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.84</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;4.84</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Synalar 0.025% ointment <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">434611000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Fluocinolone acetonide 250&#8239;microgram per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.14</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;4.14</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.75</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;11.75</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP33491\" title=\"FLUOCINOLONE ACETONIDE\" namespace=\"/drugs/fluocinolone-acetonide\">FLUOCINOLONE ACETONIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76242",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/fluocinolone-acetonide/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "excipients": [
+        "Propylene glycol",
+        "wool fat and related substances including lanolin"
+    ],
+    "products": [
+        {
+            "title": "Synalar 1 in 4 Dilution 0.00625% ointment (Derma UK Ltd) ",
+            "header": "Synalar 1 in 4 Dilution 0.00625% ointment <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>",
+            "manufacturer": "(Derma UK Ltd)",
+            "name": "Synalar 1 in 4 Dilution 0.00625% ointment",
+            "ampid": "8387911000001105",
+            "strengthOfActiveIngredient": "Fluocinolone acetonide 62.5 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 50 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.84 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.84</ph>",
+                        "nhsIndicativePrice": "&#163;4.84"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.84 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.84</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.84"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Synalar 0.025% ointment (Derma UK Ltd) ",
+            "header": "Synalar 0.025% ointment <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>",
+            "manufacturer": "(Derma UK Ltd)",
+            "name": "Synalar 0.025% ointment",
+            "ampid": "434611000001100",
+            "strengthOfActiveIngredient": "Fluocinolone acetonide 250 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.14 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.14</ph>",
+                        "nhsIndicativePrice": "&#163;4.14"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.14 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.14</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.14"
+                    }
+                },
+                {
+                    "textContent": " 100 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.75 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.75</ph>",
+                        "nhsIndicativePrice": "&#163;11.75"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;11.75 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;11.75</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;11.75"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP33491",
+        "label": "FLUOCINOLONE ACETONIDE"
+    }
+}

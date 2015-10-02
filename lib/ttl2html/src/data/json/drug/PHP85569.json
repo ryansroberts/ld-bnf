@@ -1,0 +1,142 @@
+{
+    "xml": "<topic id=\"PHP85569\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/amitriptyline-with-perphenazine\" basename=\"amitriptyline-with-perphenazine\" title=\"AMITRIPTYLINE WITH PERPHENAZINE\">\n<title>AMITRIPTYLINE WITH PERPHENAZINE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_242\" namespace=\"/interactions/list-of-drug-interactions/antidepressants/antidepressants-tricyclic/amitriptyline\">Amitriptyline</xref>, <xref format=\"dita\" href=\"#bnf_int_381\" namespace=\"/interactions/list-of-drug-interactions/antipsychotics/phenothiazines/perphenazine\">Perphenazine</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP2362\" namespace=\"/drugs/amitriptyline-hydrochloride\">amitriptyline hydrochloride</xref>, <xref format=\"dita\" href=\"#PHP2240\" namespace=\"/drugs/perphenazine\">perphenazine</xref>.</p>\n<data name=\"vtmid\">421323008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_590573378\" title=\"Tricyclic antidepressants\">Tricyclic antidepressants</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">_</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP86212\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/drugs/amitriptyline-with-perphenazine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Depression with anxiety</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet 3 times a day, an additional tablet may be taken at bedtime when required.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP86223\" outputclass=\"lessSuitableForPrescribing\" rev=\"1.8\" parent=\"/drugs/amitriptyline-with-perphenazine\">\n<title>Less suitable for prescribing</title>\n<body>\n<section>\n<sectiondiv>\n<p>Less suitable for prescribing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85569-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/amitriptyline-with-perphenazine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92217\" title=\"Tablet\" namespace=\"/drugs/amitriptyline-with-perphenazine/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_242\" namespace=\"/interactions/list-of-drug-interactions/antidepressants/antidepressants-tricyclic/amitriptyline\" title=\"Amitriptyline\" count=\"1\" rel=\"link\">Amitriptyline</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_381\" namespace=\"/interactions/list-of-drug-interactions/antipsychotics/phenothiazines/perphenazine\" title=\"Perphenazine\" count=\"1\" rel=\"link\">Perphenazine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2362\" namespace=\"/drugs/amitriptyline-hydrochloride\" title=\"AMITRIPTYLINE HYDROCHLORIDE\" count=\"1\" rel=\"link\">AMITRIPTYLINE HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2240\" namespace=\"/drugs/perphenazine\" title=\"PERPHENAZINE\" count=\"1\" rel=\"link\">PERPHENAZINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92217\" namespace=\"/drugs/amitriptyline-with-perphenazine/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP85569",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/amitriptyline-with-perphenazine",
+    "basename": "amitriptyline-with-perphenazine",
+    "title": "AMITRIPTYLINE WITH PERPHENAZINE",
+    "interactants": [
+        {
+            "id": "bnf_int_242",
+            "label": "Amitriptyline"
+        },
+        {
+            "id": "bnf_int_381",
+            "label": "Perphenazine"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP2362",
+            "label": "amitriptyline hydrochloride"
+        },
+        {
+            "id": "PHP2240",
+            "label": "perphenazine"
+        }
+    ],
+    "vtmid": "421323008",
+    "drugClassification": [
+        "Tricyclic antidepressants",
+        "_"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Depression with anxiety",
+                        "html": "Depression with anxiety"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet 3 times a day, an additional tablet may be taken at bedtime when required.",
+                        "html": "<p>1&#8239;tablet 3 times a day, an additional tablet may be taken at bedtime when required.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "lessSuitableForPrescribing": {
+        "lessSuitableForPrescribing": [
+            {
+                "type": "lessSuitableForPrescribing",
+                "textContent": "Less suitable for prescribing.",
+                "html": "<p>Less suitable for prescribing.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92217",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_242",
+                "label": "Amitriptyline",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_381",
+                "label": "Perphenazine",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP2362",
+                "label": "AMITRIPTYLINE HYDROCHLORIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP2240",
+                "label": "PERPHENAZINE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92217",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

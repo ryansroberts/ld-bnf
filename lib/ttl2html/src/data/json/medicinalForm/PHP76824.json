@@ -1,0 +1,84 @@
+{
+    "xml": "<topic id=\"PHP76824\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/aciclovir/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aciclovir 250mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Wockhardt UK Ltd)</ph>\n</title>\n<data name=\"ampid\">13142411000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;45.66</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Zovirax I.V. 250mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4444211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.70</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Zovirax I.V. 500mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4444911000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3843\" title=\"ACICLOVIR\" namespace=\"/drugs/aciclovir\">ACICLOVIR</xref>\n</parents>\n</topic>",
+    "id": "PHP76824",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/aciclovir/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Aciclovir 250mg powder for solution for infusion vials (Wockhardt UK Ltd) ",
+            "header": "Aciclovir 250mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Wockhardt UK Ltd)</ph>",
+            "manufacturer": "(Wockhardt UK Ltd)",
+            "name": "Aciclovir 250mg powder for solution for infusion vials",
+            "ampid": "13142411000001100",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 250 mg",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;45.66 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;45.66</ph>",
+                        "nhsIndicativePrice": "&#163;45.66"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Zovirax I.V. 250mg powder for solution for infusion vials (GlaxoSmithKline UK Ltd) ",
+            "header": "Zovirax I.V. 250mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Zovirax I.V. 250mg powder for solution for infusion vials",
+            "ampid": "4444211000001106",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 250 mg",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.70</ph>",
+                        "nhsIndicativePrice": "&#163;16.70"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Zovirax I.V. 500mg powder for solution for infusion vials (GlaxoSmithKline UK Ltd) ",
+            "header": "Zovirax I.V. 500mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Zovirax I.V. 500mg powder for solution for infusion vials",
+            "ampid": "4444911000001102",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 500 mg",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.00</ph>",
+                        "nhsIndicativePrice": "&#163;17.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3843",
+        "label": "ACICLOVIR"
+    }
+}

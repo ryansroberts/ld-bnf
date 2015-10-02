@@ -1,0 +1,126 @@
+{
+    "xml": "<topic id=\"PHP80901\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/carbagen-sr\" basename=\"carbagen-sr\" title=\"Carbagen SR\">\n<title>Carbagen<tm tmtype=\"reg\"/> SR</title>\n<topic id=\"PHP80940\" outputclass=\"indicationsAndDose\" rev=\"1.33\" parent=\"/clinical-medicinal-product-information/carbagen-sr\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Focal and secondary generalised tonic-clonic seizures</p>\n<p outputclass=\"therapeuticIndication\">Primary generalised tonic-clonic seizures</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8211;400&#8239;mg daily in 1&#8211;2 divided doses, increased in steps of 100&#8211;200&#8239;mg every 2&#8239;weeks, usual dose 0.8&#8211;1.2&#8239;g daily in 1&#8211;2 divided doses; increased if necessary up to 1.6&#8211;2&#8239;g daily in 1&#8211;2 divided doses.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Reduce initial dose.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Trigeminal neuralgia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8211;200&#8239;mg daily in 1&#8211;2 divided doses, some patients may require higher initial dose, increased in steps of 100&#8211;200&#8239;mg every 2&#8239;weeks, adjusted according to response, usual dose 600&#8211;800&#8239;mg daily in 1&#8211;2 divided doses; increased if necessary up to 1.6&#8239;g daily in 1&#8211;2 divided doses.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of bipolar disorder unresponsive to lithium</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 400&#8239;mg daily in 1&#8211;2 divided doses, increased in steps of 100&#8211;200&#8239;mg every 2&#8239;weeks until symptoms controlled; usual dose 400&#8211;600&#8239;mg daily in 1&#8211;2 divided doses; maximum 1.6&#8239;g per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Focal and generalised tonic-clonic seizures</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis of bipolar disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;11 years</p>\n<p>Initially 5&#8239;mg/kg daily in 1&#8211;2 divided doses, then increased in steps of 2.5&#8211;5&#8239;mg/kg every 3&#8211;7&#8239;days as required; maintenance 10&#8211;15&#8239;mg/kg daily in 1&#8211;2 divided doses, increased if necessary up to 20&#8239;mg/kg daily in 1&#8211;2 divided doses.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>Initially 100&#8211;400&#8239;mg daily in 1&#8211;2 divided doses, then increased to 400&#8211;1200&#8239;mg daily in 1&#8211;2 divided doses, increased if necessary up to 1.8&#8239;g daily in 1&#8211;2 divided doses, dose should be increased slowly.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80901",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/carbagen-sr",
+    "basename": "carbagen-sr",
+    "title": "Carbagen SR",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Focal and secondary generalised tonic-clonic seizures",
+                        "html": "Focal and secondary generalised tonic-clonic seizures"
+                    },
+                    {
+                        "textContent": "Primary generalised tonic-clonic seizures",
+                        "html": "Primary generalised tonic-clonic seizures"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100&#8211;400 mg daily in 1&#8211;2 divided doses, increased in steps of 100&#8211;200 mg every 2 weeks, usual dose 0.8&#8211;1.2 g daily in 1&#8211;2 divided doses; increased if necessary up to 1.6&#8211;2 g daily in 1&#8211;2 divided doses.",
+                        "html": "<p>Initially 100&#8211;400&#8239;mg daily in 1&#8211;2 divided doses, increased in steps of 100&#8211;200&#8239;mg every 2&#8239;weeks, usual dose 0.8&#8211;1.2&#8239;g daily in 1&#8211;2 divided doses; increased if necessary up to 1.6&#8211;2&#8239;g daily in 1&#8211;2 divided doses.</p>"
+                    },
+                    {
+                        "textContent": "Reduce initial dose.",
+                        "html": "<p>Reduce initial dose.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Trigeminal neuralgia",
+                        "html": "Trigeminal neuralgia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100&#8211;200 mg daily in 1&#8211;2 divided doses, some patients may require higher initial dose, increased in steps of 100&#8211;200 mg every 2 weeks, adjusted according to response, usual dose 600&#8211;800 mg daily in 1&#8211;2 divided doses; increased if necessary up to 1.6 g daily in 1&#8211;2 divided doses.",
+                        "html": "<p>Initially 100&#8211;200&#8239;mg daily in 1&#8211;2 divided doses, some patients may require higher initial dose, increased in steps of 100&#8211;200&#8239;mg every 2&#8239;weeks, adjusted according to response, usual dose 600&#8211;800&#8239;mg daily in 1&#8211;2 divided doses; increased if necessary up to 1.6&#8239;g daily in 1&#8211;2 divided doses.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of bipolar disorder unresponsive to lithium",
+                        "html": "Prophylaxis of bipolar disorder unresponsive to lithium"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 400 mg daily in 1&#8211;2 divided doses, increased in steps of 100&#8211;200 mg every 2 weeks until symptoms controlled; usual dose 400&#8211;600 mg daily in 1&#8211;2 divided doses; maximum 1.6 g per day.",
+                        "html": "<p>Initially 400&#8239;mg daily in 1&#8211;2 divided doses, increased in steps of 100&#8211;200&#8239;mg every 2&#8239;weeks until symptoms controlled; usual dose 400&#8211;600&#8239;mg daily in 1&#8211;2 divided doses; maximum 1.6&#8239;g per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Focal and generalised tonic-clonic seizures",
+                        "html": "Focal and generalised tonic-clonic seizures"
+                    },
+                    {
+                        "textContent": "Prophylaxis of bipolar disorder",
+                        "html": "Prophylaxis of bipolar disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 5 mg/kg daily in 1&#8211;2 divided doses, then increased in steps of 2.5&#8211;5 mg/kg every 3&#8211;7 days as required; maintenance 10&#8211;15 mg/kg daily in 1&#8211;2 divided doses, increased if necessary up to 20 mg/kg daily in 1&#8211;2 divided doses.",
+                        "html": "<p>Initially 5&#8239;mg/kg daily in 1&#8211;2 divided doses, then increased in steps of 2.5&#8211;5&#8239;mg/kg every 3&#8211;7&#8239;days as required; maintenance 10&#8211;15&#8239;mg/kg daily in 1&#8211;2 divided doses, increased if necessary up to 20&#8239;mg/kg daily in 1&#8211;2 divided doses.</p>",
+                        "ageGroup": "5&#8211;11 years"
+                    },
+                    {
+                        "textContent": "Initially 100&#8211;400 mg daily in 1&#8211;2 divided doses, then increased to 400&#8211;1200 mg daily in 1&#8211;2 divided doses, increased if necessary up to 1.8 g daily in 1&#8211;2 divided doses, dose should be increased slowly.",
+                        "html": "<p>Initially 100&#8211;400&#8239;mg daily in 1&#8211;2 divided doses, then increased to 400&#8211;1200&#8239;mg daily in 1&#8211;2 divided doses, increased if necessary up to 1.8&#8239;g daily in 1&#8211;2 divided doses, dose should be increased slowly.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

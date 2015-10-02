@@ -1,0 +1,54 @@
+{
+    "xml": "<topic id=\"PHP107898\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/jaydess-135mg-intrauterine-device\" basename=\"jaydess-135mg-intrauterine-device\" title=\"Jaydess  13.5mg intrauterine device\">\n<title>Jaydess <tm tmtype=\"reg\"/> 13.5mg intrauterine device</title>\n<topic id=\"PHP107904\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/jaydess-135mg-intrauterine-device\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Contraception</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By vagina</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Females of childbearing potential</p>\n<p>Insert into uterine cavity within 7 days of onset of menstruation, or any time if replacement, or immediately after first-trimester termination; postpartum insertions should be delayed until at least 6 weeks after delivery (12 weeks if uterus involution is substantially delayed); effective for 3 years.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107930\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/jaydess-135mg-intrauterine-device\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>When system is removed (and not immediately replaced) and pregnancy is not desired, remove within 7 days of the onset of menstruation; additional precautions (e.g. barrier methods) should be used if the system is removed at some other time during the cycle and there is intercourse within 7 days.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP107898",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/jaydess-135mg-intrauterine-device",
+    "basename": "jaydess-135mg-intrauterine-device",
+    "title": "Jaydess  13.5mg intrauterine device",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Contraception",
+                        "html": "Contraception"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "vagina"
+                    ],
+                    "textContent": "By vagina",
+                    "html": "By vagina"
+                },
+                "adult": [
+                    {
+                        "textContent": "Insert into uterine cavity within 7 days of onset of menstruation, or any time if replacement, or immediately after first-trimester termination; postpartum insertions should be delayed until at least 6 weeks after delivery (12 weeks if uterus involution is substantially delayed); effective for 3 years.",
+                        "html": "<p>Insert into uterine cavity within 7 days of onset of menstruation, or any time if replacement, or immediately after first-trimester termination; postpartum insertions should be delayed until at least 6 weeks after delivery (12 weeks if uterus involution is substantially delayed); effective for 3 years.</p>",
+                        "ageGroup": "females of childbearing potential"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "When system is removed (and not immediately replaced) and pregnancy is not desired, remove within 7 days of the onset of menstruation; additional precautions (e.g. barrier methods) should be used if the system is removed at some other time during the cycle and there is intercourse within 7 days.",
+                "html": "<p>When system is removed (and not immediately replaced) and pregnancy is not desired, remove within 7 days of the onset of menstruation; additional precautions (e.g. barrier methods) should be used if the system is removed at some other time during the cycle and there is intercourse within 7 days.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

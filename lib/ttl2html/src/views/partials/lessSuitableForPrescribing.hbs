@@ -1,0 +1,5 @@
+{{#if lessSuitableForPrescribing.lessSuitableForPrescribing }}
+  {{#each lessSuitableForPrescribing.lessSuitableForPrescribing as |advice| }}
+    {{> advice advice }}
+  {{/each }}
+{{/if }}

@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP77448\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/vigabatrin/powder\" basename=\"powder\" title=\"Powder\">\n<title>Powder</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines </p>\n<p>Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop </p>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sabril 500mg oral powder sachets <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">3711611000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Vigabatrin 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.60</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;24.60</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3000\" title=\"VIGABATRIN\" namespace=\"/drugs/vigabatrin\">VIGABATRIN</xref>\n</parents>\n</topic>",
+    "id": "PHP77448",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/vigabatrin/powder",
+    "basename": "powder",
+    "form": "Powder",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "3",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines",
+            "html": "Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines"
+        },
+        {
+            "number": "8",
+            "textContent": "Warning: Do not stop taking this medicine unless your doctor tells you to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop"
+        },
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "products": [
+        {
+            "title": "Sabril 500mg oral powder sachets (Sanofi) ",
+            "header": "Sabril 500mg oral powder sachets <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Sabril 500mg oral powder sachets",
+            "ampid": "3711611000001107",
+            "strengthOfActiveIngredient": "Vigabatrin 500 mg",
+            "packs": [
+                {
+                    "textContent": " 50 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.60</ph>",
+                        "nhsIndicativePrice": "&#163;24.60"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;24.60 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;24.60</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;24.60"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3000",
+        "label": "VIGABATRIN"
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "xml": "<topic id=\"PHP85563\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/furosemide-with-spironolactone\" basename=\"furosemide-with-spironolactone\" title=\"FUROSEMIDE WITH SPIRONOLACTONE\">\n<title>FUROSEMIDE WITH SPIRONOLACTONE </title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_542\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-loop/furosemide\">Furosemide</xref>, <xref format=\"dita\" href=\"#bnf_int_549\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-potassium-sparing-and-aldosterone-antagonists/spironolactone\">Spironolactone</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP815\" namespace=\"/drugs/furosemide\">furosemide</xref>, <xref format=\"dita\" href=\"#PHP834\" namespace=\"/drugs/spironolactone\">spironolactone</xref>.</p>\n<data name=\"vtmid\">398666006</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_805691491\" title=\"Loop diuretics\">Loop diuretics</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_834379454\" title=\"Aldosterone antagonists\">Aldosterone antagonists</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP86050\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/drugs/furosemide-with-spironolactone\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Resistant oedema</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20/50&#8211;80/200&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85563-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/furosemide-with-spironolactone\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92211\" title=\"Capsule\" namespace=\"/drugs/furosemide-with-spironolactone/capsule\">Capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_542\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-loop/furosemide\" title=\"Furosemide\" count=\"1\" rel=\"link\">Furosemide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_549\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-potassium-sparing-and-aldosterone-antagonists/spironolactone\" title=\"Spironolactone\" count=\"1\" rel=\"link\">Spironolactone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP815\" namespace=\"/drugs/furosemide\" title=\"FUROSEMIDE\" count=\"1\" rel=\"link\">FUROSEMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP834\" namespace=\"/drugs/spironolactone\" title=\"SPIRONOLACTONE\" count=\"1\" rel=\"link\">SPIRONOLACTONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92211\" namespace=\"/drugs/furosemide-with-spironolactone/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n</links>\n</topic>",
+    "id": "PHP85563",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/furosemide-with-spironolactone",
+    "basename": "furosemide-with-spironolactone",
+    "title": "FUROSEMIDE WITH SPIRONOLACTONE",
+    "interactants": [
+        {
+            "id": "bnf_int_542",
+            "label": "Furosemide"
+        },
+        {
+            "id": "bnf_int_549",
+            "label": "Spironolactone"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP815",
+            "label": "furosemide"
+        },
+        {
+            "id": "PHP834",
+            "label": "spironolactone"
+        }
+    ],
+    "vtmid": "398666006",
+    "drugClassification": [
+        "Loop diuretics",
+        "Aldosterone antagonists"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Resistant oedema",
+                        "html": "Resistant oedema"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "20/50&#8211;80/200 mg daily.",
+                        "html": "<p>20/50&#8211;80/200&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92211",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_542",
+                "label": "Furosemide",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_549",
+                "label": "Spironolactone",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP815",
+                "label": "FUROSEMIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP834",
+                "label": "SPIRONOLACTONE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92211",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

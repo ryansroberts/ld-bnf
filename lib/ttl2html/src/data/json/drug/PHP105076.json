@@ -1,0 +1,125 @@
+{
+    "xml": "<topic id=\"PHP105076\" outputclass=\"drug\" rev=\"1.9\" type=\"drug\" namespace=\"/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing\" basename=\"emollient-bath-and-shower-products-colloidal-oatmeal-containing\" title=\"EMOLLIENT BATH AND SHOWER PRODUCTS, COLLOIDAL OATMEAL-CONTAINING\">\n<title>EMOLLIENT BATH AND SHOWER PRODUCTS, COLLOIDAL OATMEAL-CONTAINING</title>\n<body/>\n<topic id=\"PHP105277\" outputclass=\"indicationsAndDose\" rev=\"1.18\" parent=\"/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Endogenous and exogenous eczema</p>\n<p outputclass=\"therapeuticIndication\">Xeroderma</p>\n<p outputclass=\"therapeuticIndication\">Ichthyosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;17 years</p>\n<p>20&#8211;30&#8239;mL/bath, alternatively apply to wet skin and rinse.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8211;30&#8239;mL/bath, alternatively apply to wet skin and rinse.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pruritus of the elderly associated with dry skin</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>20&#8211;30&#8239;mL/bath, alternatively apply to wet skin and rinse.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP105273\" outputclass=\"importantSafetyInformation\" rev=\"1.9\" parent=\"/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p>These preparations make skin and surfaces slippery&#8212;particular care is needed when bathing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP105267\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Emollient bath additives should be added to bath water; hydration can be improved by soaking in the bath for 10&#8211;20 minutes. Some bath emollients can be applied to wet skin undiluted and rinsed off.</p>\n<p>Emollient preparations contained in tubs should be removed with a clean spoon or spatula to reduce bacterial contamination of the emollient.</p>\n<p>Emollients should be applied in the direction of hair growth to reduce the risk of folliculitis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP105076-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105339\" title=\"Bath additive\" namespace=\"/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing/bath-additive\">Bath additive</xref>\n</children>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105339\" namespace=\"/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing/bath-additive\" title=\"Bath additive\" count=\"1\" rel=\"link\">Bath additive</xref>\n</links>\n</topic>",
+    "id": "PHP105076",
+    "outputclass": "drug",
+    "rev": "1.9",
+    "type": "drug",
+    "namespace": "/drugs/emollient-bath-and-shower-products-colloidal-oatmeal-containing",
+    "basename": "emollient-bath-and-shower-products-colloidal-oatmeal-containing",
+    "title": "EMOLLIENT BATH AND SHOWER PRODUCTS, COLLOIDAL OATMEAL-CONTAINING",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Endogenous and exogenous eczema",
+                        "html": "Endogenous and exogenous eczema"
+                    },
+                    {
+                        "textContent": "Xeroderma",
+                        "html": "Xeroderma"
+                    },
+                    {
+                        "textContent": "Ichthyosis",
+                        "html": "Ichthyosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "20&#8211;30 mL/bath, alternatively apply to wet skin and rinse.",
+                        "html": "<p>20&#8211;30&#8239;mL/bath, alternatively apply to wet skin and rinse.</p>",
+                        "ageGroup": "2&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "20&#8211;30 mL/bath, alternatively apply to wet skin and rinse.",
+                        "html": "<p>20&#8211;30&#8239;mL/bath, alternatively apply to wet skin and rinse.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Pruritus of the elderly associated with dry skin",
+                        "html": "Pruritus of the elderly associated with dry skin"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "20&#8211;30 mL/bath, alternatively apply to wet skin and rinse.",
+                        "html": "<p>20&#8211;30&#8239;mL/bath, alternatively apply to wet skin and rinse.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "textContent": "These preparations make skin and surfaces slippery&#8212;particular care is needed when bathing.",
+                "html": "<p>These preparations make skin and surfaces slippery&#8212;particular care is needed when bathing.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Emollient bath additives should be added to bath water; hydration can be improved by soaking in the bath for 10&#8211;20 minutes. Some bath emollients can be applied to wet skin undiluted and rinsed off.\n\nEmollient preparations contained in tubs should be removed with a clean spoon or spatula to reduce bacterial contamination of the emollient.\n\nEmollients should be applied in the direction of hair growth to reduce the risk of folliculitis.",
+                "html": "<p>Emollient bath additives should be added to bath water; hydration can be improved by soaking in the bath for 10&#8211;20 minutes. Some bath emollients can be applied to wet skin undiluted and rinsed off.</p><p>Emollient preparations contained in tubs should be removed with a clean spoon or spatula to reduce bacterial contamination of the emollient.</p><p>Emollients should be applied in the direction of hair growth to reduce the risk of folliculitis.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP105339",
+                "label": "Bath additive",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP105339",
+                "label": "Bath additive",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

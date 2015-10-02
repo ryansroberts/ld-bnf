@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP94149\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/urea-13c/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>diabact UBT 50mg tablets <ph outputclass=\"manufacturer\">(Seahorse Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">9384211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Urea [13-C] 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;21.25</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP93599\" title=\"UREA (13C)\" namespace=\"/drugs/urea-13c\">UREA (13C)</xref>\n</parents>\n</topic>",
+    "id": "PHP94149",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/urea-13c/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "diabact UBT 50mg tablets (Seahorse Laboratories Ltd) ",
+            "header": "diabact UBT 50mg tablets <ph outputclass=\"manufacturer\">(Seahorse Laboratories Ltd)</ph>",
+            "manufacturer": "(Seahorse Laboratories Ltd)",
+            "name": "diabact UBT 50mg tablets",
+            "ampid": "9384211000001106",
+            "strengthOfActiveIngredient": "Urea [13-C] 50 mg",
+            "packs": [
+                {
+                    "textContent": " 1 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;21.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;21.25</ph>",
+                        "nhsIndicativePrice": "&#163;21.25"
+                    }
+                },
+                {
+                    "textContent": " 10 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP93599",
+        "label": "UREA (13C)"
+    }
+}

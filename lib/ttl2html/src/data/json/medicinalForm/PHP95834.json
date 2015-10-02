@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP95834\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/estradiol-with-medroxyprogesterone/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP95847\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/tridestra\">Tridestra<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Tridestra tablets <ph outputclass=\"manufacturer\">(Orion Pharma (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">3355511000001103</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">91</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;20.49</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85597\" title=\"ESTRADIOL WITH MEDROXYPROGESTERONE\" namespace=\"/drugs/estradiol-with-medroxyprogesterone\">ESTRADIOL WITH MEDROXYPROGESTERONE</xref>\n</parents>\n</topic>",
+    "id": "PHP95834",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/estradiol-with-medroxyprogesterone/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "productInformationGroups": [
+        {
+            "id": "PHP95847",
+            "label": "Tridestra&reg;  ",
+            "html": "Tridestra<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Tridestra tablets (Orion Pharma (UK) Ltd) ",
+            "header": "Tridestra tablets <ph outputclass=\"manufacturer\">(Orion Pharma (UK) Ltd)</ph>",
+            "manufacturer": "(Orion Pharma (UK) Ltd)",
+            "name": "Tridestra tablets",
+            "ampid": "3355511000001103",
+            "packs": [
+                {
+                    "textContent": " 91 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">91</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "91",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;20.49 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;20.49</ph>",
+                        "nhsIndicativePrice": "&#163;20.49"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85597",
+        "label": "ESTRADIOL WITH MEDROXYPROGESTERONE"
+    }
+}

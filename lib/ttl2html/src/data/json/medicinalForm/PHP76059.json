@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP76059\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/acetylcysteine/eye-drops\" basename=\"eye-drops\" title=\"Eye drops\">\n<title>Eye drops</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzalkonium chloride, disodium edetate</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ilube 5% eye drops <ph outputclass=\"manufacturer\">(Moorfields Pharmaceuticals)</ph>\n</title>\n<data name=\"ampid\">197711000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.93</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;14.93</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP195\" title=\"ACETYLCYSTEINE\" namespace=\"/drugs/acetylcysteine\">ACETYLCYSTEINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76059",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/acetylcysteine/eye-drops",
+    "basename": "eye-drops",
+    "form": "Eye drops",
+    "excipients": [
+        "Benzalkonium chloride",
+        "disodium edetate"
+    ],
+    "products": [
+        {
+            "title": "Ilube 5% eye drops (Moorfields Pharmaceuticals) ",
+            "header": "Ilube 5% eye drops <ph outputclass=\"manufacturer\">(Moorfields Pharmaceuticals)</ph>",
+            "manufacturer": "(Moorfields Pharmaceuticals)",
+            "name": "Ilube 5% eye drops",
+            "ampid": "197711000001108",
+            "strengthOfActiveIngredient": "Acetylcysteine 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.93 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.93</ph>",
+                        "nhsIndicativePrice": "&#163;14.93"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;14.93 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;14.93</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;14.93"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP195",
+        "label": "ACETYLCYSTEINE"
+    }
+}

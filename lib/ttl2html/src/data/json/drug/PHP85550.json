@@ -1,0 +1,127 @@
+{
+    "xml": "<topic id=\"PHP85550\" outputclass=\"drug\" rev=\"1.12\" type=\"drug\" namespace=\"/drugs/alginic-acid\" basename=\"alginic-acid\" title=\"ALGINIC ACID\">\n<title>ALGINIC ACID</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_110\" namespace=\"/interactions/list-of-drug-interactions/antacids\">Antacids</xref>\n</p>\n<data name=\"vtmid\">418957001</data>\r\n</body>\n<topic id=\"PHP85694\" outputclass=\"contraindications\" rev=\"1.10\" parent=\"/drugs/alginic-acid\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Intestinal obstruction</ph>; <ph outputclass=\"contraindication\">preterm neonates</ph>; <ph outputclass=\"contraindication\">where excessive water loss likely (e.g. fever, diarrhoea, vomiting, high room temperature)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85700\" outputclass=\"interactions\" rev=\"1.19\" parent=\"/drugs/alginic-acid\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (antacids).</p>\n<p>Not to be used with other preparations containing thickening agents.</p>\n<p>Antacids should preferably not be taken at the same time as other drugs since they may impair absorption.</p>\n<p>Antacids may damage enteric coatings designed to prevent dissolution in the stomach.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85698\" outputclass=\"hepaticImpairment\" parent=\"/drugs/alginic-acid\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>In patients with fluid retention, avoid antacids containing large amounts of sodium.</p>\n<p>Avoid antacids containing magnesium salts in hepatic coma if there is a risk of renal failure.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85703\" outputclass=\"renalImpairment\" parent=\"/drugs/alginic-acid\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>In patients with fluid retention, avoid antacids containing large amounts of sodium.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85713\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/drugs/alginic-acid\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Each half of the dual-sachet is identified as &#8216;one dose&#8217;. </p>\n<p>To avoid errors prescribe with directions in terms of &#8216;dose&#8217;.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85550-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/alginic-acid\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92194\" title=\"Powder\" namespace=\"/drugs/alginic-acid/powder\">Powder</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85549\" namespace=\"/drugs/potassium-bicarbonate-with-sodium-alginate\" title=\"POTASSIUM BICARBONATE WITH SODIUM ALGINATE\" count=\"1\" rel=\"backlink\">POTASSIUM BICARBONATE WITH SODIUM ALGINATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85548\" namespace=\"/drugs/calcium-carbonate-with-sodium-alginate-and-sodium-bicarbonate\" title=\"CALCIUM CARBONATE WITH SODIUM ALGINATE AND SODIUM BICARBONATE\" count=\"1\" rel=\"backlink\">CALCIUM CARBONATE WITH SODIUM ALGINATE AND SODIUM BICARBONATE</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_110\" namespace=\"/interactions/list-of-drug-interactions/antacids\" title=\"Antacids\" count=\"1\" rel=\"link\">Antacids</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92194\" namespace=\"/drugs/alginic-acid/powder\" title=\"Powder\" count=\"1\" rel=\"link\">Powder</xref>\n</links>\n</topic>",
+    "id": "PHP85550",
+    "outputclass": "drug",
+    "rev": "1.12",
+    "type": "drug",
+    "namespace": "/drugs/alginic-acid",
+    "basename": "alginic-acid",
+    "title": "ALGINIC ACID",
+    "interactants": [
+        {
+            "id": "bnf_int_110",
+            "label": "Antacids"
+        }
+    ],
+    "vtmid": "418957001",
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Intestinal obstruction",
+                "html": "Intestinal obstruction"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "preterm neonates",
+                "html": "preterm neonates"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "where excessive water loss likely (e.g. fever, diarrhoea, vomiting, high room temperature)",
+                "html": "where excessive water loss likely (e.g. fever, diarrhoea, vomiting, high room temperature)"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (antacids).\n\nNot to be used with other preparations containing thickening agents.\n\nAntacids should preferably not be taken at the same time as other drugs since they may impair absorption.\n\nAntacids may damage enteric coatings designed to prevent dissolution in the stomach.",
+                "html": "<p>Appendix 1 (antacids).</p><p>Not to be used with other preparations containing thickening agents.</p><p>Antacids should preferably not be taken at the same time as other drugs since they may impair absorption.</p><p>Antacids may damage enteric coatings designed to prevent dissolution in the stomach.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "In patients with fluid retention, avoid antacids containing large amounts of sodium.\n\nAvoid antacids containing magnesium salts in hepatic coma if there is a risk of renal failure.",
+                "html": "<p>In patients with fluid retention, avoid antacids containing large amounts of sodium.</p><p>Avoid antacids containing magnesium salts in hepatic coma if there is a risk of renal failure.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "In patients with fluid retention, avoid antacids containing large amounts of sodium.",
+                "html": "<p>In patients with fluid retention, avoid antacids containing large amounts of sodium.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Each half of the dual-sachet is identified as &#8216;one dose&#8217;.\n\nTo avoid errors prescribe with directions in terms of &#8216;dose&#8217;.",
+                "html": "<p>Each half of the dual-sachet is identified as &#8216;one dose&#8217;. </p><p>To avoid errors prescribe with directions in terms of &#8216;dose&#8217;.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92194",
+                "label": "Powder",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP85549",
+                "label": "POTASSIUM BICARBONATE WITH SODIUM ALGINATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP85548",
+                "label": "CALCIUM CARBONATE WITH SODIUM ALGINATE AND SODIUM BICARBONATE",
+                "type": "drug"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_110",
+                "label": "Antacids",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92194",
+                "label": "Powder",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

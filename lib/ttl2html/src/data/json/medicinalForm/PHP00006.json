@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP00006\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/coal-tar-with-coconut-oil-and-salicylic-acid/medicinal-forms/ointment\" basename=\"ointment\" title=\"Ointment\">\n      <title>Ointment</title>\n      <body>\n       <section outputclass=\"medicinalProduct\"><title>Cocois ointment <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>\n        </title>\n        <data name=\"ampid\">654911000001108</data><p outputclass=\"strengthOfActiveIngredient\">Coal\n         tar solution 120 mg per 1 gram</p><p outputclass=\"strengthOfActiveIngredient\">Salicylic\n         acid 20 mg per 1 gram</p><p outputclass=\"strengthOfActiveIngredient\">Sulfur precipitated 40\n         mg per 1 gram</p><ul outputclass=\"packs\">\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">40</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph>\n           <ph outputclass=\"legalCategory\">GSL</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;6.22</ph>\n          </p>\n         </li>\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">100</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph>\n           <ph outputclass=\"legalCategory\">GSL</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;11.69</ph>\n          </p>\n         </li>\n        </ul>\n       </section>\n       <section outputclass=\"medicinalProduct\"><title>Sebco ointment <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>\n        </title>\n        <data name=\"ampid\">8157111000001109</data><p outputclass=\"strengthOfActiveIngredient\">Coal\n         tar solution 120 mg per 1 gram</p><p outputclass=\"strengthOfActiveIngredient\">Salicylic\n         acid 20 mg per 1 gram</p><p outputclass=\"strengthOfActiveIngredient\">Sulfur precipitated 40\n         mg per 1 gram</p><ul outputclass=\"packs\">\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">40</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph>\n           <ph outputclass=\"legalCategory\">GSL</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;5.91</ph>\n          </p>\n         </li>\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">100</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph>\n           <ph outputclass=\"legalCategory\">GSL</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;11.11</ph>\n          </p>\n         </li>\n        </ul>\n       </section>\n      </body>\n     <parents><xref format=\"dita\" scope=\"local\" type=\"\" href=\"#PHP100016-medicinalForms\" title=\"\"/></parents></topic>",
+    "id": "PHP00006",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/coal-tar-with-coconut-oil-and-salicylic-acid/medicinal-forms/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "products": [
+        {
+            "title": "Cocois ointment (Focus Pharmaceuticals Ltd) ",
+            "header": "Cocois ointment <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Focus Pharmaceuticals Ltd)",
+            "name": "Cocois ointment",
+            "ampid": "654911000001108",
+            "strengthOfActiveIngredient": "Sulfur precipitated 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": "40 gram GSL",
+                    "html": "<ph outputclass=\"packSize\">40</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "40",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.22 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.22</ph>",
+                        "nhsIndicativePrice": "&#163;6.22"
+                    }
+                },
+                {
+                    "textContent": "100 gram GSL",
+                    "html": "<ph outputclass=\"packSize\">100</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.69 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.69</ph>",
+                        "nhsIndicativePrice": "&#163;11.69"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sebco ointment (Derma UK Ltd) ",
+            "header": "Sebco ointment <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>",
+            "manufacturer": "(Derma UK Ltd)",
+            "name": "Sebco ointment",
+            "ampid": "8157111000001109",
+            "strengthOfActiveIngredient": "Sulfur precipitated 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": "40 gram GSL",
+                    "html": "<ph outputclass=\"packSize\">40</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "40",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.91 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.91</ph>",
+                        "nhsIndicativePrice": "&#163;5.91"
+                    }
+                },
+                {
+                    "textContent": "100 gram GSL",
+                    "html": "<ph outputclass=\"packSize\">100</ph>&#8239;<ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.11 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.11</ph>",
+                        "nhsIndicativePrice": "&#163;11.11"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP100016",
+        "label": ""
+    }
+}

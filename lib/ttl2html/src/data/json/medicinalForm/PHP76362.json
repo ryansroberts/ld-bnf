@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP76362\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/estramustine-phosphate/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Estracyt 140mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">3965111000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Estramustine phosphate (as Estramustine sodium phosphate) 140&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;171.28</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5268\" title=\"ESTRAMUSTINE PHOSPHATE\" namespace=\"/drugs/estramustine-phosphate\">ESTRAMUSTINE PHOSPHATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76362",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/estramustine-phosphate/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "5",
+            "textContent": "Do not take indigestion remedies 2 hours before or after you take this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine"
+        },
+        {
+            "number": "23",
+            "textContent": "Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food",
+            "html": "Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food"
+        }
+    ],
+    "products": [
+        {
+            "title": "Estracyt 140mg capsules (Pfizer Ltd) ",
+            "header": "Estracyt 140mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Estracyt 140mg capsules",
+            "ampid": "3965111000001108",
+            "strengthOfActiveIngredient": "Estramustine phosphate (as Estramustine sodium phosphate) 140 mg",
+            "packs": [
+                {
+                    "textContent": " 100 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;171.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;171.28</ph>",
+                        "nhsIndicativePrice": "&#163;171.28"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5268",
+        "label": "ESTRAMUSTINE PHOSPHATE"
+    }
+}

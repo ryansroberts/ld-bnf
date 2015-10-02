@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP81623\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/salofalk-suppositories\" basename=\"salofalk-suppositories\" title=\"Salofalk suppositories\">\n<title>Salofalk<tm tmtype=\"reg\"/> suppositories</title>\n<topic id=\"PHP83550\" outputclass=\"indicationsAndDose\" rev=\"1.65\" parent=\"/clinical-medicinal-product-information/salofalk-suppositories\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectum, sigmoid colon and descending colon</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>0.5&#8211;1&#8239;g 2&#8211;3 times a day, adjusted according to response, dose to be given using 500&#8239;mg suppositories.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectum</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;g daily, preferably at bedtime, dose to be given using 1&#8239;g suppositories.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81623",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/salofalk-suppositories",
+    "basename": "salofalk-suppositories",
+    "title": "Salofalk suppositories",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectum, sigmoid colon and descending colon",
+                        "html": "Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectum, sigmoid colon and descending colon"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "adult": [
+                    {
+                        "textContent": "0.5&#8211;1 g 2&#8211;3 times a day, adjusted according to response, dose to be given using 500 mg suppositories.",
+                        "html": "<p>0.5&#8211;1&#8239;g 2&#8211;3 times a day, adjusted according to response, dose to be given using 500&#8239;mg suppositories.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectum",
+                        "html": "Treatment of acute attack of mild to moderate ulcerative colitis affecting the rectum"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 g daily, preferably at bedtime, dose to be given using 1 g suppositories.",
+                        "html": "<p>1&#8239;g daily, preferably at bedtime, dose to be given using 1&#8239;g suppositories.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

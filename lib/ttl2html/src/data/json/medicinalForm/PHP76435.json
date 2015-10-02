@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP76435\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/carmustine/implant\" basename=\"implant\" title=\"Implant\">\n<title>Implant</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Gliadel 7.7mg implant <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>\n</title>\n<data name=\"ampid\">7553611000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Carmustine 7.7&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">device</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5203.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5259\" title=\"CARMUSTINE\" namespace=\"/drugs/carmustine\">CARMUSTINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76435",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/carmustine/implant",
+    "basename": "implant",
+    "form": "Implant",
+    "products": [
+        {
+            "title": "Gliadel 7.7mg implant (Eisai Ltd) ",
+            "header": "Gliadel 7.7mg implant <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>",
+            "manufacturer": "(Eisai Ltd)",
+            "name": "Gliadel 7.7mg implant",
+            "ampid": "7553611000001109",
+            "strengthOfActiveIngredient": "Carmustine 7.7 mg",
+            "packs": [
+                {
+                    "textContent": " 8 device POM ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">device</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "device",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5203.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5203.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;5203.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5259",
+        "label": "CARMUSTINE"
+    }
+}

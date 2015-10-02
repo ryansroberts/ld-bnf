@@ -1,0 +1,69 @@
+{
+    "xml": "<topic id=\"PHP78976\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/gonapeptyl-depot\" basename=\"gonapeptyl-depot\" title=\"Gonapeptyl Depot\">\n<title>Gonapeptyl Depot<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP79161\" outputclass=\"indicationsAndDose\" rev=\"1.42\" parent=\"/clinical-medicinal-product-information/gonapeptyl-depot\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Advanced prostate cancer</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.75&#8239;mg every 4&#8239;weeks.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Endometriosis</p>\n<p outputclass=\"therapeuticIndication\">Reduction in size of fibroids</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.75&#8239;mg every 4&#8239;weeks maximum duration of 6 months (not to be repeated), to be started during first 5 days of menstrual cycle.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78976",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/gonapeptyl-depot",
+    "basename": "gonapeptyl-depot",
+    "title": "Gonapeptyl Depot",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Advanced prostate cancer",
+                        "html": "Advanced prostate cancer"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or deep intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by deep intramuscular injection",
+                    "html": "By subcutaneous injection or by deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.75 mg every 4 weeks.",
+                        "html": "<p>3.75&#8239;mg every 4&#8239;weeks.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Endometriosis",
+                        "html": "Endometriosis"
+                    },
+                    {
+                        "textContent": "Reduction in size of fibroids",
+                        "html": "Reduction in size of fibroids"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or deep intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by deep intramuscular injection",
+                    "html": "By subcutaneous injection or by deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.75 mg every 4 weeks maximum duration of 6 months (not to be repeated), to be started during first 5 days of menstrual cycle.",
+                        "html": "<p>3.75&#8239;mg every 4&#8239;weeks maximum duration of 6 months (not to be repeated), to be started during first 5 days of menstrual cycle.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

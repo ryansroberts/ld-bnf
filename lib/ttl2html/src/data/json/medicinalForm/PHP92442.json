@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP92442\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/eucalyptus-with-menthol/pastille\" basename=\"pastille\" title=\"Pastille\">\n<title>Pastille</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Hill's Balsam Nasal Congestion pastilles <ph outputclass=\"manufacturer\">(Boston Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">8012711000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Eucalyptus oil 6&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Menthol 8&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">45</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.48</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88105\" title=\"EUCALYPTUS WITH MENTHOL\" namespace=\"/drugs/eucalyptus-with-menthol\">EUCALYPTUS WITH MENTHOL</xref>\n</parents>\n</topic>",
+    "id": "PHP92442",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/eucalyptus-with-menthol/pastille",
+    "basename": "pastille",
+    "form": "Pastille",
+    "products": [
+        {
+            "title": "Hill's Balsam Nasal Congestion pastilles (Boston Healthcare Ltd) ",
+            "header": "Hill's Balsam Nasal Congestion pastilles <ph outputclass=\"manufacturer\">(Boston Healthcare Ltd)</ph>",
+            "manufacturer": "(Boston Healthcare Ltd)",
+            "name": "Hill's Balsam Nasal Congestion pastilles",
+            "ampid": "8012711000001107",
+            "strengthOfActiveIngredient": "Menthol 8 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 45 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">45</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "45",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.48 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.48</ph>",
+                        "nhsIndicativePrice": "&#163;1.48"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88105",
+        "label": "EUCALYPTUS WITH MENTHOL"
+    }
+}

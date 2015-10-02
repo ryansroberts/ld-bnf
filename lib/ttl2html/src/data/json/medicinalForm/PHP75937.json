@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP75937\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/doxycycline/dispersible-tablet\" basename=\"dispersible-tablet\" title=\"Dispersible tablet\">\n<title>Dispersible tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">6</ph> - Do not take indigestion remedies, or medicines containing iron or zinc, 2 hours before or after you take this medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop </p>\n<p>Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds </p>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Vibramycin-D 100mg dispersible tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">2847211000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Doxycycline (as Doxycycline monohydrate) 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.91</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.91</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3445\" title=\"DOXYCYCLINE\" namespace=\"/drugs/doxycycline\">DOXYCYCLINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75937",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/doxycycline/dispersible-tablet",
+    "basename": "dispersible-tablet",
+    "form": "Dispersible tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "6",
+            "textContent": "Do not take indigestion remedies, or medicines containing iron or zinc, 2 hours before or after you take this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">6</ph> - Do not take indigestion remedies, or medicines containing iron or zinc, 2 hours before or after you take this medicine"
+        },
+        {
+            "number": "9",
+            "textContent": "Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop"
+        },
+        {
+            "number": "11",
+            "textContent": "Protect your skin from sunlight—even on a bright but cloudy day. Do not use sunbeds",
+            "html": "Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds"
+        },
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "products": [
+        {
+            "title": "Vibramycin-D 100mg dispersible tablets (Pfizer Ltd) ",
+            "header": "Vibramycin-D 100mg dispersible tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Vibramycin-D 100mg dispersible tablets",
+            "ampid": "2847211000001103",
+            "strengthOfActiveIngredient": "Doxycycline (as Doxycycline monohydrate) 100 mg",
+            "packs": [
+                {
+                    "textContent": " 8 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.91 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.91</ph>",
+                        "nhsIndicativePrice": "&#163;4.91"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.91 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.91</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.91"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3445",
+        "label": "DOXYCYCLINE"
+    }
+}

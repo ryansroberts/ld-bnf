@@ -1,0 +1,106 @@
+{
+    "xml": "<topic id=\"PHP107938\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tetrastarch/infusion\" basename=\"infusion\" title=\"Infusion\">\n<title>Infusion</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP107940\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/volulyte-infusion\">Volulyte<tm tmtype=\"reg\"/> Infusion</xref>\r\n<xref format=\"dita\" href=\"#PHP107939\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/voluven-infusion\">Voluven<tm tmtype=\"reg\"/> Infusion</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Voluven 6% infusion 500ml Freeflex bags <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\r\n</title>\n<data name=\"ampid\">7585111000001108</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tetrastarch 60&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.63</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Voluven 10% infusion 500ml Freeflex bags <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\r\n</title>\n<data name=\"ampid\">21514511000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tetrastarch 100&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Volulyte 6% infusion 500ml Freeflex bags <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\r\n</title>\n<data name=\"ampid\">14914811000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium chloride hexahydrate 300&#8239;mg per 1&#8239;litre</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Potassium chloride 300&#8239;mg per 1&#8239;litre</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Sodium acetate trihydrate 4.63&#8239;gram per 1&#8239;litre</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Sodium chloride 6.02&#8239;gram per 1&#8239;litre</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tetrastarch 60&#8239;gram per 1&#8239;litre</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;229.60</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP104233\" title=\"TETRASTARCH\" namespace=\"/drugs/tetrastarch\">TETRASTARCH</xref>\n</parents>\n</topic>",
+    "id": "PHP107938",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tetrastarch/infusion",
+    "basename": "infusion",
+    "form": "Infusion",
+    "productInformationGroups": [
+        {
+            "id": "PHP107940",
+            "label": "Volulyte&reg;  Infusion",
+            "html": "Volulyte<tm tmtype=\"reg\"/> Infusion"
+        },
+        {
+            "id": "PHP107939",
+            "label": "Voluven&reg;  Infusion",
+            "html": "Voluven<tm tmtype=\"reg\"/> Infusion"
+        }
+    ],
+    "products": [
+        {
+            "title": "Voluven 6% infusion 500ml Freeflex bags (Fresenius Kabi Ltd) &#9660; ",
+            "header": "Voluven 6% infusion 500ml Freeflex bags <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Fresenius Kabi Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Voluven 6% infusion 500ml Freeflex bags",
+            "ampid": "7585111000001108",
+            "strengthOfActiveIngredient": "Tetrastarch 60 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 1 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.63 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.63</ph>",
+                        "nhsIndicativePrice": "&#163;10.63"
+                    }
+                },
+                {
+                    "textContent": " 15 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Voluven 10% infusion 500ml Freeflex bags (Fresenius Kabi Ltd) &#9660; ",
+            "header": "Voluven 10% infusion 500ml Freeflex bags <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Fresenius Kabi Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Voluven 10% infusion 500ml Freeflex bags",
+            "ampid": "21514511000001103",
+            "strengthOfActiveIngredient": "Tetrastarch 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 20 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Volulyte 6% infusion 500ml Freeflex bags (Fresenius Kabi Ltd) &#9660; ",
+            "header": "Volulyte 6% infusion 500ml Freeflex bags <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Fresenius Kabi Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Volulyte 6% infusion 500ml Freeflex bags",
+            "ampid": "14914811000001100",
+            "strengthOfActiveIngredient": "Tetrastarch 60 gram per 1 litre",
+            "packs": [
+                {
+                    "textContent": " 15 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;229.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;229.60</ph>",
+                        "nhsIndicativePrice": "&#163;229.60"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP104233",
+        "label": "TETRASTARCH"
+    }
+}

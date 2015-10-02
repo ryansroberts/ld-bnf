@@ -1,0 +1,11 @@
+{{#if renalImpairment.doseAdjustments }}
+  {{#each renalImpairment.doseAdjustments }}
+    {{> advice }}
+  {{/each }}
+{{/if }}
+
+{{#if renalImpairment.generalInformation }}
+  {{#each renalImpairment.generalInformation }}
+    {{> advice }}
+  {{/each }}
+{{/if }}

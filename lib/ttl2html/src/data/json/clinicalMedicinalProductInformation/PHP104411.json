@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP104411\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/gestone-solution-for-injection\" basename=\"gestone-solution-for-injection\" title=\"Gestone solution for injection\">\n<title>Gestone<tm tmtype=\"reg\"/> solution for injection</title>\n<topic id=\"PHP104636\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/gestone-solution-for-injection\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dysfunctional uterine bleeding</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8211;10&#8239;mg daily for 5&#8211;10 days until 2 days before expected onset of menstruation, to be administered into buttocks.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Recurrent miscarriage due to inadequate luteal phase (but not recommended) or following in vitro fertilisation or gamete intra-fallopian transfer</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>25&#8211;100&#8239;mg 2&#8211;7 times a week from day 15, or day of embryo or gamete transfer, until 8&#8211;16 weeks of pregnancy, to be administered into buttocks; maximum 200&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP104411",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/gestone-solution-for-injection",
+    "basename": "gestone-solution-for-injection",
+    "title": "Gestone solution for injection",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Dysfunctional uterine bleeding",
+                        "html": "Dysfunctional uterine bleeding"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "5&#8211;10 mg daily for 5&#8211;10 days until 2 days before expected onset of menstruation, to be administered into buttocks.",
+                        "html": "<p>5&#8211;10&#8239;mg daily for 5&#8211;10 days until 2 days before expected onset of menstruation, to be administered into buttocks.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Recurrent miscarriage due to inadequate luteal phase (but not recommended) or following in vitro fertilisation or gamete intra-fallopian transfer",
+                        "html": "Recurrent miscarriage due to inadequate luteal phase (but not recommended) or following in vitro fertilisation or gamete intra-fallopian transfer"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "25&#8211;100 mg 2&#8211;7 times a week from day 15, or day of embryo or gamete transfer, until 8&#8211;16 weeks of pregnancy, to be administered into buttocks; maximum 200 mg per day.",
+                        "html": "<p>25&#8211;100&#8239;mg 2&#8211;7 times a week from day 15, or day of embryo or gamete transfer, until 8&#8211;16 weeks of pregnancy, to be administered into buttocks; maximum 200&#8239;mg per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

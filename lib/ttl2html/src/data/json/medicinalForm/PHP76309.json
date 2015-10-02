@@ -1,0 +1,103 @@
+{
+    "xml": "<topic id=\"PHP76309\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/insulin-lispro/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Humalog 100units/ml solution for injection 10ml vials <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>\n</title>\n<data name=\"ampid\">3280111000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin lispro 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.61</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Humalog 100units/ml solution for injection 3ml cartridges <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>\n</title>\n<data name=\"ampid\">3284311000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin lispro 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">cartridge</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;28.31</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>\n</title>\n<data name=\"ampid\">13877811000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin lispro 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;29.46</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>\n</title>\n<data name=\"ampid\">28926811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin lispro 200&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;58.92</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4064\" title=\"INSULIN LISPRO\" namespace=\"/drugs/insulin-lispro\">INSULIN LISPRO</xref>\n</parents>\n</topic>",
+    "id": "PHP76309",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/insulin-lispro/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Humalog 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd) ",
+            "header": "Humalog 100units/ml solution for injection 10ml vials <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>",
+            "manufacturer": "(Eli Lilly and Company Ltd)",
+            "name": "Humalog 100units/ml solution for injection 10ml vials",
+            "ampid": "3280111000001104",
+            "strengthOfActiveIngredient": "Insulin lispro 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.61 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.61</ph>",
+                        "nhsIndicativePrice": "&#163;16.61"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Humalog 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd) ",
+            "header": "Humalog 100units/ml solution for injection 3ml cartridges <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>",
+            "manufacturer": "(Eli Lilly and Company Ltd)",
+            "name": "Humalog 100units/ml solution for injection 3ml cartridges",
+            "ampid": "3284311000001105",
+            "strengthOfActiveIngredient": "Insulin lispro 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 cartridge POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">cartridge</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "cartridge",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;28.31 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;28.31</ph>",
+                        "nhsIndicativePrice": "&#163;28.31"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (Eli Lilly and Company Ltd) ",
+            "header": "Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>",
+            "manufacturer": "(Eli Lilly and Company Ltd)",
+            "name": "Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen",
+            "ampid": "13877811000001105",
+            "strengthOfActiveIngredient": "Insulin lispro 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;29.46 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;29.46</ph>",
+                        "nhsIndicativePrice": "&#163;29.46"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pen (Eli Lilly and Company Ltd) ",
+            "header": "Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Eli Lilly and Company Ltd)</ph>",
+            "manufacturer": "(Eli Lilly and Company Ltd)",
+            "name": "Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pen",
+            "ampid": "28926811000001100",
+            "strengthOfActiveIngredient": "Insulin lispro 200 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;58.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;58.92</ph>",
+                        "nhsIndicativePrice": "&#163;58.92"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4064",
+        "label": "INSULIN LISPRO"
+    }
+}

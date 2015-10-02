@@ -1,0 +1,42 @@
+{
+    "xml": "<topic id=\"PHP00004\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/misoprostol-with-naproxen/medicinal-forms/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n      <title>Not applicable</title>\n      <body>\n       <section outputclass=\"medicinalProduct\"><title>Napratec OP tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n        </title>\n        <data name=\"ampid\">3226311000001108</data><ul outputclass=\"packs\">\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">112</ph>&#8239;<ph outputclass=\"unitOfMeasure\">tablet</ph>\n           <ph outputclass=\"legalCategory\">POM</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;23.76</ph>\n          </p><p outputclass=\"drugTariffInfo\">\n           <ph outputclass=\"drugTariff\">Drug Tariff (Part VIII Category C)</ph>\n           <ph outputclass=\"priceText\">price =</ph><ph outputclass=\"drugTariffPrice\">&#163;23.76</ph>\n          </p>\n         </li>\n        </ul>\n       </section>\n      </body>\n     <parents><xref format=\"dita\" scope=\"local\" type=\"\" href=\"#PHP88090-medicinalForms\" title=\"\"/></parents></topic>",
+    "id": "PHP00004",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/misoprostol-with-naproxen/medicinal-forms/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Napratec OP tablets (Pfizer Ltd) ",
+            "header": "Napratec OP tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Napratec OP tablets",
+            "ampid": "3226311000001108",
+            "packs": [
+                {
+                    "textContent": "112 tablet POM",
+                    "html": "<ph outputclass=\"packSize\">112</ph>&#8239;<ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;23.76 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;23.76</ph>",
+                        "nhsIndicativePrice": "&#163;23.76"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIII Category C) price =&#163;23.76 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIII Category C)</ph> <ph outputclass=\"priceText\">price =</ph><ph outputclass=\"drugTariffPrice\">&#163;23.76</ph>",
+                        "drugTariff": "Drug Tariff (Part VIII Category C)",
+                        "drugTariffPrice": "&#163;23.76"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88090",
+        "label": ""
+    }
+}

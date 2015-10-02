@@ -1,0 +1,84 @@
+{
+    "xml": "<topic id=\"PHP76723\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tocilizumab/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>RoActemra 200mg/10ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">16099111000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tocilizumab 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;256.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>RoActemra 400mg/20ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">16099711000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tocilizumab 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;512.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>RoActemra 80mg/4ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">16099411000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tocilizumab 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;102.40</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6653\" title=\"TOCILIZUMAB\" namespace=\"/drugs/tocilizumab\">TOCILIZUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP76723",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tocilizumab/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "RoActemra 200mg/10ml concentrate for solution for infusion vials (Roche Products Ltd) ",
+            "header": "RoActemra 200mg/10ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "RoActemra 200mg/10ml concentrate for solution for infusion vials",
+            "ampid": "16099111000001105",
+            "strengthOfActiveIngredient": "Tocilizumab 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;256.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;256.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;256.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "RoActemra 400mg/20ml concentrate for solution for infusion vials (Roche Products Ltd) ",
+            "header": "RoActemra 400mg/20ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "RoActemra 400mg/20ml concentrate for solution for infusion vials",
+            "ampid": "16099711000001106",
+            "strengthOfActiveIngredient": "Tocilizumab 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;512.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;512.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;512.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "RoActemra 80mg/4ml concentrate for solution for infusion vials (Roche Products Ltd) ",
+            "header": "RoActemra 80mg/4ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "RoActemra 80mg/4ml concentrate for solution for infusion vials",
+            "ampid": "16099411000001100",
+            "strengthOfActiveIngredient": "Tocilizumab 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;102.40 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;102.40</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;102.40",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6653",
+        "label": "TOCILIZUMAB"
+    }
+}

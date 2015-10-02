@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP77559\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/nicotinamide/gel\" basename=\"gel\" title=\"Gel\">\n<title>Gel</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Freederm 4% gel <ph outputclass=\"manufacturer\">(Dendron Ltd)</ph>\n</title>\n<data name=\"ampid\">9210411000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Nicotinamide 40&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.56</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Nicam 4% gel <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">4037511000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Nicotinamide 40&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.10</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6210\" title=\"NICOTINAMIDE\" namespace=\"/drugs/nicotinamide\">NICOTINAMIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77559",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/nicotinamide/gel",
+    "basename": "gel",
+    "form": "Gel",
+    "products": [
+        {
+            "title": "Freederm 4% gel (Dendron Ltd) ",
+            "header": "Freederm 4% gel <ph outputclass=\"manufacturer\">(Dendron Ltd)</ph>",
+            "manufacturer": "(Dendron Ltd)",
+            "name": "Freederm 4% gel",
+            "ampid": "9210411000001109",
+            "strengthOfActiveIngredient": "Nicotinamide 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 25 gram P ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.56</ph>",
+                        "nhsIndicativePrice": "&#163;5.56"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Nicam 4% gel (Dermal Laboratories Ltd) ",
+            "header": "Nicam 4% gel <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>",
+            "manufacturer": "(Dermal Laboratories Ltd)",
+            "name": "Nicam 4% gel",
+            "ampid": "4037511000001105",
+            "strengthOfActiveIngredient": "Nicotinamide 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 60 gram P ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.10 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.10</ph>",
+                        "nhsIndicativePrice": "&#163;7.10"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6210",
+        "label": "NICOTINAMIDE"
+    }
+}

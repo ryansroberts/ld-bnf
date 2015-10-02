@@ -1,0 +1,99 @@
+{
+    "xml": "<topic id=\"PHP76046\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sitagliptin/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Januvia 25mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">20115111000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sitagliptin (as Sitagliptin phosphate) 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;33.26</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Januvia 50mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">20114811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sitagliptin (as Sitagliptin phosphate) 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;33.26</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Januvia 100mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">11473711000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sitagliptin (as Sitagliptin phosphate) 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;33.26</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4210\" title=\"SITAGLIPTIN\" namespace=\"/drugs/sitagliptin\">SITAGLIPTIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76046",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sitagliptin/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Januvia 25mg tablets (Merck Sharp & Dohme Ltd) ",
+            "header": "Januvia 25mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Januvia 25mg tablets",
+            "ampid": "20115111000001106",
+            "strengthOfActiveIngredient": "Sitagliptin (as Sitagliptin phosphate) 25 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>",
+                        "nhsIndicativePrice": "&#163;33.26"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;33.26</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;33.26"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Januvia 50mg tablets (Merck Sharp & Dohme Ltd) ",
+            "header": "Januvia 50mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Januvia 50mg tablets",
+            "ampid": "20114811000001100",
+            "strengthOfActiveIngredient": "Sitagliptin (as Sitagliptin phosphate) 50 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>",
+                        "nhsIndicativePrice": "&#163;33.26"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;33.26</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;33.26"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Januvia 100mg tablets (Merck Sharp & Dohme Ltd) ",
+            "header": "Januvia 100mg tablets <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Januvia 100mg tablets",
+            "ampid": "11473711000001108",
+            "strengthOfActiveIngredient": "Sitagliptin (as Sitagliptin phosphate) 100 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>",
+                        "nhsIndicativePrice": "&#163;33.26"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;33.26</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;33.26"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4210",
+        "label": "SITAGLIPTIN"
+    }
+}

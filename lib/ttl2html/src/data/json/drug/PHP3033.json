@@ -1,0 +1,775 @@
+{
+    "xml": "<topic id=\"PHP3033\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/fosphenytoin-sodium\" basename=\"fosphenytoin-sodium\" title=\"FOSPHENYTOIN SODIUM\">\n<title>FOSPHENYTOIN SODIUM</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_880\" namespace=\"/interactions/list-of-drug-interactions/antiepileptics/fosphenytoin\">Fosphenytoin</xref>\n</p>\n<data name=\"vtmid\">108397000</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_926692410\" title=\"Antiepileptics\">Antiepileptics</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP72194\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Fosphenytoin is a pro-drug of phenytoin.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72111\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Status epilepticus</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 20&#8239;mg(PE)/kg, dose to be administered at a rate of 100&#8211;150&#8239;mg(PE)/minute, then 4&#8211;5&#8239;mg(PE)/kg daily in 1&#8211;2 divided doses, dose to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, dose to be adjusted according to response and trough plasma-phenytoin concentration.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Consider 10&#8211;25% reduction in dose or infusion rate.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis or treatment of seizures associated with neurosurgery or head injury</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 10&#8211;15&#8239;mg(PE)/kg, intravenous infusion to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, then 4&#8211;5&#8239;mg(PE)/kg daily in 1&#8211;2 divided doses, intravenous infusion to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, dose to be adjusted according to response and trough plasma-phenytoin concentration.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Consider 10&#8211;25% reduction in dose or infusion rate.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Temporary substitution for oral phenytoin</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Intravenous infusion to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, same dose and same dosing frequency as oral phenytoin therapy.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Consider 10&#8211;25% reduction in dose or infusion rate.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>Doses are expressed as phenytoin sodium equivalent (PE); fosphenytoin sodium 1.5&#8239;mg &#8801; phenytoin sodium 1&#8239;mg.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71956\" outputclass=\"unlicensedUse\" rev=\"1.10\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Fosphenytoin sodium doses in BNF may differ from those in product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72212\" outputclass=\"contraindications\" rev=\"1.23\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Contra-indications</title>\n<body>\r\n<section outputclass=\"contraindications\">\r\n<p>\r\n<ph outputclass=\"contraindication\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"contraindication\">second-degree heart block</ph>; <ph outputclass=\"contraindication\">sino-atrial block</ph>; <ph outputclass=\"contraindication\">sinus bradycardia</ph>; <ph outputclass=\"contraindication\">Stokes-Adams syndrome</ph>; <ph outputclass=\"contraindication\">third-degree heart block</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP72238\" outputclass=\"cautions\" rev=\"1.13\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Heart failure</ph>; <ph outputclass=\"caution\">hypotension</ph>; <ph outputclass=\"caution\">injection solutions alkaline (irritant to tissues)</ph>; <ph outputclass=\"caution\">respiratory depression</ph>; <ph outputclass=\"caution\">resuscitation facilities must be available</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72102\" outputclass=\"interactions\" rev=\"1.17\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (fosphenytoin).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72005\" outputclass=\"sideEffects\" rev=\"1.20\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<title>General side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alterations in respiratory function</ph>; <ph outputclass=\"sideEffect\">arrhythmias</ph>; <ph outputclass=\"sideEffect\">asthenia</ph>; <ph outputclass=\"sideEffect\">cardiovascular collapse</ph>; <ph outputclass=\"sideEffect\">cardiovascular depression (particularly if injection too rapid)</ph>; <ph outputclass=\"sideEffect\">chills</ph>; <ph outputclass=\"sideEffect\">CNS depression (particularly if injection too rapid)</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">dysarthria</ph>; <ph outputclass=\"sideEffect\">ecchymosis</ph>; <ph outputclass=\"sideEffect\">euphoria</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">incoordination</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">respiratory arrest</ph>; <ph outputclass=\"sideEffect\">taste disturbance</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>; <ph outputclass=\"sideEffect\">vasodilatation</ph>; <ph outputclass=\"sideEffect\">visual disturbances</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Decreased reflexes</ph>; <ph outputclass=\"sideEffect\">hypoacusis</ph>; <ph outputclass=\"sideEffect\">hypoaesthesia</ph>; <ph outputclass=\"sideEffect\">increased reflexes</ph>; <ph outputclass=\"sideEffect\">muscle spasm</ph>; <ph outputclass=\"sideEffect\">muscle weakness</ph>; <ph outputclass=\"sideEffect\">pain</ph>; <ph outputclass=\"sideEffect\">stupor</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Confusion</ph>; <ph outputclass=\"sideEffect\">extrapyramidal disorder</ph>; <ph outputclass=\"sideEffect\">hyperglycaemia</ph>; <ph outputclass=\"sideEffect\">purple glove syndrome</ph>; <ph outputclass=\"sideEffect\">tonic seizures</ph>; <ph outputclass=\"sideEffect\">twitching</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"specificSideEffects\">\n<title>Specific side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"sideEffect\">bradycardia</ph>; <ph outputclass=\"sideEffect\">heart block</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p outputclass=\"title\">Important</p>\n<p>Intravenous infusion of fosphenytoin has been associated with severe cardiovascular reactions including asystole, ventricular fibrillation, and cardiac arrest. Hypotension, bradycardia, and heart block have also been reported. The following are recommended:</p>\n<ul>\n<li>monitor heart rate, blood pressure, and respiratory function for duration of infusion;</li>\n<li>observe patient for at least 30 minutes after infusion;</li>\n<li>if hypotension occurs, reduce infusion rate or discontinue;</li>\n<li>reduce dose or infusion rate in elderly, and in renal or hepatic impairment.</li>\n</ul>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72279\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.18\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityCrossSensitivity\">\n<sectiondiv>\n<p>Cross-sensitivity reported with carbamazepine.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72089\" outputclass=\"pregnancy\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"additionalMonitoringInPregnancy\">\n<sectiondiv>\n<p>Changes in plasma-protein binding make interpretation of plasma-phenytoin concentrations difficult&#8212;monitor unbound fraction.</p>\n<p>The dose should be monitored carefully during pregnancy and after birth, and adjustments made on a clinical basis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72258\" outputclass=\"breastFeeding\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Small amounts present in milk, but not known to be harmful.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72166\" outputclass=\"hepaticImpairment\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Consider 10&#8211;25% reduction in dose or infusion rate (except initial dose for status epilepticus).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72054\" outputclass=\"renalImpairment\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Consider 10&#8211;25% reduction in dose or infusion rate (except initial dose for status epilepticus).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72045\" outputclass=\"preTreatmentScreening\" rev=\"1.9\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Pre-treatment screening</title>\n<body>\n<section>\n<sectiondiv>\n<p>HLA-B* 1502 allele in individuals of Han Chinese or Thai origin&#8212;avoid unless essential (increased risk of Stevens-Johnson syndrome).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71952\" outputclass=\"monitoringRequirements\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Manufacturer recommends blood counts (but evidence of practical value uncertain).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>ECG monitoring.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>Monitor heart rate, blood pressure, and respiratory function for duration of infusion.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72286\" outputclass=\"directionsForAdministration\" rev=\"1.26\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For <i>intermittent intravenous infusion</i> (<i>Pro-Epanutin</i>\n<tm tmtype=\"reg\"/>), give <i>in</i> Glucose 5% <i>or</i> Sodium chloride 0.9%; dilute to a concentration of 1.5&#8211;25&#8239;mg (phenytoin sodium equivalent (PE))/mL.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP57773\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.15\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Prescriptions for fosphenytoin sodium should state the dose in terms of phenytoin sodium equivalent (PE); fosphenytoin sodium 1.5&#8239;mg &#8801; phenytoin sodium 1&#8239;mg.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3033-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/fosphenytoin-sodium\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77327\" title=\"Solution for injection\" namespace=\"/drugs/fosphenytoin-sodium/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78157\" namespace=\"/treatment-summaries/neuropathic-pain\" title=\"Neuropathic pain\" count=\"1\" rel=\"backlink\">Neuropathic pain</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78230\" namespace=\"/treatment-summaries/epilepsy\" title=\"Epilepsy\" count=\"5\" rel=\"backlink\">Epilepsy</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_880\" namespace=\"/interactions/list-of-drug-interactions/antiepileptics/fosphenytoin\" title=\"Fosphenytoin\" count=\"1\" rel=\"link\">Fosphenytoin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77327\" namespace=\"/drugs/fosphenytoin-sodium/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP3033",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/fosphenytoin-sodium",
+    "basename": "fosphenytoin-sodium",
+    "title": "FOSPHENYTOIN SODIUM",
+    "interactants": [
+        {
+            "id": "bnf_int_880",
+            "label": "Fosphenytoin"
+        }
+    ],
+    "vtmid": "108397000",
+    "drugClassification": [
+        "Antiepileptics"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Fosphenytoin is a pro-drug of phenytoin.",
+                "html": "<p>Fosphenytoin is a pro-drug of phenytoin.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Status epilepticus",
+                        "html": "Status epilepticus"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 20 mg(PE)/kg, dose to be administered at a rate of 100&#8211;150 mg(PE)/minute, then 4&#8211;5 mg(PE)/kg daily in 1&#8211;2 divided doses, dose to be administered at a rate of 50&#8211;100 mg(PE)/minute, dose to be adjusted according to response and trough plasma-phenytoin concentration.",
+                        "html": "<p>Initially 20&#8239;mg(PE)/kg, dose to be administered at a rate of 100&#8211;150&#8239;mg(PE)/minute, then 4&#8211;5&#8239;mg(PE)/kg daily in 1&#8211;2 divided doses, dose to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, dose to be adjusted according to response and trough plasma-phenytoin concentration.</p>"
+                    },
+                    {
+                        "textContent": "Consider 10&#8211;25% reduction in dose or infusion rate.",
+                        "html": "<p>Consider 10&#8211;25% reduction in dose or infusion rate.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis or treatment of seizures associated with neurosurgery or head injury",
+                        "html": "Prophylaxis or treatment of seizures associated with neurosurgery or head injury"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection or intravenous infusion"
+                    ],
+                    "textContent": "By intramuscular injection or by intravenous infusion",
+                    "html": "By intramuscular injection or by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 10&#8211;15 mg(PE)/kg, intravenous infusion to be administered at a rate of 50&#8211;100 mg(PE)/minute, then 4&#8211;5 mg(PE)/kg daily in 1&#8211;2 divided doses, intravenous infusion to be administered at a rate of 50&#8211;100 mg(PE)/minute, dose to be adjusted according to response and trough plasma-phenytoin concentration.",
+                        "html": "<p>Initially 10&#8211;15&#8239;mg(PE)/kg, intravenous infusion to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, then 4&#8211;5&#8239;mg(PE)/kg daily in 1&#8211;2 divided doses, intravenous infusion to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, dose to be adjusted according to response and trough plasma-phenytoin concentration.</p>"
+                    },
+                    {
+                        "textContent": "Consider 10&#8211;25% reduction in dose or infusion rate.",
+                        "html": "<p>Consider 10&#8211;25% reduction in dose or infusion rate.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Temporary substitution for oral phenytoin",
+                        "html": "Temporary substitution for oral phenytoin"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection or intravenous infusion"
+                    ],
+                    "textContent": "By intramuscular injection or by intravenous infusion",
+                    "html": "By intramuscular injection or by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Intravenous infusion to be administered at a rate of 50&#8211;100 mg(PE)/minute, same dose and same dosing frequency as oral phenytoin therapy.",
+                        "html": "<p>Intravenous infusion to be administered at a rate of 50&#8211;100&#8239;mg(PE)/minute, same dose and same dosing frequency as oral phenytoin therapy.</p>"
+                    },
+                    {
+                        "textContent": "Consider 10&#8211;25% reduction in dose or infusion rate.",
+                        "html": "<p>Consider 10&#8211;25% reduction in dose or infusion rate.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Doses are expressed as phenytoin sodium equivalent (PE); fosphenytoin sodium 1.5 mg &#8801; phenytoin sodium 1 mg.",
+                "html": "<p>Doses are expressed as phenytoin sodium equivalent (PE); fosphenytoin sodium 1.5&#8239;mg &#8801; phenytoin sodium 1&#8239;mg.</p>"
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Fosphenytoin sodium doses in BNF may differ from those in product literature.",
+                "html": "<p>Fosphenytoin sodium doses in BNF may differ from those in product literature.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "contraindications",
+                "textContent": "second-degree heart block",
+                "html": "second-degree heart block"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "sino-atrial block",
+                "html": "sino-atrial block"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "sinus bradycardia",
+                "html": "sinus bradycardia"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "Stokes-Adams syndrome",
+                "html": "Stokes-Adams syndrome"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "third-degree heart block",
+                "html": "third-degree heart block"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Heart failure",
+                "html": "Heart failure"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypotension",
+                "html": "hypotension"
+            },
+            {
+                "type": "cautions",
+                "textContent": "injection solutions alkaline (irritant to tissues)",
+                "html": "injection solutions alkaline (irritant to tissues)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "respiratory depression",
+                "html": "respiratory depression"
+            },
+            {
+                "type": "cautions",
+                "textContent": "resuscitation facilities must be available",
+                "html": "resuscitation facilities must be available"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (fosphenytoin).",
+                "html": "<p>Appendix 1 (fosphenytoin).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Alterations in respiratory function",
+                        "html": "Alterations in respiratory function",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arrhythmias",
+                        "html": "arrhythmias",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "asthenia",
+                        "html": "asthenia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cardiovascular collapse",
+                        "html": "cardiovascular collapse",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cardiovascular depression (particularly if injection too rapid)",
+                        "html": "cardiovascular depression (particularly if injection too rapid)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "chills",
+                        "html": "chills",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "CNS depression (particularly if injection too rapid)",
+                        "html": "CNS depression (particularly if injection too rapid)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dysarthria",
+                        "html": "dysarthria",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "ecchymosis",
+                        "html": "ecchymosis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "euphoria",
+                        "html": "euphoria",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "incoordination",
+                        "html": "incoordination",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "respiratory arrest",
+                        "html": "respiratory arrest",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "taste disturbance",
+                        "html": "taste disturbance",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vasodilatation",
+                        "html": "vasodilatation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "visual disturbances",
+                        "html": "visual disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Decreased reflexes",
+                        "html": "Decreased reflexes",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypoacusis",
+                        "html": "hypoacusis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypoaesthesia",
+                        "html": "hypoaesthesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "increased reflexes",
+                        "html": "increased reflexes",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "muscle spasm",
+                        "html": "muscle spasm",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "muscle weakness",
+                        "html": "muscle weakness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "pain",
+                        "html": "pain",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "stupor",
+                        "html": "stupor",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Confusion",
+                        "html": "Confusion",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "extrapyramidal disorder",
+                        "html": "extrapyramidal disorder",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperglycaemia",
+                        "html": "hyperglycaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "purple glove syndrome",
+                        "html": "purple glove syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tonic seizures",
+                        "html": "tonic seizures",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "twitching",
+                        "html": "twitching",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "specific": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "bradycardia",
+                        "html": "bradycardia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "heart block",
+                        "html": "heart block",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "title": "Important",
+                "textContent": "Intravenous infusion of fosphenytoin has been associated with severe cardiovascular reactions including asystole, ventricular fibrillation, and cardiac arrest. Hypotension, bradycardia, and heart block have also been reported. The following are recommended:\n\nmonitor heart rate, blood pressure, and respiratory function for duration of infusion; observe patient for at least 30 minutes after infusion; if hypotension occurs, reduce infusion rate or discontinue; reduce dose or infusion rate in elderly, and in renal or hepatic impairment.",
+                "html": "<p>Intravenous infusion of fosphenytoin has been associated with severe cardiovascular reactions including asystole, ventricular fibrillation, and cardiac arrest. Hypotension, bradycardia, and heart block have also been reported. The following are recommended:</p><ul>\n<li>monitor heart rate, blood pressure, and respiratory function for duration of infusion;</li>\n<li>observe patient for at least 30 minutes after infusion;</li>\n<li>if hypotension occurs, reduce infusion rate or discontinue;</li>\n<li>reduce dose or infusion rate in elderly, and in renal or hepatic impairment.</li>\n</ul>"
+            }
+        ]
+    },
+    "allergyAndCrossSensitivity": {
+        "crossSensitivity": [
+            {
+                "type": "crossSensitivity",
+                "textContent": "Cross-sensitivity reported with carbamazepine.",
+                "html": "<p>Cross-sensitivity reported with carbamazepine.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Changes in plasma-protein binding make interpretation of plasma-phenytoin concentrations difficult&#8212;monitor unbound fraction.\n\nThe dose should be monitored carefully during pregnancy and after birth, and adjustments made on a clinical basis.",
+                "html": "<p>Changes in plasma-protein binding make interpretation of plasma-phenytoin concentrations difficult&#8212;monitor unbound fraction.</p><p>The dose should be monitored carefully during pregnancy and after birth, and adjustments made on a clinical basis.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Small amounts present in milk, but not known to be harmful.",
+                "html": "<p>Small amounts present in milk, but not known to be harmful.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Consider 10&#8211;25% reduction in dose or infusion rate (except initial dose for status epilepticus).",
+                "html": "<p>Consider 10&#8211;25% reduction in dose or infusion rate (except initial dose for status epilepticus).</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Consider 10&#8211;25% reduction in dose or infusion rate (except initial dose for status epilepticus).",
+                "html": "<p>Consider 10&#8211;25% reduction in dose or infusion rate (except initial dose for status epilepticus).</p>"
+            }
+        ]
+    },
+    "preTreatmentScreening": {
+        "preTreatmentScreening": [
+            {
+                "type": "preTreatmentScreening",
+                "textContent": "HLA-B* 1502 allele in individuals of Han Chinese or Thai origin&#8212;avoid unless essential (increased risk of Stevens-Johnson syndrome).",
+                "html": "<p>HLA-B* 1502 allele in individuals of Han Chinese or Thai origin&#8212;avoid unless essential (increased risk of Stevens-Johnson syndrome).</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Manufacturer recommends blood counts (but evidence of practical value uncertain).",
+                "html": "<p>Manufacturer recommends blood counts (but evidence of practical value uncertain).</p>"
+            },
+            {
+                "type": "patientParameters",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "ECG monitoring.",
+                "html": "<p>ECG monitoring.</p>"
+            },
+            {
+                "type": "patientParameters",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Monitor heart rate, blood pressure, and respiratory function for duration of infusion.",
+                "html": "<p>Monitor heart rate, blood pressure, and respiratory function for duration of infusion.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For intermittent intravenous infusion (Pro-Epanutin ), give in Glucose 5% or Sodium chloride 0.9%; dilute to a concentration of 1.5&#8211;25 mg (phenytoin sodium equivalent (PE))/mL.",
+                "html": "<p>For <i>intermittent intravenous infusion</i> (<i>Pro-Epanutin</i>\n<tm tmtype=\"reg\"/>), give <i>in</i> Glucose 5% <i>or</i> Sodium chloride 0.9%; dilute to a concentration of 1.5&#8211;25&#8239;mg (phenytoin sodium equivalent (PE))/mL.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Prescriptions for fosphenytoin sodium should state the dose in terms of phenytoin sodium equivalent (PE); fosphenytoin sodium 1.5 mg &#8801; phenytoin sodium 1 mg.",
+                "html": "<p>Prescriptions for fosphenytoin sodium should state the dose in terms of phenytoin sodium equivalent (PE); fosphenytoin sodium 1.5&#8239;mg &#8801; phenytoin sodium 1&#8239;mg.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77327",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78157",
+                "label": "Neuropathic pain",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78230",
+                "label": "Epilepsy",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_880",
+                "label": "Fosphenytoin",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77327",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

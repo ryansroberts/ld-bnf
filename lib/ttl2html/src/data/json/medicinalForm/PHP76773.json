@@ -1,0 +1,133 @@
+{
+    "xml": "<topic id=\"PHP76773\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tetrabenazine/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Revocon 25mg tablets <ph outputclass=\"manufacturer\">(Sun Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">19436411000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tetrabenazine 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tetmodis 25mg tablets <ph outputclass=\"manufacturer\">(Beacon Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">19304811000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tetrabenazine 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tetrabenazine 25mg tablets <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>\n</title>\n<data name=\"ampid\">21112711000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tetrabenazine 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Xenazine 25 tablets <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">915711000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tetrabenazine 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3163\" title=\"TETRABENAZINE\" namespace=\"/drugs/tetrabenazine\">TETRABENAZINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76773",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tetrabenazine/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Revocon 25mg tablets (Sun Pharmaceuticals UK Ltd) ",
+            "header": "Revocon 25mg tablets <ph outputclass=\"manufacturer\">(Sun Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Sun Pharmaceuticals UK Ltd)",
+            "name": "Revocon 25mg tablets",
+            "ampid": "19436411000001101",
+            "strengthOfActiveIngredient": "Tetrabenazine 25 mg",
+            "packs": [
+                {
+                    "textContent": " 112 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>",
+                        "nhsIndicativePrice": "&#163;100.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;100.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tetmodis 25mg tablets (Beacon Pharmaceuticals Ltd) ",
+            "header": "Tetmodis 25mg tablets <ph outputclass=\"manufacturer\">(Beacon Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Beacon Pharmaceuticals Ltd)",
+            "name": "Tetmodis 25mg tablets",
+            "ampid": "19304811000001105",
+            "strengthOfActiveIngredient": "Tetrabenazine 25 mg",
+            "packs": [
+                {
+                    "textContent": " 112 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>",
+                        "nhsIndicativePrice": "&#163;100.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;100.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tetrabenazine 25mg tablets (Actavis UK Ltd) ",
+            "header": "Tetrabenazine 25mg tablets <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>",
+            "manufacturer": "(Actavis UK Ltd)",
+            "name": "Tetrabenazine 25mg tablets",
+            "ampid": "21112711000001105",
+            "strengthOfActiveIngredient": "Tetrabenazine 25 mg",
+            "packs": [
+                {
+                    "textContent": " 112 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;100.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Xenazine 25 tablets (Alliance Pharmaceuticals Ltd) ",
+            "header": "Xenazine 25 tablets <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Alliance Pharmaceuticals Ltd)",
+            "name": "Xenazine 25 tablets",
+            "ampid": "915711000001101",
+            "strengthOfActiveIngredient": "Tetrabenazine 25 mg",
+            "packs": [
+                {
+                    "textContent": " 112 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>",
+                        "nhsIndicativePrice": "&#163;100.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;100.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;100.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3163",
+        "label": "TETRABENAZINE"
+    }
+}

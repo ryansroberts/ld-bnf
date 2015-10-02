@@ -1,0 +1,326 @@
+{
+    "xml": "<topic id=\"PHP34597\" outputclass=\"drugClass\" rev=\"1.12\" type=\"drugClass\" namespace=\"/drug-classes/heparins\" basename=\"heparins\" title=\"HEPARINS\">\n<title>HEPARINS</title>\n<topic id=\"PHP38518\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drug-classes/heparins\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Acute bacterial endocarditis</ph>; <ph outputclass=\"contraindication\">after major trauma</ph>; <ph outputclass=\"contraindication\">epidural anaesthesia with treatment doses</ph>; <ph outputclass=\"contraindication\">haemophilia and other haemorrhagic disorders</ph>; <ph outputclass=\"contraindication\">peptic ulcer</ph>; <ph outputclass=\"contraindication\">recent cerebral haemorrhage</ph>; <ph outputclass=\"contraindication\">recent surgery to eye</ph>; <ph outputclass=\"contraindication\">recent surgery to nervous system</ph>; <ph outputclass=\"contraindication\">severe hypertension</ph>; <ph outputclass=\"contraindication\">spinal anaesthesia with treatment doses</ph>; <ph outputclass=\"contraindication\">thrombocytopenia (including history of heparin-induced thrombocytopenia)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38521\" outputclass=\"cautions\" rev=\"1.28\" parent=\"/drug-classes/heparins\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Elderly</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38499\" outputclass=\"interactions\" rev=\"1.15\" parent=\"/drug-classes/heparins\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (heparins).</p>\n<p>Caution with concomitant use of drugs that increase risk of bleeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38475\" outputclass=\"sideEffects\" rev=\"1.20\" parent=\"/drug-classes/heparins\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia (on prolonged use)</ph>; <ph outputclass=\"sideEffect\">anaphylaxis</ph>; <ph outputclass=\"sideEffect\">angioedema</ph>; <ph outputclass=\"sideEffect\">hyperkalaemia</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">injection-site reactions</ph>; <ph outputclass=\"sideEffect\">osteoporosis (risk lower with low molecular weight heparins)</ph>; <ph outputclass=\"sideEffect\">priapism</ph>; <ph outputclass=\"sideEffect\">rebound hyperlipidaemia (following unfractionated heparin withdrawal)</ph>; <ph outputclass=\"sideEffect\">skin necrosis</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Haemorrhage</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Haemorrhage</p>\n<p>If haemorrhage occurs it is usually sufficient to withdraw unfractionated or low molecular weight heparin, but if rapid reversal of the effects of the heparin is required, protamine sulfate is a specific antidote (but only partially reverses the effects of low molecular weight heparins).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Heparin-induced thrombocytopenia </p>\n<p>Clinically important heparin-induced thrombocytopenia is immune-mediated and does not usually develop until after 5&#8211;10 days; it can be complicated by thrombosis.</p>\n<p>Signs of heparin-induced thrombocytopenia include a 30% reduction of platelet count, thrombosis, or skin allergy. If heparin-induced thrombocytopenia is strongly suspected or confirmed, the heparin should be <b>stopped</b> and an alternative anticoagulant, such as danaparoid, should be given. Ensure platelet counts return to normal range in those who require warfarin.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Hyperkalaemia</p>\n<p>Inhibition of aldosterone secretion by unfractionated or low molecular weight heparin can result in hyperkalaemia; patients with diabetes mellitus, chronic renal failure, acidosis, raised plasma potassium or those taking potassium-sparing drugs seem to be more susceptible. The risk appears to increase with duration of therapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38530\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.10\" parent=\"/drug-classes/heparins\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityContraindications\">\n<sectiondiv>\n<p>Hypersensitivity to unfractionated or low molecular weight heparin.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38454\" outputclass=\"monitoringRequirements\" parent=\"/drug-classes/heparins\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p outputclass=\"title\">Heparin-induced thrombocytopenia </p>\n<p>Platelet counts should be measured just before treatment with unfractionated or low molecular weight heparin, and regular monitoring of platelet counts may be required if given for longer than 4 days. See the British Society for Haematology&#8217;s Guidelines on the diagnosis and management of heparin-induced thrombocytopenia: second edition. <i>Br J Haematol</i> 2012; <b>159</b>: 528&#8211;540.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Hyperkalaemia</p>\n<p>Plasma-potassium concentration should be measured in patients at risk of hyperkalaemia before starting the heparin and monitored regularly thereafter, particularly if treatment is to be continued for longer than 7 days.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1447\" title=\"HEPARIN (UNFRACTIONATED)\" namespace=\"/drugs/heparin-unfractionated\">HEPARIN (UNFRACTIONATED)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1458\" title=\"DALTEPARIN SODIUM\" namespace=\"/drugs/dalteparin-sodium\">DALTEPARIN SODIUM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1460\" title=\"ENOXAPARIN SODIUM\" namespace=\"/drugs/enoxaparin-sodium\">ENOXAPARIN SODIUM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1463\" title=\"TINZAPARIN SODIUM\" namespace=\"/drugs/tinzaparin-sodium\">TINZAPARIN SODIUM</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1447\" namespace=\"/drugs/heparin-unfractionated\" title=\"HEPARIN (UNFRACTIONATED)\" count=\"1\" rel=\"link\">HEPARIN (UNFRACTIONATED)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1458\" namespace=\"/drugs/dalteparin-sodium\" title=\"DALTEPARIN SODIUM\" count=\"1\" rel=\"link\">DALTEPARIN SODIUM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1460\" namespace=\"/drugs/enoxaparin-sodium\" title=\"ENOXAPARIN SODIUM\" count=\"1\" rel=\"link\">ENOXAPARIN SODIUM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1463\" namespace=\"/drugs/tinzaparin-sodium\" title=\"TINZAPARIN SODIUM\" count=\"1\" rel=\"link\">TINZAPARIN SODIUM</xref>\n</links>\n</topic>",
+    "id": "PHP34597",
+    "outputclass": "drugClass",
+    "rev": "1.12",
+    "type": "drugClass",
+    "namespace": "/drug-classes/heparins",
+    "basename": "heparins",
+    "title": "HEPARINS",
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Acute bacterial endocarditis",
+                "html": "Acute bacterial endocarditis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "after major trauma",
+                "html": "after major trauma"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "epidural anaesthesia with treatment doses",
+                "html": "epidural anaesthesia with treatment doses"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "haemophilia and other haemorrhagic disorders",
+                "html": "haemophilia and other haemorrhagic disorders"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "peptic ulcer",
+                "html": "peptic ulcer"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "recent cerebral haemorrhage",
+                "html": "recent cerebral haemorrhage"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "recent surgery to eye",
+                "html": "recent surgery to eye"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "recent surgery to nervous system",
+                "html": "recent surgery to nervous system"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "severe hypertension",
+                "html": "severe hypertension"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "spinal anaesthesia with treatment doses",
+                "html": "spinal anaesthesia with treatment doses"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "thrombocytopenia (including history of heparin-induced thrombocytopenia)",
+                "html": "thrombocytopenia (including history of heparin-induced thrombocytopenia)"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Elderly",
+                "html": "Elderly"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (heparins).\n\nCaution with concomitant use of drugs that increase risk of bleeding.",
+                "html": "<p>Appendix 1 (heparins).</p><p>Caution with concomitant use of drugs that increase risk of bleeding.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Alopecia (on prolonged use)",
+                        "html": "Alopecia (on prolonged use)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "anaphylaxis",
+                        "html": "anaphylaxis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "angioedema",
+                        "html": "angioedema",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hyperkalaemia",
+                        "html": "hyperkalaemia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "injection-site reactions",
+                        "html": "injection-site reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "osteoporosis (risk lower with low molecular weight heparins)",
+                        "html": "osteoporosis (risk lower with low molecular weight heparins)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "priapism",
+                        "html": "priapism",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "rebound hyperlipidaemia (following unfractionated heparin withdrawal)",
+                        "html": "rebound hyperlipidaemia (following unfractionated heparin withdrawal)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "skin necrosis",
+                        "html": "skin necrosis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Haemorrhage",
+                        "html": "Haemorrhage",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Haemorrhage",
+                "textContent": "If haemorrhage occurs it is usually sufficient to withdraw unfractionated or low molecular weight heparin, but if rapid reversal of the effects of the heparin is required, protamine sulfate is a specific antidote (but only partially reverses the effects of low molecular weight heparins).",
+                "html": "<p>If haemorrhage occurs it is usually sufficient to withdraw unfractionated or low molecular weight heparin, but if rapid reversal of the effects of the heparin is required, protamine sulfate is a specific antidote (but only partially reverses the effects of low molecular weight heparins).</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Heparin-induced thrombocytopenia",
+                "textContent": "Clinically important heparin-induced thrombocytopenia is immune-mediated and does not usually develop until after 5&#8211;10 days; it can be complicated by thrombosis.\n\nSigns of heparin-induced thrombocytopenia include a 30% reduction of platelet count, thrombosis, or skin allergy. If heparin-induced thrombocytopenia is strongly suspected or confirmed, the heparin should be stopped and an alternative anticoagulant, such as danaparoid, should be given. Ensure platelet counts return to normal range in those who require warfarin.",
+                "html": "<p>Clinically important heparin-induced thrombocytopenia is immune-mediated and does not usually develop until after 5&#8211;10 days; it can be complicated by thrombosis.</p><p>Signs of heparin-induced thrombocytopenia include a 30% reduction of platelet count, thrombosis, or skin allergy. If heparin-induced thrombocytopenia is strongly suspected or confirmed, the heparin should be <b>stopped</b> and an alternative anticoagulant, such as danaparoid, should be given. Ensure platelet counts return to normal range in those who require warfarin.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Hyperkalaemia",
+                "textContent": "Inhibition of aldosterone secretion by unfractionated or low molecular weight heparin can result in hyperkalaemia; patients with diabetes mellitus, chronic renal failure, acidosis, raised plasma potassium or those taking potassium-sparing drugs seem to be more susceptible. The risk appears to increase with duration of therapy.",
+                "html": "<p>Inhibition of aldosterone secretion by unfractionated or low molecular weight heparin can result in hyperkalaemia; patients with diabetes mellitus, chronic renal failure, acidosis, raised plasma potassium or those taking potassium-sparing drugs seem to be more susceptible. The risk appears to increase with duration of therapy.</p>"
+            }
+        ]
+    },
+    "allergyAndCrossSensitivity": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Hypersensitivity to unfractionated or low molecular weight heparin.",
+                "html": "<p>Hypersensitivity to unfractionated or low molecular weight heparin.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "title": "Heparin-induced thrombocytopenia",
+                "textContent": "Platelet counts should be measured just before treatment with unfractionated or low molecular weight heparin, and regular monitoring of platelet counts may be required if given for longer than 4 days. See the British Society for Haematology&#8217;s Guidelines on the diagnosis and management of heparin-induced thrombocytopenia: second edition. Br J Haematol 2012; 159: 528&#8211;540.",
+                "html": "<p>Platelet counts should be measured just before treatment with unfractionated or low molecular weight heparin, and regular monitoring of platelet counts may be required if given for longer than 4 days. See the British Society for Haematology&#8217;s Guidelines on the diagnosis and management of heparin-induced thrombocytopenia: second edition. <i>Br J Haematol</i> 2012; <b>159</b>: 528&#8211;540.</p>"
+            },
+            {
+                "type": "patientParameters",
+                "title": "Hyperkalaemia",
+                "textContent": "Plasma-potassium concentration should be measured in patients at risk of hyperkalaemia before starting the heparin and monitored regularly thereafter, particularly if treatment is to be continued for longer than 7 days.",
+                "html": "<p>Plasma-potassium concentration should be measured in patients at risk of hyperkalaemia before starting the heparin and monitored regularly thereafter, particularly if treatment is to be continued for longer than 7 days.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP1447",
+            "label": "HEPARIN (UNFRACTIONATED)",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1458",
+            "label": "DALTEPARIN SODIUM",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1460",
+            "label": "ENOXAPARIN SODIUM",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1463",
+            "label": "TINZAPARIN SODIUM",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP1447",
+                "label": "HEPARIN (UNFRACTIONATED)",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1458",
+                "label": "DALTEPARIN SODIUM",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1460",
+                "label": "ENOXAPARIN SODIUM",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1463",
+                "label": "TINZAPARIN SODIUM",
+                "type": "drug"
+            }
+        ]
+    }
+}

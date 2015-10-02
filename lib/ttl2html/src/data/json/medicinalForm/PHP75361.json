@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP75361\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sirolimus/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Ethanol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Rapamune 1mg/ml oral solution <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4091011000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sirolimus 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;162.41</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5637\" title=\"SIROLIMUS\" namespace=\"/drugs/sirolimus\">SIROLIMUS</xref>\n</parents>\n</topic>",
+    "id": "PHP75361",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sirolimus/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "excipients": [
+        "Ethanol"
+    ],
+    "products": [
+        {
+            "title": "Rapamune 1mg/ml oral solution (Pfizer Ltd) ",
+            "header": "Rapamune 1mg/ml oral solution <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Rapamune 1mg/ml oral solution",
+            "ampid": "4091011000001100",
+            "strengthOfActiveIngredient": "Sirolimus 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 60 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;162.41 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;162.41</ph>",
+                        "nhsIndicativePrice": "&#163;162.41"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5637",
+        "label": "SIROLIMUS"
+    }
+}

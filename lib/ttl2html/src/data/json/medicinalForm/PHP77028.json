@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP77028\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/darunavir/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Prezista 100mg/ml oral suspension <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">21536711000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Darunavir (as Darunavir ethanolate) 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;248.17</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3802\" title=\"DARUNAVIR\" namespace=\"/drugs/darunavir\">DARUNAVIR</xref>\n</parents>\n</topic>",
+    "id": "PHP77028",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/darunavir/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Prezista 100mg/ml oral suspension (Janssen-Cilag Ltd) ",
+            "header": "Prezista 100mg/ml oral suspension <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Prezista 100mg/ml oral suspension",
+            "ampid": "21536711000001106",
+            "strengthOfActiveIngredient": "Darunavir (as Darunavir ethanolate) 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 200 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;248.17 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;248.17</ph>",
+                        "nhsIndicativePrice": "&#163;248.17"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3802",
+        "label": "DARUNAVIR"
+    }
+}

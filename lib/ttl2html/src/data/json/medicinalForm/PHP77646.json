@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP77646\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/levocarnitine/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Bio-Carnitine 250mg capsules <ph outputclass=\"manufacturer\">(Pharma Nord (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">11585911000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">L-Carnitine 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">125</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.06</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Lamberts L-Carnitine 500mg capsules <ph outputclass=\"manufacturer\">(Lamberts Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">11936311000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">L-Carnitine 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.67</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6310\" title=\"LEVOCARNITINE\" namespace=\"/drugs/levocarnitine\">LEVOCARNITINE</xref>\n</parents>\n</topic>",
+    "id": "PHP77646",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/levocarnitine/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Bio-Carnitine 250mg capsules (Pharma Nord (UK) Ltd) ",
+            "header": "Bio-Carnitine 250mg capsules <ph outputclass=\"manufacturer\">(Pharma Nord (UK) Ltd)</ph>",
+            "manufacturer": "(Pharma Nord (UK) Ltd)",
+            "name": "Bio-Carnitine 250mg capsules",
+            "ampid": "11585911000001107",
+            "strengthOfActiveIngredient": "L-Carnitine 250 mg",
+            "packs": [
+                {
+                    "textContent": " 125 capsule ",
+                    "html": "<ph outputclass=\"packSize\">125</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "125",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.06 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.06</ph>",
+                        "nhsIndicativePrice": "&#163;11.06"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Lamberts L-Carnitine 500mg capsules (Lamberts Healthcare Ltd) ",
+            "header": "Lamberts L-Carnitine 500mg capsules <ph outputclass=\"manufacturer\">(Lamberts Healthcare Ltd)</ph>",
+            "manufacturer": "(Lamberts Healthcare Ltd)",
+            "name": "Lamberts L-Carnitine 500mg capsules",
+            "ampid": "11936311000001100",
+            "strengthOfActiveIngredient": "L-Carnitine 500 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.67 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.67</ph>",
+                        "nhsIndicativePrice": "&#163;11.67"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6310",
+        "label": "LEVOCARNITINE"
+    }
+}

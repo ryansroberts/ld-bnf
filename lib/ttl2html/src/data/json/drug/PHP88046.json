@@ -1,0 +1,149 @@
+{
+    "xml": "<topic id=\"PHP88046\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/fluocinolone-acetonide-with-neomycin\" basename=\"fluocinolone-acetonide-with-neomycin\" title=\"FLUOCINOLONE ACETONIDE WITH NEOMYCIN\">\n<title>FLUOCINOLONE ACETONIDE WITH NEOMYCIN</title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP33491\" namespace=\"/drugs/fluocinolone-acetonide\">fluocinolone acetonide</xref>, <xref format=\"dita\" href=\"#PHP3489\" namespace=\"/drugs/neomycin-sulfate\">NEOMYCIN SULFATE</xref>.</p>\n<data name=\"vtmid\">22636911000001100</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832374428\" title=\"Corticosteroids\">Corticosteroids</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_296174173\" title=\"Aminoglycosides\">Aminoglycosides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP89817\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/drugs/fluocinolone-acetonide-with-neomycin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Inflammatory skin disorders such as eczemas associated with infection</p>\n<p outputclass=\"therapeuticIndication\">Psoriasis associated with infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;17 years</p>\n<p>Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"potency\">\n<title>Potency</title>\n<p>Fluocinolone acetonide 0.025% with neomycin 0.5% cream and ointment: potent.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89820\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/drugs/fluocinolone-acetonide-with-neomycin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be counselled on the application of fluocinolone acetonide with neomycin preparations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88046-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/fluocinolone-acetonide-with-neomycin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92366\" title=\"Cream\" namespace=\"/drugs/fluocinolone-acetonide-with-neomycin/cream\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92367\" title=\"Ointment\" namespace=\"/drugs/fluocinolone-acetonide-with-neomycin/ointment\">Ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP33491\" namespace=\"/drugs/fluocinolone-acetonide\" title=\"FLUOCINOLONE ACETONIDE\" count=\"1\" rel=\"link\">FLUOCINOLONE ACETONIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3489\" namespace=\"/drugs/neomycin-sulfate\" title=\"NEOMYCIN SULFATE\" count=\"1\" rel=\"link\">NEOMYCIN SULFATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92366\" namespace=\"/drugs/fluocinolone-acetonide-with-neomycin/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92367\" namespace=\"/drugs/fluocinolone-acetonide-with-neomycin/ointment\" title=\"Ointment\" count=\"1\" rel=\"link\">Ointment</xref>\n</links>\n</topic>",
+    "id": "PHP88046",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/fluocinolone-acetonide-with-neomycin",
+    "basename": "fluocinolone-acetonide-with-neomycin",
+    "title": "FLUOCINOLONE ACETONIDE WITH NEOMYCIN",
+    "constituents": [
+        {
+            "id": "PHP33491",
+            "label": "fluocinolone acetonide"
+        },
+        {
+            "id": "PHP3489",
+            "label": "NEOMYCIN SULFATE"
+        }
+    ],
+    "vtmid": "22636911000001100",
+    "drugClassification": [
+        "Corticosteroids",
+        "Aminoglycosides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Inflammatory skin disorders such as eczemas associated with infection",
+                        "html": "Inflammatory skin disorders such as eczemas associated with infection"
+                    },
+                    {
+                        "textContent": "Psoriasis associated with infection",
+                        "html": "Psoriasis associated with infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.",
+                        "html": "<p>Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.</p>",
+                        "ageGroup": "1&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.",
+                        "html": "<p>Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.</p>"
+                    }
+                ]
+            }
+        ],
+        "potency": [
+            {
+                "type": "potency",
+                "title": "Potency",
+                "textContent": "Fluocinolone acetonide 0.025% with neomycin 0.5% cream and ointment: potent.",
+                "html": "<p>Fluocinolone acetonide 0.025% with neomycin 0.5% cream and ointment: potent.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be counselled on the application of fluocinolone acetonide with neomycin preparations.",
+                "html": "<p>Patients or carers should be counselled on the application of fluocinolone acetonide with neomycin preparations.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92366",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92367",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP33491",
+                "label": "FLUOCINOLONE ACETONIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3489",
+                "label": "NEOMYCIN SULFATE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92366",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92367",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

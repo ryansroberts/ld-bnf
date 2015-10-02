@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP93555\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ergotamine-tartrate-with-caffeine-hydrate-and-cyclizine-hydrochloride/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">18</ph> - Do not take more than . . . in 24 hours. Also, do not take more than . . . in any one week </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Migril tablets <ph outputclass=\"manufacturer\">(Wockhardt UK Ltd)</ph>\n</title>\n<data name=\"ampid\">357711000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Caffeine hydrate 100&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cyclizine hydrochloride 50&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Ergotamine tartrate 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;51.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92544\" title=\"ERGOTAMINE TARTRATE WITH CAFFEINE HYDRATE AND CYCLIZINE HYDROCHLORIDE\" namespace=\"/drugs/ergotamine-tartrate-with-caffeine-hydrate-and-cyclizine-hydrochloride\">ERGOTAMINE TARTRATE WITH CAFFEINE HYDRATE AND CYCLIZINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP93555",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ergotamine-tartrate-with-caffeine-hydrate-and-cyclizine-hydrochloride/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "18",
+            "textContent": "Do not take more than . . . in 24 hours. Also, do not take more than . . . in any one week",
+            "html": "Label <ph outputclass=\"labelNumber\">18</ph> - Do not take more than . . . in 24 hours. Also, do not take more than . . . in any one week"
+        }
+    ],
+    "products": [
+        {
+            "title": "Migril tablets (Wockhardt UK Ltd) ",
+            "header": "Migril tablets <ph outputclass=\"manufacturer\">(Wockhardt UK Ltd)</ph>",
+            "manufacturer": "(Wockhardt UK Ltd)",
+            "name": "Migril tablets",
+            "ampid": "357711000001109",
+            "strengthOfActiveIngredient": "Ergotamine tartrate 2 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;51.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;51.00</ph>",
+                        "nhsIndicativePrice": "&#163;51.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP92544",
+        "label": "ERGOTAMINE TARTRATE WITH CAFFEINE HYDRATE AND CYCLIZINE HYDROCHLORIDE"
+    }
+}

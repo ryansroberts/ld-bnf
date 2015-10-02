@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP101337\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/rituximab/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>MabThera 1400mg/11.7ml solution for injection vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">24780211000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Rituximab 119.66&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1344.65</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5662\" title=\"RITUXIMAB\" namespace=\"/drugs/rituximab\">RITUXIMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP101337",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/rituximab/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "MabThera 1400mg/11.7ml solution for injection vials (Roche Products Ltd) ",
+            "header": "MabThera 1400mg/11.7ml solution for injection vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "MabThera 1400mg/11.7ml solution for injection vials",
+            "ampid": "24780211000001103",
+            "strengthOfActiveIngredient": "Rituximab 119.66 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1344.65 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1344.65</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;1344.65",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5662",
+        "label": "RITUXIMAB"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP74970\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/flecainide-acetate/modified-release-capsule\" basename=\"modified-release-capsule\" title=\"Modified-release capsule\">\n<title>Modified-release capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tambocor XL 200mg capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">11158611000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Flecainide acetate 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.77</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP917\" title=\"FLECAINIDE ACETATE\" namespace=\"/drugs/flecainide-acetate\">FLECAINIDE ACETATE</xref>\n</parents>\n</topic>",
+    "id": "PHP74970",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/flecainide-acetate/modified-release-capsule",
+    "basename": "modified-release-capsule",
+    "form": "Modified-release capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Tambocor XL 200mg capsules (Meda Pharmaceuticals Ltd) ",
+            "header": "Tambocor XL 200mg capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Tambocor XL 200mg capsules",
+            "ampid": "11158611000001107",
+            "strengthOfActiveIngredient": "Flecainide acetate 200 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.77 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.77</ph>",
+                        "nhsIndicativePrice": "&#163;14.77"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP917",
+        "label": "FLECAINIDE ACETATE"
+    }
+}

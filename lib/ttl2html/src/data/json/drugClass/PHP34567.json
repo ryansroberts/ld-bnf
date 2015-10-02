@@ -1,0 +1,440 @@
+{
+    "xml": "<topic id=\"PHP34567\" outputclass=\"drugClass\" rev=\"1.18\" type=\"drugClass\" namespace=\"/drug-classes/fibrinolytics\" basename=\"fibrinolytics\" title=\"FIBRINOLYTICS\">\n<title>FIBRINOLYTICS </title>\n<topic id=\"PHP73171\" outputclass=\"drugAction\" rev=\"1.7\" parent=\"/drug-classes/fibrinolytics\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Fibrinolytic drugs act as thrombolytics by activating plasminogen to form plasmin, which degrades fibrin and so breaks up thrombi.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73184\" outputclass=\"contraindications\" rev=\"1.15\" parent=\"/drug-classes/fibrinolytics\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Active pulmonary disease with cavitation</ph>; <ph outputclass=\"contraindication\">acute pancreatitis</ph>; <ph outputclass=\"contraindication\">aneurysm</ph>; <ph outputclass=\"contraindication\">aortic dissection</ph>; <ph outputclass=\"contraindication\">bacterial endocarditis</ph>; <ph outputclass=\"contraindication\">bleeding diatheses</ph>; <ph outputclass=\"contraindication\">coagulation defects</ph>; <ph outputclass=\"contraindication\">coma</ph>; <ph outputclass=\"contraindication\">heavy vaginal bleeding</ph>; <ph outputclass=\"contraindication\">history of cerebrovascular disease (especially recent events or with any residual disability)</ph>; <ph outputclass=\"contraindication\">oesophageal varices</ph>; <ph outputclass=\"contraindication\">pericarditis</ph>; <ph outputclass=\"contraindication\">recent haemorrhage</ph>; <ph outputclass=\"contraindication\">recent surgery (including dental extraction)</ph>; <ph outputclass=\"contraindication\">recent symptoms of possible peptic ulceration</ph>; <ph outputclass=\"contraindication\">recent trauma</ph>; <ph outputclass=\"contraindication\">severe hypertension</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73247\" outputclass=\"cautions\" rev=\"1.10\" parent=\"/drug-classes/fibrinolytics\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Conditions in which thrombolysis might give rise to embolic complications such as enlarged left atrium with atrial fibrillation (risk of dissolution of clot and subsequent embolisation)</ph>; <ph outputclass=\"caution\">elderly</ph>; <ph outputclass=\"caution\">external chest compression</ph>; <ph outputclass=\"caution\">hypertension</ph>; <ph outputclass=\"caution\">risk of bleeding (including that from venepuncture or invasive procedures)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73131\" outputclass=\"interactions\" rev=\"1.13\" parent=\"/drug-classes/fibrinolytics\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Caution with recent or concomitant use of drugs that increase the risk of bleeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73066\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drug-classes/fibrinolytics\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Allergic reactions</ph>; <ph outputclass=\"sideEffect\">anaphylaxis</ph>; <ph outputclass=\"sideEffect\">angina (when used in myocardial infarction)</ph>; <ph outputclass=\"sideEffect\">back pain</ph>; <ph outputclass=\"sideEffect\">bleeding</ph>; <ph outputclass=\"sideEffect\">bleeding (usually limited to the site of injection, but can occur from other sites)</ph>; <ph outputclass=\"sideEffect\">cerebral oedema (caused by reperfusion)</ph>; <ph outputclass=\"sideEffect\">convulsions</ph>; <ph outputclass=\"sideEffect\">fever</ph>; <ph outputclass=\"sideEffect\">flushing</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">intracerebral haemorrhage</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">pulmonary oedema (caused by reperfusion)</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">recurrent ischaemia (when used in myocardial infarction)</ph>; <ph outputclass=\"sideEffect\">reperfusion arrhythmias (when used in myocardial infarction)</ph>; <ph outputclass=\"sideEffect\">uveitis</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Bleeding</p>\n<p>Serious bleeding calls for discontinuation of the thrombolytic and may require administration of coagulation factors and antifibrinolytic drugs (e.g. tranexamic acid). Rarely further embolism may occur (either due to clots that break away from the original thrombus or to cholesterol crystal emboli).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Hypotension</p>\n<p>Hypotension can usually be controlled by elevating the patient's legs, or by reducing the rate of infusion or stopping it temporarily.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73120\" outputclass=\"pregnancy\" parent=\"/drug-classes/fibrinolytics\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Thrombolytic drugs can possibly lead to premature separation of the placenta in the first 18 weeks of pregnancy. There is also a risk of maternal haemorrhage throughout pregnancy and post-partum, and also a theoretical risk of fetal haemorrhage throughout pregnancy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73149\" outputclass=\"hepaticImpairment\" parent=\"/drug-classes/fibrinolytics\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe hepatic impairment as there is an increased risk of bleeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1576\" title=\"ALTEPLASE\" namespace=\"/drugs/alteplase\">ALTEPLASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1580\" title=\"RETEPLASE\" namespace=\"/drugs/reteplase\">RETEPLASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1584\" title=\"TENECTEPLASE\" namespace=\"/drugs/tenecteplase\">TENECTEPLASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1582\" title=\"STREPTOKINASE\" namespace=\"/drugs/streptokinase\">STREPTOKINASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1586\" title=\"UROKINASE\" namespace=\"/drugs/urokinase\">UROKINASE</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1576\" namespace=\"/drugs/alteplase\" title=\"ALTEPLASE\" count=\"1\" rel=\"link\">ALTEPLASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1580\" namespace=\"/drugs/reteplase\" title=\"RETEPLASE\" count=\"1\" rel=\"link\">RETEPLASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1584\" namespace=\"/drugs/tenecteplase\" title=\"TENECTEPLASE\" count=\"1\" rel=\"link\">TENECTEPLASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1582\" namespace=\"/drugs/streptokinase\" title=\"STREPTOKINASE\" count=\"1\" rel=\"link\">STREPTOKINASE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1586\" namespace=\"/drugs/urokinase\" title=\"UROKINASE\" count=\"1\" rel=\"link\">UROKINASE</xref>\n</links>\n</topic>",
+    "id": "PHP34567",
+    "outputclass": "drugClass",
+    "rev": "1.18",
+    "type": "drugClass",
+    "namespace": "/drug-classes/fibrinolytics",
+    "basename": "fibrinolytics",
+    "title": "FIBRINOLYTICS",
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Fibrinolytic drugs act as thrombolytics by activating plasminogen to form plasmin, which degrades fibrin and so breaks up thrombi.",
+                "html": "<p>Fibrinolytic drugs act as thrombolytics by activating plasminogen to form plasmin, which degrades fibrin and so breaks up thrombi.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Active pulmonary disease with cavitation",
+                "html": "Active pulmonary disease with cavitation"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "acute pancreatitis",
+                "html": "acute pancreatitis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "aneurysm",
+                "html": "aneurysm"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "aortic dissection",
+                "html": "aortic dissection"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "bacterial endocarditis",
+                "html": "bacterial endocarditis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "bleeding diatheses",
+                "html": "bleeding diatheses"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "coagulation defects",
+                "html": "coagulation defects"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "coma",
+                "html": "coma"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "heavy vaginal bleeding",
+                "html": "heavy vaginal bleeding"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "history of cerebrovascular disease (especially recent events or with any residual disability)",
+                "html": "history of cerebrovascular disease (especially recent events or with any residual disability)"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "oesophageal varices",
+                "html": "oesophageal varices"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "pericarditis",
+                "html": "pericarditis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "recent haemorrhage",
+                "html": "recent haemorrhage"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "recent surgery (including dental extraction)",
+                "html": "recent surgery (including dental extraction)"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "recent symptoms of possible peptic ulceration",
+                "html": "recent symptoms of possible peptic ulceration"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "recent trauma",
+                "html": "recent trauma"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "severe hypertension",
+                "html": "severe hypertension"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Conditions in which thrombolysis might give rise to embolic complications such as enlarged left atrium with atrial fibrillation (risk of dissolution of clot and subsequent embolisation)",
+                "html": "Conditions in which thrombolysis might give rise to embolic complications such as enlarged left atrium with atrial fibrillation (risk of dissolution of clot and subsequent embolisation)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly",
+                "html": "elderly"
+            },
+            {
+                "type": "cautions",
+                "textContent": "external chest compression",
+                "html": "external chest compression"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypertension",
+                "html": "hypertension"
+            },
+            {
+                "type": "cautions",
+                "textContent": "risk of bleeding (including that from venepuncture or invasive procedures)",
+                "html": "risk of bleeding (including that from venepuncture or invasive procedures)"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Caution with recent or concomitant use of drugs that increase the risk of bleeding.",
+                "html": "<p>Caution with recent or concomitant use of drugs that increase the risk of bleeding.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Allergic reactions",
+                        "html": "Allergic reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "anaphylaxis",
+                        "html": "anaphylaxis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "angina (when used in myocardial infarction)",
+                        "html": "angina (when used in myocardial infarction)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "back pain",
+                        "html": "back pain",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "bleeding",
+                        "html": "bleeding",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "bleeding (usually limited to the site of injection, but can occur from other sites)",
+                        "html": "bleeding (usually limited to the site of injection, but can occur from other sites)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "cerebral oedema (caused by reperfusion)",
+                        "html": "cerebral oedema (caused by reperfusion)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "convulsions",
+                        "html": "convulsions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "fever",
+                        "html": "fever",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "flushing",
+                        "html": "flushing",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "intracerebral haemorrhage",
+                        "html": "intracerebral haemorrhage",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pulmonary oedema (caused by reperfusion)",
+                        "html": "pulmonary oedema (caused by reperfusion)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "recurrent ischaemia (when used in myocardial infarction)",
+                        "html": "recurrent ischaemia (when used in myocardial infarction)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "reperfusion arrhythmias (when used in myocardial infarction)",
+                        "html": "reperfusion arrhythmias (when used in myocardial infarction)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "uveitis",
+                        "html": "uveitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Bleeding",
+                "textContent": "Serious bleeding calls for discontinuation of the thrombolytic and may require administration of coagulation factors and antifibrinolytic drugs (e.g. tranexamic acid). Rarely further embolism may occur (either due to clots that break away from the original thrombus or to cholesterol crystal emboli).",
+                "html": "<p>Serious bleeding calls for discontinuation of the thrombolytic and may require administration of coagulation factors and antifibrinolytic drugs (e.g. tranexamic acid). Rarely further embolism may occur (either due to clots that break away from the original thrombus or to cholesterol crystal emboli).</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Hypotension",
+                "textContent": "Hypotension can usually be controlled by elevating the patient's legs, or by reducing the rate of infusion or stopping it temporarily.",
+                "html": "<p>Hypotension can usually be controlled by elevating the patient's legs, or by reducing the rate of infusion or stopping it temporarily.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Thrombolytic drugs can possibly lead to premature separation of the placenta in the first 18 weeks of pregnancy. There is also a risk of maternal haemorrhage throughout pregnancy and post-partum, and also a theoretical risk of fetal haemorrhage throughout pregnancy.",
+                "html": "<p>Thrombolytic drugs can possibly lead to premature separation of the placenta in the first 18 weeks of pregnancy. There is also a risk of maternal haemorrhage throughout pregnancy and post-partum, and also a theoretical risk of fetal haemorrhage throughout pregnancy.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe hepatic impairment as there is an increased risk of bleeding.",
+                "html": "<p>Avoid in severe hepatic impairment as there is an increased risk of bleeding.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP1576",
+            "label": "ALTEPLASE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1580",
+            "label": "RETEPLASE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1584",
+            "label": "TENECTEPLASE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1582",
+            "label": "STREPTOKINASE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1586",
+            "label": "UROKINASE",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP1576",
+                "label": "ALTEPLASE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1580",
+                "label": "RETEPLASE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1584",
+                "label": "TENECTEPLASE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1582",
+                "label": "STREPTOKINASE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1586",
+                "label": "UROKINASE",
+                "type": "drug"
+            }
+        ]
+    }
+}

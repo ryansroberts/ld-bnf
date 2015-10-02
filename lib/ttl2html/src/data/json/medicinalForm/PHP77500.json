@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP77500\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/pegaptanib-sodium/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Macugen 300micrograms/0.09ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">10363511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Pegaptanib oligonucleotide (as Pegaptanib sodium) 3.33&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;514.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7167\" title=\"PEGAPTANIB SODIUM\" namespace=\"/drugs/pegaptanib-sodium\">PEGAPTANIB SODIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP77500",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/pegaptanib-sodium/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Macugen 300micrograms/0.09ml solution for injection pre-filled syringes (Pfizer Ltd) ",
+            "header": "Macugen 300micrograms/0.09ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Macugen 300micrograms/0.09ml solution for injection pre-filled syringes",
+            "ampid": "10363511000001107",
+            "strengthOfActiveIngredient": "Pegaptanib oligonucleotide (as Pegaptanib sodium) 3.33 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;514.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;514.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;514.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7167",
+        "label": "PEGAPTANIB SODIUM"
+    }
+}

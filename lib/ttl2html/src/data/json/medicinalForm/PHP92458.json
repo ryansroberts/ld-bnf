@@ -1,0 +1,41 @@
+{
+    "xml": "<topic id=\"PHP92458\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/diphtheria-with-haemophilus-influenzae-type-b-vaccine-pertussis-poliomyelitis-and-tetanus/suspension-for-injection\" basename=\"suspension-for-injection\" title=\"Suspension for injection\">\n<title>Suspension for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Neomycin, polymyxin b, streptomycin</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Pediacel vaccine suspension for injection 0.5ml vials <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>\n</title>\n<data name=\"ampid\">8088811000001100</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;32.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88117\" title=\"DIPHTHERIA WITH HAEMOPHILUS INFLUENZAE TYPE B VACCINE, PERTUSSIS, POLIOMYELITIS AND TETANUS\" namespace=\"/drugs/diphtheria-with-haemophilus-influenzae-type-b-vaccine-pertussis-poliomyelitis-and-tetanus\">DIPHTHERIA WITH HAEMOPHILUS INFLUENZAE TYPE B VACCINE, PERTUSSIS, POLIOMYELITIS AND TETANUS</xref>\n</parents>\n</topic>",
+    "id": "PHP92458",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/diphtheria-with-haemophilus-influenzae-type-b-vaccine-pertussis-poliomyelitis-and-tetanus/suspension-for-injection",
+    "basename": "suspension-for-injection",
+    "form": "Suspension for injection",
+    "excipients": [
+        "Neomycin",
+        "polymyxin b",
+        "streptomycin"
+    ],
+    "products": [
+        {
+            "title": "Pediacel vaccine suspension for injection 0.5ml vials (sanofi pasteur MSD Ltd) ",
+            "header": "Pediacel vaccine suspension for injection 0.5ml vials <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>",
+            "manufacturer": "(sanofi pasteur MSD Ltd)",
+            "name": "Pediacel vaccine suspension for injection 0.5ml vials",
+            "ampid": "8088811000001100",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;32.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;32.00</ph>",
+                        "nhsIndicativePrice": "&#163;32.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88117",
+        "label": "DIPHTHERIA WITH HAEMOPHILUS INFLUENZAE TYPE B VACCINE, PERTUSSIS, POLIOMYELITIS AND TETANUS"
+    }
+}

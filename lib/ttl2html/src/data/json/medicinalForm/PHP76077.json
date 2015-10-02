@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP76077\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/acrivastine/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Benadryl Allergy Relief 8mg capsules <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">2937311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acrivastine 8&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">24</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.95</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1907\" title=\"ACRIVASTINE\" namespace=\"/drugs/acrivastine\">ACRIVASTINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76077",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/acrivastine/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Benadryl Allergy Relief 8mg capsules (McNeil Products Ltd) ",
+            "header": "Benadryl Allergy Relief 8mg capsules <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Benadryl Allergy Relief 8mg capsules",
+            "ampid": "2937311000001104",
+            "strengthOfActiveIngredient": "Acrivastine 8 mg",
+            "packs": [
+                {
+                    "textContent": " 24 capsule P ",
+                    "html": "<ph outputclass=\"packSize\">24</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "24",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.95</ph>",
+                        "nhsIndicativePrice": "&#163;4.95"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1907",
+        "label": "ACRIVASTINE"
+    }
+}

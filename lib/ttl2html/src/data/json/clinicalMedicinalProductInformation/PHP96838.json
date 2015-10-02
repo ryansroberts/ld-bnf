@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP96838\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/fleetphospho-soda\" basename=\"fleetphospho-soda\" title=\"Fleetphospho-soda\">\n<title>Fleet<tm tmtype=\"reg\"/>phospho-soda</title>\n<topic id=\"PHP96984\" outputclass=\"indicationsAndDose\" rev=\"1.40\" parent=\"/clinical-medicinal-product-information/fleetphospho-soda\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bowel evacuation before colonic surgery</p>\n<p outputclass=\"therapeuticIndication\">Bowel evacuation before colonoscopy</p>\n<p outputclass=\"therapeuticIndication\">Bowel evacuation before radiological examination</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>45&#8239;mL twice daily, each dose must be diluted with half a glass (120&#8239;mL) of cold water, followed by one full glass (240&#8239;mL) of cold water, timing of doses is dependent on the time of the procedure, for morning procedure, the first dose should be taken at 7 a.m. and second at 7 p.m. on day before the procedure.; for afternoon procedure, first dose should be taken at 7 p.m. on day before and second dose at 7 a.m. on day of the procedure.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"pharmacokinetics\">\n<title>Pharmacokinetics</title>\n<p>Onset of action is within half to 6 hours of first dose.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP96992\" outputclass=\"directionsForAdministration\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/fleetphospho-soda\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Copious intake of water or other clear fluids (e.g. clear soup, strained fruit juice without pulp, black tea or coffee) recommended until midnight before morning procedure and until 8 a.m. before afternoon procedure. At least one glass (approx 240&#8239;mL) of water or other clear fluid should also be taken immediately before each dose.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP96994\" outputclass=\"patientAndCarerAdvice\" rev=\"1.17\" parent=\"/clinical-medicinal-product-information/fleetphospho-soda\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Intake of solid food should be stopped for at least 6 hours before starting treatment and until procedure completed.</p>\n<p>Patients or carers should be advised that adequate hydration should be maintained during treatment.</p>\n<p>Patients or carers should be given advice on administration of <i>Fleet Phospho-soda</i>\n<tm tmtype=\"reg\"/> oral solution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP96838",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/fleetphospho-soda",
+    "basename": "fleetphospho-soda",
+    "title": "Fleetphospho-soda",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Bowel evacuation before colonic surgery",
+                        "html": "Bowel evacuation before colonic surgery"
+                    },
+                    {
+                        "textContent": "Bowel evacuation before colonoscopy",
+                        "html": "Bowel evacuation before colonoscopy"
+                    },
+                    {
+                        "textContent": "Bowel evacuation before radiological examination",
+                        "html": "Bowel evacuation before radiological examination"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "45 mL twice daily, each dose must be diluted with half a glass (120 mL) of cold water, followed by one full glass (240 mL) of cold water, timing of doses is dependent on the time of the procedure, for morning procedure, the first dose should be taken at 7 a.m. and second at 7 p.m. on day before the procedure.; for afternoon procedure, first dose should be taken at 7 p.m. on day before and second dose at 7 a.m. on day of the procedure.",
+                        "html": "<p>45&#8239;mL twice daily, each dose must be diluted with half a glass (120&#8239;mL) of cold water, followed by one full glass (240&#8239;mL) of cold water, timing of doses is dependent on the time of the procedure, for morning procedure, the first dose should be taken at 7 a.m. and second at 7 p.m. on day before the procedure.; for afternoon procedure, first dose should be taken at 7 p.m. on day before and second dose at 7 a.m. on day of the procedure.</p>"
+                    }
+                ]
+            }
+        ],
+        "pharmacokinetics": [
+            {
+                "type": "pharmacokinetics",
+                "title": "Pharmacokinetics",
+                "textContent": "Onset of action is within half to 6 hours of first dose.",
+                "html": "<p>Onset of action is within half to 6 hours of first dose.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Copious intake of water or other clear fluids (e.g. clear soup, strained fruit juice without pulp, black tea or coffee) recommended until midnight before morning procedure and until 8 a.m. before afternoon procedure. At least one glass (approx 240 mL) of water or other clear fluid should also be taken immediately before each dose.",
+                "html": "<p>Copious intake of water or other clear fluids (e.g. clear soup, strained fruit juice without pulp, black tea or coffee) recommended until midnight before morning procedure and until 8 a.m. before afternoon procedure. At least one glass (approx 240&#8239;mL) of water or other clear fluid should also be taken immediately before each dose.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Intake of solid food should be stopped for at least 6 hours before starting treatment and until procedure completed.\n\nPatients or carers should be advised that adequate hydration should be maintained during treatment.\n\nPatients or carers should be given advice on administration of Fleet Phospho-soda oral solution.",
+                "html": "<p>Intake of solid food should be stopped for at least 6 hours before starting treatment and until procedure completed.</p><p>Patients or carers should be advised that adequate hydration should be maintained during treatment.</p><p>Patients or carers should be given advice on administration of <i>Fleet Phospho-soda</i>\n<tm tmtype=\"reg\"/> oral solution.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

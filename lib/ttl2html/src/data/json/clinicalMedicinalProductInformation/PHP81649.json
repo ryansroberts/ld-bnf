@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP81649\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/pancrex-v-tablets\" basename=\"pancrex-v-tablets\" title=\"Pancrex V tablets\">\n<title>Pancrex<tm tmtype=\"reg\"/> V tablets</title>\n<topic id=\"PHP82216\" outputclass=\"indicationsAndDose\" rev=\"1.17\" parent=\"/clinical-medicinal-product-information/pancrex-v-tablets\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pancreatic insufficiency</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;17 years</p>\n<p>5&#8211;15&#8239;tablets, to be taken before meals.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8211;15&#8239;tablets, to be taken before meals.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81649",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/pancrex-v-tablets",
+    "basename": "pancrex-v-tablets",
+    "title": "Pancrex V tablets",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Pancreatic insufficiency",
+                        "html": "Pancreatic insufficiency"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "5&#8211;15 tablets, to be taken before meals.",
+                        "html": "<p>5&#8211;15&#8239;tablets, to be taken before meals.</p>",
+                        "ageGroup": "2&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "5&#8211;15 tablets, to be taken before meals.",
+                        "html": "<p>5&#8211;15&#8239;tablets, to be taken before meals.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

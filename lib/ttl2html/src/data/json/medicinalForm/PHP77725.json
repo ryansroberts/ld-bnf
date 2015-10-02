@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP77725\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/proxymetacaine-hydrochloride/eye-drops\" basename=\"eye-drops\" title=\"Eye drops\">\n<title>Eye drops</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Minims proxymetacaine 0.5% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4087411000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Proxymetacaine hydrochloride 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.54</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7053\" title=\"PROXYMETACAINE HYDROCHLORIDE\" namespace=\"/drugs/proxymetacaine-hydrochloride\">PROXYMETACAINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77725",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/proxymetacaine-hydrochloride/eye-drops",
+    "basename": "eye-drops",
+    "form": "Eye drops",
+    "products": [
+        {
+            "title": "Minims proxymetacaine 0.5% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd) ",
+            "header": "Minims proxymetacaine 0.5% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>",
+            "manufacturer": "(Bausch & Lomb UK Ltd)",
+            "name": "Minims proxymetacaine 0.5% eye drops 0.5ml unit dose",
+            "ampid": "4087411000001100",
+            "strengthOfActiveIngredient": "Proxymetacaine hydrochloride 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 20 unit dose POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.54 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.54</ph>",
+                        "nhsIndicativePrice": "&#163;11.54"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7053",
+        "label": "PROXYMETACAINE HYDROCHLORIDE"
+    }
+}

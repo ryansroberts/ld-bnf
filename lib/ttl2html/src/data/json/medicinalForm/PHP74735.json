@@ -1,0 +1,45 @@
+{
+    "xml": "<topic id=\"PHP74735\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dinoprostone/pessary\" basename=\"pessary\" title=\"Pessary\">\n<title>Pessary</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP78987\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/prostin-e2-vaginal-tablets\">Prostin E2<tm tmtype=\"reg\"/> vaginal tablets</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Prostin E2 3mg vaginal tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4408511000001106</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Dinoprostone 3&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">pessary</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;106.23</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4769\" title=\"DINOPROSTONE\" namespace=\"/drugs/dinoprostone\">DINOPROSTONE</xref>\n</parents>\n</topic>",
+    "id": "PHP74735",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dinoprostone/pessary",
+    "basename": "pessary",
+    "form": "Pessary",
+    "productInformationGroups": [
+        {
+            "id": "PHP78987",
+            "label": "Prostin E2&reg;  vaginal tablets",
+            "html": "Prostin E2<tm tmtype=\"reg\"/> vaginal tablets"
+        }
+    ],
+    "products": [
+        {
+            "title": "Prostin E2 3mg vaginal tablets (Pfizer Ltd) ",
+            "header": "Prostin E2 3mg vaginal tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Prostin E2 3mg vaginal tablets",
+            "ampid": "4408511000001106",
+            "strengthOfActiveIngredient": "Dinoprostone 3 mg",
+            "packs": [
+                {
+                    "textContent": " 8 pessary POM ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">pessary</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "pessary",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;106.23 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;106.23</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;106.23",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4769",
+        "label": "DINOPROSTONE"
+    }
+}

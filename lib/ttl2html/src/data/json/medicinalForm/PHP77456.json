@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP77456\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/heparin-unfractionated/infusion\" basename=\"infusion\" title=\"Infusion\">\n<title>Infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Heparin sodium 1,000units/500ml infusion Viaflex bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">17037211000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Heparin sodium 2&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Heparin sodium 2,000units/1,000ml infusion Viaflex bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">17038511000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Heparin sodium 2&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Heparin sodium 5,000units/1litre infusion Viaflex bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">22466011000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Heparin sodium 5&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1447\" title=\"HEPARIN (UNFRACTIONATED)\" namespace=\"/drugs/heparin-unfractionated\">HEPARIN (UNFRACTIONATED)</xref>\n</parents>\n</topic>",
+    "id": "PHP77456",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/heparin-unfractionated/infusion",
+    "basename": "infusion",
+    "form": "Infusion",
+    "products": [
+        {
+            "title": "Heparin sodium 1,000units/500ml infusion Viaflex bags (Baxter Healthcare Ltd) ",
+            "header": "Heparin sodium 1,000units/500ml infusion Viaflex bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Heparin sodium 1,000units/500ml infusion Viaflex bags",
+            "ampid": "17037211000001104",
+            "strengthOfActiveIngredient": "Heparin sodium 2 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Heparin sodium 2,000units/1,000ml infusion Viaflex bags (Baxter Healthcare Ltd) ",
+            "header": "Heparin sodium 2,000units/1,000ml infusion Viaflex bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Heparin sodium 2,000units/1,000ml infusion Viaflex bags",
+            "ampid": "17038511000001102",
+            "strengthOfActiveIngredient": "Heparin sodium 2 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Heparin sodium 5,000units/1litre infusion Viaflex bags (Baxter Healthcare Ltd) ",
+            "header": "Heparin sodium 5,000units/1litre infusion Viaflex bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Heparin sodium 5,000units/1litre infusion Viaflex bags",
+            "ampid": "22466011000001105",
+            "strengthOfActiveIngredient": "Heparin sodium 5 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1447",
+        "label": "HEPARIN (UNFRACTIONATED)"
+    }
+}

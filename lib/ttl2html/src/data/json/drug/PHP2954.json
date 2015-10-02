@@ -1,0 +1,670 @@
+{
+    "xml": "<topic id=\"PHP2954\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/primidone\" basename=\"primidone\" title=\"PRIMIDONE\">\n<title>PRIMIDONE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1003\" namespace=\"/interactions/list-of-drug-interactions/antiepileptics/primidone\">Primidone</xref>\n</p>\n<data name=\"vtmid\">47120002</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_926692410\" title=\"Antiepileptics\">Antiepileptics</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP62335\" outputclass=\"indicationsAndDose\" rev=\"1.32\" parent=\"/drugs/primidone\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">All forms of epilepsy except typical absence seizures</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;1 year</p>\n<p>Initially 125&#8239;mg daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 125&#8211;250&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;4 years</p>\n<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 250&#8211;375&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;8 years</p>\n<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 375&#8211;500&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 9&#8211;17 years</p>\n<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, increased to 250&#8239;mg twice daily, then increased in steps of 250&#8239;mg every 3&#8239;days (max. per dose 750&#8239;mg twice daily), adjusted according to response.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, increased to 500&#8239;mg daily in 2 divided doses, then increased in steps of 250&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 0.75&#8211;1.5&#8239;g daily in 2 divided doses.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Essential tremor</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 50&#8239;mg daily, then adjusted according to response to up to 750&#8239;mg daily, dose to be increased over 2&#8211;3 weeks.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62476\" outputclass=\"cautions\" rev=\"1.14\" parent=\"/drugs/primidone\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Avoid in acute porphyria</ph>; <ph outputclass=\"caution\">children</ph>; <ph outputclass=\"caution\">debilitated</ph>; <ph outputclass=\"caution\">elderly</ph> (in adults); <ph outputclass=\"caution\">history of alcohol abuse</ph>; <ph outputclass=\"caution\">history of drug abuse</ph>; <ph outputclass=\"caution\">respiratory depression (avoid if severe)</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p>Consider vitamin D supplementation in patients who are immobilised for long periods or who have inadequate sun exposure or dietary intake of calcium.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62314\" outputclass=\"interactions\" rev=\"1.23\" parent=\"/drugs/primidone\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (primidone).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62242\" outputclass=\"sideEffects\" rev=\"1.13\" parent=\"/drugs/primidone\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agranulocytosis</ph>; <ph outputclass=\"sideEffect\">allergic skin reactions</ph>; <ph outputclass=\"sideEffect\">ataxia</ph>; <ph outputclass=\"sideEffect\">behavioural disturbances</ph>; <ph outputclass=\"sideEffect\">cholestasis</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">hallucinations</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">hyperactivity</ph> (in children); <ph outputclass=\"sideEffect\">hyperactivity particularly in the elderly</ph> (in adults); <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">impaired cognition</ph>; <ph outputclass=\"sideEffect\">impaired memory</ph>; <ph outputclass=\"sideEffect\">irritability</ph>; <ph outputclass=\"sideEffect\">lethargy</ph>; <ph outputclass=\"sideEffect\">megaloblastic anaemia (may be treated with folic acid)</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">nystagmus</ph>; <ph outputclass=\"sideEffect\">osteomalacia</ph>; <ph outputclass=\"sideEffect\">paradoxical excitement</ph> (in adults); <ph outputclass=\"sideEffect\">respiratory depression</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>; <ph outputclass=\"sideEffect\">visual disturbances</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dizziness</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arthralgia</ph>; <ph outputclass=\"sideEffect\">lupus erythematosus</ph>; <ph outputclass=\"sideEffect\">psychosis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Antiepileptic Hypersensitivity Syndrome</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">suicidal ideation</ph>; <ph outputclass=\"sideEffect\">toxic epidermal necrolysis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dupuytren&#8217;s contracture</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62500\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.18\" parent=\"/drugs/primidone\">\n<title>Allergy and cross-sensitivity</title>\n<body>\r\n\r\n<section outputclass=\"allergyAndCrossSensitivityCrossSensitivity\">\r\n<sectiondiv>\r\n<p>Antiepileptic hypersensitivity syndrome associated with primidone. See under <xref format=\"dita\" href=\"#PHP78230\" type=\"bookmark\" namespace=\"/treatment-summaries/epilepsy\">Epilepsy</xref> for more information.</p>\n</sectiondiv>\n</section>\r\n</body>\n</topic>\n<topic id=\"PHP62411\" outputclass=\"hepaticImpairment\" parent=\"/drugs/primidone\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>May precipitate coma.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62262\" outputclass=\"renalImpairment\" parent=\"/drugs/primidone\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62187\" outputclass=\"monitoringRequirements\" parent=\"/drugs/primidone\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"therapeuticDrugMonitoring\">\n<sectiondiv>\n<p>Monitor plasma concentrations of derived phenobarbital; plasma concentration for optimum response is 15&#8211;40&#8239;mg/litre (60&#8211;180 micromol/litre).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62211\" outputclass=\"treatmentCessation\" rev=\"1.8\" parent=\"/drugs/primidone\">\n<title>Treatment cessation</title>\n<body>\n<section>\n<sectiondiv>\n<p>Avoid abrupt withdrawal (dependence with prolonged use).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP57708\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.10\" parent=\"/drugs/primidone\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Switching between formulations</p>\n<p>Different formulations of oral preparations may vary in bioavailability. Patients being treated for epilepsy should be maintained on a specific manufacturer's product.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP2954-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/primidone\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral suspension, capsule</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76280\" title=\"Tablet\" namespace=\"/drugs/primidone/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78143\" namespace=\"/treatment-summaries/contraceptives-interactions\" title=\"Contraceptives, interactions\" count=\"1\" rel=\"backlink\">Contraceptives, interactions</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78531\" namespace=\"/treatment-summaries/parkinsons-disease-and-related-disorders\" title=\"Parkinson&#8217;s disease and related disorders\" count=\"1\" rel=\"backlink\">Parkinson&#8217;s disease and related disorders</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78558\" namespace=\"/treatment-summaries/emergency-treatment-of-poisoning\" title=\"Emergency treatment of poisoning\" count=\"1\" rel=\"backlink\">Emergency treatment of poisoning</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1003\" namespace=\"/interactions/list-of-drug-interactions/antiepileptics/primidone\" title=\"Primidone\" count=\"1\" rel=\"link\">Primidone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78230\" namespace=\"/treatment-summaries/epilepsy\" title=\"Epilepsy\" count=\"1\" rel=\"link\">Epilepsy</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76280\" namespace=\"/drugs/primidone/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP2954",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/primidone",
+    "basename": "primidone",
+    "title": "PRIMIDONE",
+    "interactants": [
+        {
+            "id": "bnf_int_1003",
+            "label": "Primidone"
+        }
+    ],
+    "vtmid": "47120002",
+    "drugClassification": [
+        "Antiepileptics"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "All forms of epilepsy except typical absence seizures",
+                        "html": "All forms of epilepsy except typical absence seizures"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 125 mg daily, dose to be taken at bedtime, then increased in steps of 125 mg every 3 days, adjusted according to response; maintenance 125&#8211;250 mg twice daily.",
+                        "html": "<p>Initially 125&#8239;mg daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 125&#8211;250&#8239;mg twice daily.</p>",
+                        "ageGroup": "1 month&#8211;1 year"
+                    },
+                    {
+                        "textContent": "Initially 125 mg once daily, dose to be taken at bedtime, then increased in steps of 125 mg every 3 days, adjusted according to response; maintenance 250&#8211;375 mg twice daily.",
+                        "html": "<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 250&#8211;375&#8239;mg twice daily.</p>",
+                        "ageGroup": "2&#8211;4 years"
+                    },
+                    {
+                        "textContent": "Initially 125 mg once daily, dose to be taken at bedtime, then increased in steps of 125 mg every 3 days, adjusted according to response; maintenance 375&#8211;500 mg twice daily.",
+                        "html": "<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 375&#8211;500&#8239;mg twice daily.</p>",
+                        "ageGroup": "5&#8211;8 years"
+                    },
+                    {
+                        "textContent": "Initially 125 mg once daily, dose to be taken at bedtime, then increased in steps of 125 mg every 3 days, increased to 250 mg twice daily, then increased in steps of 250 mg every 3 days (max. per dose 750 mg twice daily), adjusted according to response.",
+                        "html": "<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, increased to 250&#8239;mg twice daily, then increased in steps of 250&#8239;mg every 3&#8239;days (max. per dose 750&#8239;mg twice daily), adjusted according to response.</p>",
+                        "ageGroup": "9&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 125 mg once daily, dose to be taken at bedtime, then increased in steps of 125 mg every 3 days, increased to 500 mg daily in 2 divided doses, then increased in steps of 250 mg every 3 days, adjusted according to response; maintenance 0.75&#8211;1.5 g daily in 2 divided doses.",
+                        "html": "<p>Initially 125&#8239;mg once daily, dose to be taken at bedtime, then increased in steps of 125&#8239;mg every 3&#8239;days, increased to 500&#8239;mg daily in 2 divided doses, then increased in steps of 250&#8239;mg every 3&#8239;days, adjusted according to response; maintenance 0.75&#8211;1.5&#8239;g daily in 2 divided doses.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Essential tremor",
+                        "html": "Essential tremor"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 50 mg daily, then adjusted according to response to up to 750 mg daily, dose to be increased over 2&#8211;3 weeks.",
+                        "html": "<p>Initially 50&#8239;mg daily, then adjusted according to response to up to 750&#8239;mg daily, dose to be increased over 2&#8211;3 weeks.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid in acute porphyria",
+                "html": "Avoid in acute porphyria"
+            },
+            {
+                "type": "cautions",
+                "textContent": "children",
+                "html": "children"
+            },
+            {
+                "type": "cautions",
+                "textContent": "debilitated",
+                "html": "debilitated"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly in adults",
+                "html": "elderly in adults",
+                "specificity": {
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of alcohol abuse",
+                "html": "history of alcohol abuse"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of drug abuse",
+                "html": "history of drug abuse"
+            },
+            {
+                "type": "cautions",
+                "textContent": "respiratory depression (avoid if severe)",
+                "html": "respiratory depression (avoid if severe)"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "textContent": "Consider vitamin D supplementation in patients who are immobilised for long periods or who have inadequate sun exposure or dietary intake of calcium.",
+                "html": "<p>Consider vitamin D supplementation in patients who are immobilised for long periods or who have inadequate sun exposure or dietary intake of calcium.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (primidone).",
+                "html": "<p>Appendix 1 (primidone).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Agranulocytosis",
+                        "html": "Agranulocytosis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "allergic skin reactions",
+                        "html": "allergic skin reactions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "ataxia",
+                        "html": "ataxia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "behavioural disturbances",
+                        "html": "behavioural disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cholestasis",
+                        "html": "cholestasis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hallucinations",
+                        "html": "hallucinations",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperactivity in children",
+                        "html": "hyperactivity in children",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperactivity particularly in the elderly in adults",
+                        "html": "hyperactivity particularly in the elderly in adults",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "impaired cognition",
+                        "html": "impaired cognition",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "impaired memory",
+                        "html": "impaired memory",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "irritability",
+                        "html": "irritability",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "lethargy",
+                        "html": "lethargy",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "megaloblastic anaemia (may be treated with folic acid)",
+                        "html": "megaloblastic anaemia (may be treated with folic acid)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nystagmus",
+                        "html": "nystagmus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "osteomalacia",
+                        "html": "osteomalacia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paradoxical excitement in adults",
+                        "html": "paradoxical excitement in adults",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "respiratory depression",
+                        "html": "respiratory depression",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "visual disturbances",
+                        "html": "visual disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Dizziness",
+                        "html": "Dizziness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Arthralgia",
+                        "html": "Arthralgia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "lupus erythematosus",
+                        "html": "lupus erythematosus",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "psychosis",
+                        "html": "psychosis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Antiepileptic Hypersensitivity Syndrome",
+                        "html": "Antiepileptic Hypersensitivity Syndrome",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "suicidal ideation",
+                        "html": "suicidal ideation",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "toxic epidermal necrolysis",
+                        "html": "toxic epidermal necrolysis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Dupuytren&#8217;s contracture",
+                        "html": "Dupuytren&#8217;s contracture",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "allergyAndCrossSensitivity": {
+        "crossSensitivity": [
+            {
+                "type": "crossSensitivity",
+                "references": [
+                    {
+                        "id": "PHP78230",
+                        "label": "Epilepsy"
+                    }
+                ],
+                "textContent": "Antiepileptic hypersensitivity syndrome associated with primidone. See under Epilepsy for more information.",
+                "html": "<p>Antiepileptic hypersensitivity syndrome associated with primidone. See under <xref format=\"dita\" href=\"#PHP78230\" type=\"bookmark\" namespace=\"/treatment-summaries/epilepsy\">Epilepsy</xref> for more information.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose.",
+                "html": "<p>Reduce dose.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "May precipitate coma.",
+                "html": "<p>May precipitate coma.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution.",
+                "html": "<p>Use with caution.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "therapeuticDrugMonitoring": [
+            {
+                "type": "therapeuticDrugMonitoring",
+                "textContent": "Monitor plasma concentrations of derived phenobarbital; plasma concentration for optimum response is 15&#8211;40 mg/litre (60&#8211;180 micromol/litre).",
+                "html": "<p>Monitor plasma concentrations of derived phenobarbital; plasma concentration for optimum response is 15&#8211;40&#8239;mg/litre (60&#8211;180 micromol/litre).</p>"
+            }
+        ]
+    },
+    "treatmentCessation": {
+        "treatmentCessation": [
+            {
+                "type": "treatmentCessation",
+                "textContent": "Avoid abrupt withdrawal (dependence with prolonged use).",
+                "html": "<p>Avoid abrupt withdrawal (dependence with prolonged use).</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "title": "Switching between formulations",
+                "textContent": "Different formulations of oral preparations may vary in bioavailability. Patients being treated for epilepsy should be maintained on a specific manufacturer's product.",
+                "html": "<p>Different formulations of oral preparations may vary in bioavailability. Patients being treated for epilepsy should be maintained on a specific manufacturer's product.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral suspension",
+                "capsule"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76280",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78143",
+                "label": "Contraceptives, interactions",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78531",
+                "label": "Parkinson&#8217;s disease and related disorders",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78558",
+                "label": "Emergency treatment of poisoning",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1003",
+                "label": "Primidone",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78230",
+                "label": "Epilepsy",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76280",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

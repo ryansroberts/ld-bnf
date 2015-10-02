@@ -1,0 +1,130 @@
+{
+    "xml": "<topic id=\"PHP88109\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/liquid-paraffin-with-magnesium-hydroxide\" basename=\"liquid-paraffin-with-magnesium-hydroxide\" title=\"LIQUID PARAFFIN WITH MAGNESIUM HYDROXIDE\">\n<title>LIQUID PARAFFIN WITH MAGNESIUM HYDROXIDE </title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP608\" namespace=\"/drugs/liquid-paraffin\">liquid paraffin</xref>, <xref format=\"dita\" href=\"#PHP104230\" namespace=\"/drugs/magnesium-hydroxide\">magnesium hydroxide</xref>.</p>\n<data name=\"vtmid\">418557005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_518343898\" title=\"Paraffins\">Paraffins</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_979370732\" title=\"Magnesium\">Magnesium</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_876869900\" title=\"Antacids\">Antacids</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP91518\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/drugs/liquid-paraffin-with-magnesium-hydroxide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Constipation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8211;20&#8239;mL as required.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP91532\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/drugs/liquid-paraffin-with-magnesium-hydroxide\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Liquid paraffin and magnesium hydroxide preparations are on sale to the public.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP91529\" outputclass=\"lessSuitableForPrescribing\" rev=\"1.9\" parent=\"/drugs/liquid-paraffin-with-magnesium-hydroxide\">\n<title>Less suitable for prescribing</title>\n<body>\n<section>\n<sectiondiv>\n<p>Liquid paraffin with magnesium hydroxide is less suitable for prescribing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88109-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/liquid-paraffin-with-magnesium-hydroxide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92449\" title=\"Oral emulsion\" namespace=\"/drugs/liquid-paraffin-with-magnesium-hydroxide/oral-emulsion\">Oral emulsion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"3\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP608\" namespace=\"/drugs/liquid-paraffin\" title=\"LIQUID PARAFFIN\" count=\"1\" rel=\"link\">LIQUID PARAFFIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP104230\" namespace=\"/drugs/magnesium-hydroxide\" title=\"MAGNESIUM HYDROXIDE\" count=\"1\" rel=\"link\">MAGNESIUM HYDROXIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92449\" namespace=\"/drugs/liquid-paraffin-with-magnesium-hydroxide/oral-emulsion\" title=\"Oral emulsion\" count=\"1\" rel=\"link\">Oral emulsion</xref>\n</links>\n</topic>",
+    "id": "PHP88109",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/liquid-paraffin-with-magnesium-hydroxide",
+    "basename": "liquid-paraffin-with-magnesium-hydroxide",
+    "title": "LIQUID PARAFFIN WITH MAGNESIUM HYDROXIDE",
+    "constituents": [
+        {
+            "id": "PHP608",
+            "label": "liquid paraffin"
+        },
+        {
+            "id": "PHP104230",
+            "label": "magnesium hydroxide"
+        }
+    ],
+    "vtmid": "418557005",
+    "drugClassification": [
+        "Paraffins",
+        "Magnesium",
+        "Antacids"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Constipation",
+                        "html": "Constipation"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "5&#8211;20 mL as required.",
+                        "html": "<p>5&#8211;20&#8239;mL as required.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Liquid paraffin and magnesium hydroxide preparations are on sale to the public.",
+                "html": "<p>Liquid paraffin and magnesium hydroxide preparations are on sale to the public.</p>"
+            }
+        ]
+    },
+    "lessSuitableForPrescribing": {
+        "lessSuitableForPrescribing": [
+            {
+                "type": "lessSuitableForPrescribing",
+                "textContent": "Liquid paraffin with magnesium hydroxide is less suitable for prescribing.",
+                "html": "<p>Liquid paraffin with magnesium hydroxide is less suitable for prescribing.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92449",
+                "label": "Oral emulsion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP608",
+                "label": "LIQUID PARAFFIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP104230",
+                "label": "MAGNESIUM HYDROXIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92449",
+                "label": "Oral emulsion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

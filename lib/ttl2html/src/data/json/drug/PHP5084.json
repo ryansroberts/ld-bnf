@@ -1,0 +1,245 @@
+{
+    "xml": "<topic id=\"PHP5084\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/flavoxate-hydrochloride\" basename=\"flavoxate-hydrochloride\" title=\"FLAVOXATE HYDROCHLORIDE\">\n<title>FLAVOXATE HYDROCHLORIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_355\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/flavoxate\">Flavoxate</xref>\n</p>\n<data name=\"vtmid\">53641000</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_567112641\" title=\"Antimuscarinics\">Antimuscarinics</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" namespace=\"/drug-classes/antimuscarinics-systemic\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP38450\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/drugs/flavoxate-hydrochloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Urinary frequency</p>\n<p outputclass=\"therapeuticIndication\">Urinary incontinence</p>\n<p outputclass=\"therapeuticIndication\">Dysuria</p>\n<p outputclass=\"therapeuticIndication\">Urinary urgency</p>\n<p outputclass=\"therapeuticIndication\">Bladder spasm due to catheterisation, cytoscopy, or surgery</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;mg 3 times a day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38478\" outputclass=\"contraindications\" rev=\"1.13\" parent=\"/drugs/flavoxate-hydrochloride\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Gastro-intestinal haemorrhage</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38418\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drugs/flavoxate-hydrochloride\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Eosinophilia</ph>; <ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>; <ph outputclass=\"sideEffect\">vertigo</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38440\" outputclass=\"pregnancy\" parent=\"/drugs/flavoxate-hydrochloride\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless no safer alternative.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38492\" outputclass=\"breastFeeding\" parent=\"/drugs/flavoxate-hydrochloride\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59530\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/drugs/flavoxate-hydrochloride\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP5084-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/flavoxate-hydrochloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution, oral suspension</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77101\" title=\"Tablet\" namespace=\"/drugs/flavoxate-hydrochloride/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78573\" namespace=\"/treatment-summaries/urinary-frequency-enuresis-and-incontinence\" title=\"Urinary frequency, enuresis and incontinence\" count=\"1\" rel=\"backlink\">Urinary frequency, enuresis and incontinence</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_355\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/flavoxate\" title=\"Flavoxate\" count=\"1\" rel=\"link\">Flavoxate</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" namespace=\"/drug-classes/antimuscarinics-systemic\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" count=\"1\" rel=\"link\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77101\" namespace=\"/drugs/flavoxate-hydrochloride/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP5084",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/flavoxate-hydrochloride",
+    "basename": "flavoxate-hydrochloride",
+    "title": "FLAVOXATE HYDROCHLORIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_355",
+            "label": "Flavoxate"
+        }
+    ],
+    "vtmid": "53641000",
+    "drugClassification": [
+        "Antimuscarinics"
+    ],
+    "inheritsFromClass": [
+        "ANTIMUSCARINICS (SYSTEMIC)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Urinary frequency",
+                        "html": "Urinary frequency"
+                    },
+                    {
+                        "textContent": "Urinary incontinence",
+                        "html": "Urinary incontinence"
+                    },
+                    {
+                        "textContent": "Dysuria",
+                        "html": "Dysuria"
+                    },
+                    {
+                        "textContent": "Urinary urgency",
+                        "html": "Urinary urgency"
+                    },
+                    {
+                        "textContent": "Bladder spasm due to catheterisation, cytoscopy, or surgery",
+                        "html": "Bladder spasm due to catheterisation, cytoscopy, or surgery"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "200 mg 3 times a day.",
+                        "html": "<p>200&#8239;mg 3 times a day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Gastro-intestinal haemorrhage",
+                "html": "Gastro-intestinal haemorrhage"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Eosinophilia",
+                        "html": "Eosinophilia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vertigo",
+                        "html": "vertigo",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless no safer alternative.",
+                "html": "<p>Manufacturer advises avoid unless no safer alternative.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution&#8212;no information available.",
+                "html": "<p>Manufacturer advises caution&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.",
+                "html": "<p>The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution",
+                "oral suspension"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77101",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78573",
+                "label": "Urinary frequency, enuresis and incontinence",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_355",
+                "label": "Flavoxate",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34659",
+                "label": "ANTIMUSCARINICS (SYSTEMIC)",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77101",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

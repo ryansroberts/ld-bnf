@@ -1,0 +1,68 @@
+{
+    "xml": "<topic id=\"PHP76325\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/fludroxycortide/impregnated-dressing\" basename=\"impregnated-dressing\" title=\"Impregnated dressing\">\n<title>Impregnated dressing</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81687\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/haelan-tape\">Haelan<tm tmtype=\"reg\"/> tape</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Haelan 4micrograms/square cm tape 7.5cm <ph outputclass=\"manufacturer\">(Typharm Ltd)</ph>\n</title>\n<data name=\"ampid\">4736811000001108</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Fludroxycortide 4&#8239;microgram per 1&#8239;square cm</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">cm</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.27</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;9.27</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">cm</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.95</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;24.95</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7656\" title=\"FLUDROXYCORTIDE\" namespace=\"/drugs/fludroxycortide\">FLUDROXYCORTIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76325",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/fludroxycortide/impregnated-dressing",
+    "basename": "impregnated-dressing",
+    "form": "Impregnated dressing",
+    "productInformationGroups": [
+        {
+            "id": "PHP81687",
+            "label": "Haelan&reg;  tape",
+            "html": "Haelan<tm tmtype=\"reg\"/> tape"
+        }
+    ],
+    "products": [
+        {
+            "title": "Haelan 4micrograms/square cm tape 7.5cm (Typharm Ltd) ",
+            "header": "Haelan 4micrograms/square cm tape 7.5cm <ph outputclass=\"manufacturer\">(Typharm Ltd)</ph>",
+            "manufacturer": "(Typharm Ltd)",
+            "name": "Haelan 4micrograms/square cm tape 7.5cm",
+            "ampid": "4736811000001108",
+            "strengthOfActiveIngredient": "Fludroxycortide 4 microgram per 1 square cm",
+            "packs": [
+                {
+                    "textContent": " 50 cm POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">cm</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "cm",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.27 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.27</ph>",
+                        "nhsIndicativePrice": "&#163;9.27"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;9.27 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;9.27</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;9.27"
+                    }
+                },
+                {
+                    "textContent": " 200 cm POM ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">cm</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "cm",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.95</ph>",
+                        "nhsIndicativePrice": "&#163;24.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;24.95 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;24.95</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;24.95"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7656",
+        "label": "FLUDROXYCORTIDE"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP76954\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/saquinavir/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Invirase 500mg tablets <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">9326211000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Saquinavir (as Saquinavir mesilate) 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">120</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;251.26</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3816\" title=\"SAQUINAVIR\" namespace=\"/drugs/saquinavir\">SAQUINAVIR</xref>\n</parents>\n</topic>",
+    "id": "PHP76954",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/saquinavir/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Invirase 500mg tablets (Roche Products Ltd) ",
+            "header": "Invirase 500mg tablets <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "Invirase 500mg tablets",
+            "ampid": "9326211000001108",
+            "strengthOfActiveIngredient": "Saquinavir (as Saquinavir mesilate) 500 mg",
+            "packs": [
+                {
+                    "textContent": " 120 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">120</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "120",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;251.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;251.26</ph>",
+                        "nhsIndicativePrice": "&#163;251.26"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3816",
+        "label": "SAQUINAVIR"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "xml": "<topic id=\"PHP75782\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/adrenaline-with-articaine-hydrochloride/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sulfites</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Septanest 1 in 100,000 solution for injection cartridges <ph outputclass=\"manufacturer\">(Septodont Ltd)</ph>\n</title>\n<data name=\"ampid\">21142711000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Adrenaline (as Adrenaline acid tartrate) 10&#8239;microgram per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Articaine hydrochloride 40&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">cartridge</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8678\" title=\"ADRENALINE WITH ARTICAINE HYDROCHLORIDE\" namespace=\"/drugs/adrenaline-with-articaine-hydrochloride\">ADRENALINE WITH ARTICAINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75782",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/adrenaline-with-articaine-hydrochloride/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "excipients": [
+        "Sulfites"
+    ],
+    "products": [
+        {
+            "title": "Septanest 1 in 100,000 solution for injection cartridges (Septodont Ltd) ",
+            "header": "Septanest 1 in 100,000 solution for injection cartridges <ph outputclass=\"manufacturer\">(Septodont Ltd)</ph>",
+            "manufacturer": "(Septodont Ltd)",
+            "name": "Septanest 1 in 100,000 solution for injection cartridges",
+            "ampid": "21142711000001102",
+            "strengthOfActiveIngredient": "Articaine hydrochloride 40 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 50 cartridge POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">cartridge</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "cartridge",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8678",
+        "label": "ADRENALINE WITH ARTICAINE HYDROCHLORIDE"
+    }
+}

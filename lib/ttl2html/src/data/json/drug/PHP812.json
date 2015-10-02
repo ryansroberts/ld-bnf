@@ -1,0 +1,217 @@
+{
+    "xml": "<topic id=\"PHP812\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/bumetanide\" basename=\"bumetanide\" title=\"BUMETANIDE\">\n<title>BUMETANIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_540\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-loop/bumetanide\">Bumetanide</xref>\n</p>\n<data name=\"vtmid\">86647004</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_805691491\" title=\"Loop diuretics\">Loop diuretics</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34638\" title=\"LOOP DIURETICS\" namespace=\"/drug-classes/loop-diuretics\">LOOP DIURETICS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP45392\" outputclass=\"indicationsAndDose\" rev=\"1.61\" parent=\"/drugs/bumetanide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Oedema</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;mg, dose to be taken in the morning, then 1&#8239;mg after 6&#8211;8&#8239;hours if required.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>500&#8239;micrograms daily, this lower dose may be sufficient in elderly patients.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Oedema, severe cases</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 5&#8239;mg daily, increased in steps of 5&#8239;mg every 12&#8211;24&#8239;hours, adjusted according to response.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45369\" outputclass=\"sideEffects\" rev=\"1.6\" parent=\"/drugs/bumetanide\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Breast pain</ph>; <ph outputclass=\"sideEffect\">gynaecomastia</ph>; <ph outputclass=\"sideEffect\">musculoskeletal pain (associated with high doses in renal failure)</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45386\" outputclass=\"pregnancy\" parent=\"/drugs/bumetanide\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Bumetanide should not be used to treat gestational hypertension because of the maternal hypovolaemia associated with this condition.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45438\" outputclass=\"breastFeeding\" parent=\"/drugs/bumetanide\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>No information available.</p>\n<p>May inhibit lactation.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP812-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/bumetanide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75746\" title=\"Tablet\" namespace=\"/drugs/bumetanide/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75816\" title=\"Oral solution\" namespace=\"/drugs/bumetanide/oral-solution\">Oral solution</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85561\" namespace=\"/drugs/amiloride-with-bumetanide\" title=\"AMILORIDE WITH BUMETANIDE\" count=\"1\" rel=\"backlink\">AMILORIDE WITH BUMETANIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78178\" namespace=\"/treatment-summaries/diuretics\" title=\"Diuretics\" count=\"2\" rel=\"backlink\">Diuretics</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_540\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-loop/bumetanide\" title=\"Bumetanide\" count=\"1\" rel=\"link\">Bumetanide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34638\" namespace=\"/drug-classes/loop-diuretics\" title=\"LOOP DIURETICS\" count=\"1\" rel=\"link\">LOOP DIURETICS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75746\" namespace=\"/drugs/bumetanide/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75816\" namespace=\"/drugs/bumetanide/oral-solution\" title=\"Oral solution\" count=\"1\" rel=\"link\">Oral solution</xref>\n</links>\n</topic>",
+    "id": "PHP812",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/bumetanide",
+    "basename": "bumetanide",
+    "title": "BUMETANIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_540",
+            "label": "Bumetanide"
+        }
+    ],
+    "vtmid": "86647004",
+    "drugClassification": [
+        "Loop diuretics"
+    ],
+    "inheritsFromClass": [
+        "LOOP DIURETICS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Oedema",
+                        "html": "Oedema"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 mg, dose to be taken in the morning, then 1 mg after 6&#8211;8 hours if required.",
+                        "html": "<p>1&#8239;mg, dose to be taken in the morning, then 1&#8239;mg after 6&#8211;8&#8239;hours if required.</p>"
+                    },
+                    {
+                        "textContent": "500 micrograms daily, this lower dose may be sufficient in elderly patients.",
+                        "html": "<p>500&#8239;micrograms daily, this lower dose may be sufficient in elderly patients.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Oedema, severe cases",
+                        "html": "Oedema, severe cases"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 5 mg daily, increased in steps of 5 mg every 12&#8211;24 hours, adjusted according to response.",
+                        "html": "<p>Initially 5&#8239;mg daily, increased in steps of 5&#8239;mg every 12&#8211;24&#8239;hours, adjusted according to response.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Breast pain",
+                        "html": "Breast pain",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gynaecomastia",
+                        "html": "gynaecomastia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "musculoskeletal pain (associated with high doses in renal failure)",
+                        "html": "musculoskeletal pain (associated with high doses in renal failure)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Bumetanide should not be used to treat gestational hypertension because of the maternal hypovolaemia associated with this condition.",
+                "html": "<p>Bumetanide should not be used to treat gestational hypertension because of the maternal hypovolaemia associated with this condition.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "No information available.\n\nMay inhibit lactation.",
+                "html": "<p>No information available.</p><p>May inhibit lactation.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75746",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75816",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP85561",
+                "label": "AMILORIDE WITH BUMETANIDE",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78178",
+                "label": "Diuretics",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_540",
+                "label": "Bumetanide",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34638",
+                "label": "LOOP DIURETICS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75746",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75816",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

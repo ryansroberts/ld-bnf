@@ -1,0 +1,216 @@
+{
+    "xml": "<topic id=\"PHP85578\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/beclometasone-with-formoterol\" basename=\"beclometasone-with-formoterol\" title=\"BECLOMETASONE WITH FORMOTEROL\">\n<title>BECLOMETASONE WITH FORMOTEROL</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_495\" namespace=\"/interactions/list-of-drug-interactions/corticosteroids/beclometasone\">Beclometasone</xref>, <xref format=\"dita\" href=\"#bnf_int_722\" namespace=\"/interactions/list-of-drug-interactions/sympathomimetics-beta2/formoterol\">Formoterol</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP510\" namespace=\"/drugs/beclometasone-dipropionate\">beclometasone dipropionate</xref>, <xref format=\"dita\" href=\"#PHP1748\" namespace=\"/drugs/formoterol-fumarate\">formoterol fumarate</xref>.</p>\n<data name=\"vtmid\">12913411000001108</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832374428\" title=\"Corticosteroids\">Corticosteroids</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_531592176\" title=\"Beta2 agonists (long-acting)\">Beta2 agonists (long-acting)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP86455\" outputclass=\"indicationsAndDose\" rev=\"1.43\" parent=\"/drugs/beclometasone-with-formoterol\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Asthma maintenance therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of aerosol or by inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100/6&#8211;200/12&#8239;micrograms twice daily; maximum 400/24&#8239;micrograms per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Asthma, maintenance and reliever therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of aerosol</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Maintenance 100/6&#8239;micrograms twice daily; 100/6&#8239;micrograms as required for relief of symptoms; maximum 800/48&#8239;micrograms per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic obstructive pulmonary disease with forced expiratory volume in 1 second &lt; 50% of predicted</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of aerosol</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200/12&#8239;micrograms twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>For inhalation of aerosol, when switching patients from other beclometasone dipropionate and formoterol fumarate inhalers, <i>Fostair</i>\n<tm tmtype=\"reg\"/> 100/6 can be prescribed for patients already using beclometasone dipropionate 250&#8239;micrograms in another CFC-free inhaler; the dose of <i>Fostair</i>\n<tm tmtype=\"reg\"/> should be adjusted according to response.</p>\n<p>For inhalation of powder, when switching patients from other beclometasone dipropionate formulations with non-extrafine particle size distribution, the dose should be adjusted according to response.</p>\n<p>1 puff is equivalent to 100&#8239;micrograms beclometasone dipropionate and 6&#8239;micrograms formoterol fumarate.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP86458\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/drugs/beclometasone-with-formoterol\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"patientResources\">\n<sectiondiv>\n<p>With high doses, a steroid card should be supplied.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer beclometasone with formoterol aerosol inhalation.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85578-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/beclometasone-with-formoterol\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92226\" title=\"Pressurised inhalation\" namespace=\"/drugs/beclometasone-with-formoterol/pressurised-inhalation\">Pressurised inhalation</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101354\" title=\"Inhalation powder\" namespace=\"/drugs/beclometasone-with-formoterol/inhalation-powder\">Inhalation powder</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP107699\" namespace=\"/about/changes\" title=\"Changes\" count=\"1\" rel=\"backlink\">Changes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_495\" namespace=\"/interactions/list-of-drug-interactions/corticosteroids/beclometasone\" title=\"Beclometasone\" count=\"1\" rel=\"link\">Beclometasone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_722\" namespace=\"/interactions/list-of-drug-interactions/sympathomimetics-beta2/formoterol\" title=\"Formoterol\" count=\"1\" rel=\"link\">Formoterol</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP510\" namespace=\"/drugs/beclometasone-dipropionate\" title=\"BECLOMETASONE DIPROPIONATE\" count=\"1\" rel=\"link\">BECLOMETASONE DIPROPIONATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1748\" namespace=\"/drugs/formoterol-fumarate\" title=\"FORMOTEROL FUMARATE\" count=\"1\" rel=\"link\">FORMOTEROL FUMARATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92226\" namespace=\"/drugs/beclometasone-with-formoterol/pressurised-inhalation\" title=\"Pressurised inhalation\" count=\"1\" rel=\"link\">Pressurised inhalation</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101354\" namespace=\"/drugs/beclometasone-with-formoterol/inhalation-powder\" title=\"Inhalation powder\" count=\"1\" rel=\"link\">Inhalation powder</xref>\n</links>\n</topic>",
+    "id": "PHP85578",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/beclometasone-with-formoterol",
+    "basename": "beclometasone-with-formoterol",
+    "title": "BECLOMETASONE WITH FORMOTEROL",
+    "interactants": [
+        {
+            "id": "bnf_int_495",
+            "label": "Beclometasone"
+        },
+        {
+            "id": "bnf_int_722",
+            "label": "Formoterol"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP510",
+            "label": "beclometasone dipropionate"
+        },
+        {
+            "id": "PHP1748",
+            "label": "formoterol fumarate"
+        }
+    ],
+    "vtmid": "12913411000001108",
+    "drugClassification": [
+        "Corticosteroids",
+        "Beta2 agonists (long-acting)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Asthma maintenance therapy",
+                        "html": "Asthma maintenance therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of aerosol or inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of aerosol or by inhalation of powder",
+                    "html": "By inhalation of aerosol or by inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "100/6&#8211;200/12 micrograms twice daily; maximum 400/24 micrograms per day.",
+                        "html": "<p>100/6&#8211;200/12&#8239;micrograms twice daily; maximum 400/24&#8239;micrograms per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Asthma, maintenance and reliever therapy",
+                        "html": "Asthma, maintenance and reliever therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of aerosol"
+                    ],
+                    "textContent": "By inhalation of aerosol",
+                    "html": "By inhalation of aerosol"
+                },
+                "adult": [
+                    {
+                        "textContent": "Maintenance 100/6 micrograms twice daily; 100/6 micrograms as required for relief of symptoms; maximum 800/48 micrograms per day.",
+                        "html": "<p>Maintenance 100/6&#8239;micrograms twice daily; 100/6&#8239;micrograms as required for relief of symptoms; maximum 800/48&#8239;micrograms per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic obstructive pulmonary disease with forced expiratory volume in 1 second < 50% of predicted",
+                        "html": "Chronic obstructive pulmonary disease with forced expiratory volume in 1 second &lt; 50% of predicted"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of aerosol"
+                    ],
+                    "textContent": "By inhalation of aerosol",
+                    "html": "By inhalation of aerosol"
+                },
+                "adult": [
+                    {
+                        "textContent": "200/12 micrograms twice daily.",
+                        "html": "<p>200/12&#8239;micrograms twice daily.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "For inhalation of aerosol, when switching patients from other beclometasone dipropionate and formoterol fumarate inhalers, Fostair 100/6 can be prescribed for patients already using beclometasone dipropionate 250 micrograms in another CFC-free inhaler; the dose of Fostair should be adjusted according to response.\n\nFor inhalation of powder, when switching patients from other beclometasone dipropionate formulations with non-extrafine particle size distribution, the dose should be adjusted according to response.\n\n1 puff is equivalent to 100 micrograms beclometasone dipropionate and 6 micrograms formoterol fumarate.",
+                "html": "<p>For inhalation of aerosol, when switching patients from other beclometasone dipropionate and formoterol fumarate inhalers, <i>Fostair</i>\n<tm tmtype=\"reg\"/> 100/6 can be prescribed for patients already using beclometasone dipropionate 250&#8239;micrograms in another CFC-free inhaler; the dose of <i>Fostair</i>\n<tm tmtype=\"reg\"/> should be adjusted according to response.</p><p>For inhalation of powder, when switching patients from other beclometasone dipropionate formulations with non-extrafine particle size distribution, the dose should be adjusted according to response.</p><p>1 puff is equivalent to 100&#8239;micrograms beclometasone dipropionate and 6&#8239;micrograms formoterol fumarate.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "textContent": "With high doses, a steroid card should be supplied.",
+                "html": "<p>With high doses, a steroid card should be supplied.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer beclometasone with formoterol aerosol inhalation.",
+                "html": "<p>Patients or carers should be given advice on how to administer beclometasone with formoterol aerosol inhalation.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92226",
+                "label": "Pressurised inhalation",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP101354",
+                "label": "Inhalation powder",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "treatmentSummary": [
+            {
+                "id": "PHP107699",
+                "label": "Changes",
+                "type": "treatmentSummary"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_495",
+                "label": "Beclometasone",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_722",
+                "label": "Formoterol",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP510",
+                "label": "BECLOMETASONE DIPROPIONATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1748",
+                "label": "FORMOTEROL FUMARATE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92226",
+                "label": "Pressurised inhalation",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP101354",
+                "label": "Inhalation powder",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

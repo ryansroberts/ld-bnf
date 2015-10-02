@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP98903\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chloroquine-with-proguanil/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Paludrine/Avloclor tablets anti-malarial travel pack <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3933911000001100</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP98624\" title=\"CHLOROQUINE WITH PROGUANIL\" namespace=\"/drugs/chloroquine-with-proguanil\">CHLOROQUINE WITH PROGUANIL</xref>\n</parents>\n</topic>",
+    "id": "PHP98903",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chloroquine-with-proguanil/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "5",
+            "textContent": "Do not take indigestion remedies 2 hours before or after you take this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Paludrine/Avloclor tablets anti-malarial travel pack (Alliance Pharmaceuticals Ltd) ",
+            "header": "Paludrine/Avloclor tablets anti-malarial travel pack <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Alliance Pharmaceuticals Ltd)",
+            "name": "Paludrine/Avloclor tablets anti-malarial travel pack",
+            "ampid": "3933911000001100",
+            "packs": [
+                {
+                    "textContent": " 112 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.50</ph>",
+                        "nhsIndicativePrice": "&#163;13.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP98624",
+        "label": "CHLOROQUINE WITH PROGUANIL"
+    }
+}

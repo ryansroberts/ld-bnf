@@ -1,0 +1,94 @@
+{
+    "xml": "<topic id=\"PHP105323\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/emollient-creams-and-ointments-paraffin-containing/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzyl alcohol, cetostearyl alcohol (including cetyl and stearyl alcohol), hydroxybenzoates (parabens), isopropyl palmitate</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>E45 lotion <ph outputclass=\"manufacturer\">(Forum Health Products Ltd)</ph>\n</title>\n<data name=\"ampid\">167211000001103</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.40</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>QV 5% skin lotion <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">11781711000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">White soft paraffin 50&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.14</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.24</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105070\" title=\"EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING\" namespace=\"/drugs/emollient-creams-and-ointments-paraffin-containing\">EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING</xref>\n</parents>\n</topic>",
+    "id": "PHP105323",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/emollient-creams-and-ointments-paraffin-containing/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "excipients": [
+        "Benzyl alcohol",
+        "cetostearyl alcohol (including cetyl and stearyl alcohol)",
+        "hydroxybenzoates (parabens)",
+        "isopropyl palmitate"
+    ],
+    "products": [
+        {
+            "title": "E45 lotion (Forum Health Products Ltd) ",
+            "header": "E45 lotion <ph outputclass=\"manufacturer\">(Forum Health Products Ltd)</ph>",
+            "manufacturer": "(Forum Health Products Ltd)",
+            "name": "E45 lotion",
+            "ampid": "167211000001103",
+            "packs": [
+                {
+                    "textContent": " 200 ml ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.40</ph>",
+                        "nhsIndicativePrice": "&#163;2.40"
+                    }
+                },
+                {
+                    "textContent": " 500 ml ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.50</ph>",
+                        "nhsIndicativePrice": "&#163;4.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "QV 5% skin lotion (Crawford Healthcare Ltd) ",
+            "header": "QV 5% skin lotion <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>",
+            "manufacturer": "(Crawford Healthcare Ltd)",
+            "name": "QV 5% skin lotion",
+            "ampid": "11781711000001109",
+            "strengthOfActiveIngredient": "White soft paraffin 50 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 250 ml ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.14 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.14</ph>",
+                        "nhsIndicativePrice": "&#163;3.14"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                },
+                {
+                    "textContent": " 500 ml ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.24 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.24</ph>",
+                        "nhsIndicativePrice": "&#163;5.24"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP105070",
+        "label": "EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING"
+    }
+}

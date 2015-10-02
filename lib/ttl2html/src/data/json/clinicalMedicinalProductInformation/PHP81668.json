@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP81668\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/depo-medrone\" basename=\"depo-medrone\" title=\"Depo-Medrone\">\n<title>Depo-Medrone<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP83844\" outputclass=\"indicationsAndDose\" rev=\"1.26\" parent=\"/clinical-medicinal-product-information/depo-medrone\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Local inflammation of joints and soft tissues</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intra-articular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>4&#8211;80&#8239;mg, select dose according to size; where appropriate dose may be repeated at intervals of 7&#8211;35 days, for details consult product literature.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Suppression of inflammatory and allergic disorders</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>40&#8211;120&#8239;mg, then 40&#8211;120&#8239;mg after 2&#8211;3&#8239;weeks if required, to be injected into the gluteal muscle.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81668",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/depo-medrone",
+    "basename": "depo-medrone",
+    "title": "Depo-Medrone",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Local inflammation of joints and soft tissues",
+                        "html": "Local inflammation of joints and soft tissues"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intra-articular injection"
+                    ],
+                    "textContent": "By intra-articular injection",
+                    "html": "By intra-articular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "4&#8211;80 mg, select dose according to size; where appropriate dose may be repeated at intervals of 7&#8211;35 days, for details consult product literature.",
+                        "html": "<p>4&#8211;80&#8239;mg, select dose according to size; where appropriate dose may be repeated at intervals of 7&#8211;35 days, for details consult product literature.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Suppression of inflammatory and allergic disorders",
+                        "html": "Suppression of inflammatory and allergic disorders"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "40&#8211;120 mg, then 40&#8211;120 mg after 2&#8211;3 weeks if required, to be injected into the gluteal muscle.",
+                        "html": "<p>40&#8211;120&#8239;mg, then 40&#8211;120&#8239;mg after 2&#8211;3&#8239;weeks if required, to be injected into the gluteal muscle.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "xml": "<topic id=\"PHP78971\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/zoladex\" basename=\"zoladex\" title=\"Zoladex\">\n<title>Zoladex<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP79573\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/clinical-medicinal-product-information/zoladex\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Locally advanced prostate cancer as an alternative to surgical castration</p>\n<p outputclass=\"therapeuticIndication\">Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer</p>\n<p outputclass=\"therapeuticIndication\">Neoadjuvant treatment prior to radiotherapy in patients with high-risk localised or locally advanced prostate cancer</p>\n<p outputclass=\"therapeuticIndication\">Metastatic prostate cancer</p>\n<p outputclass=\"therapeuticIndication\">Advanced breast cancer</p>\n<p outputclass=\"therapeuticIndication\">Oestrogen-receptor-positive early breast cancer</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.6&#8239;mg every 28&#8239;days, to be administered into the anterior abdominal wall.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Endometriosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.6&#8239;mg every 28&#8239;days maximum duration of treatment 6 months (do not repeat), to be administered into the anterior abdominal wall.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Endometrial thinning before intra-uterine surgery</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.6&#8239;mg, dose may be repeated after 28 days if uterus is large or to allow flexible surgical timing, to be administered into the anterior abdominal wall.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Before surgery in women who have anaemia due to uterine fibroids</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.6&#8239;mg every 28&#8239;days maximum duration of treatment 3 months, to be given with supplementary iron, to be administered into the anterior abdominal wall.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pituitary desensitisation before induction of ovulation by gonadotrophins for in vitro fertilisation (after exclusion of pregnancy) (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.6&#8239;mg, dose given to achieve pituitary down-regulation (usually 1&#8211;3 weeks) then gonadotrophin is administered (stopping gonadotrophin on administration of chorionic gonadotrophin at appropriate stage of follicular development), to be administered into the anterior abdominal wall.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78971",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/zoladex",
+    "basename": "zoladex",
+    "title": "Zoladex",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Locally advanced prostate cancer as an alternative to surgical castration",
+                        "html": "Locally advanced prostate cancer as an alternative to surgical castration"
+                    },
+                    {
+                        "textContent": "Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer",
+                        "html": "Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer"
+                    },
+                    {
+                        "textContent": "Neoadjuvant treatment prior to radiotherapy in patients with high-risk localised or locally advanced prostate cancer",
+                        "html": "Neoadjuvant treatment prior to radiotherapy in patients with high-risk localised or locally advanced prostate cancer"
+                    },
+                    {
+                        "textContent": "Metastatic prostate cancer",
+                        "html": "Metastatic prostate cancer"
+                    },
+                    {
+                        "textContent": "Advanced breast cancer",
+                        "html": "Advanced breast cancer"
+                    },
+                    {
+                        "textContent": "Oestrogen-receptor-positive early breast cancer",
+                        "html": "Oestrogen-receptor-positive early breast cancer"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.6 mg every 28 days, to be administered into the anterior abdominal wall.",
+                        "html": "<p>3.6&#8239;mg every 28&#8239;days, to be administered into the anterior abdominal wall.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Endometriosis",
+                        "html": "Endometriosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.6 mg every 28 days maximum duration of treatment 6 months (do not repeat), to be administered into the anterior abdominal wall.",
+                        "html": "<p>3.6&#8239;mg every 28&#8239;days maximum duration of treatment 6 months (do not repeat), to be administered into the anterior abdominal wall.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Endometrial thinning before intra-uterine surgery",
+                        "html": "Endometrial thinning before intra-uterine surgery"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.6 mg, dose may be repeated after 28 days if uterus is large or to allow flexible surgical timing, to be administered into the anterior abdominal wall.",
+                        "html": "<p>3.6&#8239;mg, dose may be repeated after 28 days if uterus is large or to allow flexible surgical timing, to be administered into the anterior abdominal wall.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Before surgery in women who have anaemia due to uterine fibroids",
+                        "html": "Before surgery in women who have anaemia due to uterine fibroids"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.6 mg every 28 days maximum duration of treatment 3 months, to be given with supplementary iron, to be administered into the anterior abdominal wall.",
+                        "html": "<p>3.6&#8239;mg every 28&#8239;days maximum duration of treatment 3 months, to be given with supplementary iron, to be administered into the anterior abdominal wall.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Pituitary desensitisation before induction of ovulation by gonadotrophins for in vitro fertilisation (after exclusion of pregnancy) (under expert supervision)",
+                        "html": "Pituitary desensitisation before induction of ovulation by gonadotrophins for in vitro fertilisation (after exclusion of pregnancy) (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.6 mg, dose given to achieve pituitary down-regulation (usually 1&#8211;3 weeks) then gonadotrophin is administered (stopping gonadotrophin on administration of chorionic gonadotrophin at appropriate stage of follicular development), to be administered into the anterior abdominal wall.",
+                        "html": "<p>3.6&#8239;mg, dose given to achieve pituitary down-regulation (usually 1&#8211;3 weeks) then gonadotrophin is administered (stopping gonadotrophin on administration of chorionic gonadotrophin at appropriate stage of follicular development), to be administered into the anterior abdominal wall.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

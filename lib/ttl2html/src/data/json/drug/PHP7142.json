@@ -1,0 +1,120 @@
+{
+    "xml": "<topic id=\"PHP7142\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/fluorescein-sodium\" basename=\"fluorescein-sodium\" title=\"FLUORESCEIN SODIUM\">\n<title>FLUORESCEIN SODIUM</title>\n<body>\n<data name=\"vtmid\">350086004</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_759221898\" title=\"Diagnostic dyes\">Diagnostic dyes</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP50872\" outputclass=\"indicationsAndDose\" rev=\"1.25\" parent=\"/drugs/fluorescein-sodium\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Detection of lesions and foreign bodies</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye using eye drop</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Use sufficient amount to stain damaged areas.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61278\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.10\" parent=\"/drugs/fluorescein-sodium\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Although multi-dose fluorescein eye drops commonly contain preservatives, preservative-free unit dose vials may be available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP7142-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/fluorescein-sodium\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: solution for injection</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77640\" title=\"Solution for injection\" namespace=\"/drugs/fluorescein-sodium/solution-for-injection\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77632\" title=\"Eye drops\" namespace=\"/drugs/fluorescein-sodium/eye-drops\">Eye drops</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78517\" namespace=\"/treatment-summaries/eye-surgical-and-peri-operative-drug-use\" title=\"Eye, surgical and peri-operative drug use\" count=\"1\" rel=\"backlink\">Eye, surgical and peri-operative drug use</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77640\" namespace=\"/drugs/fluorescein-sodium/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77632\" namespace=\"/drugs/fluorescein-sodium/eye-drops\" title=\"Eye drops\" count=\"1\" rel=\"link\">Eye drops</xref>\n</links>\n</topic>",
+    "id": "PHP7142",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/fluorescein-sodium",
+    "basename": "fluorescein-sodium",
+    "title": "FLUORESCEIN SODIUM",
+    "vtmid": "350086004",
+    "drugClassification": [
+        "Diagnostic dyes"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Detection of lesions and foreign bodies",
+                        "html": "Detection of lesions and foreign bodies"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye using eye drop"
+                    ],
+                    "textContent": "To the eye using eye drop",
+                    "html": "To the eye using eye drop"
+                },
+                "adult": [
+                    {
+                        "textContent": "Use sufficient amount to stain damaged areas.",
+                        "html": "<p>Use sufficient amount to stain damaged areas.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Although multi-dose fluorescein eye drops commonly contain preservatives, preservative-free unit dose vials may be available.",
+                "html": "<p>Although multi-dose fluorescein eye drops commonly contain preservatives, preservative-free unit dose vials may be available.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "solution for injection"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77640",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77632",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78517",
+                "label": "Eye, surgical and peri-operative drug use",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77640",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77632",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

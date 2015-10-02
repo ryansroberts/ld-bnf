@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP74656\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/typhoid-vaccine/gastro-resistant-capsule\" basename=\"gastro-resistant-capsule\" title=\"Gastro-resistant capsule\">\n<title>Gastro-resistant capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Vivotif vaccine gastro-resistant capsules <ph outputclass=\"manufacturer\">(PaxVax Ltd)</ph>\n</title>\n<data name=\"ampid\">2998811000001100</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">3</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.77</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8411\" title=\"TYPHOID VACCINE\" namespace=\"/drugs/typhoid-vaccine\">TYPHOID VACCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP74656",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/typhoid-vaccine/gastro-resistant-capsule",
+    "basename": "gastro-resistant-capsule",
+    "form": "Gastro-resistant capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Vivotif vaccine gastro-resistant capsules (PaxVax Ltd) ",
+            "header": "Vivotif vaccine gastro-resistant capsules <ph outputclass=\"manufacturer\">(PaxVax Ltd)</ph>",
+            "manufacturer": "(PaxVax Ltd)",
+            "name": "Vivotif vaccine gastro-resistant capsules",
+            "ampid": "2998811000001100",
+            "packs": [
+                {
+                    "textContent": " 3 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">3</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "3",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.77 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.77</ph>",
+                        "nhsIndicativePrice": "&#163;14.77"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8411",
+        "label": "TYPHOID VACCINE"
+    }
+}

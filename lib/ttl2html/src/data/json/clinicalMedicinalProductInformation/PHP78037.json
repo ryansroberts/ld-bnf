@@ -1,0 +1,102 @@
+{
+    "xml": "<topic id=\"PHP78037\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/tildiem-retard\" basename=\"tildiem-retard\" title=\"Tildiem Retard\">\n<title>Tildiem Retard<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP60112\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/clinical-medicinal-product-information/tildiem-retard\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mild to moderate hypertension</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 90&#8211;120&#8239;mg twice daily; increased if necessary to 360&#8239;mg daily in divided doses.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 120&#8239;mg daily; increased if necessary to 120&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Angina</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 90&#8211;120&#8239;mg twice daily; increased if necessary to 480&#8239;mg daily in divided doses.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Up to 120&#8239;mg twice daily, dose form not appropriate for initial dose titration.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60109\" outputclass=\"hepaticImpairment\" parent=\"/clinical-medicinal-product-information/tildiem-retard\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Dose for mild to moderate hypertension&#8212;initially 120&#8239;mg once a day; increased if necessary to 120&#8239;mg twice a day.</p>\n<p>For treatment of angina, dose form not appropriate for initial titration; up to 120&#8239;mg twice a day may be required.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60104\" outputclass=\"renalImpairment\" parent=\"/clinical-medicinal-product-information/tildiem-retard\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Dose for mild to moderate hypertension&#8212;initially 120&#8239;mg once a day; increased if necessary to 120&#8239;mg twice a day.</p>\n<p>For treatment of angina, dose form not appropriate for initial titration; up to 120&#8239;mg twice a day may be required.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60002\" outputclass=\"patientAndCarerAdvice\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/tildiem-retard\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Tablet membrane may pass through gastro-intestinal tract unchanged, but being porous has no effect on efficacy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78037",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/tildiem-retard",
+    "basename": "tildiem-retard",
+    "title": "Tildiem Retard",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mild to moderate hypertension",
+                        "html": "Mild to moderate hypertension"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 90&#8211;120 mg twice daily; increased if necessary to 360 mg daily in divided doses.",
+                        "html": "<p>Initially 90&#8211;120&#8239;mg twice daily; increased if necessary to 360&#8239;mg daily in divided doses.</p>"
+                    },
+                    {
+                        "textContent": "Initially 120 mg daily; increased if necessary to 120 mg twice daily.",
+                        "html": "<p>Initially 120&#8239;mg daily; increased if necessary to 120&#8239;mg twice daily.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Angina",
+                        "html": "Angina"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 90&#8211;120 mg twice daily; increased if necessary to 480 mg daily in divided doses.",
+                        "html": "<p>Initially 90&#8211;120&#8239;mg twice daily; increased if necessary to 480&#8239;mg daily in divided doses.</p>"
+                    },
+                    {
+                        "textContent": "Up to 120 mg twice daily, dose form not appropriate for initial dose titration.",
+                        "html": "<p>Up to 120&#8239;mg twice daily, dose form not appropriate for initial dose titration.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Dose for mild to moderate hypertension&#8212;initially 120 mg once a day; increased if necessary to 120 mg twice a day.\n\nFor treatment of angina, dose form not appropriate for initial titration; up to 120 mg twice a day may be required.",
+                "html": "<p>Dose for mild to moderate hypertension&#8212;initially 120&#8239;mg once a day; increased if necessary to 120&#8239;mg twice a day.</p><p>For treatment of angina, dose form not appropriate for initial titration; up to 120&#8239;mg twice a day may be required.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Dose for mild to moderate hypertension&#8212;initially 120 mg once a day; increased if necessary to 120 mg twice a day.\n\nFor treatment of angina, dose form not appropriate for initial titration; up to 120 mg twice a day may be required.",
+                "html": "<p>Dose for mild to moderate hypertension&#8212;initially 120&#8239;mg once a day; increased if necessary to 120&#8239;mg twice a day.</p><p>For treatment of angina, dose form not appropriate for initial titration; up to 120&#8239;mg twice a day may be required.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Tablet membrane may pass through gastro-intestinal tract unchanged, but being porous has no effect on efficacy.",
+                "html": "<p>Tablet membrane may pass through gastro-intestinal tract unchanged, but being porous has no effect on efficacy.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

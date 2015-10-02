@@ -1,0 +1,85 @@
+{
+    "xml": "<topic id=\"PHP105325\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/emollient-creams-and-ointments-paraffin-containing/spray\" basename=\"spray\" title=\"Spray\">\n<title>Spray</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Emollin aerosol spray <ph outputclass=\"manufacturer\">(C D Medical Ltd)</ph>\n</title>\n<data name=\"ampid\">11838711000001105</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">240</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.39</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dermamist 10% spray <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3699611000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">White soft paraffin 100&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.97</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105070\" title=\"EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING\" namespace=\"/drugs/emollient-creams-and-ointments-paraffin-containing\">EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING</xref>\n</parents>\n</topic>",
+    "id": "PHP105325",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/emollient-creams-and-ointments-paraffin-containing/spray",
+    "basename": "spray",
+    "form": "Spray",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "15",
+            "textContent": "Caution: flammable. Keep your body away from fire or flames after you have put on the medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Emollin aerosol spray (C D Medical Ltd) ",
+            "header": "Emollin aerosol spray <ph outputclass=\"manufacturer\">(C D Medical Ltd)</ph>",
+            "manufacturer": "(C D Medical Ltd)",
+            "name": "Emollin aerosol spray",
+            "ampid": "11838711000001105",
+            "packs": [
+                {
+                    "textContent": " 150 ml ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.00</ph>",
+                        "nhsIndicativePrice": "&#163;4.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                },
+                {
+                    "textContent": " 240 ml ",
+                    "html": "<ph outputclass=\"packSize\">240</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "240",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.39 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.39</ph>",
+                        "nhsIndicativePrice": "&#163;6.39"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Dermamist 10% spray (Alliance Pharmaceuticals Ltd) ",
+            "header": "Dermamist 10% spray <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Alliance Pharmaceuticals Ltd)",
+            "name": "Dermamist 10% spray",
+            "ampid": "3699611000001103",
+            "strengthOfActiveIngredient": "White soft paraffin 100 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 250 ml P ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.97</ph>",
+                        "nhsIndicativePrice": "&#163;5.97"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP105070",
+        "label": "EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING"
+    }
+}

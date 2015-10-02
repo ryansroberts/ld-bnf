@@ -1,0 +1,82 @@
+{
+    "xml": "<topic id=\"PHP92459\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/diphtheria-with-pertussis-poliomyelitis-vaccine-and-tetanus/suspension-for-injection\" basename=\"suspension-for-injection\" title=\"Suspension for injection\">\n<title>Suspension for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Neomycin, polymyxin b, streptomycin</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Boostrix-IPV suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">26267211000001100</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Infanrix-IPV vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">8426011000001105</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.56</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Repevax vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>\n</title>\n<data name=\"ampid\">8882411000001103</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;20.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88118\" title=\"DIPHTHERIA WITH PERTUSSIS, POLIOMYELITIS VACCINE AND TETANUS\" namespace=\"/drugs/diphtheria-with-pertussis-poliomyelitis-vaccine-and-tetanus\">DIPHTHERIA WITH PERTUSSIS, POLIOMYELITIS VACCINE AND TETANUS</xref>\n</parents>\n</topic>",
+    "id": "PHP92459",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/diphtheria-with-pertussis-poliomyelitis-vaccine-and-tetanus/suspension-for-injection",
+    "basename": "suspension-for-injection",
+    "form": "Suspension for injection",
+    "excipients": [
+        "Neomycin",
+        "polymyxin b",
+        "streptomycin"
+    ],
+    "products": [
+        {
+            "title": "Boostrix-IPV suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd) ",
+            "header": "Boostrix-IPV suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Boostrix-IPV suspension for injection 0.5ml pre-filled syringes",
+            "ampid": "26267211000001100",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Infanrix-IPV vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd) ",
+            "header": "Infanrix-IPV vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Infanrix-IPV vaccine suspension for injection 0.5ml pre-filled syringes",
+            "ampid": "8426011000001105",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.56</ph>",
+                        "nhsIndicativePrice": "&#163;17.56"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Repevax vaccine suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd) ",
+            "header": "Repevax vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>",
+            "manufacturer": "(sanofi pasteur MSD Ltd)",
+            "name": "Repevax vaccine suspension for injection 0.5ml pre-filled syringes",
+            "ampid": "8882411000001103",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;20.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;20.00</ph>",
+                        "nhsIndicativePrice": "&#163;20.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88118",
+        "label": "DIPHTHERIA WITH PERTUSSIS, POLIOMYELITIS VACCINE AND TETANUS"
+    }
+}

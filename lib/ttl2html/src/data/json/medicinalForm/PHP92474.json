@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP92474\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/co-magaldrox/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP95844\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/mucogel\">Mucogel<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP95843\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/maalox\">Maalox<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Maalox oral suspension <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">5055611000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Aluminium hydroxide gel dried 44&#8239;mg per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium hydroxide 39&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.35</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Mucogel oral suspension <ph outputclass=\"manufacturer\">(Chemidex Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">6111000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Aluminium hydroxide gel dried 44&#8239;mg per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium hydroxide 39&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.99</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88129\" title=\"CO-MAGALDROX\" namespace=\"/drugs/co-magaldrox\">CO-MAGALDROX</xref>\n</parents>\n</topic>",
+    "id": "PHP92474",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/co-magaldrox/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "productInformationGroups": [
+        {
+            "id": "PHP95844",
+            "label": "Mucogel&reg;  ",
+            "html": "Mucogel<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP95843",
+            "label": "Maalox&reg;  ",
+            "html": "Maalox<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Maalox oral suspension (Sanofi) ",
+            "header": "Maalox oral suspension <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Maalox oral suspension",
+            "ampid": "5055611000001107",
+            "strengthOfActiveIngredient": "Magnesium hydroxide 39 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.35 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.35</ph>",
+                        "nhsIndicativePrice": "&#163;3.35"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Mucogel oral suspension (Chemidex Pharma Ltd) ",
+            "header": "Mucogel oral suspension <ph outputclass=\"manufacturer\">(Chemidex Pharma Ltd)</ph>",
+            "manufacturer": "(Chemidex Pharma Ltd)",
+            "name": "Mucogel oral suspension",
+            "ampid": "6111000001104",
+            "strengthOfActiveIngredient": "Magnesium hydroxide 39 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.99 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.99</ph>",
+                        "nhsIndicativePrice": "&#163;2.99"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88129",
+        "label": "CO-MAGALDROX"
+    }
+}

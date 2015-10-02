@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP75054\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tamoxifen/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Tamoxifen 10mg/5ml oral suspension <ph outputclass=\"manufacturer\">(DE Pharmaceuticals)</ph>\n</title>\n<data name=\"ampid\">22482811000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tamoxifen (as Tamoxifen citrate) 2&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tamoxifen 10mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Mawdsley-Brooks &amp; Company Ltd)</ph>\n</title>\n<data name=\"ampid\">24578611000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tamoxifen (as Tamoxifen citrate) 2&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tamoxifen 10mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Pharma-z Ltd)</ph>\n</title>\n<data name=\"ampid\">28162311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tamoxifen (as Tamoxifen citrate) 2&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5761\" title=\"TAMOXIFEN\" namespace=\"/drugs/tamoxifen\">TAMOXIFEN</xref>\n</parents>\n</topic>",
+    "id": "PHP75054",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tamoxifen/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "products": [
+        {
+            "title": "Tamoxifen 10mg/5ml oral suspension (DE Pharmaceuticals) ",
+            "header": "Tamoxifen 10mg/5ml oral suspension <ph outputclass=\"manufacturer\">(DE Pharmaceuticals)</ph>",
+            "manufacturer": "(DE Pharmaceuticals)",
+            "name": "Tamoxifen 10mg/5ml oral suspension",
+            "ampid": "22482811000001102",
+            "strengthOfActiveIngredient": "Tamoxifen (as Tamoxifen citrate) 2 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tamoxifen 10mg/5ml oral suspension (Mawdsley-Brooks & Company Ltd) ",
+            "header": "Tamoxifen 10mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Mawdsley-Brooks &amp; Company Ltd)</ph>",
+            "manufacturer": "(Mawdsley-Brooks & Company Ltd)",
+            "name": "Tamoxifen 10mg/5ml oral suspension",
+            "ampid": "24578611000001106",
+            "strengthOfActiveIngredient": "Tamoxifen (as Tamoxifen citrate) 2 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tamoxifen 10mg/5ml oral suspension (Pharma-z Ltd) ",
+            "header": "Tamoxifen 10mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Pharma-z Ltd)</ph>",
+            "manufacturer": "(Pharma-z Ltd)",
+            "name": "Tamoxifen 10mg/5ml oral suspension",
+            "ampid": "28162311000001104",
+            "strengthOfActiveIngredient": "Tamoxifen (as Tamoxifen citrate) 2 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5761",
+        "label": "TAMOXIFEN"
+    }
+}

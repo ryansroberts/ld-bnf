@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP92227\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/bendroflumethiazide-with-timolol/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Prestim tablets <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">98411000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Bendroflumethiazide 2.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Timolol maleate 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.49</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85579\" title=\"BENDROFLUMETHIAZIDE WITH TIMOLOL\" namespace=\"/drugs/bendroflumethiazide-with-timolol\">BENDROFLUMETHIAZIDE WITH TIMOLOL</xref>\n</parents>\n</topic>",
+    "id": "PHP92227",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/bendroflumethiazide-with-timolol/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "8",
+            "textContent": "Warning: Do not stop taking this medicine unless your doctor tells you to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop"
+        }
+    ],
+    "products": [
+        {
+            "title": "Prestim tablets (Meda Pharmaceuticals Ltd) ",
+            "header": "Prestim tablets <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Prestim tablets",
+            "ampid": "98411000001109",
+            "strengthOfActiveIngredient": "Timolol maleate 10 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.49 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.49</ph>",
+                        "nhsIndicativePrice": "&#163;3.49"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85579",
+        "label": "BENDROFLUMETHIAZIDE WITH TIMOLOL"
+    }
+}

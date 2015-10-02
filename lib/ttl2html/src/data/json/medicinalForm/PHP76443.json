@@ -1,0 +1,39 @@
+{
+    "xml": "<topic id=\"PHP76443\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/temocillin/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Negaban 1g powder for solution for injection vials <ph outputclass=\"manufacturer\">(Eumedica Pharmaceuticals)</ph>\n</title>\n<data name=\"ampid\">9549311000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Temocillin (as Temocillin sodium) 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3320\" title=\"TEMOCILLIN\" namespace=\"/drugs/temocillin\">TEMOCILLIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76443",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/temocillin/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Negaban 1g powder for solution for injection vials (Eumedica Pharmaceuticals) ",
+            "header": "Negaban 1g powder for solution for injection vials <ph outputclass=\"manufacturer\">(Eumedica Pharmaceuticals)</ph>",
+            "manufacturer": "(Eumedica Pharmaceuticals)",
+            "name": "Negaban 1g powder for solution for injection vials",
+            "ampid": "9549311000001107",
+            "strengthOfActiveIngredient": "Temocillin (as Temocillin sodium) 1 gram",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3320",
+        "label": "TEMOCILLIN"
+    }
+}

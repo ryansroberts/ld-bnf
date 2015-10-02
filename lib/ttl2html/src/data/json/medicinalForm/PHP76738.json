@@ -1,0 +1,91 @@
+{
+    "xml": "<topic id=\"PHP76738\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/etanercept/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzyl alcohol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Enbrel Paediatric 10mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">19921411000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Etanercept 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;143.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Enbrel 25mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4156611000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Etanercept 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;357.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Enbrel Paediatric 25mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">11023211000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Etanercept 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;357.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6639\" title=\"ETANERCEPT\" namespace=\"/drugs/etanercept\">ETANERCEPT</xref>\n</parents>\n</topic>",
+    "id": "PHP76738",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/etanercept/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "excipients": [
+        "Benzyl alcohol"
+    ],
+    "products": [
+        {
+            "title": "Enbrel Paediatric 10mg powder and solvent for solution for injection vials (Pfizer Ltd) ",
+            "header": "Enbrel Paediatric 10mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Enbrel Paediatric 10mg powder and solvent for solution for injection vials",
+            "ampid": "19921411000001107",
+            "strengthOfActiveIngredient": "Etanercept 10 mg",
+            "packs": [
+                {
+                    "textContent": " 4 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;143.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;143.00</ph>",
+                        "nhsIndicativePrice": "&#163;143.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Enbrel 25mg powder and solvent for solution for injection vials (Pfizer Ltd) ",
+            "header": "Enbrel 25mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Enbrel 25mg powder and solvent for solution for injection vials",
+            "ampid": "4156611000001102",
+            "strengthOfActiveIngredient": "Etanercept 25 mg",
+            "packs": [
+                {
+                    "textContent": " 4 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;357.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;357.50</ph>",
+                        "nhsIndicativePrice": "&#163;357.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Enbrel Paediatric 25mg powder and solvent for solution for injection vials (Pfizer Ltd) ",
+            "header": "Enbrel Paediatric 25mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Enbrel Paediatric 25mg powder and solvent for solution for injection vials",
+            "ampid": "11023211000001107",
+            "strengthOfActiveIngredient": "Etanercept 25 mg",
+            "packs": [
+                {
+                    "textContent": " 4 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;357.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;357.50</ph>",
+                        "nhsIndicativePrice": "&#163;357.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6639",
+        "label": "ETANERCEPT"
+    }
+}

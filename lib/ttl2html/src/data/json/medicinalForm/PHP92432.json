@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP92432\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chlortetracycline-with-triamcinolone/ointment\" basename=\"ointment\" title=\"Ointment\">\n<title>Ointment</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Wool fat and related substances including lanolin</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aureocort ointment <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">3681611000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlortetracycline hydrochloride 30.9&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Triamcinolone acetonide 1&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.51</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88100\" title=\"CHLORTETRACYCLINE WITH TRIAMCINOLONE\" namespace=\"/drugs/chlortetracycline-with-triamcinolone\">CHLORTETRACYCLINE WITH TRIAMCINOLONE</xref>\n</parents>\n</topic>",
+    "id": "PHP92432",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chlortetracycline-with-triamcinolone/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "excipients": [
+        "Wool fat and related substances including lanolin"
+    ],
+    "products": [
+        {
+            "title": "Aureocort ointment (AMCo) ",
+            "header": "Aureocort ointment <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Aureocort ointment",
+            "ampid": "3681611000001100",
+            "strengthOfActiveIngredient": "Triamcinolone acetonide 1 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.51 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.51</ph>",
+                        "nhsIndicativePrice": "&#163;3.51"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88100",
+        "label": "CHLORTETRACYCLINE WITH TRIAMCINOLONE"
+    }
+}

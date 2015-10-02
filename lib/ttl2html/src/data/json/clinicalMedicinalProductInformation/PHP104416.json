@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP104416\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/colgate-duraphat-5000ppm-fluoride-toothpaste\" basename=\"colgate-duraphat-5000ppm-fluoride-toothpaste\" title=\"Colgate Duraphat 5000ppm fluoride toothpaste\">\n<title>Colgate Duraphat<tm tmtype=\"reg\"/> 5000ppm fluoride toothpaste</title>\n<topic id=\"PHP104443\" outputclass=\"indicationsAndDose\" rev=\"1.24\" parent=\"/clinical-medicinal-product-information/colgate-duraphat-5000ppm-fluoride-toothpaste\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of dental caries</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using paste</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 16&#8211;17 years</p>\n<p>Apply 2&#8239;centimetres 3 times a day, to be applied after meals using a toothbrush.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 2&#8239;centimetres 3 times a day, to be applied after meals using a toothbrush.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104505\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/colgate-duraphat-5000ppm-fluoride-toothpaste\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Brush teeth for 3 minutes before spitting out.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104523\" outputclass=\"patientAndCarerAdvice\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/colgate-duraphat-5000ppm-fluoride-toothpaste\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer Sodium fluoride toothpaste.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104551\" outputclass=\"professionSpecificInformation\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/colgate-duraphat-5000ppm-fluoride-toothpaste\">\n<title>Profession specific information</title>\n<body>\n<section outputclass=\"dentalPractitionersFormulary\">\n<title>Dental practitioners' formulary</title>\n<sectiondiv>\n<p>May be prescribed as Sodium Fluoride Toothpaste 1.1%.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP104416",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/colgate-duraphat-5000ppm-fluoride-toothpaste",
+    "basename": "colgate-duraphat-5000ppm-fluoride-toothpaste",
+    "title": "Colgate Duraphat 5000ppm fluoride toothpaste",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of dental caries",
+                        "html": "Prophylaxis of dental caries"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using paste"
+                    ],
+                    "textContent": "By mouth using paste",
+                    "html": "By mouth using paste"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 2 centimetres 3 times a day, to be applied after meals using a toothbrush.",
+                        "html": "<p>Apply 2&#8239;centimetres 3 times a day, to be applied after meals using a toothbrush.</p>",
+                        "ageGroup": "16&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 2 centimetres 3 times a day, to be applied after meals using a toothbrush.",
+                        "html": "<p>Apply 2&#8239;centimetres 3 times a day, to be applied after meals using a toothbrush.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Brush teeth for 3 minutes before spitting out.",
+                "html": "<p>Brush teeth for 3 minutes before spitting out.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer Sodium fluoride toothpaste.",
+                "html": "<p>Patients or carers should be given advice on how to administer Sodium fluoride toothpaste.</p>"
+            }
+        ]
+    },
+    "professionSpecificInformation": {
+        "dentalPractitionersFormulary": [
+            {
+                "type": "dentalPractitionersFormulary",
+                "textContent": "May be prescribed as Sodium Fluoride Toothpaste 1.1%.",
+                "html": "<p>May be prescribed as Sodium Fluoride Toothpaste 1.1%.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

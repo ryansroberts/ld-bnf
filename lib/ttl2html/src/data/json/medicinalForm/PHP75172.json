@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75172\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/lutropin-alfa/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Luveris 75unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Merck Serono Ltd)</ph>\n</title>\n<data name=\"ampid\">4578111000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Lutropin alfa 75&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;31.38</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4597\" title=\"LUTROPIN ALFA\" namespace=\"/drugs/lutropin-alfa\">LUTROPIN ALFA</xref>\n</parents>\n</topic>",
+    "id": "PHP75172",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/lutropin-alfa/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "products": [
+        {
+            "title": "Luveris 75unit powder and solvent for solution for injection vials (Merck Serono Ltd) ",
+            "header": "Luveris 75unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Merck Serono Ltd)</ph>",
+            "manufacturer": "(Merck Serono Ltd)",
+            "name": "Luveris 75unit powder and solvent for solution for injection vials",
+            "ampid": "4578111000001100",
+            "strengthOfActiveIngredient": "Lutropin alfa 75 unit",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;31.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;31.38</ph>",
+                        "nhsIndicativePrice": "&#163;31.38"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4597",
+        "label": "LUTROPIN ALFA"
+    }
+}

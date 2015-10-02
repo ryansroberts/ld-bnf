@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP75122\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/furosemide-with-triamterene/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">14</ph> - This medicine may colour your urine. This is harmless </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Frusene 50mg/40mg tablets <ph outputclass=\"manufacturer\">(Orion Pharma (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">25411000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Furosemide 40&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Triamterene 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.34</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.34</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP856\" title=\"FUROSEMIDE WITH TRIAMTERENE\" namespace=\"/drugs/furosemide-with-triamterene\">FUROSEMIDE WITH TRIAMTERENE</xref>\n</parents>\n</topic>",
+    "id": "PHP75122",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/furosemide-with-triamterene/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "14",
+            "textContent": "This medicine may colour your urine. This is harmless",
+            "html": "Label <ph outputclass=\"labelNumber\">14</ph> - This medicine may colour your urine. This is harmless"
+        }
+    ],
+    "products": [
+        {
+            "title": "Frusene 50mg/40mg tablets (Orion Pharma (UK) Ltd) ",
+            "header": "Frusene 50mg/40mg tablets <ph outputclass=\"manufacturer\">(Orion Pharma (UK) Ltd)</ph>",
+            "manufacturer": "(Orion Pharma (UK) Ltd)",
+            "name": "Frusene 50mg/40mg tablets",
+            "ampid": "25411000001108",
+            "strengthOfActiveIngredient": "Triamterene 50 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.34 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.34</ph>",
+                        "nhsIndicativePrice": "&#163;4.34"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.34 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.34</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.34"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP856",
+        "label": "FUROSEMIDE WITH TRIAMTERENE"
+    }
+}

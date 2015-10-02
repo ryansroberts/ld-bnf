@@ -1,0 +1,96 @@
+{
+    "xml": "<topic id=\"PHP105328\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/emollient-creams-and-ointments-antimicrobial-containing/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Cetostearyl alcohol (including cetyl and stearyl alcohol)</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Eczmol 1% cream <ph outputclass=\"manufacturer\">(Genus Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">17067011000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 10&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.70</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Hibitane Obstetric 1% cream <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3955311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 10&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dermol cream <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">7644411000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Benzalkonium chloride 1&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine hydrochloride 1&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Isopropyl myristate 100&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Liquid paraffin 100&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.86</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.63</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105071\" title=\"EMOLLIENT CREAMS AND OINTMENTS, ANTIMICROBIAL-CONTAINING\" namespace=\"/drugs/emollient-creams-and-ointments-antimicrobial-containing\">EMOLLIENT CREAMS AND OINTMENTS, ANTIMICROBIAL-CONTAINING</xref>\n</parents>\n</topic>",
+    "id": "PHP105328",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/emollient-creams-and-ointments-antimicrobial-containing/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "excipients": [
+        "Cetostearyl alcohol (including cetyl and stearyl alcohol)"
+    ],
+    "products": [
+        {
+            "title": "Eczmol 1% cream (Genus Pharmaceuticals Ltd) ",
+            "header": "Eczmol 1% cream <ph outputclass=\"manufacturer\">(Genus Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Genus Pharmaceuticals Ltd)",
+            "name": "Eczmol 1% cream",
+            "ampid": "17067011000001104",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 250 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.70</ph>",
+                        "nhsIndicativePrice": "&#163;3.70"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Hibitane Obstetric 1% cream (Derma UK Ltd) ",
+            "header": "Hibitane Obstetric 1% cream <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>",
+            "manufacturer": "(Derma UK Ltd)",
+            "name": "Hibitane Obstetric 1% cream",
+            "ampid": "3955311000001101",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 250 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph>",
+                        "nhsIndicativePrice": "&#163;12.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Dermol cream (Dermal Laboratories Ltd) ",
+            "header": "Dermol cream <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>",
+            "manufacturer": "(Dermal Laboratories Ltd)",
+            "name": "Dermol cream",
+            "ampid": "7644411000001100",
+            "strengthOfActiveIngredient": "Liquid paraffin 100 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 100 gram P ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.86 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.86</ph>",
+                        "nhsIndicativePrice": "&#163;2.86"
+                    }
+                },
+                {
+                    "textContent": " 500 gram P ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.63 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.63</ph>",
+                        "nhsIndicativePrice": "&#163;6.63"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP105071",
+        "label": "EMOLLIENT CREAMS AND OINTMENTS, ANTIMICROBIAL-CONTAINING"
+    }
+}

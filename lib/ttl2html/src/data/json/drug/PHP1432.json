@@ -1,0 +1,1217 @@
+{
+    "xml": "<topic id=\"PHP1432\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/phenylephrine-hydrochloride\" basename=\"phenylephrine-hydrochloride\" title=\"PHENYLEPHRINE HYDROCHLORIDE\">\n<title>PHENYLEPHRINE HYDROCHLORIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_700\" namespace=\"/interactions/list-of-drug-interactions/sympathomimetics/phenylephrine\">Phenylephrine</xref>\n</p>\n<data name=\"vtmid\">54765002</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_411296825\" title=\"Sympathomimetics (vasoconstrictor)\">Sympathomimetics (vasoconstrictor)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\r\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP43624\" outputclass=\"indicationsAndDose\" rev=\"1.52\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mydriasis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply 1&#8239;drop, to be administered before procedure, a drop of proxymetacaine topical anaesthetic may be applied to the eye a few minutes before using phenylephrine to prevent stinging.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;drop, to be administered before procedure, then apply 1&#8239;drop after 60&#8239;minutes if required, a drop of topical anaesthetic may be applied to the eye a few minutes before using phenylephrine to prevent stinging.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute hypotension</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 2&#8211;5&#8239;mg, followed by 1&#8211;10&#8239;mg, after at least 15 minutes if required. 1&#8239;mg/1&#8239;mL solution to be used.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;500&#8239;micrograms, repeated as necessary after at least 15 minutes.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially up to 180&#8239;micrograms/minute, reduced to 30&#8211;60&#8239;micrograms/minute, adjusted according to response.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Priapism</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intracavernosal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;200&#8239;micrograms every 5&#8211;10&#8239;minutes; maximum 1&#8239;mg per course.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43566\" outputclass=\"unlicensedUse\" rev=\"1.12\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use in children</p>\n<p>Not licensed for use in children by intravenous infusion or injection.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use in adults</p>\n<p>Use of phenylephrine hydrochloride injection in priapism is an unlicensed indication.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43658\" outputclass=\"contraindications\" rev=\"1.9\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<title>General contraindications:</title>\n<p>\n<ph outputclass=\"contraindication\">Hypertension</ph>\n</p>\n<sectiondiv outputclass=\"additionalContraindications\">\n<p outputclass=\"title\">Specific contraindications:</p>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">When used by eye</p>\n<p>\n<ph outputclass=\"contraindication\">10% strength eye drops in children</ph> (in children); <ph outputclass=\"contraindication\">10% strength eye drops in elderly</ph> (in adults); <ph outputclass=\"contraindication\">10% strength eye drops in neonates</ph> (in neonates); <ph outputclass=\"contraindication\">aneurysms</ph>; <ph outputclass=\"contraindication\">cardiovascular disease</ph>; <ph outputclass=\"contraindication\">thyrotoxicosis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With systemic use</p>\n<p>\n<ph outputclass=\"contraindication\">severe hyperthyroidism</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43667\" outputclass=\"cautions\" rev=\"1.22\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<sectiondiv outputclass=\"additionalCautions\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">When used by eye</p>\n<p>\n<ph outputclass=\"caution\">asthma</ph>; <ph outputclass=\"caution\">cerebral arteriosclerosis</ph> (in adults); <ph outputclass=\"caution\">corneal epithelial damage</ph>; <ph outputclass=\"caution\">darkly pigmented iris is more resistant to pupillary dilatation and caution should be exercised to avoid overdosage.</ph>; <ph outputclass=\"caution\">diabetes (avoid eye drops in long standing diabetes)</ph>; <ph outputclass=\"caution\">mydriasis can precipitate acute angle-closure glaucoma in a few patients, usually over 60 years and hypermetropic (long-sighted), who are pre-disposed to the condition because of a shallow anterior chamber</ph> (in adults); <ph outputclass=\"caution\">mydriasis can precipitate acute angle-closure glaucoma in the very few children who are predisposed to the condition because of a shallow anterior chamber</ph> (in children); <ph outputclass=\"caution\">neonates are at an increased risk of systemic toxicity</ph> (in neonates); <ph outputclass=\"caution\">ocular hyperaemia</ph>; <ph outputclass=\"caution\">susceptibility to angle-closure glaucoma</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With systemic use</p>\n<p>\n<ph outputclass=\"caution\">coronary disease</ph>; <ph outputclass=\"caution\">coronary vascular thrombosis</ph>; <ph outputclass=\"caution\">diabetes (avoid eye drops in long standing diabetes)</ph>; <ph outputclass=\"caution\">elderly</ph> (in adults); <ph outputclass=\"caution\">extravasation at injection site may cause necrosis</ph>; <ph outputclass=\"caution\">following myocardial infarction</ph>; <ph outputclass=\"caution\">hypercapnia</ph>; <ph outputclass=\"caution\">hyperthyroidism</ph>; <ph outputclass=\"caution\">hypoxia</ph>; <ph outputclass=\"caution\">mesenteric vascular thrombosis</ph>; <ph outputclass=\"caution\">peripheral vascular thrombosis</ph>; <ph outputclass=\"caution\">Prinzmetal&#8217;s variant angina</ph>; <ph outputclass=\"caution\">susceptibility to angle-closure glaucoma</ph>; <ph outputclass=\"caution\">uncorrected hypovolaemia</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Hypertensive response</p>\n<p>Phenylephrine has a longer duration of action than noradrenaline (norepinephrine), and an excessive vasopressor response may cause a prolonged rise in blood pressure.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43621\" outputclass=\"interactions\" rev=\"1.10\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (sympathomimetics).</p>\n<p>Phenylephrine may interact with systemically administered monoamine-oxidase inhibitors.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43583\" outputclass=\"sideEffects\" rev=\"1.17\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<title>General side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arrhythmias</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">palpitation</ph>; <ph outputclass=\"sideEffect\">tachycardia</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"specificSideEffects\">\n<title>Specific side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">When used by eye</p>\n<p>\n<ph outputclass=\"sideEffect\">blurred vision</ph>; <ph outputclass=\"sideEffect\">conjunctivitis on prolonged administration</ph>; <ph outputclass=\"sideEffect\">coronary artery spasm</ph>; <ph outputclass=\"sideEffect\">extrasystoles</ph>; <ph outputclass=\"sideEffect\">hyperaemia on prolonged administration</ph>; <ph outputclass=\"sideEffect\">local irritation on prolonged administration</ph>; <ph outputclass=\"sideEffect\">myocardial infarction (usually after use of 10% strength in patients with pre-existing cardiovascular disease)</ph>; <ph outputclass=\"sideEffect\">oedema on prolonged administration</ph>; <ph outputclass=\"sideEffect\">photophobia</ph>; <ph outputclass=\"sideEffect\">raised intraocular pressure</ph>; <ph outputclass=\"sideEffect\">transient stinging</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With systemic use</p>\n<p>\n<ph outputclass=\"sideEffect\">angle-closure glaucoma</ph>; <ph outputclass=\"sideEffect\">anorexia</ph>; <ph outputclass=\"sideEffect\">anxiety</ph>; <ph outputclass=\"sideEffect\">bradycardia (also reflex bradycardia)</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">dyspnoea</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypoxia</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">peripheral ischaemia</ph>; <ph outputclass=\"sideEffect\">psychosis</ph>; <ph outputclass=\"sideEffect\">tremor</ph>; <ph outputclass=\"sideEffect\">urinary retention</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>; <ph outputclass=\"sideEffect\">weakness</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43615\" outputclass=\"pregnancy\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Use only if potential benefit outweighs risk.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>Avoid if possible; malformations reported following use in first trimester; fetal hypoxia and bradycardia reported in late pregnancy and labour.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43674\" outputclass=\"breastFeeding\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Use only if potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43563\" outputclass=\"monitoringRequirements\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>Contra-indicated in hypertension&#8212;monitor blood pressure and rate of flow frequently.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43683\" outputclass=\"directionsForAdministration\" rev=\"1.20\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use in children</p>\n<p>For <i>intravenous injection</i>, dilute to a concentration of 1&#8239;mg/mL with Water for Injections and administer slowly.</p>\n<p>For <i>intravenous infusion</i>, dilute to a concentration of 20&#8239;micrograms/mL with Glucose 5% or Sodium Chloride 0.9% and administer as a continuous infusion via a central venous catheter using a controlled infusion device.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> give intermittently in Glucose 5% or Sodium chloride 0.9%. Dilute 10&#8239;mg in 500&#8239;mL infusion fluid.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intracavernosal</ph> use in adults</p>\n<p>For <i>intracavernosal injection</i>, if suitable strength of phenylephrine injection is not available, it may be specially prepared by diluting 0.1&#8239;mL of the phenylephrine 1% (10&#8239;mg/mL) injection to 5&#8239;mL with sodium chloride 0.9%.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP57108\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.23\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Intravenous administration preferred when managing acute hypotension in children.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Although multi-dose phenylephrine eye drops commonly contain preservatives, preservative-free unit dose vials may be available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43602\" outputclass=\"patientAndCarerAdvice\" rev=\"1.12\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Patients should be warned not to undertake skilled tasks (e.g. driving) until vision clears after mydriasis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP1432-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/phenylephrine-hydrochloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: eye drops, solution for injection, capsule</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77502\" title=\"Tablet\" namespace=\"/drugs/phenylephrine-hydrochloride/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74604\" title=\"Capsule\" namespace=\"/drugs/phenylephrine-hydrochloride/capsule\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74599\" title=\"Solution for injection\" namespace=\"/drugs/phenylephrine-hydrochloride/solution-for-injection\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77506\" title=\"Eye drops\" namespace=\"/drugs/phenylephrine-hydrochloride/eye-drops\">Eye drops</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88009\" namespace=\"/drugs/phenylephrine-with-tropicamide\" title=\"PHENYLEPHRINE WITH TROPICAMIDE\" count=\"1\" rel=\"backlink\">PHENYLEPHRINE WITH TROPICAMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88076\" namespace=\"/drugs/lidocaine-with-phenylephrine\" title=\"LIDOCAINE WITH PHENYLEPHRINE\" count=\"1\" rel=\"backlink\">LIDOCAINE WITH PHENYLEPHRINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78300\" namespace=\"/treatment-summaries/aromatic-inhalations-cough-preparations-and-systemic-nasal-decongestants\" title=\"Aromatic inhalations, cough preparations and systemic nasal decongestants\" count=\"1\" rel=\"backlink\">Aromatic inhalations, cough preparations and systemic nasal decongestants</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78525\" namespace=\"/treatment-summaries/mydriatics-and-cycloplegics\" title=\"Mydriatics and cycloplegics\" count=\"1\" rel=\"backlink\">Mydriatics and cycloplegics</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_700\" namespace=\"/interactions/list-of-drug-interactions/sympathomimetics/phenylephrine\" title=\"Phenylephrine\" count=\"1\" rel=\"link\">Phenylephrine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77502\" namespace=\"/drugs/phenylephrine-hydrochloride/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74604\" namespace=\"/drugs/phenylephrine-hydrochloride/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74599\" namespace=\"/drugs/phenylephrine-hydrochloride/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77506\" namespace=\"/drugs/phenylephrine-hydrochloride/eye-drops\" title=\"Eye drops\" count=\"1\" rel=\"link\">Eye drops</xref>\n</links>\n</topic>",
+    "id": "PHP1432",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/phenylephrine-hydrochloride",
+    "basename": "phenylephrine-hydrochloride",
+    "title": "PHENYLEPHRINE HYDROCHLORIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_700",
+            "label": "Phenylephrine"
+        }
+    ],
+    "vtmid": "54765002",
+    "drugClassification": [
+        "Sympathomimetics (vasoconstrictor)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mydriasis",
+                        "html": "Mydriasis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye"
+                    ],
+                    "textContent": "To the eye",
+                    "html": "To the eye"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 1 drop, to be administered before procedure, a drop of proxymetacaine topical anaesthetic may be applied to the eye a few minutes before using phenylephrine to prevent stinging.",
+                        "html": "<p>Apply 1&#8239;drop, to be administered before procedure, a drop of proxymetacaine topical anaesthetic may be applied to the eye a few minutes before using phenylephrine to prevent stinging.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 1 drop, to be administered before procedure, then apply 1 drop after 60 minutes if required, a drop of topical anaesthetic may be applied to the eye a few minutes before using phenylephrine to prevent stinging.",
+                        "html": "<p>Apply 1&#8239;drop, to be administered before procedure, then apply 1&#8239;drop after 60&#8239;minutes if required, a drop of topical anaesthetic may be applied to the eye a few minutes before using phenylephrine to prevent stinging.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute hypotension",
+                        "html": "Acute hypotension"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 2&#8211;5 mg, followed by 1&#8211;10 mg, after at least 15 minutes if required. 1 mg/1 mL solution to be used.",
+                        "html": "<p>Initially 2&#8211;5&#8239;mg, followed by 1&#8211;10&#8239;mg, after at least 15 minutes if required. 1&#8239;mg/1&#8239;mL solution to be used.</p>"
+                    },
+                    {
+                        "textContent": "100&#8211;500 micrograms, repeated as necessary after at least 15 minutes.",
+                        "html": "<p>100&#8211;500&#8239;micrograms, repeated as necessary after at least 15 minutes.</p>"
+                    },
+                    {
+                        "textContent": "Initially up to 180 micrograms/minute, reduced to 30&#8211;60 micrograms/minute, adjusted according to response.",
+                        "html": "<p>Initially up to 180&#8239;micrograms/minute, reduced to 30&#8211;60&#8239;micrograms/minute, adjusted according to response.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Priapism",
+                        "html": "Priapism"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intracavernosal injection"
+                    ],
+                    "textContent": "By intracavernosal injection",
+                    "html": "By intracavernosal injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "100&#8211;200 micrograms every 5&#8211;10 minutes; maximum 1 mg per course.",
+                        "html": "<p>100&#8211;200&#8239;micrograms every 5&#8211;10&#8239;minutes; maximum 1&#8239;mg per course.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With systemic use in children",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Not licensed for use in children by intravenous infusion or injection.",
+                "html": "<p>Not licensed for use in children by intravenous infusion or injection.</p>"
+            },
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With systemic use in adults",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Use of phenylephrine hydrochloride injection in priapism is an unlicensed indication.",
+                "html": "<p>Use of phenylephrine hydrochloride injection in priapism is an unlicensed indication.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Hypertension",
+                "html": "Hypertension"
+            }
+        ],
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "10% strength eye drops in children in children",
+                "html": "10% strength eye drops in children in children",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ],
+                    "patientType": "children"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "10% strength eye drops in elderly in adults",
+                "html": "10% strength eye drops in elderly in adults",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ],
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "10% strength eye drops in neonates in neonates",
+                "html": "10% strength eye drops in neonates in neonates",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ],
+                    "patientType": "neonates"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "aneurysms",
+                "html": "aneurysms",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "cardiovascular disease",
+                "html": "cardiovascular disease",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "thyrotoxicosis",
+                "html": "thyrotoxicosis",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "severe hyperthyroidism",
+                "html": "severe hyperthyroidism",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            }
+        ]
+    },
+    "cautions": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "asthma",
+                "html": "asthma",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "cerebral arteriosclerosis in adults",
+                "html": "cerebral arteriosclerosis in adults",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ],
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "corneal epithelial damage",
+                "html": "corneal epithelial damage",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "darkly pigmented iris is more resistant to pupillary dilatation and caution should be exercised to avoid overdosage.",
+                "html": "darkly pigmented iris is more resistant to pupillary dilatation and caution should be exercised to avoid overdosage.",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "diabetes (avoid eye drops in long standing diabetes)",
+                "html": "diabetes (avoid eye drops in long standing diabetes)",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "mydriasis can precipitate acute angle-closure glaucoma in a few patients, usually over 60 years and hypermetropic (long-sighted), who are pre-disposed to the condition because of a shallow anterior chamber in adults",
+                "html": "mydriasis can precipitate acute angle-closure glaucoma in a few patients, usually over 60 years and hypermetropic (long-sighted), who are pre-disposed to the condition because of a shallow anterior chamber in adults",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ],
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "mydriasis can precipitate acute angle-closure glaucoma in the very few children who are predisposed to the condition because of a shallow anterior chamber in children",
+                "html": "mydriasis can precipitate acute angle-closure glaucoma in the very few children who are predisposed to the condition because of a shallow anterior chamber in children",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ],
+                    "patientType": "children"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "neonates are at an increased risk of systemic toxicity in neonates",
+                "html": "neonates are at an increased risk of systemic toxicity in neonates",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ],
+                    "patientType": "neonates"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "ocular hyperaemia",
+                "html": "ocular hyperaemia",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "susceptibility to angle-closure glaucoma",
+                "html": "susceptibility to angle-closure glaucoma",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by eye",
+                    "routes": [
+                        "eye"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "coronary disease",
+                "html": "coronary disease",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "coronary vascular thrombosis",
+                "html": "coronary vascular thrombosis",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "diabetes (avoid eye drops in long standing diabetes)",
+                "html": "diabetes (avoid eye drops in long standing diabetes)",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "elderly in adults",
+                "html": "elderly in adults",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ],
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "extravasation at injection site may cause necrosis",
+                "html": "extravasation at injection site may cause necrosis",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "following myocardial infarction",
+                "html": "following myocardial infarction",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "hypercapnia",
+                "html": "hypercapnia",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "hyperthyroidism",
+                "html": "hyperthyroidism",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "hypoxia",
+                "html": "hypoxia",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "mesenteric vascular thrombosis",
+                "html": "mesenteric vascular thrombosis",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "peripheral vascular thrombosis",
+                "html": "peripheral vascular thrombosis",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "Prinzmetal&#8217;s variant angina",
+                "html": "Prinzmetal&#8217;s variant angina",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "susceptibility to angle-closure glaucoma",
+                "html": "susceptibility to angle-closure glaucoma",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "uncorrected hypovolaemia",
+                "html": "uncorrected hypovolaemia",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Hypertensive response",
+                "textContent": "Phenylephrine has a longer duration of action than noradrenaline (norepinephrine), and an excessive vasopressor response may cause a prolonged rise in blood pressure.",
+                "html": "<p>Phenylephrine has a longer duration of action than noradrenaline (norepinephrine), and an excessive vasopressor response may cause a prolonged rise in blood pressure.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (sympathomimetics).\n\nPhenylephrine may interact with systemically administered monoamine-oxidase inhibitors.",
+                "html": "<p>Appendix 1 (sympathomimetics).</p><p>Phenylephrine may interact with systemically administered monoamine-oxidase inhibitors.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Arrhythmias",
+                        "html": "Arrhythmias",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "palpitation",
+                        "html": "palpitation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "specific": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "blurred vision",
+                        "html": "blurred vision",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "conjunctivitis on prolonged administration",
+                        "html": "conjunctivitis on prolonged administration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "coronary artery spasm",
+                        "html": "coronary artery spasm",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "extrasystoles",
+                        "html": "extrasystoles",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "hyperaemia on prolonged administration",
+                        "html": "hyperaemia on prolonged administration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "local irritation on prolonged administration",
+                        "html": "local irritation on prolonged administration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "myocardial infarction (usually after use of 10% strength in patients with pre-existing cardiovascular disease)",
+                        "html": "myocardial infarction (usually after use of 10% strength in patients with pre-existing cardiovascular disease)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "oedema on prolonged administration",
+                        "html": "oedema on prolonged administration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "photophobia",
+                        "html": "photophobia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "raised intraocular pressure",
+                        "html": "raised intraocular pressure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "transient stinging",
+                        "html": "transient stinging",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "angle-closure glaucoma",
+                        "html": "angle-closure glaucoma",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "anorexia",
+                        "html": "anorexia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "anxiety",
+                        "html": "anxiety",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "bradycardia (also reflex bradycardia)",
+                        "html": "bradycardia (also reflex bradycardia)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "dyspnoea",
+                        "html": "dyspnoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "hypoxia",
+                        "html": "hypoxia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "peripheral ischaemia",
+                        "html": "peripheral ischaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "psychosis",
+                        "html": "psychosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "urinary retention",
+                        "html": "urinary retention",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "weakness",
+                        "html": "weakness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Use only if potential benefit outweighs risk.",
+                "html": "<p>Use only if potential benefit outweighs risk.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Avoid if possible; malformations reported following use in first trimester; fetal hypoxia and bradycardia reported in late pregnancy and labour.",
+                "html": "<p>Avoid if possible; malformations reported following use in first trimester; fetal hypoxia and bradycardia reported in late pregnancy and labour.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Use only if potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Use only if potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Contra-indicated in hypertension&#8212;monitor blood pressure and rate of flow frequently.",
+                "html": "<p>Contra-indicated in hypertension&#8212;monitor blood pressure and rate of flow frequently.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With systemic use in children",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "For intravenous injection, dilute to a concentration of 1 mg/mL with Water for Injections and administer slowly.\n\nFor intravenous infusion, dilute to a concentration of 20 micrograms/mL with Glucose 5% or Sodium Chloride 0.9% and administer as a continuous infusion via a central venous catheter using a controlled infusion device.",
+                "html": "<p>For <i>intravenous injection</i>, dilute to a concentration of 1&#8239;mg/mL with Water for Injections and administer slowly.</p><p>For <i>intravenous infusion</i>, dilute to a concentration of 20&#8239;micrograms/mL with Glucose 5% or Sodium Chloride 0.9% and administer as a continuous infusion via a central venous catheter using a controlled infusion device.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With systemic use in adults",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "For intravenous infusion give intermittently in Glucose 5% or Sodium chloride 0.9%. Dilute 10 mg in 500 mL infusion fluid.",
+                "html": "<p>For <i>intravenous infusion</i> give intermittently in Glucose 5% or Sodium chloride 0.9%. Dilute 10&#8239;mg in 500&#8239;mL infusion fluid.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intracavernosal use in adults",
+                    "html": "With <ph outputclass=\"route\">intracavernosal</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intracavernosal"
+                    ]
+                },
+                "textContent": "For intracavernosal injection, if suitable strength of phenylephrine injection is not available, it may be specially prepared by diluting 0.1 mL of the phenylephrine 1% (10 mg/mL) injection to 5 mL with sodium chloride 0.9%.",
+                "html": "<p>For <i>intracavernosal injection</i>, if suitable strength of phenylephrine injection is not available, it may be specially prepared by diluting 0.1&#8239;mL of the phenylephrine 1% (10&#8239;mg/mL) injection to 5&#8239;mL with sodium chloride 0.9%.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Intravenous administration preferred when managing acute hypotension in children.",
+                "html": "<p>Intravenous administration preferred when managing acute hypotension in children.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Although multi-dose phenylephrine eye drops commonly contain preservatives, preservative-free unit dose vials may be available.",
+                "html": "<p>Although multi-dose phenylephrine eye drops commonly contain preservatives, preservative-free unit dose vials may be available.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Patients should be warned not to undertake skilled tasks (e.g. driving) until vision clears after mydriasis.",
+                "html": "<p>Patients should be warned not to undertake skilled tasks (e.g. driving) until vision clears after mydriasis.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "eye drops",
+                "solution for injection",
+                "capsule"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77502",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74604",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74599",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77506",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP88009",
+                "label": "PHENYLEPHRINE WITH TROPICAMIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP88076",
+                "label": "LIDOCAINE WITH PHENYLEPHRINE",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78300",
+                "label": "Aromatic inhalations, cough preparations and systemic nasal decongestants",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78525",
+                "label": "Mydriatics and cycloplegics",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_700",
+                "label": "Phenylephrine",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77502",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74604",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74599",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77506",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

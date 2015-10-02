@@ -1,0 +1,56 @@
+{
+    "xml": "<topic id=\"PHP75785\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/minoxidil/foam\" basename=\"foam\" title=\"Foam\">\n<title>Foam</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine </p>\n</section>\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Butylated hydroxytoluene, cetostearyl alcohol (including cetyl and stearyl alcohol), polysorbates</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81712\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/regaine-for-men-extra-strength-foam\">Regaine<tm tmtype=\"reg\"/> for men extra strength foam</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Regaine for Men Extra Strength 5% scalp foam <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">18550611000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Minoxidil 50&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">180</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;46.83</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1055\" title=\"MINOXIDIL\" namespace=\"/drugs/minoxidil\">MINOXIDIL</xref>\n</parents>\n</topic>",
+    "id": "PHP75785",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/minoxidil/foam",
+    "basename": "foam",
+    "form": "Foam",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "15",
+            "textContent": "Caution: flammable. Keep your body away from fire or flames after you have put on the medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine"
+        }
+    ],
+    "excipients": [
+        "Butylated hydroxytoluene",
+        "cetostearyl alcohol (including cetyl and stearyl alcohol)",
+        "polysorbates"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81712",
+            "label": "Regaine&reg;  for men extra strength foam",
+            "html": "Regaine<tm tmtype=\"reg\"/> for men extra strength foam"
+        }
+    ],
+    "products": [
+        {
+            "title": "Regaine for Men Extra Strength 5% scalp foam (McNeil Products Ltd) ",
+            "header": "Regaine for Men Extra Strength 5% scalp foam <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Regaine for Men Extra Strength 5% scalp foam",
+            "ampid": "18550611000001107",
+            "strengthOfActiveIngredient": "Minoxidil 50 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 180 gram P ",
+                    "html": "<ph outputclass=\"packSize\">180</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "180",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;46.83 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;46.83</ph>",
+                        "nhsIndicativePrice": "&#163;46.83"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1055",
+        "label": "MINOXIDIL"
+    }
+}

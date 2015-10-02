@@ -1,0 +1,72 @@
+{
+    "xml": "<topic id=\"PHP106616\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/vitamin-b-substances-with-ascorbic-acid/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzyl alcohol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Pabrinex Intramuscular High Potency solution for injection 5ml and 2ml ampoules <ph outputclass=\"manufacturer\">(Archimedes Pharma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">8288311000001104</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.53</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;22.53</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Pabrinex Intravenous High Potency solution for injection 5ml and 5ml ampoules <ph outputclass=\"manufacturer\">(Archimedes Pharma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">8298511000001109</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.53</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;22.53</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP106445\" title=\"VITAMIN B SUBSTANCES WITH ASCORBIC ACID\" namespace=\"/drugs/vitamin-b-substances-with-ascorbic-acid\">VITAMIN B SUBSTANCES WITH ASCORBIC ACID</xref>\n</parents>\n</topic>",
+    "id": "PHP106616",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/vitamin-b-substances-with-ascorbic-acid/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "excipients": [
+        "Benzyl alcohol"
+    ],
+    "products": [
+        {
+            "title": "Pabrinex Intramuscular High Potency solution for injection 5ml and 2ml ampoules (Archimedes Pharma UK Ltd) ",
+            "header": "Pabrinex Intramuscular High Potency solution for injection 5ml and 2ml ampoules <ph outputclass=\"manufacturer\">(Archimedes Pharma UK Ltd)</ph>",
+            "manufacturer": "(Archimedes Pharma UK Ltd)",
+            "name": "Pabrinex Intramuscular High Potency solution for injection 5ml and 2ml ampoules",
+            "ampid": "8288311000001104",
+            "packs": [
+                {
+                    "textContent": " 20 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.53 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.53</ph>",
+                        "nhsIndicativePrice": "&#163;22.53"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;22.53 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;22.53</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;22.53"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Pabrinex Intravenous High Potency solution for injection 5ml and 5ml ampoules (Archimedes Pharma UK Ltd) ",
+            "header": "Pabrinex Intravenous High Potency solution for injection 5ml and 5ml ampoules <ph outputclass=\"manufacturer\">(Archimedes Pharma UK Ltd)</ph>",
+            "manufacturer": "(Archimedes Pharma UK Ltd)",
+            "name": "Pabrinex Intravenous High Potency solution for injection 5ml and 5ml ampoules",
+            "ampid": "8298511000001109",
+            "packs": [
+                {
+                    "textContent": " 20 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.53 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.53</ph>",
+                        "nhsIndicativePrice": "&#163;22.53"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;22.53 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;22.53</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;22.53"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP106445",
+        "label": "VITAMIN B SUBSTANCES WITH ASCORBIC ACID"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP93549\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/benzyl-benzoate-with-bismuth-oxide-bismuth-subgallate-hydrocortisone-acetate-peru-balsam-and-zinc-oxide/ointment\" basename=\"ointment\" title=\"Ointment\">\n<title>Ointment</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Anusol HC ointment <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">429711000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Benzyl benzoate 12.5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Bismuth oxide 8.75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Bismuth subgallate 22.5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone acetate 2.5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Peru Balsam 18.75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Zinc oxide 107.5&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.49</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Anusol Plus HC ointment <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">289611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Benzyl benzoate 12.5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Bismuth oxide 8.75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Bismuth subgallate 22.5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone acetate 2.5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Peru Balsam 18.75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Zinc oxide 107.5&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.03</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92540\" title=\"BENZYL BENZOATE WITH BISMUTH OXIDE, BISMUTH SUBGALLATE, HYDROCORTISONE ACETATE, PERU BALSAM AND ZINC OXIDE\" namespace=\"/drugs/benzyl-benzoate-with-bismuth-oxide-bismuth-subgallate-hydrocortisone-acetate-peru-balsam-and-zinc-oxide\">BENZYL BENZOATE WITH BISMUTH OXIDE, BISMUTH SUBGALLATE, HYDROCORTISONE ACETATE, PERU BALSAM AND ZINC OXIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP93549",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/benzyl-benzoate-with-bismuth-oxide-bismuth-subgallate-hydrocortisone-acetate-peru-balsam-and-zinc-oxide/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "products": [
+        {
+            "title": "Anusol HC ointment (McNeil Products Ltd) ",
+            "header": "Anusol HC ointment <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Anusol HC ointment",
+            "ampid": "429711000001108",
+            "strengthOfActiveIngredient": "Zinc oxide 107.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.49 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.49</ph>",
+                        "nhsIndicativePrice": "&#163;2.49"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Anusol Plus HC ointment (McNeil Products Ltd) ",
+            "header": "Anusol Plus HC ointment <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Anusol Plus HC ointment",
+            "ampid": "289611000001105",
+            "strengthOfActiveIngredient": "Zinc oxide 107.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram P ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.03 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.03</ph>",
+                        "nhsIndicativePrice": "&#163;3.03"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP92540",
+        "label": "BENZYL BENZOATE WITH BISMUTH OXIDE, BISMUTH SUBGALLATE, HYDROCORTISONE ACETATE, PERU BALSAM AND ZINC OXIDE"
+    }
+}

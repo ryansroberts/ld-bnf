@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP92189\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/benzalkonium-chloride/shampoo\" basename=\"shampoo\" title=\"Shampoo\">\n<title>Shampoo</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Dermax Therapeutic 0.5% shampoo <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">10853011000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Benzalkonium chloride 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.69</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP80615\" title=\"BENZALKONIUM CHLORIDE\" namespace=\"/drugs/benzalkonium-chloride\">BENZALKONIUM CHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP92189",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/benzalkonium-chloride/shampoo",
+    "basename": "shampoo",
+    "form": "Shampoo",
+    "products": [
+        {
+            "title": "Dermax Therapeutic 0.5% shampoo (Dermal Laboratories Ltd) ",
+            "header": "Dermax Therapeutic 0.5% shampoo <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>",
+            "manufacturer": "(Dermal Laboratories Ltd)",
+            "name": "Dermax Therapeutic 0.5% shampoo",
+            "ampid": "10853011000001108",
+            "strengthOfActiveIngredient": "Benzalkonium chloride 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 250 ml P ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.69 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.69</ph>",
+                        "nhsIndicativePrice": "&#163;5.69"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP80615",
+        "label": "BENZALKONIUM CHLORIDE"
+    }
+}

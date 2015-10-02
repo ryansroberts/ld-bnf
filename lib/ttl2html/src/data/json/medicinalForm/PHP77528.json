@@ -1,0 +1,55 @@
+{
+    "xml": "<topic id=\"PHP77528\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/diclofenac-sodium/dispersible-tablet\" basename=\"dispersible-tablet\" title=\"Dispersible tablet\">\n<title>Dispersible tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Voltarol 50mg dispersible tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3354811000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Diclofenac sodium 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">21</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.43</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;6.19</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6427\" title=\"DICLOFENAC SODIUM\" namespace=\"/drugs/diclofenac-sodium\">DICLOFENAC SODIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP77528",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/diclofenac-sodium/dispersible-tablet",
+    "basename": "dispersible-tablet",
+    "form": "Dispersible tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Voltarol 50mg dispersible tablets (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Voltarol 50mg dispersible tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Voltarol 50mg dispersible tablets",
+            "ampid": "3354811000001101",
+            "strengthOfActiveIngredient": "Diclofenac sodium 50 mg",
+            "packs": [
+                {
+                    "textContent": " 21 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">21</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "21",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.43 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.43</ph>",
+                        "nhsIndicativePrice": "&#163;7.43"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;6.19 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;6.19</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;6.19"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6427",
+        "label": "DICLOFENAC SODIUM"
+    }
+}

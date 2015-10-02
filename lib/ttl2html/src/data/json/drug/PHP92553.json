@@ -1,0 +1,154 @@
+{
+    "xml": "<topic id=\"PHP92553\" outputclass=\"drug\" rev=\"1.24\" type=\"drug\" namespace=\"/drugs/vitamins-a-c-and-d\" basename=\"vitamins-a-c-and-d\" title=\"VITAMINS A, C AND D\">\n<title>VITAMINS A, C AND D</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_766\" namespace=\"/interactions/list-of-drug-interactions/vitamins\">Vitamins</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP6221\" namespace=\"/drugs/ascorbic-acid\">ascorbic acid</xref>, <xref format=\"dita\" href=\"#PHP6190\" namespace=\"/drugs/vitamin-a\">vitamin A</xref>.</p>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_313655355\" title=\"Multivitamins\">Multivitamins</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP93093\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/drugs/vitamins-a-c-and-d\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of vitamin deficiency</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;4 years</p>\n<p>5&#8239;drops daily, 5 drops contain vitamin A approx. 700&#8239;units, vitamin D approx. 300&#8239;units (7.5&#8239;micrograms), ascorbic acid approx. 20&#8239;mg.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93107\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.25\" parent=\"/drugs/vitamins-a-c-and-d\">\n<title>Prescribing and dispensing information</title>\n<body>\r\n<section>\r\n<sectiondiv>\r\n<p>This drug contains vitamin D; consult individual vitamin D monographs.</p>\n</sectiondiv>\r\n<sectiondiv>\r\n<p>Available free of charge to children under 4 years in families on the Healthy Start Scheme, or alternatively may be available direct to the public&#8212;further information for healthcare professionals can be accessed at<xref format=\"html\" href=\"http://www.healthystart.nhs.uk\">www.healthystart.nhs.uk</xref>. Beneficiaries can contact their midwife or health visitor for further information on where to obtain supplies.</p>\n</sectiondiv>\r\n<sectiondiv>\r\n<p>\r\n<i>Healthy Start Vitamins for women</i> (containing ascorbic acid, vitamin D, and folic acid) are also available free of charge to women on the Healthy Start Scheme during pregnancy and until their baby is one year old, or alternatively may be available direct to the public&#8212;further information for healthcare professionals can be accessed at <xref format=\"html\" href=\"http://www.healthystart.nhs.uk\">www.healthystart.nhs.uk</xref>. Beneficiaries can contact their midwife or health visitor for further information on where to obtain supplies.</p>\n</sectiondiv>\n</section>\r\n</body>\n</topic>\n<topic id=\"PHP92553-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/vitamins-a-c-and-d\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101362\" title=\"Oral drops\" namespace=\"/drugs/vitamins-a-c-and-d/oral-drops\">Oral drops</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_766\" namespace=\"/interactions/list-of-drug-interactions/vitamins\" title=\"Vitamins\" count=\"1\" rel=\"link\">Vitamins</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6221\" namespace=\"/drugs/ascorbic-acid\" title=\"ASCORBIC ACID\" count=\"1\" rel=\"link\">ASCORBIC ACID</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6190\" namespace=\"/drugs/vitamin-a\" title=\"VITAMIN A\" count=\"1\" rel=\"link\">VITAMIN A</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101362\" namespace=\"/drugs/vitamins-a-c-and-d/oral-drops\" title=\"Oral drops\" count=\"1\" rel=\"link\">Oral drops</xref>\n</links>\n</topic>",
+    "id": "PHP92553",
+    "outputclass": "drug",
+    "rev": "1.24",
+    "type": "drug",
+    "namespace": "/drugs/vitamins-a-c-and-d",
+    "basename": "vitamins-a-c-and-d",
+    "title": "VITAMINS A, C AND D",
+    "interactants": [
+        {
+            "id": "bnf_int_766",
+            "label": "Vitamins"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP6221",
+            "label": "ascorbic acid"
+        },
+        {
+            "id": "PHP6190",
+            "label": "vitamin A"
+        }
+    ],
+    "drugClassification": [
+        "Multivitamins"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of vitamin deficiency",
+                        "html": "Prevention of vitamin deficiency"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "5 drops daily, 5 drops contain vitamin A approx. 700 units, vitamin D approx. 300 units (7.5 micrograms), ascorbic acid approx. 20 mg.",
+                        "html": "<p>5&#8239;drops daily, 5 drops contain vitamin A approx. 700&#8239;units, vitamin D approx. 300&#8239;units (7.5&#8239;micrograms), ascorbic acid approx. 20&#8239;mg.</p>",
+                        "ageGroup": "1 month&#8211;4 years"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "This drug contains vitamin D; consult individual vitamin D monographs.",
+                "html": "<p>This drug contains vitamin D; consult individual vitamin D monographs.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "references": [
+                    {
+                        "id": "http://www.healthystart.nhs.uk",
+                        "label": "www.healthystart.nhs.uk"
+                    }
+                ],
+                "textContent": "Available free of charge to children under 4 years in families on the Healthy Start Scheme, or alternatively may be available direct to the public&#8212;further information for healthcare professionals can be accessed atwww.healthystart.nhs.uk. Beneficiaries can contact their midwife or health visitor for further information on where to obtain supplies.",
+                "html": "<p>Available free of charge to children under 4 years in families on the Healthy Start Scheme, or alternatively may be available direct to the public&#8212;further information for healthcare professionals can be accessed at<xref format=\"html\" href=\"http://www.healthystart.nhs.uk\">www.healthystart.nhs.uk</xref>. Beneficiaries can contact their midwife or health visitor for further information on where to obtain supplies.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "references": [
+                    {
+                        "id": "http://www.healthystart.nhs.uk",
+                        "label": "www.healthystart.nhs.uk"
+                    }
+                ],
+                "textContent": "Healthy Start Vitamins for women (containing ascorbic acid, vitamin D, and folic acid) are also available free of charge to women on the Healthy Start Scheme during pregnancy and until their baby is one year old, or alternatively may be available direct to the public&#8212;further information for healthcare professionals can be accessed at www.healthystart.nhs.uk. Beneficiaries can contact their midwife or health visitor for further information on where to obtain supplies.",
+                "html": "<p>\r\n<i>Healthy Start Vitamins for women</i> (containing ascorbic acid, vitamin D, and folic acid) are also available free of charge to women on the Healthy Start Scheme during pregnancy and until their baby is one year old, or alternatively may be available direct to the public&#8212;further information for healthcare professionals can be accessed at <xref format=\"html\" href=\"http://www.healthystart.nhs.uk\">www.healthystart.nhs.uk</xref>. Beneficiaries can contact their midwife or health visitor for further information on where to obtain supplies.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP101362",
+                "label": "Oral drops",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_766",
+                "label": "Vitamins",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP6221",
+                "label": "ASCORBIC ACID",
+                "type": "drug"
+            },
+            {
+                "id": "PHP6190",
+                "label": "VITAMIN A",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP101362",
+                "label": "Oral drops",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "xml": "<topic id=\"PHP81599\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/salvacyl\" basename=\"salvacyl\" title=\"Salvacyl\">\n<title>Salvacyl<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82548\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/salvacyl\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Male hypersexuality with severe sexual deviation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>11.25&#8239;mg every 12&#8239;weeks.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP82545\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/salvacyl\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Severe osteoporosis</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP82541\" outputclass=\"cautions\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/salvacyl\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Increased risk of sensitivity to restored testosterone if treatment interrupted&#8212;consider administration of an antiandrogen before stopping treatment</ph>; <ph outputclass=\"caution\">transient increase in serum testosterone occurs on initiation&#8212;consider administration of an anti-androgen</ph>\n</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81599",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/salvacyl",
+    "basename": "salvacyl",
+    "title": "Salvacyl",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Male hypersexuality with severe sexual deviation",
+                        "html": "Male hypersexuality with severe sexual deviation"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "11.25 mg every 12 weeks.",
+                        "html": "<p>11.25&#8239;mg every 12&#8239;weeks.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Severe osteoporosis",
+                "html": "Severe osteoporosis"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Increased risk of sensitivity to restored testosterone if treatment interrupted&#8212;consider administration of an antiandrogen before stopping treatment",
+                "html": "Increased risk of sensitivity to restored testosterone if treatment interrupted&#8212;consider administration of an antiandrogen before stopping treatment"
+            },
+            {
+                "type": "cautions",
+                "textContent": "transient increase in serum testosterone occurs on initiation&#8212;consider administration of an anti-androgen",
+                "html": "transient increase in serum testosterone occurs on initiation&#8212;consider administration of an anti-androgen"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

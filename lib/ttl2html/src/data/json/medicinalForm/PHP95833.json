@@ -1,0 +1,69 @@
+{
+    "xml": "<topic id=\"PHP95833\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dydrogesterone-with-estradiol/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP95854\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/femoston-2-mg10-mg\">Femoston<tm tmtype=\"reg\"/> 2&#8239;mg/10&#8239;mg</xref>\r\n<xref format=\"dita\" href=\"#PHP95853\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/femoston-1-mg10-mg\">Femoston<tm tmtype=\"reg\"/> 1&#8239;mg/10&#8239;mg</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Femoston 1/10mg tablets <ph outputclass=\"manufacturer\">(BGP Products Ltd)</ph>\n</title>\n<data name=\"ampid\">3347911000001102</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">84</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.16</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Femoston 2/10mg tablets <ph outputclass=\"manufacturer\">(BGP Products Ltd)</ph>\n</title>\n<data name=\"ampid\">3349811000001104</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">84</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.16</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85592\" title=\"DYDROGESTERONE WITH ESTRADIOL\" namespace=\"/drugs/dydrogesterone-with-estradiol\">DYDROGESTERONE WITH ESTRADIOL</xref>\n</parents>\n</topic>",
+    "id": "PHP95833",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dydrogesterone-with-estradiol/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "productInformationGroups": [
+        {
+            "id": "PHP95854",
+            "label": "Femoston&reg;  2 mg/10 mg",
+            "html": "Femoston<tm tmtype=\"reg\"/> 2&#8239;mg/10&#8239;mg"
+        },
+        {
+            "id": "PHP95853",
+            "label": "Femoston&reg;  1 mg/10 mg",
+            "html": "Femoston<tm tmtype=\"reg\"/> 1&#8239;mg/10&#8239;mg"
+        }
+    ],
+    "products": [
+        {
+            "title": "Femoston 1/10mg tablets (BGP Products Ltd) ",
+            "header": "Femoston 1/10mg tablets <ph outputclass=\"manufacturer\">(BGP Products Ltd)</ph>",
+            "manufacturer": "(BGP Products Ltd)",
+            "name": "Femoston 1/10mg tablets",
+            "ampid": "3347911000001102",
+            "packs": [
+                {
+                    "textContent": " 84 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">84</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "84",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.16 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.16</ph>",
+                        "nhsIndicativePrice": "&#163;16.16"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Femoston 2/10mg tablets (BGP Products Ltd) ",
+            "header": "Femoston 2/10mg tablets <ph outputclass=\"manufacturer\">(BGP Products Ltd)</ph>",
+            "manufacturer": "(BGP Products Ltd)",
+            "name": "Femoston 2/10mg tablets",
+            "ampid": "3349811000001104",
+            "packs": [
+                {
+                    "textContent": " 84 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">84</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "84",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.16 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.16</ph>",
+                        "nhsIndicativePrice": "&#163;16.16"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85592",
+        "label": "DYDROGESTERONE WITH ESTRADIOL"
+    }
+}

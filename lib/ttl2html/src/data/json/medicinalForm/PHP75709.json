@@ -1,0 +1,93 @@
+{
+    "xml": "<topic id=\"PHP75709\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tobramycin/nebuliser-liquid\" basename=\"nebuliser-liquid\" title=\"Nebuliser liquid\">\n<title>Nebuliser liquid</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Tobi 300mg/5ml nebuliser solution 5ml ampoules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4125111000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tobramycin 60&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1305.92</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1187.20</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tymbrineb 300mg/5ml nebuliser solution 5ml ampoules <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">22768711000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tobramycin 60&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1127.84</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1187.20</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Bramitob 300mg/4ml nebuliser solution 4ml ampoules <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>\n</title>\n<data name=\"ampid\">14791111000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tobramycin 75&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1187.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3492\" title=\"TOBRAMYCIN\" namespace=\"/drugs/tobramycin\">TOBRAMYCIN</xref>\n</parents>\n</topic>",
+    "id": "PHP75709",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tobramycin/nebuliser-liquid",
+    "basename": "nebuliser-liquid",
+    "form": "Nebuliser liquid",
+    "products": [
+        {
+            "title": "Tobi 300mg/5ml nebuliser solution 5ml ampoules (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Tobi 300mg/5ml nebuliser solution 5ml ampoules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Tobi 300mg/5ml nebuliser solution 5ml ampoules",
+            "ampid": "4125111000001100",
+            "strengthOfActiveIngredient": "Tobramycin 60 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 56 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1305.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1305.92</ph>",
+                        "nhsIndicativePrice": "&#163;1305.92"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1187.20 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1187.20</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1187.20"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tymbrineb 300mg/5ml nebuliser solution 5ml ampoules (Teva UK Ltd) ",
+            "header": "Tymbrineb 300mg/5ml nebuliser solution 5ml ampoules <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "Tymbrineb 300mg/5ml nebuliser solution 5ml ampoules",
+            "ampid": "22768711000001101",
+            "strengthOfActiveIngredient": "Tobramycin 60 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 56 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1127.84 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1127.84</ph>",
+                        "nhsIndicativePrice": "&#163;1127.84"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1187.20 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1187.20</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1187.20"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Bramitob 300mg/4ml nebuliser solution 4ml ampoules (Chiesi Ltd) ",
+            "header": "Bramitob 300mg/4ml nebuliser solution 4ml ampoules <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>",
+            "manufacturer": "(Chiesi Ltd)",
+            "name": "Bramitob 300mg/4ml nebuliser solution 4ml ampoules",
+            "ampid": "14791111000001100",
+            "strengthOfActiveIngredient": "Tobramycin 75 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 56 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1187.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1187.00</ph>",
+                        "nhsIndicativePrice": "&#163;1187.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3492",
+        "label": "TOBRAMYCIN"
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "xml": "<topic id=\"PHP77142\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dihydrocodeine-tartrate/modified-release-tablet\" basename=\"modified-release-tablet\" title=\"Modified-release tablet\">\n<title>Modified-release tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>DHC Continus 60mg tablets <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3037111000001103</data>\n<p outputclass=\"controlledDrugs\">Schedule 5 (CD Inv)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dihydrocodeine tartrate 60&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.20</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.20</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>DHC Continus 90mg tablets <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3037511000001107</data>\n<p outputclass=\"controlledDrugs\">Schedule 5 (CD Inv)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dihydrocodeine tartrate 90&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.66</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;8.66</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>DHC Continus 120mg tablets <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3037811000001105</data>\n<p outputclass=\"controlledDrugs\">Schedule 5 (CD Inv)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dihydrocodeine tartrate 120&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.95</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;10.95</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2702\" title=\"DIHYDROCODEINE TARTRATE\" namespace=\"/drugs/dihydrocodeine-tartrate\">DIHYDROCODEINE TARTRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP77142",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dihydrocodeine-tartrate/modified-release-tablet",
+    "basename": "modified-release-tablet",
+    "form": "Modified-release tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "DHC Continus 60mg tablets (Napp Pharmaceuticals Ltd) ",
+            "header": "DHC Continus 60mg tablets <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Napp Pharmaceuticals Ltd)",
+            "name": "DHC Continus 60mg tablets",
+            "ampid": "3037111000001103",
+            "controlledDrugs": "Schedule 5 (CD Inv)",
+            "strengthOfActiveIngredient": "Dihydrocodeine tartrate 60 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.20 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.20</ph>",
+                        "nhsIndicativePrice": "&#163;5.20"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.20 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.20</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.20"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "DHC Continus 90mg tablets (Napp Pharmaceuticals Ltd) ",
+            "header": "DHC Continus 90mg tablets <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Napp Pharmaceuticals Ltd)",
+            "name": "DHC Continus 90mg tablets",
+            "ampid": "3037511000001107",
+            "controlledDrugs": "Schedule 5 (CD Inv)",
+            "strengthOfActiveIngredient": "Dihydrocodeine tartrate 90 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.66 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.66</ph>",
+                        "nhsIndicativePrice": "&#163;8.66"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;8.66 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;8.66</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;8.66"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "DHC Continus 120mg tablets (Napp Pharmaceuticals Ltd) ",
+            "header": "DHC Continus 120mg tablets <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Napp Pharmaceuticals Ltd)",
+            "name": "DHC Continus 120mg tablets",
+            "ampid": "3037811000001105",
+            "controlledDrugs": "Schedule 5 (CD Inv)",
+            "strengthOfActiveIngredient": "Dihydrocodeine tartrate 120 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.95</ph>",
+                        "nhsIndicativePrice": "&#163;10.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;10.95 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;10.95</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;10.95"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2702",
+        "label": "DIHYDROCODEINE TARTRATE"
+    }
+}

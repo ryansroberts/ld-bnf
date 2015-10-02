@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP92419\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/citric-acid-with-potassium-citrate/effervescent-tablet\" basename=\"effervescent-tablet\" title=\"Effervescent tablet\">\n<title>Effervescent tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Effercitrate tablets <ph outputclass=\"manufacturer\">(Cambridge Healthcare Supplies Ltd)</ph>\n</title>\n<data name=\"ampid\">3794611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Citric acid 250&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Potassium citrate 1.5&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.51</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88088\" title=\"CITRIC ACID WITH POTASSIUM CITRATE\" namespace=\"/drugs/citric-acid-with-potassium-citrate\">CITRIC ACID WITH POTASSIUM CITRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP92419",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/citric-acid-with-potassium-citrate/effervescent-tablet",
+    "basename": "effervescent-tablet",
+    "form": "Effervescent tablet",
+    "products": [
+        {
+            "title": "Effercitrate tablets (Cambridge Healthcare Supplies Ltd) ",
+            "header": "Effercitrate tablets <ph outputclass=\"manufacturer\">(Cambridge Healthcare Supplies Ltd)</ph>",
+            "manufacturer": "(Cambridge Healthcare Supplies Ltd)",
+            "name": "Effercitrate tablets",
+            "ampid": "3794611000001108",
+            "strengthOfActiveIngredient": "Potassium citrate 1.5 gram",
+            "packs": [
+                {
+                    "textContent": " 12 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.51 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.51</ph>",
+                        "nhsIndicativePrice": "&#163;3.51"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88088",
+        "label": "CITRIC ACID WITH POTASSIUM CITRATE"
+    }
+}

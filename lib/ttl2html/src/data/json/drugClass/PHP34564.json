@@ -1,0 +1,178 @@
+{
+    "xml": "<topic id=\"PHP34564\" outputclass=\"drugClass\" rev=\"1.13\" type=\"drugClass\" namespace=\"/drug-classes/bile-acid-sequestrants\" basename=\"bile-acid-sequestrants\" title=\"BILE ACID SEQUESTRANTS\">\n<title>BILE ACID SEQUESTRANTS </title>\n<topic id=\"PHP72906\" outputclass=\"drugAction\" rev=\"1.12\" parent=\"/drug-classes/bile-acid-sequestrants\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Bile acid sequestrants act by binding bile acids, preventing their reabsorption; this promotes hepatic conversion of cholesterol into bile acids; the resultant increased LDL-receptor activity of liver cells increases the clearance of LDL-cholesterol from the plasma.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72919\" outputclass=\"cautions\" rev=\"1.8\" parent=\"/drug-classes/bile-acid-sequestrants\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Interference with the absorption of fat-soluble vitamins (supplements of vitamins A, D, K, and folic acid may be required when treatment is prolonged).</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72826\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drug-classes/bile-acid-sequestrants\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Constipation</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal discomfort</ph>; <ph outputclass=\"sideEffect\">hypertriglyceridaemia (aggravation)</ph>; <ph outputclass=\"sideEffect\">hypoprothrombinaemia associated with vitamin K deficiency</ph>; <ph outputclass=\"sideEffect\">increased risk of bleeding</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72876\" outputclass=\"pregnancy\" parent=\"/drug-classes/bile-acid-sequestrants\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Bile acid sequestrants should be used with caution as although the drugs are not absorbed, they may cause fat-soluble vitamin deficiency on prolonged use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72922\" outputclass=\"breastFeeding\" parent=\"/drug-classes/bile-acid-sequestrants\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Bile acid sequestrants should be used with caution as although the drugs are not absorbed, they may cause fat-soluble vitamin deficiency on prolonged use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1658\" title=\"COLESEVELAM HYDROCHLORIDE\" namespace=\"/drugs/colesevelam-hydrochloride\">COLESEVELAM HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1665\" title=\"COLESTIPOL HYDROCHLORIDE\" namespace=\"/drugs/colestipol-hydrochloride\">COLESTIPOL HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP727\" title=\"COLESTYRAMINE\" namespace=\"/drugs/colestyramine\">COLESTYRAMINE</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1658\" namespace=\"/drugs/colesevelam-hydrochloride\" title=\"COLESEVELAM HYDROCHLORIDE\" count=\"1\" rel=\"link\">COLESEVELAM HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1665\" namespace=\"/drugs/colestipol-hydrochloride\" title=\"COLESTIPOL HYDROCHLORIDE\" count=\"1\" rel=\"link\">COLESTIPOL HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP727\" namespace=\"/drugs/colestyramine\" title=\"COLESTYRAMINE\" count=\"1\" rel=\"link\">COLESTYRAMINE</xref>\n</links>\n</topic>",
+    "id": "PHP34564",
+    "outputclass": "drugClass",
+    "rev": "1.13",
+    "type": "drugClass",
+    "namespace": "/drug-classes/bile-acid-sequestrants",
+    "basename": "bile-acid-sequestrants",
+    "title": "BILE ACID SEQUESTRANTS",
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Bile acid sequestrants act by binding bile acids, preventing their reabsorption; this promotes hepatic conversion of cholesterol into bile acids; the resultant increased LDL-receptor activity of liver cells increases the clearance of LDL-cholesterol from the plasma.",
+                "html": "<p>Bile acid sequestrants act by binding bile acids, preventing their reabsorption; this promotes hepatic conversion of cholesterol into bile acids; the resultant increased LDL-receptor activity of liver cells increases the clearance of LDL-cholesterol from the plasma.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Interference with the absorption of fat-soluble vitamins (supplements of vitamins A, D, K, and folic acid may be required when treatment is prolonged).",
+                "html": "Interference with the absorption of fat-soluble vitamins (supplements of vitamins A, D, K, and folic acid may be required when treatment is prolonged)."
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Constipation",
+                        "html": "Constipation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gastro-intestinal discomfort",
+                        "html": "gastro-intestinal discomfort",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypertriglyceridaemia (aggravation)",
+                        "html": "hypertriglyceridaemia (aggravation)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypoprothrombinaemia associated with vitamin K deficiency",
+                        "html": "hypoprothrombinaemia associated with vitamin K deficiency",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "increased risk of bleeding",
+                        "html": "increased risk of bleeding",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Bile acid sequestrants should be used with caution as although the drugs are not absorbed, they may cause fat-soluble vitamin deficiency on prolonged use.",
+                "html": "<p>Bile acid sequestrants should be used with caution as although the drugs are not absorbed, they may cause fat-soluble vitamin deficiency on prolonged use.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Bile acid sequestrants should be used with caution as although the drugs are not absorbed, they may cause fat-soluble vitamin deficiency on prolonged use.",
+                "html": "<p>Bile acid sequestrants should be used with caution as although the drugs are not absorbed, they may cause fat-soluble vitamin deficiency on prolonged use.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP1658",
+            "label": "COLESEVELAM HYDROCHLORIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP1665",
+            "label": "COLESTIPOL HYDROCHLORIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP727",
+            "label": "COLESTYRAMINE",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP1658",
+                "label": "COLESEVELAM HYDROCHLORIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1665",
+                "label": "COLESTIPOL HYDROCHLORIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP727",
+                "label": "COLESTYRAMINE",
+                "type": "drug"
+            }
+        ]
+    }
+}

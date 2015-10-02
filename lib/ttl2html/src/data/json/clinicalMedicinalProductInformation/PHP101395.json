@@ -1,0 +1,89 @@
+{
+    "xml": "<topic id=\"PHP101395\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/tostran\" basename=\"tostran\" title=\"Tostran\">\n<title>Tostran<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP101422\" outputclass=\"indicationsAndDose\" rev=\"1.24\" parent=\"/clinical-medicinal-product-information/tostran\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypogonadism due to testosterone deficiency in men</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 60&#8239;mg once daily, subsequent application adjusted according to response; maximum 80&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>1&#8239;g of gel contains 20&#8239;mg testosterone.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101466\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/tostran\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Allergic reactions</ph>; <ph outputclass=\"sideEffect\">local irritation</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101483\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/tostran\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Apply gel on clean, dry, intact skin of abdomen or both inner thighs, preferably in the morning. Gently rub in with a finger until dry before dressing. Wash hands with soap and water after applying gel; avoid washing application site for at least 2 hours. Not to be applied on genital area.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP101395",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/tostran",
+    "basename": "tostran",
+    "title": "Tostran",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypogonadism due to testosterone deficiency in men",
+                        "html": "Hypogonadism due to testosterone deficiency in men"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 60 mg once daily, subsequent application adjusted according to response; maximum 80 mg per day.",
+                        "html": "<p>Apply 60&#8239;mg once daily, subsequent application adjusted according to response; maximum 80&#8239;mg per day.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "1 g of gel contains 20 mg testosterone.",
+                "html": "<p>1&#8239;g of gel contains 20&#8239;mg testosterone.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Allergic reactions",
+                        "html": "Allergic reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "local irritation",
+                        "html": "local irritation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Apply gel on clean, dry, intact skin of abdomen or both inner thighs, preferably in the morning. Gently rub in with a finger until dry before dressing. Wash hands with soap and water after applying gel; avoid washing application site for at least 2 hours. Not to be applied on genital area.",
+                "html": "<p>Apply gel on clean, dry, intact skin of abdomen or both inner thighs, preferably in the morning. Gently rub in with a finger until dry before dressing. Wash hands with soap and water after applying gel; avoid washing application site for at least 2 hours. Not to be applied on genital area.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

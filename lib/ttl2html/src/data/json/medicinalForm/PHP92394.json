@@ -1,0 +1,73 @@
+{
+    "xml": "<topic id=\"PHP92394\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cetrimide-with-chlorhexidine/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Savlon antiseptic cream <ph outputclass=\"manufacturer\">(Novartis Consumer Health UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3712611000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Cetrimide 5&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 1&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;0.86</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.14</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.82</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.65</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88066\" title=\"CETRIMIDE WITH CHLORHEXIDINE\" namespace=\"/drugs/cetrimide-with-chlorhexidine\">CETRIMIDE WITH CHLORHEXIDINE</xref>\n</parents>\n</topic>",
+    "id": "PHP92394",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cetrimide-with-chlorhexidine/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "products": [
+        {
+            "title": "Savlon antiseptic cream (Novartis Consumer Health UK Ltd) ",
+            "header": "Savlon antiseptic cream <ph outputclass=\"manufacturer\">(Novartis Consumer Health UK Ltd)</ph>",
+            "manufacturer": "(Novartis Consumer Health UK Ltd)",
+            "name": "Savlon antiseptic cream",
+            "ampid": "3712611000001101",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 1 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;0.86 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;0.86</ph>",
+                        "nhsIndicativePrice": "&#163;0.86"
+                    }
+                },
+                {
+                    "textContent": " 30 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.14 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.14</ph>",
+                        "nhsIndicativePrice": "&#163;1.14"
+                    }
+                },
+                {
+                    "textContent": " 60 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.82 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.82</ph>",
+                        "nhsIndicativePrice": "&#163;1.82"
+                    }
+                },
+                {
+                    "textContent": " 100 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.65 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.65</ph>",
+                        "nhsIndicativePrice": "&#163;2.65"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88066",
+        "label": "CETRIMIDE WITH CHLORHEXIDINE"
+    }
+}

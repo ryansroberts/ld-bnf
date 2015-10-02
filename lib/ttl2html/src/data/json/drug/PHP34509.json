@@ -1,0 +1,155 @@
+{
+    "xml": "<topic id=\"PHP34509\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/tuberculin-purified-protein-derivative\" basename=\"tuberculin-purified-protein-derivative\" title=\"TUBERCULIN PURIFIED PROTEIN DERIVATIVE\">\n<title>TUBERCULIN PURIFIED PROTEIN DERIVATIVE</title>\n<body>\n<data name=\"vtmid\">423321003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_379610940\" title=\"Diagnostics\">Diagnostics</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<p outputclass=\"synonyms\">Tuberculin PPD</p>\n</body>\n<topic id=\"PHP62570\" outputclass=\"indicationsAndDose\" rev=\"1.23\" parent=\"/drugs/tuberculin-purified-protein-derivative\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mantoux test</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intradermal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>2&#8239;units for one dose.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>2&#8239;units for one dose.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mantoux test (if first test is negative and a further test is considered appropriate)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intradermal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>10&#8239;units for 1 dose.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8239;units for 1 dose.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>2&#8239;units is equivalent to 0.1&#8239;mL of 20&#8239;units/mL strength.</p>\n<p>10&#8239;units is equivalent to 0.1&#8239;mL of 100&#8239;units/mL strength.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62584\" outputclass=\"cautions\" rev=\"1.8\" parent=\"/drugs/tuberculin-purified-protein-derivative\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Mantoux test</p>\n<p>Response to tuberculin may be suppressed by live viral vaccines, viral infection, sarcoidosis, corticosteroid therapy, or immunosuppression due to disease or treatment. Tuberculin testing should not be carried out within 4 weeks of receiving a live viral vaccine.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80468\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.14\" parent=\"/drugs/tuberculin-purified-protein-derivative\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Available from ImmForm (SSI brand).</p>\n<p>The strength of tuberculin PPD in currently available products may be different to the strengths of products used previously for the Mantoux test; care is required to select the correct strength.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP34509-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/tuberculin-purified-protein-derivative\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: solution for injection</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8249\" namespace=\"/drugs/bacillus-calmette-gurin-vaccine\" title=\"BACILLUS CALMETTE-GU&#201;RIN VACCINE\" count=\"1\" rel=\"backlink\">BACILLUS CALMETTE-GU&#201;RIN VACCINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78335\" namespace=\"/treatment-summaries/vaccines\" title=\"Vaccines\" count=\"1\" rel=\"backlink\">Vaccines</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n</links>\n</topic>",
+    "id": "PHP34509",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/tuberculin-purified-protein-derivative",
+    "basename": "tuberculin-purified-protein-derivative",
+    "title": "TUBERCULIN PURIFIED PROTEIN DERIVATIVE",
+    "vtmid": "423321003",
+    "drugClassification": [
+        "Diagnostics"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "synonyms": [
+        "Tuberculin PPD"
+    ],
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mantoux test",
+                        "html": "Mantoux test"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intradermal injection"
+                    ],
+                    "textContent": "By intradermal injection",
+                    "html": "By intradermal injection"
+                },
+                "child": [
+                    {
+                        "textContent": "2 units for one dose.",
+                        "html": "<p>2&#8239;units for one dose.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "2 units for one dose.",
+                        "html": "<p>2&#8239;units for one dose.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Mantoux test (if first test is negative and a further test is considered appropriate)",
+                        "html": "Mantoux test (if first test is negative and a further test is considered appropriate)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intradermal injection"
+                    ],
+                    "textContent": "By intradermal injection",
+                    "html": "By intradermal injection"
+                },
+                "child": [
+                    {
+                        "textContent": "10 units for 1 dose.",
+                        "html": "<p>10&#8239;units for 1 dose.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "10 units for 1 dose.",
+                        "html": "<p>10&#8239;units for 1 dose.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "2 units is equivalent to 0.1 mL of 20 units/mL strength.\n\n10 units is equivalent to 0.1 mL of 100 units/mL strength.",
+                "html": "<p>2&#8239;units is equivalent to 0.1&#8239;mL of 20&#8239;units/mL strength.</p><p>10&#8239;units is equivalent to 0.1&#8239;mL of 100&#8239;units/mL strength.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Mantoux test",
+                "textContent": "Response to tuberculin may be suppressed by live viral vaccines, viral infection, sarcoidosis, corticosteroid therapy, or immunosuppression due to disease or treatment. Tuberculin testing should not be carried out within 4 weeks of receiving a live viral vaccine.",
+                "html": "<p>Response to tuberculin may be suppressed by live viral vaccines, viral infection, sarcoidosis, corticosteroid therapy, or immunosuppression due to disease or treatment. Tuberculin testing should not be carried out within 4 weeks of receiving a live viral vaccine.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Available from ImmForm (SSI brand).\n\nThe strength of tuberculin PPD in currently available products may be different to the strengths of products used previously for the Mantoux test; care is required to select the correct strength.",
+                "html": "<p>Available from ImmForm (SSI brand).</p><p>The strength of tuberculin PPD in currently available products may be different to the strengths of products used previously for the Mantoux test; care is required to select the correct strength.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "solution for injection"
+            ]
+        }
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP8249",
+                "label": "BACILLUS CALMETTE-GU&#201;RIN VACCINE",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78335",
+                "label": "Vaccines",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ]
+    }
+}

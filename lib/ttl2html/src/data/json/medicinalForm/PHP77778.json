@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP77778\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/alpha-tocopherol/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Vedrop 50mg/ml oral solution <ph outputclass=\"manufacturer\">(Orphan Europe (UK) Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">16184411000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">D-alpha tocopherol (as Tocofersolan) 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;54.55</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;163.65</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6275\" title=\"ALPHA TOCOPHEROL\" namespace=\"/drugs/alpha-tocopherol\">ALPHA TOCOPHEROL</xref>\n</parents>\n</topic>",
+    "id": "PHP77778",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/alpha-tocopherol/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "products": [
+        {
+            "title": "Vedrop 50mg/ml oral solution (Orphan Europe (UK) Ltd) &#9660; ",
+            "header": "Vedrop 50mg/ml oral solution <ph outputclass=\"manufacturer\">(Orphan Europe (UK) Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Orphan Europe (UK) Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Vedrop 50mg/ml oral solution",
+            "ampid": "16184411000001107",
+            "strengthOfActiveIngredient": "D-alpha tocopherol (as Tocofersolan) 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 20 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;54.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;54.55</ph>",
+                        "nhsIndicativePrice": "&#163;54.55"
+                    }
+                },
+                {
+                    "textContent": " 60 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;163.65 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;163.65</ph>",
+                        "nhsIndicativePrice": "&#163;163.65"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6275",
+        "label": "ALPHA TOCOPHEROL"
+    }
+}

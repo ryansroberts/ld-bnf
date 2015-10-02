@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP75726\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/prilocaine-hydrochloride/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81606\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/citanest-1%\">Citanest 1%<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP81607\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/prilotekal\">Prilotekal<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Citanest 1% solution for injection 50ml vials <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>\n</title>\n<data name=\"ampid\">5638011000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Prilocaine hydrochloride 10&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.06</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Prilotekal 100mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">17190211000001102</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Prilocaine hydrochloride 20&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;78.75</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8734\" title=\"PRILOCAINE HYDROCHLORIDE\" namespace=\"/drugs/prilocaine-hydrochloride\">PRILOCAINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75726",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/prilocaine-hydrochloride/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP81606",
+            "label": "Citanest 1%&reg;  ",
+            "html": "Citanest 1%<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP81607",
+            "label": "Prilotekal&reg;  ",
+            "html": "Prilotekal<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Citanest 1% solution for injection 50ml vials (AstraZeneca UK Ltd) ",
+            "header": "Citanest 1% solution for injection 50ml vials <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>",
+            "manufacturer": "(AstraZeneca UK Ltd)",
+            "name": "Citanest 1% solution for injection 50ml vials",
+            "ampid": "5638011000001100",
+            "strengthOfActiveIngredient": "Prilocaine hydrochloride 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.06 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.06</ph>",
+                        "nhsIndicativePrice": "&#163;5.06"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Prilotekal 100mg/5ml solution for injection ampoules (AMCo) ",
+            "header": "Prilotekal 100mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Prilotekal 100mg/5ml solution for injection ampoules",
+            "ampid": "17190211000001102",
+            "strengthOfActiveIngredient": "Prilocaine hydrochloride 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;78.75 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;78.75</ph>",
+                        "nhsIndicativePrice": "&#163;78.75"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8734",
+        "label": "PRILOCAINE HYDROCHLORIDE"
+    }
+}

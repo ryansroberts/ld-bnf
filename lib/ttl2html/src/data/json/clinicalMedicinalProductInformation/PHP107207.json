@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP107207\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/sebco-ointment\" basename=\"sebco-ointment\" title=\"Sebco ointment\">\n<title>Sebco<tm tmtype=\"reg\"/> ointment</title>\n<topic id=\"PHP107234\" outputclass=\"indicationsAndDose\" rev=\"1.28\" parent=\"/clinical-medicinal-product-information/sebco-ointment\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Scaly scalp disorders including psoriasis, eczema, seborrhoeic dermatitis and dandruff</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially to the skin using scalp ointment</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;11 years</p>\n<p>Medical supervision required.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply as required, alternatively (to the skin) apply daily for the first 3&#8211;7 days (if severe), shampoo off after 1 hour.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP107207",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/sebco-ointment",
+    "basename": "sebco-ointment",
+    "title": "Sebco ointment",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Scaly scalp disorders including psoriasis, eczema, seborrhoeic dermatitis and dandruff",
+                        "html": "Scaly scalp disorders including psoriasis, eczema, seborrhoeic dermatitis and dandruff"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially to the skin using scalp ointment"
+                    ],
+                    "textContent": "Initially to the skin using scalp ointment",
+                    "html": "Initially to the skin using scalp ointment"
+                },
+                "child": [
+                    {
+                        "textContent": "Medical supervision required.",
+                        "html": "<p>Medical supervision required.</p>",
+                        "ageGroup": "6&#8211;11 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply as required, alternatively (to the skin) apply daily for the first 3&#8211;7 days (if severe), shampoo off after 1 hour.",
+                        "html": "<p>Apply as required, alternatively (to the skin) apply daily for the first 3&#8211;7 days (if severe), shampoo off after 1 hour.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

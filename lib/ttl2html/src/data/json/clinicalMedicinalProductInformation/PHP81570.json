@@ -1,0 +1,108 @@
+{
+    "xml": "<topic id=\"PHP81570\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/ambisome\" basename=\"ambisome\" title=\"AmBisome\">\n<title>AmBisome<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP83590\" outputclass=\"indicationsAndDose\" rev=\"1.32\" parent=\"/clinical-medicinal-product-information/ambisome\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe systemic or deep mycoses where toxicity (particularly nephrotoxicity) precludes use of conventional amphotericin</p>\n<p outputclass=\"therapeuticIndication\">Suspected or proven infection in febrile neutropenic patients unresponsive to broad-spectrum antibacterials</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Test dose 1&#8239;mg, to be given over 10 minutes, then 3&#8239;mg/kg once daily; maximum 5&#8239;mg/kg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Aspergillosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Test dose 1&#8239;mg, to be given over 10 minutes, then 3&#8239;mg/kg once daily; maximum 5&#8239;mg/kg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Visceral leishmaniasis (unresponsive to the antimonial alone)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;3&#8239;mg/kg daily for 10&#8211;21 days to a cumulative dose of 21&#8211;30 mg/kg, alternatively 3&#8239;mg/kg for 5 consecutive days, followed by 3&#8239;mg/kg after 6&#8239;days for 1 dose.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83597\" outputclass=\"unlicensedUse\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/ambisome\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Use at the maximum dose of 5&#8239;mg/kg once daily is an unlicensed dose.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83598\" outputclass=\"directionsForAdministration\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/ambisome\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<b>Amphotericin (liposomal)</b>\n</p>\n<p>For <i>intravenous infusion</i> (<i>AmBisome</i>\n<tm tmtype=\"reg\"/>), give intermittently <i>in</i> Glucose 5% or 10%. Reconstitute each vial with 12&#8239;mL water for injections and shake vigorously to produce a preparation containing 4&#8239;mg/mL; withdraw requisite dose from vial and introduce into infusion fluid through the 5&#8239;micron filter provided to produce a final concentration of 0.2&#8211;2&#8239;mg/mL; infuse over 30&#8211;60 minutes, or if non-anaphylactic infusion-related reactions occur infuse over 2 hours (initial test dose of 1&#8239;mg over 10 minutes); an in-line filter (pore size no less than 1&#8239;micron) may be used; incompatible with sodium chloride solutions, flush existing intravenous line with glucose 5% or 10%, or use separate line.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81570",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/ambisome",
+    "basename": "ambisome",
+    "title": "AmBisome",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe systemic or deep mycoses where toxicity (particularly nephrotoxicity) precludes use of conventional amphotericin",
+                        "html": "Severe systemic or deep mycoses where toxicity (particularly nephrotoxicity) precludes use of conventional amphotericin"
+                    },
+                    {
+                        "textContent": "Suspected or proven infection in febrile neutropenic patients unresponsive to broad-spectrum antibacterials",
+                        "html": "Suspected or proven infection in febrile neutropenic patients unresponsive to broad-spectrum antibacterials"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Test dose 1 mg, to be given over 10 minutes, then 3 mg/kg once daily; maximum 5 mg/kg per day.",
+                        "html": "<p>Test dose 1&#8239;mg, to be given over 10 minutes, then 3&#8239;mg/kg once daily; maximum 5&#8239;mg/kg per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Aspergillosis",
+                        "html": "Aspergillosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Test dose 1 mg, to be given over 10 minutes, then 3 mg/kg once daily; maximum 5 mg/kg per day.",
+                        "html": "<p>Test dose 1&#8239;mg, to be given over 10 minutes, then 3&#8239;mg/kg once daily; maximum 5&#8239;mg/kg per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Visceral leishmaniasis (unresponsive to the antimonial alone)",
+                        "html": "Visceral leishmaniasis (unresponsive to the antimonial alone)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;3 mg/kg daily for 10&#8211;21 days to a cumulative dose of 21&#8211;30 mg/kg, alternatively 3 mg/kg for 5 consecutive days, followed by 3 mg/kg after 6 days for 1 dose.",
+                        "html": "<p>1&#8211;3&#8239;mg/kg daily for 10&#8211;21 days to a cumulative dose of 21&#8211;30 mg/kg, alternatively 3&#8239;mg/kg for 5 consecutive days, followed by 3&#8239;mg/kg after 6&#8239;days for 1 dose.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Use at the maximum dose of 5 mg/kg once daily is an unlicensed dose.",
+                "html": "<p>Use at the maximum dose of 5&#8239;mg/kg once daily is an unlicensed dose.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Amphotericin (liposomal)\n\nFor intravenous infusion (AmBisome ), give intermittently in Glucose 5% or 10%. Reconstitute each vial with 12 mL water for injections and shake vigorously to produce a preparation containing 4 mg/mL; withdraw requisite dose from vial and introduce into infusion fluid through the 5 micron filter provided to produce a final concentration of 0.2&#8211;2 mg/mL; infuse over 30&#8211;60 minutes, or if non-anaphylactic infusion-related reactions occur infuse over 2 hours (initial test dose of 1 mg over 10 minutes); an in-line filter (pore size no less than 1 micron) may be used; incompatible with sodium chloride solutions, flush existing intravenous line with glucose 5% or 10%, or use separate line.",
+                "html": "<p>\n<b>Amphotericin (liposomal)</b>\n</p><p>For <i>intravenous infusion</i> (<i>AmBisome</i>\n<tm tmtype=\"reg\"/>), give intermittently <i>in</i> Glucose 5% or 10%. Reconstitute each vial with 12&#8239;mL water for injections and shake vigorously to produce a preparation containing 4&#8239;mg/mL; withdraw requisite dose from vial and introduce into infusion fluid through the 5&#8239;micron filter provided to produce a final concentration of 0.2&#8211;2&#8239;mg/mL; infuse over 30&#8211;60 minutes, or if non-anaphylactic infusion-related reactions occur infuse over 2 hours (initial test dose of 1&#8239;mg over 10 minutes); an in-line filter (pore size no less than 1&#8239;micron) may be used; incompatible with sodium chloride solutions, flush existing intravenous line with glucose 5% or 10%, or use separate line.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

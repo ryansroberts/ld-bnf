@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP92311\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/calcium-carbonate-with-colecalciferol/effervescent-granules\" basename=\"effervescent-granules\" title=\"Effervescent granules\">\n<title>Effervescent granules</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Cacit D3 effervescent granules sachets <ph outputclass=\"manufacturer\">(Warner Chilcott UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3251311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calcium carbonate 1.25&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Colecalciferol 440&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.06</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.06</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Colecalciferol 880unit / Calcium carbonate 2.5g effervescent granules sachets <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">13208411000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calcium carbonate 2.5&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Colecalciferol 880&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">24</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88001\" title=\"CALCIUM CARBONATE WITH COLECALCIFEROL\" namespace=\"/drugs/calcium-carbonate-with-colecalciferol\">CALCIUM CARBONATE WITH COLECALCIFEROL</xref>\n</parents>\n</topic>",
+    "id": "PHP92311",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/calcium-carbonate-with-colecalciferol/effervescent-granules",
+    "basename": "effervescent-granules",
+    "form": "Effervescent granules",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "products": [
+        {
+            "title": "Cacit D3 effervescent granules sachets (Warner Chilcott UK Ltd) ",
+            "header": "Cacit D3 effervescent granules sachets <ph outputclass=\"manufacturer\">(Warner Chilcott UK Ltd)</ph>",
+            "manufacturer": "(Warner Chilcott UK Ltd)",
+            "name": "Cacit D3 effervescent granules sachets",
+            "ampid": "3251311000001104",
+            "strengthOfActiveIngredient": "Colecalciferol 440 unit",
+            "packs": [
+                {
+                    "textContent": " 30 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.06 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.06</ph>",
+                        "nhsIndicativePrice": "&#163;4.06"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.06 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.06</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.06"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Colecalciferol 880unit / Calcium carbonate 2.5g effervescent granules sachets (Sanofi) ",
+            "header": "Colecalciferol 880unit / Calcium carbonate 2.5g effervescent granules sachets <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Colecalciferol 880unit / Calcium carbonate 2.5g effervescent granules sachets",
+            "ampid": "13208411000001107",
+            "strengthOfActiveIngredient": "Colecalciferol 880 unit",
+            "packs": [
+                {
+                    "textContent": " 24 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">24</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "24",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88001",
+        "label": "CALCIUM CARBONATE WITH COLECALCIFEROL"
+    }
+}

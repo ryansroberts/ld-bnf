@@ -1,0 +1,82 @@
+{
+    "xml": "<topic id=\"PHP105719\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/dermalo\" basename=\"dermalo\" title=\"Dermalo\">\n<title>Dermalo<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP105759\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/dermalo\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dermatitis</p>\n<p outputclass=\"therapeuticIndication\">Dry skin conditions including eczema</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>5&#8211;10&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>15&#8211;20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>15&#8211;20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pruritus of the elderly</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>15&#8211;20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP105719",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/dermalo",
+    "basename": "dermalo",
+    "title": "Dermalo",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Dermatitis",
+                        "html": "Dermatitis"
+                    },
+                    {
+                        "textContent": "Dry skin conditions including eczema",
+                        "html": "Dry skin conditions including eczema"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "5&#8211;10 mL/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>5&#8211;10&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "15&#8211;20 mL/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>15&#8211;20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "15&#8211;20 mL/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>15&#8211;20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Pruritus of the elderly",
+                        "html": "Pruritus of the elderly"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "15&#8211;20 mL/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>15&#8211;20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

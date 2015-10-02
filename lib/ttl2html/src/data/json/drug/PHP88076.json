@@ -1,0 +1,134 @@
+{
+    "xml": "<topic id=\"PHP88076\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/lidocaine-with-phenylephrine\" basename=\"lidocaine-with-phenylephrine\" title=\"LIDOCAINE WITH PHENYLEPHRINE\">\n<title>LIDOCAINE WITH PHENYLEPHRINE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_55\" namespace=\"/interactions/list-of-drug-interactions/anti-arrhythmics/lidocaine\">Lidocaine</xref>, <xref format=\"dita\" href=\"#bnf_int_700\" namespace=\"/interactions/list-of-drug-interactions/sympathomimetics/phenylephrine\">Phenylephrine</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP928\" namespace=\"/drugs/lidocaine-hydrochloride\">lidocaine hydrochloride</xref>, <xref format=\"dita\" href=\"#PHP1432\" namespace=\"/drugs/phenylephrine-hydrochloride\">phenylephrine hydrochloride</xref>.</p>\n<data name=\"vtmid\">358534004</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_876717894\" title=\"Anaesthetics (local)\">Anaesthetics (local)</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_252514551\" title=\"Antiarrhythmics\">Antiarrhythmics</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_411296825\" title=\"Sympathomimetics (vasoconstrictor)\">Sympathomimetics (vasoconstrictor)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP90627\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/lidocaine-with-phenylephrine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Anaesthesia before nasal surgery, endoscopy, laryngoscopy, or removal of foreign bodies from the nose</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intranasal administration</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Up to 8&#8239;sprays.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88076-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/lidocaine-with-phenylephrine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92408\" title=\"Spray\" namespace=\"/drugs/lidocaine-with-phenylephrine/spray\">Spray</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"3\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_55\" namespace=\"/interactions/list-of-drug-interactions/anti-arrhythmics/lidocaine\" title=\"Lidocaine\" count=\"1\" rel=\"link\">Lidocaine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_700\" namespace=\"/interactions/list-of-drug-interactions/sympathomimetics/phenylephrine\" title=\"Phenylephrine\" count=\"1\" rel=\"link\">Phenylephrine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP928\" namespace=\"/drugs/lidocaine-hydrochloride\" title=\"LIDOCAINE HYDROCHLORIDE\" count=\"1\" rel=\"link\">LIDOCAINE HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1432\" namespace=\"/drugs/phenylephrine-hydrochloride\" title=\"PHENYLEPHRINE HYDROCHLORIDE\" count=\"1\" rel=\"link\">PHENYLEPHRINE HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92408\" namespace=\"/drugs/lidocaine-with-phenylephrine/spray\" title=\"Spray\" count=\"1\" rel=\"link\">Spray</xref>\n</links>\n</topic>",
+    "id": "PHP88076",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/lidocaine-with-phenylephrine",
+    "basename": "lidocaine-with-phenylephrine",
+    "title": "LIDOCAINE WITH PHENYLEPHRINE",
+    "interactants": [
+        {
+            "id": "bnf_int_55",
+            "label": "Lidocaine"
+        },
+        {
+            "id": "bnf_int_700",
+            "label": "Phenylephrine"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP928",
+            "label": "lidocaine hydrochloride"
+        },
+        {
+            "id": "PHP1432",
+            "label": "phenylephrine hydrochloride"
+        }
+    ],
+    "vtmid": "358534004",
+    "drugClassification": [
+        "Anaesthetics (local)",
+        "Antiarrhythmics",
+        "Sympathomimetics (vasoconstrictor)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Anaesthesia before nasal surgery, endoscopy, laryngoscopy, or removal of foreign bodies from the nose",
+                        "html": "Anaesthesia before nasal surgery, endoscopy, laryngoscopy, or removal of foreign bodies from the nose"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intranasal administration"
+                    ],
+                    "textContent": "By intranasal administration",
+                    "html": "By intranasal administration"
+                },
+                "adult": [
+                    {
+                        "textContent": "Up to 8 sprays.",
+                        "html": "<p>Up to 8&#8239;sprays.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92408",
+                "label": "Spray",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_55",
+                "label": "Lidocaine",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_700",
+                "label": "Phenylephrine",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP928",
+                "label": "LIDOCAINE HYDROCHLORIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1432",
+                "label": "PHENYLEPHRINE HYDROCHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92408",
+                "label": "Spray",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

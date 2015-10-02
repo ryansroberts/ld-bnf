@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP100214\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/moviprep\" basename=\"moviprep\" title=\"Moviprep\">\n<title>Moviprep<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP100223\" outputclass=\"indicationsAndDose\" rev=\"1.23\" parent=\"/clinical-medicinal-product-information/moviprep\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bowel evacuation for surgery, colonoscopy or radiological examination</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;litre daily for 2 doses: first dose of reconstituted solution taken on the evening before procedure and the second dose on the morning of procedure, alternatively 2&#8239;litres daily for 1 dose; reconstituted solution to be taken on the evening before the procedure, treatment should be completed at least 1 hour before colonoscopy.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP100247\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/moviprep\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>One pair of sachets (A and B) should be reconstituted in 1&#8239;litre of water and taken over 1&#8211;2 hours.</p>\n<p>1&#8239;litre of other clear fluid should also be taken during treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP100263\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/moviprep\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>1 pair of sachets (A+B) when reconstituted with 1&#8239;litre of water provides Na<sup>+</sup> 181.6&#8239; mmol (Na<sup>+</sup> 56.2&#8239;mmol absorbable), K<sup>+</sup> 14.2&#8239;mmol, Cl<sup>&#8211;</sup> 59.8&#8239;mmol.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP100214",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/moviprep",
+    "basename": "moviprep",
+    "title": "Moviprep",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Bowel evacuation for surgery, colonoscopy or radiological examination",
+                        "html": "Bowel evacuation for surgery, colonoscopy or radiological examination"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 litre daily for 2 doses: first dose of reconstituted solution taken on the evening before procedure and the second dose on the morning of procedure, alternatively 2 litres daily for 1 dose; reconstituted solution to be taken on the evening before the procedure, treatment should be completed at least 1 hour before colonoscopy.",
+                        "html": "<p>1&#8239;litre daily for 2 doses: first dose of reconstituted solution taken on the evening before procedure and the second dose on the morning of procedure, alternatively 2&#8239;litres daily for 1 dose; reconstituted solution to be taken on the evening before the procedure, treatment should be completed at least 1 hour before colonoscopy.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "One pair of sachets (A and B) should be reconstituted in 1 litre of water and taken over 1&#8211;2 hours.\n\n1 litre of other clear fluid should also be taken during treatment.",
+                "html": "<p>One pair of sachets (A and B) should be reconstituted in 1&#8239;litre of water and taken over 1&#8211;2 hours.</p><p>1&#8239;litre of other clear fluid should also be taken during treatment.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "1 pair of sachets (A+B) when reconstituted with 1 litre of water provides Na+ 181.6 mmol (Na+ 56.2 mmol absorbable), K+ 14.2 mmol, Cl&#8211; 59.8 mmol.",
+                "html": "<p>1 pair of sachets (A+B) when reconstituted with 1&#8239;litre of water provides Na<sup>+</sup> 181.6&#8239; mmol (Na<sup>+</sup> 56.2&#8239;mmol absorbable), K<sup>+</sup> 14.2&#8239;mmol, Cl<sup>&#8211;</sup> 59.8&#8239;mmol.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

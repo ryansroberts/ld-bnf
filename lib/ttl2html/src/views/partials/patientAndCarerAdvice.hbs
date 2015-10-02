@@ -1,0 +1,15 @@
+{{#if patientAndCarerAdvice.adviceAroundMissedDoses }}
+  {{#each patientAndCarerAdvice.adviceAroundMissedDoses }}
+    {{> advice }}
+  {{/each }}
+{{/if }}
+{{#if patientAndCarerAdvice.generalPatientAdvice }}
+  {{#each patientAndCarerAdvice.generalPatientAdvice }}
+    {{> advice }}
+  {{/each }}
+{{/if }}
+{{#if patientAndCarerAdvice.patientResources }}
+  {{#each patientAndCarerAdvice.patientResources }}
+    {{> advice }}
+  {{/each }}
+{{/if }}

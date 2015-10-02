@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP81548\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/ventolin-accuhaler\" basename=\"ventolin-accuhaler\" title=\"Ventolin Accuhaler\">\n<title>Ventolin Accuhaler<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82758\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/clinical-medicinal-product-information/ventolin-accuhaler\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute bronchospasm</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 200&#8239;micrograms, up to 4 times daily for persistent symptoms.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of allergen- or exercise-induced bronchospasm</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;micrograms.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81548",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/ventolin-accuhaler",
+    "basename": "ventolin-accuhaler",
+    "title": "Ventolin Accuhaler",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute bronchospasm",
+                        "html": "Acute bronchospasm"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 200 micrograms, up to 4 times daily for persistent symptoms.",
+                        "html": "<p>Initially 200&#8239;micrograms, up to 4 times daily for persistent symptoms.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of allergen- or exercise-induced bronchospasm",
+                        "html": "Prophylaxis of allergen- or exercise-induced bronchospasm"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "adult": [
+                    {
+                        "textContent": "200 micrograms.",
+                        "html": "<p>200&#8239;micrograms.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

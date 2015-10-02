@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP76391\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sterculia/granules\" basename=\"granules\" title=\"Granules\">\n<title>Granules</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n<p>Label <ph outputclass=\"labelNumber\">27</ph> - Take with a full glass of water </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Normacol granules <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">590511000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sterculia 620&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.85</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;6.85</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Normacol granules 7g sachets <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">832311000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sterculia 620&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.77</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.77</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP561\" title=\"STERCULIA\" namespace=\"/drugs/sterculia\">STERCULIA</xref>\n</parents>\n</topic>",
+    "id": "PHP76391",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sterculia/granules",
+    "basename": "granules",
+    "form": "Granules",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        },
+        {
+            "number": "27",
+            "textContent": "Take with a full glass of water",
+            "html": "Label <ph outputclass=\"labelNumber\">27</ph> - Take with a full glass of water"
+        }
+    ],
+    "products": [
+        {
+            "title": "Normacol granules (Norgine Pharmaceuticals Ltd) ",
+            "header": "Normacol granules <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Normacol granules",
+            "ampid": "590511000001105",
+            "strengthOfActiveIngredient": "Sterculia 620 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 500 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.85 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.85</ph>",
+                        "nhsIndicativePrice": "&#163;6.85"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;6.85 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;6.85</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;6.85"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Normacol granules 7g sachets (Norgine Pharmaceuticals Ltd) ",
+            "header": "Normacol granules 7g sachets <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Normacol granules 7g sachets",
+            "ampid": "832311000001109",
+            "strengthOfActiveIngredient": "Sterculia 620 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 60 sachet GSL ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.77 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.77</ph>",
+                        "nhsIndicativePrice": "&#163;5.77"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.77 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.77</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.77"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP561",
+        "label": "STERCULIA"
+    }
+}

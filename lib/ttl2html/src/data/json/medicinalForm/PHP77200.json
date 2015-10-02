@@ -1,0 +1,70 @@
+{
+    "xml": "<topic id=\"PHP77200\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/triamcinolone-acetonide/spray\" basename=\"spray\" title=\"Spray\">\n<title>Spray</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzalkonium chloride, disodium edetate, polysorbates</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Nasacort 55micrograms/dose nasal spray <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">269011000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Triamcinolone acetonide 55&#8239;microgram per 1&#8239;dose</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">120</ph>\n<ph outputclass=\"unitOfMeasure\">dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.39</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;7.39</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Nasacort Allergy 55micrograms/dose nasal spray <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">15249411000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Triamcinolone acetonide 55&#8239;microgram per 1&#8239;dose</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">dose</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.01</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7303\" title=\"TRIAMCINOLONE ACETONIDE\" namespace=\"/drugs/triamcinolone-acetonide\">TRIAMCINOLONE ACETONIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77200",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/triamcinolone-acetonide/spray",
+    "basename": "spray",
+    "form": "Spray",
+    "excipients": [
+        "Benzalkonium chloride",
+        "disodium edetate",
+        "polysorbates"
+    ],
+    "products": [
+        {
+            "title": "Nasacort 55micrograms/dose nasal spray (Sanofi) ",
+            "header": "Nasacort 55micrograms/dose nasal spray <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Nasacort 55micrograms/dose nasal spray",
+            "ampid": "269011000001101",
+            "strengthOfActiveIngredient": "Triamcinolone acetonide 55 microgram per 1 dose",
+            "packs": [
+                {
+                    "textContent": " 120 dose POM ",
+                    "html": "<ph outputclass=\"packSize\">120</ph> <ph outputclass=\"unitOfMeasure\">dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "120",
+                    "unitOfMeasure": "dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.39 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.39</ph>",
+                        "nhsIndicativePrice": "&#163;7.39"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;7.39 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;7.39</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;7.39"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Nasacort Allergy 55micrograms/dose nasal spray (Sanofi) ",
+            "header": "Nasacort Allergy 55micrograms/dose nasal spray <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Nasacort Allergy 55micrograms/dose nasal spray",
+            "ampid": "15249411000001104",
+            "strengthOfActiveIngredient": "Triamcinolone acetonide 55 microgram per 1 dose",
+            "packs": [
+                {
+                    "textContent": " 30 dose P ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">dose</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "dose",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.01 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.01</ph>",
+                        "nhsIndicativePrice": "&#163;3.01"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7303",
+        "label": "TRIAMCINOLONE ACETONIDE"
+    }
+}

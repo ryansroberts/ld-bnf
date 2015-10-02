@@ -1,0 +1,68 @@
+{
+    "xml": "<topic id=\"PHP74741\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dinoprostone/vaginal-gel\" basename=\"vaginal-gel\" title=\"Vaginal gel\">\n<title>Vaginal gel</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP78986\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/prostin-e2-vaginal-gel\">Prostin E2<tm tmtype=\"reg\"/> vaginal gel</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Prostin E2 1mg vaginal gel <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4410211000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Dinoprostone 400&#8239;microgram per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">2.5</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.28</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Prostin E2 2mg vaginal gel <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4407111000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Dinoprostone 800&#8239;microgram per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">2.5</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.28</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4769\" title=\"DINOPROSTONE\" namespace=\"/drugs/dinoprostone\">DINOPROSTONE</xref>\n</parents>\n</topic>",
+    "id": "PHP74741",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dinoprostone/vaginal-gel",
+    "basename": "vaginal-gel",
+    "form": "Vaginal gel",
+    "productInformationGroups": [
+        {
+            "id": "PHP78986",
+            "label": "Prostin E2&reg;  vaginal gel",
+            "html": "Prostin E2<tm tmtype=\"reg\"/> vaginal gel"
+        }
+    ],
+    "products": [
+        {
+            "title": "Prostin E2 1mg vaginal gel (Pfizer Ltd) ",
+            "header": "Prostin E2 1mg vaginal gel <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Prostin E2 1mg vaginal gel",
+            "ampid": "4410211000001107",
+            "strengthOfActiveIngredient": "Dinoprostone 400 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 2.5 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">2.5</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "2.5",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.28 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.28</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;13.28",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Prostin E2 2mg vaginal gel (Pfizer Ltd) ",
+            "header": "Prostin E2 2mg vaginal gel <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Prostin E2 2mg vaginal gel",
+            "ampid": "4407111000001103",
+            "strengthOfActiveIngredient": "Dinoprostone 800 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 2.5 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">2.5</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "2.5",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.28 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.28</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;13.28",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4769",
+        "label": "DINOPROSTONE"
+    }
+}

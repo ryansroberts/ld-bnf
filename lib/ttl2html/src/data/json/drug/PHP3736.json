@@ -1,0 +1,857 @@
+{
+    "xml": "<topic id=\"PHP3736\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/griseofulvin\" basename=\"griseofulvin\" title=\"GRISEOFULVIN\">\n<title>GRISEOFULVIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_291\" namespace=\"/interactions/list-of-drug-interactions/antifungals/griseofulvin\">Griseofulvin</xref>\n</p>\n<data name=\"vtmid\">64349004</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_451380871\" title=\"Antifungals\">Antifungals</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP58888\" outputclass=\"indicationsAndDose\" rev=\"1.41\" parent=\"/drugs/griseofulvin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Tinea pedis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 400&#8239;micrograms once daily, apply to an area approximately 13&#8239;cm<sup>2</sup>. increased if necessary to 1.2&#8239;mg once daily for maximum treatment duration of 4 weeks, allow each spray to dry between application.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dermatophyte infections where topical therapy has failed or is inappropriate</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>Usual dose 10&#8239;mg/kg daily (max. per dose 500&#8239;mg), alternatively 20&#8239;mg/kg daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>500&#8239;mg daily, alternatively 1&#8239;g daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg daily, alternatively 1&#8239;g daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Tinea capitis caused by <ph outputclass=\"organism\">\n<i>Trichophyton tonsurans</i>\n</ph>\n</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>15&#8211;20&#8239;mg/kg once daily (max. per dose 1&#8239;g), alternatively 15&#8211;20&#8239;mg/kg daily in divided doses.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>1&#8239;g once daily, alternatively 1&#8239;g daily in divided doses.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;g once daily, alternatively 1&#8239;g daily in divided doses.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58634\" outputclass=\"unlicensedUse\" rev=\"1.16\" parent=\"/drugs/griseofulvin\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Licensed for use in children (age range not specified by manufacturer).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in adults</p>\n<p>Griseofulvin doses in BNF may differ from those in product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58953\" outputclass=\"contraindications\" rev=\"1.22\" parent=\"/drugs/griseofulvin\">\n<title>Contra-indications</title>\n<body>\r\n<section outputclass=\"contraindications\">\r\n<sectiondiv outputclass=\"additionalContraindications\">\r\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\r\n<p outputclass=\"title\">With oral use</p>\r\n<p>\r\n<ph outputclass=\"contraindication\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"contraindication\">systemic lupus erythematosus (risk of exacerbation)</ph>\r\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP58960\" outputclass=\"cautions\" rev=\"1.13\" parent=\"/drugs/griseofulvin\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<sectiondiv outputclass=\"additionalCautions\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With topical use</p>\n<p>\n<ph outputclass=\"caution\">avoid contact with eyes and mucous membranes</ph> (in adults)</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58874\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/griseofulvin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (griseofulvin).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58707\" outputclass=\"sideEffects\" rev=\"1.18\" parent=\"/drugs/griseofulvin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"specificSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With oral use</p>\n<p>\n<ph outputclass=\"sideEffect\">erythema multiforme</ph>; <ph outputclass=\"sideEffect\">toxic epidermal necrolysis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With oral use</p>\n<p>\n<ph outputclass=\"sideEffect\">headache</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With oral use</p>\n<p>\n<ph outputclass=\"sideEffect\">abdominal pain</ph>; <ph outputclass=\"sideEffect\">agitation</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">glossitis</ph>; <ph outputclass=\"sideEffect\">hepatotoxicity</ph>; <ph outputclass=\"sideEffect\">impaired coordination</ph>; <ph outputclass=\"sideEffect\">impaired hearing</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">menstrual disturbances</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">peripheral neuropathy</ph>; <ph outputclass=\"sideEffect\">photosensitivity</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">renal failure</ph>; <ph outputclass=\"sideEffect\">sleep disturbances</ph>; <ph outputclass=\"sideEffect\">systemic lupus erythematosus</ph>; <ph outputclass=\"sideEffect\">taste disturbances</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With topical use</p>\n<p>\n<ph outputclass=\"sideEffect\">burning sensation</ph> (in adults); <ph outputclass=\"sideEffect\">erythema</ph> (in adults); <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph> (in adults); <ph outputclass=\"sideEffect\">itching</ph> (in adults); <ph outputclass=\"sideEffect\">occasional local irritation</ph> (in adults)</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use in adults</p>\n<p>Treatment should be discontinued if side-effects are severe.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58957\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/griseofulvin\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Effective contraception required during and for at least 1 month after administration to women (important: effectiveness of oral contraceptives may be reduced, additional contraceptive precautions e.g. barrier method, required).</p>\n<p>Men should avoid fathering a child during and for at least 6 months after administration</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58841\" outputclass=\"pregnancy\" parent=\"/drugs/griseofulvin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use in adults</p>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Avoid (fetotoxicity and teratogenicity in <i>animals</i>).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58970\" outputclass=\"breastFeeding\" parent=\"/drugs/griseofulvin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use in adults</p>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58925\" outputclass=\"hepaticImpairment\" parent=\"/drugs/griseofulvin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Avoid in severe liver disease.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58817\" outputclass=\"patientAndCarerAdvice\" rev=\"1.23\" parent=\"/drugs/griseofulvin\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\r\n<title>Driving and skilled tasks</title>\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\r\n<p outputclass=\"title\">Driving</p>\r\n<p>May impair performance of skilled tasks (e.g. driving); effects of alcohol enhanced.</p>\n</sectiondiv>\n</section>\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Griseofulvin for fungal infections</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/griseofulvin-for-fungal-infections\">www.medicinesforchildren.org.uk/griseofulvin-for-fungal-infections</xref>\n</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP3736-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/griseofulvin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral suspension</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77222\" title=\"Tablet\" namespace=\"/drugs/griseofulvin/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77229\" title=\"Spray\" namespace=\"/drugs/griseofulvin/spray\">Spray</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97237\" namespace=\"/guidance/adverse-reactions-to-drugs\" title=\"Adverse reactions to drugs\" count=\"1\" rel=\"backlink\">Adverse reactions to drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78234\" namespace=\"/treatment-summaries/antifungals-systemic-use\" title=\"Antifungals, systemic use\" count=\"4\" rel=\"backlink\">Antifungals, systemic use</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78284\" namespace=\"/treatment-summaries/skin-infections\" title=\"Skin infections\" count=\"1\" rel=\"backlink\">Skin infections</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_291\" namespace=\"/interactions/list-of-drug-interactions/antifungals/griseofulvin\" title=\"Griseofulvin\" count=\"1\" rel=\"link\">Griseofulvin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77222\" namespace=\"/drugs/griseofulvin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77229\" namespace=\"/drugs/griseofulvin/spray\" title=\"Spray\" count=\"1\" rel=\"link\">Spray</xref>\n</links>\n</topic>",
+    "id": "PHP3736",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/griseofulvin",
+    "basename": "griseofulvin",
+    "title": "GRISEOFULVIN",
+    "interactants": [
+        {
+            "id": "bnf_int_291",
+            "label": "Griseofulvin"
+        }
+    ],
+    "vtmid": "64349004",
+    "drugClassification": [
+        "Antifungals"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Tinea pedis",
+                        "html": "Tinea pedis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 400 micrograms once daily, apply to an area approximately 13 cm2. increased if necessary to 1.2 mg once daily for maximum treatment duration of 4 weeks, allow each spray to dry between application.",
+                        "html": "<p>Apply 400&#8239;micrograms once daily, apply to an area approximately 13&#8239;cm<sup>2</sup>. increased if necessary to 1.2&#8239;mg once daily for maximum treatment duration of 4 weeks, allow each spray to dry between application.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Dermatophyte infections where topical therapy has failed or is inappropriate",
+                        "html": "Dermatophyte infections where topical therapy has failed or is inappropriate"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Usual dose 10 mg/kg daily (max. per dose 500 mg), alternatively 20 mg/kg daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.",
+                        "html": "<p>Usual dose 10&#8239;mg/kg daily (max. per dose 500&#8239;mg), alternatively 20&#8239;mg/kg daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "500 mg daily, alternatively 1 g daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.",
+                        "html": "<p>500&#8239;mg daily, alternatively 1&#8239;g daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "500 mg daily, alternatively 1 g daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.",
+                        "html": "<p>500&#8239;mg daily, alternatively 1&#8239;g daily, higher dose for severe infections; reduce dose when response occurs, daily dose may be taken once daily or in divided doses.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Tinea capitis caused by Trichophyton tonsurans",
+                        "html": "Tinea capitis caused by <ph outputclass=\"organism\"> <i>Trichophyton tonsurans</i> </ph>",
+                        "organism": "Trichophyton tonsurans"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth",
+                    "organism": "Trichophyton tonsurans"
+                },
+                "child": [
+                    {
+                        "textContent": "15&#8211;20 mg/kg once daily (max. per dose 1 g), alternatively 15&#8211;20 mg/kg daily in divided doses.",
+                        "html": "<p>15&#8211;20&#8239;mg/kg once daily (max. per dose 1&#8239;g), alternatively 15&#8211;20&#8239;mg/kg daily in divided doses.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "1 g once daily, alternatively 1 g daily in divided doses.",
+                        "html": "<p>1&#8239;g once daily, alternatively 1&#8239;g daily in divided doses.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "1 g once daily, alternatively 1 g daily in divided doses.",
+                        "html": "<p>1&#8239;g once daily, alternatively 1&#8239;g daily in divided doses.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Licensed for use in children (age range not specified by manufacturer).",
+                "html": "<p>Licensed for use in children (age range not specified by manufacturer).</p>"
+            },
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With oral use in adults",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Griseofulvin doses in BNF may differ from those in product literature.",
+                "html": "<p>Griseofulvin doses in BNF may differ from those in product literature.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With oral use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "systemic lupus erythematosus (risk of exacerbation)",
+                "html": "systemic lupus erythematosus (risk of exacerbation)",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With oral use",
+                    "routes": [
+                        "oral"
+                    ]
+                }
+            }
+        ]
+    },
+    "cautions": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid contact with eyes and mucous membranes in adults",
+                "html": "avoid contact with eyes and mucous membranes in adults",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With topical use",
+                    "routes": [
+                        "topical"
+                    ],
+                    "patientType": "adults"
+                }
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (griseofulvin).",
+                "html": "<p>Appendix 1 (griseofulvin).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "specific": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "erythema multiforme",
+                        "html": "erythema multiforme",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "toxic epidermal necrolysis",
+                        "html": "toxic epidermal necrolysis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "abdominal pain",
+                        "html": "abdominal pain",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "agitation",
+                        "html": "agitation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "glossitis",
+                        "html": "glossitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "hepatotoxicity",
+                        "html": "hepatotoxicity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "impaired coordination",
+                        "html": "impaired coordination",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "impaired hearing",
+                        "html": "impaired hearing",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "menstrual disturbances",
+                        "html": "menstrual disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "peripheral neuropathy",
+                        "html": "peripheral neuropathy",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "photosensitivity",
+                        "html": "photosensitivity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "renal failure",
+                        "html": "renal failure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "sleep disturbances",
+                        "html": "sleep disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "systemic lupus erythematosus",
+                        "html": "systemic lupus erythematosus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "taste disturbances",
+                        "html": "taste disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "burning sensation in adults",
+                        "html": "burning sensation in adults",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ],
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "erythema in adults",
+                        "html": "erythema in adults",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ],
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "hypersensitivity reactions in adults",
+                        "html": "hypersensitivity reactions in adults",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ],
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "itching in adults",
+                        "html": "itching in adults",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ],
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "occasional local irritation in adults",
+                        "html": "occasional local irritation in adults",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ],
+                            "patientType": "adults"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "With topical use in adults",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Treatment should be discontinued if side-effects are severe.",
+                "html": "<p>Treatment should be discontinued if side-effects are severe.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Effective contraception required during and for at least 1 month after administration to women (important: effectiveness of oral contraceptives may be reduced, additional contraceptive precautions e.g. barrier method, required).\n\nMen should avoid fathering a child during and for at least 6 months after administration",
+                "html": "<p>Effective contraception required during and for at least 1 month after administration to women (important: effectiveness of oral contraceptives may be reduced, additional contraceptive precautions e.g. barrier method, required).</p><p>Men should avoid fathering a child during and for at least 6 months after administration</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With topical use in adults",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid (fetotoxicity and teratogenicity in animals).",
+                "html": "<p>Avoid (fetotoxicity and teratogenicity in <i>animals</i>).</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With topical use in adults",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid&#8212;no information available.",
+                "html": "<p>Avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid in severe liver disease.",
+                "html": "<p>Avoid in severe liver disease.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "title": "Driving",
+                "textContent": "May impair performance of skilled tasks (e.g. driving); effects of alcohol enhanced.",
+                "html": "<p>May impair performance of skilled tasks (e.g. driving); effects of alcohol enhanced.</p>"
+            }
+        ],
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/griseofulvin-for-fungal-infections",
+                        "label": "www.medicinesforchildren.org.uk/griseofulvin-for-fungal-infections"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Griseofulvin for fungal infections",
+                "textContent": "www.medicinesforchildren.org.uk/griseofulvin-for-fungal-infections",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/griseofulvin-for-fungal-infections\">www.medicinesforchildren.org.uk/griseofulvin-for-fungal-infections</xref>\n</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral suspension"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77222",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77229",
+                "label": "Spray",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP97237",
+                "label": "Adverse reactions to drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78234",
+                "label": "Antifungals, systemic use",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78284",
+                "label": "Skin infections",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_291",
+                "label": "Griseofulvin",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77222",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77229",
+                "label": "Spray",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

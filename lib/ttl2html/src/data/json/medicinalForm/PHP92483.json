@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP92483\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/co-danthrusate/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">14</ph> (urine red) - This medicine may colour your urine. This is harmless </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Co-danthrusate 50mg/60mg/5ml oral suspension sugar free <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">29933811000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dantron 10&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Docusate sodium 12&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;89.92</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;89.92</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Normax oral suspension <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3001511000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dantron 10&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Docusate sodium 12&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;89.92</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;89.92</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88132\" title=\"CO-DANTHRUSATE\" namespace=\"/drugs/co-danthrusate\">CO-DANTHRUSATE</xref>\n</parents>\n</topic>",
+    "id": "PHP92483",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/co-danthrusate/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "14",
+            "textContent": "(urine red)This medicine may colour your urine. This is harmless",
+            "html": "Label <ph outputclass=\"labelNumber\">14</ph> (urine red) - This medicine may colour your urine. This is harmless"
+        }
+    ],
+    "products": [
+        {
+            "title": "Co-danthrusate 50mg/60mg/5ml oral suspension sugar free (A A H Pharmaceuticals Ltd) ",
+            "header": "Co-danthrusate 50mg/60mg/5ml oral suspension sugar free <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Co-danthrusate 50mg/60mg/5ml oral suspension sugar free",
+            "ampid": "29933811000001105",
+            "strengthOfActiveIngredient": "Docusate sodium 12 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 200 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;89.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;89.92</ph>",
+                        "nhsIndicativePrice": "&#163;89.92"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;89.92 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;89.92</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;89.92"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Normax oral suspension (Focus Pharmaceuticals Ltd) ",
+            "header": "Normax oral suspension <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Focus Pharmaceuticals Ltd)",
+            "name": "Normax oral suspension",
+            "ampid": "3001511000001108",
+            "strengthOfActiveIngredient": "Docusate sodium 12 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 200 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;89.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;89.92</ph>",
+                        "nhsIndicativePrice": "&#163;89.92"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;89.92 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;89.92</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;89.92"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88132",
+        "label": "CO-DANTHRUSATE"
+    }
+}

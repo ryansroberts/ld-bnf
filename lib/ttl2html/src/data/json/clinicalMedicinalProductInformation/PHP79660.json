@@ -1,0 +1,61 @@
+{
+    "xml": "<topic id=\"PHP79660\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/myfortic\" basename=\"myfortic\" title=\"Myfortic\">\n<title>Myfortic<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP80156\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/myfortic\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Renal transplantation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>720&#8239;mg twice daily, to be started within 72 hours of transplantation.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>Mycophenolic acid 720&#8239;mg is approximately equivalent to mycophenolate mofetil 1&#8239;g but avoid unnecessary switching because of pharmacokinetic differences.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80170\" outputclass=\"conceptionAndContraception\" parent=\"/clinical-medicinal-product-information/myfortic\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises that men should use condoms during treatment and for 13 weeks after last dose.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP79660",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/myfortic",
+    "basename": "myfortic",
+    "title": "Myfortic",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Renal transplantation",
+                        "html": "Renal transplantation"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "720 mg twice daily, to be started within 72 hours of transplantation.",
+                        "html": "<p>720&#8239;mg twice daily, to be started within 72 hours of transplantation.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Mycophenolic acid 720 mg is approximately equivalent to mycophenolate mofetil 1 g but avoid unnecessary switching because of pharmacokinetic differences.",
+                "html": "<p>Mycophenolic acid 720&#8239;mg is approximately equivalent to mycophenolate mofetil 1&#8239;g but avoid unnecessary switching because of pharmacokinetic differences.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises that men should use condoms during treatment and for 13 weeks after last dose.",
+                "html": "<p>Manufacturer advises that men should use condoms during treatment and for 13 weeks after last dose.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

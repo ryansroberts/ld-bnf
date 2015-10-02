@@ -1,0 +1,101 @@
+{
+    "xml": "<topic id=\"PHP98904\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dipipanone-hydrochloride-with-cyclizine/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Dipipanone 10mg / Cyclizine 30mg tablets <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">19180811000001109</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cyclizine hydrochloride 30&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dipipanone hydrochloride 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;272.02</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;272.02</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dipipanone 10mg / Cyclizine 30mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">19356611000001105</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cyclizine hydrochloride 30&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dipipanone hydrochloride 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;272.02</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;272.02</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dipipanone 10mg / Cyclizine 30mg tablets <ph outputclass=\"manufacturer\">(Phoenix Healthcare Distribution Ltd)</ph>\n</title>\n<data name=\"ampid\">23834411000001100</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cyclizine hydrochloride 30&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dipipanone hydrochloride 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;272.02</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP98627\" title=\"DIPIPANONE HYDROCHLORIDE WITH CYCLIZINE\" namespace=\"/drugs/dipipanone-hydrochloride-with-cyclizine\">DIPIPANONE HYDROCHLORIDE WITH CYCLIZINE</xref>\n</parents>\n</topic>",
+    "id": "PHP98904",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dipipanone-hydrochloride-with-cyclizine/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Dipipanone 10mg / Cyclizine 30mg tablets (AMCo) ",
+            "header": "Dipipanone 10mg / Cyclizine 30mg tablets <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Dipipanone 10mg / Cyclizine 30mg tablets",
+            "ampid": "19180811000001109",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Dipipanone hydrochloride 10 mg",
+            "packs": [
+                {
+                    "textContent": " 50 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;272.02 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;272.02</ph>",
+                        "nhsIndicativePrice": "&#163;272.02"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;272.02 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;272.02</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;272.02"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Dipipanone 10mg / Cyclizine 30mg tablets (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Dipipanone 10mg / Cyclizine 30mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Dipipanone 10mg / Cyclizine 30mg tablets",
+            "ampid": "19356611000001105",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Dipipanone hydrochloride 10 mg",
+            "packs": [
+                {
+                    "textContent": " 50 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;272.02 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;272.02</ph>",
+                        "nhsIndicativePrice": "&#163;272.02"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;272.02 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;272.02</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;272.02"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Dipipanone 10mg / Cyclizine 30mg tablets (Phoenix Healthcare Distribution Ltd) ",
+            "header": "Dipipanone 10mg / Cyclizine 30mg tablets <ph outputclass=\"manufacturer\">(Phoenix Healthcare Distribution Ltd)</ph>",
+            "manufacturer": "(Phoenix Healthcare Distribution Ltd)",
+            "name": "Dipipanone 10mg / Cyclizine 30mg tablets",
+            "ampid": "23834411000001100",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Dipipanone hydrochloride 10 mg",
+            "packs": [
+                {
+                    "textContent": " 50 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;272.02 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;272.02</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;272.02"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP98627",
+        "label": "DIPIPANONE HYDROCHLORIDE WITH CYCLIZINE"
+    }
+}

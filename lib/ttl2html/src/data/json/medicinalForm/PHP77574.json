@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP77574\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/nicotinamide/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Niatin 500mg capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">21035811000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Nicotinamide 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;89.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6210\" title=\"NICOTINAMIDE\" namespace=\"/drugs/nicotinamide\">NICOTINAMIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77574",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/nicotinamide/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Niatin 500mg capsules (Ennogen Healthcare Ltd) ",
+            "header": "Niatin 500mg capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Niatin 500mg capsules",
+            "ampid": "21035811000001109",
+            "strengthOfActiveIngredient": "Nicotinamide 500 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;89.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;89.00</ph>",
+                        "nhsIndicativePrice": "&#163;89.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6210",
+        "label": "NICOTINAMIDE"
+    }
+}

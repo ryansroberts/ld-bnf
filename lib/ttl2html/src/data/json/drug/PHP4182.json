@@ -1,0 +1,352 @@
+{
+    "xml": "<topic id=\"PHP4182\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/acarbose\" basename=\"acarbose\" title=\"ACARBOSE\">\n<title>ACARBOSE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/acarbose\">Acarbose</xref>\n</p>\n<data name=\"vtmid\">109077006</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_944533222\" title=\"Alpha glucosidase inhibitors\">Alpha glucosidase inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP50667\" outputclass=\"drugAction\" rev=\"1.13\" parent=\"/drugs/acarbose\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Acarbose, an inhibitor of intestinal alpha glucosidases, delays the digestion and absorption of starch and sucrose; it has a small but significant effect in lowering blood glucose.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50652\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/acarbose\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Diabetes mellitus inadequately controlled by diet or by diet with oral antidiabetic drugs</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 50&#8239;mg daily, then increased to 50&#8239;mg 3 times a day for 6&#8211;8 weeks, then increased if necessary to 100&#8239;mg 3 times a day (max. per dose 200&#8239;mg 3 times a day).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50675\" outputclass=\"contraindications\" rev=\"1.6\" parent=\"/drugs/acarbose\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Hernia</ph>; <ph outputclass=\"contraindication\">inflammatory bowel disease</ph>; <ph outputclass=\"contraindication\">predisposition to partial intestinal obstruction</ph>; <ph outputclass=\"contraindication\">previous abdominal surgery</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50688\" outputclass=\"cautions\" rev=\"1.7\" parent=\"/drugs/acarbose\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">May enhance hypoglycaemic effects of insulin and sulfonylureas (hypoglycaemic episodes may be treated with oral glucose but not with sucrose)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50649\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/acarbose\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (antidiabetics).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50602\" outputclass=\"sideEffects\" rev=\"1.10\" parent=\"/drugs/acarbose\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal distention and pain</ph>; <ph outputclass=\"sideEffect\">diarrhoea (may need to reduce dose or withdraw)</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">soft stools</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abnormal liver function tests</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">skin reactions</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hepatitis</ph>; <ph outputclass=\"sideEffect\">ileus</ph>; <ph outputclass=\"sideEffect\">jaundice</ph>; <ph outputclass=\"sideEffect\">oedema</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Antacids</p>\n<p>Antacids unlikely to be beneficial for treating side effects.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50644\" outputclass=\"pregnancy\" parent=\"/drugs/acarbose\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50698\" outputclass=\"breastFeeding\" parent=\"/drugs/acarbose\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50661\" outputclass=\"hepaticImpairment\" parent=\"/drugs/acarbose\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50627\" outputclass=\"renalImpairment\" parent=\"/drugs/acarbose\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 25&#8239;mL/ minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50515\" outputclass=\"monitoringRequirements\" parent=\"/drugs/acarbose\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor liver function.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50733\" outputclass=\"directionsForAdministration\" rev=\"1.7\" parent=\"/drugs/acarbose\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Tablets should be chewed with first mouthful of food or swallowed whole with a little liquid immediately before food.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50633\" outputclass=\"patientAndCarerAdvice\" rev=\"1.15\" parent=\"/drugs/acarbose\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Antacids unlikely to be beneficial for treating side-effects.</p>\n<p>To counteract possible hypoglycaemia, patients receiving insulin or a sulfonylurea as well as acarbose need to carry glucose (not sucrose&#8212;acarbose interferes with sucrose absorption).</p>\n<p>Patients should be given advice on how to administer acarbose tablets.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP4182-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/acarbose\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76106\" title=\"Tablet\" namespace=\"/drugs/acarbose/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78107\" namespace=\"/treatment-summaries/insulins-and-anti-diabetic-drugs\" title=\"Insulins and anti-diabetic drugs\" count=\"4\" rel=\"backlink\">Insulins and anti-diabetic drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/acarbose\" title=\"Acarbose\" count=\"1\" rel=\"link\">Acarbose</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76106\" namespace=\"/drugs/acarbose/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP4182",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/acarbose",
+    "basename": "acarbose",
+    "title": "ACARBOSE",
+    "interactants": [
+        {
+            "id": "bnf_int_1",
+            "label": "Acarbose"
+        }
+    ],
+    "vtmid": "109077006",
+    "drugClassification": [
+        "Alpha glucosidase inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Acarbose, an inhibitor of intestinal alpha glucosidases, delays the digestion and absorption of starch and sucrose; it has a small but significant effect in lowering blood glucose.",
+                "html": "<p>Acarbose, an inhibitor of intestinal alpha glucosidases, delays the digestion and absorption of starch and sucrose; it has a small but significant effect in lowering blood glucose.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Diabetes mellitus inadequately controlled by diet or by diet with oral antidiabetic drugs",
+                        "html": "Diabetes mellitus inadequately controlled by diet or by diet with oral antidiabetic drugs"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 50 mg daily, then increased to 50 mg 3 times a day for 6&#8211;8 weeks, then increased if necessary to 100 mg 3 times a day (max. per dose 200 mg 3 times a day).",
+                        "html": "<p>Initially 50&#8239;mg daily, then increased to 50&#8239;mg 3 times a day for 6&#8211;8 weeks, then increased if necessary to 100&#8239;mg 3 times a day (max. per dose 200&#8239;mg 3 times a day).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Hernia",
+                "html": "Hernia"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "inflammatory bowel disease",
+                "html": "inflammatory bowel disease"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "predisposition to partial intestinal obstruction",
+                "html": "predisposition to partial intestinal obstruction"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "previous abdominal surgery",
+                "html": "previous abdominal surgery"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "May enhance hypoglycaemic effects of insulin and sulfonylureas (hypoglycaemic episodes may be treated with oral glucose but not with sucrose)",
+                "html": "May enhance hypoglycaemic effects of insulin and sulfonylureas (hypoglycaemic episodes may be treated with oral glucose but not with sucrose)"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (antidiabetics).",
+                "html": "<p>Appendix 1 (antidiabetics).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal distention and pain",
+                        "html": "Abdominal distention and pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea (may need to reduce dose or withdraw)",
+                        "html": "diarrhoea (may need to reduce dose or withdraw)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "soft stools",
+                        "html": "soft stools",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Abnormal liver function tests",
+                        "html": "Abnormal liver function tests",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "skin reactions",
+                        "html": "skin reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Hepatitis",
+                        "html": "Hepatitis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "ileus",
+                        "html": "ileus",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "jaundice",
+                        "html": "jaundice",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "oedema",
+                        "html": "oedema",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Antacids",
+                "textContent": "Antacids unlikely to be beneficial for treating side effects.",
+                "html": "<p>Antacids unlikely to be beneficial for treating side effects.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid.",
+                "html": "<p>Avoid.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid.",
+                "html": "<p>Avoid.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid.",
+                "html": "<p>Avoid.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 25 mL/ minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 25&#8239;mL/ minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor liver function.",
+                "html": "<p>Monitor liver function.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Tablets should be chewed with first mouthful of food or swallowed whole with a little liquid immediately before food.",
+                "html": "<p>Tablets should be chewed with first mouthful of food or swallowed whole with a little liquid immediately before food.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Antacids unlikely to be beneficial for treating side-effects.\n\nTo counteract possible hypoglycaemia, patients receiving insulin or a sulfonylurea as well as acarbose need to carry glucose (not sucrose&#8212;acarbose interferes with sucrose absorption).\n\nPatients should be given advice on how to administer acarbose tablets.",
+                "html": "<p>Antacids unlikely to be beneficial for treating side-effects.</p><p>To counteract possible hypoglycaemia, patients receiving insulin or a sulfonylurea as well as acarbose need to carry glucose (not sucrose&#8212;acarbose interferes with sucrose absorption).</p><p>Patients should be given advice on how to administer acarbose tablets.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76106",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78107",
+                "label": "Insulins and anti-diabetic drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1",
+                "label": "Acarbose",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76106",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

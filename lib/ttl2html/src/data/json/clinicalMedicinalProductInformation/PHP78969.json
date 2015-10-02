@@ -1,0 +1,115 @@
+{
+    "xml": "<topic id=\"PHP78969\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/prostap-sr-dcs\" basename=\"prostap-sr-dcs\" title=\"Prostap SR DCS\">\n<title>Prostap SR DCS<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP79471\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/prostap-sr-dcs\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Locally advanced prostate cancer as an alternative to surgical castration</p>\n<p outputclass=\"therapeuticIndication\">Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer</p>\n<p outputclass=\"therapeuticIndication\">Metastatic prostate cancer</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3.75&#8239;mg every 1&#8239;month.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Endometriosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 3.75&#8239;mg for 1 dose, dose to be given as a single dose in first 5 days of menstrual cycle, then 3.75&#8239;mg every 1&#8239;month for maximum 6 months (course not to be repeated).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Endometrial thinning before intra-uterine surgery</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 3.75&#8239;mg for 1 dose, dose to be given as a single dose between day 3 and 5 of menstrual cycle, 5&#8211;6 weeks before surgery.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Reduction of size of uterine fibroids and of associated bleeding before surgery</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 3.75&#8239;mg every 1&#8239;month usually for 3&#8211;4 months (maximum 6 months).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78969",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/prostap-sr-dcs",
+    "basename": "prostap-sr-dcs",
+    "title": "Prostap SR DCS",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Locally advanced prostate cancer as an alternative to surgical castration",
+                        "html": "Locally advanced prostate cancer as an alternative to surgical castration"
+                    },
+                    {
+                        "textContent": "Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer",
+                        "html": "Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer"
+                    },
+                    {
+                        "textContent": "Metastatic prostate cancer",
+                        "html": "Metastatic prostate cancer"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by intramuscular injection",
+                    "html": "By subcutaneous injection or by intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "3.75 mg every 1 month.",
+                        "html": "<p>3.75&#8239;mg every 1&#8239;month.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Endometriosis",
+                        "html": "Endometriosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by intramuscular injection",
+                    "html": "By subcutaneous injection or by intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 3.75 mg for 1 dose, dose to be given as a single dose in first 5 days of menstrual cycle, then 3.75 mg every 1 month for maximum 6 months (course not to be repeated).",
+                        "html": "<p>Initially 3.75&#8239;mg for 1 dose, dose to be given as a single dose in first 5 days of menstrual cycle, then 3.75&#8239;mg every 1&#8239;month for maximum 6 months (course not to be repeated).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Endometrial thinning before intra-uterine surgery",
+                        "html": "Endometrial thinning before intra-uterine surgery"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by intramuscular injection",
+                    "html": "By subcutaneous injection or by intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 3.75 mg for 1 dose, dose to be given as a single dose between day 3 and 5 of menstrual cycle, 5&#8211;6 weeks before surgery.",
+                        "html": "<p>Initially 3.75&#8239;mg for 1 dose, dose to be given as a single dose between day 3 and 5 of menstrual cycle, 5&#8211;6 weeks before surgery.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Reduction of size of uterine fibroids and of associated bleeding before surgery",
+                        "html": "Reduction of size of uterine fibroids and of associated bleeding before surgery"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by intramuscular injection",
+                    "html": "By subcutaneous injection or by intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 3.75 mg every 1 month usually for 3&#8211;4 months (maximum 6 months).",
+                        "html": "<p>Initially 3.75&#8239;mg every 1&#8239;month usually for 3&#8211;4 months (maximum 6 months).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

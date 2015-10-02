@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP76336\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ipratropium-bromide/pressurised-inhalation\" basename=\"pressurised-inhalation\" title=\"Pressurised inhalation\">\n<title>Pressurised inhalation</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Atrovent 20micrograms/dose inhaler CFC free <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>\n</title>\n<data name=\"ampid\">7389911000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ipratropium bromide 20&#8239;microgram per 1&#8239;dose</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.56</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.56</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ipratropium bromide 20micrograms/dose inhaler CFC free <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">27872911000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ipratropium bromide 20&#8239;microgram per 1&#8239;dose</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.56</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.56</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1791\" title=\"IPRATROPIUM BROMIDE\" namespace=\"/drugs/ipratropium-bromide\">IPRATROPIUM BROMIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76336",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ipratropium-bromide/pressurised-inhalation",
+    "basename": "pressurised-inhalation",
+    "form": "Pressurised inhalation",
+    "products": [
+        {
+            "title": "Atrovent 20micrograms/dose inhaler CFC free (Boehringer Ingelheim Ltd) ",
+            "header": "Atrovent 20micrograms/dose inhaler CFC free <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>",
+            "manufacturer": "(Boehringer Ingelheim Ltd)",
+            "name": "Atrovent 20micrograms/dose inhaler CFC free",
+            "ampid": "7389911000001105",
+            "strengthOfActiveIngredient": "Ipratropium bromide 20 microgram per 1 dose",
+            "packs": [
+                {
+                    "textContent": " 200 dose POM ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.56</ph>",
+                        "nhsIndicativePrice": "&#163;5.56"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.56 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.56</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.56"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Ipratropium bromide 20micrograms/dose inhaler CFC free (A A H Pharmaceuticals Ltd) ",
+            "header": "Ipratropium bromide 20micrograms/dose inhaler CFC free <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Ipratropium bromide 20micrograms/dose inhaler CFC free",
+            "ampid": "27872911000001109",
+            "strengthOfActiveIngredient": "Ipratropium bromide 20 microgram per 1 dose",
+            "packs": [
+                {
+                    "textContent": " 200 dose POM ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.56</ph>",
+                        "nhsIndicativePrice": "&#163;5.56"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.56 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.56</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.56"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1791",
+        "label": "IPRATROPIUM BROMIDE"
+    }
+}

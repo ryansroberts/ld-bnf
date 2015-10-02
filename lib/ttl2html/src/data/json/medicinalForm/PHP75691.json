@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP75691\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tetracaine/gel\" basename=\"gel\" title=\"Gel\">\n<title>Gel</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Hydroxybenzoates (parabens)</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ametop 4% gel <ph outputclass=\"manufacturer\">(Smith &amp; Nephew Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">3718311000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tetracaine 40&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1.5</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.08</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">18</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8752\" title=\"TETRACAINE\" namespace=\"/drugs/tetracaine\">TETRACAINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75691",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tetracaine/gel",
+    "basename": "gel",
+    "form": "Gel",
+    "excipients": [
+        "Hydroxybenzoates (parabens)"
+    ],
+    "products": [
+        {
+            "title": "Ametop 4% gel (Smith & Nephew Healthcare Ltd) ",
+            "header": "Ametop 4% gel <ph outputclass=\"manufacturer\">(Smith &amp; Nephew Healthcare Ltd)</ph>",
+            "manufacturer": "(Smith & Nephew Healthcare Ltd)",
+            "name": "Ametop 4% gel",
+            "ampid": "3718311000001109",
+            "strengthOfActiveIngredient": "Tetracaine 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 1.5 gram P ",
+                    "html": "<ph outputclass=\"packSize\">1.5</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "1.5",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.08</ph>",
+                        "nhsIndicativePrice": "&#163;1.08"
+                    }
+                },
+                {
+                    "textContent": " 18 gram P ",
+                    "html": "<ph outputclass=\"packSize\">18</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "18",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8752",
+        "label": "TETRACAINE"
+    }
+}

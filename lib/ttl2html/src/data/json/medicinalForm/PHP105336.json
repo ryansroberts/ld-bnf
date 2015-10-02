@@ -1,0 +1,74 @@
+{
+    "xml": "<topic id=\"PHP105336\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/emollient-bath-and-shower-products-antimicrobial-containing/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Cetostearyl alcohol (including cetyl and stearyl alcohol)</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP105730\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/dermol-wash-emulsion\">Dermol<tm tmtype=\"reg\"/> wash emulsion</xref>\r\n<xref format=\"dita\" href=\"#PHP105728\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/dermol-200-shower-emollient\">Dermol<tm tmtype=\"reg\"/> 200 shower emollient</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Dermol 200 shower emollient <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">420611000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Benzalkonium chloride 1&#8239;mg per 1&#8239;gram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine hydrochloride 1&#8239;mg per 1&#8239;gram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Isopropyl myristate 25&#8239;mg per 1&#8239;gram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Liquid paraffin 25&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.55</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Dermol Wash cutaneous emulsion <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">19172611000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Benzalkonium chloride 1&#8239;mg per 1&#8239;gram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine hydrochloride 1&#8239;mg per 1&#8239;gram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Isopropyl myristate 25&#8239;mg per 1&#8239;gram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Liquid paraffin 25&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.55</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105073\" title=\"EMOLLIENT BATH AND SHOWER PRODUCTS, ANTIMICROBIAL-CONTAINING\" namespace=\"/drugs/emollient-bath-and-shower-products-antimicrobial-containing\">EMOLLIENT BATH AND SHOWER PRODUCTS, ANTIMICROBIAL-CONTAINING</xref>\n</parents>\n</topic>",
+    "id": "PHP105336",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/emollient-bath-and-shower-products-antimicrobial-containing/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "excipients": [
+        "Cetostearyl alcohol (including cetyl and stearyl alcohol)"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP105730",
+            "label": "Dermol&reg;  wash emulsion",
+            "html": "Dermol<tm tmtype=\"reg\"/> wash emulsion"
+        },
+        {
+            "id": "PHP105728",
+            "label": "Dermol&reg;  200 shower emollient",
+            "html": "Dermol<tm tmtype=\"reg\"/> 200 shower emollient"
+        }
+    ],
+    "products": [
+        {
+            "title": "Dermol 200 shower emollient (Dermal Laboratories Ltd) ",
+            "header": "Dermol 200 shower emollient <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>",
+            "manufacturer": "(Dermal Laboratories Ltd)",
+            "name": "Dermol 200 shower emollient",
+            "ampid": "420611000001105",
+            "strengthOfActiveIngredient": "Liquid paraffin 25 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 200 ml P ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.55</ph>",
+                        "nhsIndicativePrice": "&#163;3.55"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Dermol Wash cutaneous emulsion (Dermal Laboratories Ltd) ",
+            "header": "Dermol Wash cutaneous emulsion <ph outputclass=\"manufacturer\">(Dermal Laboratories Ltd)</ph>",
+            "manufacturer": "(Dermal Laboratories Ltd)",
+            "name": "Dermol Wash cutaneous emulsion",
+            "ampid": "19172611000001103",
+            "strengthOfActiveIngredient": "Liquid paraffin 25 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 200 ml P ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.55</ph>",
+                        "nhsIndicativePrice": "&#163;3.55"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP105073",
+        "label": "EMOLLIENT BATH AND SHOWER PRODUCTS, ANTIMICROBIAL-CONTAINING"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP76278\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/pivmecillinam-hydrochloride/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n<p>Label <ph outputclass=\"labelNumber\">27</ph> - Take with a full glass of water </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Selexid 200mg tablets <ph outputclass=\"manufacturer\">(LEO Pharma)</ph>\n</title>\n<data name=\"ampid\">3685611000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Pivmecillinam hydrochloride 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3357\" title=\"PIVMECILLINAM HYDROCHLORIDE\" namespace=\"/drugs/pivmecillinam-hydrochloride\">PIVMECILLINAM HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76278",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/pivmecillinam-hydrochloride/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "9",
+            "textContent": "Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        },
+        {
+            "number": "27",
+            "textContent": "Take with a full glass of water",
+            "html": "Label <ph outputclass=\"labelNumber\">27</ph> - Take with a full glass of water"
+        }
+    ],
+    "products": [
+        {
+            "title": "Selexid 200mg tablets (LEO Pharma) ",
+            "header": "Selexid 200mg tablets <ph outputclass=\"manufacturer\">(LEO Pharma)</ph>",
+            "manufacturer": "(LEO Pharma)",
+            "name": "Selexid 200mg tablets",
+            "ampid": "3685611000001102",
+            "strengthOfActiveIngredient": "Pivmecillinam hydrochloride 200 mg",
+            "packs": [
+                {
+                    "textContent": " 10 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.50</ph>",
+                        "nhsIndicativePrice": "&#163;4.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3357",
+        "label": "PIVMECILLINAM HYDROCHLORIDE"
+    }
+}

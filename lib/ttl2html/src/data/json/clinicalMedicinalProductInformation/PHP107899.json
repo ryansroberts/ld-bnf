@@ -1,0 +1,89 @@
+{
+    "xml": "<topic id=\"PHP107899\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/mirena20micrograms24hours-intrauterine-device\" basename=\"mirena20micrograms24hours-intrauterine-device\" title=\"Mirena20micrograms/24hours intrauterine device\">\n<title>Mirena<tm tmtype=\"reg\"/>20micrograms/24hours intrauterine device</title>\n<topic id=\"PHP107905\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/clinical-medicinal-product-information/mirena20micrograms24hours-intrauterine-device\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Contraception</p>\n<p outputclass=\"therapeuticIndication\">Menorrhagia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intra-uterine administration</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Females of childbearing potential</p>\n<p>Insert into uterine cavity within 7 days of onset of menstruation, or any time if replacement, or any time if reasonably certain woman is not pregnant and there is no risk of conception (additional precautions (e.g. barrier methods) necessary for next 7 days), or immediately after first-trimester termination by curettage; postpartum insertions should be delayed until at least 4 weeks after delivery; effective for 5 years.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of endometrial hyperplasia during oestrogen replacement therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intra-uterine administration</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Females of childbearing potential</p>\n<p>Insert during last days of menstruation or withdrawal bleeding or at any time if amenorrhoeic; effective for 4 years.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107901\" outputclass=\"cautions\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/mirena20micrograms24hours-intrauterine-device\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Advanced uterine atrophy</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107931\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/mirena20micrograms24hours-intrauterine-device\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>When system is removed (and not immediately replaced) and pregnancy is not desired, remove during the first few days of menstruation, otherwise additional precautions (e.g. barrier methods) should be used for at least 7 days before removal.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP107899",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/mirena20micrograms24hours-intrauterine-device",
+    "basename": "mirena20micrograms24hours-intrauterine-device",
+    "title": "Mirena20micrograms/24hours intrauterine device",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Contraception",
+                        "html": "Contraception"
+                    },
+                    {
+                        "textContent": "Menorrhagia",
+                        "html": "Menorrhagia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intra-uterine administration"
+                    ],
+                    "textContent": "By intra-uterine administration",
+                    "html": "By intra-uterine administration"
+                },
+                "adult": [
+                    {
+                        "textContent": "Insert into uterine cavity within 7 days of onset of menstruation, or any time if replacement, or any time if reasonably certain woman is not pregnant and there is no risk of conception (additional precautions (e.g. barrier methods) necessary for next 7 days), or immediately after first-trimester termination by curettage; postpartum insertions should be delayed until at least 4 weeks after delivery; effective for 5 years.",
+                        "html": "<p>Insert into uterine cavity within 7 days of onset of menstruation, or any time if replacement, or any time if reasonably certain woman is not pregnant and there is no risk of conception (additional precautions (e.g. barrier methods) necessary for next 7 days), or immediately after first-trimester termination by curettage; postpartum insertions should be delayed until at least 4 weeks after delivery; effective for 5 years.</p>",
+                        "ageGroup": "females of childbearing potential"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of endometrial hyperplasia during oestrogen replacement therapy",
+                        "html": "Prevention of endometrial hyperplasia during oestrogen replacement therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intra-uterine administration"
+                    ],
+                    "textContent": "By intra-uterine administration",
+                    "html": "By intra-uterine administration"
+                },
+                "adult": [
+                    {
+                        "textContent": "Insert during last days of menstruation or withdrawal bleeding or at any time if amenorrhoeic; effective for 4 years.",
+                        "html": "<p>Insert during last days of menstruation or withdrawal bleeding or at any time if amenorrhoeic; effective for 4 years.</p>",
+                        "ageGroup": "females of childbearing potential"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Advanced uterine atrophy",
+                "html": "Advanced uterine atrophy"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "When system is removed (and not immediately replaced) and pregnancy is not desired, remove during the first few days of menstruation, otherwise additional precautions (e.g. barrier methods) should be used for at least 7 days before removal.",
+                "html": "<p>When system is removed (and not immediately replaced) and pregnancy is not desired, remove during the first few days of menstruation, otherwise additional precautions (e.g. barrier methods) should be used for at least 7 days before removal.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

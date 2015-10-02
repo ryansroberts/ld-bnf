@@ -1,0 +1,81 @@
+{
+    "xml": "<topic id=\"PHP95836\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/conjugated-oestrogens-with-norgestrel/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP95852\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/prempak-c-125\">Prempak C<tm tmtype=\"reg\"/> 1.25</xref>\r\n<xref format=\"dita\" href=\"#PHP95851\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/prempak-c-0625\">Prempak C<tm tmtype=\"reg\"/> 0.625</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Prempak-C 0.625mg/0.15mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">3470811000001103</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">120</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.25</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;6.25</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Prempak-C 1.25mg/0.15mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">557911000001109</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">120</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.40</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;7.40</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88087\" title=\"CONJUGATED OESTROGENS WITH NORGESTREL\" namespace=\"/drugs/conjugated-oestrogens-with-norgestrel\">CONJUGATED OESTROGENS WITH NORGESTREL</xref>\n</parents>\n</topic>",
+    "id": "PHP95836",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/conjugated-oestrogens-with-norgestrel/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "productInformationGroups": [
+        {
+            "id": "PHP95852",
+            "label": "Prempak C&reg;  1.25",
+            "html": "Prempak C<tm tmtype=\"reg\"/> 1.25"
+        },
+        {
+            "id": "PHP95851",
+            "label": "Prempak C&reg;  0.625",
+            "html": "Prempak C<tm tmtype=\"reg\"/> 0.625"
+        }
+    ],
+    "products": [
+        {
+            "title": "Prempak-C 0.625mg/0.15mg tablets (Pfizer Ltd) ",
+            "header": "Prempak-C 0.625mg/0.15mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Prempak-C 0.625mg/0.15mg tablets",
+            "ampid": "3470811000001103",
+            "packs": [
+                {
+                    "textContent": " 120 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">120</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "120",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.25</ph>",
+                        "nhsIndicativePrice": "&#163;6.25"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;6.25 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;6.25</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;6.25"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Prempak-C 1.25mg/0.15mg tablets (Pfizer Ltd) ",
+            "header": "Prempak-C 1.25mg/0.15mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Prempak-C 1.25mg/0.15mg tablets",
+            "ampid": "557911000001109",
+            "packs": [
+                {
+                    "textContent": " 120 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">120</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "120",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.40</ph>",
+                        "nhsIndicativePrice": "&#163;7.40"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;7.40 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;7.40</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;7.40"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88087",
+        "label": "CONJUGATED OESTROGENS WITH NORGESTREL"
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "xml": "<topic id=\"PHP92562\" outputclass=\"drug\" rev=\"1.27\" type=\"drug\" namespace=\"/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar\" basename=\"arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar\" title=\"ARACHIS OIL EXTRACT OF COAL TAR WITH CADE OIL, COAL TAR, LIGHT LIQUID PARAFFIN AND TAR\">\n<title>ARACHIS OIL EXTRACT OF COAL TAR WITH CADE OIL, COAL TAR, LIGHT LIQUID PARAFFIN AND TAR </title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP105665\" namespace=\"/drugs/coal-tar\">coal tar</xref>.</p>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_219184260\" title=\"Tars\">Tars</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_518343898\" title=\"Paraffins\">Paraffins</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP93336\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Psoriasis</p>\n<p outputclass=\"therapeuticIndication\">Eczema</p>\n<p outputclass=\"therapeuticIndication\">Atopic dermatoses</p>\n<p outputclass=\"therapeuticIndication\">Pruritic dermatoses</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>2&#8211;4&#8239;capfuls/bath, alternatively 15&#8211;30&#8239;mL, to be added in an adult-size bath and soak for 20 minutes (proportionally less for a child's bath).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>2&#8211;4&#8239;capfuls/bath, alternatively 15&#8211;30&#8239;mL, to be added in an adult-size bath and soak for 20 minutes (proportionally less for a child's bath).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP92562-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93574\" title=\"Bath additive\" namespace=\"/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar/bath-additive\">Bath additive</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105665\" namespace=\"/drugs/coal-tar\" title=\"COAL TAR\" count=\"1\" rel=\"link\">COAL TAR</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93574\" namespace=\"/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar/bath-additive\" title=\"Bath additive\" count=\"1\" rel=\"link\">Bath additive</xref>\n</links>\n</topic>",
+    "id": "PHP92562",
+    "outputclass": "drug",
+    "rev": "1.27",
+    "type": "drug",
+    "namespace": "/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar",
+    "basename": "arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar",
+    "title": "ARACHIS OIL EXTRACT OF COAL TAR WITH CADE OIL, COAL TAR, LIGHT LIQUID PARAFFIN AND TAR",
+    "constituents": [
+        {
+            "id": "PHP105665",
+            "label": "coal tar"
+        }
+    ],
+    "drugClassification": [
+        "Tars",
+        "Paraffins"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Psoriasis",
+                        "html": "Psoriasis"
+                    },
+                    {
+                        "textContent": "Eczema",
+                        "html": "Eczema"
+                    },
+                    {
+                        "textContent": "Atopic dermatoses",
+                        "html": "Atopic dermatoses"
+                    },
+                    {
+                        "textContent": "Pruritic dermatoses",
+                        "html": "Pruritic dermatoses"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "2&#8211;4 capfuls/bath, alternatively 15&#8211;30 mL, to be added in an adult-size bath and soak for 20 minutes (proportionally less for a child's bath).",
+                        "html": "<p>2&#8211;4&#8239;capfuls/bath, alternatively 15&#8211;30&#8239;mL, to be added in an adult-size bath and soak for 20 minutes (proportionally less for a child's bath).</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "2&#8211;4 capfuls/bath, alternatively 15&#8211;30 mL, to be added in an adult-size bath and soak for 20 minutes (proportionally less for a child's bath).",
+                        "html": "<p>2&#8211;4&#8239;capfuls/bath, alternatively 15&#8211;30&#8239;mL, to be added in an adult-size bath and soak for 20 minutes (proportionally less for a child's bath).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP93574",
+                "label": "Bath additive",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP105665",
+                "label": "COAL TAR",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP93574",
+                "label": "Bath additive",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

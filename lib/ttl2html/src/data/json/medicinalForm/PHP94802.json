@@ -1,0 +1,123 @@
+{
+    "xml": "<topic id=\"PHP94802\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/estriol/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Arachis (peanut) oil, cetostearyl alcohol (including cetyl and stearyl alcohol), polysorbates</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP101382\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/gynest\">Gynest<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP101383\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/ovestin\">Ovestin<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Ovestin 1mg cream <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>\n</title>\n<data name=\"ampid\">623311000001109</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Estriol 1&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.45</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;4.45</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Estriol 0.01% cream <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">28090811000001102</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Estriol 100&#8239;microgram per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">80</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Estriol 0.01% cream <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">27925011000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Estriol 100&#8239;microgram per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">80</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Estriol 0.01% cream <ph outputclass=\"manufacturer\">(Marlborough Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">27327411000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Estriol 100&#8239;microgram per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">80</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94656\" title=\"ESTRIOL\" namespace=\"/drugs/estriol\">ESTRIOL</xref>\n</parents>\n</topic>",
+    "id": "PHP94802",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/estriol/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "excipients": [
+        "Arachis (peanut) oil",
+        "cetostearyl alcohol (including cetyl and stearyl alcohol)",
+        "polysorbates"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP101382",
+            "label": "Gynest&reg;  ",
+            "html": "Gynest<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP101383",
+            "label": "Ovestin&reg;  ",
+            "html": "Ovestin<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Ovestin 1mg cream (Aspen Pharma Trading Ltd) ",
+            "header": "Ovestin 1mg cream <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>",
+            "manufacturer": "(Aspen Pharma Trading Ltd)",
+            "name": "Ovestin 1mg cream",
+            "ampid": "623311000001109",
+            "strengthOfActiveIngredient": "Estriol 1 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.45 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.45</ph>",
+                        "nhsIndicativePrice": "&#163;4.45"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.45 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.45</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.45"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Estriol 0.01% cream (A A H Pharmaceuticals Ltd) ",
+            "header": "Estriol 0.01% cream <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Estriol 0.01% cream",
+            "ampid": "28090811000001102",
+            "strengthOfActiveIngredient": "Estriol 100 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 80 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">80</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "80",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Estriol 0.01% cream (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Estriol 0.01% cream <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Estriol 0.01% cream",
+            "ampid": "27925011000001107",
+            "strengthOfActiveIngredient": "Estriol 100 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 80 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">80</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "80",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Estriol 0.01% cream (Marlborough Pharmaceuticals Ltd) ",
+            "header": "Estriol 0.01% cream <ph outputclass=\"manufacturer\">(Marlborough Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Marlborough Pharmaceuticals Ltd)",
+            "name": "Estriol 0.01% cream",
+            "ampid": "27327411000001100",
+            "strengthOfActiveIngredient": "Estriol 100 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 80 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">80</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "80",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP94656",
+        "label": "ESTRIOL"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "xml": "<topic id=\"PHP75750\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/levobupivacaine/infusion\" basename=\"infusion\" title=\"Infusion\">\n<title>Infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Chirocaine 125mg/100ml infusion bags <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>\n</title>\n<data name=\"ampid\">9464811000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Levobupivacaine (as Levobupivacaine hydrochloride) 1.25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">24</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;174.22</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Chirocaine 250mg/200ml infusion bags <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>\n</title>\n<data name=\"ampid\">9465011000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Levobupivacaine (as Levobupivacaine hydrochloride) 1.25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8693\" title=\"LEVOBUPIVACAINE\" namespace=\"/drugs/levobupivacaine\">LEVOBUPIVACAINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75750",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/levobupivacaine/infusion",
+    "basename": "infusion",
+    "form": "Infusion",
+    "products": [
+        {
+            "title": "Chirocaine 125mg/100ml infusion bags (AbbVie Ltd) ",
+            "header": "Chirocaine 125mg/100ml infusion bags <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>",
+            "manufacturer": "(AbbVie Ltd)",
+            "name": "Chirocaine 125mg/100ml infusion bags",
+            "ampid": "9464811000001101",
+            "strengthOfActiveIngredient": "Levobupivacaine (as Levobupivacaine hydrochloride) 1.25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 24 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">24</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "24",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;174.22 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;174.22</ph>",
+                        "nhsIndicativePrice": "&#163;174.22"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Chirocaine 250mg/200ml infusion bags (AbbVie Ltd) ",
+            "header": "Chirocaine 250mg/200ml infusion bags <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>",
+            "manufacturer": "(AbbVie Ltd)",
+            "name": "Chirocaine 250mg/200ml infusion bags",
+            "ampid": "9465011000001106",
+            "strengthOfActiveIngredient": "Levobupivacaine (as Levobupivacaine hydrochloride) 1.25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 12 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8693",
+        "label": "LEVOBUPIVACAINE"
+    }
+}

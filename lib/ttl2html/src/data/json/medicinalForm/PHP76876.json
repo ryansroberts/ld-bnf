@@ -1,0 +1,81 @@
+{
+    "xml": "<topic id=\"PHP76876\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/procyclidine-hydrochloride/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Procyclidine 10mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">27874311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Procyclidine hydrochloride 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;75.08</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Procyclidine 10mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">27132211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Procyclidine hydrochloride 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;57.20</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Procyclidine 10mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Auden McKenzie (Pharma Division) Ltd)</ph>\n</title>\n<data name=\"ampid\">25933211000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Procyclidine hydrochloride 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;57.20</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3148\" title=\"PROCYCLIDINE HYDROCHLORIDE\" namespace=\"/drugs/procyclidine-hydrochloride\">PROCYCLIDINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76876",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/procyclidine-hydrochloride/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Procyclidine 10mg/2ml solution for injection ampoules (A A H Pharmaceuticals Ltd) ",
+            "header": "Procyclidine 10mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Procyclidine 10mg/2ml solution for injection ampoules",
+            "ampid": "27874311000001101",
+            "strengthOfActiveIngredient": "Procyclidine hydrochloride 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;75.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;75.08</ph>",
+                        "nhsIndicativePrice": "&#163;75.08"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Procyclidine 10mg/2ml solution for injection ampoules (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Procyclidine 10mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Procyclidine 10mg/2ml solution for injection ampoules",
+            "ampid": "27132211000001106",
+            "strengthOfActiveIngredient": "Procyclidine hydrochloride 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;57.20 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;57.20</ph>",
+                        "nhsIndicativePrice": "&#163;57.20"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Procyclidine 10mg/2ml solution for injection ampoules (Auden McKenzie (Pharma Division) Ltd) ",
+            "header": "Procyclidine 10mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Auden McKenzie (Pharma Division) Ltd)</ph>",
+            "manufacturer": "(Auden McKenzie (Pharma Division) Ltd)",
+            "name": "Procyclidine 10mg/2ml solution for injection ampoules",
+            "ampid": "25933211000001104",
+            "strengthOfActiveIngredient": "Procyclidine hydrochloride 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;57.20 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;57.20</ph>",
+                        "nhsIndicativePrice": "&#163;57.20"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3148",
+        "label": "PROCYCLIDINE HYDROCHLORIDE"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "xml": "<topic id=\"PHP106632\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/estradiol-with-levonorgestrel/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP106695\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/femseven-sequi\">FemSeven Sequi<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>FemSeven Sequi patches <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4711811000001109</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">patch</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.18</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">patch</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;37.54</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94803\" title=\"ESTRADIOL WITH LEVONORGESTREL\" namespace=\"/drugs/estradiol-with-levonorgestrel\">ESTRADIOL WITH LEVONORGESTREL</xref>\n</parents>\n</topic>",
+    "id": "PHP106632",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/estradiol-with-levonorgestrel/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "productInformationGroups": [
+        {
+            "id": "PHP106695",
+            "label": "FemSeven Sequi&reg;  ",
+            "html": "FemSeven Sequi<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "FemSeven Sequi patches (Teva UK Ltd) ",
+            "header": "FemSeven Sequi patches <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "FemSeven Sequi patches",
+            "ampid": "4711811000001109",
+            "packs": [
+                {
+                    "textContent": " 4 patch POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">patch</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "patch",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.18 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.18</ph>",
+                        "nhsIndicativePrice": "&#163;13.18"
+                    }
+                },
+                {
+                    "textContent": " 12 patch POM ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">patch</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "patch",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;37.54 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;37.54</ph>",
+                        "nhsIndicativePrice": "&#163;37.54"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP94803",
+        "label": "ESTRADIOL WITH LEVONORGESTREL"
+    }
+}

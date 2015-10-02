@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP95087\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/seretide-250-accuhaler\" basename=\"seretide-250-accuhaler\" title=\"Seretide 250 Accuhaler\">\n<title>Seretide 250 Accuhaler<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP95110\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/seretide-250-accuhaler\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of asthma</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By inhalation of powder</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>1&#8239;inhalation twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;inhalation twice daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95087",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/seretide-250-accuhaler",
+    "basename": "seretide-250-accuhaler",
+    "title": "Seretide 250 Accuhaler",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of asthma",
+                        "html": "Prophylaxis of asthma"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "inhalation of powder"
+                    ],
+                    "textContent": "By inhalation of powder",
+                    "html": "By inhalation of powder"
+                },
+                "child": [
+                    {
+                        "textContent": "1 inhalation twice daily.",
+                        "html": "<p>1&#8239;inhalation twice daily.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "1 inhalation twice daily.",
+                        "html": "<p>1&#8239;inhalation twice daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

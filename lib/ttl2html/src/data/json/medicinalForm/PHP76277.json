@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP76277\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/propamidine-isetionate/eye-ointment\" basename=\"eye-ointment\" title=\"Eye ointment\">\n<title>Eye ointment</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Brolene 0.15% eye ointment <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">3850211000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dibrompropamidine isetionate 1.5&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.92</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;3.49</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Golden Eye 0.15% ointment <ph outputclass=\"manufacturer\">(Cambridge Healthcare Supplies Ltd)</ph>\n</title>\n<data name=\"ampid\">3850411000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dibrompropamidine isetionate 1.5&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.49</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;3.49</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6846\" title=\"PROPAMIDINE ISETIONATE\" namespace=\"/drugs/propamidine-isetionate\">PROPAMIDINE ISETIONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76277",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/propamidine-isetionate/eye-ointment",
+    "basename": "eye-ointment",
+    "form": "Eye ointment",
+    "products": [
+        {
+            "title": "Brolene 0.15% eye ointment (Sanofi) ",
+            "header": "Brolene 0.15% eye ointment <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Brolene 0.15% eye ointment",
+            "ampid": "3850211000001108",
+            "strengthOfActiveIngredient": "Dibrompropamidine isetionate 1.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 gram P ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.92</ph>",
+                        "nhsIndicativePrice": "&#163;2.92"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.49 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.49</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.49"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Golden Eye 0.15% ointment (Cambridge Healthcare Supplies Ltd) ",
+            "header": "Golden Eye 0.15% ointment <ph outputclass=\"manufacturer\">(Cambridge Healthcare Supplies Ltd)</ph>",
+            "manufacturer": "(Cambridge Healthcare Supplies Ltd)",
+            "name": "Golden Eye 0.15% ointment",
+            "ampid": "3850411000001107",
+            "strengthOfActiveIngredient": "Dibrompropamidine isetionate 1.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 gram P ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.49 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.49</ph>",
+                        "nhsIndicativePrice": "&#163;3.49"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.49 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.49</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.49"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6846",
+        "label": "PROPAMIDINE ISETIONATE"
+    }
+}

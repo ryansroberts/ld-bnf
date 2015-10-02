@@ -1,0 +1,73 @@
+{
+    "xml": "<topic id=\"PHP78970\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/prostap-3-dcs\" basename=\"prostap-3-dcs\" title=\"Prostap 3 DCS\">\n<title>Prostap 3 DCS<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP79565\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/prostap-3-dcs\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Locally advanced prostate cancer as an alternative to surgical castration</p>\n<p outputclass=\"therapeuticIndication\">Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer</p>\n<p outputclass=\"therapeuticIndication\">Metastatic prostate cancer</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>11.25&#8239;mg every 3&#8239;months.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Endometriosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 11.25&#8239;mg for 1 dose, dose to be given as a single dose in first 5 days of menstrual cycle, then 11.25&#8239;mg every 3&#8239;months for maximum 6 months (course not to be repeated).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78970",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/prostap-3-dcs",
+    "basename": "prostap-3-dcs",
+    "title": "Prostap 3 DCS",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Locally advanced prostate cancer as an alternative to surgical castration",
+                        "html": "Locally advanced prostate cancer as an alternative to surgical castration"
+                    },
+                    {
+                        "textContent": "Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer",
+                        "html": "Adjuvant treatment to radiotherapy or radical prostatectomy in patients with high-risk localised or locally advanced prostate cancer"
+                    },
+                    {
+                        "textContent": "Metastatic prostate cancer",
+                        "html": "Metastatic prostate cancer"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "11.25 mg every 3 months.",
+                        "html": "<p>11.25&#8239;mg every 3&#8239;months.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Endometriosis",
+                        "html": "Endometriosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 11.25 mg for 1 dose, dose to be given as a single dose in first 5 days of menstrual cycle, then 11.25 mg every 3 months for maximum 6 months (course not to be repeated).",
+                        "html": "<p>Initially 11.25&#8239;mg for 1 dose, dose to be given as a single dose in first 5 days of menstrual cycle, then 11.25&#8239;mg every 3&#8239;months for maximum 6 months (course not to be repeated).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

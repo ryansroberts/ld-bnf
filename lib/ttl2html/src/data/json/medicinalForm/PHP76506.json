@@ -1,0 +1,52 @@
+{
+    "xml": "<topic id=\"PHP76506\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/oxcarbazepine/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines </p>\n<p>Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Propylene glycol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Trileptal 60mg/ml oral suspension <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">7315411000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Oxcarbazepine 60&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;48.96</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2918\" title=\"OXCARBAZEPINE\" namespace=\"/drugs/oxcarbazepine\">OXCARBAZEPINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76506",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/oxcarbazepine/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "3",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines",
+            "html": "Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines"
+        },
+        {
+            "number": "8",
+            "textContent": "Warning: Do not stop taking this medicine unless your doctor tells you to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop"
+        }
+    ],
+    "excipients": [
+        "Propylene glycol"
+    ],
+    "products": [
+        {
+            "title": "Trileptal 60mg/ml oral suspension (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Trileptal 60mg/ml oral suspension <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Trileptal 60mg/ml oral suspension",
+            "ampid": "7315411000001103",
+            "strengthOfActiveIngredient": "Oxcarbazepine 60 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 250 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;48.96 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;48.96</ph>",
+                        "nhsIndicativePrice": "&#163;48.96"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2918",
+        "label": "OXCARBAZEPINE"
+    }
+}

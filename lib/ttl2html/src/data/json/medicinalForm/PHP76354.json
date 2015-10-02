@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP76354\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/diflucortolone-valerate/ointment\" basename=\"ointment\" title=\"Ointment\">\n<title>Ointment</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\"> \r\n </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Nerisone 0.1% ointment <ph outputclass=\"manufacturer\">(Meadow Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">3961311000001108</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Diflucortolone valerate 1&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.59</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Nerisone Forte 0.3% ointment <ph outputclass=\"manufacturer\">(Meadow Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">3962011000001102</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Diflucortolone valerate 3&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.09</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7653\" title=\"DIFLUCORTOLONE VALERATE\" namespace=\"/drugs/diflucortolone-valerate\">DIFLUCORTOLONE VALERATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76354",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/diflucortolone-valerate/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "products": [
+        {
+            "title": "Nerisone 0.1% ointment (Meadow Laboratories Ltd) ",
+            "header": "Nerisone 0.1% ointment <ph outputclass=\"manufacturer\">(Meadow Laboratories Ltd)</ph>",
+            "manufacturer": "(Meadow Laboratories Ltd)",
+            "name": "Nerisone 0.1% ointment",
+            "ampid": "3961311000001108",
+            "strengthOfActiveIngredient": "Diflucortolone valerate 1 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.59 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.59</ph>",
+                        "nhsIndicativePrice": "&#163;1.59"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Nerisone Forte 0.3% ointment (Meadow Laboratories Ltd) ",
+            "header": "Nerisone Forte 0.3% ointment <ph outputclass=\"manufacturer\">(Meadow Laboratories Ltd)</ph>",
+            "manufacturer": "(Meadow Laboratories Ltd)",
+            "name": "Nerisone Forte 0.3% ointment",
+            "ampid": "3962011000001102",
+            "strengthOfActiveIngredient": "Diflucortolone valerate 3 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.09 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.09</ph>",
+                        "nhsIndicativePrice": "&#163;2.09"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7653",
+        "label": "DIFLUCORTOLONE VALERATE"
+    }
+}

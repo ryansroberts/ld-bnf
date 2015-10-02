@@ -1,0 +1,383 @@
+{
+    "xml": "<topic id=\"PHP34546\" outputclass=\"drugClass\" rev=\"1.13\" type=\"drugClass\" namespace=\"/drug-classes/penicillins\" basename=\"penicillins\" title=\"PENICILLINS\">\n<title>PENICILLINS</title>\n<topic id=\"PHP67202\" outputclass=\"drugAction\" rev=\"1.13\" parent=\"/drug-classes/penicillins\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>The penicillins are bactericidal and act by interfering with bacterial cell wall synthesis. They diffuse well into body tissues and fluids, but penetration into the cerebrospinal fluid is poor except when the meninges are inflamed. They are excreted in the urine in therapeutic concentrations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67318\" outputclass=\"cautions\" rev=\"1.13\" parent=\"/drug-classes/penicillins\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">History of allergy</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67118\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drug-classes/penicillins\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (penicillins).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66985\" outputclass=\"sideEffects\" rev=\"1.24\" parent=\"/drug-classes/penicillins\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anaphylaxis</ph>; <ph outputclass=\"sideEffect\">angioedema</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">fever</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">joint pains</ph>; <ph outputclass=\"sideEffect\">rashes</ph>; <ph outputclass=\"sideEffect\">serum sickness-like reaction</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Cerebral irritation</ph>; <ph outputclass=\"sideEffect\">CNS toxicity (including convulsions)</ph>; <ph outputclass=\"sideEffect\">coagulation disorders</ph>; <ph outputclass=\"sideEffect\">encephalopathy</ph>; <ph outputclass=\"sideEffect\">haemolytic anaemia</ph>; <ph outputclass=\"sideEffect\">interstitial nephritis</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Antibiotic-associated colitis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">CNS toxicity</p>\n<p>A rare but serious toxic effect of the penicillins is encephalopathy due to cerebral irritation. This may result from excessively high doses or in patients with severe renal failure. The penicillins should <b>not</b> be given by intrathecal injection because they can cause encephalopathy which may be fatal.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Diarrhoea</p>\n<p>Diarrhoea frequently occurs during oral penicillin therapy. It is most common with broad-spectrum penicillins, which can also cause antibiotic-associated colitis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67354\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.29\" parent=\"/drug-classes/penicillins\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityContraindications\">\n<sectiondiv>\n<p>The most important side-effect of the penicillins is hypersensitivity which causes rashes and anaphylaxis and can be fatal. Allergic reactions to penicillins occur in 1&#8211;10% of exposed individuals; anaphylactic reactions occur in fewer than 0.05% of treated patients. Patients with a history of atopic allergy (e.g. asthma, eczema, hay fever) are at a higher risk of anaphylactic reactions to penicillins. Individuals with a history of anaphylaxis, urticaria, or rash immediately after penicillin administration are at risk of immediate hypersensitivity to a penicillin; these individuals should not receive a penicillin.</p>\n<p>Individuals with a history of a minor rash (i.e. non-confluent, non-pruritic rash restricted to a small area of the body) or a rash that occurs more than 72 hours after penicillin administration are probably not allergic to penicillin and in these individuals a penicillin should not be withheld unnecessarily for serious infections; the possibility of an allergic reaction should, however, be borne in mind. Other beta-lactam antibiotics (including cephalosporins) can be used in these patients.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"allergyAndCrossSensitivityCrossSensitivity\">\n<sectiondiv>\n<p>Patients who are allergic to one penicillin will be allergic to all because the hypersensitivity is related to the basic penicillin structure. Patients with a history of immediate hypersensitivity to penicillins may also react to the cephalosporins and other beta-lactam antibiotics, they should not receive these antibiotics. If a penicillin (or another beta-lactam antibiotic) is essential in an individual with immediate hypersensitivity to penicillin then specialist advice should be sought on hypersensitivity testing or using a beta-lactam antibiotic with a different structure to the penicillin that caused the hypersensitivity.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3305\" title=\"BENZYLPENICILLIN SODIUM\" namespace=\"/drugs/benzylpenicillin-sodium\">BENZYLPENICILLIN SODIUM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3310\" title=\"PHENOXYMETHYLPENICILLIN\" namespace=\"/drugs/phenoxymethylpenicillin\">PHENOXYMETHYLPENICILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3315\" title=\"FLUCLOXACILLIN\" namespace=\"/drugs/flucloxacillin\">FLUCLOXACILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3320\" title=\"TEMOCILLIN\" namespace=\"/drugs/temocillin\">TEMOCILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3327\" title=\"AMOXICILLIN\" namespace=\"/drugs/amoxicillin\">AMOXICILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3330\" title=\"AMPICILLIN\" namespace=\"/drugs/ampicillin\">AMPICILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3337\" title=\"CO-AMOXICLAV\" namespace=\"/drugs/co-amoxiclav\">CO-AMOXICLAV</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3345\" title=\"CO-FLUAMPICIL\" namespace=\"/drugs/co-fluampicil\">CO-FLUAMPICIL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3350\" title=\"PIPERACILLIN WITH TAZOBACTAM\" namespace=\"/drugs/piperacillin-with-tazobactam\">PIPERACILLIN WITH TAZOBACTAM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3354\" title=\"TICARCILLIN WITH CLAVULANIC ACID\" namespace=\"/drugs/ticarcillin-with-clavulanic-acid\">TICARCILLIN WITH CLAVULANIC ACID</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3357\" title=\"PIVMECILLINAM HYDROCHLORIDE\" namespace=\"/drugs/pivmecillinam-hydrochloride\">PIVMECILLINAM HYDROCHLORIDE</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3305\" namespace=\"/drugs/benzylpenicillin-sodium\" title=\"BENZYLPENICILLIN SODIUM\" count=\"1\" rel=\"link\">BENZYLPENICILLIN SODIUM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3310\" namespace=\"/drugs/phenoxymethylpenicillin\" title=\"PHENOXYMETHYLPENICILLIN\" count=\"1\" rel=\"link\">PHENOXYMETHYLPENICILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3315\" namespace=\"/drugs/flucloxacillin\" title=\"FLUCLOXACILLIN\" count=\"1\" rel=\"link\">FLUCLOXACILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3320\" namespace=\"/drugs/temocillin\" title=\"TEMOCILLIN\" count=\"1\" rel=\"link\">TEMOCILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3327\" namespace=\"/drugs/amoxicillin\" title=\"AMOXICILLIN\" count=\"1\" rel=\"link\">AMOXICILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3330\" namespace=\"/drugs/ampicillin\" title=\"AMPICILLIN\" count=\"1\" rel=\"link\">AMPICILLIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3337\" namespace=\"/drugs/co-amoxiclav\" title=\"CO-AMOXICLAV\" count=\"1\" rel=\"link\">CO-AMOXICLAV</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3345\" namespace=\"/drugs/co-fluampicil\" title=\"CO-FLUAMPICIL\" count=\"1\" rel=\"link\">CO-FLUAMPICIL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3350\" namespace=\"/drugs/piperacillin-with-tazobactam\" title=\"PIPERACILLIN WITH TAZOBACTAM\" count=\"1\" rel=\"link\">PIPERACILLIN WITH TAZOBACTAM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3354\" namespace=\"/drugs/ticarcillin-with-clavulanic-acid\" title=\"TICARCILLIN WITH CLAVULANIC ACID\" count=\"1\" rel=\"link\">TICARCILLIN WITH CLAVULANIC ACID</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3357\" namespace=\"/drugs/pivmecillinam-hydrochloride\" title=\"PIVMECILLINAM HYDROCHLORIDE\" count=\"1\" rel=\"link\">PIVMECILLINAM HYDROCHLORIDE</xref>\n</links>\n</topic>",
+    "id": "PHP34546",
+    "outputclass": "drugClass",
+    "rev": "1.13",
+    "type": "drugClass",
+    "namespace": "/drug-classes/penicillins",
+    "basename": "penicillins",
+    "title": "PENICILLINS",
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "The penicillins are bactericidal and act by interfering with bacterial cell wall synthesis. They diffuse well into body tissues and fluids, but penetration into the cerebrospinal fluid is poor except when the meninges are inflamed. They are excreted in the urine in therapeutic concentrations.",
+                "html": "<p>The penicillins are bactericidal and act by interfering with bacterial cell wall synthesis. They diffuse well into body tissues and fluids, but penetration into the cerebrospinal fluid is poor except when the meninges are inflamed. They are excreted in the urine in therapeutic concentrations.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "History of allergy",
+                "html": "History of allergy"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (penicillins).",
+                "html": "<p>Appendix 1 (penicillins).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Anaphylaxis",
+                        "html": "Anaphylaxis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "angioedema",
+                        "html": "angioedema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fever",
+                        "html": "fever",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "joint pains",
+                        "html": "joint pains",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rashes",
+                        "html": "rashes",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "serum sickness-like reaction",
+                        "html": "serum sickness-like reaction",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Cerebral irritation",
+                        "html": "Cerebral irritation",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "CNS toxicity (including convulsions)",
+                        "html": "CNS toxicity (including convulsions)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "coagulation disorders",
+                        "html": "coagulation disorders",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "encephalopathy",
+                        "html": "encephalopathy",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "haemolytic anaemia",
+                        "html": "haemolytic anaemia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "interstitial nephritis",
+                        "html": "interstitial nephritis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Antibiotic-associated colitis",
+                        "html": "Antibiotic-associated colitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "CNS toxicity",
+                "textContent": "A rare but serious toxic effect of the penicillins is encephalopathy due to cerebral irritation. This may result from excessively high doses or in patients with severe renal failure. The penicillins should not be given by intrathecal injection because they can cause encephalopathy which may be fatal.",
+                "html": "<p>A rare but serious toxic effect of the penicillins is encephalopathy due to cerebral irritation. This may result from excessively high doses or in patients with severe renal failure. The penicillins should <b>not</b> be given by intrathecal injection because they can cause encephalopathy which may be fatal.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Diarrhoea",
+                "textContent": "Diarrhoea frequently occurs during oral penicillin therapy. It is most common with broad-spectrum penicillins, which can also cause antibiotic-associated colitis.",
+                "html": "<p>Diarrhoea frequently occurs during oral penicillin therapy. It is most common with broad-spectrum penicillins, which can also cause antibiotic-associated colitis.</p>"
+            }
+        ]
+    },
+    "allergyAndCrossSensitivity": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "The most important side-effect of the penicillins is hypersensitivity which causes rashes and anaphylaxis and can be fatal. Allergic reactions to penicillins occur in 1&#8211;10% of exposed individuals; anaphylactic reactions occur in fewer than 0.05% of treated patients. Patients with a history of atopic allergy (e.g. asthma, eczema, hay fever) are at a higher risk of anaphylactic reactions to penicillins. Individuals with a history of anaphylaxis, urticaria, or rash immediately after penicillin administration are at risk of immediate hypersensitivity to a penicillin; these individuals should not receive a penicillin.\n\nIndividuals with a history of a minor rash (i.e. non-confluent, non-pruritic rash restricted to a small area of the body) or a rash that occurs more than 72 hours after penicillin administration are probably not allergic to penicillin and in these individuals a penicillin should not be withheld unnecessarily for serious infections; the possibility of an allergic reaction should, however, be borne in mind. Other beta-lactam antibiotics (including cephalosporins) can be used in these patients.",
+                "html": "<p>The most important side-effect of the penicillins is hypersensitivity which causes rashes and anaphylaxis and can be fatal. Allergic reactions to penicillins occur in 1&#8211;10% of exposed individuals; anaphylactic reactions occur in fewer than 0.05% of treated patients. Patients with a history of atopic allergy (e.g. asthma, eczema, hay fever) are at a higher risk of anaphylactic reactions to penicillins. Individuals with a history of anaphylaxis, urticaria, or rash immediately after penicillin administration are at risk of immediate hypersensitivity to a penicillin; these individuals should not receive a penicillin.</p><p>Individuals with a history of a minor rash (i.e. non-confluent, non-pruritic rash restricted to a small area of the body) or a rash that occurs more than 72 hours after penicillin administration are probably not allergic to penicillin and in these individuals a penicillin should not be withheld unnecessarily for serious infections; the possibility of an allergic reaction should, however, be borne in mind. Other beta-lactam antibiotics (including cephalosporins) can be used in these patients.</p>"
+            }
+        ],
+        "crossSensitivity": [
+            {
+                "type": "crossSensitivity",
+                "textContent": "Patients who are allergic to one penicillin will be allergic to all because the hypersensitivity is related to the basic penicillin structure. Patients with a history of immediate hypersensitivity to penicillins may also react to the cephalosporins and other beta-lactam antibiotics, they should not receive these antibiotics. If a penicillin (or another beta-lactam antibiotic) is essential in an individual with immediate hypersensitivity to penicillin then specialist advice should be sought on hypersensitivity testing or using a beta-lactam antibiotic with a different structure to the penicillin that caused the hypersensitivity.",
+                "html": "<p>Patients who are allergic to one penicillin will be allergic to all because the hypersensitivity is related to the basic penicillin structure. Patients with a history of immediate hypersensitivity to penicillins may also react to the cephalosporins and other beta-lactam antibiotics, they should not receive these antibiotics. If a penicillin (or another beta-lactam antibiotic) is essential in an individual with immediate hypersensitivity to penicillin then specialist advice should be sought on hypersensitivity testing or using a beta-lactam antibiotic with a different structure to the penicillin that caused the hypersensitivity.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP3305",
+            "label": "BENZYLPENICILLIN SODIUM",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3310",
+            "label": "PHENOXYMETHYLPENICILLIN",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3315",
+            "label": "FLUCLOXACILLIN",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3320",
+            "label": "TEMOCILLIN",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3327",
+            "label": "AMOXICILLIN",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3330",
+            "label": "AMPICILLIN",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3337",
+            "label": "CO-AMOXICLAV",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3345",
+            "label": "CO-FLUAMPICIL",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3350",
+            "label": "PIPERACILLIN WITH TAZOBACTAM",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3354",
+            "label": "TICARCILLIN WITH CLAVULANIC ACID",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3357",
+            "label": "PIVMECILLINAM HYDROCHLORIDE",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP3305",
+                "label": "BENZYLPENICILLIN SODIUM",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3310",
+                "label": "PHENOXYMETHYLPENICILLIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3315",
+                "label": "FLUCLOXACILLIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3320",
+                "label": "TEMOCILLIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3327",
+                "label": "AMOXICILLIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3330",
+                "label": "AMPICILLIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3337",
+                "label": "CO-AMOXICLAV",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3345",
+                "label": "CO-FLUAMPICIL",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3350",
+                "label": "PIPERACILLIN WITH TAZOBACTAM",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3354",
+                "label": "TICARCILLIN WITH CLAVULANIC ACID",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3357",
+                "label": "PIVMECILLINAM HYDROCHLORIDE",
+                "type": "drug"
+            }
+        ]
+    }
+}

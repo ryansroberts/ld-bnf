@@ -1,0 +1,256 @@
+{
+    "xml": "<topic id=\"PHP18478\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/azilsartan-medoxomil\" basename=\"azilsartan-medoxomil\" title=\"AZILSARTAN MEDOXOMIL\">\n<title>AZILSARTAN MEDOXOMIL</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1230\" namespace=\"/interactions/list-of-drug-interactions/angiotensin-ii-receptor-antagonists/azilsartan\">Azilsartan</xref>\n</p>\n<data name=\"vtmid\">448917007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_823125050\" title=\"Angiotensin-II receptor antagonists\">Angiotensin-II receptor antagonists</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34531\" title=\"ANGIOTENSIN-II RECEPTOR ANTAGONISTS\" namespace=\"/drug-classes/angiotensin-ii-receptor-antagonists\">ANGIOTENSIN-II RECEPTOR ANTAGONISTS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP66396\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/drugs/azilsartan-medoxomil\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypertension</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult 18&#8211;74 years</p>\n<p>Initially 40&#8239;mg once daily, increased if necessary to 80&#8239;mg once daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult 75 years and over</p>\n<p>Initially 20&#8211;40&#8239;mg once daily, increased if necessary to 80&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypertension with intravascular volume depletion</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 20&#8211;40&#8239;mg daily, increased if necessary to 80&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66571\" outputclass=\"cautions\" rev=\"1.2\" parent=\"/drugs/azilsartan-medoxomil\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Heart failure</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP64821\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drugs/azilsartan-medoxomil\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Diarrhoea</ph>; <ph outputclass=\"sideEffect\">raised creatine kinase</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hyperuricaemia</ph>; <ph outputclass=\"sideEffect\">peripheral oedema</ph>; <ph outputclass=\"sideEffect\">raised creatinine</ph>; <ph outputclass=\"sideEffect\">malaise</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66451\" outputclass=\"hepaticImpairment\" parent=\"/drugs/azilsartan-medoxomil\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Manufacturer advises to consider initial dose of 20&#8239;mg in mild to moderate impairment (limited information available).</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid in severe impairment (no information available).</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInHepaticImpairment\">\n<sectiondiv>\n<p>Manufacturer advises monitor closely in mild to moderate hepatic impairment (limited information available).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66315\" outputclass=\"renalImpairment\" parent=\"/drugs/azilsartan-medoxomil\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution in severe impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP18478-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/azilsartan-medoxomil\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75299\" title=\"Tablet\" namespace=\"/drugs/azilsartan-medoxomil/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78146\" namespace=\"/treatment-summaries/drugs-affecting-the-renin-angiotensin-system\" title=\"Drugs affecting the renin-angiotensin system\" count=\"1\" rel=\"backlink\">Drugs affecting the renin-angiotensin system</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1230\" namespace=\"/interactions/list-of-drug-interactions/angiotensin-ii-receptor-antagonists/azilsartan\" title=\"Azilsartan\" count=\"1\" rel=\"link\">Azilsartan</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34531\" namespace=\"/drug-classes/angiotensin-ii-receptor-antagonists\" title=\"ANGIOTENSIN-II RECEPTOR ANTAGONISTS\" count=\"1\" rel=\"link\">ANGIOTENSIN-II RECEPTOR ANTAGONISTS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75299\" namespace=\"/drugs/azilsartan-medoxomil/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP18478",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/azilsartan-medoxomil",
+    "basename": "azilsartan-medoxomil",
+    "title": "AZILSARTAN MEDOXOMIL",
+    "interactants": [
+        {
+            "id": "bnf_int_1230",
+            "label": "Azilsartan"
+        }
+    ],
+    "vtmid": "448917007",
+    "drugClassification": [
+        "Angiotensin-II receptor antagonists"
+    ],
+    "inheritsFromClass": [
+        "ANGIOTENSIN-II RECEPTOR ANTAGONISTS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypertension",
+                        "html": "Hypertension"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 40 mg once daily, increased if necessary to 80 mg once daily.",
+                        "html": "<p>Initially 40&#8239;mg once daily, increased if necessary to 80&#8239;mg once daily.</p>",
+                        "ageGroup": "18&#8211;74 years"
+                    },
+                    {
+                        "textContent": "Initially 20&#8211;40 mg once daily, increased if necessary to 80 mg once daily.",
+                        "html": "<p>Initially 20&#8211;40&#8239;mg once daily, increased if necessary to 80&#8239;mg once daily.</p>",
+                        "ageGroup": "75 years and over"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypertension with intravascular volume depletion",
+                        "html": "Hypertension with intravascular volume depletion"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 20&#8211;40 mg daily, increased if necessary to 80 mg daily.",
+                        "html": "<p>Initially 20&#8211;40&#8239;mg daily, increased if necessary to 80&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Heart failure",
+                "html": "Heart failure"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Diarrhoea",
+                        "html": "Diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "raised creatine kinase",
+                        "html": "raised creatine kinase",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Hyperuricaemia",
+                        "html": "Hyperuricaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "peripheral oedema",
+                        "html": "peripheral oedema",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "raised creatinine",
+                        "html": "raised creatinine",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Manufacturer advises to consider initial dose of 20 mg in mild to moderate impairment (limited information available).",
+                "html": "<p>Manufacturer advises to consider initial dose of 20&#8239;mg in mild to moderate impairment (limited information available).</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid in severe impairment (no information available).",
+                "html": "<p>Manufacturer advises avoid in severe impairment (no information available).</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Manufacturer advises monitor closely in mild to moderate hepatic impairment (limited information available).",
+                "html": "<p>Manufacturer advises monitor closely in mild to moderate hepatic impairment (limited information available).</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution in severe impairment&#8212;no information available.",
+                "html": "<p>Manufacturer advises caution in severe impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75299",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78146",
+                "label": "Drugs affecting the renin-angiotensin system",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1230",
+                "label": "Azilsartan",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34531",
+                "label": "ANGIOTENSIN-II RECEPTOR ANTAGONISTS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75299",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "xml": "<topic id=\"PHP88126\" outputclass=\"drug\" rev=\"1.26\" type=\"drug\" namespace=\"/drugs/meningococcal-group-b-vaccine-rdna-component-adsorbed\" basename=\"meningococcal-group-b-vaccine-rdna-component-adsorbed\" title=\"MENINGOCOCCAL GROUP B VACCINE (RDNA, COMPONENT, ADSORBED)\">\n<title>MENINGOCOCCAL GROUP B VACCINE (RDNA, COMPONENT, ADSORBED)</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1324\" namespace=\"/interactions/list-of-drug-interactions/vaccines/meningococcal-vaccines\">Meningococcal Vaccines</xref>\n</p>\n<data name=\"vtmid\">23612311000001102</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_581448509\" title=\"Vaccines\">Vaccines</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34568\" title=\"VACCINES\" namespace=\"/drug-classes/vaccines\">VACCINES</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP91977\" outputclass=\"indicationsAndDose\" rev=\"1.51\" parent=\"/drugs/meningococcal-group-b-vaccine-rdna-component-adsorbed\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Immunisation against <ph outputclass=\"organism\">\n<i>Neisseria meningitidis</i>\n</ph>, primary immunisation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;5 months</p>\n<p>0.5&#8239;mL at least every 1&#8239;month for 3 doses, injected preferably into deltoid region (or anterolateral thigh in infants).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Immunisation against <ph outputclass=\"organism\">\n<i>Neisseria meningitidis</i>\n</ph>, primary immunisation booster dose</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;2 years</p>\n<p>0.5&#8239;mL for 1 dose, injected preferably into deltoid region (or anterolateral thigh in infants).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Immunisation against <ph outputclass=\"organism\">\n<i>Neisseria meningitidis</i>\n</ph>, primary immunisation (in unimmunised patients)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;11 months</p>\n<p>0.5&#8239;mL at least every 2&#8239;months for 2 doses, booster dose of 0.5&#8239;mL given between 1&#8211;2 years of age and at least 2 months after completion of primary immunisation, injected preferably into deltoid region (or anterolateral thigh in infants).</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;23 months</p>\n<p>0.5&#8239;mL at least every 2&#8239;months for 2 doses, booster dose of 0.5&#8239;mL given 12&#8211;24 months after completion of primary immunisation, injected preferably into deltoid region (or anterolateral thigh in infants).</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;10 years</p>\n<p>0.5&#8239;mL at least every 2&#8239;months for 2 doses, injected preferably into deltoid region (or anterolateral thigh in infants).</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 11&#8211;17 years</p>\n<p>0.5&#8239;mL at least every 1&#8239;month for 2 doses, injected preferably into deltoid region.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>0.5&#8239;mL at least every 1&#8239;month for 2 doses, injected preferably into deltoid region.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP91983\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drugs/meningococcal-group-b-vaccine-rdna-component-adsorbed\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Kawasaki disease</ph> (in children); <ph outputclass=\"sideEffect\">symptoms of meningitis reported (but no evidence that the vaccine causes meningococcal C meningitis)</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Unusual crying</ph> (in children)</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88126-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/meningococcal-group-b-vaccine-rdna-component-adsorbed\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92468\" title=\"Suspension for injection\" namespace=\"/drugs/meningococcal-group-b-vaccine-rdna-component-adsorbed/suspension-for-injection\">Suspension for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1324\" namespace=\"/interactions/list-of-drug-interactions/vaccines/meningococcal-vaccines\" title=\"Meningococcal Vaccines\" count=\"1\" rel=\"link\">Meningococcal Vaccines</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34568\" namespace=\"/drug-classes/vaccines\" title=\"VACCINES\" count=\"1\" rel=\"link\">VACCINES</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92468\" namespace=\"/drugs/meningococcal-group-b-vaccine-rdna-component-adsorbed/suspension-for-injection\" title=\"Suspension for injection\" count=\"1\" rel=\"link\">Suspension for injection</xref>\n</links>\n</topic>",
+    "id": "PHP88126",
+    "outputclass": "drug",
+    "rev": "1.26",
+    "type": "drug",
+    "namespace": "/drugs/meningococcal-group-b-vaccine-rdna-component-adsorbed",
+    "basename": "meningococcal-group-b-vaccine-rdna-component-adsorbed",
+    "title": "MENINGOCOCCAL GROUP B VACCINE (RDNA, COMPONENT, ADSORBED)",
+    "interactants": [
+        {
+            "id": "bnf_int_1324",
+            "label": "Meningococcal Vaccines"
+        }
+    ],
+    "vtmid": "23612311000001102",
+    "drugClassification": [
+        "Vaccines"
+    ],
+    "inheritsFromClass": [
+        "VACCINES"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Immunisation against Neisseria meningitidis , primary immunisation",
+                        "html": "Immunisation against <ph outputclass=\"organism\"> <i>Neisseria meningitidis</i> </ph>, primary immunisation",
+                        "organism": "Neisseria meningitidis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection",
+                    "organism": "Neisseria meningitidis"
+                },
+                "child": [
+                    {
+                        "textContent": "0.5 mL at least every 1 month for 3 doses, injected preferably into deltoid region (or anterolateral thigh in infants).",
+                        "html": "<p>0.5&#8239;mL at least every 1&#8239;month for 3 doses, injected preferably into deltoid region (or anterolateral thigh in infants).</p>",
+                        "ageGroup": "2&#8211;5 months"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Immunisation against Neisseria meningitidis , primary immunisation booster dose",
+                        "html": "Immunisation against <ph outputclass=\"organism\"> <i>Neisseria meningitidis</i> </ph>, primary immunisation booster dose",
+                        "organism": "Neisseria meningitidis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection",
+                    "organism": "Neisseria meningitidis"
+                },
+                "child": [
+                    {
+                        "textContent": "0.5 mL for 1 dose, injected preferably into deltoid region (or anterolateral thigh in infants).",
+                        "html": "<p>0.5&#8239;mL for 1 dose, injected preferably into deltoid region (or anterolateral thigh in infants).</p>",
+                        "ageGroup": "1&#8211;2 years"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Immunisation against Neisseria meningitidis , primary immunisation (in unimmunised patients)",
+                        "html": "Immunisation against <ph outputclass=\"organism\"> <i>Neisseria meningitidis</i> </ph>, primary immunisation (in unimmunised patients)",
+                        "organism": "Neisseria meningitidis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection",
+                    "organism": "Neisseria meningitidis"
+                },
+                "child": [
+                    {
+                        "textContent": "0.5 mL at least every 2 months for 2 doses, booster dose of 0.5 mL given between 1&#8211;2 years of age and at least 2 months after completion of primary immunisation, injected preferably into deltoid region (or anterolateral thigh in infants).",
+                        "html": "<p>0.5&#8239;mL at least every 2&#8239;months for 2 doses, booster dose of 0.5&#8239;mL given between 1&#8211;2 years of age and at least 2 months after completion of primary immunisation, injected preferably into deltoid region (or anterolateral thigh in infants).</p>",
+                        "ageGroup": "6&#8211;11 months"
+                    },
+                    {
+                        "textContent": "0.5 mL at least every 2 months for 2 doses, booster dose of 0.5 mL given 12&#8211;24 months after completion of primary immunisation, injected preferably into deltoid region (or anterolateral thigh in infants).",
+                        "html": "<p>0.5&#8239;mL at least every 2&#8239;months for 2 doses, booster dose of 0.5&#8239;mL given 12&#8211;24 months after completion of primary immunisation, injected preferably into deltoid region (or anterolateral thigh in infants).</p>",
+                        "ageGroup": "12&#8211;23 months"
+                    },
+                    {
+                        "textContent": "0.5 mL at least every 2 months for 2 doses, injected preferably into deltoid region (or anterolateral thigh in infants).",
+                        "html": "<p>0.5&#8239;mL at least every 2&#8239;months for 2 doses, injected preferably into deltoid region (or anterolateral thigh in infants).</p>",
+                        "ageGroup": "2&#8211;10 years"
+                    },
+                    {
+                        "textContent": "0.5 mL at least every 1 month for 2 doses, injected preferably into deltoid region.",
+                        "html": "<p>0.5&#8239;mL at least every 1&#8239;month for 2 doses, injected preferably into deltoid region.</p>",
+                        "ageGroup": "11&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "0.5 mL at least every 1 month for 2 doses, injected preferably into deltoid region.",
+                        "html": "<p>0.5&#8239;mL at least every 1&#8239;month for 2 doses, injected preferably into deltoid region.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Kawasaki disease in children",
+                        "html": "Kawasaki disease in children",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "symptoms of meningitis reported (but no evidence that the vaccine causes meningococcal C meningitis)",
+                        "html": "symptoms of meningitis reported (but no evidence that the vaccine causes meningococcal C meningitis)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Unusual crying in children",
+                        "html": "Unusual crying in children",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "children"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92468",
+                "label": "Suspension for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1324",
+                "label": "Meningococcal Vaccines",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34568",
+                "label": "VACCINES",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92468",
+                "label": "Suspension for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

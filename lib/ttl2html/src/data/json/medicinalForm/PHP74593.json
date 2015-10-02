@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP74593\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/rabies-immunoglobulin/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Rabies immunoglobulin human 500unit solution for injection vials <ph outputclass=\"manufacturer\">(Bio Products Laboratory Ltd)</ph>\n</title>\n<data name=\"ampid\">4996611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Rabies immunoglobulin human 500&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;412.13</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8470\" title=\"RABIES IMMUNOGLOBULIN\" namespace=\"/drugs/rabies-immunoglobulin\">RABIES IMMUNOGLOBULIN</xref>\n</parents>\n</topic>",
+    "id": "PHP74593",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/rabies-immunoglobulin/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Rabies immunoglobulin human 500unit solution for injection vials (Bio Products Laboratory Ltd) ",
+            "header": "Rabies immunoglobulin human 500unit solution for injection vials <ph outputclass=\"manufacturer\">(Bio Products Laboratory Ltd)</ph>",
+            "manufacturer": "(Bio Products Laboratory Ltd)",
+            "name": "Rabies immunoglobulin human 500unit solution for injection vials",
+            "ampid": "4996611000001105",
+            "strengthOfActiveIngredient": "Rabies immunoglobulin human 500 unit",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;412.13 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;412.13</ph>",
+                        "nhsIndicativePrice": "&#163;412.13"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8470",
+        "label": "RABIES IMMUNOGLOBULIN"
+    }
+}

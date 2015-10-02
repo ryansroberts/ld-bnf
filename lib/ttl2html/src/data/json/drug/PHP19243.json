@@ -1,0 +1,310 @@
+{
+    "xml": "<topic id=\"PHP19243\" outputclass=\"drug\" rev=\"1.12\" type=\"drug\" namespace=\"/drugs/ingenol-mebutate\" basename=\"ingenol-mebutate\" title=\"INGENOL MEBUTATE\">\n<title>INGENOL MEBUTATE</title>\n<body>\n<data name=\"vtmid\">21636611000001105</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_416014635\" title=\"Protein kinase C activators\">Protein kinase C activators</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP59569\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/ingenol-mebutate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Actinic keratosis on face and scalp</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply once daily for 3 days, use the 150&#8239;microgram/g gel.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Actinic keratosis on trunk and extremities</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply once daily for 2 days, use the 500&#8239;microgram/g gel.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59737\" outputclass=\"cautions\" rev=\"1.9\" parent=\"/drugs/ingenol-mebutate\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Avoid contact with broken skin</ph>; <ph outputclass=\"caution\">avoid contact with eyes</ph>; <ph outputclass=\"caution\">avoid contact with inside of ears</ph>; <ph outputclass=\"caution\">avoid contact with inside of nostrils</ph>; <ph outputclass=\"caution\">avoid contact with lips</ph>; <ph outputclass=\"caution\">avoid occlusive dressings on treated area</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59491\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drugs/ingenol-mebutate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Blistering</ph>; <ph outputclass=\"sideEffect\">crusting</ph>; <ph outputclass=\"sideEffect\">erosion</ph>; <ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">exfoliation</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">infection</ph>; <ph outputclass=\"sideEffect\">local reactions</ph>; <ph outputclass=\"sideEffect\">oedema</ph>; <ph outputclass=\"sideEffect\">pain</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Local ulceration</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59553\" outputclass=\"pregnancy\" parent=\"/drugs/ingenol-mebutate\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Not absorbed from skin, but manufacturer advises avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59748\" outputclass=\"breastFeeding\" parent=\"/drugs/ingenol-mebutate\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Not absorbed from skin; ensure infant does not come in contact with treated area for 6 hours after application.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59771\" outputclass=\"directionsForAdministration\" rev=\"1.14\" parent=\"/drugs/ingenol-mebutate\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>One tube covers skin area of 25&#8239;cm<sup>2</sup>. Allow gel to dry on treatment area for 15 minutes. Avoid washing or touching the treated area for 6 hours after application; after this time, area may be washed with mild soap and water. Avoid use immediately after shower or less than 2 hours before bedtime.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP19243-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/ingenol-mebutate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP94206\" title=\"Gel\" namespace=\"/drugs/ingenol-mebutate/gel\">Gel</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP94206\" namespace=\"/drugs/ingenol-mebutate/gel\" title=\"Gel\" count=\"1\" rel=\"link\">Gel</xref>\n</links>\n</topic>",
+    "id": "PHP19243",
+    "outputclass": "drug",
+    "rev": "1.12",
+    "type": "drug",
+    "namespace": "/drugs/ingenol-mebutate",
+    "basename": "ingenol-mebutate",
+    "title": "INGENOL MEBUTATE",
+    "vtmid": "21636611000001105",
+    "drugClassification": [
+        "Protein kinase C activators"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Actinic keratosis on face and scalp",
+                        "html": "Actinic keratosis on face and scalp"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply once daily for 3 days, use the 150 microgram/g gel.",
+                        "html": "<p>Apply once daily for 3 days, use the 150&#8239;microgram/g gel.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Actinic keratosis on trunk and extremities",
+                        "html": "Actinic keratosis on trunk and extremities"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply once daily for 2 days, use the 500 microgram/g gel.",
+                        "html": "<p>Apply once daily for 2 days, use the 500&#8239;microgram/g gel.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid contact with broken skin",
+                "html": "Avoid contact with broken skin"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with eyes",
+                "html": "avoid contact with eyes"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with inside of ears",
+                "html": "avoid contact with inside of ears"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with inside of nostrils",
+                "html": "avoid contact with inside of nostrils"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with lips",
+                "html": "avoid contact with lips"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid occlusive dressings on treated area",
+                "html": "avoid occlusive dressings on treated area"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Blistering",
+                        "html": "Blistering",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "crusting",
+                        "html": "crusting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "erosion",
+                        "html": "erosion",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "exfoliation",
+                        "html": "exfoliation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "infection",
+                        "html": "infection",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "local reactions",
+                        "html": "local reactions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "oedema",
+                        "html": "oedema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pain",
+                        "html": "pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Local ulceration",
+                        "html": "Local ulceration",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Not absorbed from skin, but manufacturer advises avoid.",
+                "html": "<p>Not absorbed from skin, but manufacturer advises avoid.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Not absorbed from skin; ensure infant does not come in contact with treated area for 6 hours after application.",
+                "html": "<p>Not absorbed from skin; ensure infant does not come in contact with treated area for 6 hours after application.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "One tube covers skin area of 25 cm2. Allow gel to dry on treatment area for 15 minutes. Avoid washing or touching the treated area for 6 hours after application; after this time, area may be washed with mild soap and water. Avoid use immediately after shower or less than 2 hours before bedtime.",
+                "html": "<p>One tube covers skin area of 25&#8239;cm<sup>2</sup>. Allow gel to dry on treatment area for 15 minutes. Avoid washing or touching the treated area for 6 hours after application; after this time, area may be washed with mild soap and water. Avoid use immediately after shower or less than 2 hours before bedtime.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP94206",
+                "label": "Gel",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP94206",
+                "label": "Gel",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

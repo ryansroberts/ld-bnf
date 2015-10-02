@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP76559\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/artemether-with-lumefantrine/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Riamet tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">821611000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Artemether 20&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Lumefantrine 120&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">24</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3935\" title=\"ARTEMETHER WITH LUMEFANTRINE\" namespace=\"/drugs/artemether-with-lumefantrine\">ARTEMETHER WITH LUMEFANTRINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76559",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/artemether-with-lumefantrine/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Riamet tablets (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Riamet tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Riamet tablets",
+            "ampid": "821611000001107",
+            "strengthOfActiveIngredient": "Lumefantrine 120 mg",
+            "packs": [
+                {
+                    "textContent": " 24 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">24</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "24",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>",
+                        "nhsIndicativePrice": "&#163;22.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3935",
+        "label": "ARTEMETHER WITH LUMEFANTRINE"
+    }
+}

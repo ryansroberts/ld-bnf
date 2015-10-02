@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP000012\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/varenicline/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Champix titration pack <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">10981211000001103</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.30</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3208\" title=\"VARENICLINE\" namespace=\"/drugs/varenicline\">VARENICLINE</xref>\n</parents>\n</topic>",
+    "id": "PHP000012",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/varenicline/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Champix titration pack (Pfizer Ltd) &#9660; ",
+            "header": "Champix titration pack <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Champix titration pack",
+            "ampid": "10981211000001103",
+            "packs": [
+                {
+                    "textContent": " 25 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.30 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.30</ph>",
+                        "nhsIndicativePrice": "&#163;27.30"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3208",
+        "label": "VARENICLINE"
+    }
+}

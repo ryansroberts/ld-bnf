@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP98036\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/colomycin\" basename=\"colomycin\" title=\"Colomycin\">\n<title>Colomycin<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP98197\" outputclass=\"directionsForAdministration\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/colomycin\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Colomycin<tm tmtype=\"reg\"/> Injection may be used for nebulisation; administer required dose in 2&#8211;4&#8239;mL of sodium chloride 0.9%, (or water for injections) or a 1:1 mixture of sodium chloride 0.9% and water for injection.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98036",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/colomycin",
+    "basename": "colomycin",
+    "title": "Colomycin",
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Colomycin Injection may be used for nebulisation; administer required dose in 2&#8211;4 mL of sodium chloride 0.9%, (or water for injections) or a 1:1 mixture of sodium chloride 0.9% and water for injection.",
+                "html": "<p>Colomycin<tm tmtype=\"reg\"/> Injection may be used for nebulisation; administer required dose in 2&#8211;4&#8239;mL of sodium chloride 0.9%, (or water for injections) or a 1:1 mixture of sodium chloride 0.9% and water for injection.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

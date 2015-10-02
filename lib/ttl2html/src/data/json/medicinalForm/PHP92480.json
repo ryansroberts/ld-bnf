@@ -1,0 +1,106 @@
+{
+    "xml": "<topic id=\"PHP92480\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/co-danthramer/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">14</ph> (urine red) - This medicine may colour your urine. This is harmless </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Co-danthramer 25mg/200mg capsules <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3302711000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dantron 25&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Poloxamer 188 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.86</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.86</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Co-danthramer 37.5mg/500mg capsules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3047711000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dantron 37.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Poloxamer 188 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;15.55</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;15.55</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Co-danthramer 37.5mg/500mg capsules <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3047911000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dantron 37.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Poloxamer 188 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;15.55</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;15.55</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88131\" title=\"CO-DANTHRAMER\" namespace=\"/drugs/co-danthramer\">CO-DANTHRAMER</xref>\n</parents>\n</topic>",
+    "id": "PHP92480",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/co-danthramer/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "14",
+            "textContent": "(urine red)This medicine may colour your urine. This is harmless",
+            "html": "Label <ph outputclass=\"labelNumber\">14</ph> (urine red) - This medicine may colour your urine. This is harmless"
+        }
+    ],
+    "products": [
+        {
+            "title": "Co-danthramer 25mg/200mg capsules (Napp Pharmaceuticals Ltd) ",
+            "header": "Co-danthramer 25mg/200mg capsules <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Napp Pharmaceuticals Ltd)",
+            "name": "Co-danthramer 25mg/200mg capsules",
+            "ampid": "3302711000001106",
+            "strengthOfActiveIngredient": "Poloxamer 188 200 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.86 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.86</ph>",
+                        "nhsIndicativePrice": "&#163;12.86"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.86 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.86</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.86"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Co-danthramer 37.5mg/500mg capsules (A A H Pharmaceuticals Ltd) ",
+            "header": "Co-danthramer 37.5mg/500mg capsules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Co-danthramer 37.5mg/500mg capsules",
+            "ampid": "3047711000001103",
+            "strengthOfActiveIngredient": "Poloxamer 188 500 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;15.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;15.55</ph>",
+                        "nhsIndicativePrice": "&#163;15.55"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;15.55 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;15.55</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;15.55"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Co-danthramer 37.5mg/500mg capsules (Napp Pharmaceuticals Ltd) ",
+            "header": "Co-danthramer 37.5mg/500mg capsules <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Napp Pharmaceuticals Ltd)",
+            "name": "Co-danthramer 37.5mg/500mg capsules",
+            "ampid": "3047911000001101",
+            "strengthOfActiveIngredient": "Poloxamer 188 500 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;15.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;15.55</ph>",
+                        "nhsIndicativePrice": "&#163;15.55"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;15.55 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;15.55</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;15.55"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88131",
+        "label": "CO-DANTHRAMER"
+    }
+}

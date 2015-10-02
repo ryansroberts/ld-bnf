@@ -1,0 +1,35 @@
+{
+    "xml": "<topic id=\"PHP76503\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/primaquine/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Primaquine 7.5mg tablets <ph outputclass=\"manufacturer\">(Durbin Plc)</ph>\n</title>\n<data name=\"ampid\">10145911000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Primaquine (as Primaquine phosphate) 7.5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3951\" title=\"PRIMAQUINE\" namespace=\"/drugs/primaquine\">PRIMAQUINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76503",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/primaquine/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Primaquine 7.5mg tablets (Durbin Plc) ",
+            "header": "Primaquine 7.5mg tablets <ph outputclass=\"manufacturer\">(Durbin Plc)</ph>",
+            "manufacturer": "(Durbin Plc)",
+            "name": "Primaquine 7.5mg tablets",
+            "ampid": "10145911000001101",
+            "strengthOfActiveIngredient": "Primaquine (as Primaquine phosphate) 7.5 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3951",
+        "label": "PRIMAQUINE"
+    }
+}

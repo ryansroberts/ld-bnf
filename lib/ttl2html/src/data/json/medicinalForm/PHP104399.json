@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP104399\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/magnesium-hydroxide/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Phillips' Milk of Magnesia 415mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Omega Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">4057511000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium hydroxide 83&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.22</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP104230\" title=\"MAGNESIUM HYDROXIDE\" namespace=\"/drugs/magnesium-hydroxide\">MAGNESIUM HYDROXIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP104399",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/magnesium-hydroxide/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "products": [
+        {
+            "title": "Phillips' Milk of Magnesia 415mg/5ml oral suspension (Omega Pharma Ltd) ",
+            "header": "Phillips' Milk of Magnesia 415mg/5ml oral suspension <ph outputclass=\"manufacturer\">(Omega Pharma Ltd)</ph>",
+            "manufacturer": "(Omega Pharma Ltd)",
+            "name": "Phillips' Milk of Magnesia 415mg/5ml oral suspension",
+            "ampid": "4057511000001109",
+            "strengthOfActiveIngredient": "Magnesium hydroxide 83 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 200 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.22 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.22</ph>",
+                        "nhsIndicativePrice": "&#163;3.22"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP104230",
+        "label": "MAGNESIUM HYDROXIDE"
+    }
+}

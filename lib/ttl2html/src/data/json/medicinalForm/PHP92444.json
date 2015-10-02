@@ -1,0 +1,70 @@
+{
+    "xml": "<topic id=\"PHP92444\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hydrocortisone-with-lidocaine/ointment\" basename=\"ointment\" title=\"Ointment\">\n<title>Ointment</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Lidocaine 5% / Hydrocortisone acetate 0.275% ointment <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">28033511000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone acetate 2.75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Lidocaine 50&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.19</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Xyloproct 5%/0.275% ointment <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>\n</title>\n<data name=\"ampid\">929011000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone acetate 2.75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Lidocaine 50&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.19</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.19</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88106\" title=\"HYDROCORTISONE WITH LIDOCAINE\" namespace=\"/drugs/hydrocortisone-with-lidocaine\">HYDROCORTISONE WITH LIDOCAINE</xref>\n</parents>\n</topic>",
+    "id": "PHP92444",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hydrocortisone-with-lidocaine/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "products": [
+        {
+            "title": "Lidocaine 5% / Hydrocortisone acetate 0.275% ointment (Ennogen Healthcare Ltd) ",
+            "header": "Lidocaine 5% / Hydrocortisone acetate 0.275% ointment <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Lidocaine 5% / Hydrocortisone acetate 0.275% ointment",
+            "ampid": "28033511000001104",
+            "strengthOfActiveIngredient": "Lidocaine 50 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 20 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.19 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.19</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.19"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Xyloproct 5%/0.275% ointment (AstraZeneca UK Ltd) ",
+            "header": "Xyloproct 5%/0.275% ointment <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>",
+            "manufacturer": "(AstraZeneca UK Ltd)",
+            "name": "Xyloproct 5%/0.275% ointment",
+            "ampid": "929011000001108",
+            "strengthOfActiveIngredient": "Lidocaine 50 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 20 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.19 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.19</ph>",
+                        "nhsIndicativePrice": "&#163;4.19"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.19 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.19</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.19"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88106",
+        "label": "HYDROCORTISONE WITH LIDOCAINE"
+    }
+}

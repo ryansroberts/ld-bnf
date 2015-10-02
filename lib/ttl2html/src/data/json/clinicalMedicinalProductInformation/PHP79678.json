@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP79678\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/butrans\" basename=\"butrans\" title=\"BuTrans\">\n<title>BuTrans<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP80038\" outputclass=\"indicationsAndDose\" rev=\"1.31\" parent=\"/clinical-medicinal-product-information/butrans\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Moderate, non-malignant pain unresponsive to non-opioid analgesics</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application using patches</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 5&#8239;micrograms/hour up to every 7&#8239;days, dose adjustments&#8212;when starting, analgesic effect should not be evaluated until the system has been worn for 72 hours (to allow for gradual increase in plasma-buprenorphine concentration)&#8212;if necessary, dose should be adjusted at intervals of at least 3 days using a patch of the next strength or a combination of 2 patches applied in different places (applied at <i>same time</i> to avoid confusion). Maximum 2 patches can be used at any one time.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80079\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/butrans\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Apply patch to dry, non-irritated, non-hairy skin on upper torso, removing after 7 days and siting replacement patch on a different area (avoid same area for at least 3 weeks).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80085\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/butrans\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer buprenorphine transdermal patches.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP79678",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/butrans",
+    "basename": "butrans",
+    "title": "BuTrans",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Moderate, non-malignant pain unresponsive to non-opioid analgesics",
+                        "html": "Moderate, non-malignant pain unresponsive to non-opioid analgesics"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application using patches"
+                    ],
+                    "textContent": "By transdermal application using patches",
+                    "html": "By transdermal application using patches"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 5 micrograms/hour up to every 7 days, dose adjustments&#8212;when starting, analgesic effect should not be evaluated until the system has been worn for 72 hours (to allow for gradual increase in plasma-buprenorphine concentration)&#8212;if necessary, dose should be adjusted at intervals of at least 3 days using a patch of the next strength or a combination of 2 patches applied in different places (applied at same time to avoid confusion). Maximum 2 patches can be used at any one time.",
+                        "html": "<p>Initially 5&#8239;micrograms/hour up to every 7&#8239;days, dose adjustments&#8212;when starting, analgesic effect should not be evaluated until the system has been worn for 72 hours (to allow for gradual increase in plasma-buprenorphine concentration)&#8212;if necessary, dose should be adjusted at intervals of at least 3 days using a patch of the next strength or a combination of 2 patches applied in different places (applied at <i>same time</i> to avoid confusion). Maximum 2 patches can be used at any one time.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Apply patch to dry, non-irritated, non-hairy skin on upper torso, removing after 7 days and siting replacement patch on a different area (avoid same area for at least 3 weeks).",
+                "html": "<p>Apply patch to dry, non-irritated, non-hairy skin on upper torso, removing after 7 days and siting replacement patch on a different area (avoid same area for at least 3 weeks).</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer buprenorphine transdermal patches.",
+                "html": "<p>Patients or carers should be given advice on how to administer buprenorphine transdermal patches.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

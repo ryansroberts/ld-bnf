@@ -1,0 +1,141 @@
+{
+    "xml": "<topic id=\"PHP85604\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/felodipine-with-ramipril\" basename=\"felodipine-with-ramipril\" title=\"FELODIPINE WITH RAMIPRIL\">\n<title>FELODIPINE WITH RAMIPRIL</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_471\" namespace=\"/interactions/list-of-drug-interactions/calcium-channel-blockers/calcium-channel-blockers-dihydropyridines/felodipine\">Felodipine</xref>, <xref format=\"dita\" href=\"#bnf_int_471\" namespace=\"/interactions/list-of-drug-interactions/calcium-channel-blockers/calcium-channel-blockers-dihydropyridines/felodipine\">Felodipine</xref>, <xref format=\"dita\" href=\"#bnf_int_11\" namespace=\"/interactions/list-of-drug-interactions/ace-inhibitors/ramipril\">Ramipril</xref>, <xref format=\"dita\" href=\"#bnf_int_11\" namespace=\"/interactions/list-of-drug-interactions/ace-inhibitors/ramipril\">Ramipril</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP1338\" namespace=\"/drugs/felodipine\">felodipine</xref>, <xref format=\"dita\" href=\"#PHP1191\" namespace=\"/drugs/ramipril\">ramipril</xref>.</p>\n<data name=\"vtmid\">318173007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_762273848\" title=\"Calcium-channel blockers\">Calcium-channel blockers</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_411562526\" title=\"Angiotensin-converting enzyme inhibitors\">Angiotensin-converting enzyme inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP87157\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/drugs/felodipine-with-ramipril\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypertension in patients stabilised on the individual components in the same proportions</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85604-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/felodipine-with-ramipril\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92255\" title=\"Modified-release tablet\" namespace=\"/drugs/felodipine-with-ramipril/modified-release-tablet\">Modified-release tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_471\" namespace=\"/interactions/list-of-drug-interactions/calcium-channel-blockers/calcium-channel-blockers-dihydropyridines/felodipine\" title=\"Felodipine\" count=\"2\" rel=\"link\">Felodipine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_11\" namespace=\"/interactions/list-of-drug-interactions/ace-inhibitors/ramipril\" title=\"Ramipril\" count=\"2\" rel=\"link\">Ramipril</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1338\" namespace=\"/drugs/felodipine\" title=\"FELODIPINE\" count=\"1\" rel=\"link\">FELODIPINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1191\" namespace=\"/drugs/ramipril\" title=\"RAMIPRIL\" count=\"1\" rel=\"link\">RAMIPRIL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92255\" namespace=\"/drugs/felodipine-with-ramipril/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n</links>\n</topic>",
+    "id": "PHP85604",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/felodipine-with-ramipril",
+    "basename": "felodipine-with-ramipril",
+    "title": "FELODIPINE WITH RAMIPRIL",
+    "interactants": [
+        {
+            "id": "bnf_int_471",
+            "label": "Felodipine"
+        },
+        {
+            "id": "bnf_int_471",
+            "label": "Felodipine"
+        },
+        {
+            "id": "bnf_int_11",
+            "label": "Ramipril"
+        },
+        {
+            "id": "bnf_int_11",
+            "label": "Ramipril"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP1338",
+            "label": "felodipine"
+        },
+        {
+            "id": "PHP1191",
+            "label": "ramipril"
+        }
+    ],
+    "vtmid": "318173007",
+    "drugClassification": [
+        "Calcium-channel blockers",
+        "Angiotensin-converting enzyme inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypertension in patients stabilised on the individual components in the same proportions",
+                        "html": "Hypertension in patients stabilised on the individual components in the same proportions"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92255",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_471",
+                "label": "Felodipine",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_11",
+                "label": "Ramipril",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP1338",
+                "label": "FELODIPINE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1191",
+                "label": "RAMIPRIL",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92255",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,689 @@
+{
+    "xml": "<topic id=\"PHP3547\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/daptomycin\" basename=\"daptomycin\" title=\"DAPTOMYCIN\">\n<title>DAPTOMYCIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1061\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/daptomycin\">Daptomycin</xref>\n</p>\n<data name=\"vtmid\">406438001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_538411434\" title=\"Lipopeptide antibacterials\">Lipopeptide antibacterials</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP44937\" outputclass=\"drugAction\" rev=\"1.12\" parent=\"/drugs/daptomycin\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<b>Daptomycin</b> is a lipopeptide antibacterial with a spectrum of activity similar to vancomycin but its efficacy against enterococci has not been established. It needs to be given with other antibacterials for mixed infections involving Gram-negative bacteria and some anaerobes.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP40527\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/drugs/daptomycin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Complicated skin and soft-tissue infections caused by Gram-positive bacteria, including meticillin-resistant <ph outputclass=\"organism\">\n<i>Staphylococcus aureus</i>\n</ph> (MRSA)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>4&#8239;mg/kg once daily; increased to 6&#8239;mg/kg once daily, increase dose only if associated with <i>Staphylococcus aureus</i> bacteraemia.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Staphylococcal endocarditis caused by organisms resistant to vancomycin or in patients intolerant of vancomycin (in combination with other antibacterials)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>6&#8239;mg/kg once daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP36193\" outputclass=\"unlicensedUse\" rev=\"1.8\" parent=\"/drugs/daptomycin\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Not licensed for use in left-sided endocarditis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP39705\" outputclass=\"interactions\" rev=\"1.14\" parent=\"/drugs/daptomycin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (daptomycin).</p>\n<p>Monitor creatine kinase more frequently than weekly during treatment if receiving another drug known to cause myopathy (preferably avoid concomitant use).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP64952\" outputclass=\"sideEffects\" rev=\"1.21\" parent=\"/drugs/daptomycin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain</ph>; <ph outputclass=\"sideEffect\">anaemia</ph>; <ph outputclass=\"sideEffect\">anxiety</ph>; <ph outputclass=\"sideEffect\">arthralgia</ph>; <ph outputclass=\"sideEffect\">asthenia</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">injection-site reactions</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anorexia</ph>; <ph outputclass=\"sideEffect\">arrhythmias</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">electrolyte disturbances</ph>; <ph outputclass=\"sideEffect\">eosinophilia</ph>; <ph outputclass=\"sideEffect\">flushing</ph>; <ph outputclass=\"sideEffect\">glossitis</ph>; <ph outputclass=\"sideEffect\">hyperglycaemia</ph>; <ph outputclass=\"sideEffect\">muscle effects</ph>; <ph outputclass=\"sideEffect\">muscle weakness</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">myositis</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">renal failure</ph>; <ph outputclass=\"sideEffect\">taste disturbance</ph>; <ph outputclass=\"sideEffect\">thrombocythaemia</ph>; <ph outputclass=\"sideEffect\">tremor</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Jaundice</ph>; <ph outputclass=\"sideEffect\">rhabdomyolysis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Antibiotic-associated colitis</ph>; <ph outputclass=\"sideEffect\">elevated creatine kinase</ph>; <ph outputclass=\"sideEffect\">eosinophilic pneumonia</ph>; <ph outputclass=\"sideEffect\">peripheral neuropathy</ph>; <ph outputclass=\"sideEffect\">syncope</ph>; <ph outputclass=\"sideEffect\">wheezing</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Muscle effects</p>\n<p>If unexplained muscle pain, tenderness, weakness, or cramps develop during treatment, measure creatine kinase every 2 days; discontinue if unexplained muscular symptoms and creatine elevated markedly.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38262\" outputclass=\"pregnancy\" parent=\"/drugs/daptomycin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises use only if potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP35699\" outputclass=\"breastFeeding\" parent=\"/drugs/daptomycin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk in small amounts, but absorption from gastrointestinal tract negligible.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP41601\" outputclass=\"hepaticImpairment\" parent=\"/drugs/daptomycin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution in severe hepatic impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72395\" outputclass=\"renalImpairment\" parent=\"/drugs/daptomycin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Use normal dose every 48 hours if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInRenalImpairment\">\n<sectiondiv>\n<p>If eGFR less than 80&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, monitor renal function, and monitor creatine kinase before treatment and then at least weekly during treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74144\" outputclass=\"monitoringRequirements\" parent=\"/drugs/daptomycin\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor creatine kinase before treatment and then weekly during treatment (more frequently if creatine kinase elevated more than 5 times upper limit of normal before treatment).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70839\" outputclass=\"effectOnLaboratoryTests\" rev=\"1.8\" parent=\"/drugs/daptomycin\">\n<title>Effect on laboratory tests</title>\n<body>\n<section>\n<sectiondiv>\n<p>Interference with assay for prothrombin time and INR&#8212;take blood sample immediately before daptomycin dose.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47145\" outputclass=\"directionsForAdministration\" rev=\"1.20\" parent=\"/drugs/daptomycin\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For <i>intravenous infusion</i> (<i>Cubicin</i>\n<tm tmtype=\"reg\"/>), give intermittently in Sodium chloride 0.9%; reconstitute with sodium chloride 0.9% (350&#8239;mg in 7&#8239;mL, 500&#8239;mg in 10&#8239;mL); gently rotate vial without shaking; allow to stand for at least 10 minutes then rotate gently to dissolve; dilute requisite dose in 50&#8239;mL infusion fluid and give over 30 minutes.</p>\n<p>For <i>intravenous injection</i>, give over 2 minutes.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74020\" outputclass=\"nationalFunding\" rev=\"1.14\" parent=\"/drugs/daptomycin\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (February 2008) that daptomycin (<i>Cubicin</i>\n<tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland for the treatment of MRSA bacteraemia associated with right-sided endocarditis or with complicated skin and soft-tissue infections.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3547-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/daptomycin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75304\" title=\"Powder for solution for infusion\" namespace=\"/drugs/daptomycin/powder-for-solution-for-infusion\">Powder for solution for infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78289\" namespace=\"/treatment-summaries/mrsa\" title=\"MRSA\" count=\"1\" rel=\"backlink\">MRSA</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1061\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/daptomycin\" title=\"Daptomycin\" count=\"1\" rel=\"link\">Daptomycin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75304\" namespace=\"/drugs/daptomycin/powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\" count=\"1\" rel=\"link\">Powder for solution for infusion</xref>\n</links>\n</topic>",
+    "id": "PHP3547",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/daptomycin",
+    "basename": "daptomycin",
+    "title": "DAPTOMYCIN",
+    "interactants": [
+        {
+            "id": "bnf_int_1061",
+            "label": "Daptomycin"
+        }
+    ],
+    "vtmid": "406438001",
+    "drugClassification": [
+        "Lipopeptide antibacterials"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Daptomycin is a lipopeptide antibacterial with a spectrum of activity similar to vancomycin but its efficacy against enterococci has not been established. It needs to be given with other antibacterials for mixed infections involving Gram-negative bacteria and some anaerobes.",
+                "html": "<p>\n<b>Daptomycin</b> is a lipopeptide antibacterial with a spectrum of activity similar to vancomycin but its efficacy against enterococci has not been established. It needs to be given with other antibacterials for mixed infections involving Gram-negative bacteria and some anaerobes.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Complicated skin and soft-tissue infections caused by Gram-positive bacteria, including meticillin-resistant Staphylococcus aureus (MRSA)",
+                        "html": "Complicated skin and soft-tissue infections caused by Gram-positive bacteria, including meticillin-resistant <ph outputclass=\"organism\"> <i>Staphylococcus aureus</i> </ph> (MRSA)",
+                        "organism": "Staphylococcus aureus"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By slow intravenous injection or by intravenous infusion",
+                    "html": "By slow intravenous injection or by intravenous infusion",
+                    "organism": "Staphylococcus aureus"
+                },
+                "adult": [
+                    {
+                        "textContent": "4 mg/kg once daily; increased to 6 mg/kg once daily, increase dose only if associated with Staphylococcus aureus bacteraemia.",
+                        "html": "<p>4&#8239;mg/kg once daily; increased to 6&#8239;mg/kg once daily, increase dose only if associated with <i>Staphylococcus aureus</i> bacteraemia.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Staphylococcal endocarditis caused by organisms resistant to vancomycin or in patients intolerant of vancomycin (in combination with other antibacterials)",
+                        "html": "Staphylococcal endocarditis caused by organisms resistant to vancomycin or in patients intolerant of vancomycin (in combination with other antibacterials)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By slow intravenous injection or by intravenous infusion",
+                    "html": "By slow intravenous injection or by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "6 mg/kg once daily.",
+                        "html": "<p>6&#8239;mg/kg once daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Not licensed for use in left-sided endocarditis.",
+                "html": "<p>Not licensed for use in left-sided endocarditis.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (daptomycin).\n\nMonitor creatine kinase more frequently than weekly during treatment if receiving another drug known to cause myopathy (preferably avoid concomitant use).",
+                "html": "<p>Appendix 1 (daptomycin).</p><p>Monitor creatine kinase more frequently than weekly during treatment if receiving another drug known to cause myopathy (preferably avoid concomitant use).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain",
+                        "html": "Abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anaemia",
+                        "html": "anaemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anxiety",
+                        "html": "anxiety",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arthralgia",
+                        "html": "arthralgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "asthenia",
+                        "html": "asthenia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "injection-site reactions",
+                        "html": "injection-site reactions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Anorexia",
+                        "html": "Anorexia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "arrhythmias",
+                        "html": "arrhythmias",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "electrolyte disturbances",
+                        "html": "electrolyte disturbances",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "eosinophilia",
+                        "html": "eosinophilia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "flushing",
+                        "html": "flushing",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "glossitis",
+                        "html": "glossitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hyperglycaemia",
+                        "html": "hyperglycaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "muscle effects",
+                        "html": "muscle effects",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "muscle weakness",
+                        "html": "muscle weakness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "myositis",
+                        "html": "myositis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "renal failure",
+                        "html": "renal failure",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "taste disturbance",
+                        "html": "taste disturbance",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "thrombocythaemia",
+                        "html": "thrombocythaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Jaundice",
+                        "html": "Jaundice",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "rhabdomyolysis",
+                        "html": "rhabdomyolysis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Antibiotic-associated colitis",
+                        "html": "Antibiotic-associated colitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "elevated creatine kinase",
+                        "html": "elevated creatine kinase",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "eosinophilic pneumonia",
+                        "html": "eosinophilic pneumonia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "peripheral neuropathy",
+                        "html": "peripheral neuropathy",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "syncope",
+                        "html": "syncope",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "wheezing",
+                        "html": "wheezing",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Muscle effects",
+                "textContent": "If unexplained muscle pain, tenderness, weakness, or cramps develop during treatment, measure creatine kinase every 2 days; discontinue if unexplained muscular symptoms and creatine elevated markedly.",
+                "html": "<p>If unexplained muscle pain, tenderness, weakness, or cramps develop during treatment, measure creatine kinase every 2 days; discontinue if unexplained muscular symptoms and creatine elevated markedly.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises use only if potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Manufacturer advises use only if potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk in small amounts, but absorption from gastrointestinal tract negligible.",
+                "html": "<p>Present in milk in small amounts, but absorption from gastrointestinal tract negligible.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution in severe hepatic impairment&#8212;no information available.",
+                "html": "<p>Manufacturer advises caution in severe hepatic impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Use normal dose every 48 hours if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Use normal dose every 48 hours if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "If eGFR less than 80 mL/minute/1.73 m2, monitor renal function, and monitor creatine kinase before treatment and then at least weekly during treatment.",
+                "html": "<p>If eGFR less than 80&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, monitor renal function, and monitor creatine kinase before treatment and then at least weekly during treatment.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor creatine kinase before treatment and then weekly during treatment (more frequently if creatine kinase elevated more than 5 times upper limit of normal before treatment).",
+                "html": "<p>Monitor creatine kinase before treatment and then weekly during treatment (more frequently if creatine kinase elevated more than 5 times upper limit of normal before treatment).</p>"
+            }
+        ]
+    },
+    "effectOnLaboratoryTests": {
+        "effectOnLaboratoryTests": [
+            {
+                "type": "effectOnLaboratoryTests",
+                "textContent": "Interference with assay for prothrombin time and INR&#8212;take blood sample immediately before daptomycin dose.",
+                "html": "<p>Interference with assay for prothrombin time and INR&#8212;take blood sample immediately before daptomycin dose.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For intravenous infusion (Cubicin ), give intermittently in Sodium chloride 0.9%; reconstitute with sodium chloride 0.9% (350 mg in 7 mL, 500 mg in 10 mL); gently rotate vial without shaking; allow to stand for at least 10 minutes then rotate gently to dissolve; dilute requisite dose in 50 mL infusion fluid and give over 30 minutes.\n\nFor intravenous injection, give over 2 minutes.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Cubicin</i>\n<tm tmtype=\"reg\"/>), give intermittently in Sodium chloride 0.9%; reconstitute with sodium chloride 0.9% (350&#8239;mg in 7&#8239;mL, 500&#8239;mg in 10&#8239;mL); gently rotate vial without shaking; allow to stand for at least 10 minutes then rotate gently to dissolve; dilute requisite dose in 50&#8239;mL infusion fluid and give over 30 minutes.</p><p>For <i>intravenous injection</i>, give over 2 minutes.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (February 2008) that daptomycin (Cubicin ) is accepted for restricted use within NHS Scotland for the treatment of MRSA bacteraemia associated with right-sided endocarditis or with complicated skin and soft-tissue infections.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (February 2008) that daptomycin (<i>Cubicin</i> <tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland for the treatment of MRSA bacteraemia associated with right-sided endocarditis or with complicated skin and soft-tissue infections.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75304",
+                "label": "Powder for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78289",
+                "label": "MRSA",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1061",
+                "label": "Daptomycin",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75304",
+                "label": "Powder for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

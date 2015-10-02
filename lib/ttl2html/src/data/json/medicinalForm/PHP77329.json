@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP77329\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/paracetamol/powder\" basename=\"powder\" title=\"Powder\">\n<title>Powder</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Flu Strength Hot Lemon Powders 1g oral powder sachets <ph outputclass=\"manufacturer\">(Bell,Sons &amp; Co (Druggists) Ltd)</ph>\n</title>\n<data name=\"ampid\">16748111000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.07</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Abdine Cold Relief Powder 650mg oral powder sachets <ph outputclass=\"manufacturer\">(Bell,Sons &amp; Co (Druggists) Ltd)</ph>\n</title>\n<data name=\"ampid\">16752811000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 650&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;0.87</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2632\" title=\"PARACETAMOL\" namespace=\"/drugs/paracetamol\">PARACETAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP77329",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/paracetamol/powder",
+    "basename": "powder",
+    "form": "Powder",
+    "products": [
+        {
+            "title": "Flu Strength Hot Lemon Powders 1g oral powder sachets (Bell,Sons & Co (Druggists) Ltd) ",
+            "header": "Flu Strength Hot Lemon Powders 1g oral powder sachets <ph outputclass=\"manufacturer\">(Bell,Sons &amp; Co (Druggists) Ltd)</ph>",
+            "manufacturer": "(Bell,Sons & Co (Druggists) Ltd)",
+            "name": "Flu Strength Hot Lemon Powders 1g oral powder sachets",
+            "ampid": "16748111000001107",
+            "strengthOfActiveIngredient": "Paracetamol 1 gram",
+            "packs": [
+                {
+                    "textContent": " 10 sachet GSL ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.07 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.07</ph>",
+                        "nhsIndicativePrice": "&#163;1.07"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Abdine Cold Relief Powder 650mg oral powder sachets (Bell,Sons & Co (Druggists) Ltd) ",
+            "header": "Abdine Cold Relief Powder 650mg oral powder sachets <ph outputclass=\"manufacturer\">(Bell,Sons &amp; Co (Druggists) Ltd)</ph>",
+            "manufacturer": "(Bell,Sons & Co (Druggists) Ltd)",
+            "name": "Abdine Cold Relief Powder 650mg oral powder sachets",
+            "ampid": "16752811000001104",
+            "strengthOfActiveIngredient": "Paracetamol 650 mg",
+            "packs": [
+                {
+                    "textContent": " 10 sachet GSL ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;0.87 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;0.87</ph>",
+                        "nhsIndicativePrice": "&#163;0.87"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2632",
+        "label": "PARACETAMOL"
+    }
+}

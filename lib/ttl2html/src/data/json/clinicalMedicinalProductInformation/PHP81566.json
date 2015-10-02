@@ -1,0 +1,86 @@
+{
+    "xml": "<topic id=\"PHP81566\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/cinryze\" basename=\"cinryze\" title=\"Cinryze\">\n<title>Cinryze<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP83446\" outputclass=\"indicationsAndDose\" rev=\"1.33\" parent=\"/clinical-medicinal-product-information/cinryze\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute attacks of hereditary angioedema (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1000&#8239;units, repeated if necessary for 1 dose, dose may be repeated if necessary.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Short-term prophylaxis of hereditary angioedema before dental, medical, or surgical procedures (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1000&#8239;units for 1 dose, to be administered up to 24 hours before procedure.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Long-term prophylaxis of severe, recurrent attacks of hereditary angioedema where acute treatment is inadequate, or when oral prophylaxis is inadequate or not tolerated (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1000&#8239;units every 3&#8211;4&#8239;days, interval between doses to be adjusted according to response.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81566",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/cinryze",
+    "basename": "cinryze",
+    "title": "Cinryze",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute attacks of hereditary angioedema (under expert supervision)",
+                        "html": "Acute attacks of hereditary angioedema (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection"
+                    ],
+                    "textContent": "By slow intravenous injection",
+                    "html": "By slow intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1000 units, repeated if necessary for 1 dose, dose may be repeated if necessary.",
+                        "html": "<p>1000&#8239;units, repeated if necessary for 1 dose, dose may be repeated if necessary.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Short-term prophylaxis of hereditary angioedema before dental, medical, or surgical procedures (under expert supervision)",
+                        "html": "Short-term prophylaxis of hereditary angioedema before dental, medical, or surgical procedures (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection"
+                    ],
+                    "textContent": "By slow intravenous injection",
+                    "html": "By slow intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1000 units for 1 dose, to be administered up to 24 hours before procedure.",
+                        "html": "<p>1000&#8239;units for 1 dose, to be administered up to 24 hours before procedure.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Long-term prophylaxis of severe, recurrent attacks of hereditary angioedema where acute treatment is inadequate, or when oral prophylaxis is inadequate or not tolerated (under expert supervision)",
+                        "html": "Long-term prophylaxis of severe, recurrent attacks of hereditary angioedema where acute treatment is inadequate, or when oral prophylaxis is inadequate or not tolerated (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection"
+                    ],
+                    "textContent": "By slow intravenous injection",
+                    "html": "By slow intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1000 units every 3&#8211;4 days, interval between doses to be adjusted according to response.",
+                        "html": "<p>1000&#8239;units every 3&#8211;4&#8239;days, interval between doses to be adjusted according to response.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

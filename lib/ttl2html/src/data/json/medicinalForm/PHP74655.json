@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP74655\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/romiplostim/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Nplate 250microgram powder and solvent for solution for injection pre-filled disposable devices <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph>\n</title>\n<data name=\"ampid\">17224811000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Romiplostim 250&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;482.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5930\" title=\"ROMIPLOSTIM\" namespace=\"/drugs/romiplostim\">ROMIPLOSTIM</xref>\n</parents>\n</topic>",
+    "id": "PHP74655",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/romiplostim/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "products": [
+        {
+            "title": "Nplate 250microgram powder and solvent for solution for injection pre-filled disposable devices (Amgen Ltd) ",
+            "header": "Nplate 250microgram powder and solvent for solution for injection pre-filled disposable devices <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph>",
+            "manufacturer": "(Amgen Ltd)",
+            "name": "Nplate 250microgram powder and solvent for solution for injection pre-filled disposable devices",
+            "ampid": "17224811000001102",
+            "strengthOfActiveIngredient": "Romiplostim 250 microgram",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;482.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;482.00</ph>",
+                        "nhsIndicativePrice": "&#163;482.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5930",
+        "label": "ROMIPLOSTIM"
+    }
+}

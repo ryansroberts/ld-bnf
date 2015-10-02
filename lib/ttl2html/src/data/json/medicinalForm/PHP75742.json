@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75742\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sildenafil/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Revatio 10mg/ml oral suspension <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">21700211000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sildenafil (as Sildenafil citrate) 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;186.75</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1059\" title=\"SILDENAFIL\" namespace=\"/drugs/sildenafil\">SILDENAFIL</xref>\n</parents>\n</topic>",
+    "id": "PHP75742",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sildenafil/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "products": [
+        {
+            "title": "Revatio 10mg/ml oral suspension (Pfizer Ltd) ",
+            "header": "Revatio 10mg/ml oral suspension <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Revatio 10mg/ml oral suspension",
+            "ampid": "21700211000001108",
+            "strengthOfActiveIngredient": "Sildenafil (as Sildenafil citrate) 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 112 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;186.75 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;186.75</ph>",
+                        "nhsIndicativePrice": "&#163;186.75"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1059",
+        "label": "SILDENAFIL"
+    }
+}

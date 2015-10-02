@@ -1,0 +1,70 @@
+{
+    "xml": "<topic id=\"PHP76439\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/salbutamol/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Salbutamol 2mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(Pinewood Healthcare)</ph>\n</title>\n<data name=\"ampid\">13626311000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Salbutamol (as Salbutamol sulfate) 400&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;0.72</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ventolin 2mg/5ml syrup <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">892011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Salbutamol (as Salbutamol sulfate) 400&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;0.72</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;0.72</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1756\" title=\"SALBUTAMOL\" namespace=\"/drugs/salbutamol\">SALBUTAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP76439",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/salbutamol/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "products": [
+        {
+            "title": "Salbutamol 2mg/5ml oral solution sugar free (Pinewood Healthcare) ",
+            "header": "Salbutamol 2mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(Pinewood Healthcare)</ph>",
+            "manufacturer": "(Pinewood Healthcare)",
+            "name": "Salbutamol 2mg/5ml oral solution sugar free",
+            "ampid": "13626311000001105",
+            "strengthOfActiveIngredient": "Salbutamol (as Salbutamol sulfate) 400 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;0.72 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;0.72</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;0.72"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Ventolin 2mg/5ml syrup (GlaxoSmithKline UK Ltd) ",
+            "header": "Ventolin 2mg/5ml syrup <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Ventolin 2mg/5ml syrup",
+            "ampid": "892011000001102",
+            "strengthOfActiveIngredient": "Salbutamol (as Salbutamol sulfate) 400 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;0.72 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;0.72</ph>",
+                        "nhsIndicativePrice": "&#163;0.72"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;0.72 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;0.72</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;0.72"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1756",
+        "label": "SALBUTAMOL"
+    }
+}

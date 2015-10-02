@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP74667\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dopexamine-hydrochloride/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Dopacard 50mg/5ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4782511000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dopexamine hydrochloride 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;252.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1417\" title=\"DOPEXAMINE HYDROCHLORIDE\" namespace=\"/drugs/dopexamine-hydrochloride\">DOPEXAMINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP74667",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dopexamine-hydrochloride/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Dopacard 50mg/5ml concentrate for solution for infusion ampoules (Teva UK Ltd) ",
+            "header": "Dopacard 50mg/5ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "Dopacard 50mg/5ml concentrate for solution for infusion ampoules",
+            "ampid": "4782511000001101",
+            "strengthOfActiveIngredient": "Dopexamine hydrochloride 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;252.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;252.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;252.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1417",
+        "label": "DOPEXAMINE HYDROCHLORIDE"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "xml": "<topic id=\"PHP92329\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dextran-70-with-hypromellose/eye-drops\" basename=\"eye-drops\" title=\"Eye drops\">\n<title>Eye drops</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzalkonium chloride, disodium edetate</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tears Naturale eye drops <ph outputclass=\"manufacturer\">(Alcon Laboratories (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">186411000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dextran 70 1&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Hypromellose 3&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.89</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tears Naturale eye drops 0.4ml unit dose <ph outputclass=\"manufacturer\">(Alcon Laboratories (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">13636711000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dextran 70 1&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Hypromellose 3&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.26</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88017\" title=\"DEXTRAN 70 WITH HYPROMELLOSE\" namespace=\"/drugs/dextran-70-with-hypromellose\">DEXTRAN 70 WITH HYPROMELLOSE</xref>\n</parents>\n</topic>",
+    "id": "PHP92329",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dextran-70-with-hypromellose/eye-drops",
+    "basename": "eye-drops",
+    "form": "Eye drops",
+    "excipients": [
+        "Benzalkonium chloride",
+        "disodium edetate"
+    ],
+    "products": [
+        {
+            "title": "Tears Naturale eye drops (Alcon Laboratories (UK) Ltd) ",
+            "header": "Tears Naturale eye drops <ph outputclass=\"manufacturer\">(Alcon Laboratories (UK) Ltd)</ph>",
+            "manufacturer": "(Alcon Laboratories (UK) Ltd)",
+            "name": "Tears Naturale eye drops",
+            "ampid": "186411000001103",
+            "strengthOfActiveIngredient": "Hypromellose 3 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 15 ml P ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.89 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.89</ph>",
+                        "nhsIndicativePrice": "&#163;1.89"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tears Naturale eye drops 0.4ml unit dose (Alcon Laboratories (UK) Ltd) ",
+            "header": "Tears Naturale eye drops 0.4ml unit dose <ph outputclass=\"manufacturer\">(Alcon Laboratories (UK) Ltd)</ph>",
+            "manufacturer": "(Alcon Laboratories (UK) Ltd)",
+            "name": "Tears Naturale eye drops 0.4ml unit dose",
+            "ampid": "13636711000001107",
+            "strengthOfActiveIngredient": "Hypromellose 3 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 28 unit dose P ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.26</ph>",
+                        "nhsIndicativePrice": "&#163;13.26"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88017",
+        "label": "DEXTRAN 70 WITH HYPROMELLOSE"
+    }
+}

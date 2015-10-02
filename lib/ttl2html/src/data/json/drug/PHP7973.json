@@ -1,0 +1,248 @@
+{
+    "xml": "<topic id=\"PHP7973\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/mupirocin\" basename=\"mupirocin\" title=\"MUPIROCIN\">\n<title>MUPIROCIN</title>\n<body>\n<data name=\"vtmid\">71453003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_931245576\" title=\"Isoleucyl transfer-RNA synthetase inhibitors\">Isoleucyl transfer-RNA synthetase inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP45895\" outputclass=\"indicationsAndDose\" rev=\"1.30\" parent=\"/drugs/mupirocin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bacterial skin infections, particularly those caused by Gram-positive organisms (except pseudomonal infection)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply up to 3 times a day for up to 10 days.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply up to 3 times a day for up to 10 days.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45817\" outputclass=\"unlicensedUse\" rev=\"1.9\" parent=\"/drugs/mupirocin\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use in children</p>\n<p>Mupirocin ointment licensed for use in children (age range not specified by manufacturer).</p>\n<p>\n<i>Bactroban</i>\n<tm tmtype=\"reg\"/> cream not recommended for use in children under 1 year.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45841\" outputclass=\"sideEffects\" rev=\"1.11\" parent=\"/drugs/mupirocin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"specificSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With topical use</p>\n<p>\n<ph outputclass=\"sideEffect\">burning sensation</ph>; <ph outputclass=\"sideEffect\">local reactions</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45883\" outputclass=\"pregnancy\" parent=\"/drugs/mupirocin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45944\" outputclass=\"breastFeeding\" parent=\"/drugs/mupirocin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>No information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45865\" outputclass=\"renalImpairment\" parent=\"/drugs/mupirocin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution when mupirocin ointment used in moderate or severe impairment because it contains macrogols (polyethylene glycol).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP7973-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/mupirocin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75886\" title=\"Cream\" namespace=\"/drugs/mupirocin/cream\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75880\" title=\"Ointment\" namespace=\"/drugs/mupirocin/ointment\">Ointment</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75893\" title=\"Nasal ointment\" namespace=\"/drugs/mupirocin/nasal-ointment\">Nasal ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78284\" namespace=\"/treatment-summaries/skin-infections\" title=\"Skin infections\" count=\"4\" rel=\"backlink\">Skin infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78436\" namespace=\"/treatment-summaries/skin-infections-bacterial\" title=\"Skin infections, bacterial\" count=\"1\" rel=\"backlink\">Skin infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78495\" namespace=\"/treatment-summaries/nose\" title=\"Nose\" count=\"2\" rel=\"backlink\">Nose</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75886\" namespace=\"/drugs/mupirocin/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75880\" namespace=\"/drugs/mupirocin/ointment\" title=\"Ointment\" count=\"1\" rel=\"link\">Ointment</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75893\" namespace=\"/drugs/mupirocin/nasal-ointment\" title=\"Nasal ointment\" count=\"1\" rel=\"link\">Nasal ointment</xref>\n</links>\n</topic>",
+    "id": "PHP7973",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/mupirocin",
+    "basename": "mupirocin",
+    "title": "MUPIROCIN",
+    "vtmid": "71453003",
+    "drugClassification": [
+        "Isoleucyl transfer-RNA synthetase inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Bacterial skin infections, particularly those caused by Gram-positive organisms (except pseudomonal infection)",
+                        "html": "Bacterial skin infections, particularly those caused by Gram-positive organisms (except pseudomonal infection)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply up to 3 times a day for up to 10 days.",
+                        "html": "<p>Apply up to 3 times a day for up to 10 days.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply up to 3 times a day for up to 10 days.",
+                        "html": "<p>Apply up to 3 times a day for up to 10 days.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With topical use in children",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Mupirocin ointment licensed for use in children (age range not specified by manufacturer).\n\nBactroban cream not recommended for use in children under 1 year.",
+                "html": "<p>Mupirocin ointment licensed for use in children (age range not specified by manufacturer).</p><p>\n<i>Bactroban</i>\n<tm tmtype=\"reg\"/> cream not recommended for use in children under 1 year.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "specific": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "burning sensation",
+                        "html": "burning sensation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "local reactions",
+                        "html": "local reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "No information available.",
+                "html": "<p>No information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution when mupirocin ointment used in moderate or severe impairment because it contains macrogols (polyethylene glycol).",
+                "html": "<p>Manufacturer advises caution when mupirocin ointment used in moderate or severe impairment because it contains macrogols (polyethylene glycol).</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75886",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75880",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75893",
+                "label": "Nasal ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78284",
+                "label": "Skin infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78436",
+                "label": "Skin infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78495",
+                "label": "Nose",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75886",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75880",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75893",
+                "label": "Nasal ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

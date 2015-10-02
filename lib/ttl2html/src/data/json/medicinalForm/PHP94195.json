@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP94195\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/racecadotril/granules\" basename=\"granules\" title=\"Granules\">\n<title>Granules</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sucrose</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Hidrasec Infants 10mg granules sachets <ph outputclass=\"manufacturer\">(Lincoln Medical Ltd)</ph>\n</title>\n<data name=\"ampid\">21387811000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Racecadotril 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.42</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Hidrasec Children 30mg granules sachets <ph outputclass=\"manufacturer\">(Lincoln Medical Ltd)</ph>\n</title>\n<data name=\"ampid\">21388411000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Racecadotril 30&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.42</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP18900\" title=\"RACECADOTRIL\" namespace=\"/drugs/racecadotril\">RACECADOTRIL</xref>\n</parents>\n</topic>",
+    "id": "PHP94195",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/racecadotril/granules",
+    "basename": "granules",
+    "form": "Granules",
+    "excipients": [
+        "Sucrose"
+    ],
+    "products": [
+        {
+            "title": "Hidrasec Infants 10mg granules sachets (Lincoln Medical Ltd) ",
+            "header": "Hidrasec Infants 10mg granules sachets <ph outputclass=\"manufacturer\">(Lincoln Medical Ltd)</ph>",
+            "manufacturer": "(Lincoln Medical Ltd)",
+            "name": "Hidrasec Infants 10mg granules sachets",
+            "ampid": "21387811000001108",
+            "strengthOfActiveIngredient": "Racecadotril 10 mg",
+            "packs": [
+                {
+                    "textContent": " 20 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.42 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.42</ph>",
+                        "nhsIndicativePrice": "&#163;8.42"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Hidrasec Children 30mg granules sachets (Lincoln Medical Ltd) ",
+            "header": "Hidrasec Children 30mg granules sachets <ph outputclass=\"manufacturer\">(Lincoln Medical Ltd)</ph>",
+            "manufacturer": "(Lincoln Medical Ltd)",
+            "name": "Hidrasec Children 30mg granules sachets",
+            "ampid": "21388411000001105",
+            "strengthOfActiveIngredient": "Racecadotril 30 mg",
+            "packs": [
+                {
+                    "textContent": " 20 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.42 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.42</ph>",
+                        "nhsIndicativePrice": "&#163;8.42"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP18900",
+        "label": "RACECADOTRIL"
+    }
+}

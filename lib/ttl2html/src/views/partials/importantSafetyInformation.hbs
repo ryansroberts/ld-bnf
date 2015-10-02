@@ -1,0 +1,5 @@
+{{#if importantSafetyInformation.importantSafetyInformation }}
+  {{#each importantSafetyInformation.importantSafetyInformation as |advice| }}
+    {{> advice advice }}
+  {{/each }}
+{{/if }}

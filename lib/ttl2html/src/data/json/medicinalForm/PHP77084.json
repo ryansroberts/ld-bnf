@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP77084\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-cromoglicate/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">22</ph> - Take 30 to 60 minutes before food </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Nalcrom 100mg capsules <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">3842011000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium cromoglicate 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;41.14</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;41.14</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP541\" title=\"SODIUM CROMOGLICATE\" namespace=\"/drugs/sodium-cromoglicate\">SODIUM CROMOGLICATE</xref>\n</parents>\n</topic>",
+    "id": "PHP77084",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-cromoglicate/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "22",
+            "textContent": "Take 30 to 60 minutes before food",
+            "html": "Label <ph outputclass=\"labelNumber\">22</ph> - Take 30 to 60 minutes before food"
+        }
+    ],
+    "products": [
+        {
+            "title": "Nalcrom 100mg capsules (Sanofi) ",
+            "header": "Nalcrom 100mg capsules <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Nalcrom 100mg capsules",
+            "ampid": "3842011000001101",
+            "strengthOfActiveIngredient": "Sodium cromoglicate 100 mg",
+            "packs": [
+                {
+                    "textContent": " 100 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;41.14 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;41.14</ph>",
+                        "nhsIndicativePrice": "&#163;41.14"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;41.14 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;41.14</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;41.14"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP541",
+        "label": "SODIUM CROMOGLICATE"
+    }
+}

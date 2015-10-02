@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP75121\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/anthrax-vaccine/suspension-for-injection\" basename=\"suspension-for-injection\" title=\"Suspension for injection\">\n<title>Suspension for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Thiomersal</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Anthrax vaccine (alum precipitated sterile filtrate) suspension for injection 0.5ml ampoules <ph outputclass=\"manufacturer\">(Secretary of State for Health)</ph>\n</title>\n<data name=\"ampid\">10908011000001103</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8245\" title=\"ANTHRAX VACCINE\" namespace=\"/drugs/anthrax-vaccine\">ANTHRAX VACCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75121",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/anthrax-vaccine/suspension-for-injection",
+    "basename": "suspension-for-injection",
+    "form": "Suspension for injection",
+    "excipients": [
+        "Thiomersal"
+    ],
+    "products": [
+        {
+            "title": "Anthrax vaccine (alum precipitated sterile filtrate) suspension for injection 0.5ml ampoules (Secretary of State for Health) ",
+            "header": "Anthrax vaccine (alum precipitated sterile filtrate) suspension for injection 0.5ml ampoules <ph outputclass=\"manufacturer\">(Secretary of State for Health)</ph>",
+            "manufacturer": "(Secretary of State for Health)",
+            "name": "Anthrax vaccine (alum precipitated sterile filtrate) suspension for injection 0.5ml ampoules",
+            "ampid": "10908011000001103",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8245",
+        "label": "ANTHRAX VACCINE"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP98912\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/peyona\" basename=\"peyona\" title=\"Peyona\">\n<title>Peyona<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP99032\" outputclass=\"nationalFunding\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/peyona\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (September 2013) that <i>Peyona</i>\n<tm tmtype=\"reg\"/> is accepted for use within NHS Scotland for the treatment of primary apnoea of premature newborns only whilst <i>Peyona</i>\n<tm tmtype=\"reg\"/> is available at the price agreed in the patient access scheme.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98912",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/peyona",
+    "basename": "peyona",
+    "title": "Peyona",
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (September 2013) that Peyona is accepted for use within NHS Scotland for the treatment of primary apnoea of premature newborns only whilst Peyona is available at the price agreed in the patient access scheme.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (September 2013) that <i>Peyona</i> <tm tmtype=\"reg\"/> is accepted for use within NHS Scotland for the treatment of primary apnoea of premature newborns only whilst <i>Peyona</i> <tm tmtype=\"reg\"/> is available at the price agreed in the patient access scheme.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

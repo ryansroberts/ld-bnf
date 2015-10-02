@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP75663\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/simeticone/oral-drops\" basename=\"oral-drops\" title=\"Oral drops\">\n<title>Oral drops</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP98020\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/dentinox\">Dentinox<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Dentinox Infant colic drops <ph outputclass=\"manufacturer\">(Dendron Ltd)</ph>\n</title>\n<data name=\"ampid\">28511000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Simeticone 8.4&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.73</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP11104\" title=\"SIMETICONE\" namespace=\"/drugs/simeticone\">SIMETICONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75663",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/simeticone/oral-drops",
+    "basename": "oral-drops",
+    "form": "Oral drops",
+    "productInformationGroups": [
+        {
+            "id": "PHP98020",
+            "label": "Dentinox&reg;  ",
+            "html": "Dentinox<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Dentinox Infant colic drops (Dendron Ltd) ",
+            "header": "Dentinox Infant colic drops <ph outputclass=\"manufacturer\">(Dendron Ltd)</ph>",
+            "manufacturer": "(Dendron Ltd)",
+            "name": "Dentinox Infant colic drops",
+            "ampid": "28511000001104",
+            "strengthOfActiveIngredient": "Simeticone 8.4 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 100 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.73 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.73</ph>",
+                        "nhsIndicativePrice": "&#163;1.73"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP11104",
+        "label": "SIMETICONE"
+    }
+}

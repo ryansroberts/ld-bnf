@@ -1,0 +1,156 @@
+{
+    "xml": "<topic id=\"PHP88042\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/betamethasone-with-clioquinol\" basename=\"betamethasone-with-clioquinol\" title=\"BETAMETHASONE WITH CLIOQUINOL\">\n<title>BETAMETHASONE WITH CLIOQUINOL</title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP4357\" namespace=\"/drugs/betamethasone\">betamethasone</xref>.</p>\n<data name=\"vtmid\">346343007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832374428\" title=\"Corticosteroids\">Corticosteroids</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_491110088\" title=\"Hydroxyquinoline derivatives\">Hydroxyquinoline derivatives</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP89709\" outputclass=\"indicationsAndDose\" rev=\"1.30\" parent=\"/drugs/betamethasone-with-clioquinol\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe inflammatory skin disorders such as eczemas unresponsive to less potent corticosteroids</p>\n<p outputclass=\"therapeuticIndication\">Psoriasis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>(consult product literature).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"potency\">\n<title>Potency</title>\n<p>Betamethasone (as valerate) 0.1% with clioquinol cream and ointment: potent.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89718\" outputclass=\"unlicensedUse\" rev=\"1.11\" parent=\"/drugs/betamethasone-with-clioquinol\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use in children</p>\n<p>Betamethasone and clioquinol preparations is not licensed for use in children under 1 year.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89712\" outputclass=\"patientAndCarerAdvice\" rev=\"1.13\" parent=\"/drugs/betamethasone-with-clioquinol\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Stains clothing.</p>\n<p>Patients or carers should be counselled on application of betamethasone with clioquinol preparations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88042-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/betamethasone-with-clioquinol\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92360\" title=\"Cream\" namespace=\"/drugs/betamethasone-with-clioquinol/cream\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92361\" title=\"Ointment\" namespace=\"/drugs/betamethasone-with-clioquinol/ointment\">Ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4357\" namespace=\"/drugs/betamethasone\" title=\"BETAMETHASONE\" count=\"1\" rel=\"link\">BETAMETHASONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92360\" namespace=\"/drugs/betamethasone-with-clioquinol/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92361\" namespace=\"/drugs/betamethasone-with-clioquinol/ointment\" title=\"Ointment\" count=\"1\" rel=\"link\">Ointment</xref>\n</links>\n</topic>",
+    "id": "PHP88042",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/betamethasone-with-clioquinol",
+    "basename": "betamethasone-with-clioquinol",
+    "title": "BETAMETHASONE WITH CLIOQUINOL",
+    "constituents": [
+        {
+            "id": "PHP4357",
+            "label": "betamethasone"
+        }
+    ],
+    "vtmid": "346343007",
+    "drugClassification": [
+        "Corticosteroids",
+        "Hydroxyquinoline derivatives"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe inflammatory skin disorders such as eczemas unresponsive to less potent corticosteroids",
+                        "html": "Severe inflammatory skin disorders such as eczemas unresponsive to less potent corticosteroids"
+                    },
+                    {
+                        "textContent": "Psoriasis",
+                        "html": "Psoriasis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ],
+        "potency": [
+            {
+                "type": "potency",
+                "title": "Potency",
+                "textContent": "Betamethasone (as valerate) 0.1% with clioquinol cream and ointment: potent.",
+                "html": "<p>Betamethasone (as valerate) 0.1% with clioquinol cream and ointment: potent.</p>"
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With topical use in children",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Betamethasone and clioquinol preparations is not licensed for use in children under 1 year.",
+                "html": "<p>Betamethasone and clioquinol preparations is not licensed for use in children under 1 year.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Stains clothing.\n\nPatients or carers should be counselled on application of betamethasone with clioquinol preparations.",
+                "html": "<p>Stains clothing.</p><p>Patients or carers should be counselled on application of betamethasone with clioquinol preparations.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92360",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92361",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP4357",
+                "label": "BETAMETHASONE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92360",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92361",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75272\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-oxybate/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n<p>Label <ph outputclass=\"labelNumber\">19</ph> - Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Xyrem 500mg/ml oral solution <ph outputclass=\"manufacturer\">(UCB Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">10070811000001108</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium oxybate 500&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">180</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;360.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;360.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2146\" title=\"SODIUM OXYBATE\" namespace=\"/drugs/sodium-oxybate\">SODIUM OXYBATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75272",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-oxybate/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "19",
+            "textContent": "Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">19</ph> - Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Xyrem 500mg/ml oral solution (UCB Pharma Ltd) ",
+            "header": "Xyrem 500mg/ml oral solution <ph outputclass=\"manufacturer\">(UCB Pharma Ltd)</ph>",
+            "manufacturer": "(UCB Pharma Ltd)",
+            "name": "Xyrem 500mg/ml oral solution",
+            "ampid": "10070811000001108",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Sodium oxybate 500 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 180 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">180</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "180",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;360.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;360.00</ph>",
+                        "nhsIndicativePrice": "&#163;360.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;360.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;360.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;360.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2146",
+        "label": "SODIUM OXYBATE"
+    }
+}

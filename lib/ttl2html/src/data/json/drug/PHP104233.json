@@ -1,0 +1,230 @@
+{
+    "xml": "<topic id=\"PHP104233\" outputclass=\"drug\" rev=\"1.9\" type=\"drug\" namespace=\"/drugs/tetrastarch\" basename=\"tetrastarch\" title=\"TETRASTARCH\">\n<title>TETRASTARCH</title>\n<body>\n<data name=\"vtmid\">426398006</data>\n</body>\n<topic id=\"PHP104374\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drugs/tetrastarch\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Burns</ph>; <ph outputclass=\"contraindication\">cerebral haemorrhage</ph>; <ph outputclass=\"contraindication\">critically ill patients</ph>; <ph outputclass=\"contraindication\">dehydration</ph>; <ph outputclass=\"contraindication\">hyperhydration</ph>; <ph outputclass=\"contraindication\">intracranial haemorrhage</ph>; <ph outputclass=\"contraindication\">pulmonary oedema</ph>; <ph outputclass=\"contraindication\">sepsis</ph>; <ph outputclass=\"contraindication\">severe coagulopathy</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104372\" outputclass=\"cautions\" rev=\"1.10\" parent=\"/drugs/tetrastarch\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Cardiac disease</ph>; <ph outputclass=\"caution\">care should be taken to avoid haematocrit concentration from falling below 25-30%</ph>; <ph outputclass=\"caution\">children</ph>; <ph outputclass=\"caution\">renal impairment</ph>; <ph outputclass=\"caution\">severe liver disease</ph>; <ph outputclass=\"caution\">surgery</ph>; <ph outputclass=\"caution\">trauma</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104385\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drugs/tetrastarch\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Severe anaphylactic reactions</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">raised serum amylase</ph>; <ph outputclass=\"sideEffect\">transient increase in bleeding time</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104378\" outputclass=\"hepaticImpairment\" parent=\"/drugs/tetrastarch\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104383\" outputclass=\"renalImpairment\" parent=\"/drugs/tetrastarch\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104389\" outputclass=\"monitoringRequirements\" parent=\"/drugs/tetrastarch\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Plasma and plasma substitutes are often used in very ill patients whose condition is unstable. Therefore, close monitoring is required and fluid and electrolyte therapy should be adjusted according to the patient's condition at all times. Treatment with hydroxyethyl starches should be guided by continuous haemodynamic monitoring so that the infusion is stopped as soon as appropriate haemodynamic goals have been achieved.</p>\n<p>Monitor renal function.</p>\n<p>Monitor for hypersensitivity reactions.</p>\n<p>Urine output should be monitored.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104393\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.15\" parent=\"/drugs/tetrastarch\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>A starch composed of more than 90% of amylopectin that has been etherified with hydroxyethyl groups; the term tetrastarch reflects the degree of etherification.</p>\n<p>Hydroxyethyl starches should only be used for the treatment of hypovolaemia due to acute blood loss when crystalloids alone are not sufficient; they should be used at the lowest effective dose for the first 24 hours of fluid resuscitation.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104233-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/tetrastarch\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP107938\" title=\"Infusion\" namespace=\"/drugs/tetrastarch/infusion\">Infusion</xref>\n</children>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP107938\" namespace=\"/drugs/tetrastarch/infusion\" title=\"Infusion\" count=\"1\" rel=\"link\">Infusion</xref>\n</links>\n</topic>",
+    "id": "PHP104233",
+    "outputclass": "drug",
+    "rev": "1.9",
+    "type": "drug",
+    "namespace": "/drugs/tetrastarch",
+    "basename": "tetrastarch",
+    "title": "TETRASTARCH",
+    "vtmid": "426398006",
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Burns",
+                "html": "Burns"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "cerebral haemorrhage",
+                "html": "cerebral haemorrhage"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "critically ill patients",
+                "html": "critically ill patients"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "dehydration",
+                "html": "dehydration"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "hyperhydration",
+                "html": "hyperhydration"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "intracranial haemorrhage",
+                "html": "intracranial haemorrhage"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "pulmonary oedema",
+                "html": "pulmonary oedema"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "sepsis",
+                "html": "sepsis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "severe coagulopathy",
+                "html": "severe coagulopathy"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Cardiac disease",
+                "html": "Cardiac disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "care should be taken to avoid haematocrit concentration from falling below 25-30%",
+                "html": "care should be taken to avoid haematocrit concentration from falling below 25-30%"
+            },
+            {
+                "type": "cautions",
+                "textContent": "children",
+                "html": "children"
+            },
+            {
+                "type": "cautions",
+                "textContent": "renal impairment",
+                "html": "renal impairment"
+            },
+            {
+                "type": "cautions",
+                "textContent": "severe liver disease",
+                "html": "severe liver disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "surgery",
+                "html": "surgery"
+            },
+            {
+                "type": "cautions",
+                "textContent": "trauma",
+                "html": "trauma"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Severe anaphylactic reactions",
+                        "html": "Severe anaphylactic reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Hypersensitivity reactions",
+                        "html": "Hypersensitivity reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "raised serum amylase",
+                        "html": "raised serum amylase",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "transient increase in bleeding time",
+                        "html": "transient increase in bleeding time",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe impairment.",
+                "html": "<p>Avoid in severe impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid.",
+                "html": "<p>Avoid.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Plasma and plasma substitutes are often used in very ill patients whose condition is unstable. Therefore, close monitoring is required and fluid and electrolyte therapy should be adjusted according to the patient's condition at all times. Treatment with hydroxyethyl starches should be guided by continuous haemodynamic monitoring so that the infusion is stopped as soon as appropriate haemodynamic goals have been achieved.\n\nMonitor renal function.\n\nMonitor for hypersensitivity reactions.\n\nUrine output should be monitored.",
+                "html": "<p>Plasma and plasma substitutes are often used in very ill patients whose condition is unstable. Therefore, close monitoring is required and fluid and electrolyte therapy should be adjusted according to the patient's condition at all times. Treatment with hydroxyethyl starches should be guided by continuous haemodynamic monitoring so that the infusion is stopped as soon as appropriate haemodynamic goals have been achieved.</p><p>Monitor renal function.</p><p>Monitor for hypersensitivity reactions.</p><p>Urine output should be monitored.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "A starch composed of more than 90% of amylopectin that has been etherified with hydroxyethyl groups; the term tetrastarch reflects the degree of etherification.\n\nHydroxyethyl starches should only be used for the treatment of hypovolaemia due to acute blood loss when crystalloids alone are not sufficient; they should be used at the lowest effective dose for the first 24 hours of fluid resuscitation.",
+                "html": "<p>A starch composed of more than 90% of amylopectin that has been etherified with hydroxyethyl groups; the term tetrastarch reflects the degree of etherification.</p><p>Hydroxyethyl starches should only be used for the treatment of hypovolaemia due to acute blood loss when crystalloids alone are not sufficient; they should be used at the lowest effective dose for the first 24 hours of fluid resuscitation.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP107938",
+                "label": "Infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP107938",
+                "label": "Infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

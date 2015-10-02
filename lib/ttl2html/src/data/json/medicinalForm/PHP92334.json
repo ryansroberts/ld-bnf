@@ -1,0 +1,75 @@
+{
+    "xml": "<topic id=\"PHP92334\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/gentamicin-with-hydrocortisone/ear-drops\" basename=\"ear-drops\" title=\"Ear drops\">\n<title>Ear drops</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzalkonium chloride, disodium edetate</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">28800011000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Gentamicin (as Gentamicin sulfate) 3&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone acetate 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.98</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;11.98</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">28972911000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Gentamicin (as Gentamicin sulfate) 3&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone acetate 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.98</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;11.98</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88020\" title=\"GENTAMICIN WITH HYDROCORTISONE\" namespace=\"/drugs/gentamicin-with-hydrocortisone\">GENTAMICIN WITH HYDROCORTISONE</xref>\n</parents>\n</topic>",
+    "id": "PHP92334",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/gentamicin-with-hydrocortisone/ear-drops",
+    "basename": "ear-drops",
+    "form": "Ear drops",
+    "excipients": [
+        "Benzalkonium chloride",
+        "disodium edetate"
+    ],
+    "products": [
+        {
+            "title": "Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (AMCo) ",
+            "header": "Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops",
+            "ampid": "28800011000001105",
+            "strengthOfActiveIngredient": "Hydrocortisone acetate 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.98 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.98</ph>",
+                        "nhsIndicativePrice": "&#163;11.98"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;11.98 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;11.98</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;11.98"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Gentamicin 0.3% / Hydrocortisone acetate 1% ear drops",
+            "ampid": "28972911000001107",
+            "strengthOfActiveIngredient": "Hydrocortisone acetate 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.98 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.98</ph>",
+                        "nhsIndicativePrice": "&#163;11.98"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;11.98 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;11.98</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;11.98"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88020",
+        "label": "GENTAMICIN WITH HYDROCORTISONE"
+    }
+}

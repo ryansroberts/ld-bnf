@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP104766\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/renvela-800mg-tablets-sanofi\" basename=\"renvela-800mg-tablets-sanofi\" title=\"Renvela 800mg tablets (Sanofi)\">\n<title>Renvela<tm tmtype=\"reg\"/> 800mg tablets (Sanofi)</title>\n<topic id=\"PHP104783\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/clinical-medicinal-product-information/renvela-800mg-tablets-sanofi\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hyperphosphataemia in patients on haemodialysis or peritoneal dialysis</p>\n<p outputclass=\"therapeuticIndication\">Hyperphosphataemia in patients with chronic kidney disease not on dialysis who have a serum-phosphate concentration of 1.78&#8239;mmol/litre or more</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 2.4&#8211;4.8&#8239;g daily in 3 divided doses, dose to be taken with meals and adjusted according to serum-phosphate concentration every 2&#8211;4 weeks; usual dose 6&#8239;g daily in 3 divided doses.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104818\" outputclass=\"breastFeeding\" parent=\"/clinical-medicinal-product-information/renvela-800mg-tablets-sanofi\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Unlikely to be present in milk (however, manufacturer advises avoid).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP104831\" outputclass=\"directionsForAdministration\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/renvela-800mg-tablets-sanofi\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For powder for oral supension, each sachet to be dispersed in 60&#8239;mL water.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP104766",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/renvela-800mg-tablets-sanofi",
+    "basename": "renvela-800mg-tablets-sanofi",
+    "title": "Renvela 800mg tablets (Sanofi)",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hyperphosphataemia in patients on haemodialysis or peritoneal dialysis",
+                        "html": "Hyperphosphataemia in patients on haemodialysis or peritoneal dialysis"
+                    },
+                    {
+                        "textContent": "Hyperphosphataemia in patients with chronic kidney disease not on dialysis who have a serum-phosphate concentration of 1.78 mmol/litre or more",
+                        "html": "Hyperphosphataemia in patients with chronic kidney disease not on dialysis who have a serum-phosphate concentration of 1.78&#8239;mmol/litre or more"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 2.4&#8211;4.8 g daily in 3 divided doses, dose to be taken with meals and adjusted according to serum-phosphate concentration every 2&#8211;4 weeks; usual dose 6 g daily in 3 divided doses.",
+                        "html": "<p>Initially 2.4&#8211;4.8&#8239;g daily in 3 divided doses, dose to be taken with meals and adjusted according to serum-phosphate concentration every 2&#8211;4 weeks; usual dose 6&#8239;g daily in 3 divided doses.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Unlikely to be present in milk (however, manufacturer advises avoid).",
+                "html": "<p>Unlikely to be present in milk (however, manufacturer advises avoid).</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For powder for oral supension, each sachet to be dispersed in 60 mL water.",
+                "html": "<p>For powder for oral supension, each sachet to be dispersed in 60&#8239;mL water.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

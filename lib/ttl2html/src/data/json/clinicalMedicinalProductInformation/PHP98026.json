@@ -1,0 +1,84 @@
+{
+    "xml": "<topic id=\"PHP98026\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/concerta-xl\" basename=\"concerta-xl\" title=\"Concerta XL\">\n<title>Concerta<tm tmtype=\"reg\"/> XL</title>\n<topic id=\"PHP98063\" outputclass=\"indicationsAndDose\" rev=\"1.45\" parent=\"/clinical-medicinal-product-information/concerta-xl\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Attention deficit hyperactivity disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 18&#8239;mg once daily, dose to be taken in the morning; adjusted at weekly intervals according to response; maximum 108&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>Total daily dose of 15&#8239;mg of standard-release formulation is considered equivalent to <i>Concerta</i>\n<tm tmtype=\"reg\"/> XL 18&#8239;mg once daily.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98041\" outputclass=\"cautions\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/concerta-xl\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Dysphagia (dose form not appropriate)</ph>; <ph outputclass=\"caution\">restricted gastro-intestinal lumen (dose form not appropriate)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98163\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.7\" parent=\"/clinical-medicinal-product-information/concerta-xl\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Consists of an immediate-release component (22% of the dose) and a modified-release component (78% of the dose).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98142\" outputclass=\"patientAndCarerAdvice\" rev=\"1.23\" parent=\"/clinical-medicinal-product-information/concerta-xl\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Tablet membrane may pass through gastro-intestinal tract unchanged.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98026",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/concerta-xl",
+    "basename": "concerta-xl",
+    "title": "Concerta XL",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Attention deficit hyperactivity disorder",
+                        "html": "Attention deficit hyperactivity disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 18 mg once daily, dose to be taken in the morning; adjusted at weekly intervals according to response; maximum 108 mg per day.",
+                        "html": "<p>Initially 18&#8239;mg once daily, dose to be taken in the morning; adjusted at weekly intervals according to response; maximum 108&#8239;mg per day.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Total daily dose of 15 mg of standard-release formulation is considered equivalent to Concerta XL 18 mg once daily.",
+                "html": "<p>Total daily dose of 15&#8239;mg of standard-release formulation is considered equivalent to <i>Concerta</i>\n<tm tmtype=\"reg\"/> XL 18&#8239;mg once daily.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Dysphagia (dose form not appropriate)",
+                "html": "Dysphagia (dose form not appropriate)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "restricted gastro-intestinal lumen (dose form not appropriate)",
+                "html": "restricted gastro-intestinal lumen (dose form not appropriate)"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Consists of an immediate-release component (22% of the dose) and a modified-release component (78% of the dose).",
+                "html": "<p>Consists of an immediate-release component (22% of the dose) and a modified-release component (78% of the dose).</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Tablet membrane may pass through gastro-intestinal tract unchanged.",
+                "html": "<p>Tablet membrane may pass through gastro-intestinal tract unchanged.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP76478\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/salbutamol/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Ventolin 5mg/5ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">886111000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Salbutamol (as Salbutamol sulfate) 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.81</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1756\" title=\"SALBUTAMOL\" namespace=\"/drugs/salbutamol\">SALBUTAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP76478",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/salbutamol/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Ventolin 5mg/5ml solution for infusion ampoules (GlaxoSmithKline UK Ltd) ",
+            "header": "Ventolin 5mg/5ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Ventolin 5mg/5ml solution for infusion ampoules",
+            "ampid": "886111000001103",
+            "strengthOfActiveIngredient": "Salbutamol (as Salbutamol sulfate) 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.81 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.81</ph>",
+                        "nhsIndicativePrice": "&#163;24.81"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1756",
+        "label": "SALBUTAMOL"
+    }
+}

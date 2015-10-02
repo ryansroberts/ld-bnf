@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP95858\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/climagest-2-mg\" basename=\"climagest-2-mg\" title=\"Climagest 2-mg\">\n<title>Climagest<tm tmtype=\"reg\"/> 2-mg</title>\n<topic id=\"PHP96200\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/climagest-2-mg\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms (if symptoms not controlled with lower strength)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet daily for 16 days, blue tablet to be taken and started on day 1 of menstruation (or at any time if cycles have ceased or are infrequent), then 1&#8239;tablet daily for 12 days, white tablet to be taken, subsequent courses are repeated without interval.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95858",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/climagest-2-mg",
+    "basename": "climagest-2-mg",
+    "title": "Climagest 2-mg",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms (if symptoms not controlled with lower strength)",
+                        "html": "Menopausal symptoms (if symptoms not controlled with lower strength)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet daily for 16 days, blue tablet to be taken and started on day 1 of menstruation (or at any time if cycles have ceased or are infrequent), then 1 tablet daily for 12 days, white tablet to be taken, subsequent courses are repeated without interval.",
+                        "html": "<p>1&#8239;tablet daily for 16 days, blue tablet to be taken and started on day 1 of menstruation (or at any time if cycles have ceased or are infrequent), then 1&#8239;tablet daily for 12 days, white tablet to be taken, subsequent courses are repeated without interval.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

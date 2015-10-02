@@ -1,0 +1,222 @@
+{
+    "xml": "<topic id=\"PHP7147\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/acetylcholine-chloride\" basename=\"acetylcholine-chloride\" title=\"ACETYLCHOLINE CHLORIDE\">\n<title>ACETYLCHOLINE CHLORIDE</title>\n<body>\n<data name=\"vtmid\">13525006</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_545076136\" title=\"Miotics\">Miotics</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP47237\" outputclass=\"indicationsAndDose\" rev=\"1.18\" parent=\"/drugs/acetylcholine-chloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Cataract surgery</p>\n<p outputclass=\"therapeuticIndication\">Penetrating keratoplasty</p>\n<p outputclass=\"therapeuticIndication\">Iridectomy</p>\n<p outputclass=\"therapeuticIndication\">Anterior segment surgery requiring rapid complete miosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47414\" outputclass=\"cautions\" rev=\"1.13\" parent=\"/drugs/acetylcholine-chloride\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Asthma</ph>; <ph outputclass=\"caution\">gastro-intestinal spasm</ph>; <ph outputclass=\"caution\">heart failure</ph>; <ph outputclass=\"caution\">hyperthyroidism</ph>; <ph outputclass=\"caution\">parkinsonism</ph>; <ph outputclass=\"caution\">peptic ulcer</ph>; <ph outputclass=\"caution\">urinary-tract obstruction</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47129\" outputclass=\"sideEffects\" rev=\"1.10\" parent=\"/drugs/acetylcholine-chloride\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bradycardia</ph>; <ph outputclass=\"sideEffect\">breathing difficulty</ph>; <ph outputclass=\"sideEffect\">flushing</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">sweating</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47188\" outputclass=\"pregnancy\" parent=\"/drugs/acetylcholine-chloride\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid unless potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47434\" outputclass=\"breastFeeding\" parent=\"/drugs/acetylcholine-chloride\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid unless potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP7147-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/acetylcholine-chloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77537\" title=\"Irrigation\" namespace=\"/drugs/acetylcholine-chloride/irrigation\">Irrigation</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78517\" namespace=\"/treatment-summaries/eye-surgical-and-peri-operative-drug-use\" title=\"Eye, surgical and peri-operative drug use\" count=\"1\" rel=\"backlink\">Eye, surgical and peri-operative drug use</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77537\" namespace=\"/drugs/acetylcholine-chloride/irrigation\" title=\"Irrigation\" count=\"1\" rel=\"link\">Irrigation</xref>\n</links>\n</topic>",
+    "id": "PHP7147",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/acetylcholine-chloride",
+    "basename": "acetylcholine-chloride",
+    "title": "ACETYLCHOLINE CHLORIDE",
+    "vtmid": "13525006",
+    "drugClassification": [
+        "Miotics"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Cataract surgery",
+                        "html": "Cataract surgery"
+                    },
+                    {
+                        "textContent": "Penetrating keratoplasty",
+                        "html": "Penetrating keratoplasty"
+                    },
+                    {
+                        "textContent": "Iridectomy",
+                        "html": "Iridectomy"
+                    },
+                    {
+                        "textContent": "Anterior segment surgery requiring rapid complete miosis",
+                        "html": "Anterior segment surgery requiring rapid complete miosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye"
+                    ],
+                    "textContent": "To the eye",
+                    "html": "To the eye"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Asthma",
+                "html": "Asthma"
+            },
+            {
+                "type": "cautions",
+                "textContent": "gastro-intestinal spasm",
+                "html": "gastro-intestinal spasm"
+            },
+            {
+                "type": "cautions",
+                "textContent": "heart failure",
+                "html": "heart failure"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hyperthyroidism",
+                "html": "hyperthyroidism"
+            },
+            {
+                "type": "cautions",
+                "textContent": "parkinsonism",
+                "html": "parkinsonism"
+            },
+            {
+                "type": "cautions",
+                "textContent": "peptic ulcer",
+                "html": "peptic ulcer"
+            },
+            {
+                "type": "cautions",
+                "textContent": "urinary-tract obstruction",
+                "html": "urinary-tract obstruction"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Bradycardia",
+                        "html": "Bradycardia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "breathing difficulty",
+                        "html": "breathing difficulty",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "flushing",
+                        "html": "flushing",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "sweating",
+                        "html": "sweating",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid unless potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Avoid unless potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid unless potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Avoid unless potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77537",
+                "label": "Irrigation",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78517",
+                "label": "Eye, surgical and peri-operative drug use",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77537",
+                "label": "Irrigation",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

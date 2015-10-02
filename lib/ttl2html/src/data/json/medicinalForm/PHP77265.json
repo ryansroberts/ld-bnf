@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP77265\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/micafungin/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Mycamine 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">13786611000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Micafungin (as Micafungin sodium) 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;196.08</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Mycamine 100mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">13798911000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Micafungin (as Micafungin sodium) 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;341.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3730\" title=\"MICAFUNGIN\" namespace=\"/drugs/micafungin\">MICAFUNGIN</xref>\n</parents>\n</topic>",
+    "id": "PHP77265",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/micafungin/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "products": [
+        {
+            "title": "Mycamine 50mg powder for solution for infusion vials (Astellas Pharma Ltd) ",
+            "header": "Mycamine 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>",
+            "manufacturer": "(Astellas Pharma Ltd)",
+            "name": "Mycamine 50mg powder for solution for infusion vials",
+            "ampid": "13786611000001102",
+            "strengthOfActiveIngredient": "Micafungin (as Micafungin sodium) 50 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;196.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;196.08</ph>",
+                        "nhsIndicativePrice": "&#163;196.08"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Mycamine 100mg powder for solution for infusion vials (Astellas Pharma Ltd) ",
+            "header": "Mycamine 100mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>",
+            "manufacturer": "(Astellas Pharma Ltd)",
+            "name": "Mycamine 100mg powder for solution for infusion vials",
+            "ampid": "13798911000001108",
+            "strengthOfActiveIngredient": "Micafungin (as Micafungin sodium) 100 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;341.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;341.00</ph>",
+                        "nhsIndicativePrice": "&#163;341.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3730",
+        "label": "MICAFUNGIN"
+    }
+}

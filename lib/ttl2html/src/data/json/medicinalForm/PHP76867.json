@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP76867\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/enfuvirtide/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Fuzeon 108mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">7973411000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Enfuvirtide 108&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1081.57</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3832\" title=\"ENFUVIRTIDE\" namespace=\"/drugs/enfuvirtide\">ENFUVIRTIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76867",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/enfuvirtide/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Fuzeon 108mg powder and solvent for solution for injection vials (Roche Products Ltd) ",
+            "header": "Fuzeon 108mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "Fuzeon 108mg powder and solvent for solution for injection vials",
+            "ampid": "7973411000001103",
+            "strengthOfActiveIngredient": "Enfuvirtide 108 mg",
+            "packs": [
+                {
+                    "textContent": " 60 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1081.57 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1081.57</ph>",
+                        "nhsIndicativePrice": "&#163;1081.57"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3832",
+        "label": "ENFUVIRTIDE"
+    }
+}

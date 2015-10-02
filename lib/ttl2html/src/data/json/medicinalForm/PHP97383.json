@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP97383\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/alemtuzumab/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Lemtrada 12mg/1.2ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">24561811000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Alemtuzumab 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7045.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>MabCampath 30mg/1ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph>\n</title>\n<data name=\"ampid\">9188211000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Alemtuzumab 30&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">3</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;792.34</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP97242\" title=\"ALEMTUZUMAB\" namespace=\"/drugs/alemtuzumab\">ALEMTUZUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP97383",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/alemtuzumab/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Lemtrada 12mg/1.2ml concentrate for solution for infusion vials (Genzyme Therapeutics Ltd) &#9660; ",
+            "header": "Lemtrada 12mg/1.2ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Genzyme Therapeutics Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Lemtrada 12mg/1.2ml concentrate for solution for infusion vials",
+            "ampid": "24561811000001109",
+            "strengthOfActiveIngredient": "Alemtuzumab 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7045.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7045.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;7045.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "MabCampath 30mg/1ml concentrate for solution for infusion vials (Genzyme Therapeutics Ltd) ",
+            "header": "MabCampath 30mg/1ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph>",
+            "manufacturer": "(Genzyme Therapeutics Ltd)",
+            "name": "MabCampath 30mg/1ml concentrate for solution for infusion vials",
+            "ampid": "9188211000001107",
+            "strengthOfActiveIngredient": "Alemtuzumab 30 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 3 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">3</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "3",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;792.34 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;792.34</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;792.34",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP97242",
+        "label": "ALEMTUZUMAB"
+    }
+}

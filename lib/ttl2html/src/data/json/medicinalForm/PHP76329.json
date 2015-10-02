@@ -1,0 +1,125 @@
+{
+    "xml": "<topic id=\"PHP76329\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/insulin-aspart/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>NovoRapid 100units/ml solution for injection 10ml vials <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>\n</title>\n<data name=\"ampid\">3280711000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin aspart 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.08</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>\n</title>\n<data name=\"ampid\">3282211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin aspart 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;30.60</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>\n</title>\n<data name=\"ampid\">19570211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin aspart 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;32.13</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>NovoRapid Penfill 100units/ml solution for injection 3ml cartridges <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>\n</title>\n<data name=\"ampid\">3279211000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin aspart 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">cartridge</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;28.31</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>\n</title>\n<data name=\"ampid\">26209611000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin aspart 100&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">cartridge</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;15.10</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4060\" title=\"INSULIN ASPART\" namespace=\"/drugs/insulin-aspart\">INSULIN ASPART</xref>\n</parents>\n</topic>",
+    "id": "PHP76329",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/insulin-aspart/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "NovoRapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd) ",
+            "header": "NovoRapid 100units/ml solution for injection 10ml vials <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>",
+            "manufacturer": "(Novo Nordisk Ltd)",
+            "name": "NovoRapid 100units/ml solution for injection 10ml vials",
+            "ampid": "3280711000001103",
+            "strengthOfActiveIngredient": "Insulin aspart 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.08</ph>",
+                        "nhsIndicativePrice": "&#163;14.08"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) ",
+            "header": "NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>",
+            "manufacturer": "(Novo Nordisk Ltd)",
+            "name": "NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen",
+            "ampid": "3282211000001106",
+            "strengthOfActiveIngredient": "Insulin aspart 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;30.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;30.60</ph>",
+                        "nhsIndicativePrice": "&#163;30.60"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) ",
+            "header": "NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>",
+            "manufacturer": "(Novo Nordisk Ltd)",
+            "name": "NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pen",
+            "ampid": "19570211000001106",
+            "strengthOfActiveIngredient": "Insulin aspart 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;32.13 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;32.13</ph>",
+                        "nhsIndicativePrice": "&#163;32.13"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd) ",
+            "header": "NovoRapid Penfill 100units/ml solution for injection 3ml cartridges <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>",
+            "manufacturer": "(Novo Nordisk Ltd)",
+            "name": "NovoRapid Penfill 100units/ml solution for injection 3ml cartridges",
+            "ampid": "3279211000001105",
+            "strengthOfActiveIngredient": "Insulin aspart 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 cartridge POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">cartridge</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "cartridge",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;28.31 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;28.31</ph>",
+                        "nhsIndicativePrice": "&#163;28.31"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges (Novo Nordisk Ltd) ",
+            "header": "NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>",
+            "manufacturer": "(Novo Nordisk Ltd)",
+            "name": "NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges",
+            "ampid": "26209611000001109",
+            "strengthOfActiveIngredient": "Insulin aspart 100 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 cartridge POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">cartridge</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "cartridge",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;15.10 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;15.10</ph>",
+                        "nhsIndicativePrice": "&#163;15.10"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4060",
+        "label": "INSULIN ASPART"
+    }
+}

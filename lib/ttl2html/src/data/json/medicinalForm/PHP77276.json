@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP77276\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/caspofungin/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Cancidas 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">4847311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Caspofungin (as Caspofungin acetate) 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;327.67</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Cancidas 70mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">4847711000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Caspofungin (as Caspofungin acetate) 70&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;416.78</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3728\" title=\"CASPOFUNGIN\" namespace=\"/drugs/caspofungin\">CASPOFUNGIN</xref>\n</parents>\n</topic>",
+    "id": "PHP77276",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/caspofungin/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "products": [
+        {
+            "title": "Cancidas 50mg powder for solution for infusion vials (Merck Sharp & Dohme Ltd) ",
+            "header": "Cancidas 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Cancidas 50mg powder for solution for infusion vials",
+            "ampid": "4847311000001104",
+            "strengthOfActiveIngredient": "Caspofungin (as Caspofungin acetate) 50 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;327.67 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;327.67</ph>",
+                        "nhsIndicativePrice": "&#163;327.67"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Cancidas 70mg powder for solution for infusion vials (Merck Sharp & Dohme Ltd) ",
+            "header": "Cancidas 70mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Cancidas 70mg powder for solution for infusion vials",
+            "ampid": "4847711000001100",
+            "strengthOfActiveIngredient": "Caspofungin (as Caspofungin acetate) 70 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;416.78 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;416.78</ph>",
+                        "nhsIndicativePrice": "&#163;416.78"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3728",
+        "label": "CASPOFUNGIN"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP98909\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/emerade-150-micrograms\" basename=\"emerade-150-micrograms\" title=\"Emerade 150 micrograms\">\n<title>Emerade<tm tmtype=\"reg\"/> 150 micrograms</title>\n<topic id=\"PHP98936\" outputclass=\"indicationsAndDose\" rev=\"1.31\" parent=\"/clinical-medicinal-product-information/emerade-150-micrograms\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute anaphylaxis (for self-administration)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child (body-weight up to 15 kg)</p>\n<p>150&#8239;micrograms, then 150&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child (body-weight 15&#8211;30 kg)</p>\n<p>150&#8239;micrograms, then 150&#8239;micrograms after 5&#8211;15&#8239;minutes as required, on the basis of a dose of 10&#8239;micrograms/kg, 300&#8239;micrograms may be more appropriate for some children.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP99018\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/emerade-150-micrograms\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>0.35&#8239;mL of the solution remains in the auto-injector device after use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98909",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/emerade-150-micrograms",
+    "basename": "emerade-150-micrograms",
+    "title": "Emerade 150 micrograms",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute anaphylaxis (for self-administration)",
+                        "html": "Acute anaphylaxis (for self-administration)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "150 micrograms, then 150 micrograms after 5&#8211;15 minutes as required.",
+                        "html": "<p>150&#8239;micrograms, then 150&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>",
+                        "ageGroup": "(body-weight up to 15 kg)"
+                    },
+                    {
+                        "textContent": "150 micrograms, then 150 micrograms after 5&#8211;15 minutes as required, on the basis of a dose of 10 micrograms/kg, 300 micrograms may be more appropriate for some children.",
+                        "html": "<p>150&#8239;micrograms, then 150&#8239;micrograms after 5&#8211;15&#8239;minutes as required, on the basis of a dose of 10&#8239;micrograms/kg, 300&#8239;micrograms may be more appropriate for some children.</p>",
+                        "ageGroup": "(body-weight 15&#8211;30 kg)"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "0.35 mL of the solution remains in the auto-injector device after use.",
+                "html": "<p>0.35&#8239;mL of the solution remains in the auto-injector device after use.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

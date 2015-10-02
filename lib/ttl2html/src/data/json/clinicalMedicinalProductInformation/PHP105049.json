@@ -1,0 +1,35 @@
+{
+    "xml": "<topic id=\"PHP105049\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/invita-d3-25000units1ml-oral-solution-consilient-health-ltd\" basename=\"invita-d3-25000units1ml-oral-solution-consilient-health-ltd\" title=\"InVita D3 25,000units/1ml oral solution (Consilient Health Ltd)\">\n<title>InVita D3<tm tmtype=\"reg\"/> 25,000units/1ml oral solution (Consilient Health Ltd)</title>\n<topic id=\"PHP105060\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/invita-d3-25000units1ml-oral-solution-consilient-health-ltd\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>May be mixed with a small amount of cold or lukewarm food immediately before administration.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP105049",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/invita-d3-25000units1ml-oral-solution-consilient-health-ltd",
+    "basename": "invita-d3-25000units1ml-oral-solution-consilient-health-ltd",
+    "title": "InVita D3 25,000units/1ml oral solution (Consilient Health Ltd)",
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "May be mixed with a small amount of cold or lukewarm food immediately before administration.",
+                "html": "<p>May be mixed with a small amount of cold or lukewarm food immediately before administration.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

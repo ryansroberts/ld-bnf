@@ -1,0 +1,170 @@
+{
+    "xml": "<topic id=\"PHP803\" outputclass=\"drug\" rev=\"1.18\" type=\"drug\" namespace=\"/drugs/xipamide\" basename=\"xipamide\" title=\"XIPAMIDE\">\n<title>XIPAMIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_537\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-thiazide-and-related/xipamide\">Xipamide</xref>\n</p>\n<data name=\"vtmid\">317968004</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_396265530\" title=\"Thiazides and related diuretics\">Thiazides and related diuretics</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34641\" title=\"THIAZIDES AND RELATED DIURETICS\" namespace=\"/drug-classes/thiazides-and-related-diuretics\">THIAZIDES AND RELATED DIURETICS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP66427\" outputclass=\"indicationsAndDose\" rev=\"1.25\" parent=\"/drugs/xipamide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Oedema</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 40&#8239;mg daily, dose to be taken in the morning, increased if necessary to 80&#8239;mg daily, higher dose to be used in resistant cases; maintenance 20&#8239;mg daily, dose to be taken in the morning.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypertension</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8239;mg daily, dose to be taken in the morning.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66575\" outputclass=\"cautions\" rev=\"1.12\" parent=\"/drugs/xipamide\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP66582\" outputclass=\"breastFeeding\" parent=\"/drugs/xipamide\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>No information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP803-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/xipamide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75978\" title=\"Tablet\" namespace=\"/drugs/xipamide/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78178\" namespace=\"/treatment-summaries/diuretics\" title=\"Diuretics\" count=\"1\" rel=\"backlink\">Diuretics</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_537\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-thiazide-and-related/xipamide\" title=\"Xipamide\" count=\"1\" rel=\"link\">Xipamide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34641\" namespace=\"/drug-classes/thiazides-and-related-diuretics\" title=\"THIAZIDES AND RELATED DIURETICS\" count=\"1\" rel=\"link\">THIAZIDES AND RELATED DIURETICS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75978\" namespace=\"/drugs/xipamide/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP803",
+    "outputclass": "drug",
+    "rev": "1.18",
+    "type": "drug",
+    "namespace": "/drugs/xipamide",
+    "basename": "xipamide",
+    "title": "XIPAMIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_537",
+            "label": "Xipamide"
+        }
+    ],
+    "vtmid": "317968004",
+    "drugClassification": [
+        "Thiazides and related diuretics"
+    ],
+    "inheritsFromClass": [
+        "THIAZIDES AND RELATED DIURETICS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Oedema",
+                        "html": "Oedema"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 40 mg daily, dose to be taken in the morning, increased if necessary to 80 mg daily, higher dose to be used in resistant cases; maintenance 20 mg daily, dose to be taken in the morning.",
+                        "html": "<p>Initially 40&#8239;mg daily, dose to be taken in the morning, increased if necessary to 80&#8239;mg daily, higher dose to be used in resistant cases; maintenance 20&#8239;mg daily, dose to be taken in the morning.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypertension",
+                        "html": "Hypertension"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "20 mg daily, dose to be taken in the morning.",
+                        "html": "<p>20&#8239;mg daily, dose to be taken in the morning.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "No information available.",
+                "html": "<p>No information available.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75978",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78178",
+                "label": "Diuretics",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_537",
+                "label": "Xipamide",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34641",
+                "label": "THIAZIDES AND RELATED DIURETICS",
+                "type": "drugClass"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75978",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

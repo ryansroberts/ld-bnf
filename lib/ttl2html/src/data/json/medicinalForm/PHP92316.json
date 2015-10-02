@@ -1,0 +1,74 @@
+{
+    "xml": "<topic id=\"PHP92316\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ketoprofen-with-omeprazole/modified-release-capsule\" basename=\"modified-release-capsule\" title=\"Modified-release capsule\">\n<title>Modified-release capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Propylene glycol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Axorid 100mg/20mg modified-release capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">16148311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ketoprofen 100&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Omeprazole 20&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.80</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Axorid 200mg/20mg modified-release capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">16140611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ketoprofen 200&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Omeprazole 20&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88004\" title=\"KETOPROFEN WITH OMEPRAZOLE\" namespace=\"/drugs/ketoprofen-with-omeprazole\">KETOPROFEN WITH OMEPRAZOLE</xref>\n</parents>\n</topic>",
+    "id": "PHP92316",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ketoprofen-with-omeprazole/modified-release-capsule",
+    "basename": "modified-release-capsule",
+    "form": "Modified-release capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "excipients": [
+        "Propylene glycol"
+    ],
+    "products": [
+        {
+            "title": "Axorid 100mg/20mg modified-release capsules (Meda Pharmaceuticals Ltd) ",
+            "header": "Axorid 100mg/20mg modified-release capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Axorid 100mg/20mg modified-release capsules",
+            "ampid": "16148311000001101",
+            "strengthOfActiveIngredient": "Omeprazole 20 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.80</ph>",
+                        "nhsIndicativePrice": "&#163;13.80"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Axorid 200mg/20mg modified-release capsules (Meda Pharmaceuticals Ltd) ",
+            "header": "Axorid 200mg/20mg modified-release capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Axorid 200mg/20mg modified-release capsules",
+            "ampid": "16140611000001108",
+            "strengthOfActiveIngredient": "Omeprazole 20 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.80</ph>",
+                        "nhsIndicativePrice": "&#163;13.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88004",
+        "label": "KETOPROFEN WITH OMEPRAZOLE"
+    }
+}

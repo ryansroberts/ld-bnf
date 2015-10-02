@@ -1,0 +1,86 @@
+{
+    "xml": "<topic id=\"PHP77724\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/kaolin/poultice\" basename=\"poultice\" title=\"Poultice\">\n<title>Poultice</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Kaolin poultice 100g pouches <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">4790411000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Boric acid 45&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Kaolin heavy 527&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Methyl salicylate 2&#8239;ml per 1&#8239;kg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Peppermint oil 500&#8239;microgram per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Thymol 500&#8239;microgram per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.60</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Kaolin poultice 100g pouches <ph outputclass=\"manufacturer\">(KL Pharmaceutical Ltd)</ph>\n</title>\n<data name=\"ampid\">4790911000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Boric acid 45&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Kaolin heavy 527&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Methyl salicylate 2&#8239;ml per 1&#8239;kg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Peppermint oil 500&#8239;microgram per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Thymol 500&#8239;microgram per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Kaolin poultices <ph outputclass=\"manufacturer\">(KL Pharmaceutical Ltd)</ph>\n</title>\n<data name=\"ampid\">4879611000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Boric acid 45&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Kaolin heavy 527&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Methyl salicylate 2&#8239;ml per 1&#8239;kg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Peppermint oil 500&#8239;microgram per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Thymol 500&#8239;microgram per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.76</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;2.76</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP457\" title=\"KAOLIN\" namespace=\"/drugs/kaolin\">KAOLIN</xref>\n</parents>\n</topic>",
+    "id": "PHP77724",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/kaolin/poultice",
+    "basename": "poultice",
+    "form": "Poultice",
+    "products": [
+        {
+            "title": "Kaolin poultice 100g pouches (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Kaolin poultice 100g pouches <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Kaolin poultice 100g pouches",
+            "ampid": "4790411000001102",
+            "strengthOfActiveIngredient": "Thymol 500 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 4 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.60</ph>",
+                        "nhsIndicativePrice": "&#163;13.60"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Kaolin poultice 100g pouches (KL Pharmaceutical Ltd) ",
+            "header": "Kaolin poultice 100g pouches <ph outputclass=\"manufacturer\">(KL Pharmaceutical Ltd)</ph>",
+            "manufacturer": "(KL Pharmaceutical Ltd)",
+            "name": "Kaolin poultice 100g pouches",
+            "ampid": "4790911000001105",
+            "strengthOfActiveIngredient": "Thymol 500 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 4 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Kaolin poultices (KL Pharmaceutical Ltd) ",
+            "header": "Kaolin poultices <ph outputclass=\"manufacturer\">(KL Pharmaceutical Ltd)</ph>",
+            "manufacturer": "(KL Pharmaceutical Ltd)",
+            "name": "Kaolin poultices",
+            "ampid": "4879611000001100",
+            "strengthOfActiveIngredient": "Thymol 500 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 200 gram P ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.76 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.76</ph>",
+                        "nhsIndicativePrice": "&#163;2.76"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.76 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.76</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.76"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP457",
+        "label": "KAOLIN"
+    }
+}

@@ -1,0 +1,720 @@
+{
+    "xml": "<topic id=\"PHP18848\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/axitinib\" basename=\"axitinib\" title=\"AXITINIB\">\n<title>AXITINIB</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1235\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/protein-kinase-inhibitors/axitinib\">Axitinib</xref>\n</p>\n<data name=\"vtmid\">429507005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_208007314\" title=\"Protein kinase inhibitors\">Protein kinase inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP70423\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/axitinib\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Axitinib is a tyrosine kinase inhibitor.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69924\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/drugs/axitinib\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of advanced renal cell carcinoma following failure of previous treatment with sunitinib or a cytokine (aldesleukin or interferon alfa)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70573\" outputclass=\"importantSafetyInformation\" rev=\"1.8\" parent=\"/drugs/axitinib\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Risks of incorrect dosing of oral anti-cancer medicines</p>\n<p>The National Patient Safety Agency has advised (January 2008) that the prescribing and use of oral cytotoxic medicines should be carried out to the same standard as parenteral cytotoxic therapy.</p>\n<p>Standards to be followed to achieve this include:</p>\n<ul>\n<li>non-specialists who prescribe or administer on-going oral cytotoxic medication should have access to written protocols and treatment plans, including guidance on the monitoring and treatment of toxicity;</li>\n<li>staff dispensing oral cytotoxic medicines should confirm that the prescribed dose is appropriate for the patient. Patients should have written information that includes details of the intended oral anti-cancer regimen, the treatment plan, and arrangements for monitoring, taken from the original protocol from the initiating hospital. Staff dispensing oral cytotoxic medicines should also have access to this information, and to advice from an experienced cancer pharmacist in the initiating hospital.</li>\n</ul>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70714\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drugs/axitinib\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Recent active gastro-intestinal bleeding</ph>; <ph outputclass=\"contraindication\">untreated brain metastases</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71064\" outputclass=\"cautions\" rev=\"1.10\" parent=\"/drugs/axitinib\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Hypertension (blood pressure should be well-controlled before starting and monitored during treatment)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69784\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/axitinib\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (axitinib).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70986\" outputclass=\"sideEffects\" rev=\"1.13\" parent=\"/drugs/axitinib\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain</ph>; <ph outputclass=\"sideEffect\">anal fistula</ph>; <ph outputclass=\"sideEffect\">arthralgia</ph>; <ph outputclass=\"sideEffect\">asthenia</ph>; <ph outputclass=\"sideEffect\">cerebral haemorrhage</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">cough</ph>; <ph outputclass=\"sideEffect\">decreased appetite</ph>; <ph outputclass=\"sideEffect\">dehydration</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">dry skin</ph>; <ph outputclass=\"sideEffect\">dysgeusia</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">dysphonia</ph>; <ph outputclass=\"sideEffect\">dyspnoea</ph>; <ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal haemorrhage</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal perforation</ph>; <ph outputclass=\"sideEffect\">haemoptysis</ph>; <ph outputclass=\"sideEffect\">haemorrhage</ph>; <ph outputclass=\"sideEffect\">haemorrhoids</ph>; <ph outputclass=\"sideEffect\">hand-foot syndrome</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypercalcaemia</ph>; <ph outputclass=\"sideEffect\">hyperkalaemia</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">hyperthyroidism</ph>; <ph outputclass=\"sideEffect\">hypothyroidism</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">proteinuria</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">renal failure</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>; <ph outputclass=\"sideEffect\">weight loss</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hypertensive crisis</ph>; <ph outputclass=\"sideEffect\">polycythaemia</ph>; <ph outputclass=\"sideEffect\">posterior reversible encephalopathy syndrome</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">bone-marrow suppression</ph>; <ph outputclass=\"sideEffect\">hyperuricaemia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">oral mucositis</ph>; <ph outputclass=\"sideEffect\">thromboembolism</ph>; <ph outputclass=\"sideEffect\">tumour lysis syndrome</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70851\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/axitinib\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Exclude pregnancy before treatment with cytotoxic drugs.</p>\n<p>Contraceptive advice should be given before cytotoxic therapy begins&#8212;effective contraception required during and for up to 1 week after treatment.</p>\n<p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69592\" outputclass=\"pregnancy\" parent=\"/drugs/axitinib\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk (toxicity in <i>animal</i> studies).</p>\n<p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p>\n<p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70102\" outputclass=\"hepaticImpairment\" parent=\"/drugs/axitinib\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce starting dose in moderate impairment.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70049\" outputclass=\"monitoringRequirements\" parent=\"/drugs/axitinib\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor for thyroid dysfunction.</p>\n<p>Monitor haemoglobin or haematocrit before and during treatment.</p>\n<p>Monitor for symptoms of gastro-intestinal perforation.</p>\n<p>Monitor for symptoms of fistula.</p>\n<p>Monitor for proteinuria before and during treatment.</p>\n<p>Monitor liver function before and during treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP69280\" outputclass=\"nationalFunding\" rev=\"1.10\" parent=\"/drugs/axitinib\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA333</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Axitinib for treating advanced renal cell carcinoma after failure of prior systemic treatment (February 2015)</p>\r\n<p>Axitinib is recommended as an option for treating adults with advanced renal cell carcinoma after failure of treatment with a first-line tyrosine kinase inhibitor or a cytokine, <b>only</b> if the company provides axitinib with the discount agreed in the patient access scheme.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA333\">www.nice.org.uk/TA333</xref>\n</sectiondiv>\n</sectiondiv>\r\n </section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP18848-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/axitinib\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75678\" title=\"Tablet\" namespace=\"/drugs/axitinib/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP107699\" namespace=\"/about/changes\" title=\"Changes\" count=\"1\" rel=\"backlink\">Changes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1235\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/protein-kinase-inhibitors/axitinib\" title=\"Axitinib\" count=\"1\" rel=\"link\">Axitinib</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75678\" namespace=\"/drugs/axitinib/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP18848",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/axitinib",
+    "basename": "axitinib",
+    "title": "AXITINIB",
+    "interactants": [
+        {
+            "id": "bnf_int_1235",
+            "label": "Axitinib"
+        }
+    ],
+    "vtmid": "429507005",
+    "drugClassification": [
+        "Protein kinase inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Axitinib is a tyrosine kinase inhibitor.",
+                "html": "<p>Axitinib is a tyrosine kinase inhibitor.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of advanced renal cell carcinoma following failure of previous treatment with sunitinib or a cytokine (aldesleukin or interferon alfa)",
+                        "html": "Treatment of advanced renal cell carcinoma following failure of previous treatment with sunitinib or a cytokine (aldesleukin or interferon alfa)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "title": "Risks of incorrect dosing of oral anti-cancer medicines",
+                "textContent": "The National Patient Safety Agency has advised (January 2008) that the prescribing and use of oral cytotoxic medicines should be carried out to the same standard as parenteral cytotoxic therapy.\n\nStandards to be followed to achieve this include:\n\nnon-specialists who prescribe or administer on-going oral cytotoxic medication should have access to written protocols and treatment plans, including guidance on the monitoring and treatment of toxicity; staff dispensing oral cytotoxic medicines should confirm that the prescribed dose is appropriate for the patient. Patients should have written information that includes details of the intended oral anti-cancer regimen, the treatment plan, and arrangements for monitoring, taken from the original protocol from the initiating hospital. Staff dispensing oral cytotoxic medicines should also have access to this information, and to advice from an experienced cancer pharmacist in the initiating hospital.",
+                "html": "<p>The National Patient Safety Agency has advised (January 2008) that the prescribing and use of oral cytotoxic medicines should be carried out to the same standard as parenteral cytotoxic therapy.</p><p>Standards to be followed to achieve this include:</p><ul>\n<li>non-specialists who prescribe or administer on-going oral cytotoxic medication should have access to written protocols and treatment plans, including guidance on the monitoring and treatment of toxicity;</li>\n<li>staff dispensing oral cytotoxic medicines should confirm that the prescribed dose is appropriate for the patient. Patients should have written information that includes details of the intended oral anti-cancer regimen, the treatment plan, and arrangements for monitoring, taken from the original protocol from the initiating hospital. Staff dispensing oral cytotoxic medicines should also have access to this information, and to advice from an experienced cancer pharmacist in the initiating hospital.</li>\n</ul>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Recent active gastro-intestinal bleeding",
+                "html": "Recent active gastro-intestinal bleeding"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "untreated brain metastases",
+                "html": "untreated brain metastases"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Hypertension (blood pressure should be well-controlled before starting and monitored during treatment)",
+                "html": "Hypertension (blood pressure should be well-controlled before starting and monitored during treatment)"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (axitinib).",
+                "html": "<p>Appendix 1 (axitinib).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain",
+                        "html": "Abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anal fistula",
+                        "html": "anal fistula",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arthralgia",
+                        "html": "arthralgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "asthenia",
+                        "html": "asthenia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cerebral haemorrhage",
+                        "html": "cerebral haemorrhage",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cough",
+                        "html": "cough",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite",
+                        "html": "decreased appetite",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dehydration",
+                        "html": "dehydration",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry skin",
+                        "html": "dry skin",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dysgeusia",
+                        "html": "dysgeusia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dysphonia",
+                        "html": "dysphonia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspnoea",
+                        "html": "dyspnoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastro-intestinal haemorrhage",
+                        "html": "gastro-intestinal haemorrhage",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastro-intestinal perforation",
+                        "html": "gastro-intestinal perforation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "haemoptysis",
+                        "html": "haemoptysis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "haemorrhage",
+                        "html": "haemorrhage",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "haemorrhoids",
+                        "html": "haemorrhoids",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hand-foot syndrome",
+                        "html": "hand-foot syndrome",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypercalcaemia",
+                        "html": "hypercalcaemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperkalaemia",
+                        "html": "hyperkalaemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperthyroidism",
+                        "html": "hyperthyroidism",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypothyroidism",
+                        "html": "hypothyroidism",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "proteinuria",
+                        "html": "proteinuria",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "renal failure",
+                        "html": "renal failure",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "weight loss",
+                        "html": "weight loss",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Hypertensive crisis",
+                        "html": "Hypertensive crisis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "polycythaemia",
+                        "html": "polycythaemia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "posterior reversible encephalopathy syndrome",
+                        "html": "posterior reversible encephalopathy syndrome",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "bone-marrow suppression",
+                        "html": "bone-marrow suppression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperuricaemia",
+                        "html": "hyperuricaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "oral mucositis",
+                        "html": "oral mucositis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thromboembolism",
+                        "html": "thromboembolism",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tumour lysis syndrome",
+                        "html": "tumour lysis syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Exclude pregnancy before treatment with cytotoxic drugs.\n\nContraceptive advice should be given before cytotoxic therapy begins&#8212;effective contraception required during and for up to 1 week after treatment.\n\nRegimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.",
+                "html": "<p>Exclude pregnancy before treatment with cytotoxic drugs.</p><p>Contraceptive advice should be given before cytotoxic therapy begins&#8212;effective contraception required during and for up to 1 week after treatment.</p><p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk (toxicity in animal studies).\n\nMost cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.\n\nConsiderable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk (toxicity in <i>animal</i> studies).</p><p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p><p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce starting dose in moderate impairment.",
+                "html": "<p>Reduce starting dose in moderate impairment.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe impairment&#8212;no information available.",
+                "html": "<p>Avoid in severe impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor for thyroid dysfunction.\n\nMonitor haemoglobin or haematocrit before and during treatment.\n\nMonitor for symptoms of gastro-intestinal perforation.\n\nMonitor for symptoms of fistula.\n\nMonitor for proteinuria before and during treatment.\n\nMonitor liver function before and during treatment.",
+                "html": "<p>Monitor for thyroid dysfunction.</p><p>Monitor haemoglobin or haematocrit before and during treatment.</p><p>Monitor for symptoms of gastro-intestinal perforation.</p><p>Monitor for symptoms of fistula.</p><p>Monitor for proteinuria before and during treatment.</p><p>Monitor liver function before and during treatment.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA333",
+                        "label": "www.nice.org.uk/TA333"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA333",
+                "textContent": "Axitinib for treating advanced renal cell carcinoma after failure of prior systemic treatment (February 2015) Axitinib is recommended as an option for treating adults with advanced renal cell carcinoma after failure of treatment with a first-line tyrosine kinase inhibitor or a cytokine, only if the company provides axitinib with the discount agreed in the patient access scheme.\n\nwww.nice.org.uk/TA333",
+                "html": "<p outputclass=\"title\">Axitinib for treating advanced renal cell carcinoma after failure of prior systemic treatment (February 2015)</p> <p>Axitinib is recommended as an option for treating adults with advanced renal cell carcinoma after failure of treatment with a first-line tyrosine kinase inhibitor or a cytokine, <b>only</b> if the company provides axitinib with the discount agreed in the patient access scheme.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA333\">www.nice.org.uk/TA333</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75678",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "treatmentSummary": [
+            {
+                "id": "PHP107699",
+                "label": "Changes",
+                "type": "treatmentSummary"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1235",
+                "label": "Axitinib",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75678",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

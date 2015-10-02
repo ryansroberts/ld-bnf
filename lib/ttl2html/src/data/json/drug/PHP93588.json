@@ -1,0 +1,854 @@
+{
+    "xml": "<topic id=\"PHP93588\" outputclass=\"drug\" rev=\"1.10\" type=\"drug\" namespace=\"/drugs/daclatasvir\" basename=\"daclatasvir\" title=\"DACLATASVIR\">\n<title>DACLATASVIR</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1347\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\">Daclatasvir</xref>\n</p>\n<data name=\"vtmid\">26928511000001106</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_161305912\" title=\"Non-structural protein 5A inhibitors\">Non-structural protein 5A inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP93693\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/daclatasvir\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Daclatasvir is an inhibitor of the multifunctional protein NS5A, which is an essential component of the hepatitis C virus replication process.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93696\" outputclass=\"indicationsAndDose\" rev=\"1.26\" parent=\"/drugs/daclatasvir\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">In combination with sofosbuvir for the treatment of chronic hepatitis C infection of genotypes 1 or 4, with or without compensated cirrhosis</p>\n<p outputclass=\"therapeuticIndication\">In combination with sofosbuvir and ribavirin for the treatment of chronic hepatitis C infection of genotype 3 in patients who are treatment experienced, with or without compensated cirrhosis</p>\n<p outputclass=\"therapeuticIndication\">In combination with peginterferon alfa and ribavirin for the treatment of chronic hepatitis C infection of genotype 4</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Usual dose 60&#8239;mg once daily (for duration of treatment consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseAdjustments\">\n<title>Dose adjustments due to interactions</title>\n<sectiondiv>\n<p>Reduce dose to 30&#8239;mg once daily with concomitant use of potent CYP3A4 inhibitors (e.g. atazanavir boosted with ritonavir, boceprevir, clarithromycin, cobicistat, itraconazole, ketoconazole, posaconazole, telaprevir, telithromycin, and voriconazole).</p>\n<p>Increase dose to 90&#8239;mg once daily with concomitant use of moderate CYP3A4 inducers (e.g. efavirenz).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93689\" outputclass=\"cautions\" rev=\"1.16\" parent=\"/drugs/daclatasvir\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Decompensated liver disease</ph>; <ph outputclass=\"caution\">hepatitis B virus co-infection</ph>; <ph outputclass=\"caution\">human immunodeficiency virus co-infection</ph>; <ph outputclass=\"caution\">organ transplant patients</ph>; <ph outputclass=\"caution\">retreatment&#8212;efficacy not established in patients with prior exposure to a NS5A inhibitor</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93697\" outputclass=\"interactions\" rev=\"1.19\" parent=\"/drugs/daclatasvir\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (daclatasvir).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93702\" outputclass=\"sideEffects\" rev=\"1.19\" parent=\"/drugs/daclatasvir\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">alopecia (in combination with ribavarin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">alopecia (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">anaemia (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">anaemia (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">anxiety (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">arthralgia (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">arthralgia (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">blurred vision (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">constipation (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">cough (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">decreased appetite (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">decreased appetite (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">depression (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">diarrhoea (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">disturbance in attention (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">dizziness (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">dizziness (in combination with sofosbuvir with or without ribavirin),</ph>; <ph outputclass=\"sideEffect\">dry mouth (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">dry skin (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">dry skin (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">dyspnoea (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">flatulence (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">gastro-oesophageal reflux (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">headache (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">hot flush (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">insomnia (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">irritability (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">lymphopenia (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">malaise (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">migraine (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">myalgia (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">myalgia (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">nasal congestion (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">nausea (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">neutropenia (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">pruritus (in combination with sofosbuvir with or without ribavirin),</ph>; <ph outputclass=\"sideEffect\">pyrexia (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">rash (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">rash (in combination with sofosbuvir with or without ribavirin)</ph>; <ph outputclass=\"sideEffect\">reduced visual acuity (in combination with ribavirin and peginterferon alfa)</ph>; <ph outputclass=\"sideEffect\">vomiting (in combination with sofosbuvir with or without ribavirin)</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93690\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/daclatasvir\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Highly effective contraception required during and for 5 weeks after treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93698\" outputclass=\"pregnancy\" parent=\"/drugs/daclatasvir\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid (toxicity in <i>animal</i> studies).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93688\" outputclass=\"breastFeeding\" parent=\"/drugs/daclatasvir\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93699\" outputclass=\"patientAndCarerAdvice\" rev=\"1.16\" parent=\"/drugs/daclatasvir\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundMissedDoses\">\n<title>Missed doses</title>\n<sectiondiv>\n<p>If a dose is more than 20 hours late, the missed dose should not be taken and the next dose should be taken at the normal time.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p outputclass=\"title\">Driving</p>\n<p> May affect performance of skilled tasks (e.g. driving)</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP93588-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/daclatasvir\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101367\" title=\"Tablet\" namespace=\"/drugs/daclatasvir/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e75034\" href=\"#bnf_d1e75034\" namespace=\"/interactions/list-of-drug-interactions/antivirals/atazanavir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e75034</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1005\" namespace=\"/interactions/list-of-drug-interactions/antivirals/atazanavir\" title=\"Atazanavir\" count=\"1\" rel=\"backlink\">Atazanavir</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e55199\" href=\"#bnf_d1e55199\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-triazole/posaconazole\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e55199</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1060\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-triazole/posaconazole\" title=\"Posaconazole\" count=\"1\" rel=\"backlink\">Posaconazole</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e70467\" href=\"#bnf_d1e70467\" namespace=\"/interactions/list-of-drug-interactions/antivirals/telaprevir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e70467</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1216\" namespace=\"/interactions/list-of-drug-interactions/antivirals/telaprevir\" title=\"Telaprevir\" count=\"1\" rel=\"backlink\">Telaprevir</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e71421\" href=\"#bnf_d1e71421\" namespace=\"/interactions/list-of-drug-interactions/antivirals/boceprevir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e71421</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1214\" namespace=\"/interactions/list-of-drug-interactions/antivirals/boceprevir\" title=\"Boceprevir\" count=\"1\" rel=\"backlink\">Boceprevir</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e96266\" href=\"#bnf_d1e96266\" namespace=\"/interactions/list-of-drug-interactions/cobicistat\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e96266</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1259\" namespace=\"/interactions/list-of-drug-interactions/cobicistat\" title=\"Cobicistat\" count=\"1\" rel=\"backlink\">Cobicistat</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68051\" href=\"#bnf_d1e68051\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68051</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68077\" href=\"#bnf_d1e68077\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68077</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68120\" href=\"#bnf_d1e68120\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68120</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68146\" href=\"#bnf_d1e68146\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68146</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68218\" href=\"#bnf_d1e68218\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68218</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68279\" href=\"#bnf_d1e68279\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68279</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68305\" href=\"#bnf_d1e68305\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68305</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68416\" href=\"#bnf_d1e68416\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68416</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68520\" href=\"#bnf_d1e68520\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68520</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68546\" href=\"#bnf_d1e68546\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68546</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e68572\" href=\"#bnf_d1e68572\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e68572</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e53280\" href=\"#bnf_d1e53280\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-imidazole/ketoconazole\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e53280</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1365\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-imidazole/ketoconazole\" title=\"Ketoconazole\" count=\"1\" rel=\"backlink\">Ketoconazole</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e17808\" href=\"#bnf_d1e17808\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/macrolides/clarithromycin\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e17808</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_168\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/macrolides/clarithromycin\" title=\"Clarithromycin\" count=\"1\" rel=\"backlink\">Clarithromycin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e57844\" href=\"#bnf_d1e57844\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-triazole/itraconazole\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e57844</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_302\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-triazole/itraconazole\" title=\"Itraconazole\" count=\"1\" rel=\"backlink\">Itraconazole</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e76618\" href=\"#bnf_d1e76618\" namespace=\"/interactions/list-of-drug-interactions/antivirals/efavirenz\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e76618</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_874\" namespace=\"/interactions/list-of-drug-interactions/antivirals/efavirenz\" title=\"Efavirenz\" count=\"1\" rel=\"backlink\">Efavirenz</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e15296\" href=\"#bnf_d1e15296\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/telithromycin\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e15296</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_946\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/telithromycin\" title=\"Telithromycin\" count=\"1\" rel=\"backlink\">Telithromycin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#bnf_d1e55929\" href=\"#bnf_d1e55929\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-triazole/voriconazole\" title=\"\" count=\"1\" rel=\"backlink\">bnf_d1e55929</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_948\" namespace=\"/interactions/list-of-drug-interactions/antifungals/antifungals-triazole/voriconazole\" title=\"Voriconazole\" count=\"1\" rel=\"backlink\">Voriconazole</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78240\" namespace=\"/treatment-summaries/hepatitis\" title=\"Hepatitis\" count=\"2\" rel=\"backlink\">Hepatitis</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1347\" namespace=\"/interactions/list-of-drug-interactions/antivirals/daclatasvir\" title=\"Daclatasvir\" count=\"1\" rel=\"link\">Daclatasvir</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101367\" namespace=\"/drugs/daclatasvir/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP93588",
+    "outputclass": "drug",
+    "rev": "1.10",
+    "type": "drug",
+    "namespace": "/drugs/daclatasvir",
+    "basename": "daclatasvir",
+    "title": "DACLATASVIR",
+    "interactants": [
+        {
+            "id": "bnf_int_1347",
+            "label": "Daclatasvir"
+        }
+    ],
+    "vtmid": "26928511000001106",
+    "drugClassification": [
+        "Non-structural protein 5A inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Daclatasvir is an inhibitor of the multifunctional protein NS5A, which is an essential component of the hepatitis C virus replication process.",
+                "html": "<p>Daclatasvir is an inhibitor of the multifunctional protein NS5A, which is an essential component of the hepatitis C virus replication process.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "In combination with sofosbuvir for the treatment of chronic hepatitis C infection of genotypes 1 or 4, with or without compensated cirrhosis",
+                        "html": "In combination with sofosbuvir for the treatment of chronic hepatitis C infection of genotypes 1 or 4, with or without compensated cirrhosis"
+                    },
+                    {
+                        "textContent": "In combination with sofosbuvir and ribavirin for the treatment of chronic hepatitis C infection of genotype 3 in patients who are treatment experienced, with or without compensated cirrhosis",
+                        "html": "In combination with sofosbuvir and ribavirin for the treatment of chronic hepatitis C infection of genotype 3 in patients who are treatment experienced, with or without compensated cirrhosis"
+                    },
+                    {
+                        "textContent": "In combination with peginterferon alfa and ribavirin for the treatment of chronic hepatitis C infection of genotype 4",
+                        "html": "In combination with peginterferon alfa and ribavirin for the treatment of chronic hepatitis C infection of genotype 4"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Usual dose 60 mg once daily (for duration of treatment consult product literature).",
+                        "html": "<p>Usual dose 60&#8239;mg once daily (for duration of treatment consult product literature).</p>"
+                    }
+                ]
+            }
+        ],
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "title": "Dose adjustments due to interactions",
+                "textContent": "Reduce dose to 30 mg once daily with concomitant use of potent CYP3A4 inhibitors (e.g. atazanavir boosted with ritonavir, boceprevir, clarithromycin, cobicistat, itraconazole, ketoconazole, posaconazole, telaprevir, telithromycin, and voriconazole). Increase dose to 90 mg once daily with concomitant use of moderate CYP3A4 inducers (e.g. efavirenz).",
+                "html": "<p>Reduce dose to 30&#8239;mg once daily with concomitant use of potent CYP3A4 inhibitors (e.g. atazanavir boosted with ritonavir, boceprevir, clarithromycin, cobicistat, itraconazole, ketoconazole, posaconazole, telaprevir, telithromycin, and voriconazole).</p> <p>Increase dose to 90&#8239;mg once daily with concomitant use of moderate CYP3A4 inducers (e.g. efavirenz).</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Decompensated liver disease",
+                "html": "Decompensated liver disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hepatitis B virus co-infection",
+                "html": "hepatitis B virus co-infection"
+            },
+            {
+                "type": "cautions",
+                "textContent": "human immunodeficiency virus co-infection",
+                "html": "human immunodeficiency virus co-infection"
+            },
+            {
+                "type": "cautions",
+                "textContent": "organ transplant patients",
+                "html": "organ transplant patients"
+            },
+            {
+                "type": "cautions",
+                "textContent": "retreatment&#8212;efficacy not established in patients with prior exposure to a NS5A inhibitor",
+                "html": "retreatment&#8212;efficacy not established in patients with prior exposure to a NS5A inhibitor"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (daclatasvir).",
+                "html": "<p>Appendix 1 (daclatasvir).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "Abdominal pain (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "alopecia (in combination with ribavarin and peginterferon alfa)",
+                        "html": "alopecia (in combination with ribavarin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "alopecia (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "alopecia (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anaemia (in combination with ribavirin and peginterferon alfa)",
+                        "html": "anaemia (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anaemia (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "anaemia (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anxiety (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "anxiety (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arthralgia (in combination with ribavirin and peginterferon alfa)",
+                        "html": "arthralgia (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arthralgia (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "arthralgia (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "blurred vision (in combination with ribavirin and peginterferon alfa)",
+                        "html": "blurred vision (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "constipation (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "constipation (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cough (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "cough (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite (in combination with ribavirin and peginterferon alfa)",
+                        "html": "decreased appetite (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "decreased appetite (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "depression (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "depression (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "diarrhoea (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "disturbance in attention (in combination with ribavirin and peginterferon alfa)",
+                        "html": "disturbance in attention (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness (in combination with ribavirin and peginterferon alfa)",
+                        "html": "dizziness (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness (in combination with sofosbuvir with or without ribavirin),",
+                        "html": "dizziness (in combination with sofosbuvir with or without ribavirin),",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry mouth (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "dry mouth (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry skin (in combination with ribavirin and peginterferon alfa)",
+                        "html": "dry skin (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry skin (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "dry skin (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspnoea (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "dyspnoea (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "flatulence (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "flatulence (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastro-oesophageal reflux (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "gastro-oesophageal reflux (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "headache (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hot flush (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "hot flush (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "insomnia (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "insomnia (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "irritability (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "irritability (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "lymphopenia (in combination with ribavirin and peginterferon alfa)",
+                        "html": "lymphopenia (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "malaise (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "malaise (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "migraine (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "migraine (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "myalgia (in combination with ribavirin and peginterferon alfa)",
+                        "html": "myalgia (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "myalgia (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "myalgia (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nasal congestion (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "nasal congestion (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "nausea (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "neutropenia (in combination with ribavirin and peginterferon alfa)",
+                        "html": "neutropenia (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus (in combination with sofosbuvir with or without ribavirin),",
+                        "html": "pruritus (in combination with sofosbuvir with or without ribavirin),",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pyrexia (in combination with ribavirin and peginterferon alfa)",
+                        "html": "pyrexia (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash (in combination with ribavirin and peginterferon alfa)",
+                        "html": "rash (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "rash (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "reduced visual acuity (in combination with ribavirin and peginterferon alfa)",
+                        "html": "reduced visual acuity (in combination with ribavirin and peginterferon alfa)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting (in combination with sofosbuvir with or without ribavirin)",
+                        "html": "vomiting (in combination with sofosbuvir with or without ribavirin)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Highly effective contraception required during and for 5 weeks after treatment.",
+                "html": "<p>Highly effective contraception required during and for 5 weeks after treatment.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid (toxicity in animal studies).",
+                "html": "<p>Manufacturer advises avoid (toxicity in <i>animal</i> studies).</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;present in milk in animal studies.",
+                "html": "<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundMissedDoses": [
+            {
+                "type": "adviceAroundMissedDoses",
+                "textContent": "If a dose is more than 20 hours late, the missed dose should not be taken and the next dose should be taken at the normal time.",
+                "html": "<p>If a dose is more than 20 hours late, the missed dose should not be taken and the next dose should be taken at the normal time.</p>"
+            }
+        ],
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "title": "Driving",
+                "textContent": "May affect performance of skilled tasks (e.g. driving)",
+                "html": "<p> May affect performance of skilled tasks (e.g. driving)</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP101367",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "#bnf_d1e75034": [
+            {
+                "id": "bnf_d1e75034",
+                "label": "bnf_d1e75034",
+                "type": "#bnf_d1e75034"
+            }
+        ],
+        "interaction": [
+            {
+                "id": "bnf_int_1005",
+                "label": "Atazanavir",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_1060",
+                "label": "Posaconazole",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_1216",
+                "label": "Telaprevir",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_1214",
+                "label": "Boceprevir",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_1259",
+                "label": "Cobicistat",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_1365",
+                "label": "Ketoconazole",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_168",
+                "label": "Clarithromycin",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_302",
+                "label": "Itraconazole",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_874",
+                "label": "Efavirenz",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_946",
+                "label": "Telithromycin",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_948",
+                "label": "Voriconazole",
+                "type": "interaction"
+            }
+        ],
+        "#bnf_d1e55199": [
+            {
+                "id": "bnf_d1e55199",
+                "label": "bnf_d1e55199",
+                "type": "#bnf_d1e55199"
+            }
+        ],
+        "#bnf_d1e70467": [
+            {
+                "id": "bnf_d1e70467",
+                "label": "bnf_d1e70467",
+                "type": "#bnf_d1e70467"
+            }
+        ],
+        "#bnf_d1e71421": [
+            {
+                "id": "bnf_d1e71421",
+                "label": "bnf_d1e71421",
+                "type": "#bnf_d1e71421"
+            }
+        ],
+        "#bnf_d1e96266": [
+            {
+                "id": "bnf_d1e96266",
+                "label": "bnf_d1e96266",
+                "type": "#bnf_d1e96266"
+            }
+        ],
+        "#bnf_d1e68051": [
+            {
+                "id": "bnf_d1e68051",
+                "label": "bnf_d1e68051",
+                "type": "#bnf_d1e68051"
+            }
+        ],
+        "#bnf_d1e68077": [
+            {
+                "id": "bnf_d1e68077",
+                "label": "bnf_d1e68077",
+                "type": "#bnf_d1e68077"
+            }
+        ],
+        "#bnf_d1e68120": [
+            {
+                "id": "bnf_d1e68120",
+                "label": "bnf_d1e68120",
+                "type": "#bnf_d1e68120"
+            }
+        ],
+        "#bnf_d1e68146": [
+            {
+                "id": "bnf_d1e68146",
+                "label": "bnf_d1e68146",
+                "type": "#bnf_d1e68146"
+            }
+        ],
+        "#bnf_d1e68218": [
+            {
+                "id": "bnf_d1e68218",
+                "label": "bnf_d1e68218",
+                "type": "#bnf_d1e68218"
+            }
+        ],
+        "#bnf_d1e68279": [
+            {
+                "id": "bnf_d1e68279",
+                "label": "bnf_d1e68279",
+                "type": "#bnf_d1e68279"
+            }
+        ],
+        "#bnf_d1e68305": [
+            {
+                "id": "bnf_d1e68305",
+                "label": "bnf_d1e68305",
+                "type": "#bnf_d1e68305"
+            }
+        ],
+        "#bnf_d1e68416": [
+            {
+                "id": "bnf_d1e68416",
+                "label": "bnf_d1e68416",
+                "type": "#bnf_d1e68416"
+            }
+        ],
+        "#bnf_d1e68520": [
+            {
+                "id": "bnf_d1e68520",
+                "label": "bnf_d1e68520",
+                "type": "#bnf_d1e68520"
+            }
+        ],
+        "#bnf_d1e68546": [
+            {
+                "id": "bnf_d1e68546",
+                "label": "bnf_d1e68546",
+                "type": "#bnf_d1e68546"
+            }
+        ],
+        "#bnf_d1e68572": [
+            {
+                "id": "bnf_d1e68572",
+                "label": "bnf_d1e68572",
+                "type": "#bnf_d1e68572"
+            }
+        ],
+        "#bnf_d1e53280": [
+            {
+                "id": "bnf_d1e53280",
+                "label": "bnf_d1e53280",
+                "type": "#bnf_d1e53280"
+            }
+        ],
+        "#bnf_d1e17808": [
+            {
+                "id": "bnf_d1e17808",
+                "label": "bnf_d1e17808",
+                "type": "#bnf_d1e17808"
+            }
+        ],
+        "#bnf_d1e57844": [
+            {
+                "id": "bnf_d1e57844",
+                "label": "bnf_d1e57844",
+                "type": "#bnf_d1e57844"
+            }
+        ],
+        "#bnf_d1e76618": [
+            {
+                "id": "bnf_d1e76618",
+                "label": "bnf_d1e76618",
+                "type": "#bnf_d1e76618"
+            }
+        ],
+        "#bnf_d1e15296": [
+            {
+                "id": "bnf_d1e15296",
+                "label": "bnf_d1e15296",
+                "type": "#bnf_d1e15296"
+            }
+        ],
+        "#bnf_d1e55929": [
+            {
+                "id": "bnf_d1e55929",
+                "label": "bnf_d1e55929",
+                "type": "#bnf_d1e55929"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78240",
+                "label": "Hepatitis",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1347",
+                "label": "Daclatasvir",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP101367",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

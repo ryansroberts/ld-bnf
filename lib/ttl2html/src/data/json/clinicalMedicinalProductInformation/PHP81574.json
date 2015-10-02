@@ -1,0 +1,108 @@
+{
+    "xml": "<topic id=\"PHP81574\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/copegus-tablets\" basename=\"copegus-tablets\" title=\"Copegus tablets\">\n<title>Copegus<tm tmtype=\"reg\"/> tablets</title>\n<topic id=\"PHP83774\" outputclass=\"indicationsAndDose\" rev=\"1.28\" parent=\"/clinical-medicinal-product-information/copegus-tablets\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic hepatitis C (in combination with direct acting antivirals, or interferon alfa 2a, or peginterferon alfa 2a with or without direct acting antivirals)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight up to 74 kg)</p>\n<p>400&#8239;mg, dose to be taken in the morning and 600&#8239;mg, dose to be taken in the evening.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 75 kg and above)</p>\n<p>600&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic hepatitis C (in combination with peginterferon alfa 2b with or without direct acting antivirals)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight up to 64 kg)</p>\n<p>400&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 65&#8211;80 kg)</p>\n<p>400&#8239;mg, to be taken in the morning and 600&#8239;mg, to be taken in the evening.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 81&#8211;105 kg)</p>\n<p>600&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 106 kg and above)</p>\n<p>600&#8239;mg, to be taken in the morning and 800&#8239;mg, to be taken in the evening.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic hepatitis C genotype 2 or 3 (not previously treated), or patients infected with HIV and hepatitis C (in combination with peginterferon alfa)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Usual dose 400&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81574",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/copegus-tablets",
+    "basename": "copegus-tablets",
+    "title": "Copegus tablets",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic hepatitis C (in combination with direct acting antivirals, or interferon alfa 2a, or peginterferon alfa 2a with or without direct acting antivirals)",
+                        "html": "Chronic hepatitis C (in combination with direct acting antivirals, or interferon alfa 2a, or peginterferon alfa 2a with or without direct acting antivirals)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "400 mg, dose to be taken in the morning and 600 mg, dose to be taken in the evening.",
+                        "html": "<p>400&#8239;mg, dose to be taken in the morning and 600&#8239;mg, dose to be taken in the evening.</p>",
+                        "ageGroup": "(body-weight up to 74 kg)"
+                    },
+                    {
+                        "textContent": "600 mg twice daily.",
+                        "html": "<p>600&#8239;mg twice daily.</p>",
+                        "ageGroup": "(body-weight 75 kg and above)"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic hepatitis C (in combination with peginterferon alfa 2b with or without direct acting antivirals)",
+                        "html": "Chronic hepatitis C (in combination with peginterferon alfa 2b with or without direct acting antivirals)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "400 mg twice daily.",
+                        "html": "<p>400&#8239;mg twice daily.</p>",
+                        "ageGroup": "(body-weight up to 64 kg)"
+                    },
+                    {
+                        "textContent": "400 mg, to be taken in the morning and 600 mg, to be taken in the evening.",
+                        "html": "<p>400&#8239;mg, to be taken in the morning and 600&#8239;mg, to be taken in the evening.</p>",
+                        "ageGroup": "(body-weight 65&#8211;80 kg)"
+                    },
+                    {
+                        "textContent": "600 mg twice daily.",
+                        "html": "<p>600&#8239;mg twice daily.</p>",
+                        "ageGroup": "(body-weight 81&#8211;105 kg)"
+                    },
+                    {
+                        "textContent": "600 mg, to be taken in the morning and 800 mg, to be taken in the evening.",
+                        "html": "<p>600&#8239;mg, to be taken in the morning and 800&#8239;mg, to be taken in the evening.</p>",
+                        "ageGroup": "(body-weight 106 kg and above)"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic hepatitis C genotype 2 or 3 (not previously treated), or patients infected with HIV and hepatitis C (in combination with peginterferon alfa)",
+                        "html": "Chronic hepatitis C genotype 2 or 3 (not previously treated), or patients infected with HIV and hepatitis C (in combination with peginterferon alfa)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Usual dose 400 mg twice daily.",
+                        "html": "<p>Usual dose 400&#8239;mg twice daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

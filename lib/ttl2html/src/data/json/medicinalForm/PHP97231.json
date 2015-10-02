@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP97231\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/adapalene-with-benzoyl-peroxide/gel\" basename=\"gel\" title=\"Gel\">\n<title>Gel</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Disodium edetate, polysorbates, propylene glycol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Epiduo 0.1%/2.5% gel <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">17403011000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Adapalene 1&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Benzoyl peroxide 25&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">45</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.91</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP97006\" title=\"ADAPALENE WITH BENZOYL PEROXIDE\" namespace=\"/drugs/adapalene-with-benzoyl-peroxide\">ADAPALENE WITH BENZOYL PEROXIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP97231",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/adapalene-with-benzoyl-peroxide/gel",
+    "basename": "gel",
+    "form": "Gel",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "11",
+            "textContent": "Protect your skin from sunlight—even on a bright but cloudy day. Do not use sunbeds",
+            "html": "Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds"
+        }
+    ],
+    "excipients": [
+        "Disodium edetate",
+        "polysorbates",
+        "propylene glycol"
+    ],
+    "products": [
+        {
+            "title": "Epiduo 0.1%/2.5% gel (Galderma (UK) Ltd) ",
+            "header": "Epiduo 0.1%/2.5% gel <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>",
+            "manufacturer": "(Galderma (UK) Ltd)",
+            "name": "Epiduo 0.1%/2.5% gel",
+            "ampid": "17403011000001101",
+            "strengthOfActiveIngredient": "Benzoyl peroxide 25 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 45 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">45</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "45",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.91 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.91</ph>",
+                        "nhsIndicativePrice": "&#163;17.91"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP97006",
+        "label": "ADAPALENE WITH BENZOYL PEROXIDE"
+    }
+}

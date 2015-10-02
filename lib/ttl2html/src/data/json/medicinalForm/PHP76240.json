@@ -1,0 +1,126 @@
+{
+    "xml": "<topic id=\"PHP76240\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/prednisolone/suppository\" basename=\"suppository\" title=\"Suppository\">\n<title>Suppository</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">21679011000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Prednisolone (as Prednisolone sodium phosphate) 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">suppository</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">21125111000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Prednisolone (as Prednisolone sodium phosphate) 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">suppository</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.47</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(CST Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">24028311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Prednisolone (as Prednisolone sodium phosphate) 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">suppository</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">20589511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Prednisolone (as Prednisolone sodium phosphate) 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">suppository</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.36</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP519\" title=\"PREDNISOLONE\" namespace=\"/drugs/prednisolone\">PREDNISOLONE</xref>\n</parents>\n</topic>",
+    "id": "PHP76240",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/prednisolone/suppository",
+    "basename": "suppository",
+    "form": "Suppository",
+    "products": [
+        {
+            "title": "Prednisolone sodium phosphate 5mg suppositories (A A H Pharmaceuticals Ltd) ",
+            "header": "Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Prednisolone sodium phosphate 5mg suppositories",
+            "ampid": "21679011000001106",
+            "strengthOfActiveIngredient": "Prednisolone (as Prednisolone sodium phosphate) 5 mg",
+            "packs": [
+                {
+                    "textContent": " 10 suppository POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">suppository</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "suppository",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>",
+                        "nhsIndicativePrice": "&#163;27.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.47 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.47"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Prednisolone sodium phosphate 5mg suppositories (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Prednisolone sodium phosphate 5mg suppositories",
+            "ampid": "21125111000001107",
+            "strengthOfActiveIngredient": "Prednisolone (as Prednisolone sodium phosphate) 5 mg",
+            "packs": [
+                {
+                    "textContent": " 10 suppository POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">suppository</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "suppository",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.47 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.47</ph>",
+                        "nhsIndicativePrice": "&#163;27.47"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.47 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.47"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Prednisolone sodium phosphate 5mg suppositories (CST Pharma Ltd) ",
+            "header": "Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(CST Pharma Ltd)</ph>",
+            "manufacturer": "(CST Pharma Ltd)",
+            "name": "Prednisolone sodium phosphate 5mg suppositories",
+            "ampid": "24028311000001104",
+            "strengthOfActiveIngredient": "Prednisolone (as Prednisolone sodium phosphate) 5 mg",
+            "packs": [
+                {
+                    "textContent": " 10 suppository POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">suppository</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "suppository",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.47 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.47"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Prednisolone sodium phosphate 5mg suppositories (Focus Pharmaceuticals Ltd) ",
+            "header": "Prednisolone sodium phosphate 5mg suppositories <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Focus Pharmaceuticals Ltd)",
+            "name": "Prednisolone sodium phosphate 5mg suppositories",
+            "ampid": "20589511000001107",
+            "strengthOfActiveIngredient": "Prednisolone (as Prednisolone sodium phosphate) 5 mg",
+            "packs": [
+                {
+                    "textContent": " 10 suppository POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">suppository</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "suppository",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.36 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.36</ph>",
+                        "nhsIndicativePrice": "&#163;27.36"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.47 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.47</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.47"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP519",
+        "label": "PREDNISOLONE"
+    }
+}

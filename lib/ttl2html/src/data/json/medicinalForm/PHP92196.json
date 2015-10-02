@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP92196\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/loperamide-with-simeticone/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Imodium Plus caplets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">8040411000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Loperamide hydrochloride 2&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dimeticone (as Simeticone) 125&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.66</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85552\" title=\"LOPERAMIDE WITH SIMETICONE\" namespace=\"/drugs/loperamide-with-simeticone\">LOPERAMIDE WITH SIMETICONE</xref>\n</parents>\n</topic>",
+    "id": "PHP92196",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/loperamide-with-simeticone/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Imodium Plus caplets (McNeil Products Ltd) ",
+            "header": "Imodium Plus caplets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Imodium Plus caplets",
+            "ampid": "8040411000001109",
+            "strengthOfActiveIngredient": "Dimeticone (as Simeticone) 125 mg",
+            "packs": [
+                {
+                    "textContent": " 12 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.66 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.66</ph>",
+                        "nhsIndicativePrice": "&#163;3.66"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85552",
+        "label": "LOPERAMIDE WITH SIMETICONE"
+    }
+}

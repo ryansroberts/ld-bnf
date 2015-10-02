@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP81654\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/pancrease-hl\" basename=\"pancrease-hl\" title=\"Pancrease HL\">\n<title>Pancrease HL<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82544\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/pancrease-hl\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pancreatic insufficiency</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 15&#8211;17 years</p>\n<p>Initially 1&#8211;2&#8239;capsules, dose to be taken during each meal and 1&#8239;capsule, to be taken with snacks, all doses either taken whole or contents mixed with slightly acidic liquid or soft food (then swallowed immediately without chewing).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1&#8211;2&#8239;capsules, dose to be taken during each meal and 1&#8239;capsule, to be taken with snacks, all doses either taken whole or contents mixed with slightly acidic liquid or soft food (then swallowed immediately without chewing).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP82542\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/pancrease-hl\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Should not be used in children aged 15 years or less with cystic fibrosis</ph>\n</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81654",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/pancrease-hl",
+    "basename": "pancrease-hl",
+    "title": "Pancrease HL",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Pancreatic insufficiency",
+                        "html": "Pancreatic insufficiency"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 1&#8211;2 capsules, dose to be taken during each meal and 1 capsule, to be taken with snacks, all doses either taken whole or contents mixed with slightly acidic liquid or soft food (then swallowed immediately without chewing).",
+                        "html": "<p>Initially 1&#8211;2&#8239;capsules, dose to be taken during each meal and 1&#8239;capsule, to be taken with snacks, all doses either taken whole or contents mixed with slightly acidic liquid or soft food (then swallowed immediately without chewing).</p>",
+                        "ageGroup": "15&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 1&#8211;2 capsules, dose to be taken during each meal and 1 capsule, to be taken with snacks, all doses either taken whole or contents mixed with slightly acidic liquid or soft food (then swallowed immediately without chewing).",
+                        "html": "<p>Initially 1&#8211;2&#8239;capsules, dose to be taken during each meal and 1&#8239;capsule, to be taken with snacks, all doses either taken whole or contents mixed with slightly acidic liquid or soft food (then swallowed immediately without chewing).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Should not be used in children aged 15 years or less with cystic fibrosis",
+                "html": "Should not be used in children aged 15 years or less with cystic fibrosis"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

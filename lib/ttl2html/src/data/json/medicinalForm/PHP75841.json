@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75841\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/bosentan/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Tracleer 62.5mg tablets <ph outputclass=\"manufacturer\">(Actelion Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4765211000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Bosentan (as Bosentan monohydrate) 62.5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1510.21</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tracleer 125mg tablets <ph outputclass=\"manufacturer\">(Actelion Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4765711000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Bosentan (as Bosentan monohydrate) 125&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1510.21</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1044\" title=\"BOSENTAN\" namespace=\"/drugs/bosentan\">BOSENTAN</xref>\n</parents>\n</topic>",
+    "id": "PHP75841",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/bosentan/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Tracleer 62.5mg tablets (Actelion Pharmaceuticals UK Ltd) ",
+            "header": "Tracleer 62.5mg tablets <ph outputclass=\"manufacturer\">(Actelion Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Actelion Pharmaceuticals UK Ltd)",
+            "name": "Tracleer 62.5mg tablets",
+            "ampid": "4765211000001107",
+            "strengthOfActiveIngredient": "Bosentan (as Bosentan monohydrate) 62.5 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1510.21 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1510.21</ph>",
+                        "nhsIndicativePrice": "&#163;1510.21"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Tracleer 125mg tablets (Actelion Pharmaceuticals UK Ltd) ",
+            "header": "Tracleer 125mg tablets <ph outputclass=\"manufacturer\">(Actelion Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Actelion Pharmaceuticals UK Ltd)",
+            "name": "Tracleer 125mg tablets",
+            "ampid": "4765711000001100",
+            "strengthOfActiveIngredient": "Bosentan (as Bosentan monohydrate) 125 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1510.21 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1510.21</ph>",
+                        "nhsIndicativePrice": "&#163;1510.21"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1044",
+        "label": "BOSENTAN"
+    }
+}

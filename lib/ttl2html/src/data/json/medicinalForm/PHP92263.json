@@ -1,0 +1,99 @@
+{
+    "xml": "<topic id=\"PHP92263\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hydrochlorothiazide-with-olmesartan/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Olmetec Plus 20mg/12.5mg tablets <ph outputclass=\"manufacturer\">(Daiichi Sankyo UK Ltd)</ph>\n</title>\n<data name=\"ampid\">10261511000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrochlorothiazide 12.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Olmesartan medoxomil 20&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.95</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.95</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Olmetec Plus 20mg/25mg tablets <ph outputclass=\"manufacturer\">(Daiichi Sankyo UK Ltd)</ph>\n</title>\n<data name=\"ampid\">10261811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrochlorothiazide 25&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Olmesartan medoxomil 20&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.95</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.95</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Olmetec Plus 40mg/12.5mg tablets <ph outputclass=\"manufacturer\">(Daiichi Sankyo UK Ltd)</ph>\n</title>\n<data name=\"ampid\">17220911000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Hydrochlorothiazide 12.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Olmesartan medoxomil 40&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;17.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85611\" title=\"HYDROCHLOROTHIAZIDE WITH OLMESARTAN\" namespace=\"/drugs/hydrochlorothiazide-with-olmesartan\">HYDROCHLOROTHIAZIDE WITH OLMESARTAN</xref>\n</parents>\n</topic>",
+    "id": "PHP92263",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hydrochlorothiazide-with-olmesartan/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Olmetec Plus 20mg/12.5mg tablets (Daiichi Sankyo UK Ltd) ",
+            "header": "Olmetec Plus 20mg/12.5mg tablets <ph outputclass=\"manufacturer\">(Daiichi Sankyo UK Ltd)</ph>",
+            "manufacturer": "(Daiichi Sankyo UK Ltd)",
+            "name": "Olmetec Plus 20mg/12.5mg tablets",
+            "ampid": "10261511000001103",
+            "strengthOfActiveIngredient": "Olmesartan medoxomil 20 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.95</ph>",
+                        "nhsIndicativePrice": "&#163;12.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.95 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.95</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.95"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Olmetec Plus 20mg/25mg tablets (Daiichi Sankyo UK Ltd) ",
+            "header": "Olmetec Plus 20mg/25mg tablets <ph outputclass=\"manufacturer\">(Daiichi Sankyo UK Ltd)</ph>",
+            "manufacturer": "(Daiichi Sankyo UK Ltd)",
+            "name": "Olmetec Plus 20mg/25mg tablets",
+            "ampid": "10261811000001100",
+            "strengthOfActiveIngredient": "Olmesartan medoxomil 20 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.95</ph>",
+                        "nhsIndicativePrice": "&#163;12.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.95 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.95</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.95"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Olmetec Plus 40mg/12.5mg tablets (Daiichi Sankyo UK Ltd) ",
+            "header": "Olmetec Plus 40mg/12.5mg tablets <ph outputclass=\"manufacturer\">(Daiichi Sankyo UK Ltd)</ph>",
+            "manufacturer": "(Daiichi Sankyo UK Ltd)",
+            "name": "Olmetec Plus 40mg/12.5mg tablets",
+            "ampid": "17220911000001102",
+            "strengthOfActiveIngredient": "Olmesartan medoxomil 40 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.50</ph>",
+                        "nhsIndicativePrice": "&#163;17.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;17.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;17.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;17.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85611",
+        "label": "HYDROCHLOROTHIAZIDE WITH OLMESARTAN"
+    }
+}

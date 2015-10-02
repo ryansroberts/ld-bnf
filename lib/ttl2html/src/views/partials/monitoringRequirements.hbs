@@ -1,0 +1,15 @@
+{{#if monitoringRequirements.therapeuticDrugMonitoring }}
+  <h3>Therapeutic drug monitoring</h3>
+
+  {{#each monitoringRequirements.therapeuticDrugMonitoring as |advice| }}
+    {{> advice advice }}
+  {{/each }}
+{{/if }}
+
+{{#if monitoringRequirements.patientParameters }}
+  <h3>Patient parameters</h3>
+
+  {{#each monitoringRequirements.patientParameters }}
+    {{> advice }}
+  {{/each }}
+{{/if }}

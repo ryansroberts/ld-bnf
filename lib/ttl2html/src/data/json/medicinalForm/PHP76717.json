@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP76717\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ustekinumab/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Stelara 45mg/0.5ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">17462711000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ustekinumab 90&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2147.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP34014\" title=\"USTEKINUMAB\" namespace=\"/drugs/ustekinumab\">USTEKINUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP76717",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ustekinumab/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Stelara 45mg/0.5ml solution for injection pre-filled syringes (Janssen-Cilag Ltd) ",
+            "header": "Stelara 45mg/0.5ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Stelara 45mg/0.5ml solution for injection pre-filled syringes",
+            "ampid": "17462711000001106",
+            "strengthOfActiveIngredient": "Ustekinumab 90 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2147.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2147.00</ph>",
+                        "nhsIndicativePrice": "&#163;2147.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP34014",
+        "label": "USTEKINUMAB"
+    }
+}

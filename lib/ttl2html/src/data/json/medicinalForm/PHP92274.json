@@ -1,0 +1,68 @@
+{
+    "xml": "<topic id=\"PHP92274\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/linagliptin-with-metformin/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Jentadueto 2.5mg/850mg tablets <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">21208211000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Linagliptin 2.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Metformin hydrochloride 850&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Jentadueto 2.5mg/1000mg tablets <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">21208511000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Linagliptin 2.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Metformin hydrochloride 1000&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85624\" title=\"LINAGLIPTIN WITH METFORMIN\" namespace=\"/drugs/linagliptin-with-metformin\">LINAGLIPTIN WITH METFORMIN</xref>\n</parents>\n</topic>",
+    "id": "PHP92274",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/linagliptin-with-metformin/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Jentadueto 2.5mg/850mg tablets (Boehringer Ingelheim Ltd) &#9660; ",
+            "header": "Jentadueto 2.5mg/850mg tablets <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Boehringer Ingelheim Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Jentadueto 2.5mg/850mg tablets",
+            "ampid": "21208211000001100",
+            "strengthOfActiveIngredient": "Metformin hydrochloride 850 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>",
+                        "nhsIndicativePrice": "&#163;33.26"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Jentadueto 2.5mg/1000mg tablets (Boehringer Ingelheim Ltd) &#9660; ",
+            "header": "Jentadueto 2.5mg/1000mg tablets <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Boehringer Ingelheim Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Jentadueto 2.5mg/1000mg tablets",
+            "ampid": "21208511000001102",
+            "strengthOfActiveIngredient": "Metformin hydrochloride 1000 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.26</ph>",
+                        "nhsIndicativePrice": "&#163;33.26"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85624",
+        "label": "LINAGLIPTIN WITH METFORMIN"
+    }
+}

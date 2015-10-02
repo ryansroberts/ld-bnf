@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP76460\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/prednisolone/eareye-drops-solution\" basename=\"eareye-drops-solution\" title=\"Ear/eye drops solution\">\n<title>Ear/eye drops solution</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzalkonium chloride, disodium edetate</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Predsol 0.5% ear/eye drops <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3148811000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Prednisolone sodium phosphate 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;2.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP519\" title=\"PREDNISOLONE\" namespace=\"/drugs/prednisolone\">PREDNISOLONE</xref>\n</parents>\n</topic>",
+    "id": "PHP76460",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/prednisolone/eareye-drops-solution",
+    "basename": "eareye-drops-solution",
+    "form": "Ear/eye drops solution",
+    "excipients": [
+        "Benzalkonium chloride",
+        "disodium edetate"
+    ],
+    "products": [
+        {
+            "title": "Predsol 0.5% ear/eye drops (Focus Pharmaceuticals Ltd) ",
+            "header": "Predsol 0.5% ear/eye drops <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Focus Pharmaceuticals Ltd)",
+            "name": "Predsol 0.5% ear/eye drops",
+            "ampid": "3148811000001102",
+            "strengthOfActiveIngredient": "Prednisolone sodium phosphate 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.00</ph>",
+                        "nhsIndicativePrice": "&#163;2.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP519",
+        "label": "PREDNISOLONE"
+    }
+}

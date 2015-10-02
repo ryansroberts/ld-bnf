@@ -1,0 +1,217 @@
+{
+    "xml": "<topic id=\"PHP98558\" outputclass=\"drug\" rev=\"1.24\" type=\"drug\" namespace=\"/drugs/co-simalcite\" basename=\"co-simalcite\" title=\"CO-SIMALCITE\">\n<title>CO-SIMALCITE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_110\" namespace=\"/interactions/list-of-drug-interactions/antacids\">Antacids</xref>, <xref format=\"dita\" href=\"#bnf_int_465\" namespace=\"/interactions/list-of-drug-interactions/calcium-salts\">Calcium Salts</xref>\n</p>\n<data name=\"vtmid\">418645008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_876869900\" title=\"Antacids\">Antacids</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP98570\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/co-simalcite\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dyspepsia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 8&#8211;11 years</p>\n<p>5&#8239;mL 4 times a day as required, to be taken between meals and at bedtime.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>10&#8239;mL 4 times a day as required, to be taken between meals and at bedtime.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8239;mL 4 times a day as required, to be taken between meals and at bedtime.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98565\" outputclass=\"contraindications\" rev=\"1.9\" parent=\"/drugs/co-simalcite\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Hypophosphataemia</ph>; <ph outputclass=\"contraindication\">infants</ph>; <ph outputclass=\"contraindication\">neonates</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Contra-indications, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Aluminium-containing antacids</p>\n<p>Aluminium-containing antacids should not be used in neonates and infants because accumulation may lead to increased plasma-aluminium concentrations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98571\" outputclass=\"interactions\" rev=\"1.8\" parent=\"/drugs/co-simalcite\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (antacids).</p>\n<p>Antacids should preferably not be taken at the same time as other drugs since they may impair absorption.</p>\n<p>Antacids may damage enteric coatings designed to prevent dissolution in the stomach.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98576\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drugs/co-simalcite\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Constipation and diarrhoea</p>\n<p>Magnesium-containing antacids tend to be laxative whereas aluminium-containing antacids may be constipating; antacids containing both magnesium and aluminium may reduce these colonic side-effects.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98569\" outputclass=\"hepaticImpairment\" parent=\"/drugs/co-simalcite\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid; can cause constipation which can precipitate coma.</p>\n<p>Avoid in hepatic coma; risk of renal failure.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98574\" outputclass=\"renalImpairment\" parent=\"/drugs/co-simalcite\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Antacids containing magnesium salts should be avoided or used at a reduced dose because there is an increased risk of toxicity.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>There is a risk of accumulation and aluminium toxicity with antacids containing aluminium salts. Absorption of aluminium from aluminium salts is increased by citrates, which are contained in many effervescent preparations (such as effervescent analgesics).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Aluminium-containing antacids should not be used in children with renal impairment, because accumulation may lead to increased plasma-aluminium concentrations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98584\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/drugs/co-simalcite\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>Altacite Plus</i>\n<tm tmtype=\"reg\"/> is low in Na<sup>+</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98558-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/co-simalcite\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP98614\" title=\"Oral suspension\" namespace=\"/drugs/co-simalcite/oral-suspension\">Oral suspension</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_110\" namespace=\"/interactions/list-of-drug-interactions/antacids\" title=\"Antacids\" count=\"1\" rel=\"link\">Antacids</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_465\" namespace=\"/interactions/list-of-drug-interactions/calcium-salts\" title=\"Calcium Salts\" count=\"1\" rel=\"link\">Calcium Salts</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP98614\" namespace=\"/drugs/co-simalcite/oral-suspension\" title=\"Oral suspension\" count=\"1\" rel=\"link\">Oral suspension</xref>\n</links>\n</topic>",
+    "id": "PHP98558",
+    "outputclass": "drug",
+    "rev": "1.24",
+    "type": "drug",
+    "namespace": "/drugs/co-simalcite",
+    "basename": "co-simalcite",
+    "title": "CO-SIMALCITE",
+    "interactants": [
+        {
+            "id": "bnf_int_110",
+            "label": "Antacids"
+        },
+        {
+            "id": "bnf_int_465",
+            "label": "Calcium Salts"
+        }
+    ],
+    "vtmid": "418645008",
+    "drugClassification": [
+        "Antacids"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Dyspepsia",
+                        "html": "Dyspepsia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "5 mL 4 times a day as required, to be taken between meals and at bedtime.",
+                        "html": "<p>5&#8239;mL 4 times a day as required, to be taken between meals and at bedtime.</p>",
+                        "ageGroup": "8&#8211;11 years"
+                    },
+                    {
+                        "textContent": "10 mL 4 times a day as required, to be taken between meals and at bedtime.",
+                        "html": "<p>10&#8239;mL 4 times a day as required, to be taken between meals and at bedtime.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "10 mL 4 times a day as required, to be taken between meals and at bedtime.",
+                        "html": "<p>10&#8239;mL 4 times a day as required, to be taken between meals and at bedtime.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Hypophosphataemia",
+                "html": "Hypophosphataemia"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "infants",
+                "html": "infants"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "neonates",
+                "html": "neonates"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Aluminium-containing antacids",
+                "textContent": "Aluminium-containing antacids should not be used in neonates and infants because accumulation may lead to increased plasma-aluminium concentrations.",
+                "html": "<p>Aluminium-containing antacids should not be used in neonates and infants because accumulation may lead to increased plasma-aluminium concentrations.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (antacids).\n\nAntacids should preferably not be taken at the same time as other drugs since they may impair absorption.\n\nAntacids may damage enteric coatings designed to prevent dissolution in the stomach.",
+                "html": "<p>Appendix 1 (antacids).</p><p>Antacids should preferably not be taken at the same time as other drugs since they may impair absorption.</p><p>Antacids may damage enteric coatings designed to prevent dissolution in the stomach.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Constipation and diarrhoea",
+                "textContent": "Magnesium-containing antacids tend to be laxative whereas aluminium-containing antacids may be constipating; antacids containing both magnesium and aluminium may reduce these colonic side-effects.",
+                "html": "<p>Magnesium-containing antacids tend to be laxative whereas aluminium-containing antacids may be constipating; antacids containing both magnesium and aluminium may reduce these colonic side-effects.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid; can cause constipation which can precipitate coma.\n\nAvoid in hepatic coma; risk of renal failure.",
+                "html": "<p>Avoid; can cause constipation which can precipitate coma.</p><p>Avoid in hepatic coma; risk of renal failure.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Antacids containing magnesium salts should be avoided or used at a reduced dose because there is an increased risk of toxicity.",
+                "html": "<p>Antacids containing magnesium salts should be avoided or used at a reduced dose because there is an increased risk of toxicity.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "There is a risk of accumulation and aluminium toxicity with antacids containing aluminium salts. Absorption of aluminium from aluminium salts is increased by citrates, which are contained in many effervescent preparations (such as effervescent analgesics).",
+                "html": "<p>There is a risk of accumulation and aluminium toxicity with antacids containing aluminium salts. Absorption of aluminium from aluminium salts is increased by citrates, which are contained in many effervescent preparations (such as effervescent analgesics).</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Aluminium-containing antacids should not be used in children with renal impairment, because accumulation may lead to increased plasma-aluminium concentrations.",
+                "html": "<p>Aluminium-containing antacids should not be used in children with renal impairment, because accumulation may lead to increased plasma-aluminium concentrations.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Altacite Plus is low in Na+.",
+                "html": "<p>\n<i>Altacite Plus</i>\n<tm tmtype=\"reg\"/> is low in Na<sup>+</sup>.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP98614",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_110",
+                "label": "Antacids",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_465",
+                "label": "Calcium Salts",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP98614",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

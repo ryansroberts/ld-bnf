@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP77766\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/alpha-tocopherol/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Vita-E 50units/g cream <ph outputclass=\"manufacturer\">(Typharm Ltd)</ph>\n</title>\n<data name=\"ampid\">7955011000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Alpha tocopherol 50&#8239;unit per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">45</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.11</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6275\" title=\"ALPHA TOCOPHEROL\" namespace=\"/drugs/alpha-tocopherol\">ALPHA TOCOPHEROL</xref>\n</parents>\n</topic>",
+    "id": "PHP77766",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/alpha-tocopherol/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "products": [
+        {
+            "title": "Vita-E 50units/g cream (Typharm Ltd) ",
+            "header": "Vita-E 50units/g cream <ph outputclass=\"manufacturer\">(Typharm Ltd)</ph>",
+            "manufacturer": "(Typharm Ltd)",
+            "name": "Vita-E 50units/g cream",
+            "ampid": "7955011000001105",
+            "strengthOfActiveIngredient": "Alpha tocopherol 50 unit per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 45 gram ",
+                    "html": "<ph outputclass=\"packSize\">45</ph> <ph outputclass=\"unitOfMeasure\">gram</ph>",
+                    "packSize": "45",
+                    "unitOfMeasure": "gram",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.11 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.11</ph>",
+                        "nhsIndicativePrice": "&#163;3.11"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6275",
+        "label": "ALPHA TOCOPHEROL"
+    }
+}

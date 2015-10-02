@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP77389\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/bivalirudin/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Angiox 250mg powder for solution for injection vials <ph outputclass=\"manufacturer\">(The Medicines Company UK Ltd)</ph>\n</title>\n<data name=\"ampid\">8579011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Bivalirudin 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1471\" title=\"BIVALIRUDIN\" namespace=\"/drugs/bivalirudin\">BIVALIRUDIN</xref>\n</parents>\n</topic>",
+    "id": "PHP77389",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/bivalirudin/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "products": [
+        {
+            "title": "Angiox 250mg powder for solution for injection vials (The Medicines Company UK Ltd) ",
+            "header": "Angiox 250mg powder for solution for injection vials <ph outputclass=\"manufacturer\">(The Medicines Company UK Ltd)</ph>",
+            "manufacturer": "(The Medicines Company UK Ltd)",
+            "name": "Angiox 250mg powder for solution for injection vials",
+            "ampid": "8579011000001107",
+            "strengthOfActiveIngredient": "Bivalirudin 250 mg",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1471",
+        "label": "BIVALIRUDIN"
+    }
+}

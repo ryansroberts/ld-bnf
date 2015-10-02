@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP101373\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/delamanid/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Deltyba 50mg tablets <ph outputclass=\"manufacturer\">(Otsuka Novel Products GmbH)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">27377011000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Delamanid 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">48</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1250.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP93595\" title=\"DELAMANID\" namespace=\"/drugs/delamanid\">DELAMANID</xref>\n</parents>\n</topic>",
+    "id": "PHP101373",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/delamanid/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "8",
+            "textContent": "Warning: Do not stop taking this medicine unless your doctor tells you to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Deltyba 50mg tablets (Otsuka Novel Products GmbH) &#9660; ",
+            "header": "Deltyba 50mg tablets <ph outputclass=\"manufacturer\">(Otsuka Novel Products GmbH)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Otsuka Novel Products GmbH)",
+            "blackTriangle": "&#9660;",
+            "name": "Deltyba 50mg tablets",
+            "ampid": "27377011000001105",
+            "strengthOfActiveIngredient": "Delamanid 50 mg",
+            "packs": [
+                {
+                    "textContent": " 48 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">48</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "48",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1250.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1250.00</ph>",
+                        "nhsIndicativePrice": "&#163;1250.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP93595",
+        "label": "DELAMANID"
+    }
+}

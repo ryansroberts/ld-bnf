@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP76815\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-aurothiomalate/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Myocrisin 10mg/0.5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">679611000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium aurothiomalate 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;45.55</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Myocrisin 50mg/0.5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">786611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium aurothiomalate 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;134.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6560\" title=\"SODIUM AUROTHIOMALATE\" namespace=\"/drugs/sodium-aurothiomalate\">SODIUM AUROTHIOMALATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76815",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-aurothiomalate/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "11",
+            "textContent": "Protect your skin from sunlight—even on a bright but cloudy day. Do not use sunbeds",
+            "html": "Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds"
+        }
+    ],
+    "products": [
+        {
+            "title": "Myocrisin 10mg/0.5ml solution for injection ampoules (Sanofi) ",
+            "header": "Myocrisin 10mg/0.5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Myocrisin 10mg/0.5ml solution for injection ampoules",
+            "ampid": "679611000001101",
+            "strengthOfActiveIngredient": "Sodium aurothiomalate 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;45.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;45.55</ph>",
+                        "nhsIndicativePrice": "&#163;45.55"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Myocrisin 50mg/0.5ml solution for injection ampoules (Sanofi) ",
+            "header": "Myocrisin 50mg/0.5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Myocrisin 50mg/0.5ml solution for injection ampoules",
+            "ampid": "786611000001108",
+            "strengthOfActiveIngredient": "Sodium aurothiomalate 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;134.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;134.80</ph>",
+                        "nhsIndicativePrice": "&#163;134.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6560",
+        "label": "SODIUM AUROTHIOMALATE"
+    }
+}

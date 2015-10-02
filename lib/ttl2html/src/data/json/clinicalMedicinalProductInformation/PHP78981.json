@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP78981\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/rebif-cartridge\" basename=\"rebif-cartridge\" title=\"Rebif cartridge\">\n<title>Rebif<tm tmtype=\"reg\"/> cartridge</title>\n<topic id=\"PHP79135\" outputclass=\"indicationsAndDose\" rev=\"1.25\" parent=\"/clinical-medicinal-product-information/rebif-cartridge\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">For relapsing, remitting multiple sclerosis (characterised by at least two attacks of neurological dysfunction over the previous 2 or 3 years, followed by complete or incomplete recovery) who are able to walk unaided</p>\n<p outputclass=\"therapeuticIndication\">For a single demyelinating event with an active inflammatory process (if severe enough to require intravenous corticosteroid and patient at high risk of developing multiple sclerosis)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP79209\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/rebif-cartridge\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Cartridges for use with <i>RebiSmart</i>\n<tm tmtype=\"reg\"/> auto-injector device.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78981",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/rebif-cartridge",
+    "basename": "rebif-cartridge",
+    "title": "Rebif cartridge",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "For relapsing, remitting multiple sclerosis (characterised by at least two attacks of neurological dysfunction over the previous 2 or 3 years, followed by complete or incomplete recovery) who are able to walk unaided",
+                        "html": "For relapsing, remitting multiple sclerosis (characterised by at least two attacks of neurological dysfunction over the previous 2 or 3 years, followed by complete or incomplete recovery) who are able to walk unaided"
+                    },
+                    {
+                        "textContent": "For a single demyelinating event with an active inflammatory process (if severe enough to require intravenous corticosteroid and patient at high risk of developing multiple sclerosis)",
+                        "html": "For a single demyelinating event with an active inflammatory process (if severe enough to require intravenous corticosteroid and patient at high risk of developing multiple sclerosis)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Cartridges for use with RebiSmart auto-injector device.",
+                "html": "<p>Cartridges for use with <i>RebiSmart</i>\n<tm tmtype=\"reg\"/> auto-injector device.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

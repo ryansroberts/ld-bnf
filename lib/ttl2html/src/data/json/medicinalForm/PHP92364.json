@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP92364\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/clioquinol-with-fluocinolone-acetonide/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Cetostearyl alcohol (including cetyl and stearyl alcohol), disodium edetate, hydroxybenzoates (parabens), polysorbates, propylene glycol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Synalar C cream <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4181111000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Clioquinol 30&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Fluocinolone acetonide 250&#8239;microgram per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.66</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88045\" title=\"CLIOQUINOL WITH FLUOCINOLONE ACETONIDE\" namespace=\"/drugs/clioquinol-with-fluocinolone-acetonide\">CLIOQUINOL WITH FLUOCINOLONE ACETONIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP92364",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/clioquinol-with-fluocinolone-acetonide/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "excipients": [
+        "Cetostearyl alcohol (including cetyl and stearyl alcohol)",
+        "disodium edetate",
+        "hydroxybenzoates (parabens)",
+        "polysorbates",
+        "propylene glycol"
+    ],
+    "products": [
+        {
+            "title": "Synalar C cream (Derma UK Ltd) ",
+            "header": "Synalar C cream <ph outputclass=\"manufacturer\">(Derma UK Ltd)</ph>",
+            "manufacturer": "(Derma UK Ltd)",
+            "name": "Synalar C cream",
+            "ampid": "4181111000001105",
+            "strengthOfActiveIngredient": "Fluocinolone acetonide 250 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.66 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.66</ph>",
+                        "nhsIndicativePrice": "&#163;2.66"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88045",
+        "label": "CLIOQUINOL WITH FLUOCINOLONE ACETONIDE"
+    }
+}

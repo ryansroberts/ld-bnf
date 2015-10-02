@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP93574\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar/bath-additive\" basename=\"bath-additive\" title=\"Bath additive\">\n<title>Bath additive</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Isopropyl palmitate</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Polytar Emollient <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>\n</title>\n<data name=\"ampid\">3646411000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Arachis oil extract of crude coal tar 75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cade oil 75&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Coal tar solution 25&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Liquid paraffin light 350&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Pine tar 75&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.78</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92562\" title=\"ARACHIS OIL EXTRACT OF COAL TAR WITH CADE OIL, COAL TAR, LIGHT LIQUID PARAFFIN AND TAR\" namespace=\"/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar\">ARACHIS OIL EXTRACT OF COAL TAR WITH CADE OIL, COAL TAR, LIGHT LIQUID PARAFFIN AND TAR</xref>\n</parents>\n</topic>",
+    "id": "PHP93574",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/arachis-oil-extract-of-coal-tar-with-cade-oil-coal-tar-light-liquid-paraffin-and-tar/bath-additive",
+    "basename": "bath-additive",
+    "form": "Bath additive",
+    "excipients": [
+        "Isopropyl palmitate"
+    ],
+    "products": [
+        {
+            "title": "Polytar Emollient (GlaxoSmithKline Consumer Healthcare) ",
+            "header": "Polytar Emollient <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>",
+            "manufacturer": "(GlaxoSmithKline Consumer Healthcare)",
+            "name": "Polytar Emollient",
+            "ampid": "3646411000001101",
+            "strengthOfActiveIngredient": "Pine tar 75 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.78 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.78</ph>",
+                        "nhsIndicativePrice": "&#163;5.78"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP92562",
+        "label": "ARACHIS OIL EXTRACT OF COAL TAR WITH CADE OIL, COAL TAR, LIGHT LIQUID PARAFFIN AND TAR"
+    }
+}

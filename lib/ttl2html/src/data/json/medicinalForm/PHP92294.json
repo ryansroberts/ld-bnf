@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP92294\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ferrous-fumarate-with-folic-acid/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Pregaday 322mg/350microgram tablets <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">822011000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ferrous fumarate 322&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Folic acid 350&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.25</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1.25</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP87988\" title=\"FERROUS FUMARATE WITH FOLIC ACID\" namespace=\"/drugs/ferrous-fumarate-with-folic-acid\">FERROUS FUMARATE WITH FOLIC ACID</xref>\n</parents>\n</topic>",
+    "id": "PHP92294",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ferrous-fumarate-with-folic-acid/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Pregaday 322mg/350microgram tablets (Focus Pharmaceuticals Ltd) ",
+            "header": "Pregaday 322mg/350microgram tablets <ph outputclass=\"manufacturer\">(Focus Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Focus Pharmaceuticals Ltd)",
+            "name": "Pregaday 322mg/350microgram tablets",
+            "ampid": "822011000001108",
+            "strengthOfActiveIngredient": "Folic acid 350 microgram",
+            "packs": [
+                {
+                    "textContent": " 28 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.25</ph>",
+                        "nhsIndicativePrice": "&#163;1.25"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1.25 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1.25</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1.25"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP87988",
+        "label": "FERROUS FUMARATE WITH FOLIC ACID"
+    }
+}

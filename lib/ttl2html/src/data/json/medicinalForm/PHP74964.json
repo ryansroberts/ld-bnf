@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP74964\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ferrous-sulfate/oral-drops\" basename=\"oral-drops\" title=\"Oral drops\">\n<title>Oral drops</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP106984\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/ironorm-drops\">Ironorm<tm tmtype=\"reg\"/> Drops</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Ironorm 125mg/ml oral drops <ph outputclass=\"manufacturer\">(Wallace Manufacturing Chemists Ltd)</ph>\n</title>\n<data name=\"ampid\">12659811000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Ferrous sulfate 125&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;28.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5823\" title=\"FERROUS SULFATE\" namespace=\"/drugs/ferrous-sulfate\">FERROUS SULFATE</xref>\n</parents>\n</topic>",
+    "id": "PHP74964",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ferrous-sulfate/oral-drops",
+    "basename": "oral-drops",
+    "form": "Oral drops",
+    "productInformationGroups": [
+        {
+            "id": "PHP106984",
+            "label": "Ironorm&reg;  Drops",
+            "html": "Ironorm<tm tmtype=\"reg\"/> Drops"
+        }
+    ],
+    "products": [
+        {
+            "title": "Ironorm 125mg/ml oral drops (Wallace Manufacturing Chemists Ltd) ",
+            "header": "Ironorm 125mg/ml oral drops <ph outputclass=\"manufacturer\">(Wallace Manufacturing Chemists Ltd)</ph>",
+            "manufacturer": "(Wallace Manufacturing Chemists Ltd)",
+            "name": "Ironorm 125mg/ml oral drops",
+            "ampid": "12659811000001104",
+            "strengthOfActiveIngredient": "Ferrous sulfate 125 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 15 ml P ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;28.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;28.00</ph>",
+                        "nhsIndicativePrice": "&#163;28.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5823",
+        "label": "FERROUS SULFATE"
+    }
+}

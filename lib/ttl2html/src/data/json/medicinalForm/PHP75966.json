@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP75966\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/metoprolol-tartrate/modified-release-tablet\" basename=\"modified-release-tablet\" title=\"Modified-release tablet\">\n<title>Modified-release tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop </p>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Lopresor SR 200mg tablets <ph outputclass=\"manufacturer\">(Recordati Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">916111000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Metoprolol tartrate 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP993\" title=\"METOPROLOL TARTRATE\" namespace=\"/drugs/metoprolol-tartrate\">METOPROLOL TARTRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75966",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/metoprolol-tartrate/modified-release-tablet",
+    "basename": "modified-release-tablet",
+    "form": "Modified-release tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "8",
+            "textContent": "Warning: Do not stop taking this medicine unless your doctor tells you to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Lopresor SR 200mg tablets (Recordati Pharmaceuticals Ltd) ",
+            "header": "Lopresor SR 200mg tablets <ph outputclass=\"manufacturer\">(Recordati Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Recordati Pharmaceuticals Ltd)",
+            "name": "Lopresor SR 200mg tablets",
+            "ampid": "916111000001108",
+            "strengthOfActiveIngredient": "Metoprolol tartrate 200 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.80</ph>",
+                        "nhsIndicativePrice": "&#163;9.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP993",
+        "label": "METOPROLOL TARTRATE"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75399\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ulipristal-acetate/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Esmya 5mg tablets <ph outputclass=\"manufacturer\">(Gedeon Richter (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">20292511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ulipristal acetate 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;114.13</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>EllaOne 30mg tablets <ph outputclass=\"manufacturer\">(HRA Pharma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">16098411000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ulipristal acetate 30&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.05</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP18445\" title=\"ULIPRISTAL ACETATE\" namespace=\"/drugs/ulipristal-acetate\">ULIPRISTAL ACETATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75399",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ulipristal-acetate/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Esmya 5mg tablets (Gedeon Richter (UK) Ltd) ",
+            "header": "Esmya 5mg tablets <ph outputclass=\"manufacturer\">(Gedeon Richter (UK) Ltd)</ph>",
+            "manufacturer": "(Gedeon Richter (UK) Ltd)",
+            "name": "Esmya 5mg tablets",
+            "ampid": "20292511000001107",
+            "strengthOfActiveIngredient": "Ulipristal acetate 5 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;114.13 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;114.13</ph>",
+                        "nhsIndicativePrice": "&#163;114.13"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "EllaOne 30mg tablets (HRA Pharma UK Ltd) ",
+            "header": "EllaOne 30mg tablets <ph outputclass=\"manufacturer\">(HRA Pharma UK Ltd)</ph>",
+            "manufacturer": "(HRA Pharma UK Ltd)",
+            "name": "EllaOne 30mg tablets",
+            "ampid": "16098411000001108",
+            "strengthOfActiveIngredient": "Ulipristal acetate 30 mg",
+            "packs": [
+                {
+                    "textContent": " 1 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.05 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.05</ph>",
+                        "nhsIndicativePrice": "&#163;14.05"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP18445",
+        "label": "ULIPRISTAL ACETATE"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "xml": "<topic id=\"PHP76611\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/vardenafil/orodispersible-tablet\" basename=\"orodispersible-tablet\" title=\"Orodispersible tablet\">\n<title>Orodispersible tablet</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Aspartame</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP80784\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/levitra-orodispersible-tablets\">Levitra<tm tmtype=\"reg\"/> orodispersible tablets</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Levitra 10mg orodispersible tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">18680111000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Vardenafil (as Vardenafil hydrochloride trihydrate) 10&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.88</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;17.88</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5169\" title=\"VARDENAFIL\" namespace=\"/drugs/vardenafil\">VARDENAFIL</xref>\n</parents>\n</topic>",
+    "id": "PHP76611",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/vardenafil/orodispersible-tablet",
+    "basename": "orodispersible-tablet",
+    "form": "Orodispersible tablet",
+    "excipients": [
+        "Aspartame"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP80784",
+            "label": "Levitra&reg;  orodispersible tablets",
+            "html": "Levitra<tm tmtype=\"reg\"/> orodispersible tablets"
+        }
+    ],
+    "products": [
+        {
+            "title": "Levitra 10mg orodispersible tablets (Bayer Plc) ",
+            "header": "Levitra 10mg orodispersible tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Levitra 10mg orodispersible tablets",
+            "ampid": "18680111000001100",
+            "strengthOfActiveIngredient": "Vardenafil (as Vardenafil hydrochloride trihydrate) 10 mg",
+            "packs": [
+                {
+                    "textContent": " 4 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.88 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.88</ph>",
+                        "nhsIndicativePrice": "&#163;17.88"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;17.88 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;17.88</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;17.88"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5169",
+        "label": "VARDENAFIL"
+    }
+}

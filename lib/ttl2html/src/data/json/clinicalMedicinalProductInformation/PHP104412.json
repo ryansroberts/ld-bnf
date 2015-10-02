@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP104412\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/utrogestan-capsules\" basename=\"utrogestan-capsules\" title=\"Utrogestan capsules\">\n<title>Utrogestan<tm tmtype=\"reg\"/> capsules</title>\n<topic id=\"PHP104440\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/clinical-medicinal-product-information/utrogestan-capsules\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Progestogenic opposition of oestrogen HRT</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;mg once daily on days 15&#8211;26 of each 28-day oestrogen HRT cycle, alternatively 100&#8239;mg once daily on days 1&#8211;25 of each 28-day oestrogen HRT cycle.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP104412",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/utrogestan-capsules",
+    "basename": "utrogestan-capsules",
+    "title": "Utrogestan capsules",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Progestogenic opposition of oestrogen HRT",
+                        "html": "Progestogenic opposition of oestrogen HRT"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "200 mg once daily on days 15&#8211;26 of each 28-day oestrogen HRT cycle, alternatively 100 mg once daily on days 1&#8211;25 of each 28-day oestrogen HRT cycle.",
+                        "html": "<p>200&#8239;mg once daily on days 15&#8211;26 of each 28-day oestrogen HRT cycle, alternatively 100&#8239;mg once daily on days 1&#8211;25 of each 28-day oestrogen HRT cycle.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

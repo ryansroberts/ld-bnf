@@ -1,0 +1,85 @@
+{
+    "xml": "<topic id=\"PHP80781\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/roferon-a\" basename=\"roferon-a\" title=\"Roferon-A\">\n<title>Roferon-A<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP80854\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/clinical-medicinal-product-information/roferon-a\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic myelogenous leukaemia</p>\n<p outputclass=\"therapeuticIndication\">Hairy cell leukaemia</p>\n<p outputclass=\"therapeuticIndication\">Chronic hepatitis B</p>\n<p outputclass=\"therapeuticIndication\">Chronic hepatitis C</p>\n<p outputclass=\"therapeuticIndication\">Adjunct to surgery in malignant melanoma</p>\n<p outputclass=\"therapeuticIndication\">AIDS-related Kaposi's sarcoma</p>\n<p outputclass=\"therapeuticIndication\">Advanced renal cell carcinoma</p>\n<p outputclass=\"therapeuticIndication\">Progressive cutaneous T-cell lymphoma</p>\n<p outputclass=\"therapeuticIndication\">Follicular non-Hodgkin's lymphoma</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult local protocol).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80871\" outputclass=\"directionsForAdministration\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/roferon-a\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>Roferon-A</i>\n<tm tmtype=\"reg\"/> injection for subcutaneous injection.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80781",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/roferon-a",
+    "basename": "roferon-a",
+    "title": "Roferon-A",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic myelogenous leukaemia",
+                        "html": "Chronic myelogenous leukaemia"
+                    },
+                    {
+                        "textContent": "Hairy cell leukaemia",
+                        "html": "Hairy cell leukaemia"
+                    },
+                    {
+                        "textContent": "Chronic hepatitis B",
+                        "html": "Chronic hepatitis B"
+                    },
+                    {
+                        "textContent": "Chronic hepatitis C",
+                        "html": "Chronic hepatitis C"
+                    },
+                    {
+                        "textContent": "Adjunct to surgery in malignant melanoma",
+                        "html": "Adjunct to surgery in malignant melanoma"
+                    },
+                    {
+                        "textContent": "AIDS-related Kaposi's sarcoma",
+                        "html": "AIDS-related Kaposi's sarcoma"
+                    },
+                    {
+                        "textContent": "Advanced renal cell carcinoma",
+                        "html": "Advanced renal cell carcinoma"
+                    },
+                    {
+                        "textContent": "Progressive cutaneous T-cell lymphoma",
+                        "html": "Progressive cutaneous T-cell lymphoma"
+                    },
+                    {
+                        "textContent": "Follicular non-Hodgkin's lymphoma",
+                        "html": "Follicular non-Hodgkin's lymphoma"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult local protocol).",
+                        "html": "<p>(consult local protocol).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Roferon-A injection for subcutaneous injection.",
+                "html": "<p>\n<i>Roferon-A</i>\n<tm tmtype=\"reg\"/> injection for subcutaneous injection.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

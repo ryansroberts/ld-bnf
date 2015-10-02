@@ -1,0 +1,77 @@
+{
+    "xml": "<topic id=\"PHP77332\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/amphotericin/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Sucrose</p>\n</section>\r\n<section outputclass=\"electrolytes\">\r\n<title>Electrolytes</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Sodium</p>\n</section>\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81570\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/ambisome\">AmBisome<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP81568\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/fungizone\">Fungizone<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>AmBisome 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Gilead Sciences International Ltd)</ph>\n</title>\n<data name=\"ampid\">21195711000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Amphotericin B liposomal 50&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;821.87</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Fungizone Intravenous 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4702711000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Amphotericin B 50&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.88</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3717\" title=\"AMPHOTERICIN\" namespace=\"/drugs/amphotericin\">AMPHOTERICIN</xref>\n</parents>\n</topic>",
+    "id": "PHP77332",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/amphotericin/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "excipients": [
+        "Sucrose"
+    ],
+    "electrolytes": [
+        "Sodium"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81570",
+            "label": "AmBisome&reg;  ",
+            "html": "AmBisome<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP81568",
+            "label": "Fungizone&reg;  ",
+            "html": "Fungizone<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "AmBisome 50mg powder for solution for infusion vials (Gilead Sciences International Ltd) ",
+            "header": "AmBisome 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Gilead Sciences International Ltd)</ph>",
+            "manufacturer": "(Gilead Sciences International Ltd)",
+            "name": "AmBisome 50mg powder for solution for infusion vials",
+            "ampid": "21195711000001100",
+            "strengthOfActiveIngredient": "Amphotericin B liposomal 50 mg",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;821.87 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;821.87</ph>",
+                        "nhsIndicativePrice": "&#163;821.87"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Fungizone Intravenous 50mg powder for solution for infusion vials (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Fungizone Intravenous 50mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Fungizone Intravenous 50mg powder for solution for infusion vials",
+            "ampid": "4702711000001105",
+            "strengthOfActiveIngredient": "Amphotericin B 50 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.88 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.88</ph>",
+                        "nhsIndicativePrice": "&#163;3.88"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3717",
+        "label": "AMPHOTERICIN"
+    }
+}

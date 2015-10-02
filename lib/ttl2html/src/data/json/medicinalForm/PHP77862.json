@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP77862\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/asenapine/sublingual-tablet\" basename=\"sublingual-tablet\" title=\"Sublingual tablet\">\n<title>Sublingual tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">26</ph> - Dissolve this medicine under your tongue </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sycrest 5mg sublingual tablets <ph outputclass=\"manufacturer\">(Lundbeck Ltd)</ph>\n</title>\n<data name=\"ampid\">19496611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Asenapine (as Asenapine maleate) 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;102.60</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;102.60</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sycrest 10mg sublingual tablets <ph outputclass=\"manufacturer\">(Lundbeck Ltd)</ph>\n</title>\n<data name=\"ampid\">19496311000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Asenapine (as Asenapine maleate) 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;102.60</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;102.60</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2327\" title=\"ASENAPINE\" namespace=\"/drugs/asenapine\">ASENAPINE</xref>\n</parents>\n</topic>",
+    "id": "PHP77862",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/asenapine/sublingual-tablet",
+    "basename": "sublingual-tablet",
+    "form": "Sublingual tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "26",
+            "textContent": "Dissolve this medicine under your tongue",
+            "html": "Label <ph outputclass=\"labelNumber\">26</ph> - Dissolve this medicine under your tongue"
+        }
+    ],
+    "products": [
+        {
+            "title": "Sycrest 5mg sublingual tablets (Lundbeck Ltd) ",
+            "header": "Sycrest 5mg sublingual tablets <ph outputclass=\"manufacturer\">(Lundbeck Ltd)</ph>",
+            "manufacturer": "(Lundbeck Ltd)",
+            "name": "Sycrest 5mg sublingual tablets",
+            "ampid": "19496611000001105",
+            "strengthOfActiveIngredient": "Asenapine (as Asenapine maleate) 5 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;102.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;102.60</ph>",
+                        "nhsIndicativePrice": "&#163;102.60"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;102.60 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;102.60</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;102.60"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sycrest 10mg sublingual tablets (Lundbeck Ltd) ",
+            "header": "Sycrest 10mg sublingual tablets <ph outputclass=\"manufacturer\">(Lundbeck Ltd)</ph>",
+            "manufacturer": "(Lundbeck Ltd)",
+            "name": "Sycrest 10mg sublingual tablets",
+            "ampid": "19496311000001100",
+            "strengthOfActiveIngredient": "Asenapine (as Asenapine maleate) 10 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;102.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;102.60</ph>",
+                        "nhsIndicativePrice": "&#163;102.60"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;102.60 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;102.60</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;102.60"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2327",
+        "label": "ASENAPINE"
+    }
+}

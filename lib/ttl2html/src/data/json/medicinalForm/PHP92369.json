@@ -1,0 +1,84 @@
+{
+    "xml": "<topic id=\"PHP92369\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/betamethasone-with-calcipotriol/ointment\" basename=\"ointment\" title=\"Ointment\">\n<title>Ointment</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Butylated hydroxytoluene</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP95874\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/dovobet-ointment\">Dovobet<tm tmtype=\"reg\"/> ointment</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Dovobet ointment <ph outputclass=\"manufacturer\">(LEO Pharma)</ph>\n</title>\n<data name=\"ampid\">3389811000001109</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Betamethasone (as Betamethasone dipropionate) 500&#8239;microgram per 1&#8239;gram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Calcipotriol (as Calcipotriol hydrate) 50&#8239;microgram per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.84</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;19.84</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;39.68</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">120</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;73.86</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88047\" title=\"BETAMETHASONE WITH CALCIPOTRIOL\" namespace=\"/drugs/betamethasone-with-calcipotriol\">BETAMETHASONE WITH CALCIPOTRIOL</xref>\n</parents>\n</topic>",
+    "id": "PHP92369",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/betamethasone-with-calcipotriol/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "excipients": [
+        "Butylated hydroxytoluene"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP95874",
+            "label": "Dovobet&reg;  ointment",
+            "html": "Dovobet<tm tmtype=\"reg\"/> ointment"
+        }
+    ],
+    "products": [
+        {
+            "title": "Dovobet ointment (LEO Pharma) ",
+            "header": "Dovobet ointment <ph outputclass=\"manufacturer\">(LEO Pharma)</ph>",
+            "manufacturer": "(LEO Pharma)",
+            "name": "Dovobet ointment",
+            "ampid": "3389811000001109",
+            "strengthOfActiveIngredient": "Calcipotriol (as Calcipotriol hydrate) 50 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.84 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.84</ph>",
+                        "nhsIndicativePrice": "&#163;19.84"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;19.84 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;19.84</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;19.84"
+                    }
+                },
+                {
+                    "textContent": " 60 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;39.68 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;39.68</ph>",
+                        "nhsIndicativePrice": "&#163;39.68"
+                    }
+                },
+                {
+                    "textContent": " 120 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">120</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "120",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;73.86 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;73.86</ph>",
+                        "nhsIndicativePrice": "&#163;73.86"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88047",
+        "label": "BETAMETHASONE WITH CALCIPOTRIOL"
+    }
+}

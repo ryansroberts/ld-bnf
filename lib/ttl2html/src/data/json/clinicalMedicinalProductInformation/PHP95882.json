@@ -1,0 +1,54 @@
+{
+    "xml": "<topic id=\"PHP95882\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/ambirix\" basename=\"ambirix\" title=\"Ambirix\">\n<title>Ambirix<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP96201\" outputclass=\"indicationsAndDose\" rev=\"1.30\" parent=\"/clinical-medicinal-product-information/ambirix\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Immunisation against hepatitis A and hepatitis B infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;15 years</p>\n<p>Initially 1&#8239;mL for 1 dose, then 1&#8239;mL after 6&#8211;12&#8239;months for 1 dose, the deltoid region is the preferred site of injection in older children; anterolateral thigh is the preferred site in infants; not to be injected into the buttock (vaccine efficacy reduced), subcutaneous route used for patients with bleeding disorders (but immune response may be reduced).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP96235\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/ambirix\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Primary course should be completed with <i>Ambirix</i>\n<tm tmtype=\"reg\"/> (single component vaccines given at appropriate intervals may be used for booster dose).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95882",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/ambirix",
+    "basename": "ambirix",
+    "title": "Ambirix",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Immunisation against hepatitis A and hepatitis B infection",
+                        "html": "Immunisation against hepatitis A and hepatitis B infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 1 mL for 1 dose, then 1 mL after 6&#8211;12 months for 1 dose, the deltoid region is the preferred site of injection in older children; anterolateral thigh is the preferred site in infants; not to be injected into the buttock (vaccine efficacy reduced), subcutaneous route used for patients with bleeding disorders (but immune response may be reduced).",
+                        "html": "<p>Initially 1&#8239;mL for 1 dose, then 1&#8239;mL after 6&#8211;12&#8239;months for 1 dose, the deltoid region is the preferred site of injection in older children; anterolateral thigh is the preferred site in infants; not to be injected into the buttock (vaccine efficacy reduced), subcutaneous route used for patients with bleeding disorders (but immune response may be reduced).</p>",
+                        "ageGroup": "1&#8211;15 years"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Primary course should be completed with Ambirix (single component vaccines given at appropriate intervals may be used for booster dose).",
+                "html": "<p>Primary course should be completed with <i>Ambirix</i>\n<tm tmtype=\"reg\"/> (single component vaccines given at appropriate intervals may be used for booster dose).</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

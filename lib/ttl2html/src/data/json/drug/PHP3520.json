@@ -1,0 +1,664 @@
+{
+    "xml": "<topic id=\"PHP3520\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/telithromycin\" basename=\"telithromycin\" title=\"TELITHROMYCIN\">\n<title>TELITHROMYCIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_946\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/telithromycin\">Telithromycin</xref>\n</p>\n<data name=\"vtmid\">395260006</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_616564198\" title=\"Macrolides and related drugs\">Macrolides and related drugs</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP43990\" outputclass=\"drugAction\" rev=\"1.13\" parent=\"/drugs/telithromycin\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>The ketolide telithromycin is a derivative of erythromycin. The antibacterial spectrum of telithromycin is similar to that of macrolides and it is also active against penicillin- and erythromycin-resistant <ph outputclass=\"organism\">\n<i>Streptococcus pneumoniae</i>\n</ph>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43978\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/drugs/telithromycin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of sinusitis or exacerbations of chronic bronchitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>800&#8239;mg once daily for 5 days.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of community-acquired pneumonia if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>800&#8239;mg once daily for 7&#8211;10 days.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of beta-haemolytic streptococcal pharyngitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated</p>\n<p outputclass=\"therapeuticIndication\">Treatment of beta-haemolytic streptococcal tonsillitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>800&#8239;mg once daily for 5 days.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>800&#8239;mg once daily for 5 days.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43995\" outputclass=\"contraindications\" rev=\"1.15\" parent=\"/drugs/telithromycin\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Congenital history of QT interval prolongation (if not excluded by ECG)</ph>; <ph outputclass=\"contraindication\">family history of QT interval prolongation (if not excluded by ECG)</ph>; <ph outputclass=\"contraindication\">history of telithromycin-associated hepatitis</ph>; <ph outputclass=\"contraindication\">history of telithromycin-associated jaundice</ph>; <ph outputclass=\"contraindication\">myasthenia gravis</ph>; <ph outputclass=\"contraindication\">prolongation of QT interval</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44002\" outputclass=\"cautions\" rev=\"1.19\" parent=\"/drugs/telithromycin\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">Avoid in <xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"caution\">bradycardia&#8212;risk of QT interval prolongation</ph>; <ph outputclass=\"caution\">coronary heart disease&#8212;risk of QT interval prolongation</ph>; <ph outputclass=\"caution\">hypokalaemia&#8212;risk of QT interval prolongation</ph>; <ph outputclass=\"caution\">hypomagnesaemia&#8212;risk of QT interval prolongation</ph>; <ph outputclass=\"caution\">ventricular arrhythmias&#8212;risk of QT interval prolongation</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP43975\" outputclass=\"interactions\" rev=\"1.17\" parent=\"/drugs/telithromycin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (telithromycin).</p>\n<p>Caution with concomitant use of drugs that prolong the QT interval.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43948\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drugs/telithromycin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">taste disturbances</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anorexia</ph>; <ph outputclass=\"sideEffect\">blurred vision</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">eosinophilia</ph>; <ph outputclass=\"sideEffect\">flushing</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">nervousness</ph>; <ph outputclass=\"sideEffect\">palpitations</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">stomatitis</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arrhythmias</ph>; <ph outputclass=\"sideEffect\">cholestatic jaundice</ph>; <ph outputclass=\"sideEffect\">diplopia</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">transient loss of consciousness</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Altered sense of smell</ph>; <ph outputclass=\"sideEffect\">antibiotic-associated colitis</ph>; <ph outputclass=\"sideEffect\">erythema multiforme</ph>; <ph outputclass=\"sideEffect\">muscle cramp</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arthralgia</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">hallucinations</ph>; <ph outputclass=\"sideEffect\">pancreatitis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43970\" outputclass=\"pregnancy\" parent=\"/drugs/telithromycin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Toxicity in <i>animal</i> studies&#8212;manufacturer advises use only if potential benefit outweighs risk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44005\" outputclass=\"breastFeeding\" parent=\"/drugs/telithromycin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43983\" outputclass=\"hepaticImpairment\" parent=\"/drugs/telithromycin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43959\" outputclass=\"renalImpairment\" parent=\"/drugs/telithromycin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Manufacturer advises avoid if possible if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>&#8212;if no alternative, use alternating daily doses of 800&#8239;mg and 400&#8239;mg, starting with 800&#8239;mg dose.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43965\" outputclass=\"patientAndCarerAdvice\" rev=\"1.21\" parent=\"/drugs/telithromycin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p>Visual disturbances or transient loss of consciousness may affect performance of skilled tasks (e.g. driving); effects may occur after the first dose. Administration at bedtime may reduce these side-effects. Patients should be advised not to drive or operate machinery if affected.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p outputclass=\"title\">Hepatic disorders</p>\n<p>Counselling on hepatic disorders is advised. Patients should be told how to recognise signs of liver disorder, and advised to discontinue treatment and seek prompt medical attention if symptoms such as anorexia, nausea, vomiting, abdominal pain, jaundice, or dark urine develop.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78462\" namespace=\"/treatment-summaries/macrolides\" title=\"Macrolides\" count=\"1\" rel=\"backlink\">Macrolides</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_946\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/telithromycin\" title=\"Telithromycin\" count=\"1\" rel=\"link\">Telithromycin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n</links>\n</topic>",
+    "id": "PHP3520",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/telithromycin",
+    "basename": "telithromycin",
+    "title": "TELITHROMYCIN",
+    "interactants": [
+        {
+            "id": "bnf_int_946",
+            "label": "Telithromycin"
+        }
+    ],
+    "vtmid": "395260006",
+    "drugClassification": [
+        "Macrolides and related drugs"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "The ketolide telithromycin is a derivative of erythromycin. The antibacterial spectrum of telithromycin is similar to that of macrolides and it is also active against penicillin- and erythromycin-resistant Streptococcus pneumoniae .",
+                "html": "<p>The ketolide telithromycin is a derivative of erythromycin. The antibacterial spectrum of telithromycin is similar to that of macrolides and it is also active against penicillin- and erythromycin-resistant <ph outputclass=\"organism\">\n<i>Streptococcus pneumoniae</i>\n</ph>.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of sinusitis or exacerbations of chronic bronchitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated",
+                        "html": "Treatment of sinusitis or exacerbations of chronic bronchitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "800 mg once daily for 5 days.",
+                        "html": "<p>800&#8239;mg once daily for 5 days.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of community-acquired pneumonia if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated",
+                        "html": "Treatment of community-acquired pneumonia if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "800 mg once daily for 7&#8211;10 days.",
+                        "html": "<p>800&#8239;mg once daily for 7&#8211;10 days.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of beta-haemolytic streptococcal pharyngitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated",
+                        "html": "Treatment of beta-haemolytic streptococcal pharyngitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated"
+                    },
+                    {
+                        "textContent": "Treatment of beta-haemolytic streptococcal tonsillitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated",
+                        "html": "Treatment of beta-haemolytic streptococcal tonsillitis if caused by organisms resistant to beta-lactam antibacterials and other macrolides, or if conventional treatment is contra-indicated"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "800 mg once daily for 5 days.",
+                        "html": "<p>800&#8239;mg once daily for 5 days.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "800 mg once daily for 5 days.",
+                        "html": "<p>800&#8239;mg once daily for 5 days.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Congenital history of QT interval prolongation (if not excluded by ECG)",
+                "html": "Congenital history of QT interval prolongation (if not excluded by ECG)"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "family history of QT interval prolongation (if not excluded by ECG)",
+                "html": "family history of QT interval prolongation (if not excluded by ECG)"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "history of telithromycin-associated hepatitis",
+                "html": "history of telithromycin-associated hepatitis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "history of telithromycin-associated jaundice",
+                "html": "history of telithromycin-associated jaundice"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "myasthenia gravis",
+                "html": "myasthenia gravis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "prolongation of QT interval",
+                "html": "prolongation of QT interval"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid in Acute porphyrias",
+                "html": "Avoid in <xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautions",
+                "textContent": "bradycardia&#8212;risk of QT interval prolongation",
+                "html": "bradycardia&#8212;risk of QT interval prolongation"
+            },
+            {
+                "type": "cautions",
+                "textContent": "coronary heart disease&#8212;risk of QT interval prolongation",
+                "html": "coronary heart disease&#8212;risk of QT interval prolongation"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypokalaemia&#8212;risk of QT interval prolongation",
+                "html": "hypokalaemia&#8212;risk of QT interval prolongation"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypomagnesaemia&#8212;risk of QT interval prolongation",
+                "html": "hypomagnesaemia&#8212;risk of QT interval prolongation"
+            },
+            {
+                "type": "cautions",
+                "textContent": "ventricular arrhythmias&#8212;risk of QT interval prolongation",
+                "html": "ventricular arrhythmias&#8212;risk of QT interval prolongation"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (telithromycin).\n\nCaution with concomitant use of drugs that prolong the QT interval.",
+                "html": "<p>Appendix 1 (telithromycin).</p><p>Caution with concomitant use of drugs that prolong the QT interval.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain",
+                        "html": "Abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "taste disturbances",
+                        "html": "taste disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Anorexia",
+                        "html": "Anorexia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "blurred vision",
+                        "html": "blurred vision",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "eosinophilia",
+                        "html": "eosinophilia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "flushing",
+                        "html": "flushing",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "nervousness",
+                        "html": "nervousness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "palpitations",
+                        "html": "palpitations",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "stomatitis",
+                        "html": "stomatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Arrhythmias",
+                        "html": "Arrhythmias",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "cholestatic jaundice",
+                        "html": "cholestatic jaundice",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "diplopia",
+                        "html": "diplopia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "transient loss of consciousness",
+                        "html": "transient loss of consciousness",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Altered sense of smell",
+                        "html": "Altered sense of smell",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "antibiotic-associated colitis",
+                        "html": "antibiotic-associated colitis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "erythema multiforme",
+                        "html": "erythema multiforme",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "muscle cramp",
+                        "html": "muscle cramp",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Arthralgia",
+                        "html": "Arthralgia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hallucinations",
+                        "html": "hallucinations",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pancreatitis",
+                        "html": "pancreatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Toxicity in animal studies&#8212;manufacturer advises use only if potential benefit outweighs risk.",
+                "html": "<p>Toxicity in <i>animal</i> studies&#8212;manufacturer advises use only if potential benefit outweighs risk.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;present in milk in animal studies.",
+                "html": "<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution.",
+                "html": "<p>Manufacturer advises caution.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Manufacturer advises avoid if possible if eGFR less than 30 mL/minute/1.73 m2&#8212;if no alternative, use alternating daily doses of 800 mg and 400 mg, starting with 800 mg dose.",
+                "html": "<p>Manufacturer advises avoid if possible if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>&#8212;if no alternative, use alternating daily doses of 800&#8239;mg and 400&#8239;mg, starting with 800&#8239;mg dose.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "textContent": "Visual disturbances or transient loss of consciousness may affect performance of skilled tasks (e.g. driving); effects may occur after the first dose. Administration at bedtime may reduce these side-effects. Patients should be advised not to drive or operate machinery if affected.",
+                "html": "<p>Visual disturbances or transient loss of consciousness may affect performance of skilled tasks (e.g. driving); effects may occur after the first dose. Administration at bedtime may reduce these side-effects. Patients should be advised not to drive or operate machinery if affected.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "title": "Hepatic disorders",
+                "textContent": "Counselling on hepatic disorders is advised. Patients should be told how to recognise signs of liver disorder, and advised to discontinue treatment and seek prompt medical attention if symptoms such as anorexia, nausea, vomiting, abdominal pain, jaundice, or dark urine develop.",
+                "html": "<p>Counselling on hepatic disorders is advised. Patients should be told how to recognise signs of liver disorder, and advised to discontinue treatment and seek prompt medical attention if symptoms such as anorexia, nausea, vomiting, abdominal pain, jaundice, or dark urine develop.</p>"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78462",
+                "label": "Macrolides",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_946",
+                "label": "Telithromycin",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ]
+    }
+}

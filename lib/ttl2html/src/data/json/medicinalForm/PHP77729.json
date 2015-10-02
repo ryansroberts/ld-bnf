@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP77729\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-fluoride/chewable-tablet\" basename=\"chewable-tablet\" title=\"Chewable tablet\">\n<title>Chewable tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Fluor-a-day 1.1mg chewable tablets <ph outputclass=\"manufacturer\">(Dental Health Products Ltd)</ph>\n</title>\n<data name=\"ampid\">4112611000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium fluoride 1.1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.79</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;2.79</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Fluor-a-day 2.2mg chewable tablets <ph outputclass=\"manufacturer\">(Dental Health Products Ltd)</ph>\n</title>\n<data name=\"ampid\">4112311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium fluoride 2.2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.79</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;2.79</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6152\" title=\"SODIUM FLUORIDE\" namespace=\"/drugs/sodium-fluoride\">SODIUM FLUORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77729",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-fluoride/chewable-tablet",
+    "basename": "chewable-tablet",
+    "form": "Chewable tablet",
+    "products": [
+        {
+            "title": "Fluor-a-day 1.1mg chewable tablets (Dental Health Products Ltd) ",
+            "header": "Fluor-a-day 1.1mg chewable tablets <ph outputclass=\"manufacturer\">(Dental Health Products Ltd)</ph>",
+            "manufacturer": "(Dental Health Products Ltd)",
+            "name": "Fluor-a-day 1.1mg chewable tablets",
+            "ampid": "4112611000001106",
+            "strengthOfActiveIngredient": "Sodium fluoride 1.1 mg",
+            "packs": [
+                {
+                    "textContent": " 200 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.79 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.79</ph>",
+                        "nhsIndicativePrice": "&#163;2.79"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.79 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.79</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.79"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Fluor-a-day 2.2mg chewable tablets (Dental Health Products Ltd) ",
+            "header": "Fluor-a-day 2.2mg chewable tablets <ph outputclass=\"manufacturer\">(Dental Health Products Ltd)</ph>",
+            "manufacturer": "(Dental Health Products Ltd)",
+            "name": "Fluor-a-day 2.2mg chewable tablets",
+            "ampid": "4112311000001101",
+            "strengthOfActiveIngredient": "Sodium fluoride 2.2 mg",
+            "packs": [
+                {
+                    "textContent": " 200 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.79 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.79</ph>",
+                        "nhsIndicativePrice": "&#163;2.79"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.79 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.79</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.79"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6152",
+        "label": "SODIUM FLUORIDE"
+    }
+}

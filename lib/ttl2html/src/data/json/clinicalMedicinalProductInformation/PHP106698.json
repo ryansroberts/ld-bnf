@@ -1,0 +1,128 @@
+{
+    "xml": "<topic id=\"PHP106698\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/voltarol-solution-for-injection\" basename=\"voltarol-solution-for-injection\" title=\"Voltarol solution for injection\">\n<title>Voltarol<tm tmtype=\"reg\"/> solution for injection</title>\n<topic id=\"PHP106720\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/voltarol-solution-for-injection\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Postoperative pain</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>75&#8239;mg 1&#8211;2 times a day for maximum 2 days, twice daily administration in severe cases, to be injected into the gluteal muscle.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute exacerbations of pain</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>75&#8239;mg 1&#8211;2 times a day for maximum 2 days, twice daily administration in severe cases, to be injected into the gluteal muscle.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Ureteric colic</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By deep intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>75&#8239;mg, then 75&#8239;mg after 30&#8239;minutes if required.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute postoperative pain (in hospital setting)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>75&#8239;mg, then 75&#8239;mg after 4&#8211;6&#8239;hours if required for maximum 2 days; maximum 150&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of postoperative pain (in hospital setting)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 25&#8211;50&#8239;mg, to be given after surgery over 15&#8211;60 minutes, then 5&#8239;mg/hour for maximum 2 days; maximum 150&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP106698",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/voltarol-solution-for-injection",
+    "basename": "voltarol-solution-for-injection",
+    "title": "Voltarol solution for injection",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Postoperative pain",
+                        "html": "Postoperative pain"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "75 mg 1&#8211;2 times a day for maximum 2 days, twice daily administration in severe cases, to be injected into the gluteal muscle.",
+                        "html": "<p>75&#8239;mg 1&#8211;2 times a day for maximum 2 days, twice daily administration in severe cases, to be injected into the gluteal muscle.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute exacerbations of pain",
+                        "html": "Acute exacerbations of pain"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "75 mg 1&#8211;2 times a day for maximum 2 days, twice daily administration in severe cases, to be injected into the gluteal muscle.",
+                        "html": "<p>75&#8239;mg 1&#8211;2 times a day for maximum 2 days, twice daily administration in severe cases, to be injected into the gluteal muscle.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Ureteric colic",
+                        "html": "Ureteric colic"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "deep intramuscular injection"
+                    ],
+                    "textContent": "By deep intramuscular injection",
+                    "html": "By deep intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "75 mg, then 75 mg after 30 minutes if required.",
+                        "html": "<p>75&#8239;mg, then 75&#8239;mg after 30&#8239;minutes if required.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute postoperative pain (in hospital setting)",
+                        "html": "Acute postoperative pain (in hospital setting)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "75 mg, then 75 mg after 4&#8211;6 hours if required for maximum 2 days; maximum 150 mg per day.",
+                        "html": "<p>75&#8239;mg, then 75&#8239;mg after 4&#8211;6&#8239;hours if required for maximum 2 days; maximum 150&#8239;mg per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of postoperative pain (in hospital setting)",
+                        "html": "Prevention of postoperative pain (in hospital setting)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 25&#8211;50 mg, to be given after surgery over 15&#8211;60 minutes, then 5 mg/hour for maximum 2 days; maximum 150 mg per day.",
+                        "html": "<p>Initially 25&#8211;50&#8239;mg, to be given after surgery over 15&#8211;60 minutes, then 5&#8239;mg/hour for maximum 2 days; maximum 150&#8239;mg per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

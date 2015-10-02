@@ -1,0 +1,102 @@
+{
+    "xml": "<topic id=\"PHP34492\" outputclass=\"drug\" rev=\"1.13\" type=\"drug\" namespace=\"/drugs/digoxin-specific-antibody\" basename=\"digoxin-specific-antibody\" title=\"DIGOXIN-SPECIFIC ANTIBODY\">\n<title>DIGOXIN-SPECIFIC ANTIBODY</title>\n<body>\n<data name=\"vtmid\">317916006</data>\n</body>\n<topic id=\"PHP59102\" outputclass=\"indicationsAndDose\" rev=\"1.18\" parent=\"/drugs/digoxin-specific-antibody\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of known or strongly suspected life-threatening digoxin toxicity associated with ventricular arrhythmias or bradyarrhythmias unresponsive to atropine and when measures beyond the withdrawal of digoxin and correction of any electrolyte abnormalities are considered necessary</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Serious cases of digoxin toxicity should be discussed with the National Poisons Information Service (consult product literature).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Serious cases of digoxin toxicity should be discussed with the National Poisons Information Service (consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59155\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/drugs/digoxin-specific-antibody\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> (<i>DigiFab</i>\n<tm tmtype=\"reg\"/>), given intermittently in Sodium chloride 0.9%. Reconstitute with water for injections (4&#8239;mL/vial), then dilute with infusion fluid and give over 30 minutes.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP34492-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/digoxin-specific-antibody\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92156\" title=\"Powder for solution for infusion\" namespace=\"/drugs/digoxin-specific-antibody/powder-for-solution-for-infusion\">Powder for solution for infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78203\" namespace=\"/treatment-summaries/cardiac-glycosides\" title=\"Cardiac glycosides\" count=\"2\" rel=\"backlink\">Cardiac glycosides</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92156\" namespace=\"/drugs/digoxin-specific-antibody/powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\" count=\"1\" rel=\"link\">Powder for solution for infusion</xref>\n</links>\n</topic>",
+    "id": "PHP34492",
+    "outputclass": "drug",
+    "rev": "1.13",
+    "type": "drug",
+    "namespace": "/drugs/digoxin-specific-antibody",
+    "basename": "digoxin-specific-antibody",
+    "title": "DIGOXIN-SPECIFIC ANTIBODY",
+    "vtmid": "317916006",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of known or strongly suspected life-threatening digoxin toxicity associated with ventricular arrhythmias or bradyarrhythmias unresponsive to atropine and when measures beyond the withdrawal of digoxin and correction of any electrolyte abnormalities are considered necessary",
+                        "html": "Treatment of known or strongly suspected life-threatening digoxin toxicity associated with ventricular arrhythmias or bradyarrhythmias unresponsive to atropine and when measures beyond the withdrawal of digoxin and correction of any electrolyte abnormalities are considered necessary"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "child": [
+                    {
+                        "textContent": "Serious cases of digoxin toxicity should be discussed with the National Poisons Information Service (consult product literature).",
+                        "html": "<p>Serious cases of digoxin toxicity should be discussed with the National Poisons Information Service (consult product literature).</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Serious cases of digoxin toxicity should be discussed with the National Poisons Information Service (consult product literature).",
+                        "html": "<p>Serious cases of digoxin toxicity should be discussed with the National Poisons Information Service (consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (DigiFab ), given intermittently in Sodium chloride 0.9%. Reconstitute with water for injections (4 mL/vial), then dilute with infusion fluid and give over 30 minutes.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>DigiFab</i>\n<tm tmtype=\"reg\"/>), given intermittently in Sodium chloride 0.9%. Reconstitute with water for injections (4&#8239;mL/vial), then dilute with infusion fluid and give over 30 minutes.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92156",
+                "label": "Powder for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "treatmentSummary": [
+            {
+                "id": "PHP78203",
+                "label": "Cardiac glycosides",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92156",
+                "label": "Powder for solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

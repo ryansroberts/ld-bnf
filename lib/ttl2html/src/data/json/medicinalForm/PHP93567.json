@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP93567\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dexamethasone-with-glacial-acetic-acid-and-neomycin-sulfate/spray\" basename=\"spray\" title=\"Spray\">\n<title>Spray</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Hydroxybenzoates (parabens)</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Otomize ear spray <ph outputclass=\"manufacturer\">(Forest Laboratories UK Ltd)</ph>\n</title>\n<data name=\"ampid\">507711000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetic acid glacial 20&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Dexamethasone 1&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Neomycin sulfate 5&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.27</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92557\" title=\"DEXAMETHASONE WITH GLACIAL ACETIC ACID AND NEOMYCIN SULFATE\" namespace=\"/drugs/dexamethasone-with-glacial-acetic-acid-and-neomycin-sulfate\">DEXAMETHASONE WITH GLACIAL ACETIC ACID AND NEOMYCIN SULFATE</xref>\n</parents>\n</topic>",
+    "id": "PHP93567",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dexamethasone-with-glacial-acetic-acid-and-neomycin-sulfate/spray",
+    "basename": "spray",
+    "form": "Spray",
+    "excipients": [
+        "Hydroxybenzoates (parabens)"
+    ],
+    "products": [
+        {
+            "title": "Otomize ear spray (Forest Laboratories UK Ltd) ",
+            "header": "Otomize ear spray <ph outputclass=\"manufacturer\">(Forest Laboratories UK Ltd)</ph>",
+            "manufacturer": "(Forest Laboratories UK Ltd)",
+            "name": "Otomize ear spray",
+            "ampid": "507711000001101",
+            "strengthOfActiveIngredient": "Neomycin sulfate 5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.27 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.27</ph>",
+                        "nhsIndicativePrice": "&#163;3.27"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP92557",
+        "label": "DEXAMETHASONE WITH GLACIAL ACETIC ACID AND NEOMYCIN SULFATE"
+    }
+}

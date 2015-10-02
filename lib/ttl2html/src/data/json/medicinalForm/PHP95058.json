@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP95058\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/drospirenone-with-estradiol/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Angeliq tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">8787011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Drospirenone 2&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Estradiol (as Estradiol hemihydrate) 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">84</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;29.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94805\" title=\"DROSPIRENONE WITH ESTRADIOL\" namespace=\"/drugs/drospirenone-with-estradiol\">DROSPIRENONE WITH ESTRADIOL</xref>\n</parents>\n</topic>",
+    "id": "PHP95058",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/drospirenone-with-estradiol/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Angeliq tablets (Bayer Plc) ",
+            "header": "Angeliq tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Angeliq tablets",
+            "ampid": "8787011000001107",
+            "strengthOfActiveIngredient": "Estradiol (as Estradiol hemihydrate) 1 mg",
+            "packs": [
+                {
+                    "textContent": " 84 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">84</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "84",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;29.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;29.00</ph>",
+                        "nhsIndicativePrice": "&#163;29.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP94805",
+        "label": "DROSPIRENONE WITH ESTRADIOL"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "xml": "<topic id=\"PHP76231\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/phenytoin/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Alcohol, propylene glycol</p>\n</section>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Epanutin Ready-Mixed Parenteral 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4358911000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Phenytoin sodium 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;48.79</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4358511000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Phenytoin sodium 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.95</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">10678211000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Phenytoin sodium 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4358711000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Phenytoin sodium 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.40</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Kent Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">23017611000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Phenytoin sodium 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.55</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2958\" title=\"PHENYTOIN\" namespace=\"/drugs/phenytoin\">PHENYTOIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76231",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/phenytoin/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "excipients": [
+        "Alcohol",
+        "propylene glycol"
+    ],
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Epanutin Ready-Mixed Parenteral 250mg/5ml solution for injection ampoules (Pfizer Ltd) ",
+            "header": "Epanutin Ready-Mixed Parenteral 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Epanutin Ready-Mixed Parenteral 250mg/5ml solution for injection ampoules",
+            "ampid": "4358911000001102",
+            "strengthOfActiveIngredient": "Phenytoin sodium 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;48.79 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;48.79</ph>",
+                        "nhsIndicativePrice": "&#163;48.79"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Phenytoin sodium 250mg/5ml solution for injection ampoules (A A H Pharmaceuticals Ltd) ",
+            "header": "Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Phenytoin sodium 250mg/5ml solution for injection ampoules",
+            "ampid": "4358511000001109",
+            "strengthOfActiveIngredient": "Phenytoin sodium 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.95</ph>",
+                        "nhsIndicativePrice": "&#163;19.95"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Phenytoin sodium 250mg/5ml solution for injection ampoules (AMCo) ",
+            "header": "Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Phenytoin sodium 250mg/5ml solution for injection ampoules",
+            "ampid": "10678211000001103",
+            "strengthOfActiveIngredient": "Phenytoin sodium 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Phenytoin sodium 250mg/5ml solution for injection ampoules (Hospira UK Ltd) ",
+            "header": "Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>",
+            "manufacturer": "(Hospira UK Ltd)",
+            "name": "Phenytoin sodium 250mg/5ml solution for injection ampoules",
+            "ampid": "4358711000001104",
+            "strengthOfActiveIngredient": "Phenytoin sodium 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.40</ph>",
+                        "nhsIndicativePrice": "&#163;24.40"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Phenytoin sodium 250mg/5ml solution for injection ampoules (Kent Pharmaceuticals Ltd) ",
+            "header": "Phenytoin sodium 250mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Kent Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Kent Pharmaceuticals Ltd)",
+            "name": "Phenytoin sodium 250mg/5ml solution for injection ampoules",
+            "ampid": "23017611000001104",
+            "strengthOfActiveIngredient": "Phenytoin sodium 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.55</ph>",
+                        "nhsIndicativePrice": "&#163;14.55"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2958",
+        "label": "PHENYTOIN"
+    }
+}
