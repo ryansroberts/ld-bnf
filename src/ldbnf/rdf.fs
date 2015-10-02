@@ -27,7 +27,8 @@ module DrugRdf =
       Graph vds
 
     static member from (x:Drug) =
-      let og = Graph.ReallyEmpty ["nidebnf",!!"http://ld.nice.org.uk/ns/bnf/"]
+      let og = Graph.ReallyEmpty ["nicebnf",!!"http://ld.nice.org.uk/ns/bnf/"
+                                  "cnt",!!"http://www.w3.org/2011/content#"]
       
       let s = [ Some(a !!"nicebnf:drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
@@ -75,6 +76,11 @@ module DrugRdf =
                sp >>= (Graph.from >> Some)]
       blank !!"nicebnf:generalInformation" (s |> List.choose id)
 
+    static member from (DoseAdjustment (sd,sp)) =
+      let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
+               sp >>= (Graph.from >> Some)]
+      blank !!"nicebnf:doseadjsutment" (s |> List.choose id)
+
     //static member from (Pregnancy (Id(i),gis)) =
     //  one !!"nicebnf:pregnancy" !!("nicebnf:pregnancy#" + i) (gis |> Seq.map Graph.from |> Seq.toList) 
 
@@ -85,4 +91,6 @@ module DrugRdf =
       match x with
         | Pregnancy (Id(i),gis) -> Some(Graph.general "pregnancy" i gis)
         | BreastFeeding (Id(i),gis) -> Some(Graph.general "breastfeeding" i gis)
+        | HepaticImpairment (Id(i),gis,das) ->
+            Some(one !!"nicebnf:hepaticimpairment" !!("nicebnf:hepaticimpairment" + i) (gis |> Seq.map Graph.from |> Seq.toList))
         | _ -> None
