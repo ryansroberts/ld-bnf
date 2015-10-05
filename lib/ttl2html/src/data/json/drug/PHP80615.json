@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP80615\" outputclass=\"drug\" rev=\"1.14\" type=\"drug\" namespace=\"/drugs/benzalkonium-chloride\" basename=\"benzalkonium-chloride\" title=\"BENZALKONIUM CHLORIDE\">\n<title>BENZALKONIUM CHLORIDE</title>\n<body>\n<data name=\"vtmid\">90370005</data>\n</body>\n<topic id=\"PHP80735\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/drugs/benzalkonium-chloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Seborrhoeic scalp conditions associated with dandruff and scaling</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply as required.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply as required.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80615-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/benzalkonium-chloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: liquid</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92189\" title=\"Shampoo\" namespace=\"/drugs/benzalkonium-chloride/shampoo\">Shampoo</xref>\n</children>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92189\" namespace=\"/drugs/benzalkonium-chloride/shampoo\" title=\"Shampoo\" count=\"1\" rel=\"link\">Shampoo</xref>\n</links>\n</topic>",
+    "id": "PHP80615",
+    "outputclass": "drug",
+    "rev": "1.14",
+    "type": "drug",
+    "namespace": "/drugs/benzalkonium-chloride",
+    "basename": "benzalkonium-chloride",
+    "title": "BENZALKONIUM CHLORIDE",
+    "vtmid": "90370005",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Seborrhoeic scalp conditions associated with dandruff and scaling",
+                        "html": "Seborrhoeic scalp conditions associated with dandruff and scaling"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply as required.",
+                        "html": "<p>Apply as required.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply as required.",
+                        "html": "<p>Apply as required.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "liquid"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92189",
+                "label": "Shampoo",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92189",
+                "label": "Shampoo",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

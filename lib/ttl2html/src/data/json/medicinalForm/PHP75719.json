@@ -1,0 +1,85 @@
+{
+    "xml": "<topic id=\"PHP75719\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ropivacaine-hydrochloride/infusion\" basename=\"infusion\" title=\"Infusion\">\n<title>Infusion</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Naropin 400mg/200ml infusion Polybags <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4695211000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ropivacaine hydrochloride 2&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;86.70</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ropivacaine 400mg/200ml infusion bags <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">21669811000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ropivacaine hydrochloride 2&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;137.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ropivacaine 400mg/200ml infusion bags <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">18112011000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ropivacaine hydrochloride 2&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;72.25</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8746\" title=\"ROPIVACAINE HYDROCHLORIDE\" namespace=\"/drugs/ropivacaine-hydrochloride\">ROPIVACAINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75719",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ropivacaine-hydrochloride/infusion",
+    "basename": "infusion",
+    "form": "Infusion",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Naropin 400mg/200ml infusion Polybags (AstraZeneca UK Ltd) ",
+            "header": "Naropin 400mg/200ml infusion Polybags <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>",
+            "manufacturer": "(AstraZeneca UK Ltd)",
+            "name": "Naropin 400mg/200ml infusion Polybags",
+            "ampid": "4695211000001101",
+            "strengthOfActiveIngredient": "Ropivacaine hydrochloride 2 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;86.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;86.70</ph>",
+                        "nhsIndicativePrice": "&#163;86.70"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Ropivacaine 400mg/200ml infusion bags (AMCo) ",
+            "header": "Ropivacaine 400mg/200ml infusion bags <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Ropivacaine 400mg/200ml infusion bags",
+            "ampid": "21669811000001107",
+            "strengthOfActiveIngredient": "Ropivacaine hydrochloride 2 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;137.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;137.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;137.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Ropivacaine 400mg/200ml infusion bags (Teva UK Ltd) ",
+            "header": "Ropivacaine 400mg/200ml infusion bags <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "Ropivacaine 400mg/200ml infusion bags",
+            "ampid": "18112011000001104",
+            "strengthOfActiveIngredient": "Ropivacaine hydrochloride 2 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;72.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;72.25</ph>",
+                        "nhsIndicativePrice": "&#163;72.25"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8746",
+        "label": "ROPIVACAINE HYDROCHLORIDE"
+    }
+}

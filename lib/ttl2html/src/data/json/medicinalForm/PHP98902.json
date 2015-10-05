@@ -1,0 +1,63 @@
+{
+    "xml": "<topic id=\"PHP98902\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/macrogol-3350-with-anhydrous-sodium-sulfate-ascorbic-acid-potassium-chloride-sodium-ascorbate-and-sodium-chloride/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\r\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Aspartame</p>\n</section>\r\n<section outputclass=\"electrolytes\">\r\n<title>Electrolytes</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Chloride, potassium, sodium</p>\n</section>\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP100214\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/moviprep\">Moviprep<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Moviprep oral powder sachets <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">11381011000001108</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.87</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP98623\" title=\"MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, ASCORBIC ACID, POTASSIUM CHLORIDE, SODIUM ASCORBATE AND SODIUM CHLORIDE\" namespace=\"/drugs/macrogol-3350-with-anhydrous-sodium-sulfate-ascorbic-acid-potassium-chloride-sodium-ascorbate-and-sodium-chloride\">MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, ASCORBIC ACID, POTASSIUM CHLORIDE, SODIUM ASCORBATE AND SODIUM CHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP98902",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/macrogol-3350-with-anhydrous-sodium-sulfate-ascorbic-acid-potassium-chloride-sodium-ascorbate-and-sodium-chloride/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        },
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "excipients": [
+        "Aspartame"
+    ],
+    "electrolytes": [
+        "Chloride",
+        "potassium",
+        "sodium"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP100214",
+            "label": "Moviprep&reg;  ",
+            "html": "Moviprep<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Moviprep oral powder sachets (Norgine Pharmaceuticals Ltd) ",
+            "header": "Moviprep oral powder sachets <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Moviprep oral powder sachets",
+            "ampid": "11381011000001108",
+            "packs": [
+                {
+                    "textContent": " 4 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.87 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.87</ph>",
+                        "nhsIndicativePrice": "&#163;9.87"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP98623",
+        "label": "MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, ASCORBIC ACID, POTASSIUM CHLORIDE, SODIUM ASCORBATE AND SODIUM CHLORIDE"
+    }
+}

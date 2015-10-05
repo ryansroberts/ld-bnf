@@ -1,0 +1,54 @@
+{
+    "xml": "<topic id=\"PHP75767\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/mitotane/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Lysodren 500mg tablets <ph outputclass=\"manufacturer\">(HRA Pharma UK Ltd)</ph>\n</title>\n<data name=\"ampid\">9467311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Mitotane 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;590.97</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5478\" title=\"MITOTANE\" namespace=\"/drugs/mitotane\">MITOTANE</xref>\n</parents>\n</topic>",
+    "id": "PHP75767",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/mitotane/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Lysodren 500mg tablets (HRA Pharma UK Ltd) ",
+            "header": "Lysodren 500mg tablets <ph outputclass=\"manufacturer\">(HRA Pharma UK Ltd)</ph>",
+            "manufacturer": "(HRA Pharma UK Ltd)",
+            "name": "Lysodren 500mg tablets",
+            "ampid": "9467311000001101",
+            "strengthOfActiveIngredient": "Mitotane 500 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;590.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;590.97</ph>",
+                        "nhsIndicativePrice": "&#163;590.97"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5478",
+        "label": "MITOTANE"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP101328\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/quinagolide/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Norprolac tablets starter pack <ph outputclass=\"manufacturer\">(Ferring Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4191011000001108</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4720\" title=\"QUINAGOLIDE\" namespace=\"/drugs/quinagolide\">QUINAGOLIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP101328",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/quinagolide/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Norprolac tablets starter pack (Ferring Pharmaceuticals Ltd) ",
+            "header": "Norprolac tablets starter pack <ph outputclass=\"manufacturer\">(Ferring Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Ferring Pharmaceuticals Ltd)",
+            "name": "Norprolac tablets starter pack",
+            "ampid": "4191011000001108",
+            "packs": [
+                {
+                    "textContent": " 6 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.50</ph>",
+                        "nhsIndicativePrice": "&#163;4.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4720",
+        "label": "QUINAGOLIDE"
+    }
+}

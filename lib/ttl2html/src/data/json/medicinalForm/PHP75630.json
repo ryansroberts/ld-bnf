@@ -1,0 +1,73 @@
+{
+    "xml": "<topic id=\"PHP75630\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/imatinib/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n<p>Label <ph outputclass=\"labelNumber\">27</ph> - Take with a full glass of water </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Glivec 100mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">8089611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Imatinib (as Imatinib mesilate) 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;918.23</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Glivec 400mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">7319811000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Imatinib (as Imatinib mesilate) 400&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1836.48</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5536\" title=\"IMATINIB\" namespace=\"/drugs/imatinib\">IMATINIB</xref>\n</parents>\n</topic>",
+    "id": "PHP75630",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/imatinib/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        },
+        {
+            "number": "27",
+            "textContent": "Take with a full glass of water",
+            "html": "Label <ph outputclass=\"labelNumber\">27</ph> - Take with a full glass of water"
+        }
+    ],
+    "products": [
+        {
+            "title": "Glivec 100mg tablets (Novartis Pharmaceuticals UK Ltd) &#9660; ",
+            "header": "Glivec 100mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Glivec 100mg tablets",
+            "ampid": "8089611000001108",
+            "strengthOfActiveIngredient": "Imatinib (as Imatinib mesilate) 100 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;918.23 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;918.23</ph>",
+                        "nhsIndicativePrice": "&#163;918.23"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Glivec 400mg tablets (Novartis Pharmaceuticals UK Ltd) &#9660; ",
+            "header": "Glivec 400mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Glivec 400mg tablets",
+            "ampid": "7319811000001103",
+            "strengthOfActiveIngredient": "Imatinib (as Imatinib mesilate) 400 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1836.48 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1836.48</ph>",
+                        "nhsIndicativePrice": "&#163;1836.48"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5536",
+        "label": "IMATINIB"
+    }
+}

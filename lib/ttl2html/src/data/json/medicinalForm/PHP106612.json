@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP106612\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/parenteral-nutrition-supplements/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP107213\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/solivito-n-powder-for-solution-for-infusion-vials\">Solivito N powder for solution for infusion vials</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Solivito N powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>\n</title>\n<data name=\"ampid\">7497411000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Biotin 60&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Cyanocobalamin 5&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Folic acid 400&#8239;microgram</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Nicotinamide 40&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Pyridoxine hydrochloride 4.9&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Riboflavin sodium phosphate 4.9&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Sodium ascorbate 113&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Sodium pantothenate 16.5&#8239;mg</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Thiamine nitrate 3.1&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.97</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP106444\" title=\"PARENTERAL NUTRITION SUPPLEMENTS\" namespace=\"/drugs/parenteral-nutrition-supplements\">PARENTERAL NUTRITION SUPPLEMENTS</xref>\n</parents>\n</topic>",
+    "id": "PHP106612",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/parenteral-nutrition-supplements/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "productInformationGroups": [
+        {
+            "id": "PHP107213",
+            "label": "Solivito N powder for solution for infusion vials",
+            "html": "Solivito N powder for solution for infusion vials"
+        }
+    ],
+    "products": [
+        {
+            "title": "Solivito N powder for solution for infusion vials (Fresenius Kabi Ltd) ",
+            "header": "Solivito N powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>",
+            "manufacturer": "(Fresenius Kabi Ltd)",
+            "name": "Solivito N powder for solution for infusion vials",
+            "ampid": "7497411000001101",
+            "strengthOfActiveIngredient": "Thiamine nitrate 3.1 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.97</ph>",
+                        "nhsIndicativePrice": "&#163;1.97"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP106444",
+        "label": "PARENTERAL NUTRITION SUPPLEMENTS"
+    }
+}

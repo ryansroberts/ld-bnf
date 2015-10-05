@@ -1,0 +1,107 @@
+{
+    "xml": "<topic id=\"PHP78993\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/caverject-dual-chamber\" basename=\"caverject-dual-chamber\" title=\"Caverject Dual Chamber\">\n<title>Caverject<tm tmtype=\"reg\"/> Dual Chamber</title>\n<topic id=\"PHP79327\" outputclass=\"indicationsAndDose\" rev=\"1.33\" parent=\"/clinical-medicinal-product-information/caverject-dual-chamber\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Erectile dysfunction</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intracavernosal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 2.5&#8239;micrograms for 1 dose (first dose), followed by 5&#8239;micrograms for 1 dose (second dose), to be given if some response to first dose, alternatively 7.5&#8239;micrograms for 1 dose (second dose), to be given if no response to first dose, then increased in steps of 5&#8211;10&#8239;micrograms, to obtain a dose suitable for producing erection lasting not more than 1 hour; if no response to dose then next higher dose can be given within 1 hour, if there is a response the next dose should not be given for at least 24 hours; usual dose 5&#8211;20&#8239;micrograms (max. per dose 60&#8239;micrograms), maximum frequency of injection not more than 3 times per week with at least 24 hour interval between injections.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Erectile dysfunction associated with neurological dysfunction</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intracavernosal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1.25&#8239;micrograms for 1 dose (first dose), then 2.5&#8239;micrograms for 1 dose (second dose), then 5&#8239;micrograms for 1 dose (third dose), increased in steps of 5&#8211;10&#8239;micrograms, to obtain a dose suitable for producing erection lasting not more than 1 hour; if no response to dose then next higher dose can be given within 1 hour, if there is a response the next dose should not be given for at least 24 hours; usual dose 5&#8211;20&#8239;micrograms (max. per dose 60&#8239;micrograms), maximum frequency of injection not more than 3 times per week with at least 24 hour interval between injections.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Aid to diagnosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intracavernosal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8211;20&#8239;micrograms for 1 dose (consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Aid to diagnosis where evidence of neurological dysfunction</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intracavernosal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 5&#8239;micrograms (max. per dose 10&#8239;micrograms) for 1 dose, (consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78993",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/caverject-dual-chamber",
+    "basename": "caverject-dual-chamber",
+    "title": "Caverject Dual Chamber",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Erectile dysfunction",
+                        "html": "Erectile dysfunction"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intracavernosal injection"
+                    ],
+                    "textContent": "By intracavernosal injection",
+                    "html": "By intracavernosal injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 2.5 micrograms for 1 dose (first dose), followed by 5 micrograms for 1 dose (second dose), to be given if some response to first dose, alternatively 7.5 micrograms for 1 dose (second dose), to be given if no response to first dose, then increased in steps of 5&#8211;10 micrograms, to obtain a dose suitable for producing erection lasting not more than 1 hour; if no response to dose then next higher dose can be given within 1 hour, if there is a response the next dose should not be given for at least 24 hours; usual dose 5&#8211;20 micrograms (max. per dose 60 micrograms), maximum frequency of injection not more than 3 times per week with at least 24 hour interval between injections.",
+                        "html": "<p>Initially 2.5&#8239;micrograms for 1 dose (first dose), followed by 5&#8239;micrograms for 1 dose (second dose), to be given if some response to first dose, alternatively 7.5&#8239;micrograms for 1 dose (second dose), to be given if no response to first dose, then increased in steps of 5&#8211;10&#8239;micrograms, to obtain a dose suitable for producing erection lasting not more than 1 hour; if no response to dose then next higher dose can be given within 1 hour, if there is a response the next dose should not be given for at least 24 hours; usual dose 5&#8211;20&#8239;micrograms (max. per dose 60&#8239;micrograms), maximum frequency of injection not more than 3 times per week with at least 24 hour interval between injections.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Erectile dysfunction associated with neurological dysfunction",
+                        "html": "Erectile dysfunction associated with neurological dysfunction"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intracavernosal injection"
+                    ],
+                    "textContent": "By intracavernosal injection",
+                    "html": "By intracavernosal injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 1.25 micrograms for 1 dose (first dose), then 2.5 micrograms for 1 dose (second dose), then 5 micrograms for 1 dose (third dose), increased in steps of 5&#8211;10 micrograms, to obtain a dose suitable for producing erection lasting not more than 1 hour; if no response to dose then next higher dose can be given within 1 hour, if there is a response the next dose should not be given for at least 24 hours; usual dose 5&#8211;20 micrograms (max. per dose 60 micrograms), maximum frequency of injection not more than 3 times per week with at least 24 hour interval between injections.",
+                        "html": "<p>Initially 1.25&#8239;micrograms for 1 dose (first dose), then 2.5&#8239;micrograms for 1 dose (second dose), then 5&#8239;micrograms for 1 dose (third dose), increased in steps of 5&#8211;10&#8239;micrograms, to obtain a dose suitable for producing erection lasting not more than 1 hour; if no response to dose then next higher dose can be given within 1 hour, if there is a response the next dose should not be given for at least 24 hours; usual dose 5&#8211;20&#8239;micrograms (max. per dose 60&#8239;micrograms), maximum frequency of injection not more than 3 times per week with at least 24 hour interval between injections.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Aid to diagnosis",
+                        "html": "Aid to diagnosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intracavernosal injection"
+                    ],
+                    "textContent": "By intracavernosal injection",
+                    "html": "By intracavernosal injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "10&#8211;20 micrograms for 1 dose (consult product literature).",
+                        "html": "<p>10&#8211;20&#8239;micrograms for 1 dose (consult product literature).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Aid to diagnosis where evidence of neurological dysfunction",
+                        "html": "Aid to diagnosis where evidence of neurological dysfunction"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intracavernosal injection"
+                    ],
+                    "textContent": "By intracavernosal injection",
+                    "html": "By intracavernosal injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 5 micrograms (max. per dose 10 micrograms) for 1 dose, (consult product literature).",
+                        "html": "<p>Initially 5&#8239;micrograms (max. per dose 10&#8239;micrograms) for 1 dose, (consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP97405\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/femseven\" basename=\"femseven\" title=\"FemSeven\">\n<title>FemSeven<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP97717\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/femseven\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms</p>\n<p outputclass=\"therapeuticIndication\">Osteoporosis prophylaxis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;patch once weekly continuously, to be used with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, initiate therapy with <i>FemSeven 50</i> patches for the first few months, subsequently adjust according to response.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP97730\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/femseven\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be advised on the administration of FemSevenA<tm tmtype=\"reg\"/> patches.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP97405",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/femseven",
+    "basename": "femseven",
+    "title": "FemSeven",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms",
+                        "html": "Menopausal symptoms"
+                    },
+                    {
+                        "textContent": "Osteoporosis prophylaxis",
+                        "html": "Osteoporosis prophylaxis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1 patch once weekly continuously, to be used with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, initiate therapy with FemSeven 50 patches for the first few months, subsequently adjust according to response.",
+                        "html": "<p>Apply 1&#8239;patch once weekly continuously, to be used with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, initiate therapy with <i>FemSeven 50</i> patches for the first few months, subsequently adjust according to response.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be advised on the administration of FemSevenA patches.",
+                "html": "<p>Patients should be advised on the administration of FemSevenA<tm tmtype=\"reg\"/> patches.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

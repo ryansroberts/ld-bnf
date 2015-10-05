@@ -1,0 +1,81 @@
+{
+    "xml": "<topic id=\"PHP77580\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/nitisinone/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Orfadin 2mg capsules <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>\n</title>\n<data name=\"ampid\">9571811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Nitisinone 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;564.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Orfadin 5mg capsules <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>\n</title>\n<data name=\"ampid\">9601511000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Nitisinone 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1127.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Orfadin 10mg capsules <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>\n</title>\n<data name=\"ampid\">9602011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Nitisinone 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2062.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6336\" title=\"NITISINONE\" namespace=\"/drugs/nitisinone\">NITISINONE</xref>\n</parents>\n</topic>",
+    "id": "PHP77580",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/nitisinone/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Orfadin 2mg capsules (Swedish Orphan Biovitrum Ltd) ",
+            "header": "Orfadin 2mg capsules <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>",
+            "manufacturer": "(Swedish Orphan Biovitrum Ltd)",
+            "name": "Orfadin 2mg capsules",
+            "ampid": "9571811000001100",
+            "strengthOfActiveIngredient": "Nitisinone 2 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;564.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;564.00</ph>",
+                        "nhsIndicativePrice": "&#163;564.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Orfadin 5mg capsules (Swedish Orphan Biovitrum Ltd) ",
+            "header": "Orfadin 5mg capsules <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>",
+            "manufacturer": "(Swedish Orphan Biovitrum Ltd)",
+            "name": "Orfadin 5mg capsules",
+            "ampid": "9601511000001102",
+            "strengthOfActiveIngredient": "Nitisinone 5 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1127.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1127.00</ph>",
+                        "nhsIndicativePrice": "&#163;1127.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Orfadin 10mg capsules (Swedish Orphan Biovitrum Ltd) ",
+            "header": "Orfadin 10mg capsules <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>",
+            "manufacturer": "(Swedish Orphan Biovitrum Ltd)",
+            "name": "Orfadin 10mg capsules",
+            "ampid": "9602011000001102",
+            "strengthOfActiveIngredient": "Nitisinone 10 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2062.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2062.00</ph>",
+                        "nhsIndicativePrice": "&#163;2062.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6336",
+        "label": "NITISINONE"
+    }
+}

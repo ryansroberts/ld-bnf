@@ -1,0 +1,324 @@
+{
+    "xml": "<topic id=\"PHP4681\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/sodium-clodronate\" basename=\"sodium-clodronate\" title=\"SODIUM CLODRONATE\">\n<title>SODIUM CLODRONATE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_461\" namespace=\"/interactions/list-of-drug-interactions/bisphosphonates/sodium-clodronate\">Sodium Clodronate</xref>\n</p>\n<data name=\"vtmid\">96283003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_819087817\" title=\"Bisphosphonates\">Bisphosphonates</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34620\" title=\"BISPHOSPHONATES\" namespace=\"/drug-classes/bisphosphonates\">BISPHOSPHONATES</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP60013\" outputclass=\"indicationsAndDose\" rev=\"1.17\" parent=\"/drugs/sodium-clodronate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Osteolytic lesions, hypercalcaemia and bone pain associated with skeletal metastases in patients with breast cancer or multiple myeloma</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.6&#8239;g daily in 1&#8211;2 divided doses, then increased if necessary up to 3.2&#8239;g daily in 2 divided doses.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60102\" outputclass=\"contraindications\" rev=\"1.6\" parent=\"/drugs/sodium-clodronate\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Acute gastro-intestinal inflammatory conditions</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60140\" outputclass=\"cautions\" rev=\"1.12\" parent=\"/drugs/sodium-clodronate\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Atypical femoral fractures</ph>; <ph outputclass=\"caution\">maintain adequate fluid intake during treatment</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59996\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/sodium-clodronate\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (bisphosphonates).</p>\n<p>Renal dysfunction reported in patients receiving concomitant NSAIDs.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59872\" outputclass=\"sideEffects\" rev=\"1.16\" parent=\"/drugs/sodium-clodronate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bronchospasm</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">skin reactions</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Atypical femoral fractures</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Osteonecrosis of the jaw</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Renal impairment</ph>; <ph outputclass=\"sideEffect\">uveitis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59973\" outputclass=\"pregnancy\" parent=\"/drugs/sodium-clodronate\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60157\" outputclass=\"breastFeeding\" parent=\"/drugs/sodium-clodronate\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59941\" outputclass=\"renalImpairment\" parent=\"/drugs/sodium-clodronate\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Max. initial dose 1200&#8239;mg daily if eGFR 30-50&#8239;mL/minute/1.73m<sup>2</sup>.</p>\n<p>Use half normal dose if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59804\" outputclass=\"monitoringRequirements\" parent=\"/drugs/sodium-clodronate\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor renal function, serum calcium and serum phosphate before and during treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60201\" outputclass=\"directionsForAdministration\" rev=\"1.7\" parent=\"/drugs/sodium-clodronate\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Avoid food for 2 hours before and 1 hour after treatment, particularly calcium-containing products e.g. milk; also avoid iron and mineral supplements and antacids; maintain adequate fluid intake. </p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59957\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/drugs/sodium-clodronate\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer sodium clodronate capsules and tablets.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP4681-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/sodium-clodronate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74908\" title=\"Tablet\" namespace=\"/drugs/sodium-clodronate/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74913\" title=\"Capsule\" namespace=\"/drugs/sodium-clodronate/capsule\">Capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_461\" namespace=\"/interactions/list-of-drug-interactions/bisphosphonates/sodium-clodronate\" title=\"Sodium Clodronate\" count=\"1\" rel=\"link\">Sodium Clodronate</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34620\" namespace=\"/drug-classes/bisphosphonates\" title=\"BISPHOSPHONATES\" count=\"1\" rel=\"link\">BISPHOSPHONATES</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74908\" namespace=\"/drugs/sodium-clodronate/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74913\" namespace=\"/drugs/sodium-clodronate/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n</links>\n</topic>",
+    "id": "PHP4681",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/sodium-clodronate",
+    "basename": "sodium-clodronate",
+    "title": "SODIUM CLODRONATE",
+    "interactants": [
+        {
+            "id": "bnf_int_461",
+            "label": "Sodium Clodronate"
+        }
+    ],
+    "vtmid": "96283003",
+    "drugClassification": [
+        "Bisphosphonates"
+    ],
+    "inheritsFromClass": [
+        "BISPHOSPHONATES"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Osteolytic lesions, hypercalcaemia and bone pain associated with skeletal metastases in patients with breast cancer or multiple myeloma",
+                        "html": "Osteolytic lesions, hypercalcaemia and bone pain associated with skeletal metastases in patients with breast cancer or multiple myeloma"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1.6 g daily in 1&#8211;2 divided doses, then increased if necessary up to 3.2 g daily in 2 divided doses.",
+                        "html": "<p>1.6&#8239;g daily in 1&#8211;2 divided doses, then increased if necessary up to 3.2&#8239;g daily in 2 divided doses.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Acute gastro-intestinal inflammatory conditions",
+                "html": "Acute gastro-intestinal inflammatory conditions"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Atypical femoral fractures",
+                "html": "Atypical femoral fractures"
+            },
+            {
+                "type": "cautions",
+                "textContent": "maintain adequate fluid intake during treatment",
+                "html": "maintain adequate fluid intake during treatment"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (bisphosphonates).\n\nRenal dysfunction reported in patients receiving concomitant NSAIDs.",
+                "html": "<p>Appendix 1 (bisphosphonates).</p><p>Renal dysfunction reported in patients receiving concomitant NSAIDs.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Bronchospasm",
+                        "html": "Bronchospasm",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "skin reactions",
+                        "html": "skin reactions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Atypical femoral fractures",
+                        "html": "Atypical femoral fractures",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Osteonecrosis of the jaw",
+                        "html": "Osteonecrosis of the jaw",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Renal impairment",
+                        "html": "Renal impairment",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "uveitis",
+                        "html": "uveitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid.",
+                "html": "<p>Avoid.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Max. initial dose 1200 mg daily if eGFR 30-50 mL/minute/1.73m2.\n\nUse half normal dose if eGFR 10&#8211;30 mL/minute/1.73 m2.",
+                "html": "<p>Max. initial dose 1200&#8239;mg daily if eGFR 30-50&#8239;mL/minute/1.73m<sup>2</sup>.</p><p>Use half normal dose if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 10 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor renal function, serum calcium and serum phosphate before and during treatment.",
+                "html": "<p>Monitor renal function, serum calcium and serum phosphate before and during treatment.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Avoid food for 2 hours before and 1 hour after treatment, particularly calcium-containing products e.g. milk; also avoid iron and mineral supplements and antacids; maintain adequate fluid intake.",
+                "html": "<p>Avoid food for 2 hours before and 1 hour after treatment, particularly calcium-containing products e.g. milk; also avoid iron and mineral supplements and antacids; maintain adequate fluid intake. </p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer sodium clodronate capsules and tablets.",
+                "html": "<p>Patients or carers should be given advice on how to administer sodium clodronate capsules and tablets.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP74908",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74913",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_461",
+                "label": "Sodium Clodronate",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34620",
+                "label": "BISPHOSPHONATES",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP74908",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP74913",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

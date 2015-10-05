@@ -1,0 +1,74 @@
+{
+    "xml": "<topic id=\"PHP97402\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/estraderm-mx\" basename=\"estraderm-mx\" title=\"Estraderm MX\">\n<title>Estraderm MX<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP97554\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/estraderm-mx\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;patch twice weekly continuously, started within 5 days of onset of menstruation (or at any time if cycles have ceased or are infrequent), to be used with cyclical progestogen for at least 12 days of each cycle in women with a uterus, initiate therapy with <i>MX25</i> for first 3 months; subsequently adjust according to response.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Osteoporosis prophylaxis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;patch twice weekly continuously, started within 5 days of onset of menstruation (or at any time if cycles have ceased or are infrequent), to be used with cyclical progestogen for at least 12 days of each cycle in women with a uterus, initiate therapy with <i>MX50</i>; subsequently adjust according to response.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP97584\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/estraderm-mx\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be advised on the administration of Estraderm MX<tm tmtype=\"reg\"/> patches.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP97402",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/estraderm-mx",
+    "basename": "estraderm-mx",
+    "title": "Estraderm MX",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms",
+                        "html": "Menopausal symptoms"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1 patch twice weekly continuously, started within 5 days of onset of menstruation (or at any time if cycles have ceased or are infrequent), to be used with cyclical progestogen for at least 12 days of each cycle in women with a uterus, initiate therapy with MX25 for first 3 months; subsequently adjust according to response.",
+                        "html": "<p>Apply 1&#8239;patch twice weekly continuously, started within 5 days of onset of menstruation (or at any time if cycles have ceased or are infrequent), to be used with cyclical progestogen for at least 12 days of each cycle in women with a uterus, initiate therapy with <i>MX25</i> for first 3 months; subsequently adjust according to response.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Osteoporosis prophylaxis",
+                        "html": "Osteoporosis prophylaxis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1 patch twice weekly continuously, started within 5 days of onset of menstruation (or at any time if cycles have ceased or are infrequent), to be used with cyclical progestogen for at least 12 days of each cycle in women with a uterus, initiate therapy with MX50; subsequently adjust according to response.",
+                        "html": "<p>Apply 1&#8239;patch twice weekly continuously, started within 5 days of onset of menstruation (or at any time if cycles have ceased or are infrequent), to be used with cyclical progestogen for at least 12 days of each cycle in women with a uterus, initiate therapy with <i>MX50</i>; subsequently adjust according to response.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be advised on the administration of Estraderm MX patches.",
+                "html": "<p>Patients should be advised on the administration of Estraderm MX<tm tmtype=\"reg\"/> patches.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

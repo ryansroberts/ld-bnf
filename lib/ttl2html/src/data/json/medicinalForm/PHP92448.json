@@ -1,0 +1,52 @@
+{
+    "xml": "<topic id=\"PHP92448\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/citric-acid-with-magnesium-carbonate/effervescent-powder\" basename=\"effervescent-powder\" title=\"Effervescent powder\">\n<title>Effervescent powder</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Magnesium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Citramag effervescent powder sachets <ph outputclass=\"manufacturer\">(Sanochemia Diagnostics UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4056111000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Citric acid anhydrous 17.79&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium carbonate heavy 11.57&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;18.92</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88108\" title=\"CITRIC ACID WITH MAGNESIUM CARBONATE\" namespace=\"/drugs/citric-acid-with-magnesium-carbonate\">CITRIC ACID WITH MAGNESIUM CARBONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP92448",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/citric-acid-with-magnesium-carbonate/effervescent-powder",
+    "basename": "effervescent-powder",
+    "form": "Effervescent powder",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "electrolytes": [
+        "Magnesium"
+    ],
+    "products": [
+        {
+            "title": "Citramag effervescent powder sachets (Sanochemia Diagnostics UK Ltd) ",
+            "header": "Citramag effervescent powder sachets <ph outputclass=\"manufacturer\">(Sanochemia Diagnostics UK Ltd)</ph>",
+            "manufacturer": "(Sanochemia Diagnostics UK Ltd)",
+            "name": "Citramag effervescent powder sachets",
+            "ampid": "4056111000001103",
+            "strengthOfActiveIngredient": "Magnesium carbonate heavy 11.57 gram",
+            "packs": [
+                {
+                    "textContent": " 10 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;18.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;18.92</ph>",
+                        "nhsIndicativePrice": "&#163;18.92"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88108",
+        "label": "CITRIC ACID WITH MAGNESIUM CARBONATE"
+    }
+}

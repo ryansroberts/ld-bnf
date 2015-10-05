@@ -1,0 +1,140 @@
+{
+    "xml": "<topic id=\"PHP88045\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/clioquinol-with-fluocinolone-acetonide\" basename=\"clioquinol-with-fluocinolone-acetonide\" title=\"CLIOQUINOL WITH FLUOCINOLONE ACETONIDE\">\n<title>CLIOQUINOL WITH FLUOCINOLONE ACETONIDE </title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP33491\" namespace=\"/drugs/fluocinolone-acetonide\">fluocinolone acetonide</xref>.</p>\n<data name=\"vtmid\">22636711000001102</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_165996106\" title=\"Halogenated hydroxyquinolines\">Halogenated hydroxyquinolines</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832374428\" title=\"Corticosteroids\">Corticosteroids</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP89790\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/drugs/clioquinol-with-fluocinolone-acetonide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Inflammatory skin disorders such as eczemas associated with infection</p>\n<p outputclass=\"therapeuticIndication\">Psoriasis associated with infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"potency\">\n<title>Potency</title>\n<p>Clioquinol 3% with fluocinolone acetonide 0.025% cream and ointment: potent</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89793\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/drugs/clioquinol-with-fluocinolone-acetonide\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Patient counselling is advised for clioquinol with fluocinolone acetonide cream and ointment (application). Ointment stains clothing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88045-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/clioquinol-with-fluocinolone-acetonide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92364\" title=\"Cream\" namespace=\"/drugs/clioquinol-with-fluocinolone-acetonide/cream\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92365\" title=\"Ointment\" namespace=\"/drugs/clioquinol-with-fluocinolone-acetonide/ointment\">Ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP33491\" namespace=\"/drugs/fluocinolone-acetonide\" title=\"FLUOCINOLONE ACETONIDE\" count=\"1\" rel=\"link\">FLUOCINOLONE ACETONIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92364\" namespace=\"/drugs/clioquinol-with-fluocinolone-acetonide/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92365\" namespace=\"/drugs/clioquinol-with-fluocinolone-acetonide/ointment\" title=\"Ointment\" count=\"1\" rel=\"link\">Ointment</xref>\n</links>\n</topic>",
+    "id": "PHP88045",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/clioquinol-with-fluocinolone-acetonide",
+    "basename": "clioquinol-with-fluocinolone-acetonide",
+    "title": "CLIOQUINOL WITH FLUOCINOLONE ACETONIDE",
+    "constituents": [
+        {
+            "id": "PHP33491",
+            "label": "fluocinolone acetonide"
+        }
+    ],
+    "vtmid": "22636711000001102",
+    "drugClassification": [
+        "Halogenated hydroxyquinolines",
+        "Corticosteroids"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Inflammatory skin disorders such as eczemas associated with infection",
+                        "html": "Inflammatory skin disorders such as eczemas associated with infection"
+                    },
+                    {
+                        "textContent": "Psoriasis associated with infection",
+                        "html": "Psoriasis associated with infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.",
+                        "html": "<p>Apply 1&#8211;2 times a day, to be applied thinly, reducing strength as condition responds.</p>"
+                    }
+                ]
+            }
+        ],
+        "potency": [
+            {
+                "type": "potency",
+                "title": "Potency",
+                "textContent": "Clioquinol 3% with fluocinolone acetonide 0.025% cream and ointment: potent",
+                "html": "<p>Clioquinol 3% with fluocinolone acetonide 0.025% cream and ointment: potent</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Patient counselling is advised for clioquinol with fluocinolone acetonide cream and ointment (application). Ointment stains clothing.",
+                "html": "<p>Patient counselling is advised for clioquinol with fluocinolone acetonide cream and ointment (application). Ointment stains clothing.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92364",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92365",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP33491",
+                "label": "FLUOCINOLONE ACETONIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92364",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92365",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

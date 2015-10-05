@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP104167\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/agalsidase-beta/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Fabrazyme 5mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph>\n</title>\n<data name=\"ampid\">9524311000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Agalsidase beta 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;315.08</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Fabrazyme 35mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph>\n</title>\n<data name=\"ampid\">9524611000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Agalsidase beta 35&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2196.59</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP104056\" title=\"AGALSIDASE BETA\" namespace=\"/drugs/agalsidase-beta\">AGALSIDASE BETA</xref>\n</parents>\n</topic>",
+    "id": "PHP104167",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/agalsidase-beta/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "products": [
+        {
+            "title": "Fabrazyme 5mg powder for solution for infusion vials (Genzyme Therapeutics Ltd) ",
+            "header": "Fabrazyme 5mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph>",
+            "manufacturer": "(Genzyme Therapeutics Ltd)",
+            "name": "Fabrazyme 5mg powder for solution for infusion vials",
+            "ampid": "9524311000001108",
+            "strengthOfActiveIngredient": "Agalsidase beta 5 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;315.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;315.08</ph>",
+                        "nhsIndicativePrice": "&#163;315.08"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Fabrazyme 35mg powder for solution for infusion vials (Genzyme Therapeutics Ltd) ",
+            "header": "Fabrazyme 35mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Genzyme Therapeutics Ltd)</ph>",
+            "manufacturer": "(Genzyme Therapeutics Ltd)",
+            "name": "Fabrazyme 35mg powder for solution for infusion vials",
+            "ampid": "9524611000001103",
+            "strengthOfActiveIngredient": "Agalsidase beta 35 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2196.59 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2196.59</ph>",
+                        "nhsIndicativePrice": "&#163;2196.59"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP104056",
+        "label": "AGALSIDASE BETA"
+    }
+}

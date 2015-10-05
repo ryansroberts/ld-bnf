@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP76395\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/clobetasol-propionate/shampoo\" basename=\"shampoo\" title=\"Shampoo\">\n<title>Shampoo</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81681\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/etrivex\">Etrivex<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Etrivex 500micrograms/g shampoo <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">11771511000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Clobetasol propionate 500&#8239;microgram per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">125</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.29</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;10.29</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7641\" title=\"CLOBETASOL PROPIONATE\" namespace=\"/drugs/clobetasol-propionate\">CLOBETASOL PROPIONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76395",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/clobetasol-propionate/shampoo",
+    "basename": "shampoo",
+    "form": "Shampoo",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81681",
+            "label": "Etrivex&reg;  ",
+            "html": "Etrivex<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Etrivex 500micrograms/g shampoo (Galderma (UK) Ltd) ",
+            "header": "Etrivex 500micrograms/g shampoo <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>",
+            "manufacturer": "(Galderma (UK) Ltd)",
+            "name": "Etrivex 500micrograms/g shampoo",
+            "ampid": "11771511000001105",
+            "strengthOfActiveIngredient": "Clobetasol propionate 500 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 125 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">125</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "125",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.29 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.29</ph>",
+                        "nhsIndicativePrice": "&#163;10.29"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;10.29 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;10.29</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;10.29"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7641",
+        "label": "CLOBETASOL PROPIONATE"
+    }
+}

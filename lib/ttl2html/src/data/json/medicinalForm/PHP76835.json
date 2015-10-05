@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP76835\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/piracetam/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Nootropil 33% oral solution <ph outputclass=\"manufacturer\">(UCB Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">4092411000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Piracetam 333.3&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.31</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Piracetam 333.3mg/ml oral solution sugar free <ph outputclass=\"manufacturer\">(Colorama Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">29915711000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Piracetam 333.3&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3158\" title=\"PIRACETAM\" namespace=\"/drugs/piracetam\">PIRACETAM</xref>\n</parents>\n</topic>",
+    "id": "PHP76835",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/piracetam/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "3",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines",
+            "html": "Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines"
+        }
+    ],
+    "products": [
+        {
+            "title": "Nootropil 33% oral solution (UCB Pharma Ltd) ",
+            "header": "Nootropil 33% oral solution <ph outputclass=\"manufacturer\">(UCB Pharma Ltd)</ph>",
+            "manufacturer": "(UCB Pharma Ltd)",
+            "name": "Nootropil 33% oral solution",
+            "ampid": "4092411000001104",
+            "strengthOfActiveIngredient": "Piracetam 333.3 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 300 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.31 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.31</ph>",
+                        "nhsIndicativePrice": "&#163;16.31"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Piracetam 333.3mg/ml oral solution sugar free (Colorama Pharmaceuticals Ltd) ",
+            "header": "Piracetam 333.3mg/ml oral solution sugar free <ph outputclass=\"manufacturer\">(Colorama Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Colorama Pharmaceuticals Ltd)",
+            "name": "Piracetam 333.3mg/ml oral solution sugar free",
+            "ampid": "29915711000001105",
+            "strengthOfActiveIngredient": "Piracetam 333.3 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 300 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3158",
+        "label": "PIRACETAM"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP76817\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-citrate/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Sodium citrate powder <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">5218811000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium citrate 1&#8239;mg per 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.28</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.28</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sodium citrate powder <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>\n</title>\n<data name=\"ampid\">5218011000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium citrate 1&#8239;mg per 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.28</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.28</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5120\" title=\"SODIUM CITRATE\" namespace=\"/drugs/sodium-citrate\">SODIUM CITRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76817",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-citrate/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Sodium citrate powder (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Sodium citrate powder <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Sodium citrate powder",
+            "ampid": "5218811000001103",
+            "strengthOfActiveIngredient": "Sodium citrate 1 mg per 1 mg",
+            "packs": [
+                {
+                    "textContent": " 500 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.28</ph>",
+                        "nhsIndicativePrice": "&#163;5.28"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.28 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.28</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.28"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sodium citrate powder (J M Loveridge Ltd) ",
+            "header": "Sodium citrate powder <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>",
+            "manufacturer": "(J M Loveridge Ltd)",
+            "name": "Sodium citrate powder",
+            "ampid": "5218011000001109",
+            "strengthOfActiveIngredient": "Sodium citrate 1 mg per 1 mg",
+            "packs": [
+                {
+                    "textContent": " 500 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.28</ph>",
+                        "nhsIndicativePrice": "&#163;5.28"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.28 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.28</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.28"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5120",
+        "label": "SODIUM CITRATE"
+    }
+}

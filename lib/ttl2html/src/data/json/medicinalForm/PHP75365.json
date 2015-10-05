@@ -1,0 +1,80 @@
+{
+    "xml": "<topic id=\"PHP75365\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/zaleplon/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sonata 5mg capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">846011000001109</data>\n<p outputclass=\"controlledDrugs\">Schedule 4 (CD Benz)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Zaleplon 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">14</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.12</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;3.12</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sonata 10mg capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">435711000001108</data>\n<p outputclass=\"controlledDrugs\">Schedule 4 (CD Benz)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Zaleplon 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">14</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.76</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;3.76</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2119\" title=\"ZALEPLON\" namespace=\"/drugs/zaleplon\">ZALEPLON</xref>\n</parents>\n</topic>",
+    "id": "PHP75365",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/zaleplon/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Sonata 5mg capsules (Meda Pharmaceuticals Ltd) ",
+            "header": "Sonata 5mg capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Sonata 5mg capsules",
+            "ampid": "846011000001109",
+            "controlledDrugs": "Schedule 4 (CD Benz)",
+            "strengthOfActiveIngredient": "Zaleplon 5 mg",
+            "packs": [
+                {
+                    "textContent": " 14 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">14</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "14",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.12 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.12</ph>",
+                        "nhsIndicativePrice": "&#163;3.12"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.12 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.12</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.12"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sonata 10mg capsules (Meda Pharmaceuticals Ltd) ",
+            "header": "Sonata 10mg capsules <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Sonata 10mg capsules",
+            "ampid": "435711000001108",
+            "controlledDrugs": "Schedule 4 (CD Benz)",
+            "strengthOfActiveIngredient": "Zaleplon 10 mg",
+            "packs": [
+                {
+                    "textContent": " 14 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">14</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "14",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.76 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.76</ph>",
+                        "nhsIndicativePrice": "&#163;3.76"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.76 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.76</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.76"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2119",
+        "label": "ZALEPLON"
+    }
+}

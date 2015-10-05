@@ -1,0 +1,99 @@
+{
+    "xml": "<topic id=\"PHP76908\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/amantadine-hydrochloride/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Amantadine 50mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">28040711000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Amantadine hydrochloride 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;133.95</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;122.09</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Amantadine 50mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">28037611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Amantadine hydrochloride 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;122.09</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;122.09</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Amantadine 50mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(Auden McKenzie (Pharma Division) Ltd)</ph>\n</title>\n<data name=\"ampid\">27888811000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Amantadine hydrochloride 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;89.30</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;122.09</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3127\" title=\"AMANTADINE HYDROCHLORIDE\" namespace=\"/drugs/amantadine-hydrochloride\">AMANTADINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76908",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/amantadine-hydrochloride/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "products": [
+        {
+            "title": "Amantadine 50mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd) ",
+            "header": "Amantadine 50mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Amantadine 50mg/5ml oral solution sugar free",
+            "ampid": "28040711000001101",
+            "strengthOfActiveIngredient": "Amantadine hydrochloride 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;133.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;133.95</ph>",
+                        "nhsIndicativePrice": "&#163;133.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;122.09 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;122.09</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;122.09"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Amantadine 50mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Amantadine 50mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Amantadine 50mg/5ml oral solution sugar free",
+            "ampid": "28037611000001108",
+            "strengthOfActiveIngredient": "Amantadine hydrochloride 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;122.09 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;122.09</ph>",
+                        "nhsIndicativePrice": "&#163;122.09"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;122.09 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;122.09</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;122.09"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Amantadine 50mg/5ml oral solution sugar free (Auden McKenzie (Pharma Division) Ltd) ",
+            "header": "Amantadine 50mg/5ml oral solution sugar free <ph outputclass=\"manufacturer\">(Auden McKenzie (Pharma Division) Ltd)</ph>",
+            "manufacturer": "(Auden McKenzie (Pharma Division) Ltd)",
+            "name": "Amantadine 50mg/5ml oral solution sugar free",
+            "ampid": "27888811000001107",
+            "strengthOfActiveIngredient": "Amantadine hydrochloride 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;89.30 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;89.30</ph>",
+                        "nhsIndicativePrice": "&#163;89.30"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;122.09 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;122.09</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;122.09"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3127",
+        "label": "AMANTADINE HYDROCHLORIDE"
+    }
+}

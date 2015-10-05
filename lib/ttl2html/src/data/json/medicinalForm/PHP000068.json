@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP000068\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hydroxypropyl-guar-with-polyethylene-glycol-and-propylene-glycol/products-without-form\" basename=\"products-without-form\" title=\"Products without form\">\n<title>Products without form</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Systane Gel eye drops <ph outputclass=\"manufacturer\">(Alcon Laboratories (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">22749311000001101</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.49</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP98630\" title=\"HYDROXYPROPYL GUAR WITH POLYETHYLENE GLYCOL AND PROPYLENE GLYCOL\" namespace=\"/drugs/hydroxypropyl-guar-with-polyethylene-glycol-and-propylene-glycol\">HYDROXYPROPYL GUAR WITH POLYETHYLENE GLYCOL AND PROPYLENE GLYCOL</xref>\n</parents>\n</topic>",
+    "id": "PHP000068",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hydroxypropyl-guar-with-polyethylene-glycol-and-propylene-glycol/products-without-form",
+    "basename": "products-without-form",
+    "form": "Products without form",
+    "products": [
+        {
+            "title": "Systane Gel eye drops (Alcon Laboratories (UK) Ltd) ",
+            "header": "Systane Gel eye drops <ph outputclass=\"manufacturer\">(Alcon Laboratories (UK) Ltd)</ph>",
+            "manufacturer": "(Alcon Laboratories (UK) Ltd)",
+            "name": "Systane Gel eye drops",
+            "ampid": "22749311000001101",
+            "packs": [
+                {
+                    "textContent": " 10 ml ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.49 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.49</ph>",
+                        "nhsIndicativePrice": "&#163;7.49"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP98630",
+        "label": "HYDROXYPROPYL GUAR WITH POLYETHYLENE GLYCOL AND PROPYLENE GLYCOL"
+    }
+}

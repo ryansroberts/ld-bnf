@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP95863\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/evorel-conti\" basename=\"evorel-conti\" title=\"Evorel Conti\">\n<title>Evorel<tm tmtype=\"reg\"/> Conti</title>\n<topic id=\"PHP96115\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/evorel-conti\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms in women with a uterus</p>\n<p outputclass=\"therapeuticIndication\">Osteoporosis prophylaxis in women with a uterus</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;patch twice weekly continuously.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95863",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/evorel-conti",
+    "basename": "evorel-conti",
+    "title": "Evorel Conti",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms in women with a uterus",
+                        "html": "Menopausal symptoms in women with a uterus"
+                    },
+                    {
+                        "textContent": "Osteoporosis prophylaxis in women with a uterus",
+                        "html": "Osteoporosis prophylaxis in women with a uterus"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1 patch twice weekly continuously.",
+                        "html": "<p>Apply 1&#8239;patch twice weekly continuously.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP77943\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/methylthioninium-chloride/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Methylthioninium chloride Proveblue 50mg/10ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Martindale Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">19718511000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Methylthioninium chloride 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;196.89</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP18437\" title=\"METHYLTHIONINIUM CHLORIDE\" namespace=\"/drugs/methylthioninium-chloride\">METHYLTHIONINIUM CHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77943",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/methylthioninium-chloride/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Methylthioninium chloride Proveblue 50mg/10ml solution for injection ampoules (Martindale Pharmaceuticals Ltd) ",
+            "header": "Methylthioninium chloride Proveblue 50mg/10ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Martindale Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Martindale Pharmaceuticals Ltd)",
+            "name": "Methylthioninium chloride Proveblue 50mg/10ml solution for injection ampoules",
+            "ampid": "19718511000001104",
+            "strengthOfActiveIngredient": "Methylthioninium chloride 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;196.89 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;196.89</ph>",
+                        "nhsIndicativePrice": "&#163;196.89"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP18437",
+        "label": "METHYLTHIONINIUM CHLORIDE"
+    }
+}

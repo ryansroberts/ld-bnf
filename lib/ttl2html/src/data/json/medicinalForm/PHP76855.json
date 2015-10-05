@@ -1,0 +1,67 @@
+{
+    "xml": "<topic id=\"PHP76855\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-bicarbonate/ear-drops\" basename=\"ear-drops\" title=\"Ear drops\">\n<title>Ear drops</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Sodium bicarbonate 5% ear drops <ph outputclass=\"manufacturer\">(Alissa Healthcare Research Ltd)</ph>\n</title>\n<data name=\"ampid\">29706011000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium bicarbonate 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.25</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sodium bicarbonate 5% ear drops <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">438711000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium bicarbonate 50&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.25</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5118\" title=\"SODIUM BICARBONATE\" namespace=\"/drugs/sodium-bicarbonate\">SODIUM BICARBONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76855",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-bicarbonate/ear-drops",
+    "basename": "ear-drops",
+    "form": "Ear drops",
+    "products": [
+        {
+            "title": "Sodium bicarbonate 5% ear drops (Alissa Healthcare Research Ltd) ",
+            "header": "Sodium bicarbonate 5% ear drops <ph outputclass=\"manufacturer\">(Alissa Healthcare Research Ltd)</ph>",
+            "manufacturer": "(Alissa Healthcare Research Ltd)",
+            "name": "Sodium bicarbonate 5% ear drops",
+            "ampid": "29706011000001109",
+            "strengthOfActiveIngredient": "Sodium bicarbonate 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ml ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.25</ph>",
+                        "nhsIndicativePrice": "&#163;1.25"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sodium bicarbonate 5% ear drops (Thornton & Ross Ltd) ",
+            "header": "Sodium bicarbonate 5% ear drops <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Sodium bicarbonate 5% ear drops",
+            "ampid": "438711000001101",
+            "strengthOfActiveIngredient": "Sodium bicarbonate 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ml ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.25</ph>",
+                        "nhsIndicativePrice": "&#163;1.25"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5118",
+        "label": "SODIUM BICARBONATE"
+    }
+}

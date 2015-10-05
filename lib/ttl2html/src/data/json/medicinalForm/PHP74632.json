@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP74632\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/yellow-fever-vaccine-live/powder-and-solvent-for-suspension-for-injection\" basename=\"powder-and-solvent-for-suspension-for-injection\" title=\"Powder and solvent for suspension for injection\">\n<title>Powder and solvent for suspension for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Stamaril vaccine powder and solvent for suspension for injection 0.5ml vials <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>\n</title>\n<data name=\"ampid\">4820311000001102</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.10</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8427\" title=\"YELLOW FEVER VACCINE, LIVE\" namespace=\"/drugs/yellow-fever-vaccine-live\">YELLOW FEVER VACCINE, LIVE</xref>\n</parents>\n</topic>",
+    "id": "PHP74632",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/yellow-fever-vaccine-live/powder-and-solvent-for-suspension-for-injection",
+    "basename": "powder-and-solvent-for-suspension-for-injection",
+    "form": "Powder and solvent for suspension for injection",
+    "products": [
+        {
+            "title": "Stamaril vaccine powder and solvent for suspension for injection 0.5ml vials (sanofi pasteur MSD Ltd) ",
+            "header": "Stamaril vaccine powder and solvent for suspension for injection 0.5ml vials <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>",
+            "manufacturer": "(sanofi pasteur MSD Ltd)",
+            "name": "Stamaril vaccine powder and solvent for suspension for injection 0.5ml vials",
+            "ampid": "4820311000001102",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.10 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.10</ph>",
+                        "nhsIndicativePrice": "&#163;33.10"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8427",
+        "label": "YELLOW FEVER VACCINE, LIVE"
+    }
+}

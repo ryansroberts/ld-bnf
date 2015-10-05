@@ -1,0 +1,118 @@
+{
+    "xml": "<topic id=\"PHP77109\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/acetylcysteine/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>A-CYS 600mg capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">21034411000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;90.80</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Acetylcysteine 600mg capsules <ph outputclass=\"manufacturer\">(IPS Specials)</ph>\n</title>\n<data name=\"ampid\">23289911000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Acetylcysteine 600mg capsules <ph outputclass=\"manufacturer\">(Tor Generics Ltd)</ph>\n</title>\n<data name=\"ampid\">30198811000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;39.95</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>OroNAC 600 capsules <ph outputclass=\"manufacturer\">(Disposable Medical Equipment Ltd)</ph>\n</title>\n<data name=\"ampid\">21214211000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.95</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Solgar NAC 600mg capsules <ph outputclass=\"manufacturer\">(Solgar Vitamin and Herb)</ph>\n</title>\n<data name=\"ampid\">7906011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP195\" title=\"ACETYLCYSTEINE\" namespace=\"/drugs/acetylcysteine\">ACETYLCYSTEINE</xref>\n</parents>\n</topic>",
+    "id": "PHP77109",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/acetylcysteine/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "A-CYS 600mg capsules (Ennogen Healthcare Ltd) ",
+            "header": "A-CYS 600mg capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "A-CYS 600mg capsules",
+            "ampid": "21034411000001106",
+            "strengthOfActiveIngredient": "Acetylcysteine 600 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;90.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;90.80</ph>",
+                        "nhsIndicativePrice": "&#163;90.80"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Acetylcysteine 600mg capsules (IPS Specials) ",
+            "header": "Acetylcysteine 600mg capsules <ph outputclass=\"manufacturer\">(IPS Specials)</ph>",
+            "manufacturer": "(IPS Specials)",
+            "name": "Acetylcysteine 600mg capsules",
+            "ampid": "23289911000001105",
+            "strengthOfActiveIngredient": "Acetylcysteine 600 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Acetylcysteine 600mg capsules (Tor Generics Ltd) ",
+            "header": "Acetylcysteine 600mg capsules <ph outputclass=\"manufacturer\">(Tor Generics Ltd)</ph>",
+            "manufacturer": "(Tor Generics Ltd)",
+            "name": "Acetylcysteine 600mg capsules",
+            "ampid": "30198811000001108",
+            "strengthOfActiveIngredient": "Acetylcysteine 600 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;39.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;39.95</ph>",
+                        "nhsIndicativePrice": "&#163;39.95"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "OroNAC 600 capsules (Disposable Medical Equipment Ltd) ",
+            "header": "OroNAC 600 capsules <ph outputclass=\"manufacturer\">(Disposable Medical Equipment Ltd)</ph>",
+            "manufacturer": "(Disposable Medical Equipment Ltd)",
+            "name": "OroNAC 600 capsules",
+            "ampid": "21214211000001109",
+            "strengthOfActiveIngredient": "Acetylcysteine 600 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.95</ph>",
+                        "nhsIndicativePrice": "&#163;24.95"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Solgar NAC 600mg capsules (Solgar Vitamin and Herb) ",
+            "header": "Solgar NAC 600mg capsules <ph outputclass=\"manufacturer\">(Solgar Vitamin and Herb)</ph>",
+            "manufacturer": "(Solgar Vitamin and Herb)",
+            "name": "Solgar NAC 600mg capsules",
+            "ampid": "7906011000001107",
+            "strengthOfActiveIngredient": "Acetylcysteine 600 mg",
+            "packs": [
+                {
+                    "textContent": " 60 capsule ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP195",
+        "label": "ACETYLCYSTEINE"
+    }
+}

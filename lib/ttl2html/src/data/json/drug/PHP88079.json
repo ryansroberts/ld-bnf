@@ -1,0 +1,160 @@
+{
+    "xml": "<topic id=\"PHP88079\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/furosemide-with-potassium-chloride\" basename=\"furosemide-with-potassium-chloride\" title=\"FUROSEMIDE WITH POTASSIUM CHLORIDE\">\n<title>FUROSEMIDE WITH POTASSIUM CHLORIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_799\" namespace=\"/interactions/list-of-drug-interactions/potassium-salts/potassium-chloride\">Potassium Chloride</xref>, <xref format=\"dita\" href=\"#bnf_int_542\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-loop/furosemide\">Furosemide</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP815\" namespace=\"/drugs/furosemide\">furosemide</xref>, <xref format=\"dita\" href=\"#PHP5965\" namespace=\"/drugs/potassium-chloride\">potassium chloride</xref>.</p>\n<data name=\"vtmid\">418651003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_805691491\" title=\"Loop diuretics\">Loop diuretics</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_576667290\" title=\"Potassium\">Potassium</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP90708\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/drugs/furosemide-with-potassium-chloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Oedema</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP90698\" outputclass=\"directionsForAdministration\" rev=\"1.9\" parent=\"/drugs/furosemide-with-potassium-chloride\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Furosemide with modified-release potassium chloride tablets should be swallowed whole with plenty of fluid during meals while sitting or standing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP90711\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/drugs/furosemide-with-potassium-chloride\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer furosemide with potassium chloride tablets.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP90719\" outputclass=\"lessSuitableForPrescribing\" rev=\"1.11\" parent=\"/drugs/furosemide-with-potassium-chloride\">\n<title>Less suitable for prescribing</title>\n<body>\n<section>\n<sectiondiv>\n<p>Furosemide with potassium chloride tablets are less suitable for prescribing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88079-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/furosemide-with-potassium-chloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92411\" title=\"Modified-release tablet\" namespace=\"/drugs/furosemide-with-potassium-chloride/modified-release-tablet\">Modified-release tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_799\" namespace=\"/interactions/list-of-drug-interactions/potassium-salts/potassium-chloride\" title=\"Potassium Chloride\" count=\"1\" rel=\"link\">Potassium Chloride</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_542\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-loop/furosemide\" title=\"Furosemide\" count=\"1\" rel=\"link\">Furosemide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP815\" namespace=\"/drugs/furosemide\" title=\"FUROSEMIDE\" count=\"1\" rel=\"link\">FUROSEMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5965\" namespace=\"/drugs/potassium-chloride\" title=\"POTASSIUM CHLORIDE\" count=\"1\" rel=\"link\">POTASSIUM CHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92411\" namespace=\"/drugs/furosemide-with-potassium-chloride/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n</links>\n</topic>",
+    "id": "PHP88079",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/furosemide-with-potassium-chloride",
+    "basename": "furosemide-with-potassium-chloride",
+    "title": "FUROSEMIDE WITH POTASSIUM CHLORIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_799",
+            "label": "Potassium Chloride"
+        },
+        {
+            "id": "bnf_int_542",
+            "label": "Furosemide"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP815",
+            "label": "furosemide"
+        },
+        {
+            "id": "PHP5965",
+            "label": "potassium chloride"
+        }
+    ],
+    "vtmid": "418651003",
+    "drugClassification": [
+        "Loop diuretics",
+        "Potassium"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Oedema",
+                        "html": "Oedema"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Furosemide with modified-release potassium chloride tablets should be swallowed whole with plenty of fluid during meals while sitting or standing.",
+                "html": "<p>Furosemide with modified-release potassium chloride tablets should be swallowed whole with plenty of fluid during meals while sitting or standing.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer furosemide with potassium chloride tablets.",
+                "html": "<p>Patients or carers should be given advice on how to administer furosemide with potassium chloride tablets.</p>"
+            }
+        ]
+    },
+    "lessSuitableForPrescribing": {
+        "lessSuitableForPrescribing": [
+            {
+                "type": "lessSuitableForPrescribing",
+                "textContent": "Furosemide with potassium chloride tablets are less suitable for prescribing.",
+                "html": "<p>Furosemide with potassium chloride tablets are less suitable for prescribing.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92411",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_799",
+                "label": "Potassium Chloride",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_542",
+                "label": "Furosemide",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP815",
+                "label": "FUROSEMIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP5965",
+                "label": "POTASSIUM CHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92411",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

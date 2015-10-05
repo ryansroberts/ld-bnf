@@ -1,0 +1,266 @@
+{
+    "xml": "<topic id=\"PHP3673\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/nalidixic-acid\" basename=\"nalidixic-acid\" title=\"NALIDIXIC ACID\">\n<title>NALIDIXIC ACID</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_196\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/quinolones/nalidixic-acid\">Nalidixic Acid</xref>\n</p>\n<data name=\"vtmid\">47602007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_800167874\" title=\"Quinolones\">Quinolones</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34649\" title=\"QUINOLONES\" namespace=\"/drug-classes/quinolones\">QUINOLONES</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP42989\" outputclass=\"indicationsAndDose\" rev=\"1.32\" parent=\"/drugs/nalidixic-acid\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Urinary-tract infections</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>900&#8239;mg every 6&#8239;hours for 7 days, then reduced to 600&#8239;mg every 6&#8239;hours for prolonged therapy in chronic infections.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43032\" outputclass=\"cautions\" rev=\"1.33\" parent=\"/drugs/nalidixic-acid\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">Acute myocardial infarction (risk factor for QT interval prolongation)</ph>; <ph outputclass=\"caution\">avoid in <xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"caution\">bradycardia (risk factor for QT interval prolongation)</ph>; <ph outputclass=\"caution\">congenital long QT syndrome (risk factor for QT interval prolongation)</ph>; <ph outputclass=\"caution\">electrolyte disturbances (risk factor for QT interval prolongation)</ph>; <ph outputclass=\"caution\">heart failure with reduced left ventricular ejection fraction (risk factor for QT interval prolongation)</ph>; <ph outputclass=\"caution\">history of symptomatic arrhythmias (risk factor for QT interval prolongation)</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP42986\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/nalidixic-acid\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Caution if concomitant use with other drugs known to prolong the QT interval.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42954\" outputclass=\"sideEffects\" rev=\"1.15\" parent=\"/drugs/nalidixic-acid\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Cranial nerve palsy</ph>; <ph outputclass=\"sideEffect\">increased intracranial pressure</ph>; <ph outputclass=\"sideEffect\">metabolic acidosis</ph>; <ph outputclass=\"sideEffect\">peripheral neuropathy</ph>; <ph outputclass=\"sideEffect\">toxic psychosis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43039\" outputclass=\"breastFeeding\" parent=\"/drugs/nalidixic-acid\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Risk to infant very small but one case of haemolytic anaemia reported.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42997\" outputclass=\"hepaticImpairment\" parent=\"/drugs/nalidixic-acid\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution in liver disease.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42970\" outputclass=\"renalImpairment\" parent=\"/drugs/nalidixic-acid\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution; avoid if eGFR less than 20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42929\" outputclass=\"monitoringRequirements\" parent=\"/drugs/nalidixic-acid\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor blood counts, renal and liver function if treatment exceeds 2 weeks.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42919\" outputclass=\"effectOnLaboratoryTests\" rev=\"1.8\" parent=\"/drugs/nalidixic-acid\">\n<title>Effect on laboratory tests</title>\n<body>\n<section>\n<sectiondiv>\n<p>False positive urinary glucose (if tested for reducing substances).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58460\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/drugs/nalidixic-acid\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Flavours of oral liquid formulations may include raspberry and strawberry.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78315\" namespace=\"/treatment-summaries/quinolones\" title=\"Quinolones\" count=\"1\" rel=\"backlink\">Quinolones</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_196\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/quinolones/nalidixic-acid\" title=\"Nalidixic Acid\" count=\"1\" rel=\"link\">Nalidixic Acid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34649\" namespace=\"/drug-classes/quinolones\" title=\"QUINOLONES\" count=\"1\" rel=\"link\">QUINOLONES</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n</links>\n</topic>",
+    "id": "PHP3673",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/nalidixic-acid",
+    "basename": "nalidixic-acid",
+    "title": "NALIDIXIC ACID",
+    "interactants": [
+        {
+            "id": "bnf_int_196",
+            "label": "Nalidixic Acid"
+        }
+    ],
+    "vtmid": "47602007",
+    "drugClassification": [
+        "Quinolones"
+    ],
+    "inheritsFromClass": [
+        "QUINOLONES"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Urinary-tract infections",
+                        "html": "Urinary-tract infections"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "900 mg every 6 hours for 7 days, then reduced to 600 mg every 6 hours for prolonged therapy in chronic infections.",
+                        "html": "<p>900&#8239;mg every 6&#8239;hours for 7 days, then reduced to 600&#8239;mg every 6&#8239;hours for prolonged therapy in chronic infections.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Acute myocardial infarction (risk factor for QT interval prolongation)",
+                "html": "Acute myocardial infarction (risk factor for QT interval prolongation)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid in Acute porphyrias",
+                "html": "avoid in <xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautions",
+                "textContent": "bradycardia (risk factor for QT interval prolongation)",
+                "html": "bradycardia (risk factor for QT interval prolongation)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "congenital long QT syndrome (risk factor for QT interval prolongation)",
+                "html": "congenital long QT syndrome (risk factor for QT interval prolongation)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "electrolyte disturbances (risk factor for QT interval prolongation)",
+                "html": "electrolyte disturbances (risk factor for QT interval prolongation)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "heart failure with reduced left ventricular ejection fraction (risk factor for QT interval prolongation)",
+                "html": "heart failure with reduced left ventricular ejection fraction (risk factor for QT interval prolongation)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of symptomatic arrhythmias (risk factor for QT interval prolongation)",
+                "html": "history of symptomatic arrhythmias (risk factor for QT interval prolongation)"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Caution if concomitant use with other drugs known to prolong the QT interval.",
+                "html": "<p>Caution if concomitant use with other drugs known to prolong the QT interval.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Cranial nerve palsy",
+                        "html": "Cranial nerve palsy",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "increased intracranial pressure",
+                        "html": "increased intracranial pressure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "metabolic acidosis",
+                        "html": "metabolic acidosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "peripheral neuropathy",
+                        "html": "peripheral neuropathy",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "toxic psychosis",
+                        "html": "toxic psychosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Risk to infant very small but one case of haemolytic anaemia reported.",
+                "html": "<p>Risk to infant very small but one case of haemolytic anaemia reported.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution in liver disease.",
+                "html": "<p>Manufacturer advises caution in liver disease.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution; avoid if eGFR less than 20 mL/minute/1.73 m2.",
+                "html": "<p>Use with caution; avoid if eGFR less than 20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor blood counts, renal and liver function if treatment exceeds 2 weeks.",
+                "html": "<p>Monitor blood counts, renal and liver function if treatment exceeds 2 weeks.</p>"
+            }
+        ]
+    },
+    "effectOnLaboratoryTests": {
+        "effectOnLaboratoryTests": [
+            {
+                "type": "effectOnLaboratoryTests",
+                "textContent": "False positive urinary glucose (if tested for reducing substances).",
+                "html": "<p>False positive urinary glucose (if tested for reducing substances).</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Flavours of oral liquid formulations may include raspberry and strawberry.",
+                "html": "<p>Flavours of oral liquid formulations may include raspberry and strawberry.</p>"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78315",
+                "label": "Quinolones",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_196",
+                "label": "Nalidixic Acid",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34649",
+                "label": "QUINOLONES",
+                "type": "drugClass"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ]
+    }
+}

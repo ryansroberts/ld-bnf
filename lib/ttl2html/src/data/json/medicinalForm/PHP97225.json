@@ -1,0 +1,58 @@
+{
+    "xml": "<topic id=\"PHP97225\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/macrogol-3350-with-anhydrous-sodium-sulfate-potassium-chloride-sodium-bicarbonate-and-sodium-chloride/powder\" basename=\"powder\" title=\"Powder\">\n<title>Powder</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Aspartame</p>\n</section>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Bicarbonate, chloride, potassium, sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Klean-Prep oral powder 69g sachets <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4095011000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Polyethylene glycol 3350 59&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Potassium chloride 742.5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium bicarbonate 1.685&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium chloride 1.465&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium sulfate anhydrous 5.685&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.07</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP97000\" title=\"MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, POTASSIUM CHLORIDE, SODIUM BICARBONATE AND SODIUM CHLORIDE\" namespace=\"/drugs/macrogol-3350-with-anhydrous-sodium-sulfate-potassium-chloride-sodium-bicarbonate-and-sodium-chloride\">MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, POTASSIUM CHLORIDE, SODIUM BICARBONATE AND SODIUM CHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP97225",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/macrogol-3350-with-anhydrous-sodium-sulfate-potassium-chloride-sodium-bicarbonate-and-sodium-chloride/powder",
+    "basename": "powder",
+    "form": "Powder",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        },
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "excipients": [
+        "Aspartame"
+    ],
+    "electrolytes": [
+        "Bicarbonate",
+        "chloride",
+        "potassium",
+        "sodium"
+    ],
+    "products": [
+        {
+            "title": "Klean-Prep oral powder 69g sachets (Norgine Pharmaceuticals Ltd) ",
+            "header": "Klean-Prep oral powder 69g sachets <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Klean-Prep oral powder 69g sachets",
+            "ampid": "4095011000001103",
+            "strengthOfActiveIngredient": "Sodium sulfate anhydrous 5.685 gram",
+            "packs": [
+                {
+                    "textContent": " 4 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.07 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.07</ph>",
+                        "nhsIndicativePrice": "&#163;9.07"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP97000",
+        "label": "MACROGOL 3350 WITH ANHYDROUS SODIUM SULFATE, POTASSIUM CHLORIDE, SODIUM BICARBONATE AND SODIUM CHLORIDE"
+    }
+}

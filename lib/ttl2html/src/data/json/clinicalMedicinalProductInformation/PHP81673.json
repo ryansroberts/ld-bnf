@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP81673\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/fenbid-forte\" basename=\"fenbid-forte\" title=\"Fenbid Forte\">\n<title>Fenbid<tm tmtype=\"reg\"/> Forte</title>\n<topic id=\"PHP84083\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/clinical-medicinal-product-information/fenbid-forte\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pain relief in musculoskeletal conditions</p>\n<p outputclass=\"therapeuticIndication\">Treatment in knee or hand osteoarthritis (adjunct)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply up to 4 times a day, therapy should be reviewed after 14 days.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81673",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/fenbid-forte",
+    "basename": "fenbid-forte",
+    "title": "Fenbid Forte",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Pain relief in musculoskeletal conditions",
+                        "html": "Pain relief in musculoskeletal conditions"
+                    },
+                    {
+                        "textContent": "Treatment in knee or hand osteoarthritis (adjunct)",
+                        "html": "Treatment in knee or hand osteoarthritis (adjunct)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply up to 4 times a day, therapy should be reviewed after 14 days.",
+                        "html": "<p>Apply up to 4 times a day, therapy should be reviewed after 14 days.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

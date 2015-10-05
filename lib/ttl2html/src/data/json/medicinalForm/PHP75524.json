@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP75524\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chlorhexidine/dental-gel\" basename=\"dental-gel\" title=\"Dental gel\">\n<title>Dental gel</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">  </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Corsodyl 1% dental gel <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>\n</title>\n<data name=\"ampid\">3637111000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 10&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.26</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;1.26</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8126\" title=\"CHLORHEXIDINE\" namespace=\"/drugs/chlorhexidine\">CHLORHEXIDINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75524",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chlorhexidine/dental-gel",
+    "basename": "dental-gel",
+    "form": "Dental gel",
+    "products": [
+        {
+            "title": "Corsodyl 1% dental gel (GlaxoSmithKline Consumer Healthcare) ",
+            "header": "Corsodyl 1% dental gel <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>",
+            "manufacturer": "(GlaxoSmithKline Consumer Healthcare)",
+            "name": "Corsodyl 1% dental gel",
+            "ampid": "3637111000001105",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 50 gram P ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.26</ph>",
+                        "nhsIndicativePrice": "&#163;1.26"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1.26 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1.26</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1.26"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8126",
+        "label": "CHLORHEXIDINE"
+    }
+}

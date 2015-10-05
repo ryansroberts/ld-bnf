@@ -1,0 +1,45 @@
+{
+    "xml": "<topic id=\"PHP75026\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/abiraterone-acetate/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Zytiga 250mg tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">19524311000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Abiraterone acetate 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">120</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2930.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5787\" title=\"ABIRATERONE ACETATE\" namespace=\"/drugs/abiraterone-acetate\">ABIRATERONE ACETATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75026",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/abiraterone-acetate/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "23",
+            "textContent": "Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food",
+            "html": "Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food"
+        }
+    ],
+    "products": [
+        {
+            "title": "Zytiga 250mg tablets (Janssen-Cilag Ltd) &#9660; ",
+            "header": "Zytiga 250mg tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Zytiga 250mg tablets",
+            "ampid": "19524311000001107",
+            "strengthOfActiveIngredient": "Abiraterone acetate 250 mg",
+            "packs": [
+                {
+                    "textContent": " 120 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">120</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "120",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2930.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2930.00</ph>",
+                        "nhsIndicativePrice": "&#163;2930.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5787",
+        "label": "ABIRATERONE ACETATE"
+    }
+}

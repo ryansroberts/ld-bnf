@@ -1,0 +1,107 @@
+{
+    "xml": "<topic id=\"PHP77307\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/paracetamol/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Paracetamol 1g/100ml solution for infusion vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">24417111000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Paracetamol 1g/100ml solution for infusion vials <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>\n</title>\n<data name=\"ampid\">24409311000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Perfalgan 1g/100ml solution for infusion vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">7390211000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.96</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Perfalgan 500mg/50ml solution for infusion vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">9466211000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.60</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2632\" title=\"PARACETAMOL\" namespace=\"/drugs/paracetamol\">PARACETAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP77307",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/paracetamol/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Paracetamol 1g/100ml solution for infusion vials (A A H Pharmaceuticals Ltd) ",
+            "header": "Paracetamol 1g/100ml solution for infusion vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Paracetamol 1g/100ml solution for infusion vials",
+            "ampid": "24417111000001103",
+            "strengthOfActiveIngredient": "Paracetamol 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;12.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Paracetamol 1g/100ml solution for infusion vials (Actavis UK Ltd) ",
+            "header": "Paracetamol 1g/100ml solution for infusion vials <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>",
+            "manufacturer": "(Actavis UK Ltd)",
+            "name": "Paracetamol 1g/100ml solution for infusion vials",
+            "ampid": "24409311000001109",
+            "strengthOfActiveIngredient": "Paracetamol 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;12.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Perfalgan 1g/100ml solution for infusion vials (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Perfalgan 1g/100ml solution for infusion vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Perfalgan 1g/100ml solution for infusion vials",
+            "ampid": "7390211000001107",
+            "strengthOfActiveIngredient": "Paracetamol 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 12 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.96 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.96</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;14.96",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Perfalgan 500mg/50ml solution for infusion vials (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Perfalgan 500mg/50ml solution for infusion vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Perfalgan 500mg/50ml solution for infusion vials",
+            "ampid": "9466211000001107",
+            "strengthOfActiveIngredient": "Paracetamol 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 12 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.60 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.60</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;13.60",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2632",
+        "label": "PARACETAMOL"
+    }
+}

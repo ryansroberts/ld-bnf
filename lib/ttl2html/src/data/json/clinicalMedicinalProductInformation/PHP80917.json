@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP80917\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/methadose\" basename=\"methadose\" title=\"Methadose\">\n<title>Methadose<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP81223\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/methadose\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>The final strength of the methadone mixture to be dispensed to the patient must be specified on the prescription.</p>\n<p>\n<b>Important</b>&#8212;care is required in prescribing and dispensing the <b>correct strength</b> since any confusion could lead to an overdose; this preparation should be dispensed only <b>after dilution</b> as appropriate with <i>Methadose</i>\n<tm tmtype=\"reg\"/> Diluent (life of diluted solution 3 months) and is for drug dependent persons.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80917",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/methadose",
+    "basename": "methadose",
+    "title": "Methadose",
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "The final strength of the methadone mixture to be dispensed to the patient must be specified on the prescription.\n\nImportant&#8212;care is required in prescribing and dispensing the correct strength since any confusion could lead to an overdose; this preparation should be dispensed only after dilution as appropriate with Methadose Diluent (life of diluted solution 3 months) and is for drug dependent persons.",
+                "html": "<p>The final strength of the methadone mixture to be dispensed to the patient must be specified on the prescription.</p><p>\n<b>Important</b>&#8212;care is required in prescribing and dispensing the <b>correct strength</b> since any confusion could lead to an overdose; this preparation should be dispensed only <b>after dilution</b> as appropriate with <i>Methadose</i>\n<tm tmtype=\"reg\"/> Diluent (life of diluted solution 3 months) and is for drug dependent persons.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

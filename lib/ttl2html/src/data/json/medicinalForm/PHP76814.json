@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP76814\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/pancreatin/gastro-resistant-tablet\" basename=\"gastro-resistant-tablet\" title=\"Gastro-resistant tablet\">\n<title>Gastro-resistant tablet</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine </p>\r\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81649\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/pancrex-v-tablets\">Pancrex<tm tmtype=\"reg\"/> V tablets</xref>\r\n<xref format=\"dita\" href=\"#PHP81650\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/pancrex-v-tablets-forte\">Pancrex<tm tmtype=\"reg\"/> V tablets forte</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Pancrex V gastro-resistant tablets <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4075911000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Amylase 1700&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lipase 1900&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Protease 110&#8239;unit</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;38.79</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Pancrex V Forte gastro-resistant tablets <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">8375211000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Amylase 5000&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lipase 5600&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Protease 330&#8239;unit</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;48.11</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP732\" title=\"PANCREATIN\" namespace=\"/drugs/pancreatin\">PANCREATIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76814",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/pancreatin/gastro-resistant-tablet",
+    "basename": "gastro-resistant-tablet",
+    "form": "Gastro-resistant tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "5",
+            "textContent": "Do not take indigestion remedies 2 hours before or after you take this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81649",
+            "label": "Pancrex&reg;  V tablets",
+            "html": "Pancrex<tm tmtype=\"reg\"/> V tablets"
+        },
+        {
+            "id": "PHP81650",
+            "label": "Pancrex&reg;  V tablets forte",
+            "html": "Pancrex<tm tmtype=\"reg\"/> V tablets forte"
+        }
+    ],
+    "products": [
+        {
+            "title": "Pancrex V gastro-resistant tablets (Essential Pharmaceuticals Ltd) ",
+            "header": "Pancrex V gastro-resistant tablets <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Essential Pharmaceuticals Ltd)",
+            "name": "Pancrex V gastro-resistant tablets",
+            "ampid": "4075911000001105",
+            "strengthOfActiveIngredient": "Protease 110 unit",
+            "packs": [
+                {
+                    "textContent": " 300 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;38.79 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;38.79</ph>",
+                        "nhsIndicativePrice": "&#163;38.79"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Pancrex V Forte gastro-resistant tablets (Essential Pharmaceuticals Ltd) ",
+            "header": "Pancrex V Forte gastro-resistant tablets <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Essential Pharmaceuticals Ltd)",
+            "name": "Pancrex V Forte gastro-resistant tablets",
+            "ampid": "8375211000001103",
+            "strengthOfActiveIngredient": "Protease 330 unit",
+            "packs": [
+                {
+                    "textContent": " 300 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;48.11 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;48.11</ph>",
+                        "nhsIndicativePrice": "&#163;48.11"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP732",
+        "label": "PANCREATIN"
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "xml": "<topic id=\"PHP1550\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/eptifibatide\" basename=\"eptifibatide\" title=\"EPTIFIBATIDE\">\n<title>EPTIFIBATIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1017\" namespace=\"/interactions/list-of-drug-interactions/eptifibatide\">Eptifibatide</xref>\n</p>\n<data name=\"vtmid\">116065005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_872314852\" title=\"Glycoprotein IIb/IIIa inhibitors\">Glycoprotein IIb/IIIa inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP44203\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/eptifibatide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">In combination with aspirin and unfractionated heparin for the prevention of early myocardial infarction in patients with unstable angina or non-ST-segment-elevation myocardial infarction and with last episode of chest pain within 24 hours (specialist use only)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 180&#8239;micrograms/kg, then (by intravenous infusion) 2&#8239;micrograms/kg/minute for up to 72 hours (up to 96 hours if percutaneous coronary intervention during treatment).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44241\" outputclass=\"contraindications\" rev=\"1.7\" parent=\"/drugs/eptifibatide\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Abnormal bleeding within 30 days</ph>; <ph outputclass=\"contraindication\">aneurysm</ph>; <ph outputclass=\"contraindication\">arteriovenous malformation</ph>; <ph outputclass=\"contraindication\">haemorrhagic diathesis</ph>; <ph outputclass=\"contraindication\">history of haemorrhagic stroke</ph>; <ph outputclass=\"contraindication\">increased INR</ph>; <ph outputclass=\"contraindication\">increased prothrombin time</ph>; <ph outputclass=\"contraindication\">intracranial disease</ph>; <ph outputclass=\"contraindication\">major surgery or severe trauma within 6 weeks</ph>; <ph outputclass=\"contraindication\">neoplasm</ph>; <ph outputclass=\"contraindication\">severe hypertension</ph>; <ph outputclass=\"contraindication\">stroke within last 30 days</ph>; <ph outputclass=\"contraindication\">thrombocytopenia</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44252\" outputclass=\"cautions\" rev=\"1.12\" parent=\"/drugs/eptifibatide\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Discontinue if emergency cardiac surgery necessary</ph>; <ph outputclass=\"caution\">discontinue if intra-aortic balloon pump necessary</ph>; <ph outputclass=\"caution\">discontinue if thrombolytic therapy necessary</ph>; <ph outputclass=\"caution\">risk of bleeding&#8212;discontinue immediately if uncontrolled serious bleeding</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44199\" outputclass=\"interactions\" rev=\"1.8\" parent=\"/drugs/eptifibatide\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Caution with concomitant drugs that increase risk of bleeding&#8212;discontinue immediately if uncontrolled serious bleeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44171\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drugs/eptifibatide\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bleeding manifestations</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anaphylaxis</ph>; <ph outputclass=\"sideEffect\">rash</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44189\" outputclass=\"pregnancy\" parent=\"/drugs/eptifibatide\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises use only if potential benefit outweighs risk&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44259\" outputclass=\"breastFeeding\" parent=\"/drugs/eptifibatide\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44213\" outputclass=\"hepaticImpairment\" parent=\"/drugs/eptifibatide\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe liver disease&#8212;increased risk of bleeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44181\" outputclass=\"renalImpairment\" parent=\"/drugs/eptifibatide\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce infusion to 1&#8239;microgram/kg/minute if eGFR 30&#8211;50&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44149\" outputclass=\"monitoringRequirements\" parent=\"/drugs/eptifibatide\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Measure baseline prothrombin time, activated partial thromboplastin time, platelet count, haemoglobin, haematocrit and serum creatinine.</p>\n<p>Monitor haemoglobin, haematocrit and platelets within 6 hours after start of treatment, then at least once daily.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP1550-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/eptifibatide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77105\" title=\"Solution for injection\" namespace=\"/drugs/eptifibatide/solution-for-injection\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77098\" title=\"Solution for infusion\" namespace=\"/drugs/eptifibatide/solution-for-infusion\">Solution for infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78144\" namespace=\"/treatment-summaries/acute-coronary-syndromes\" title=\"Acute coronary syndromes\" count=\"2\" rel=\"backlink\">Acute coronary syndromes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78186\" namespace=\"/treatment-summaries/antiplatelet-drugs\" title=\"Antiplatelet drugs\" count=\"2\" rel=\"backlink\">Antiplatelet drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1017\" namespace=\"/interactions/list-of-drug-interactions/eptifibatide\" title=\"Eptifibatide\" count=\"1\" rel=\"link\">Eptifibatide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77105\" namespace=\"/drugs/eptifibatide/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77098\" namespace=\"/drugs/eptifibatide/solution-for-infusion\" title=\"Solution for infusion\" count=\"1\" rel=\"link\">Solution for infusion</xref>\n</links>\n</topic>",
+    "id": "PHP1550",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/eptifibatide",
+    "basename": "eptifibatide",
+    "title": "EPTIFIBATIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_1017",
+            "label": "Eptifibatide"
+        }
+    ],
+    "vtmid": "116065005",
+    "drugClassification": [
+        "Glycoprotein IIb/IIIa inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "In combination with aspirin and unfractionated heparin for the prevention of early myocardial infarction in patients with unstable angina or non-ST-segment-elevation myocardial infarction and with last episode of chest pain within 24 hours (specialist use only)",
+                        "html": "In combination with aspirin and unfractionated heparin for the prevention of early myocardial infarction in patients with unstable angina or non-ST-segment-elevation myocardial infarction and with last episode of chest pain within 24 hours (specialist use only)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 180 micrograms/kg, then (by intravenous infusion) 2 micrograms/kg/minute for up to 72 hours (up to 96 hours if percutaneous coronary intervention during treatment).",
+                        "html": "<p>Initially 180&#8239;micrograms/kg, then (by intravenous infusion) 2&#8239;micrograms/kg/minute for up to 72 hours (up to 96 hours if percutaneous coronary intervention during treatment).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Abnormal bleeding within 30 days",
+                "html": "Abnormal bleeding within 30 days"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "aneurysm",
+                "html": "aneurysm"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "arteriovenous malformation",
+                "html": "arteriovenous malformation"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "haemorrhagic diathesis",
+                "html": "haemorrhagic diathesis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "history of haemorrhagic stroke",
+                "html": "history of haemorrhagic stroke"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "increased INR",
+                "html": "increased INR"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "increased prothrombin time",
+                "html": "increased prothrombin time"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "intracranial disease",
+                "html": "intracranial disease"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "major surgery or severe trauma within 6 weeks",
+                "html": "major surgery or severe trauma within 6 weeks"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "neoplasm",
+                "html": "neoplasm"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "severe hypertension",
+                "html": "severe hypertension"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "stroke within last 30 days",
+                "html": "stroke within last 30 days"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "thrombocytopenia",
+                "html": "thrombocytopenia"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Discontinue if emergency cardiac surgery necessary",
+                "html": "Discontinue if emergency cardiac surgery necessary"
+            },
+            {
+                "type": "cautions",
+                "textContent": "discontinue if intra-aortic balloon pump necessary",
+                "html": "discontinue if intra-aortic balloon pump necessary"
+            },
+            {
+                "type": "cautions",
+                "textContent": "discontinue if thrombolytic therapy necessary",
+                "html": "discontinue if thrombolytic therapy necessary"
+            },
+            {
+                "type": "cautions",
+                "textContent": "risk of bleeding&#8212;discontinue immediately if uncontrolled serious bleeding",
+                "html": "risk of bleeding&#8212;discontinue immediately if uncontrolled serious bleeding"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Caution with concomitant drugs that increase risk of bleeding&#8212;discontinue immediately if uncontrolled serious bleeding.",
+                "html": "<p>Caution with concomitant drugs that increase risk of bleeding&#8212;discontinue immediately if uncontrolled serious bleeding.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Bleeding manifestations",
+                        "html": "Bleeding manifestations",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Anaphylaxis",
+                        "html": "Anaphylaxis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises use only if potential benefit outweighs risk&#8212;no information available.",
+                "html": "<p>Manufacturer advises use only if potential benefit outweighs risk&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe liver disease&#8212;increased risk of bleeding.",
+                "html": "<p>Avoid in severe liver disease&#8212;increased risk of bleeding.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce infusion to 1 microgram/kg/minute if eGFR 30&#8211;50 mL/minute/1.73 m2.",
+                "html": "<p>Reduce infusion to 1&#8239;microgram/kg/minute if eGFR 30&#8211;50&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Measure baseline prothrombin time, activated partial thromboplastin time, platelet count, haemoglobin, haematocrit and serum creatinine.\n\nMonitor haemoglobin, haematocrit and platelets within 6 hours after start of treatment, then at least once daily.",
+                "html": "<p>Measure baseline prothrombin time, activated partial thromboplastin time, platelet count, haemoglobin, haematocrit and serum creatinine.</p><p>Monitor haemoglobin, haematocrit and platelets within 6 hours after start of treatment, then at least once daily.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77105",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77098",
+                "label": "Solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78144",
+                "label": "Acute coronary syndromes",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78186",
+                "label": "Antiplatelet drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1017",
+                "label": "Eptifibatide",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77105",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77098",
+                "label": "Solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

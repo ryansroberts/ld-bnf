@@ -1,0 +1,107 @@
+{
+    "xml": "<topic id=\"PHP78963\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/liskonum\" basename=\"liskonum\" title=\"Liskonum\">\n<title>Liskonum<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP79386\" outputclass=\"indicationsAndDose\" rev=\"1.25\" parent=\"/clinical-medicinal-product-information/liskonum\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of mania</p>\n<p outputclass=\"therapeuticIndication\">Treatment of bipolar disorder</p>\n<p outputclass=\"therapeuticIndication\">Treatment of recurrent depression</p>\n<p outputclass=\"therapeuticIndication\">Treatment of aggressive or self-harming behaviour</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 450&#8211;675&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 225&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of mania</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis of bipolar disorder</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis of recurrent depression</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis of aggressive or self-harming behaviour</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 450&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 225&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>\n<b>Preparations vary widely in bioavailability</b>; changing the preparation requires the same precautions as initiation of treatment.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78963",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/liskonum",
+    "basename": "liskonum",
+    "title": "Liskonum",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of mania",
+                        "html": "Treatment of mania"
+                    },
+                    {
+                        "textContent": "Treatment of bipolar disorder",
+                        "html": "Treatment of bipolar disorder"
+                    },
+                    {
+                        "textContent": "Treatment of recurrent depression",
+                        "html": "Treatment of recurrent depression"
+                    },
+                    {
+                        "textContent": "Treatment of aggressive or self-harming behaviour",
+                        "html": "Treatment of aggressive or self-harming behaviour"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 450&#8211;675 mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1 mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.",
+                        "html": "<p>Initially 450&#8211;675&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>"
+                    },
+                    {
+                        "textContent": "Initially 225 mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1 mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.",
+                        "html": "<p>Initially 225&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of mania",
+                        "html": "Prophylaxis of mania"
+                    },
+                    {
+                        "textContent": "Prophylaxis of bipolar disorder",
+                        "html": "Prophylaxis of bipolar disorder"
+                    },
+                    {
+                        "textContent": "Prophylaxis of recurrent depression",
+                        "html": "Prophylaxis of recurrent depression"
+                    },
+                    {
+                        "textContent": "Prophylaxis of aggressive or self-harming behaviour",
+                        "html": "Prophylaxis of aggressive or self-harming behaviour"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 450 mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1 mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.",
+                        "html": "<p>Initially 450&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>"
+                    },
+                    {
+                        "textContent": "Initially 225 mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1 mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.",
+                        "html": "<p>Initially 225&#8239;mg twice daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Preparations vary widely in bioavailability; changing the preparation requires the same precautions as initiation of treatment.",
+                "html": "<p>\n<b>Preparations vary widely in bioavailability</b>; changing the preparation requires the same precautions as initiation of treatment.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

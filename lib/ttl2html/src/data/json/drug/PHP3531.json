@@ -1,0 +1,1163 @@
+{
+    "xml": "<topic id=\"PHP3531\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/chloramphenicol\" basename=\"chloramphenicol\" title=\"CHLORAMPHENICOL\">\n<title>CHLORAMPHENICOL</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_158\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/chloramphenicol\">Chloramphenicol</xref>\n</p>\n<data name=\"vtmid\">57191001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_236800699\" title=\"Bacterial transpeptidation inhibitors\">Bacterial transpeptidation inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP73172\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/chloramphenicol\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Chloramphenicol is a potent broad-spectrum antibiotic.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73133\" outputclass=\"indicationsAndDose\" rev=\"1.41\" parent=\"/drugs/chloramphenicol\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Superficial eye infections</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye using eye drop</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply 1&#8239;drop every 2&#8239;hours then reduce frequency as infection is controlled and continue for 48 hours after healing, frequency dependent on the severity of the infection. For less severe infection 3&#8211;4 times daily is generally sufficient.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;drop every 2&#8239;hours then reduce frequency as infection is controlled and continue for 48 hours after healing, frequency dependent on the severity of the infection. For less severe infection 3&#8211;4 times daily is generally sufficient.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">To the eye using eye ointment</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply daily, to be applied at night (if eye drops used during the day), alternatively apply 3&#8211;4 times a day, if ointment used alone.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply daily, to be applied at night (if eye drops used during the day), alternatively apply 3&#8211;4 times a day, if ointment used alone.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bacterial infection in otitis externa</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the ear</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply 2&#8211;3&#8239;drops 2&#8211;3 times a day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 2&#8211;3&#8239;drops 2&#8211;3 times a day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Life threatening infections particularly those caused by <ph outputclass=\"organism\">\n<i>Haemophilus infuenzae</i>\n</ph>\n</p>\n<p outputclass=\"therapeuticIndication\">Typhoid fever</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth or by intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>12.5&#8239;mg/kg every 6&#8239;hours, in exceptional cases dose can be doubled for severe infections such as septicaemia and meningitis, providing high doses reduced as soon as clinically indicated.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73073\" outputclass=\"unlicensedUse\" rev=\"1.8\" parent=\"/drugs/chloramphenicol\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">ear</ph> in children</p>\n<p>Licensed for use in children (age range not specified by manufacturers).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73187\" outputclass=\"contraindications\" rev=\"1.16\" parent=\"/drugs/chloramphenicol\">\n<title>Contra-indications</title>\n<body>\r\n<section outputclass=\"contraindications\">\r\n<sectiondiv outputclass=\"additionalContraindications\">\r\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\r\n<p outputclass=\"title\">With intravenous use</p>\r\n<p>\r\n<ph outputclass=\"contraindication\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>\r\n</p>\n</sectiondiv>\r\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\r\n<p outputclass=\"title\">With oral use</p>\r\n<p>\r\n<ph outputclass=\"contraindication\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>\r\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP73217\" outputclass=\"cautions\" rev=\"1.10\" parent=\"/drugs/chloramphenicol\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<sectiondiv outputclass=\"additionalCautions\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">When used by ear</p>\n<p>\n<ph outputclass=\"caution\">avoid prolonged use</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"caution\">avoid repeated courses and prolonged treatment</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With oral use</p>\n<p>\n<ph outputclass=\"caution\">avoid repeated courses and prolonged treatment</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73128\" outputclass=\"interactions\" rev=\"1.9\" parent=\"/drugs/chloramphenicol\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Appendix 1 (chloramphenicol).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73101\" outputclass=\"sideEffects\" rev=\"1.40\" parent=\"/drugs/chloramphenicol\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"specificSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">When used by ear</p>\n<p>\n<ph outputclass=\"sideEffect\">high incidence of sensitivity reactions to vehicle</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">When used by eye</p>\n<p>\n<ph outputclass=\"sideEffect\">transient stinging</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">erythema multiforme</ph>; <ph outputclass=\"sideEffect\">glossitis</ph>; <ph outputclass=\"sideEffect\">grey syndrome</ph> (in neonates); <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">nocturnal haemoglobinuria</ph>; <ph outputclass=\"sideEffect\">optic neuritis</ph>; <ph outputclass=\"sideEffect\">peripheral neuritis</ph>; <ph outputclass=\"sideEffect\">reversible and irreversible aplastic anaemia (with reports of resulting leukaemia)</ph>; <ph outputclass=\"sideEffect\">stomatitis</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With oral use</p>\n<p>\n<ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">erythema multiforme</ph>; <ph outputclass=\"sideEffect\">glossitis</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">nocturnal haemoglobinuria</ph>; <ph outputclass=\"sideEffect\">optic neuritis</ph>; <ph outputclass=\"sideEffect\">peripheral neuritis</ph>; <ph outputclass=\"sideEffect\">reversible and irreversible aplastic anaemia (with reports of resulting leukaemia)</ph>; <ph outputclass=\"sideEffect\">stomatitis</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in neonates</p>\n<p outputclass=\"title\">Grey syndrome</p>\n<p>Grey syndrome (abdominal distension, pallid cyanosis, circulatory collapse) may follow excessive doses in neonates with immature hepatic metabolism.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Associated with serious haematological side-effects when given systemically and should therefore be reserved for the treatment of life-threatening infections.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73123\" outputclass=\"pregnancy\" parent=\"/drugs/chloramphenicol\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Manufacturer advises avoid; neonatal &#8216;grey-baby syndrome&#8217; if used in third trimester.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Avoid unless essential&#8212;no information on <i>topical</i> use but risk of &#8216;neonatal grey-baby syndrome&#8217; with <i>oral</i> use in third trimester.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73236\" outputclass=\"breastFeeding\" parent=\"/drugs/chloramphenicol\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Manufacturer advises avoid; use another antibiotic; may cause bone-marrow toxicity in infant; concentration in milk usually insufficient to cause &#8216;grey syndrome&#8217;.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Avoid unless essential&#8212;<i>theoretical</i> risk of bone-marrow toxicity.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73143\" outputclass=\"hepaticImpairment\" parent=\"/drugs/chloramphenicol\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Reduce dose.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Avoid if possible&#8212;increased risk of bone-marrow depression.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInHepaticImpairment\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Monitor plasma-chloramphenicol concentration in hepatic impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73117\" outputclass=\"renalImpairment\" parent=\"/drugs/chloramphenicol\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Avoid in severe renal impairment unless no alternative; dose-related depression of haematopoiesis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73062\" outputclass=\"monitoringRequirements\" parent=\"/drugs/chloramphenicol\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"therapeuticDrugMonitoring\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use in adults</p>\n<p>Plasma concentration monitoring preferred in the elderly.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>Plasma concentration monitoring preferred in those under 4&#8239;years of age.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use in neonates</p>\n<p>Plasma concentration monitoring required in neonates. Grey baby syndrome may follow excessive doses in neonates with immature hepatic metabolism.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Recommended peak plasma concentration (approx. 2 hours after administration by mouth, intravenous injection or infusion) 10&#8211;25&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should not exceed 15&#8239;mg/litre.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use</p>\n<p>Blood counts required before and periodically during treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73276\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/drugs/chloramphenicol\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>Displacement value may be significant for injection, consult local guidelines. For intermittent intravenous infusion, dilute reconstituted solution further in glucose 5% or sodium chloride 0.9%.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> (<i>Kemicetine</i>\n<tm tmtype=\"reg\"/>), give intermittently or via drip tubing in Glucose 5% or Sodium chloride 0.9%.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58319\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.15\" parent=\"/drugs/chloramphenicol\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Although multi-dose chloramphenicol eye drops commonly contain preservatives, preservative-free unit dose vials may be available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73121\" outputclass=\"patientAndCarerAdvice\" rev=\"1.13\" parent=\"/drugs/chloramphenicol\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Chloramphenicol ear drops for ear infections (otitis externa)</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/chloramphenicol-ear-drops-ear-infections-otitis-externa-0\">www.medicinesforchildren.org.uk/chloramphenicol-ear-drops-ear-infections-otitis-externa-0</xref>\n</p>\n</sectiondiv>\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Chloramphenicol for eye infections</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/chloramphenicol-eye-infections-0\">www.medicinesforchildren.org.uk/chloramphenicol-eye-infections-0</xref>\n</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP73054\" outputclass=\"lessSuitableForPrescribing\" rev=\"1.9\" parent=\"/drugs/chloramphenicol\">\n<title>Less suitable for prescribing</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">ear</ph>\n</p>\n<p>Chloramphenicol ear drops are less suitable for prescribing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73013\" outputclass=\"exceptionsToLegalCategory\" rev=\"1.8\" parent=\"/drugs/chloramphenicol\">\n<title>Exceptions to legal category</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Chloramphenicol 0.5% eye drops (in max. pack size 10&#8239;mL) and 1% eye ointment (in max. pack size 4&#8239;g) can be sold to the public for treatment of acute bacterial conjunctivitis in adults and children over 2 years; max. duration of treatment 5 days.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3531-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/chloramphenicol\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75434\" title=\"Capsule\" namespace=\"/drugs/chloramphenicol/capsule\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75445\" title=\"Powder for solution for injection\" namespace=\"/drugs/chloramphenicol/powder-for-solution-for-injection\">Powder for solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75440\" title=\"Ear drops\" namespace=\"/drugs/chloramphenicol/ear-drops\">Ear drops</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75451\" title=\"Eye drops\" namespace=\"/drugs/chloramphenicol/eye-drops\">Eye drops</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75428\" title=\"Eye ointment\" namespace=\"/drugs/chloramphenicol/eye-ointment\">Eye ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78114\" namespace=\"/treatment-summaries/meningococcal-disease-medical-emergency\" title=\"Meningococcal disease, medical emergency\" count=\"1\" rel=\"backlink\">Meningococcal disease, medical emergency</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78254\" namespace=\"/treatment-summaries/anthrax\" title=\"Anthrax\" count=\"1\" rel=\"backlink\">Anthrax</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78347\" namespace=\"/treatment-summaries/eye-infections-bacterial\" title=\"Eye infections, bacterial\" count=\"1\" rel=\"backlink\">Eye infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78491\" namespace=\"/treatment-summaries/blood-infections-bacterial\" title=\"Blood infections, bacterial\" count=\"2\" rel=\"backlink\">Blood infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78553\" namespace=\"/treatment-summaries/central-nervous-system-infections-bacterial\" title=\"Central nervous system infections, bacterial\" count=\"3\" rel=\"backlink\">Central nervous system infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78541\" namespace=\"/treatment-summaries/eye-infections-of\" title=\"Eye, infections of\" count=\"3\" rel=\"backlink\">Eye, infections of</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78577\" namespace=\"/treatment-summaries/respiratory-system-infections-bacterial\" title=\"Respiratory system infections, bacterial\" count=\"1\" rel=\"backlink\">Respiratory system infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78609\" namespace=\"/treatment-summaries/ear\" title=\"Ear\" count=\"1\" rel=\"backlink\">Ear</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_158\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/chloramphenicol\" title=\"Chloramphenicol\" count=\"1\" rel=\"link\">Chloramphenicol</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"2\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75434\" namespace=\"/drugs/chloramphenicol/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75445\" namespace=\"/drugs/chloramphenicol/powder-for-solution-for-injection\" title=\"Powder for solution for injection\" count=\"1\" rel=\"link\">Powder for solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75440\" namespace=\"/drugs/chloramphenicol/ear-drops\" title=\"Ear drops\" count=\"1\" rel=\"link\">Ear drops</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75451\" namespace=\"/drugs/chloramphenicol/eye-drops\" title=\"Eye drops\" count=\"1\" rel=\"link\">Eye drops</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75428\" namespace=\"/drugs/chloramphenicol/eye-ointment\" title=\"Eye ointment\" count=\"1\" rel=\"link\">Eye ointment</xref>\n</links>\n</topic>",
+    "id": "PHP3531",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/chloramphenicol",
+    "basename": "chloramphenicol",
+    "title": "CHLORAMPHENICOL",
+    "interactants": [
+        {
+            "id": "bnf_int_158",
+            "label": "Chloramphenicol"
+        }
+    ],
+    "vtmid": "57191001",
+    "drugClassification": [
+        "Bacterial transpeptidation inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Chloramphenicol is a potent broad-spectrum antibiotic.",
+                "html": "<p>Chloramphenicol is a potent broad-spectrum antibiotic.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Superficial eye infections",
+                        "html": "Superficial eye infections"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye using eye ointment"
+                    ],
+                    "textContent": "To the eye using eye ointment",
+                    "html": "To the eye using eye ointment"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 1 drop every 2 hours then reduce frequency as infection is controlled and continue for 48 hours after healing, frequency dependent on the severity of the infection. For less severe infection 3&#8211;4 times daily is generally sufficient.",
+                        "html": "<p>Apply 1&#8239;drop every 2&#8239;hours then reduce frequency as infection is controlled and continue for 48 hours after healing, frequency dependent on the severity of the infection. For less severe infection 3&#8211;4 times daily is generally sufficient.</p>"
+                    },
+                    {
+                        "textContent": "Apply daily, to be applied at night (if eye drops used during the day), alternatively apply 3&#8211;4 times a day, if ointment used alone.",
+                        "html": "<p>Apply daily, to be applied at night (if eye drops used during the day), alternatively apply 3&#8211;4 times a day, if ointment used alone.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 1 drop every 2 hours then reduce frequency as infection is controlled and continue for 48 hours after healing, frequency dependent on the severity of the infection. For less severe infection 3&#8211;4 times daily is generally sufficient.",
+                        "html": "<p>Apply 1&#8239;drop every 2&#8239;hours then reduce frequency as infection is controlled and continue for 48 hours after healing, frequency dependent on the severity of the infection. For less severe infection 3&#8211;4 times daily is generally sufficient.</p>"
+                    },
+                    {
+                        "textContent": "Apply daily, to be applied at night (if eye drops used during the day), alternatively apply 3&#8211;4 times a day, if ointment used alone.",
+                        "html": "<p>Apply daily, to be applied at night (if eye drops used during the day), alternatively apply 3&#8211;4 times a day, if ointment used alone.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Bacterial infection in otitis externa",
+                        "html": "Bacterial infection in otitis externa"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the ear"
+                    ],
+                    "textContent": "To the ear",
+                    "html": "To the ear"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 2&#8211;3 drops 2&#8211;3 times a day.",
+                        "html": "<p>Apply 2&#8211;3&#8239;drops 2&#8211;3 times a day.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 2&#8211;3 drops 2&#8211;3 times a day.",
+                        "html": "<p>Apply 2&#8211;3&#8239;drops 2&#8211;3 times a day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Life threatening infections particularly those caused by Haemophilus infuenzae",
+                        "html": "Life threatening infections particularly those caused by <ph outputclass=\"organism\"> <i>Haemophilus infuenzae</i> </ph>",
+                        "organism": "Haemophilus infuenzae"
+                    },
+                    {
+                        "textContent": "Typhoid fever",
+                        "html": "Typhoid fever",
+                        "organism": "Haemophilus infuenzae"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth or intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By mouth or by intravenous injection or by intravenous infusion",
+                    "html": "By mouth or by intravenous injection or by intravenous infusion",
+                    "organism": "Haemophilus infuenzae"
+                },
+                "adult": [
+                    {
+                        "textContent": "12.5 mg/kg every 6 hours, in exceptional cases dose can be doubled for severe infections such as septicaemia and meningitis, providing high doses reduced as soon as clinically indicated.",
+                        "html": "<p>12.5&#8239;mg/kg every 6&#8239;hours, in exceptional cases dose can be doubled for severe infections such as septicaemia and meningitis, providing high doses reduced as soon as clinically indicated.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "When used by ear in children",
+                    "html": "When used by <ph outputclass=\"route\">ear</ph> in children",
+                    "patientType": "children",
+                    "routes": [
+                        "ear"
+                    ]
+                },
+                "textContent": "Licensed for use in children (age range not specified by manufacturers).",
+                "html": "<p>Licensed for use in children (age range not specified by manufacturers).</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With intravenous use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With oral use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid prolonged use",
+                "html": "avoid prolonged use",
+                "specificity": {
+                    "textContent": "When used by ear",
+                    "html": "When used by ear",
+                    "routes": [
+                        "ear"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid repeated courses and prolonged treatment",
+                "html": "avoid repeated courses and prolonged treatment",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With intravenous use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid repeated courses and prolonged treatment",
+                "html": "avoid repeated courses and prolonged treatment",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With oral use",
+                    "routes": [
+                        "oral"
+                    ]
+                }
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Appendix 1 (chloramphenicol).",
+                "html": "<p>Appendix 1 (chloramphenicol).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "specific": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "high incidence of sensitivity reactions to vehicle",
+                        "html": "high incidence of sensitivity reactions to vehicle",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used by ear",
+                            "html": "When used by ear",
+                            "routes": [
+                                "ear"
+                            ]
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "transient stinging",
+                        "html": "transient stinging",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by eye",
+                            "html": "When used by eye",
+                            "routes": [
+                                "eye"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "erythema multiforme",
+                        "html": "erythema multiforme",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "glossitis",
+                        "html": "glossitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "grey syndrome in neonates",
+                        "html": "grey syndrome in neonates",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ],
+                            "patientType": "neonates"
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nocturnal haemoglobinuria",
+                        "html": "nocturnal haemoglobinuria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "optic neuritis",
+                        "html": "optic neuritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "peripheral neuritis",
+                        "html": "peripheral neuritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "reversible and irreversible aplastic anaemia (with reports of resulting leukaemia)",
+                        "html": "reversible and irreversible aplastic anaemia (with reports of resulting leukaemia)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "stomatitis",
+                        "html": "stomatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "erythema multiforme",
+                        "html": "erythema multiforme",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "glossitis",
+                        "html": "glossitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nocturnal haemoglobinuria",
+                        "html": "nocturnal haemoglobinuria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "optic neuritis",
+                        "html": "optic neuritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "peripheral neuritis",
+                        "html": "peripheral neuritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "reversible and irreversible aplastic anaemia (with reports of resulting leukaemia)",
+                        "html": "reversible and irreversible aplastic anaemia (with reports of resulting leukaemia)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "stomatitis",
+                        "html": "stomatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "With intravenous use in neonates",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in neonates",
+                    "patientType": "neonates",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "title": "Grey syndrome",
+                "textContent": "Grey syndrome (abdominal distension, pallid cyanosis, circulatory collapse) may follow excessive doses in neonates with immature hepatic metabolism.",
+                "html": "<p>Grey syndrome (abdominal distension, pallid cyanosis, circulatory collapse) may follow excessive doses in neonates with immature hepatic metabolism.</p>"
+            },
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Associated with serious haematological side-effects when given systemically and should therefore be reserved for the treatment of life-threatening infections.",
+                "html": "<p>Associated with serious haematological side-effects when given systemically and should therefore be reserved for the treatment of life-threatening infections.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Manufacturer advises avoid; neonatal &#8216;grey-baby syndrome&#8217; if used in third trimester.",
+                "html": "<p>Manufacturer advises avoid; neonatal &#8216;grey-baby syndrome&#8217; if used in third trimester.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Avoid unless essential&#8212;no information on topical use but risk of &#8216;neonatal grey-baby syndrome&#8217; with oral use in third trimester.",
+                "html": "<p>Avoid unless essential&#8212;no information on <i>topical</i> use but risk of &#8216;neonatal grey-baby syndrome&#8217; with <i>oral</i> use in third trimester.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Manufacturer advises avoid; use another antibiotic; may cause bone-marrow toxicity in infant; concentration in milk usually insufficient to cause &#8216;grey syndrome&#8217;.",
+                "html": "<p>Manufacturer advises avoid; use another antibiotic; may cause bone-marrow toxicity in infant; concentration in milk usually insufficient to cause &#8216;grey syndrome&#8217;.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Avoid unless essential&#8212;theoretical risk of bone-marrow toxicity.",
+                "html": "<p>Avoid unless essential&#8212;<i>theoretical</i> risk of bone-marrow toxicity.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Reduce dose.",
+                "html": "<p>Reduce dose.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid if possible&#8212;increased risk of bone-marrow depression.",
+                "html": "<p>Avoid if possible&#8212;increased risk of bone-marrow depression.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Monitor plasma-chloramphenicol concentration in hepatic impairment.",
+                "html": "<p>Monitor plasma-chloramphenicol concentration in hepatic impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Avoid in severe renal impairment unless no alternative; dose-related depression of haematopoiesis.",
+                "html": "<p>Avoid in severe renal impairment unless no alternative; dose-related depression of haematopoiesis.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "therapeuticDrugMonitoring": [
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Plasma concentration monitoring preferred in the elderly.",
+                "html": "<p>Plasma concentration monitoring preferred in the elderly.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Plasma concentration monitoring preferred in those under 4 years of age.",
+                "html": "<p>Plasma concentration monitoring preferred in those under 4&#8239;years of age.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use in neonates",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use in neonates",
+                    "patientType": "neonates",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Plasma concentration monitoring required in neonates. Grey baby syndrome may follow excessive doses in neonates with immature hepatic metabolism.",
+                "html": "<p>Plasma concentration monitoring required in neonates. Grey baby syndrome may follow excessive doses in neonates with immature hepatic metabolism.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Recommended peak plasma concentration (approx. 2 hours after administration by mouth, intravenous injection or infusion) 10&#8211;25 mg/litre; pre-dose (&#8216;trough&#8217;) concentration should not exceed 15 mg/litre.",
+                "html": "<p>Recommended peak plasma concentration (approx. 2 hours after administration by mouth, intravenous injection or infusion) 10&#8211;25&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should not exceed 15&#8239;mg/litre.</p>"
+            }
+        ],
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "specificity": {
+                    "textContent": "With intravenous use or oral use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "intravenous",
+                        "oral"
+                    ]
+                },
+                "textContent": "Blood counts required before and periodically during treatment.",
+                "html": "<p>Blood counts required before and periodically during treatment.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Displacement value may be significant for injection, consult local guidelines. For intermittent intravenous infusion, dilute reconstituted solution further in glucose 5% or sodium chloride 0.9%.",
+                "html": "<p>Displacement value may be significant for injection, consult local guidelines. For intermittent intravenous infusion, dilute reconstituted solution further in glucose 5% or sodium chloride 0.9%.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Kemicetine ), give intermittently or via drip tubing in Glucose 5% or Sodium chloride 0.9%.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Kemicetine</i>\n<tm tmtype=\"reg\"/>), give intermittently or via drip tubing in Glucose 5% or Sodium chloride 0.9%.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Although multi-dose chloramphenicol eye drops commonly contain preservatives, preservative-free unit dose vials may be available.",
+                "html": "<p>Although multi-dose chloramphenicol eye drops commonly contain preservatives, preservative-free unit dose vials may be available.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/chloramphenicol-ear-drops-ear-infections-otitis-externa-0",
+                        "label": "www.medicinesforchildren.org.uk/chloramphenicol-ear-drops-ear-infections-otitis-externa-0"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Chloramphenicol ear drops for ear infections (otitis externa)",
+                "textContent": "www.medicinesforchildren.org.uk/chloramphenicol-ear-drops-ear-infections-otitis-externa-0",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/chloramphenicol-ear-drops-ear-infections-otitis-externa-0\">www.medicinesforchildren.org.uk/chloramphenicol-ear-drops-ear-infections-otitis-externa-0</xref>\n</p>"
+            },
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/chloramphenicol-eye-infections-0",
+                        "label": "www.medicinesforchildren.org.uk/chloramphenicol-eye-infections-0"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Chloramphenicol for eye infections",
+                "textContent": "www.medicinesforchildren.org.uk/chloramphenicol-eye-infections-0",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/chloramphenicol-eye-infections-0\">www.medicinesforchildren.org.uk/chloramphenicol-eye-infections-0</xref>\n</p>"
+            }
+        ]
+    },
+    "lessSuitableForPrescribing": {
+        "lessSuitableForPrescribing": [
+            {
+                "type": "lessSuitableForPrescribing",
+                "specificity": {
+                    "textContent": "When used by ear",
+                    "html": "When used by <ph outputclass=\"route\">ear</ph>",
+                    "routes": [
+                        "ear"
+                    ]
+                },
+                "textContent": "Chloramphenicol ear drops are less suitable for prescribing.",
+                "html": "<p>Chloramphenicol ear drops are less suitable for prescribing.</p>"
+            }
+        ]
+    },
+    "exceptionsToLegalCategory": {
+        "exceptionsToLegalCategory": [
+            {
+                "type": "exceptionsToLegalCategory",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Chloramphenicol 0.5% eye drops (in max. pack size 10 mL) and 1% eye ointment (in max. pack size 4 g) can be sold to the public for treatment of acute bacterial conjunctivitis in adults and children over 2 years; max. duration of treatment 5 days.",
+                "html": "<p>Chloramphenicol 0.5% eye drops (in max. pack size 10&#8239;mL) and 1% eye ointment (in max. pack size 4&#8239;g) can be sold to the public for treatment of acute bacterial conjunctivitis in adults and children over 2 years; max. duration of treatment 5 days.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75434",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75445",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75440",
+                "label": "Ear drops",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75451",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75428",
+                "label": "Eye ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78114",
+                "label": "Meningococcal disease, medical emergency",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78254",
+                "label": "Anthrax",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78347",
+                "label": "Eye infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78491",
+                "label": "Blood infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78553",
+                "label": "Central nervous system infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78541",
+                "label": "Eye, infections of",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78577",
+                "label": "Respiratory system infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78609",
+                "label": "Ear",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_158",
+                "label": "Chloramphenicol",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75434",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75445",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75440",
+                "label": "Ear drops",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75451",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75428",
+                "label": "Eye ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

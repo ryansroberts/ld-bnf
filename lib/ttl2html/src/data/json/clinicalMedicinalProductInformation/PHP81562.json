@@ -1,0 +1,61 @@
+{
+    "xml": "<topic id=\"PHP81562\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/epipen-auto-injector-03mg\" basename=\"epipen-auto-injector-03mg\" title=\"EpiPen Auto-injector 0.3mg\">\n<title>EpiPen<tm tmtype=\"reg\"/> Auto-injector 0.3mg</title>\n<topic id=\"PHP83306\" outputclass=\"indicationsAndDose\" rev=\"1.35\" parent=\"/clinical-medicinal-product-information/epipen-auto-injector-03mg\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute anaphylaxis (for self-administration)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child (body-weight 30 kg and above)</p>\n<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 30 kg and above)</p>\n<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83320\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/epipen-auto-injector-03mg\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>1.7&#8239;mL of the solution remains in the auto-injector device after use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81562",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/epipen-auto-injector-03mg",
+    "basename": "epipen-auto-injector-03mg",
+    "title": "EpiPen Auto-injector 0.3mg",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute anaphylaxis (for self-administration)",
+                        "html": "Acute anaphylaxis (for self-administration)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "300 micrograms, then 300 micrograms after 5&#8211;15 minutes as required.",
+                        "html": "<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>",
+                        "ageGroup": "(body-weight 30 kg and above)"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "300 micrograms, then 300 micrograms after 5&#8211;15 minutes as required.",
+                        "html": "<p>300&#8239;micrograms, then 300&#8239;micrograms after 5&#8211;15&#8239;minutes as required.</p>",
+                        "ageGroup": "(body-weight 30 kg and above)"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "1.7 mL of the solution remains in the auto-injector device after use.",
+                "html": "<p>1.7&#8239;mL of the solution remains in the auto-injector device after use.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

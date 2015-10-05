@@ -1,0 +1,718 @@
+{
+    "xml": "<topic id=\"PHP7020\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/brinzolamide\" basename=\"brinzolamide\" title=\"BRINZOLAMIDE\">\n<title>BRINZOLAMIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_897\" namespace=\"/interactions/list-of-drug-interactions/diuretics/carbonic-anhydrase-inhibitors/brinzolamide\">Brinzolamide</xref>\n</p>\n<data name=\"vtmid\">108836002</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_974043057\" title=\"Carbonic anhydrase inhibitors\">Carbonic anhydrase inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP41885\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/brinzolamide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Reduction of intra-ocular pressure in ocular hypertension and open-angle glaucoma either as adjunct to beta-blockers or prostaglandin analogues or used alone in patients unresponsive to beta-blockers or if beta-blockers contra-indicated</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply twice daily, then increased if necessary up to 3 times a day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42142\" outputclass=\"contraindications\" rev=\"1.6\" parent=\"/drugs/brinzolamide\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Hyperchloraemic acidosis</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42250\" outputclass=\"cautions\" rev=\"1.14\" parent=\"/drugs/brinzolamide\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Renal tubular immaturity or abnormality</ph>; <ph outputclass=\"caution\">systemic absorption follows topical application</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP41840\" outputclass=\"interactions\" rev=\"1.9\" parent=\"/drugs/brinzolamide\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Since systemic absorption may follow topical application of brinzolamide to the eye, the possibility of interactions should be borne in mind.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Appendix 1 (brinzolamide).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP41550\" outputclass=\"sideEffects\" rev=\"1.10\" parent=\"/drugs/brinzolamide\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Corneal erosion</ph>; <ph outputclass=\"sideEffect\">corneal oedema</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">ocular disturbances</ph>; <ph outputclass=\"sideEffect\">photophobia</ph>; <ph outputclass=\"sideEffect\">reduced visual acuity</ph>; <ph outputclass=\"sideEffect\">taste disturbances</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">amnesia</ph>; <ph outputclass=\"sideEffect\">bradycardia</ph>; <ph outputclass=\"sideEffect\">chest pain</ph>; <ph outputclass=\"sideEffect\">cough</ph>; <ph outputclass=\"sideEffect\">decreased libido</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">dyspnoea</ph>; <ph outputclass=\"sideEffect\">epistaxis</ph>; <ph outputclass=\"sideEffect\">erectile dysfunction</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">nasal dryness</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">nervousness</ph>; <ph outputclass=\"sideEffect\">oesophagitis</ph>; <ph outputclass=\"sideEffect\">oral hypoaesthesia and paraesthesia</ph>; <ph outputclass=\"sideEffect\">palpitation</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">pharyngitis</ph>; <ph outputclass=\"sideEffect\">renal pain</ph>; <ph outputclass=\"sideEffect\">sinusitis</ph>; <ph outputclass=\"sideEffect\">sleep disturbances</ph>; <ph outputclass=\"sideEffect\">throat irritation</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>; <ph outputclass=\"sideEffect\">upper respiratory tract congestion</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arrhythmia</ph>; <ph outputclass=\"sideEffect\">asthma</ph>; <ph outputclass=\"sideEffect\">dermatitis</ph>; <ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">peripheral oedema</ph>; <ph outputclass=\"sideEffect\">rhinitis</ph>; <ph outputclass=\"sideEffect\">tachycardia</ph>; <ph outputclass=\"sideEffect\">tremor</ph>; <ph outputclass=\"sideEffect\">vertigo</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p>Systemic absorption can rarely cause sulfonamide-like side-effects and may require discontinuation if severe.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42393\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.19\" parent=\"/drugs/brinzolamide\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityContraindications\">\n<sectiondiv>\n<p>Contraindicated if history of sulfonamide hypersensitivity.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP41762\" outputclass=\"pregnancy\" parent=\"/drugs/brinzolamide\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;toxicity in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP42307\" outputclass=\"breastFeeding\" parent=\"/drugs/brinzolamide\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use only if benefit outweighs risk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP41942\" outputclass=\"hepaticImpairment\" parent=\"/drugs/brinzolamide\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP41658\" outputclass=\"renalImpairment\" parent=\"/drugs/brinzolamide\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP7020-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/brinzolamide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77758\" title=\"Eye drops\" namespace=\"/drugs/brinzolamide/eye-drops\">Eye drops</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88014\" namespace=\"/drugs/brinzolamide-with-timolol\" title=\"BRINZOLAMIDE WITH TIMOLOL\" count=\"1\" rel=\"backlink\">BRINZOLAMIDE WITH TIMOLOL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78178\" namespace=\"/treatment-summaries/diuretics\" title=\"Diuretics\" count=\"1\" rel=\"backlink\">Diuretics</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78508\" namespace=\"/treatment-summaries/glaucoma\" title=\"Glaucoma\" count=\"3\" rel=\"backlink\">Glaucoma</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_897\" namespace=\"/interactions/list-of-drug-interactions/diuretics/carbonic-anhydrase-inhibitors/brinzolamide\" title=\"Brinzolamide\" count=\"1\" rel=\"link\">Brinzolamide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77758\" namespace=\"/drugs/brinzolamide/eye-drops\" title=\"Eye drops\" count=\"1\" rel=\"link\">Eye drops</xref>\n</links>\n</topic>",
+    "id": "PHP7020",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/brinzolamide",
+    "basename": "brinzolamide",
+    "title": "BRINZOLAMIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_897",
+            "label": "Brinzolamide"
+        }
+    ],
+    "vtmid": "108836002",
+    "drugClassification": [
+        "Carbonic anhydrase inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Reduction of intra-ocular pressure in ocular hypertension and open-angle glaucoma either as adjunct to beta-blockers or prostaglandin analogues or used alone in patients unresponsive to beta-blockers or if beta-blockers contra-indicated",
+                        "html": "Reduction of intra-ocular pressure in ocular hypertension and open-angle glaucoma either as adjunct to beta-blockers or prostaglandin analogues or used alone in patients unresponsive to beta-blockers or if beta-blockers contra-indicated"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye"
+                    ],
+                    "textContent": "To the eye",
+                    "html": "To the eye"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply twice daily, then increased if necessary up to 3 times a day.",
+                        "html": "<p>Apply twice daily, then increased if necessary up to 3 times a day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Hyperchloraemic acidosis",
+                "html": "Hyperchloraemic acidosis"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Renal tubular immaturity or abnormality",
+                "html": "Renal tubular immaturity or abnormality"
+            },
+            {
+                "type": "cautions",
+                "textContent": "systemic absorption follows topical application",
+                "html": "systemic absorption follows topical application"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Since systemic absorption may follow topical application of brinzolamide to the eye, the possibility of interactions should be borne in mind.",
+                "html": "<p>Since systemic absorption may follow topical application of brinzolamide to the eye, the possibility of interactions should be borne in mind.</p>"
+            },
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (brinzolamide).",
+                "html": "<p>Appendix 1 (brinzolamide).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Corneal erosion",
+                        "html": "Corneal erosion",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "corneal oedema",
+                        "html": "corneal oedema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "ocular disturbances",
+                        "html": "ocular disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "photophobia",
+                        "html": "photophobia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "reduced visual acuity",
+                        "html": "reduced visual acuity",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "taste disturbances",
+                        "html": "taste disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "amnesia",
+                        "html": "amnesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "bradycardia",
+                        "html": "bradycardia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "chest pain",
+                        "html": "chest pain",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "cough",
+                        "html": "cough",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "decreased libido",
+                        "html": "decreased libido",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dyspnoea",
+                        "html": "dyspnoea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "epistaxis",
+                        "html": "epistaxis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "erectile dysfunction",
+                        "html": "erectile dysfunction",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "nasal dryness",
+                        "html": "nasal dryness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "nervousness",
+                        "html": "nervousness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "oesophagitis",
+                        "html": "oesophagitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "oral hypoaesthesia and paraesthesia",
+                        "html": "oral hypoaesthesia and paraesthesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "palpitation",
+                        "html": "palpitation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "pharyngitis",
+                        "html": "pharyngitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "renal pain",
+                        "html": "renal pain",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "sinusitis",
+                        "html": "sinusitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "sleep disturbances",
+                        "html": "sleep disturbances",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "throat irritation",
+                        "html": "throat irritation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "upper respiratory tract congestion",
+                        "html": "upper respiratory tract congestion",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Arrhythmia",
+                        "html": "Arrhythmia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "asthma",
+                        "html": "asthma",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dermatitis",
+                        "html": "dermatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "peripheral oedema",
+                        "html": "peripheral oedema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rhinitis",
+                        "html": "rhinitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vertigo",
+                        "html": "vertigo",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "textContent": "Systemic absorption can rarely cause sulfonamide-like side-effects and may require discontinuation if severe.",
+                "html": "<p>Systemic absorption can rarely cause sulfonamide-like side-effects and may require discontinuation if severe.</p>"
+            }
+        ]
+    },
+    "allergyAndCrossSensitivity": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Contraindicated if history of sulfonamide hypersensitivity.",
+                "html": "<p>Contraindicated if history of sulfonamide hypersensitivity.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;toxicity in animal studies.",
+                "html": "<p>Avoid&#8212;toxicity in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use only if benefit outweighs risk.",
+                "html": "<p>Use only if benefit outweighs risk.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid.",
+                "html": "<p>Manufacturer advises avoid.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77758",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP88014",
+                "label": "BRINZOLAMIDE WITH TIMOLOL",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78178",
+                "label": "Diuretics",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78508",
+                "label": "Glaucoma",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_897",
+                "label": "Brinzolamide",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77758",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

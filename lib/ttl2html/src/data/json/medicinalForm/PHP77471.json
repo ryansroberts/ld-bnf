@@ -1,0 +1,58 @@
+{
+    "xml": "<topic id=\"PHP77471\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/aspirin/effervescent-tablet\" basename=\"effervescent-tablet\" title=\"Effervescent tablet\">\n<title>Effervescent tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Aspro Clear 300mg effervescent tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">4649111000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aspirin 300&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.79</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Maximum Strength Aspro Clear 500mg effervescent tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">4648711000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aspirin 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">16</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2596\" title=\"ASPIRIN\" namespace=\"/drugs/aspirin\">ASPIRIN</xref>\n</parents>\n</topic>",
+    "id": "PHP77471",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/aspirin/effervescent-tablet",
+    "basename": "effervescent-tablet",
+    "form": "Effervescent tablet",
+    "products": [
+        {
+            "title": "Aspro Clear 300mg effervescent tablets (Bayer Plc) ",
+            "header": "Aspro Clear 300mg effervescent tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Aspro Clear 300mg effervescent tablets",
+            "ampid": "4649111000001101",
+            "strengthOfActiveIngredient": "Aspirin 300 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.79 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.79</ph>",
+                        "nhsIndicativePrice": "&#163;1.79"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Maximum Strength Aspro Clear 500mg effervescent tablets (Bayer Plc) ",
+            "header": "Maximum Strength Aspro Clear 500mg effervescent tablets <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Maximum Strength Aspro Clear 500mg effervescent tablets",
+            "ampid": "4648711000001109",
+            "strengthOfActiveIngredient": "Aspirin 500 mg",
+            "packs": [
+                {
+                    "textContent": " 16 tablet GSL ",
+                    "html": "<ph outputclass=\"packSize\">16</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "16",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2596",
+        "label": "ASPIRIN"
+    }
+}

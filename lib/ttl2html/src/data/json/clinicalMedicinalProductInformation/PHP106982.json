@@ -1,0 +1,82 @@
+{
+    "xml": "<topic id=\"PHP106982\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/aprokam-intracameral-injection\" basename=\"aprokam-intracameral-injection\" title=\"Aprokam intracameral injection\">\n<title>Aprokam<tm tmtype=\"reg\"/> intracameral injection</title>\n<topic id=\"PHP107006\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/aprokam-intracameral-injection\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of endophthalmitis after cataract surgery</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intracameral injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;mg, dose to be injected into the anterior chamber of the eye at the end of cataract surgery.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP106990\" outputclass=\"cautions\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/aprokam-intracameral-injection\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Combined operations with cataract surgery</ph>; <ph outputclass=\"caution\">complicated cataracts</ph>; <ph outputclass=\"caution\">reduced corneal endothelial cells (less than 2000)</ph>; <ph outputclass=\"caution\">severe risk of infection</ph>; <ph outputclass=\"caution\">severe thyroid disease</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107063\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/aprokam-intracameral-injection\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For information on administration, consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP106982",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/aprokam-intracameral-injection",
+    "basename": "aprokam-intracameral-injection",
+    "title": "Aprokam intracameral injection",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of endophthalmitis after cataract surgery",
+                        "html": "Prophylaxis of endophthalmitis after cataract surgery"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intracameral injection"
+                    ],
+                    "textContent": "By intracameral injection",
+                    "html": "By intracameral injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 mg, dose to be injected into the anterior chamber of the eye at the end of cataract surgery.",
+                        "html": "<p>1&#8239;mg, dose to be injected into the anterior chamber of the eye at the end of cataract surgery.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Combined operations with cataract surgery",
+                "html": "Combined operations with cataract surgery"
+            },
+            {
+                "type": "cautions",
+                "textContent": "complicated cataracts",
+                "html": "complicated cataracts"
+            },
+            {
+                "type": "cautions",
+                "textContent": "reduced corneal endothelial cells (less than 2000)",
+                "html": "reduced corneal endothelial cells (less than 2000)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "severe risk of infection",
+                "html": "severe risk of infection"
+            },
+            {
+                "type": "cautions",
+                "textContent": "severe thyroid disease",
+                "html": "severe thyroid disease"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For information on administration, consult product literature.",
+                "html": "<p>For information on administration, consult product literature.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{{#if sideEffects.general }}
+  <h3>General side effects</h3>
+  {{#if sideEffects.general.frequencies }}
+    {{#each sideEffects.general.frequencies as |level1 key1| }}
+      <p>
+        <strong>{{ key1 }}:</strong>{{#each level1 }} {{{ html }}},{{/each }}
+      </p>
+    {{/each }}
+  {{/if }}
+{{/if }}
+
+{{#if sideEffects.specific }}
+  <h3>Specific side effects</h3>
+  {{#if sideEffects.specific.frequencies }}
+    {{#each sideEffects.specific.frequencies as |level key| }}
+      <p>
+        <strong>{{ key }}:</strong>{{#each level }} {{{ html }}},{{/each }}
+      </p>
+    {{/each }}
+  {{/if }}
+{{/if }}
+
+{{#if sideEffects.advice }}
+  {{#each sideEffects.advice }}
+    {{> advice }}
+  {{/each }}
+{{/if }}
+
+{{#if sideEffects.overdosageInformation }}
+  {{#each sideEffects.overdosageInformation }}
+    {{> advice }}
+  {{/each }}
+{{/if }}

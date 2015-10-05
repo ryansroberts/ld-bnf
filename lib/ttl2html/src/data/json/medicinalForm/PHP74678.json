@@ -1,0 +1,105 @@
+{
+    "xml": "<topic id=\"PHP74678\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/oxytocin/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Syntocinon 5units/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4416311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Oxytocin 5&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.01</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Oxytocin 10units/1ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">28042111000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Oxytocin 10&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.67</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Oxytocin 10units/1ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(Wockhardt UK Ltd)</ph>\n</title>\n<data name=\"ampid\">27625511000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Oxytocin 10&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.55</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Syntocinon 10units/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4416611000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Oxytocin 10&#8239;unit per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.53</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4780\" title=\"OXYTOCIN\" namespace=\"/drugs/oxytocin\">OXYTOCIN</xref>\n</parents>\n</topic>",
+    "id": "PHP74678",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/oxytocin/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Syntocinon 5units/1ml solution for injection ampoules (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Syntocinon 5units/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Syntocinon 5units/1ml solution for injection ampoules",
+            "ampid": "4416311000001101",
+            "strengthOfActiveIngredient": "Oxytocin 5 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.01 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.01</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;4.01",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Oxytocin 10units/1ml concentrate for solution for infusion ampoules (A A H Pharmaceuticals Ltd) ",
+            "header": "Oxytocin 10units/1ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Oxytocin 10units/1ml concentrate for solution for infusion ampoules",
+            "ampid": "28042111000001103",
+            "strengthOfActiveIngredient": "Oxytocin 10 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.67 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.67</ph>",
+                        "nhsIndicativePrice": "&#163;4.67"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Oxytocin 10units/1ml concentrate for solution for infusion ampoules (Wockhardt UK Ltd) ",
+            "header": "Oxytocin 10units/1ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(Wockhardt UK Ltd)</ph>",
+            "manufacturer": "(Wockhardt UK Ltd)",
+            "name": "Oxytocin 10units/1ml concentrate for solution for infusion ampoules",
+            "ampid": "27625511000001100",
+            "strengthOfActiveIngredient": "Oxytocin 10 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.55 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.55</ph>",
+                        "nhsIndicativePrice": "&#163;4.55"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Syntocinon 10units/1ml solution for injection ampoules (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Syntocinon 10units/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Syntocinon 10units/1ml solution for injection ampoules",
+            "ampid": "4416611000001106",
+            "strengthOfActiveIngredient": "Oxytocin 10 unit per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.53 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.53</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;4.53",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4780",
+        "label": "OXYTOCIN"
+    }
+}

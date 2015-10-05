@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP92312\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/calcium-carbonate-with-colecalciferol/effervescent-tablet\" basename=\"effervescent-tablet\" title=\"Effervescent tablet\">\n<title>Effervescent tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Adcal-D3 Dissolve 1500mg/400unit effervescent tablets <ph outputclass=\"manufacturer\">(ProStrakan Ltd)</ph>\n</title>\n<data name=\"ampid\">13398611000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calcium carbonate 1.5&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Colecalciferol 400&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.99</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.99</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88001\" title=\"CALCIUM CARBONATE WITH COLECALCIFEROL\" namespace=\"/drugs/calcium-carbonate-with-colecalciferol\">CALCIUM CARBONATE WITH COLECALCIFEROL</xref>\n</parents>\n</topic>",
+    "id": "PHP92312",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/calcium-carbonate-with-colecalciferol/effervescent-tablet",
+    "basename": "effervescent-tablet",
+    "form": "Effervescent tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "products": [
+        {
+            "title": "Adcal-D3 Dissolve 1500mg/400unit effervescent tablets (ProStrakan Ltd) ",
+            "header": "Adcal-D3 Dissolve 1500mg/400unit effervescent tablets <ph outputclass=\"manufacturer\">(ProStrakan Ltd)</ph>",
+            "manufacturer": "(ProStrakan Ltd)",
+            "name": "Adcal-D3 Dissolve 1500mg/400unit effervescent tablets",
+            "ampid": "13398611000001101",
+            "strengthOfActiveIngredient": "Colecalciferol 400 unit",
+            "packs": [
+                {
+                    "textContent": " 56 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.99 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.99</ph>",
+                        "nhsIndicativePrice": "&#163;5.99"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.99 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.99</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.99"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88001",
+        "label": "CALCIUM CARBONATE WITH COLECALCIFEROL"
+    }
+}

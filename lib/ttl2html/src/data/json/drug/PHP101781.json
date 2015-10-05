@@ -1,0 +1,153 @@
+{
+    "xml": "<topic id=\"PHP101781\" outputclass=\"drug\" rev=\"1.15\" type=\"drug\" namespace=\"/drugs/dimethyl-sulfoxide\" basename=\"dimethyl-sulfoxide\" title=\"DIMETHYL SULFOXIDE\">\n<title>DIMETHYL SULFOXIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1130\" namespace=\"/interactions/list-of-drug-interactions/dimethyl-sulfoxide\">Dimethyl sulfoxide</xref>\n</p>\n<data name=\"vtmid\">346400003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_625056185\" title=\"Urological anti-inflammatory drugs\">Urological anti-inflammatory drugs</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP101820\" outputclass=\"indicationsAndDose\" rev=\"1.25\" parent=\"/drugs/dimethyl-sulfoxide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Symptomatic relief in interstitial cystitis (Hunner's ulcer)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravesical instillation</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>50&#8239;mL every 2&#8239;weeks retained for 15 minutes then voided by the patient, 50% solution is used and instilled into the bladder.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101821\" outputclass=\"interactions\" rev=\"1.9\" parent=\"/drugs/dimethyl-sulfoxide\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (dimethyl sulfoxide).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101826\" outputclass=\"sideEffects\" rev=\"1.8\" parent=\"/drugs/dimethyl-sulfoxide\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bladder spasm</ph>; <ph outputclass=\"sideEffect\">hypersensitivity</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101830\" outputclass=\"monitoringRequirements\" parent=\"/drugs/dimethyl-sulfoxide\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Ophthalmic, renal and hepatic assessments at intervals of 6 months are required in long-term treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101781-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/dimethyl-sulfoxide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: cream</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101866\" title=\"Liquid\" namespace=\"/drugs/dimethyl-sulfoxide/liquid\">Liquid</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1130\" namespace=\"/interactions/list-of-drug-interactions/dimethyl-sulfoxide\" title=\"Dimethyl sulfoxide\" count=\"1\" rel=\"link\">Dimethyl sulfoxide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101866\" namespace=\"/drugs/dimethyl-sulfoxide/liquid\" title=\"Liquid\" count=\"1\" rel=\"link\">Liquid</xref>\n</links>\n</topic>",
+    "id": "PHP101781",
+    "outputclass": "drug",
+    "rev": "1.15",
+    "type": "drug",
+    "namespace": "/drugs/dimethyl-sulfoxide",
+    "basename": "dimethyl-sulfoxide",
+    "title": "DIMETHYL SULFOXIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_1130",
+            "label": "Dimethyl sulfoxide"
+        }
+    ],
+    "vtmid": "346400003",
+    "drugClassification": [
+        "Urological anti-inflammatory drugs"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Symptomatic relief in interstitial cystitis (Hunner's ulcer)",
+                        "html": "Symptomatic relief in interstitial cystitis (Hunner's ulcer)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravesical instillation"
+                    ],
+                    "textContent": "By intravesical instillation",
+                    "html": "By intravesical instillation"
+                },
+                "adult": [
+                    {
+                        "textContent": "50 mL every 2 weeks retained for 15 minutes then voided by the patient, 50% solution is used and instilled into the bladder.",
+                        "html": "<p>50&#8239;mL every 2&#8239;weeks retained for 15 minutes then voided by the patient, 50% solution is used and instilled into the bladder.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (dimethyl sulfoxide).",
+                "html": "<p>Appendix 1 (dimethyl sulfoxide).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Bladder spasm",
+                        "html": "Bladder spasm",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypersensitivity",
+                        "html": "hypersensitivity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Ophthalmic, renal and hepatic assessments at intervals of 6 months are required in long-term treatment.",
+                "html": "<p>Ophthalmic, renal and hepatic assessments at intervals of 6 months are required in long-term treatment.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "cream"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP101866",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1130",
+                "label": "Dimethyl sulfoxide",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP101866",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

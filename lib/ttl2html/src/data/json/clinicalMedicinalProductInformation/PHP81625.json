@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP81625\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/salofalk-rectal-foam\" basename=\"salofalk-rectal-foam\" title=\"Salofalk rectal foam\">\n<title>Salofalk<tm tmtype=\"reg\"/> rectal foam</title>\n<topic id=\"PHP83663\" outputclass=\"indicationsAndDose\" rev=\"1.17\" parent=\"/clinical-medicinal-product-information/salofalk-rectal-foam\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of mild ulcerative colitis affecting sigmoid colon and rectum</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>2&#8239;g once daily, dose to be administered into the rectum at bedtime, alternatively 2&#8239;g daily in 2 divided doses.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>2&#8239;g once daily, dose to be administered into the rectum at bedtime, alternatively 2&#8239;g daily in 2 divided doses.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81625",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/salofalk-rectal-foam",
+    "basename": "salofalk-rectal-foam",
+    "title": "Salofalk rectal foam",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of mild ulcerative colitis affecting sigmoid colon and rectum",
+                        "html": "Treatment of mild ulcerative colitis affecting sigmoid colon and rectum"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "child": [
+                    {
+                        "textContent": "2 g once daily, dose to be administered into the rectum at bedtime, alternatively 2 g daily in 2 divided doses.",
+                        "html": "<p>2&#8239;g once daily, dose to be administered into the rectum at bedtime, alternatively 2&#8239;g daily in 2 divided doses.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "2 g once daily, dose to be administered into the rectum at bedtime, alternatively 2 g daily in 2 divided doses.",
+                        "html": "<p>2&#8239;g once daily, dose to be administered into the rectum at bedtime, alternatively 2&#8239;g daily in 2 divided doses.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

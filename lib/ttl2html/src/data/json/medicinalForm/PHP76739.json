@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP76739\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/disulfiram/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Antabuse 200mg tablets <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>\n</title>\n<data name=\"ampid\">466211000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Disulfiram 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;31.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;31.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3185\" title=\"DISULFIRAM\" namespace=\"/drugs/disulfiram\">DISULFIRAM</xref>\n</parents>\n</topic>",
+    "id": "PHP76739",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/disulfiram/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Antabuse 200mg tablets (Actavis UK Ltd) ",
+            "header": "Antabuse 200mg tablets <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>",
+            "manufacturer": "(Actavis UK Ltd)",
+            "name": "Antabuse 200mg tablets",
+            "ampid": "466211000001101",
+            "strengthOfActiveIngredient": "Disulfiram 200 mg",
+            "packs": [
+                {
+                    "textContent": " 50 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;31.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;31.00</ph>",
+                        "nhsIndicativePrice": "&#163;31.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;31.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;31.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;31.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3185",
+        "label": "DISULFIRAM"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "xml": "<topic id=\"PHP81700\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/finacea\" basename=\"finacea\" title=\"Finacea\">\n<title>Finacea<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP81955\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/clinical-medicinal-product-information/finacea\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Facial acne vulgaris</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>Apply twice daily, discontinue if no improvement after 1 month.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply twice daily, discontinue if no improvement after 1 month.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Papulopustular rosacea</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply twice daily, discontinue if no improvement after 2 months.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81700",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/finacea",
+    "basename": "finacea",
+    "title": "Finacea",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Facial acne vulgaris",
+                        "html": "Facial acne vulgaris"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply twice daily, discontinue if no improvement after 1 month.",
+                        "html": "<p>Apply twice daily, discontinue if no improvement after 1 month.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply twice daily, discontinue if no improvement after 1 month.",
+                        "html": "<p>Apply twice daily, discontinue if no improvement after 1 month.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Papulopustular rosacea",
+                        "html": "Papulopustular rosacea"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply twice daily, discontinue if no improvement after 2 months.",
+                        "html": "<p>Apply twice daily, discontinue if no improvement after 2 months.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

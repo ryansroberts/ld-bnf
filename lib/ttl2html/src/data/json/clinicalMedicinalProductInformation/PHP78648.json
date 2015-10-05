@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP78648\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/peroxyl\" basename=\"peroxyl\" title=\"Peroxyl\">\n<title>Peroxyl<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP78671\" outputclass=\"indicationsAndDose\" rev=\"1.24\" parent=\"/clinical-medicinal-product-information/peroxyl\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Oral hygiene</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;17 years</p>\n<p>Rinse or gargle 10&#8239;mL 3 times a day for about 1 minute, for maximum 7 days, to be used after meals and at bedtime.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Rinse or gargle 10&#8239;mL up to 4 times a day for about 1 minute, to be used after meals and at bedtime.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78648",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/peroxyl",
+    "basename": "peroxyl",
+    "title": "Peroxyl",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Oral hygiene",
+                        "html": "Oral hygiene"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Rinse or gargle 10 mL 3 times a day for about 1 minute, for maximum 7 days, to be used after meals and at bedtime.",
+                        "html": "<p>Rinse or gargle 10&#8239;mL 3 times a day for about 1 minute, for maximum 7 days, to be used after meals and at bedtime.</p>",
+                        "ageGroup": "6&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Rinse or gargle 10 mL up to 4 times a day for about 1 minute, to be used after meals and at bedtime.",
+                        "html": "<p>Rinse or gargle 10&#8239;mL up to 4 times a day for about 1 minute, to be used after meals and at bedtime.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

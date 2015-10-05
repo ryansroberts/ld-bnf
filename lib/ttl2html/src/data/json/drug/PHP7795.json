@@ -1,0 +1,207 @@
+{
+    "xml": "<topic id=\"PHP7795\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/benzoyl-peroxide\" basename=\"benzoyl-peroxide\" title=\"BENZOYL PEROXIDE\">\n<title>BENZOYL PEROXIDE</title>\n<body>\n<data name=\"vtmid\">354053005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_392994676\" title=\"Peroxides\">Peroxides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP54121\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/drugs/benzoyl-peroxide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acne vulgaris</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>Apply 1&#8211;2 times a day, preferably apply after washing with soap and water, start treatment with lower-strength preparations.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8211;2 times a day, preferably apply after washing with soap and water, start treatment with lower-strength preparations.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP53994\" outputclass=\"unlicensedUse\" rev=\"1.8\" parent=\"/drugs/benzoyl-peroxide\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>Quinoderm</i>\n<tm tmtype=\"reg\"/> is licensed for use in children; <i>all other preparations</i>, not licensed for use in treatment of infantile acne.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54258\" outputclass=\"cautions\" rev=\"1.12\" parent=\"/drugs/benzoyl-peroxide\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Avoid contact with broken skin</ph>; <ph outputclass=\"caution\">avoid contact with eyes</ph>; <ph outputclass=\"caution\">avoid contact with mouth</ph>; <ph outputclass=\"caution\">avoid contact with mucous membranes</ph>; <ph outputclass=\"caution\">avoid excessive exposure to sunlight</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54044\" outputclass=\"sideEffects\" rev=\"1.11\" parent=\"/drugs/benzoyl-peroxide\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Skin irritation</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Skin irritation</p>\n<p>Reduce frequency or suspend use until irritation subsides and re-introduce at reduced frequency.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54090\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/drugs/benzoyl-peroxide\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>May bleach fabrics and hair.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP7795-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/benzoyl-peroxide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76094\" title=\"Cream\" namespace=\"/drugs/benzoyl-peroxide/cream\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76084\" title=\"Gel\" namespace=\"/drugs/benzoyl-peroxide/gel\">Gel</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76079\" title=\"Wash\" namespace=\"/drugs/benzoyl-peroxide/wash\">Wash</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88050\" namespace=\"/drugs/benzoyl-peroxide-with-clindamycin\" title=\"BENZOYL PEROXIDE WITH CLINDAMYCIN\" count=\"1\" rel=\"backlink\">BENZOYL PEROXIDE WITH CLINDAMYCIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP97006\" namespace=\"/drugs/adapalene-with-benzoyl-peroxide\" title=\"ADAPALENE WITH BENZOYL PEROXIDE\" count=\"1\" rel=\"backlink\">ADAPALENE WITH BENZOYL PEROXIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78307\" namespace=\"/treatment-summaries/rosacea-and-acne\" title=\"Rosacea and Acne\" count=\"9\" rel=\"backlink\">Rosacea and Acne</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76094\" namespace=\"/drugs/benzoyl-peroxide/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76084\" namespace=\"/drugs/benzoyl-peroxide/gel\" title=\"Gel\" count=\"1\" rel=\"link\">Gel</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76079\" namespace=\"/drugs/benzoyl-peroxide/wash\" title=\"Wash\" count=\"1\" rel=\"link\">Wash</xref>\n</links>\n</topic>",
+    "id": "PHP7795",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/benzoyl-peroxide",
+    "basename": "benzoyl-peroxide",
+    "title": "BENZOYL PEROXIDE",
+    "vtmid": "354053005",
+    "drugClassification": [
+        "Peroxides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acne vulgaris",
+                        "html": "Acne vulgaris"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day, preferably apply after washing with soap and water, start treatment with lower-strength preparations.",
+                        "html": "<p>Apply 1&#8211;2 times a day, preferably apply after washing with soap and water, start treatment with lower-strength preparations.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day, preferably apply after washing with soap and water, start treatment with lower-strength preparations.",
+                        "html": "<p>Apply 1&#8211;2 times a day, preferably apply after washing with soap and water, start treatment with lower-strength preparations.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Quinoderm is licensed for use in children; all other preparations, not licensed for use in treatment of infantile acne.",
+                "html": "<p>\n<i>Quinoderm</i>\n<tm tmtype=\"reg\"/> is licensed for use in children; <i>all other preparations</i>, not licensed for use in treatment of infantile acne.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid contact with broken skin",
+                "html": "Avoid contact with broken skin"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with eyes",
+                "html": "avoid contact with eyes"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with mouth",
+                "html": "avoid contact with mouth"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with mucous membranes",
+                "html": "avoid contact with mucous membranes"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid excessive exposure to sunlight",
+                "html": "avoid excessive exposure to sunlight"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Skin irritation",
+                        "html": "Skin irritation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Skin irritation",
+                "textContent": "Reduce frequency or suspend use until irritation subsides and re-introduce at reduced frequency.",
+                "html": "<p>Reduce frequency or suspend use until irritation subsides and re-introduce at reduced frequency.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "May bleach fabrics and hair.",
+                "html": "<p>May bleach fabrics and hair.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76094",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76084",
+                "label": "Gel",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76079",
+                "label": "Wash",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP88050",
+                "label": "BENZOYL PEROXIDE WITH CLINDAMYCIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP97006",
+                "label": "ADAPALENE WITH BENZOYL PEROXIDE",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78307",
+                "label": "Rosacea and Acne",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76094",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76084",
+                "label": "Gel",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76079",
+                "label": "Wash",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

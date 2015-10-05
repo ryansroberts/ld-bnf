@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP75197\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/triamterene/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">14</ph> - This medicine may colour your urine. This is harmless </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Triamterene 50mg capsules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">22105811000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Triamterene 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;41.90</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;41.90</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Triamterene 50mg capsules <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">22450311000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Triamterene 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;41.90</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;41.90</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP827\" title=\"TRIAMTERENE\" namespace=\"/drugs/triamterene\">TRIAMTERENE</xref>\n</parents>\n</topic>",
+    "id": "PHP75197",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/triamterene/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "14",
+            "textContent": "This medicine may colour your urine. This is harmless",
+            "html": "Label <ph outputclass=\"labelNumber\">14</ph> - This medicine may colour your urine. This is harmless"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Triamterene 50mg capsules (AMCo) ",
+            "header": "Triamterene 50mg capsules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Triamterene 50mg capsules",
+            "ampid": "22105811000001107",
+            "strengthOfActiveIngredient": "Triamterene 50 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;41.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;41.90</ph>",
+                        "nhsIndicativePrice": "&#163;41.90"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;41.90 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;41.90</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;41.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Triamterene 50mg capsules (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Triamterene 50mg capsules <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Triamterene 50mg capsules",
+            "ampid": "22450311000001100",
+            "strengthOfActiveIngredient": "Triamterene 50 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;41.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;41.90</ph>",
+                        "nhsIndicativePrice": "&#163;41.90"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;41.90 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;41.90</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;41.90"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP827",
+        "label": "TRIAMTERENE"
+    }
+}

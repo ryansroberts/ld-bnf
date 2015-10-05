@@ -1,0 +1,742 @@
+{
+    "xml": "<topic id=\"PHP3250\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/rivastigmine\" basename=\"rivastigmine\" title=\"RIVASTIGMINE\">\n<title>RIVASTIGMINE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_849\" namespace=\"/interactions/list-of-drug-interactions/parasympathomimetics/rivastigmine\">Rivastigmine</xref>\n</p>\n<data name=\"vtmid\">323368009</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_126257276\" title=\"Anticholinesterases\">Anticholinesterases</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP67849\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/rivastigmine\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Rivastigmine is a reversible non-competitive inhibitor of acetylcholinesterases.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67811\" outputclass=\"indicationsAndDose\" rev=\"1.31\" parent=\"/drugs/rivastigmine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mild to moderate dementia in Alzheimer's disease</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1.5&#8239;mg twice daily, increased in steps of 1.5&#8239;mg twice daily, dose to be increased at intervals of at least 2 weeks according to response and tolerance; usual dose 3&#8211;6&#8239;mg twice daily (max. per dose 6&#8239;mg twice daily), if treatment interrupted for more than several days, retitrate from 1.5&#8239;mg twice daily.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By transdermal application using patches</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 4.6&#8239;mg/24 hours daily for at least 4 weeks, increased if tolerated to 9.5&#8239;mg/24 hours daily for a further 6 months, then increased if necessary to 13.3&#8239;mg/24 hours daily, increase to 13.3&#8239;mg/24 hours patch if well tolerated and cognitive deterioration or functional decline demonstrated; use caution in patients with body-weight less than 50&#8239;kg, if treatment interrupted for more than 3 days, retitrate from 4.6&#8239;mg/24 hours patch.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mild to moderate dementia in Parkinson's disease</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1.5&#8239;mg twice daily, increased in steps of 1.5&#8239;mg twice daily, dose to be increased at intervals of at least 2 weeks according to response and tolerance; usual dose 3&#8211;6&#8239;mg twice daily (max. per dose 6&#8239;mg twice daily), if treatment interrupted for more than several days, retitrate from 1.5&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>When switching from oral to transdermal therapy, patients taking 3&#8211;6&#8239;mg by mouth daily should initially switch to 4.6&#8239;mg/24&#8239;hours patch, then titrate as above. Patients taking 9&#8239;mg by mouth daily should switch to 9.5&#8239;mg/24 hours patch if oral dose stable and well tolerated; if oral dose not stable or well tolerated. patients should switch to 4.6&#8239;mg/24&#8239;hours patch, then titrate as above. Patients taking 12&#8239;mg by mouth daily should switch to 9.5&#8239;mg/24 hours patch. The first patch should be applied on the day following the last oral dose </p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67879\" outputclass=\"cautions\" rev=\"1.12\" parent=\"/drugs/rivastigmine\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Bladder outflow obstruction</ph>; <ph outputclass=\"caution\">conduction abnormalities</ph>; <ph outputclass=\"caution\">duodenal ulcers</ph>; <ph outputclass=\"caution\">gastric ulcers</ph>; <ph outputclass=\"caution\">history of asthma</ph>; <ph outputclass=\"caution\">history of chronic obstructive pulmonary disease</ph>; <ph outputclass=\"caution\">history of seizures</ph>; <ph outputclass=\"caution\">risk of fatal overdose with patch administration errors</ph>; <ph outputclass=\"caution\">sick sinus syndrome</ph>; <ph outputclass=\"caution\">susceptibility to ulcers</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67803\" outputclass=\"interactions\" rev=\"1.8\" parent=\"/drugs/rivastigmine\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (parasympathomimetics).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67765\" outputclass=\"sideEffects\" rev=\"1.20\" parent=\"/drugs/rivastigmine\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain</ph>; <ph outputclass=\"sideEffect\">agitation</ph>; <ph outputclass=\"sideEffect\">anorexia</ph>; <ph outputclass=\"sideEffect\">anxiety</ph>; <ph outputclass=\"sideEffect\">bradycardia</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">extrapyramidal symptoms</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">increased salivation</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">sweating</ph>; <ph outputclass=\"sideEffect\">tremor</ph>; <ph outputclass=\"sideEffect\">urinary incontinence</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>; <ph outputclass=\"sideEffect\">weight loss</ph>; <ph outputclass=\"sideEffect\">worsening of Parkinson&#8217;s disease</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Atrial fibrillation</ph>; <ph outputclass=\"sideEffect\">AV block</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">syncope</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Angina</ph>; <ph outputclass=\"sideEffect\">duodenal ulceration</ph>; <ph outputclass=\"sideEffect\">gastric ulceration</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">seizures</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Gastro-intestinal haemorrhage</ph>; <ph outputclass=\"sideEffect\">hallucinations</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">pancreatitis</ph>; <ph outputclass=\"sideEffect\">tachycardia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Aggression</ph>; <ph outputclass=\"sideEffect\">dehydration</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">restlessness</ph>; <ph outputclass=\"sideEffect\">sick sinus syndrome</ph>; <ph outputclass=\"sideEffect\">skin hypersensitivity reactions</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p>Transdermal administration less likely to cause gastro-intestinal disturbance.</p>\n<p>Treatment should be interrupted if gastro-intestinal side-effects occur and withheld until their resolution&#8212;retitrate dose if necessary.</p>\n<p>Acetylcholinesterase inhibitors can cause unwanted dose-related cholinergic effects and should be started at a low dose and the dose increased according to response and tolerability.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67837\" outputclass=\"hepaticImpairment\" parent=\"/drugs/rivastigmine\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Titrate according to individual tolerability in mild to moderate impairment.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution in severe impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67779\" outputclass=\"renalImpairment\" parent=\"/drugs/rivastigmine\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Titrate according to individual tolerability.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67724\" outputclass=\"monitoringRequirements\" parent=\"/drugs/rivastigmine\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor body-weight.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67900\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/drugs/rivastigmine\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">transdermal</ph> use</p>\n<p>Apply patches to clean, dry, non-hairy, non-irritated skin on back, upper arm, or chest, removing after 24 hours and siting a replacement patch on a different area (avoid using the same area for 14 days).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67698\" outputclass=\"nationalFunding\" rev=\"1.28\" parent=\"/drugs/rivastigmine\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA217</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Donepezil, galantamine, rivastigmine, and memantine for the treatment of Alzheimer's disease (March 2011)</p>\r\n<p>Rivastigmine can be used for the treatment of mild to moderate Alzheimer&#8217;s disease. Treatment should only be prescribed under the following conditions:</p>\r\n<ul>\r\n<li>Alzheimer's disease must be diagnosed and treatment initiated by a specialist; treatment can be continued by general practitioners under a shared-care protocol;</li>\r\n<li>the carer's view of the condition should be sought before and during treatment;</li>\r\n<li>treatment should continue only if it is considered to have a worthwhile effect on cognitive, global, functional, or behavioural symptoms.</li>\r\n</ul>\r\n<p>Healthcare professionals should not rely solely on assessment scales to determine the severity of Alzheimer&#8217;s disease when the patient has learning or other disabilities, or other communication difficulties.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA217\">www.nice.org.uk/TA217</xref>\n</sectiondiv>\n</sectiondiv>\r\n </section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP3250-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/rivastigmine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76526\" title=\"Capsule\" namespace=\"/drugs/rivastigmine/capsule\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76533\" title=\"Oral solution\" namespace=\"/drugs/rivastigmine/oral-solution\">Oral solution</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76540\" title=\"Transdermal patch\" namespace=\"/drugs/rivastigmine/transdermal-patch\">Transdermal patch</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78170\" namespace=\"/treatment-summaries/dementia\" title=\"Dementia\" count=\"1\" rel=\"backlink\">Dementia</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_849\" namespace=\"/interactions/list-of-drug-interactions/parasympathomimetics/rivastigmine\" title=\"Rivastigmine\" count=\"1\" rel=\"link\">Rivastigmine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76526\" namespace=\"/drugs/rivastigmine/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76533\" namespace=\"/drugs/rivastigmine/oral-solution\" title=\"Oral solution\" count=\"1\" rel=\"link\">Oral solution</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76540\" namespace=\"/drugs/rivastigmine/transdermal-patch\" title=\"Transdermal patch\" count=\"1\" rel=\"link\">Transdermal patch</xref>\n</links>\n</topic>",
+    "id": "PHP3250",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/rivastigmine",
+    "basename": "rivastigmine",
+    "title": "RIVASTIGMINE",
+    "interactants": [
+        {
+            "id": "bnf_int_849",
+            "label": "Rivastigmine"
+        }
+    ],
+    "vtmid": "323368009",
+    "drugClassification": [
+        "Anticholinesterases"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Rivastigmine is a reversible non-competitive inhibitor of acetylcholinesterases.",
+                "html": "<p>Rivastigmine is a reversible non-competitive inhibitor of acetylcholinesterases.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mild to moderate dementia in Alzheimer's disease",
+                        "html": "Mild to moderate dementia in Alzheimer's disease"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application using patches"
+                    ],
+                    "textContent": "By transdermal application using patches",
+                    "html": "By transdermal application using patches"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 1.5 mg twice daily, increased in steps of 1.5 mg twice daily, dose to be increased at intervals of at least 2 weeks according to response and tolerance; usual dose 3&#8211;6 mg twice daily (max. per dose 6 mg twice daily), if treatment interrupted for more than several days, retitrate from 1.5 mg twice daily.",
+                        "html": "<p>Initially 1.5&#8239;mg twice daily, increased in steps of 1.5&#8239;mg twice daily, dose to be increased at intervals of at least 2 weeks according to response and tolerance; usual dose 3&#8211;6&#8239;mg twice daily (max. per dose 6&#8239;mg twice daily), if treatment interrupted for more than several days, retitrate from 1.5&#8239;mg twice daily.</p>"
+                    },
+                    {
+                        "textContent": "Apply 4.6 mg/24 hours daily for at least 4 weeks, increased if tolerated to 9.5 mg/24 hours daily for a further 6 months, then increased if necessary to 13.3 mg/24 hours daily, increase to 13.3 mg/24 hours patch if well tolerated and cognitive deterioration or functional decline demonstrated; use caution in patients with body-weight less than 50 kg, if treatment interrupted for more than 3 days, retitrate from 4.6 mg/24 hours patch.",
+                        "html": "<p>Apply 4.6&#8239;mg/24 hours daily for at least 4 weeks, increased if tolerated to 9.5&#8239;mg/24 hours daily for a further 6 months, then increased if necessary to 13.3&#8239;mg/24 hours daily, increase to 13.3&#8239;mg/24 hours patch if well tolerated and cognitive deterioration or functional decline demonstrated; use caution in patients with body-weight less than 50&#8239;kg, if treatment interrupted for more than 3 days, retitrate from 4.6&#8239;mg/24 hours patch.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Mild to moderate dementia in Parkinson's disease",
+                        "html": "Mild to moderate dementia in Parkinson's disease"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 1.5 mg twice daily, increased in steps of 1.5 mg twice daily, dose to be increased at intervals of at least 2 weeks according to response and tolerance; usual dose 3&#8211;6 mg twice daily (max. per dose 6 mg twice daily), if treatment interrupted for more than several days, retitrate from 1.5 mg twice daily.",
+                        "html": "<p>Initially 1.5&#8239;mg twice daily, increased in steps of 1.5&#8239;mg twice daily, dose to be increased at intervals of at least 2 weeks according to response and tolerance; usual dose 3&#8211;6&#8239;mg twice daily (max. per dose 6&#8239;mg twice daily), if treatment interrupted for more than several days, retitrate from 1.5&#8239;mg twice daily.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "When switching from oral to transdermal therapy, patients taking 3&#8211;6 mg by mouth daily should initially switch to 4.6 mg/24 hours patch, then titrate as above. Patients taking 9 mg by mouth daily should switch to 9.5 mg/24 hours patch if oral dose stable and well tolerated; if oral dose not stable or well tolerated. patients should switch to 4.6 mg/24 hours patch, then titrate as above. Patients taking 12 mg by mouth daily should switch to 9.5 mg/24 hours patch. The first patch should be applied on the day following the last oral dose",
+                "html": "<p>When switching from oral to transdermal therapy, patients taking 3&#8211;6&#8239;mg by mouth daily should initially switch to 4.6&#8239;mg/24&#8239;hours patch, then titrate as above. Patients taking 9&#8239;mg by mouth daily should switch to 9.5&#8239;mg/24 hours patch if oral dose stable and well tolerated; if oral dose not stable or well tolerated. patients should switch to 4.6&#8239;mg/24&#8239;hours patch, then titrate as above. Patients taking 12&#8239;mg by mouth daily should switch to 9.5&#8239;mg/24 hours patch. The first patch should be applied on the day following the last oral dose </p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Bladder outflow obstruction",
+                "html": "Bladder outflow obstruction"
+            },
+            {
+                "type": "cautions",
+                "textContent": "conduction abnormalities",
+                "html": "conduction abnormalities"
+            },
+            {
+                "type": "cautions",
+                "textContent": "duodenal ulcers",
+                "html": "duodenal ulcers"
+            },
+            {
+                "type": "cautions",
+                "textContent": "gastric ulcers",
+                "html": "gastric ulcers"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of asthma",
+                "html": "history of asthma"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of chronic obstructive pulmonary disease",
+                "html": "history of chronic obstructive pulmonary disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of seizures",
+                "html": "history of seizures"
+            },
+            {
+                "type": "cautions",
+                "textContent": "risk of fatal overdose with patch administration errors",
+                "html": "risk of fatal overdose with patch administration errors"
+            },
+            {
+                "type": "cautions",
+                "textContent": "sick sinus syndrome",
+                "html": "sick sinus syndrome"
+            },
+            {
+                "type": "cautions",
+                "textContent": "susceptibility to ulcers",
+                "html": "susceptibility to ulcers"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (parasympathomimetics).",
+                "html": "<p>Appendix 1 (parasympathomimetics).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain",
+                        "html": "Abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "agitation",
+                        "html": "agitation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anorexia",
+                        "html": "anorexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "anxiety",
+                        "html": "anxiety",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "bradycardia",
+                        "html": "bradycardia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "extrapyramidal symptoms",
+                        "html": "extrapyramidal symptoms",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "increased salivation",
+                        "html": "increased salivation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sweating",
+                        "html": "sweating",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "urinary incontinence",
+                        "html": "urinary incontinence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "weight loss",
+                        "html": "weight loss",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "worsening of Parkinson&#8217;s disease",
+                        "html": "worsening of Parkinson&#8217;s disease",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Atrial fibrillation",
+                        "html": "Atrial fibrillation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "AV block",
+                        "html": "AV block",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "syncope",
+                        "html": "syncope",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Angina",
+                        "html": "Angina",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "duodenal ulceration",
+                        "html": "duodenal ulceration",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "gastric ulceration",
+                        "html": "gastric ulceration",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "seizures",
+                        "html": "seizures",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Gastro-intestinal haemorrhage",
+                        "html": "Gastro-intestinal haemorrhage",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "hallucinations",
+                        "html": "hallucinations",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "pancreatitis",
+                        "html": "pancreatitis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Aggression",
+                        "html": "Aggression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dehydration",
+                        "html": "dehydration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "restlessness",
+                        "html": "restlessness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "sick sinus syndrome",
+                        "html": "sick sinus syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "skin hypersensitivity reactions",
+                        "html": "skin hypersensitivity reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "textContent": "Transdermal administration less likely to cause gastro-intestinal disturbance.\n\nTreatment should be interrupted if gastro-intestinal side-effects occur and withheld until their resolution&#8212;retitrate dose if necessary.\n\nAcetylcholinesterase inhibitors can cause unwanted dose-related cholinergic effects and should be started at a low dose and the dose increased according to response and tolerability.",
+                "html": "<p>Transdermal administration less likely to cause gastro-intestinal disturbance.</p><p>Treatment should be interrupted if gastro-intestinal side-effects occur and withheld until their resolution&#8212;retitrate dose if necessary.</p><p>Acetylcholinesterase inhibitors can cause unwanted dose-related cholinergic effects and should be started at a low dose and the dose increased according to response and tolerability.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Titrate according to individual tolerability in mild to moderate impairment.",
+                "html": "<p>Titrate according to individual tolerability in mild to moderate impairment.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution in severe impairment&#8212;no information available.",
+                "html": "<p>Use with caution in severe impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Titrate according to individual tolerability.",
+                "html": "<p>Titrate according to individual tolerability.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor body-weight.",
+                "html": "<p>Monitor body-weight.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With transdermal use",
+                    "html": "With <ph outputclass=\"route\">transdermal</ph> use",
+                    "routes": [
+                        "transdermal"
+                    ]
+                },
+                "textContent": "Apply patches to clean, dry, non-hairy, non-irritated skin on back, upper arm, or chest, removing after 24 hours and siting a replacement patch on a different area (avoid using the same area for 14 days).",
+                "html": "<p>Apply patches to clean, dry, non-hairy, non-irritated skin on back, upper arm, or chest, removing after 24 hours and siting a replacement patch on a different area (avoid using the same area for 14 days).</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA217",
+                        "label": "www.nice.org.uk/TA217"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA217",
+                "textContent": "Donepezil, galantamine, rivastigmine, and memantine for the treatment of Alzheimer's disease (March 2011) Rivastigmine can be used for the treatment of mild to moderate Alzheimer&#8217;s disease. Treatment should only be prescribed under the following conditions: Alzheimer's disease must be diagnosed and treatment initiated by a specialist; treatment can be continued by general practitioners under a shared-care protocol; the carer's view of the condition should be sought before and during treatment; treatment should continue only if it is considered to have a worthwhile effect on cognitive, global, functional, or behavioural symptoms. Healthcare professionals should not rely solely on assessment scales to determine the severity of Alzheimer&#8217;s disease when the patient has learning or other disabilities, or other communication difficulties.\n\nwww.nice.org.uk/TA217",
+                "html": "<p outputclass=\"title\">Donepezil, galantamine, rivastigmine, and memantine for the treatment of Alzheimer's disease (March 2011)</p> <p>Rivastigmine can be used for the treatment of mild to moderate Alzheimer&#8217;s disease. Treatment should only be prescribed under the following conditions:</p> <ul> <li>Alzheimer's disease must be diagnosed and treatment initiated by a specialist; treatment can be continued by general practitioners under a shared-care protocol;</li> <li>the carer's view of the condition should be sought before and during treatment;</li> <li>treatment should continue only if it is considered to have a worthwhile effect on cognitive, global, functional, or behavioural symptoms.</li> </ul> <p>Healthcare professionals should not rely solely on assessment scales to determine the severity of Alzheimer&#8217;s disease when the patient has learning or other disabilities, or other communication difficulties.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA217\">www.nice.org.uk/TA217</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76526",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76533",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76540",
+                "label": "Transdermal patch",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78170",
+                "label": "Dementia",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_849",
+                "label": "Rivastigmine",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76526",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76533",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76540",
+                "label": "Transdermal patch",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

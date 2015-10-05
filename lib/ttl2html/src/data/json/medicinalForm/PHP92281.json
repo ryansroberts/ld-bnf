@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP92281\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/metoclopramide-with-paracetamol/effervescent-powder\" basename=\"effervescent-powder\" title=\"Effervescent powder\">\n<title>Effervescent powder</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n<p>Label <ph outputclass=\"labelNumber\">17</ph> - Do not take more than . . . in 24 hours </p>\n<p>Label <ph outputclass=\"labelNumber\">30</ph> - Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Paramax sachets <ph outputclass=\"manufacturer\">(Zentiva)</ph>\n</title>\n<data name=\"ampid\">3254311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Metoclopramide hydrochloride 5&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">42</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.52</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.52</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85630\" title=\"METOCLOPRAMIDE WITH PARACETAMOL\" namespace=\"/drugs/metoclopramide-with-paracetamol\">METOCLOPRAMIDE WITH PARACETAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP92281",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/metoclopramide-with-paracetamol/effervescent-powder",
+    "basename": "effervescent-powder",
+    "form": "Effervescent powder",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "17",
+            "textContent": "Do not take more than . . . in 24 hours",
+            "html": "Label <ph outputclass=\"labelNumber\">17</ph> - Do not take more than . . . in 24 hours"
+        },
+        {
+            "number": "30",
+            "textContent": "Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well",
+            "html": "Label <ph outputclass=\"labelNumber\">30</ph> - Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well"
+        }
+    ],
+    "products": [
+        {
+            "title": "Paramax sachets (Zentiva) ",
+            "header": "Paramax sachets <ph outputclass=\"manufacturer\">(Zentiva)</ph>",
+            "manufacturer": "(Zentiva)",
+            "name": "Paramax sachets",
+            "ampid": "3254311000001101",
+            "strengthOfActiveIngredient": "Paracetamol 500 mg",
+            "packs": [
+                {
+                    "textContent": " 42 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">42</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "42",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.52 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.52</ph>",
+                        "nhsIndicativePrice": "&#163;12.52"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.52 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.52</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.52"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85630",
+        "label": "METOCLOPRAMIDE WITH PARACETAMOL"
+    }
+}

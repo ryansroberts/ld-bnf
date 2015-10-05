@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP97391\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/renagel\" basename=\"renagel\" title=\"Renagel\">\n<title>Renagel<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP97429\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/clinical-medicinal-product-information/renagel\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hyperphosphataemia in patients on haemodialysis or peritoneal dialysis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 2.4&#8211;4.8&#8239;g daily in 3 divided doses, dose to be given with meals and adjusted according to serum-phosphate concentration; usual dose 2.4&#8211;12&#8239;g daily in 3 divided doses.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP97480\" outputclass=\"sideEffects\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/renagel\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Diverticulitis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP97470\" outputclass=\"breastFeeding\" parent=\"/clinical-medicinal-product-information/renagel\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises use only if potential benefit outweighs risk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP97391",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/renagel",
+    "basename": "renagel",
+    "title": "Renagel",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hyperphosphataemia in patients on haemodialysis or peritoneal dialysis",
+                        "html": "Hyperphosphataemia in patients on haemodialysis or peritoneal dialysis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 2.4&#8211;4.8 g daily in 3 divided doses, dose to be given with meals and adjusted according to serum-phosphate concentration; usual dose 2.4&#8211;12 g daily in 3 divided doses.",
+                        "html": "<p>Initially 2.4&#8211;4.8&#8239;g daily in 3 divided doses, dose to be given with meals and adjusted according to serum-phosphate concentration; usual dose 2.4&#8211;12&#8239;g daily in 3 divided doses.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Diverticulitis",
+                        "html": "Diverticulitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises use only if potential benefit outweighs risk.",
+                "html": "<p>Manufacturer advises use only if potential benefit outweighs risk.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

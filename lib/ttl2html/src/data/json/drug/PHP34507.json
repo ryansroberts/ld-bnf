@@ -1,0 +1,149 @@
+{
+    "xml": "<topic id=\"PHP34507\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/nonoxinol\" basename=\"nonoxinol\" title=\"NONOXINOL\">\n<title>NONOXINOL</title>\n<body>\n<data name=\"vtmid\">326454008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_572288991\" title=\"Spermicidals\">Spermicidals</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP62791\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/nonoxinol\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Spermicidal contraceptive in conjunction with barrier methods of contraception such as diaphragms or caps</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By vagina</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Females of childbearing potential</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62760\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drugs/nonoxinol\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Genital lesions</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Genital lesions</p>\n<p>High frequency use of the spermicide nonoxinol '9' has been associated with genital lesions, which may increase the risk of acquiring these infections.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62830\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/nonoxinol\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>No evidence of harm to latex condoms and diaphragms.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62782\" outputclass=\"pregnancy\" parent=\"/drugs/nonoxinol\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Toxicity in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62839\" outputclass=\"breastFeeding\" parent=\"/drugs/nonoxinol\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP34507-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/nonoxinol\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92177\" title=\"Gel\" namespace=\"/drugs/nonoxinol/gel\">Gel</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78468\" namespace=\"/treatment-summaries/contraceptives-non-hormonal\" title=\"Contraceptives, non-hormonal\" count=\"1\" rel=\"backlink\">Contraceptives, non-hormonal</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92177\" namespace=\"/drugs/nonoxinol/gel\" title=\"Gel\" count=\"1\" rel=\"link\">Gel</xref>\n</links>\n</topic>",
+    "id": "PHP34507",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/nonoxinol",
+    "basename": "nonoxinol",
+    "title": "NONOXINOL",
+    "vtmid": "326454008",
+    "drugClassification": [
+        "Spermicidals"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Spermicidal contraceptive in conjunction with barrier methods of contraception such as diaphragms or caps",
+                        "html": "Spermicidal contraceptive in conjunction with barrier methods of contraception such as diaphragms or caps"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "vagina"
+                    ],
+                    "textContent": "By vagina",
+                    "html": "By vagina"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>",
+                        "ageGroup": "females of childbearing potential"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Genital lesions",
+                        "html": "Genital lesions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Genital lesions",
+                "textContent": "High frequency use of the spermicide nonoxinol '9' has been associated with genital lesions, which may increase the risk of acquiring these infections.",
+                "html": "<p>High frequency use of the spermicide nonoxinol '9' has been associated with genital lesions, which may increase the risk of acquiring these infections.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "No evidence of harm to latex condoms and diaphragms.",
+                "html": "<p>No evidence of harm to latex condoms and diaphragms.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Toxicity in animal studies.",
+                "html": "<p>Toxicity in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk in animal studies.",
+                "html": "<p>Present in milk in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92177",
+                "label": "Gel",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78468",
+                "label": "Contraceptives, non-hormonal",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92177",
+                "label": "Gel",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

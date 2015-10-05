@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP78060\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/isotard\" basename=\"isotard\" title=\"Isotard\">\n<title>Isotard<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP62562\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/isotard\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of angina</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>25&#8211;60&#8239;mg daily, if headaches occur with 60&#8239;mg tablet, half a 60&#8239;mg tablet may be given for 2&#8211;4 days, then increased if necessary to 50&#8211;120&#8239;mg daily, to be taken in the morning.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78060",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/isotard",
+    "basename": "isotard",
+    "title": "Isotard",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of angina",
+                        "html": "Prophylaxis of angina"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "25&#8211;60 mg daily, if headaches occur with 60 mg tablet, half a 60 mg tablet may be given for 2&#8211;4 days, then increased if necessary to 50&#8211;120 mg daily, to be taken in the morning.",
+                        "html": "<p>25&#8211;60&#8239;mg daily, if headaches occur with 60&#8239;mg tablet, half a 60&#8239;mg tablet may be given for 2&#8211;4 days, then increased if necessary to 50&#8211;120&#8239;mg daily, to be taken in the morning.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "xml": "<topic id=\"PHP88068\" outputclass=\"drug\" rev=\"1.25\" type=\"drug\" namespace=\"/drugs/glycopyrronium-bromide-with-neostigmine\" basename=\"glycopyrronium-bromide-with-neostigmine\" title=\"GLYCOPYRRONIUM BROMIDE WITH NEOSTIGMINE\">\n<title>GLYCOPYRRONIUM BROMIDE WITH NEOSTIGMINE </title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_976\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/glycopyrronium\">Glycopyrronium</xref>, <xref format=\"dita\" href=\"#bnf_int_647\" namespace=\"/interactions/list-of-drug-interactions/parasympathomimetics/neostigmine\">Neostigmine</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP8204\" namespace=\"/drugs/glycopyrronium-bromide\">glycopyrronium bromide</xref>, <xref format=\"dita\" href=\"#PHP6699\" namespace=\"/drugs/neostigmine\">neostigmine</xref>.</p>\n<data name=\"vtmid\">398839008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_567112641\" title=\"Antimuscarinics\">Antimuscarinics</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_126257276\" title=\"Anticholinesterases\">Anticholinesterases</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP90411\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/glycopyrronium-bromide-with-neostigmine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Reversal of non-depolarising neuromuscular blockade</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;2&#8239;mL, repeated if necessary, alternatively 0.02&#8239;mL/kilogram (max. per dose 2&#8239;mL), repeated if necessary, dose to be given over 10&#8211;30 seconds.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88068-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/glycopyrronium-bromide-with-neostigmine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92397\" title=\"Solution for injection\" namespace=\"/drugs/glycopyrronium-bromide-with-neostigmine/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_976\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/glycopyrronium\" title=\"Glycopyrronium\" count=\"1\" rel=\"link\">Glycopyrronium</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_647\" namespace=\"/interactions/list-of-drug-interactions/parasympathomimetics/neostigmine\" title=\"Neostigmine\" count=\"1\" rel=\"link\">Neostigmine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8204\" namespace=\"/drugs/glycopyrronium-bromide\" title=\"GLYCOPYRRONIUM BROMIDE\" count=\"1\" rel=\"link\">GLYCOPYRRONIUM BROMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6699\" namespace=\"/drugs/neostigmine\" title=\"NEOSTIGMINE\" count=\"1\" rel=\"link\">NEOSTIGMINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92397\" namespace=\"/drugs/glycopyrronium-bromide-with-neostigmine/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP88068",
+    "outputclass": "drug",
+    "rev": "1.25",
+    "type": "drug",
+    "namespace": "/drugs/glycopyrronium-bromide-with-neostigmine",
+    "basename": "glycopyrronium-bromide-with-neostigmine",
+    "title": "GLYCOPYRRONIUM BROMIDE WITH NEOSTIGMINE",
+    "interactants": [
+        {
+            "id": "bnf_int_976",
+            "label": "Glycopyrronium"
+        },
+        {
+            "id": "bnf_int_647",
+            "label": "Neostigmine"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP8204",
+            "label": "glycopyrronium bromide"
+        },
+        {
+            "id": "PHP6699",
+            "label": "neostigmine"
+        }
+    ],
+    "vtmid": "398839008",
+    "drugClassification": [
+        "Antimuscarinics",
+        "Anticholinesterases"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Reversal of non-depolarising neuromuscular blockade",
+                        "html": "Reversal of non-depolarising neuromuscular blockade"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous injection"
+                    ],
+                    "textContent": "By intravenous injection",
+                    "html": "By intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;2 mL, repeated if necessary, alternatively 0.02 mL/kilogram (max. per dose 2 mL), repeated if necessary, dose to be given over 10&#8211;30 seconds.",
+                        "html": "<p>1&#8211;2&#8239;mL, repeated if necessary, alternatively 0.02&#8239;mL/kilogram (max. per dose 2&#8239;mL), repeated if necessary, dose to be given over 10&#8211;30 seconds.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92397",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_976",
+                "label": "Glycopyrronium",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_647",
+                "label": "Neostigmine",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP8204",
+                "label": "GLYCOPYRRONIUM BROMIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP6699",
+                "label": "NEOSTIGMINE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92397",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

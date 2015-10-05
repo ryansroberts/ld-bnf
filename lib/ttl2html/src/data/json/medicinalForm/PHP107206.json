@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP107206\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/calcium-carbonate-with-colecalciferol-and-risedronate/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Actonel Combi 35mg tablets and 1000mg/880unit effervescent granules sachets <ph outputclass=\"manufacturer\">(Warner Chilcott UK Ltd)</ph>\n</title>\n<data name=\"ampid\">13208811000001109</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">week supply</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.12</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP98622\" title=\"CALCIUM CARBONATE WITH COLECALCIFEROL AND RISEDRONATE\" namespace=\"/drugs/calcium-carbonate-with-colecalciferol-and-risedronate\">CALCIUM CARBONATE WITH COLECALCIFEROL AND RISEDRONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP107206",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/calcium-carbonate-with-colecalciferol-and-risedronate/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Actonel Combi 35mg tablets and 1000mg/880unit effervescent granules sachets (Warner Chilcott UK Ltd) ",
+            "header": "Actonel Combi 35mg tablets and 1000mg/880unit effervescent granules sachets <ph outputclass=\"manufacturer\">(Warner Chilcott UK Ltd)</ph>",
+            "manufacturer": "(Warner Chilcott UK Ltd)",
+            "name": "Actonel Combi 35mg tablets and 1000mg/880unit effervescent granules sachets",
+            "ampid": "13208811000001109",
+            "packs": [
+                {
+                    "textContent": " 4 week supply POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">week supply</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "week supply",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.12 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.12</ph>",
+                        "nhsIndicativePrice": "&#163;19.12"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP98622",
+        "label": "CALCIUM CARBONATE WITH COLECALCIFEROL AND RISEDRONATE"
+    }
+}

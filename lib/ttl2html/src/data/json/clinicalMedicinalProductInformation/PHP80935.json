@@ -1,0 +1,45 @@
+{
+    "xml": "<topic id=\"PHP80935\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/vaqta-paediatric\" basename=\"vaqta-paediatric\" title=\"Vaqta paediatric\">\n<title>Vaqta<tm tmtype=\"reg\"/> paediatric</title>\n<topic id=\"PHP81396\" outputclass=\"indicationsAndDose\" rev=\"1.26\" parent=\"/clinical-medicinal-product-information/vaqta-paediatric\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Immunisation against hepatitis A infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;17 years</p>\n<p>Initially 0.5&#8239;mL for 1 dose, then 0.5&#8239;mL after 6&#8211;18&#8239;months, dose given as booster, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders (but immune response may be reduced).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80935",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/vaqta-paediatric",
+    "basename": "vaqta-paediatric",
+    "title": "Vaqta paediatric",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Immunisation against hepatitis A infection",
+                        "html": "Immunisation against hepatitis A infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 0.5 mL for 1 dose, then 0.5 mL after 6&#8211;18 months, dose given as booster, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders (but immune response may be reduced).",
+                        "html": "<p>Initially 0.5&#8239;mL for 1 dose, then 0.5&#8239;mL after 6&#8211;18&#8239;months, dose given as booster, the deltoid region is the preferred site of injection. The subcutaneous route may be used for patients with bleeding disorders (but immune response may be reduced).</p>",
+                        "ageGroup": "1&#8211;17 years"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

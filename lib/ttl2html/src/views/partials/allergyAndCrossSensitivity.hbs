@@ -1,0 +1,11 @@
+{{#if allergyAndCrossSensitivity.contraindications }}
+  {{#each allergyAndCrossSensitivity.contraindications }}
+    {{> advice }}
+  {{/each }}
+{{/if }}
+
+{{#if allergyAndCrossSensitivity.crossSensitivity }}
+  {{#each allergyAndCrossSensitivity.crossSensitivity }}
+    {{> advice }}
+  {{/each }}
+{{/if }}

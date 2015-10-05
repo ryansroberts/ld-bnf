@@ -1,0 +1,106 @@
+{
+    "xml": "<topic id=\"PHP74897\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/metronidazole/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Benzyl alcohol, isopropyl palmitate, propylene glycol</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81719\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/rosiced\">Rosiced<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP81720\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/rozex-cream\">Rozex<tm tmtype=\"reg\"/> cream</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Rosiced 0.75% cream <ph outputclass=\"manufacturer\">(Pierre Fabre Dermo-Cosmetique)</ph>\n</title>\n<data name=\"ampid\">14189411000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Metronidazole 7.5&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.50</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;6.60</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Rozex 0.75% cream <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">2840411000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Metronidazole 7.5&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.60</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;6.60</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">40</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.88</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;9.88</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3647\" title=\"METRONIDAZOLE\" namespace=\"/drugs/metronidazole\">METRONIDAZOLE</xref>\n</parents>\n</topic>",
+    "id": "PHP74897",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/metronidazole/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "excipients": [
+        "Benzyl alcohol",
+        "isopropyl palmitate",
+        "propylene glycol"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81719",
+            "label": "Rosiced&reg;  ",
+            "html": "Rosiced<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP81720",
+            "label": "Rozex&reg;  cream",
+            "html": "Rozex<tm tmtype=\"reg\"/> cream"
+        }
+    ],
+    "products": [
+        {
+            "title": "Rosiced 0.75% cream (Pierre Fabre Dermo-Cosmetique) ",
+            "header": "Rosiced 0.75% cream <ph outputclass=\"manufacturer\">(Pierre Fabre Dermo-Cosmetique)</ph>",
+            "manufacturer": "(Pierre Fabre Dermo-Cosmetique)",
+            "name": "Rosiced 0.75% cream",
+            "ampid": "14189411000001103",
+            "strengthOfActiveIngredient": "Metronidazole 7.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.50</ph>",
+                        "nhsIndicativePrice": "&#163;7.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;6.60 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;6.60</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;6.60"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Rozex 0.75% cream (Galderma (UK) Ltd) ",
+            "header": "Rozex 0.75% cream <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>",
+            "manufacturer": "(Galderma (UK) Ltd)",
+            "name": "Rozex 0.75% cream",
+            "ampid": "2840411000001103",
+            "strengthOfActiveIngredient": "Metronidazole 7.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.60</ph>",
+                        "nhsIndicativePrice": "&#163;6.60"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;6.60 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;6.60</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;6.60"
+                    }
+                },
+                {
+                    "textContent": " 40 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">40</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "40",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.88 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.88</ph>",
+                        "nhsIndicativePrice": "&#163;9.88"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;9.88 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;9.88</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;9.88"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3647",
+        "label": "METRONIDAZOLE"
+    }
+}

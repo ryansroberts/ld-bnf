@@ -1,0 +1,542 @@
+{
+    "xml": "<topic id=\"PHP4190\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/liraglutide\" basename=\"liraglutide\" title=\"LIRAGLUTIDE\">\n<title>LIRAGLUTIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1157\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/liraglutide\">Liraglutide</xref>\n</p>\n<data name=\"vtmid\">444907006</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_798882457\" title=\"Glucagon-like peptide-1 receptor agonists\">Glucagon-like peptide-1 receptor agonists</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP44803\" outputclass=\"drugAction\" rev=\"1.10\" parent=\"/drugs/liraglutide\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Binds to, and activates, the GLP-1 (glucagon-like peptide-1) receptor to increase insulin secretion, suppresses glucagon secretion, and slows gastric emptying.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44751\" outputclass=\"indicationsAndDose\" rev=\"1.28\" parent=\"/drugs/liraglutide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Type 2 diabetes mellitus in combination with metformin or a sulfonylurea, or both, in patients who have not achieved adequate glycaemic control with these drugs alone or in combination</p>\n<p outputclass=\"therapeuticIndication\">Type 2 diabetes mellitus in combination with basal insulin or both metformin and pioglitazone when dual therapy with these drugs fails to achieve adequate glycaemic control</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 0.6&#8239;mg once daily for at least 1 week, then increased to 1.2&#8239;mg once daily for at least 1 week, then increased if necessary up to 1.8&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseAdjustments\">\n<title>Dose adjustments due to interactions</title>\n<sectiondiv>\n<p>Dose of concomitant insulin or sulfonylurea may need to be reduced.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44827\" outputclass=\"contraindications\" rev=\"1.15\" parent=\"/drugs/liraglutide\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Diabetic gastroparesis</ph>; <ph outputclass=\"contraindication\">inflammatory bowel disease</ph>; <ph outputclass=\"contraindication\">ketoacidosis</ph>; <ph outputclass=\"contraindication\">moderate to severe congestive heart failure&#8212;no information available</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44858\" outputclass=\"cautions\" rev=\"1.37\" parent=\"/drugs/liraglutide\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Asymptomatic left ventricular dysfunction</ph>; <ph outputclass=\"caution\">history of pancreatitis</ph>; <ph outputclass=\"caution\">mild congestive heart failure&#8212;limited experience</ph>; <ph outputclass=\"caution\">thyroid disease</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44746\" outputclass=\"interactions\" rev=\"1.13\" parent=\"/drugs/liraglutide\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (antidiabetics).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44716\" outputclass=\"sideEffects\" rev=\"1.25\" parent=\"/drugs/liraglutide\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal pain and distension</ph>; <ph outputclass=\"sideEffect\">bronchitis</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">decreased appetite</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">gastritis</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">gastro-oesophageal reflux disease</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypoglycaemia</ph>; <ph outputclass=\"sideEffect\">injection site reactions</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">nasopharyngitis</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">tachycardia</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Acute renal failure</ph>; <ph outputclass=\"sideEffect\">dehydration</ph>; <ph outputclass=\"sideEffect\">renal impairment</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Acute pancreatitis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Goitre</ph>; <ph outputclass=\"sideEffect\">increased blood calcitonin</ph>; <ph outputclass=\"sideEffect\">thyroid neoplasm</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Pancreatitis</p>\n<p>Discontinue if symptoms of acute pancreatitis (persistent, severe abdominal pain).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44733\" outputclass=\"pregnancy\" parent=\"/drugs/liraglutide\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;toxicity in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44882\" outputclass=\"breastFeeding\" parent=\"/drugs/liraglutide\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44775\" outputclass=\"hepaticImpairment\" parent=\"/drugs/liraglutide\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid&#8212;limited experience.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44725\" outputclass=\"renalImpairment\" parent=\"/drugs/liraglutide\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44727\" outputclass=\"patientAndCarerAdvice\" rev=\"1.29\" parent=\"/drugs/liraglutide\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer liraglutide injection.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Acute pancreatitis</p>\n<p>Patients should be told how to recognise signs and symptoms of acute pancreatitis and advised to seek immediate medical attention if symptoms such as persistent, severe abdominal pain develop.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44668\" outputclass=\"nationalFunding\" rev=\"1.16\" parent=\"/drugs/liraglutide\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA203</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Liraglutide for the treatment of type 2 diabetes mellitus (October 2010)</p>\r\n<p>Liraglutide in triple therapy regimens (in combination with metformin and a sulfonylurea, or metformin and a thiazolidinedione) is recommended for the treatment of type 2 diabetes, only when glycaemic control is inadequate, and the patient has:</p>\r\n<ul>\r\n<li>a body mass index of 35&#8239;kg/m<sup>2</sup> or over and is of European descent (with appropriate adjustment for other ethnic groups) and weight-related psychological or medical problems, <i>or</i>\r\n</li>\r\n<li>a body mass index of less than 35&#8239;kg/m<sup>2</sup>, and insulin would be unacceptable for occupational reasons <i>or</i> weight loss would benefit other significant obesity-related comorbidities.</li>\r\n</ul>\r\n<p>Treatment with liraglutide in a triple therapy regimen should be continued only if HbA<sub>1c</sub> concentration is reduced by at least 1 percentage point and a weight loss of at least 3% is achieved within 6 months of starting treatment.</p>\r\n<p>Liraglutide in dual therapy regimens (in combination with metformin or a sulfonylurea) is recommended only if:</p>\r\n<ul>\r\n<li>treatment with metformin or a sulfonylurea is contraindicated or not tolerated, <i>and</i>\r\n</li>\r\n<li>treatment with thiazolidinediones and dipeptidylpeptidase-4 inhibitors is contra-indicated or not tolerated.</li>\r\n</ul>\r\n<p>Liraglutide, in combination with metformin or a sulfonylurea should be continued only if HbA<sub>1c</sub> concentration is reduced by at least 1 percentage point within 6 months of starting treatment.</p>\r\n<p>Liraglutide 1.8&#8239;mg daily is not recommended.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA203\">www.nice.org.uk/TA203</xref>\n</sectiondiv>\n</sectiondiv>\r\n </section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP4190-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/liraglutide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76080\" title=\"Solution for injection\" namespace=\"/drugs/liraglutide/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP101222\" namespace=\"/drugs/insulin-degludec-with-liraglutide\" title=\"INSULIN DEGLUDEC WITH LIRAGLUTIDE\" count=\"1\" rel=\"backlink\">INSULIN DEGLUDEC WITH LIRAGLUTIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78107\" namespace=\"/treatment-summaries/insulins-and-anti-diabetic-drugs\" title=\"Insulins and anti-diabetic drugs\" count=\"5\" rel=\"backlink\">Insulins and anti-diabetic drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1157\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/liraglutide\" title=\"Liraglutide\" count=\"1\" rel=\"link\">Liraglutide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76080\" namespace=\"/drugs/liraglutide/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP4190",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/liraglutide",
+    "basename": "liraglutide",
+    "title": "LIRAGLUTIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_1157",
+            "label": "Liraglutide"
+        }
+    ],
+    "vtmid": "444907006",
+    "drugClassification": [
+        "Glucagon-like peptide-1 receptor agonists"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Binds to, and activates, the GLP-1 (glucagon-like peptide-1) receptor to increase insulin secretion, suppresses glucagon secretion, and slows gastric emptying.",
+                "html": "<p>Binds to, and activates, the GLP-1 (glucagon-like peptide-1) receptor to increase insulin secretion, suppresses glucagon secretion, and slows gastric emptying.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Type 2 diabetes mellitus in combination with metformin or a sulfonylurea, or both, in patients who have not achieved adequate glycaemic control with these drugs alone or in combination",
+                        "html": "Type 2 diabetes mellitus in combination with metformin or a sulfonylurea, or both, in patients who have not achieved adequate glycaemic control with these drugs alone or in combination"
+                    },
+                    {
+                        "textContent": "Type 2 diabetes mellitus in combination with basal insulin or both metformin and pioglitazone when dual therapy with these drugs fails to achieve adequate glycaemic control",
+                        "html": "Type 2 diabetes mellitus in combination with basal insulin or both metformin and pioglitazone when dual therapy with these drugs fails to achieve adequate glycaemic control"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 0.6 mg once daily for at least 1 week, then increased to 1.2 mg once daily for at least 1 week, then increased if necessary up to 1.8 mg once daily.",
+                        "html": "<p>Initially 0.6&#8239;mg once daily for at least 1 week, then increased to 1.2&#8239;mg once daily for at least 1 week, then increased if necessary up to 1.8&#8239;mg once daily.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "title": "Dose adjustments due to interactions",
+                "textContent": "Dose of concomitant insulin or sulfonylurea may need to be reduced.",
+                "html": "<p>Dose of concomitant insulin or sulfonylurea may need to be reduced.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Diabetic gastroparesis",
+                "html": "Diabetic gastroparesis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "inflammatory bowel disease",
+                "html": "inflammatory bowel disease"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "ketoacidosis",
+                "html": "ketoacidosis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "moderate to severe congestive heart failure&#8212;no information available",
+                "html": "moderate to severe congestive heart failure&#8212;no information available"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Asymptomatic left ventricular dysfunction",
+                "html": "Asymptomatic left ventricular dysfunction"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of pancreatitis",
+                "html": "history of pancreatitis"
+            },
+            {
+                "type": "cautions",
+                "textContent": "mild congestive heart failure&#8212;limited experience",
+                "html": "mild congestive heart failure&#8212;limited experience"
+            },
+            {
+                "type": "cautions",
+                "textContent": "thyroid disease",
+                "html": "thyroid disease"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (antidiabetics).",
+                "html": "<p>Appendix 1 (antidiabetics).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abdominal pain and distension",
+                        "html": "Abdominal pain and distension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "bronchitis",
+                        "html": "bronchitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite",
+                        "html": "decreased appetite",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastritis",
+                        "html": "gastritis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastro-oesophageal reflux disease",
+                        "html": "gastro-oesophageal reflux disease",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypoglycaemia",
+                        "html": "hypoglycaemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "injection site reactions",
+                        "html": "injection site reactions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nasopharyngitis",
+                        "html": "nasopharyngitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Acute renal failure",
+                        "html": "Acute renal failure",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dehydration",
+                        "html": "dehydration",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "renal impairment",
+                        "html": "renal impairment",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Acute pancreatitis",
+                        "html": "Acute pancreatitis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Goitre",
+                        "html": "Goitre",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "increased blood calcitonin",
+                        "html": "increased blood calcitonin",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thyroid neoplasm",
+                        "html": "thyroid neoplasm",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Pancreatitis",
+                "textContent": "Discontinue if symptoms of acute pancreatitis (persistent, severe abdominal pain).",
+                "html": "<p>Discontinue if symptoms of acute pancreatitis (persistent, severe abdominal pain).</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;toxicity in animal studies.",
+                "html": "<p>Avoid&#8212;toxicity in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;no information available.",
+                "html": "<p>Avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid&#8212;limited experience.",
+                "html": "<p>Avoid&#8212;limited experience.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer liraglutide injection.",
+                "html": "<p>Patients or carers should be given advice on how to administer liraglutide injection.</p>"
+            },
+            {
+                "type": "generalPatientAdvice",
+                "title": "Acute pancreatitis",
+                "textContent": "Patients should be told how to recognise signs and symptoms of acute pancreatitis and advised to seek immediate medical attention if symptoms such as persistent, severe abdominal pain develop.",
+                "html": "<p>Patients should be told how to recognise signs and symptoms of acute pancreatitis and advised to seek immediate medical attention if symptoms such as persistent, severe abdominal pain develop.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA203",
+                        "label": "www.nice.org.uk/TA203"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA203",
+                "textContent": "Liraglutide for the treatment of type 2 diabetes mellitus (October 2010) Liraglutide in triple therapy regimens (in combination with metformin and a sulfonylurea, or metformin and a thiazolidinedione) is recommended for the treatment of type 2 diabetes, only when glycaemic control is inadequate, and the patient has: a body mass index of 35 kg/m2 or over and is of European descent (with appropriate adjustment for other ethnic groups) and weight-related psychological or medical problems, or a body mass index of less than 35 kg/m2, and insulin would be unacceptable for occupational reasons or weight loss would benefit other significant obesity-related comorbidities. Treatment with liraglutide in a triple therapy regimen should be continued only if HbA1c concentration is reduced by at least 1 percentage point and a weight loss of at least 3% is achieved within 6 months of starting treatment. Liraglutide in dual therapy regimens (in combination with metformin or a sulfonylurea) is recommended only if: treatment with metformin or a sulfonylurea is contraindicated or not tolerated, and treatment with thiazolidinediones and dipeptidylpeptidase-4 inhibitors is contra-indicated or not tolerated. Liraglutide, in combination with metformin or a sulfonylurea should be continued only if HbA1c concentration is reduced by at least 1 percentage point within 6 months of starting treatment. Liraglutide 1.8 mg daily is not recommended.\n\nwww.nice.org.uk/TA203",
+                "html": "<p outputclass=\"title\">Liraglutide for the treatment of type 2 diabetes mellitus (October 2010)</p> <p>Liraglutide in triple therapy regimens (in combination with metformin and a sulfonylurea, or metformin and a thiazolidinedione) is recommended for the treatment of type 2 diabetes, only when glycaemic control is inadequate, and the patient has:</p> <ul> <li>a body mass index of 35&#8239;kg/m<sup>2</sup> or over and is of European descent (with appropriate adjustment for other ethnic groups) and weight-related psychological or medical problems, <i>or</i> </li> <li>a body mass index of less than 35&#8239;kg/m<sup>2</sup>, and insulin would be unacceptable for occupational reasons <i>or</i> weight loss would benefit other significant obesity-related comorbidities.</li> </ul> <p>Treatment with liraglutide in a triple therapy regimen should be continued only if HbA<sub>1c</sub> concentration is reduced by at least 1 percentage point and a weight loss of at least 3% is achieved within 6 months of starting treatment.</p> <p>Liraglutide in dual therapy regimens (in combination with metformin or a sulfonylurea) is recommended only if:</p> <ul> <li>treatment with metformin or a sulfonylurea is contraindicated or not tolerated, <i>and</i> </li> <li>treatment with thiazolidinediones and dipeptidylpeptidase-4 inhibitors is contra-indicated or not tolerated.</li> </ul> <p>Liraglutide, in combination with metformin or a sulfonylurea should be continued only if HbA<sub>1c</sub> concentration is reduced by at least 1 percentage point within 6 months of starting treatment.</p> <p>Liraglutide 1.8&#8239;mg daily is not recommended.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA203\">www.nice.org.uk/TA203</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76080",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP101222",
+                "label": "INSULIN DEGLUDEC WITH LIRAGLUTIDE",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78107",
+                "label": "Insulins and anti-diabetic drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1157",
+                "label": "Liraglutide",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76080",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

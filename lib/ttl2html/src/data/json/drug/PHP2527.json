@@ -1,0 +1,710 @@
+{
+    "xml": "<topic id=\"PHP2527\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/promethazine-teoclate\" basename=\"promethazine-teoclate\" title=\"PROMETHAZINE TEOCLATE\">\n<title>PROMETHAZINE TEOCLATE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_325\" namespace=\"/interactions/list-of-drug-interactions/antihistamines/antihistamines-sedating/promethazine\">Promethazine</xref>\n</p>\n<data name=\"vtmid\">13868511000001100</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_225690438\" title=\"Antihistamines\">Antihistamines</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP74330\" outputclass=\"indicationsAndDose\" rev=\"1.23\" parent=\"/drugs/promethazine-teoclate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Nausea</p>\n<p outputclass=\"therapeuticIndication\">Vertigo</p>\n<p outputclass=\"therapeuticIndication\">Labyrinthine disorders</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;9 years</p>\n<p>12.5&#8211;37.5&#8239;mg daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 10&#8211;17 years</p>\n<p>25&#8211;75&#8239;mg daily; maximum 100&#8239;mg per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>25&#8211;75&#8239;mg daily; maximum 100&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Motion sickness prevention (acts longer than promethazine hydrochloride)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;9 years</p>\n<p>12.5&#8239;mg once daily, dose to be taken at bedtime on night before travel, alternatively 12.5&#8239;mg once daily, dose to be taken 1&#8211;2 hours before travel.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 10&#8211;17 years</p>\n<p>25&#8239;mg once daily, dose to be taken at bedtime on night before travel, alternatively 25&#8239;mg once daily, dose to be taken 1&#8211;2 hours before travel.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>25&#8239;mg once daily, dose to be taken at bedtime on night before travel, alternatively 25&#8239;mg once daily, dose to be taken 1&#8211;2 hours before travel.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Motion sickness treatment (acts longer than the hydrochloride)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;9 years</p>\n<p>12.5&#8239;mg, dose to be taken at onset of motion sickness, then 12.5&#8239;mg daily for 2 days, dose to be taken at bedtime.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 10&#8211;17 years</p>\n<p>25&#8239;mg, dose to be taken at onset of motion sickness, then 25&#8239;mg once daily for 2 days, dose to be taken at bedtime.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>25&#8239;mg, dose to be taken at onset of motion sickness, then 25&#8239;mg once daily for 2 days, dose to be taken at bedtime.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74374\" outputclass=\"importantSafetyInformation\" rev=\"1.8\" parent=\"/drugs/promethazine-teoclate\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">MHRA/CHM advice (March 2008 and February 2009) Over-the-counter cough and cold medicines for children</p>\n<p>Children under 6 years should not be given over-the-counter cough and cold medicines containing promethazine.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74386\" outputclass=\"contraindications\" rev=\"1.19\" parent=\"/drugs/promethazine-teoclate\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Neonate (due to significant antimuscarinic activity)</ph> (in neonates); <ph outputclass=\"contraindication\">should not be given to children under 2 years, except on specialist advice, because the safety of such use has not been established</ph> (in children)</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74398\" outputclass=\"cautions\" rev=\"1.30\" parent=\"/drugs/promethazine-teoclate\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"caution\">asthma</ph>; <ph outputclass=\"caution\">bronchiectasis</ph>; <ph outputclass=\"caution\">bronchitis</ph>; <ph outputclass=\"caution\">epilepsy</ph>; <ph outputclass=\"caution\">prostatic hypertrophy</ph> (in adults); <ph outputclass=\"caution\">pyloroduodenal obstruction</ph>; <ph outputclass=\"caution\">Reye's syndrome</ph>; <ph outputclass=\"caution\">severe coronary artery disease</ph>; <ph outputclass=\"caution\">susceptibility to angle-closure glaucoma</ph>; <ph outputclass=\"caution\">urinary retention</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP74324\" outputclass=\"interactions\" rev=\"1.11\" parent=\"/drugs/promethazine-teoclate\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (antihistamines).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74287\" outputclass=\"sideEffects\" rev=\"1.19\" parent=\"/drugs/promethazine-teoclate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<title>General side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anaphylaxis</ph>; <ph outputclass=\"sideEffect\">angioedema</ph>; <ph outputclass=\"sideEffect\">angle-closure glaucoma</ph>; <ph outputclass=\"sideEffect\">arrhythmias</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">bronchospasm</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">convulsions</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">extrapyramidal effects</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">liver dysfunction</ph>; <ph outputclass=\"sideEffect\">palpitation</ph>; <ph outputclass=\"sideEffect\">photosensitivity reactions</ph>; <ph outputclass=\"sideEffect\">rashes</ph>; <ph outputclass=\"sideEffect\">sleep disturbances</ph>; <ph outputclass=\"sideEffect\">tremor</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Antimuscarinic effects</ph>; <ph outputclass=\"sideEffect\">blurred vision</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">psychomotor impairment</ph>; <ph outputclass=\"sideEffect\">restlessness</ph>; <ph outputclass=\"sideEffect\">urinary retention</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"specificSideEffects\">\n<title>Specific side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intramuscular use</p>\n<p>\n<ph outputclass=\"sideEffect\">injection pain</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>Elderly patients are more susceptible to side-effects.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Children are more susceptible to side-effects.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely, especially with high doses or in children and the elderly. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely in children, especially with high doses. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74319\" outputclass=\"pregnancy\" parent=\"/drugs/promethazine-teoclate\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Most manufacturers of antihistamines advise avoiding their use during pregnancy; however, there is no evidence of teratogenicity.</p>\n<p>Use in the latter part of the third trimester may cause adverse effects in neonates such as irritability, paradoxical excitability, and tremor.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74406\" outputclass=\"breastFeeding\" parent=\"/drugs/promethazine-teoclate\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Most antihistamines are present in breast milk in varying amounts; although not known to be harmful, most manufacturers advise avoiding their use in mothers who are breast-feeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74355\" outputclass=\"hepaticImpairment\" parent=\"/drugs/promethazine-teoclate\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe liver disease&#8212;increased risk of coma.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74301\" outputclass=\"renalImpairment\" parent=\"/drugs/promethazine-teoclate\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP74309\" outputclass=\"patientAndCarerAdvice\" rev=\"1.12\" parent=\"/drugs/promethazine-teoclate\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p>Drowsiness may affect performance of skilled tasks (e.g. cycling or driving); sedating effects enhanced by alcohol.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP2527-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/promethazine-teoclate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77647\" title=\"Tablet\" namespace=\"/drugs/promethazine-teoclate/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78111\" namespace=\"/treatment-summaries/antihistamines-allergen-immunotherapy-and-allergic-emergencies\" title=\"Antihistamines, allergen immunotherapy and allergic emergencies\" count=\"1\" rel=\"backlink\">Antihistamines, allergen immunotherapy and allergic emergencies</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_325\" namespace=\"/interactions/list-of-drug-interactions/antihistamines/antihistamines-sedating/promethazine\" title=\"Promethazine\" count=\"1\" rel=\"link\">Promethazine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77647\" namespace=\"/drugs/promethazine-teoclate/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP2527",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/promethazine-teoclate",
+    "basename": "promethazine-teoclate",
+    "title": "PROMETHAZINE TEOCLATE",
+    "interactants": [
+        {
+            "id": "bnf_int_325",
+            "label": "Promethazine"
+        }
+    ],
+    "vtmid": "13868511000001100",
+    "drugClassification": [
+        "Antihistamines"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Nausea",
+                        "html": "Nausea"
+                    },
+                    {
+                        "textContent": "Vertigo",
+                        "html": "Vertigo"
+                    },
+                    {
+                        "textContent": "Labyrinthine disorders",
+                        "html": "Labyrinthine disorders"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "12.5&#8211;37.5 mg daily.",
+                        "html": "<p>12.5&#8211;37.5&#8239;mg daily.</p>",
+                        "ageGroup": "5&#8211;9 years"
+                    },
+                    {
+                        "textContent": "25&#8211;75 mg daily; maximum 100 mg per day.",
+                        "html": "<p>25&#8211;75&#8239;mg daily; maximum 100&#8239;mg per day.</p>",
+                        "ageGroup": "10&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "25&#8211;75 mg daily; maximum 100 mg per day.",
+                        "html": "<p>25&#8211;75&#8239;mg daily; maximum 100&#8239;mg per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Motion sickness prevention (acts longer than promethazine hydrochloride)",
+                        "html": "Motion sickness prevention (acts longer than promethazine hydrochloride)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "12.5 mg once daily, dose to be taken at bedtime on night before travel, alternatively 12.5 mg once daily, dose to be taken 1&#8211;2 hours before travel.",
+                        "html": "<p>12.5&#8239;mg once daily, dose to be taken at bedtime on night before travel, alternatively 12.5&#8239;mg once daily, dose to be taken 1&#8211;2 hours before travel.</p>",
+                        "ageGroup": "5&#8211;9 years"
+                    },
+                    {
+                        "textContent": "25 mg once daily, dose to be taken at bedtime on night before travel, alternatively 25 mg once daily, dose to be taken 1&#8211;2 hours before travel.",
+                        "html": "<p>25&#8239;mg once daily, dose to be taken at bedtime on night before travel, alternatively 25&#8239;mg once daily, dose to be taken 1&#8211;2 hours before travel.</p>",
+                        "ageGroup": "10&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "25 mg once daily, dose to be taken at bedtime on night before travel, alternatively 25 mg once daily, dose to be taken 1&#8211;2 hours before travel.",
+                        "html": "<p>25&#8239;mg once daily, dose to be taken at bedtime on night before travel, alternatively 25&#8239;mg once daily, dose to be taken 1&#8211;2 hours before travel.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Motion sickness treatment (acts longer than the hydrochloride)",
+                        "html": "Motion sickness treatment (acts longer than the hydrochloride)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "12.5 mg, dose to be taken at onset of motion sickness, then 12.5 mg daily for 2 days, dose to be taken at bedtime.",
+                        "html": "<p>12.5&#8239;mg, dose to be taken at onset of motion sickness, then 12.5&#8239;mg daily for 2 days, dose to be taken at bedtime.</p>",
+                        "ageGroup": "5&#8211;9 years"
+                    },
+                    {
+                        "textContent": "25 mg, dose to be taken at onset of motion sickness, then 25 mg once daily for 2 days, dose to be taken at bedtime.",
+                        "html": "<p>25&#8239;mg, dose to be taken at onset of motion sickness, then 25&#8239;mg once daily for 2 days, dose to be taken at bedtime.</p>",
+                        "ageGroup": "10&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "25 mg, dose to be taken at onset of motion sickness, then 25 mg once daily for 2 days, dose to be taken at bedtime.",
+                        "html": "<p>25&#8239;mg, dose to be taken at onset of motion sickness, then 25&#8239;mg once daily for 2 days, dose to be taken at bedtime.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "title": "MHRA/CHM advice (March 2008 and February 2009) Over-the-counter cough and cold medicines for children",
+                "textContent": "Children under 6 years should not be given over-the-counter cough and cold medicines containing promethazine.",
+                "html": "<p>Children under 6 years should not be given over-the-counter cough and cold medicines containing promethazine.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Neonate (due to significant antimuscarinic activity) in neonates",
+                "html": "Neonate (due to significant antimuscarinic activity) in neonates",
+                "specificity": {
+                    "patientType": "neonates"
+                }
+            },
+            {
+                "type": "contraindications",
+                "textContent": "should not be given to children under 2 years, except on specialist advice, because the safety of such use has not been established in children",
+                "html": "should not be given to children under 2 years, except on specialist advice, because the safety of such use has not been established in children",
+                "specificity": {
+                    "patientType": "children"
+                }
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautions",
+                "textContent": "asthma",
+                "html": "asthma"
+            },
+            {
+                "type": "cautions",
+                "textContent": "bronchiectasis",
+                "html": "bronchiectasis"
+            },
+            {
+                "type": "cautions",
+                "textContent": "bronchitis",
+                "html": "bronchitis"
+            },
+            {
+                "type": "cautions",
+                "textContent": "epilepsy",
+                "html": "epilepsy"
+            },
+            {
+                "type": "cautions",
+                "textContent": "prostatic hypertrophy in adults",
+                "html": "prostatic hypertrophy in adults",
+                "specificity": {
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "cautions",
+                "textContent": "pyloroduodenal obstruction",
+                "html": "pyloroduodenal obstruction"
+            },
+            {
+                "type": "cautions",
+                "textContent": "Reye's syndrome",
+                "html": "Reye's syndrome"
+            },
+            {
+                "type": "cautions",
+                "textContent": "severe coronary artery disease",
+                "html": "severe coronary artery disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "susceptibility to angle-closure glaucoma",
+                "html": "susceptibility to angle-closure glaucoma"
+            },
+            {
+                "type": "cautions",
+                "textContent": "urinary retention",
+                "html": "urinary retention"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (antihistamines).",
+                "html": "<p>Appendix 1 (antihistamines).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Anaphylaxis",
+                        "html": "Anaphylaxis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "angioedema",
+                        "html": "angioedema",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "angle-closure glaucoma",
+                        "html": "angle-closure glaucoma",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "arrhythmias",
+                        "html": "arrhythmias",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "bronchospasm",
+                        "html": "bronchospasm",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "convulsions",
+                        "html": "convulsions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "extrapyramidal effects",
+                        "html": "extrapyramidal effects",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "liver dysfunction",
+                        "html": "liver dysfunction",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "palpitation",
+                        "html": "palpitation",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "photosensitivity reactions",
+                        "html": "photosensitivity reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "rashes",
+                        "html": "rashes",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "sleep disturbances",
+                        "html": "sleep disturbances",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Antimuscarinic effects",
+                        "html": "Antimuscarinic effects",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "blurred vision",
+                        "html": "blurred vision",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "psychomotor impairment",
+                        "html": "psychomotor impairment",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "restlessness",
+                        "html": "restlessness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "urinary retention",
+                        "html": "urinary retention",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "specific": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "injection pain",
+                        "html": "injection pain",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With intramuscular use",
+                            "html": "With intramuscular use",
+                            "routes": [
+                                "intramuscular"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "Elderly patients are more susceptible to side-effects.",
+                "html": "<p>Elderly patients are more susceptible to side-effects.</p>"
+            },
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Children are more susceptible to side-effects.",
+                "html": "<p>Children are more susceptible to side-effects.</p>"
+            },
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely, especially with high doses or in children and the elderly. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.",
+                "html": "<p>Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely, especially with high doses or in children and the elderly. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.</p>"
+            },
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely in children, especially with high doses. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.",
+                "html": "<p>Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely in children, especially with high doses. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Most manufacturers of antihistamines advise avoiding their use during pregnancy; however, there is no evidence of teratogenicity.\n\nUse in the latter part of the third trimester may cause adverse effects in neonates such as irritability, paradoxical excitability, and tremor.",
+                "html": "<p>Most manufacturers of antihistamines advise avoiding their use during pregnancy; however, there is no evidence of teratogenicity.</p><p>Use in the latter part of the third trimester may cause adverse effects in neonates such as irritability, paradoxical excitability, and tremor.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Most antihistamines are present in breast milk in varying amounts; although not known to be harmful, most manufacturers advise avoiding their use in mothers who are breast-feeding.",
+                "html": "<p>Most antihistamines are present in breast milk in varying amounts; although not known to be harmful, most manufacturers advise avoiding their use in mothers who are breast-feeding.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe liver disease&#8212;increased risk of coma.",
+                "html": "<p>Avoid in severe liver disease&#8212;increased risk of coma.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution.",
+                "html": "<p>Use with caution.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "textContent": "Drowsiness may affect performance of skilled tasks (e.g. cycling or driving); sedating effects enhanced by alcohol.",
+                "html": "<p>Drowsiness may affect performance of skilled tasks (e.g. cycling or driving); sedating effects enhanced by alcohol.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77647",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78111",
+                "label": "Antihistamines, allergen immunotherapy and allergic emergencies",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_325",
+                "label": "Promethazine",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77647",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

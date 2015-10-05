@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP75943\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sevoflurane/inhalation-vapour\" basename=\"inhalation-vapour\" title=\"Inhalation vapour\">\n<title>Inhalation vapour</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Sevoflurane volatile liquid <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>\n</title>\n<data name=\"ampid\">4976211000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sevoflurane 1&#8239;ml per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;123.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8542\" title=\"SEVOFLURANE\" namespace=\"/drugs/sevoflurane\">SEVOFLURANE</xref>\n</parents>\n</topic>",
+    "id": "PHP75943",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sevoflurane/inhalation-vapour",
+    "basename": "inhalation-vapour",
+    "form": "Inhalation vapour",
+    "products": [
+        {
+            "title": "Sevoflurane volatile liquid (AbbVie Ltd) ",
+            "header": "Sevoflurane volatile liquid <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>",
+            "manufacturer": "(AbbVie Ltd)",
+            "name": "Sevoflurane volatile liquid",
+            "ampid": "4976211000001103",
+            "strengthOfActiveIngredient": "Sevoflurane 1 ml per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 250 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;123.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;123.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;123.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8542",
+        "label": "SEVOFLURANE"
+    }
+}

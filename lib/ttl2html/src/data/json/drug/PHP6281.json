@@ -1,0 +1,265 @@
+{
+    "xml": "<topic id=\"PHP6281\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/phytomenadione\" basename=\"phytomenadione\" title=\"PHYTOMENADIONE\">\n<title>PHYTOMENADIONE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_769\" namespace=\"/interactions/list-of-drug-interactions/vitamins/vitamin-k-phytomenadione\">Vitamin K (Phytomenadione)</xref>\n</p>\n<data name=\"vtmid\">63136007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_825333057\" title=\"Vitamin K\">Vitamin K</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n<p outputclass=\"synonyms\">Vitamin K<sub>1</sub>\r\n</p>\r\n</body>\n<topic id=\"PHP72692\" outputclass=\"indicationsAndDose\" rev=\"1.68\" parent=\"/drugs/phytomenadione\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Major bleeding in patients on warfarin (in combination with dried prothrombin complex or fresh frozen plasma)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8239;mg for 1 dose, stop warfarin treatment.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">INR > 8.0 with minor bleeding in patients on warfarin</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;3&#8239;mg, stop warfarin treatment, dose may be repeated if INR still too high after 24 hours, restart warfarin treatment when INR &lt;5.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">INR > 8.0 with no bleeding in patients on warfarin</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;5&#8239;mg, intravenous preparation to be used orally, stop warfarin treatment, repeat dose if INR still too high after 24 hours, restart warfarin treatment when INR &lt;5.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">INR 5.0&#8211;8.0 with minor bleeding in patients on warfarin</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;3&#8239;mg, stop warfarin treatment, restart warfarin treatment when INR &lt;5.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Peri-operative anticoagulation (after warfarin stopped)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;5&#8239;mg, intravenous preparation to be used orally, dose to be given the day before surgery if INR &#8805;1.5.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72726\" outputclass=\"cautions\" rev=\"1.11\" parent=\"/drugs/phytomenadione\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Intravenous injections should be given very slowly&#8212;risk of vascular collapse</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72690\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/phytomenadione\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (vitamins).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72688\" outputclass=\"pregnancy\" parent=\"/drugs/phytomenadione\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use if potential benefit outweighs risk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72729\" outputclass=\"breastFeeding\" parent=\"/drugs/phytomenadione\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP6281-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/phytomenadione\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: tablet, oral suspension, drops, oral solution</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77707\" title=\"Capsule\" namespace=\"/drugs/phytomenadione/capsule\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77702\" title=\"Drops\" namespace=\"/drugs/phytomenadione/drops\">Drops</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77686\" title=\"Solution for injection\" namespace=\"/drugs/phytomenadione/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP107735\" namespace=\"/guidance/prescribing-in-palliative-care\" title=\"Prescribing in palliative care\" count=\"1\" rel=\"backlink\">Prescribing in palliative care</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78213\" namespace=\"/treatment-summaries/oral-anticoagulants\" title=\"Oral anticoagulants\" count=\"9\" rel=\"backlink\">Oral anticoagulants</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_769\" namespace=\"/interactions/list-of-drug-interactions/vitamins/vitamin-k-phytomenadione\" title=\"Vitamin K (Phytomenadione)\" count=\"1\" rel=\"link\">Vitamin K (Phytomenadione)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77707\" namespace=\"/drugs/phytomenadione/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77702\" namespace=\"/drugs/phytomenadione/drops\" title=\"Drops\" count=\"1\" rel=\"link\">Drops</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77686\" namespace=\"/drugs/phytomenadione/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP6281",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/phytomenadione",
+    "basename": "phytomenadione",
+    "title": "PHYTOMENADIONE",
+    "interactants": [
+        {
+            "id": "bnf_int_769",
+            "label": "Vitamin K (Phytomenadione)"
+        }
+    ],
+    "vtmid": "63136007",
+    "drugClassification": [
+        "Vitamin K"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "synonyms": [
+        "Vitamin K1"
+    ],
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Major bleeding in patients on warfarin (in combination with dried prothrombin complex or fresh frozen plasma)",
+                        "html": "Major bleeding in patients on warfarin (in combination with dried prothrombin complex or fresh frozen plasma)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection"
+                    ],
+                    "textContent": "By slow intravenous injection",
+                    "html": "By slow intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "5 mg for 1 dose, stop warfarin treatment.",
+                        "html": "<p>5&#8239;mg for 1 dose, stop warfarin treatment.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "INR > 8.0 with minor bleeding in patients on warfarin",
+                        "html": "INR > 8.0 with minor bleeding in patients on warfarin"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection"
+                    ],
+                    "textContent": "By slow intravenous injection",
+                    "html": "By slow intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;3 mg, stop warfarin treatment, dose may be repeated if INR still too high after 24 hours, restart warfarin treatment when INR <5.",
+                        "html": "<p>1&#8211;3&#8239;mg, stop warfarin treatment, dose may be repeated if INR still too high after 24 hours, restart warfarin treatment when INR &lt;5.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "INR > 8.0 with no bleeding in patients on warfarin",
+                        "html": "INR > 8.0 with no bleeding in patients on warfarin"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;5 mg, intravenous preparation to be used orally, stop warfarin treatment, repeat dose if INR still too high after 24 hours, restart warfarin treatment when INR <5.",
+                        "html": "<p>1&#8211;5&#8239;mg, intravenous preparation to be used orally, stop warfarin treatment, repeat dose if INR still too high after 24 hours, restart warfarin treatment when INR &lt;5.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "INR 5.0&#8211;8.0 with minor bleeding in patients on warfarin",
+                        "html": "INR 5.0&#8211;8.0 with minor bleeding in patients on warfarin"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "slow intravenous injection"
+                    ],
+                    "textContent": "By slow intravenous injection",
+                    "html": "By slow intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;3 mg, stop warfarin treatment, restart warfarin treatment when INR <5.",
+                        "html": "<p>1&#8211;3&#8239;mg, stop warfarin treatment, restart warfarin treatment when INR &lt;5.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Peri-operative anticoagulation (after warfarin stopped)",
+                        "html": "Peri-operative anticoagulation (after warfarin stopped)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1&#8211;5 mg, intravenous preparation to be used orally, dose to be given the day before surgery if INR &#8805;1.5.",
+                        "html": "<p>1&#8211;5&#8239;mg, intravenous preparation to be used orally, dose to be given the day before surgery if INR &#8805;1.5.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Intravenous injections should be given very slowly&#8212;risk of vascular collapse",
+                "html": "Intravenous injections should be given very slowly&#8212;risk of vascular collapse"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (vitamins).",
+                "html": "<p>Appendix 1 (vitamins).</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use if potential benefit outweighs risk.",
+                "html": "<p>Use if potential benefit outweighs risk.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk.",
+                "html": "<p>Present in milk.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "tablet",
+                "oral suspension",
+                "drops",
+                "oral solution"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77707",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77702",
+                "label": "Drops",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77686",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP107735",
+                "label": "Prescribing in palliative care",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78213",
+                "label": "Oral anticoagulants",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_769",
+                "label": "Vitamin K (Phytomenadione)",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77707",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77702",
+                "label": "Drops",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77686",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "xml": "<topic id=\"PHP74642\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/infliximab/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Inflectra 100mg powder for concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">28943211000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Infliximab 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;377.66</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Remicade 100mg powder for concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">4398011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Infliximab 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;419.62</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Remsima 100mg powder for concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">28803711000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Infliximab 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;377.66</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP538\" title=\"INFLIXIMAB\" namespace=\"/drugs/infliximab\">INFLIXIMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP74642",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/infliximab/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Inflectra 100mg powder for concentrate for solution for infusion vials (Hospira UK Ltd) &#9660; ",
+            "header": "Inflectra 100mg powder for concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Hospira UK Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Inflectra 100mg powder for concentrate for solution for infusion vials",
+            "ampid": "28943211000001105",
+            "strengthOfActiveIngredient": "Infliximab 100 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;377.66 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;377.66</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;377.66",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Remicade 100mg powder for concentrate for solution for infusion vials (Merck Sharp & Dohme Ltd) ",
+            "header": "Remicade 100mg powder for concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Remicade 100mg powder for concentrate for solution for infusion vials",
+            "ampid": "4398011000001107",
+            "strengthOfActiveIngredient": "Infliximab 100 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;419.62 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;419.62</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;419.62",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Remsima 100mg powder for concentrate for solution for infusion vials (Napp Pharmaceuticals Ltd) &#9660; ",
+            "header": "Remsima 100mg powder for concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Napp Pharmaceuticals Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Napp Pharmaceuticals Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Remsima 100mg powder for concentrate for solution for infusion vials",
+            "ampid": "28803711000001103",
+            "strengthOfActiveIngredient": "Infliximab 100 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;377.66 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;377.66</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;377.66",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP538",
+        "label": "INFLIXIMAB"
+    }
+}

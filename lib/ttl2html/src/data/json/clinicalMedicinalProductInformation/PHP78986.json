@@ -1,0 +1,74 @@
+{
+    "xml": "<topic id=\"PHP78986\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/prostin-e2-vaginal-gel\" basename=\"prostin-e2-vaginal-gel\" title=\"Prostin E2 vaginal gel\">\n<title>Prostin E2<tm tmtype=\"reg\"/> vaginal gel</title>\n<topic id=\"PHP79449\" outputclass=\"indicationsAndDose\" rev=\"1.18\" parent=\"/clinical-medicinal-product-information/prostin-e2-vaginal-gel\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Induction of labour</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By vagina</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;mg, inserted high into the posterior fornix (avoid administration into the cervical canal), followed by 1&#8211;2&#8239;mg after 6&#8239;hours (max. per dose 3&#8239;mg) if required.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Induction of labour (unfavourable primigravida)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By vagina</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult female\">\n<p>Adult (female)</p>\n<p>2&#8239;mg, inserted high into the posterior fornix (avoid administration into the cervical canal), followed by 1&#8211;2&#8239;mg (max. per dose 4&#8239;mg) if required.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>\n<i>Prostin E2 Vaginal Gel</i> and <i>Vaginal Tablets</i> are not bioequivalent.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78986",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/prostin-e2-vaginal-gel",
+    "basename": "prostin-e2-vaginal-gel",
+    "title": "Prostin E2 vaginal gel",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Induction of labour",
+                        "html": "Induction of labour"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "vagina"
+                    ],
+                    "textContent": "By vagina",
+                    "html": "By vagina"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 mg, inserted high into the posterior fornix (avoid administration into the cervical canal), followed by 1&#8211;2 mg after 6 hours (max. per dose 3 mg) if required.",
+                        "html": "<p>1&#8239;mg, inserted high into the posterior fornix (avoid administration into the cervical canal), followed by 1&#8211;2&#8239;mg after 6&#8239;hours (max. per dose 3&#8239;mg) if required.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Induction of labour (unfavourable primigravida)",
+                        "html": "Induction of labour (unfavourable primigravida)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "vagina"
+                    ],
+                    "textContent": "By vagina",
+                    "html": "By vagina"
+                },
+                "adult female": [
+                    {
+                        "textContent": "2 mg, inserted high into the posterior fornix (avoid administration into the cervical canal), followed by 1&#8211;2 mg (max. per dose 4 mg) if required.",
+                        "html": "<p>2&#8239;mg, inserted high into the posterior fornix (avoid administration into the cervical canal), followed by 1&#8211;2&#8239;mg (max. per dose 4&#8239;mg) if required.</p>",
+                        "ageGroup": "adult (female)"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Prostin E2 Vaginal Gel and Vaginal Tablets are not bioequivalent.",
+                "html": "<p>\n<i>Prostin E2 Vaginal Gel</i> and <i>Vaginal Tablets</i> are not bioequivalent.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

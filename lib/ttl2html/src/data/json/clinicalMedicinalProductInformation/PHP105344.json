@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP105344\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/flexi-t-300\" basename=\"flexi-t-300\" title=\"Flexi-T 300\">\n<title>Flexi-T<tm tmtype=\"reg\"/> 300</title>\n<topic id=\"PHP105486\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/flexi-t-300\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>For uterine length over 5&#8239;cm; replacement every 5 years.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP105344",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/flexi-t-300",
+    "basename": "flexi-t-300",
+    "title": "Flexi-T 300",
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "For uterine length over 5 cm; replacement every 5 years.",
+                "html": "<p>For uterine length over 5&#8239;cm; replacement every 5 years.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

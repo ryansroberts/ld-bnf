@@ -1,0 +1,162 @@
+{
+    "xml": "<topic id=\"PHP88040\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/hydrocortisone-with-oxytetracycline\" basename=\"hydrocortisone-with-oxytetracycline\" title=\"HYDROCORTISONE WITH OXYTETRACYCLINE\">\n<title>HYDROCORTISONE WITH OXYTETRACYCLINE </title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP515\" namespace=\"/drugs/hydrocortisone\">hydrocortisone</xref>, <xref format=\"dita\" href=\"#PHP3460\" namespace=\"/drugs/oxytetracycline\">oxytetracycline</xref>.</p>\n<data name=\"vtmid\">346509004</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832374428\" title=\"Corticosteroids\">Corticosteroids</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_485769715\" title=\"Tetracyclines and related drugs\">Tetracyclines and related drugs</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP89655\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/drugs/hydrocortisone-with-oxytetracycline\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mild inflammatory skin disorders such as eczemas</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>(consult product literature).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"potency\">\n<title>Potency</title>\n<p>Hydrocortisone 1% with oxytetracycline ointment: mild.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89650\" outputclass=\"contraindications\" rev=\"1.12\" parent=\"/drugs/hydrocortisone-with-oxytetracycline\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Children under 12 years</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89657\" outputclass=\"pregnancy\" parent=\"/drugs/hydrocortisone-with-oxytetracycline\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Tetracyclines should not be given to pregnant women. Effects on skeletal development have been documented when tetracyclines have been used in the first trimester in animal studies. Administration during the second or third trimester may cause discoloration of the child's teeth.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89647\" outputclass=\"breastFeeding\" parent=\"/drugs/hydrocortisone-with-oxytetracycline\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Tetracyclines should not be given to women who are breast-feeding (although absorption and therefore discoloration of teeth in the infant is probably usually prevented by chelation with calcium in milk).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP89658\" outputclass=\"patientAndCarerAdvice\" rev=\"1.14\" parent=\"/drugs/hydrocortisone-with-oxytetracycline\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be given advice on the application of hydrocortisone with oxytetracycline ointment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88040-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/hydrocortisone-with-oxytetracycline\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92357\" title=\"Ointment\" namespace=\"/drugs/hydrocortisone-with-oxytetracycline/ointment\">Ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP515\" namespace=\"/drugs/hydrocortisone\" title=\"HYDROCORTISONE\" count=\"1\" rel=\"link\">HYDROCORTISONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3460\" namespace=\"/drugs/oxytetracycline\" title=\"OXYTETRACYCLINE\" count=\"1\" rel=\"link\">OXYTETRACYCLINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92357\" namespace=\"/drugs/hydrocortisone-with-oxytetracycline/ointment\" title=\"Ointment\" count=\"1\" rel=\"link\">Ointment</xref>\n</links>\n</topic>",
+    "id": "PHP88040",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/hydrocortisone-with-oxytetracycline",
+    "basename": "hydrocortisone-with-oxytetracycline",
+    "title": "HYDROCORTISONE WITH OXYTETRACYCLINE",
+    "constituents": [
+        {
+            "id": "PHP515",
+            "label": "hydrocortisone"
+        },
+        {
+            "id": "PHP3460",
+            "label": "oxytetracycline"
+        }
+    ],
+    "vtmid": "346509004",
+    "drugClassification": [
+        "Corticosteroids",
+        "Tetracyclines and related drugs"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mild inflammatory skin disorders such as eczemas",
+                        "html": "Mild inflammatory skin disorders such as eczemas"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ],
+        "potency": [
+            {
+                "type": "potency",
+                "title": "Potency",
+                "textContent": "Hydrocortisone 1% with oxytetracycline ointment: mild.",
+                "html": "<p>Hydrocortisone 1% with oxytetracycline ointment: mild.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Children under 12 years",
+                "html": "Children under 12 years"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Tetracyclines should not be given to pregnant women. Effects on skeletal development have been documented when tetracyclines have been used in the first trimester in animal studies. Administration during the second or third trimester may cause discoloration of the child's teeth.",
+                "html": "<p>Tetracyclines should not be given to pregnant women. Effects on skeletal development have been documented when tetracyclines have been used in the first trimester in animal studies. Administration during the second or third trimester may cause discoloration of the child's teeth.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Tetracyclines should not be given to women who are breast-feeding (although absorption and therefore discoloration of teeth in the infant is probably usually prevented by chelation with calcium in milk).",
+                "html": "<p>Tetracyclines should not be given to women who are breast-feeding (although absorption and therefore discoloration of teeth in the infant is probably usually prevented by chelation with calcium in milk).</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be given advice on the application of hydrocortisone with oxytetracycline ointment.",
+                "html": "<p>Patients should be given advice on the application of hydrocortisone with oxytetracycline ointment.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92357",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP515",
+                "label": "HYDROCORTISONE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3460",
+                "label": "OXYTETRACYCLINE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92357",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

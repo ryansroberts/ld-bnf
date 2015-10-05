@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP95870\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/novofem\" basename=\"novofem\" title=\"Novofem\">\n<title>Novofem<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP96568\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/novofem\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms in women with a uterus</p>\n<p outputclass=\"therapeuticIndication\">Osteoporosis prophylaxis in women with a uterus</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet daily for 16 days, red tablets to be taken, then 1&#8239;tablet daily for 12 days, white tablets to be taken, subsequent courses are repeated without interval; start treatment with red tablet at any time or if changing from cyclical HRT, start treatment the day after finishing oestrogen plus progestogen phase.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95870",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/novofem",
+    "basename": "novofem",
+    "title": "Novofem",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms in women with a uterus",
+                        "html": "Menopausal symptoms in women with a uterus"
+                    },
+                    {
+                        "textContent": "Osteoporosis prophylaxis in women with a uterus",
+                        "html": "Osteoporosis prophylaxis in women with a uterus"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet daily for 16 days, red tablets to be taken, then 1 tablet daily for 12 days, white tablets to be taken, subsequent courses are repeated without interval; start treatment with red tablet at any time or if changing from cyclical HRT, start treatment the day after finishing oestrogen plus progestogen phase.",
+                        "html": "<p>1&#8239;tablet daily for 16 days, red tablets to be taken, then 1&#8239;tablet daily for 12 days, white tablets to be taken, subsequent courses are repeated without interval; start treatment with red tablet at any time or if changing from cyclical HRT, start treatment the day after finishing oestrogen plus progestogen phase.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

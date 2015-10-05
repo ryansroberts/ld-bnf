@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP77565\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ondansetron/orodispersible-film\" basename=\"orodispersible-film\" title=\"Orodispersible film\">\n<title>Orodispersible film</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Setofilm 4mg orodispersible films <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">22734811000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ondansetron 4&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">film</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;28.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Setofilm 8mg orodispersible films <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">22735111000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ondansetron 8&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">film</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;57.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2561\" title=\"ONDANSETRON\" namespace=\"/drugs/ondansetron\">ONDANSETRON</xref>\n</parents>\n</topic>",
+    "id": "PHP77565",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ondansetron/orodispersible-film",
+    "basename": "orodispersible-film",
+    "form": "Orodispersible film",
+    "products": [
+        {
+            "title": "Setofilm 4mg orodispersible films (Norgine Pharmaceuticals Ltd) ",
+            "header": "Setofilm 4mg orodispersible films <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Setofilm 4mg orodispersible films",
+            "ampid": "22734811000001107",
+            "strengthOfActiveIngredient": "Ondansetron 4 mg",
+            "packs": [
+                {
+                    "textContent": " 10 film POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">film</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "film",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;28.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;28.50</ph>",
+                        "nhsIndicativePrice": "&#163;28.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Setofilm 8mg orodispersible films (Norgine Pharmaceuticals Ltd) ",
+            "header": "Setofilm 8mg orodispersible films <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Setofilm 8mg orodispersible films",
+            "ampid": "22735111000001101",
+            "strengthOfActiveIngredient": "Ondansetron 8 mg",
+            "packs": [
+                {
+                    "textContent": " 10 film POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">film</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "film",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;57.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;57.00</ph>",
+                        "nhsIndicativePrice": "&#163;57.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2561",
+        "label": "ONDANSETRON"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP76208\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/azelastine-hydrochloride/spray\" basename=\"spray\" title=\"Spray\">\n<title>Spray</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Rhinolast 140micrograms/dose nasal spray <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3601611000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Azelastine hydrochloride 140&#8239;microgram per 1&#8239;actuation</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">22</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;10.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6904\" title=\"AZELASTINE HYDROCHLORIDE\" namespace=\"/drugs/azelastine-hydrochloride\">AZELASTINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76208",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/azelastine-hydrochloride/spray",
+    "basename": "spray",
+    "form": "Spray",
+    "products": [
+        {
+            "title": "Rhinolast 140micrograms/dose nasal spray (Meda Pharmaceuticals Ltd) ",
+            "header": "Rhinolast 140micrograms/dose nasal spray <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Rhinolast 140micrograms/dose nasal spray",
+            "ampid": "3601611000001101",
+            "strengthOfActiveIngredient": "Azelastine hydrochloride 140 microgram per 1 actuation",
+            "packs": [
+                {
+                    "textContent": " 22 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">22</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "22",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.50</ph>",
+                        "nhsIndicativePrice": "&#163;10.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;10.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;10.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;10.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6904",
+        "label": "AZELASTINE HYDROCHLORIDE"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP77833\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dihydrotachysterol/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Arachis (peanut) oil</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>AT10 250micrograms/ml oral solution <ph outputclass=\"manufacturer\">(Intrapharm Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">3961511000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dihydrotachysterol 250&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.87</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6268\" title=\"DIHYDROTACHYSTEROL\" namespace=\"/drugs/dihydrotachysterol\">DIHYDROTACHYSTEROL</xref>\n</parents>\n</topic>",
+    "id": "PHP77833",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dihydrotachysterol/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "excipients": [
+        "Arachis (peanut) oil"
+    ],
+    "products": [
+        {
+            "title": "AT10 250micrograms/ml oral solution (Intrapharm Laboratories Ltd) ",
+            "header": "AT10 250micrograms/ml oral solution <ph outputclass=\"manufacturer\">(Intrapharm Laboratories Ltd)</ph>",
+            "manufacturer": "(Intrapharm Laboratories Ltd)",
+            "name": "AT10 250micrograms/ml oral solution",
+            "ampid": "3961511000001102",
+            "strengthOfActiveIngredient": "Dihydrotachysterol 250 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 15 ml P ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.87 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.87</ph>",
+                        "nhsIndicativePrice": "&#163;22.87"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6268",
+        "label": "DIHYDROTACHYSTEROL"
+    }
+}

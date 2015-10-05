@@ -1,0 +1,13 @@
+{{#if nationalFunding.niceTechnologyAppraisals }}
+  {{#each nationalFunding.niceTechnologyAppraisals as |ta| }}
+    <section class="{{ ta.type }}">
+      <h3 class="fundingIdentifier">{{ ta.fundingIdentifier }}</h3>
+      {{{ ta.html }}}
+      {{#if ta.references }}
+        {{#each ta.references as |reference| }}
+        <a href="{{ reference.id }}" target="_blank">{{ reference.label }}</a>
+        {{/each }}
+      {{/if }}
+    </section>
+  {{/each }}
+{{/if }}

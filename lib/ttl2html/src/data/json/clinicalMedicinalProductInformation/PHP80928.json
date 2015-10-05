@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP80928\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/konakion-mm\" basename=\"konakion-mm\" title=\"Konakion MM\">\n<title>Konakion<tm tmtype=\"reg\"/> MM</title>\n<topic id=\"PHP80962\" outputclass=\"cautions\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/konakion-mm\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<sectiondiv outputclass=\"additionalCautions\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"caution\">reduce dose in elderly</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80972\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/konakion-mm\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anaphylactoid reactions</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80965\" outputclass=\"hepaticImpairment\" parent=\"/clinical-medicinal-product-information/konakion-mm\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Caution&#8212;glycocholic acid may displace bilirubin.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80980\" outputclass=\"directionsForAdministration\" rev=\"1.18\" parent=\"/clinical-medicinal-product-information/konakion-mm\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>Konakion</i>\n<tm tmtype=\"reg\"/>\n<i>MM</i> may be administered by slow intravenous injection or by intravenous infusion in glucose 5%; <b>not</b> for intramuscular injection.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>For <i>intravenous infusion</i> (<i>Konakion</i>\n<tm tmtype=\"reg\"/>\n<i>MM</i>), give intermittently in Glucose 5%; dilute with 55&#8239;mL; may be injected into lower part of infusion apparatus.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80928",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/konakion-mm",
+    "basename": "konakion-mm",
+    "title": "Konakion MM",
+    "cautions": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "reduce dose in elderly",
+                "html": "reduce dose in elderly",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With intravenous use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                }
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Anaphylactoid reactions",
+                        "html": "Anaphylactoid reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Caution&#8212;glycocholic acid may displace bilirubin.",
+                "html": "<p>Caution&#8212;glycocholic acid may displace bilirubin.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Konakion MM may be administered by slow intravenous injection or by intravenous infusion in glucose 5%; not for intramuscular injection.",
+                "html": "<p>\n<i>Konakion</i>\n<tm tmtype=\"reg\"/>\n<i>MM</i> may be administered by slow intravenous injection or by intravenous infusion in glucose 5%; <b>not</b> for intramuscular injection.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Konakion MM), give intermittently in Glucose 5%; dilute with 55 mL; may be injected into lower part of infusion apparatus.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Konakion</i>\n<tm tmtype=\"reg\"/>\n<i>MM</i>), give intermittently in Glucose 5%; dilute with 55&#8239;mL; may be injected into lower part of infusion apparatus.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

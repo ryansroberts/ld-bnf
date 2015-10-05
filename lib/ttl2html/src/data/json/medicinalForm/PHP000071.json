@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP000071\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/emollient-creams-and-ointments-paraffin-containing/products-without-form\" basename=\"products-without-form\" title=\"Products without form\">\n<title>Products without form</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>QV Intensive ointment <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">17833111000001103</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">450</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.65</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105070\" title=\"EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING\" namespace=\"/drugs/emollient-creams-and-ointments-paraffin-containing\">EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING</xref>\n</parents>\n</topic>",
+    "id": "PHP000071",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/emollient-creams-and-ointments-paraffin-containing/products-without-form",
+    "basename": "products-without-form",
+    "form": "Products without form",
+    "products": [
+        {
+            "title": "QV Intensive ointment (Crawford Healthcare Ltd) ",
+            "header": "QV Intensive ointment <ph outputclass=\"manufacturer\">(Crawford Healthcare Ltd)</ph>",
+            "manufacturer": "(Crawford Healthcare Ltd)",
+            "name": "QV Intensive ointment",
+            "ampid": "17833111000001103",
+            "packs": [
+                {
+                    "textContent": " 450 gram ",
+                    "html": "<ph outputclass=\"packSize\">450</ph> <ph outputclass=\"unitOfMeasure\">gram</ph>",
+                    "packSize": "450",
+                    "unitOfMeasure": "gram",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.65 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.65</ph>",
+                        "nhsIndicativePrice": "&#163;5.65"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP105070",
+        "label": "EMOLLIENT CREAMS AND OINTMENTS, PARAFFIN-CONTAINING"
+    }
+}

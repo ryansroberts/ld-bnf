@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP76600\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/palivizumab/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Synagis 50mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>\n</title>\n<data name=\"ampid\">4832511000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Palivizumab 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;306.34</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Synagis 100mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>\n</title>\n<data name=\"ampid\">4831711000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Palivizumab 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;563.64</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3902\" title=\"PALIVIZUMAB\" namespace=\"/drugs/palivizumab\">PALIVIZUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP76600",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/palivizumab/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "products": [
+        {
+            "title": "Synagis 50mg powder and solvent for solution for injection vials (AbbVie Ltd) ",
+            "header": "Synagis 50mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>",
+            "manufacturer": "(AbbVie Ltd)",
+            "name": "Synagis 50mg powder and solvent for solution for injection vials",
+            "ampid": "4832511000001106",
+            "strengthOfActiveIngredient": "Palivizumab 50 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;306.34 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;306.34</ph>",
+                        "nhsIndicativePrice": "&#163;306.34"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Synagis 100mg powder and solvent for solution for injection vials (AbbVie Ltd) ",
+            "header": "Synagis 100mg powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(AbbVie Ltd)</ph>",
+            "manufacturer": "(AbbVie Ltd)",
+            "name": "Synagis 100mg powder and solvent for solution for injection vials",
+            "ampid": "4831711000001108",
+            "strengthOfActiveIngredient": "Palivizumab 100 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;563.64 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;563.64</ph>",
+                        "nhsIndicativePrice": "&#163;563.64"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3902",
+        "label": "PALIVIZUMAB"
+    }
+}

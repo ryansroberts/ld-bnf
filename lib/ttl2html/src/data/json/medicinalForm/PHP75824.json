@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75824\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/azathioprine/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Imuran 50mg powder for solution for injection vials <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>\n</title>\n<data name=\"ampid\">906711000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Azathioprine 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;15.38</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP527\" title=\"AZATHIOPRINE\" namespace=\"/drugs/azathioprine\">AZATHIOPRINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75824",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/azathioprine/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "products": [
+        {
+            "title": "Imuran 50mg powder for solution for injection vials (Aspen Pharma Trading Ltd) ",
+            "header": "Imuran 50mg powder for solution for injection vials <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>",
+            "manufacturer": "(Aspen Pharma Trading Ltd)",
+            "name": "Imuran 50mg powder for solution for injection vials",
+            "ampid": "906711000001106",
+            "strengthOfActiveIngredient": "Azathioprine 50 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;15.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;15.38</ph>",
+                        "nhsIndicativePrice": "&#163;15.38"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP527",
+        "label": "AZATHIOPRINE"
+    }
+}

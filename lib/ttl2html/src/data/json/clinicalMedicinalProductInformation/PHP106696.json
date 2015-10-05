@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP106696\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/doublebase-emollient-shower-gel\" basename=\"doublebase-emollient-shower-gel\" title=\"Doublebase emollient shower gel\">\n<title>Doublebase<tm tmtype=\"reg\"/> emollient shower gel</title>\n<topic id=\"PHP106725\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/doublebase-emollient-shower-gel\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dry, chapped, or itchy skin conditions</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>To be applied to wet or dry skin and rinse, or apply to dry skin after showering.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>To be applied to wet or dry skin and rinse, or apply to dry skin after showering.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP106696",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/doublebase-emollient-shower-gel",
+    "basename": "doublebase-emollient-shower-gel",
+    "title": "Doublebase emollient shower gel",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Dry, chapped, or itchy skin conditions",
+                        "html": "Dry, chapped, or itchy skin conditions"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "To be applied to wet or dry skin and rinse, or apply to dry skin after showering.",
+                        "html": "<p>To be applied to wet or dry skin and rinse, or apply to dry skin after showering.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "To be applied to wet or dry skin and rinse, or apply to dry skin after showering.",
+                        "html": "<p>To be applied to wet or dry skin and rinse, or apply to dry skin after showering.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

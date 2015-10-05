@@ -1,0 +1,127 @@
+{
+    "xml": "<topic id=\"PHP92543\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol\" basename=\"buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol\" title=\"BUCLIZINE HYDROCHLORIDE WITH CODEINE PHOSPHATE AND PARACETAMOL\">\n<title>BUCLIZINE HYDROCHLORIDE WITH CODEINE PHOSPHATE AND PARACETAMOL </title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_59\" namespace=\"/interactions/list-of-drug-interactions/analgesics/paracetamol\">Paracetamol</xref>, <xref format=\"dita\" href=\"#bnf_int_838\" namespace=\"/interactions/list-of-drug-interactions/antihistamines/antihistamines-sedating/buclizine\">Buclizine</xref>, <xref format=\"dita\" href=\"#bnf_int_88\" namespace=\"/interactions/list-of-drug-interactions/analgesics/opioid-analgesics/codeine\">Codeine</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP460\" namespace=\"/drugs/codeine-phosphate\">codeine phosphate</xref>, <xref format=\"dita\" href=\"#PHP2632\" namespace=\"/drugs/paracetamol\">paracetamol</xref>.</p>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_225690438\" title=\"Antihistamines\">Antihistamines</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_110392128\" title=\"Opioids\">Opioids</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_335089766\" title=\"Analgesics (non-opioids)\">Analgesics (non-opioids)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP92543-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93554\" title=\"Tablet\" namespace=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP96836\" title=\"Not applicable\" namespace=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol/not-applicable\">Not applicable</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"3\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_59\" namespace=\"/interactions/list-of-drug-interactions/analgesics/paracetamol\" title=\"Paracetamol\" count=\"1\" rel=\"link\">Paracetamol</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_838\" namespace=\"/interactions/list-of-drug-interactions/antihistamines/antihistamines-sedating/buclizine\" title=\"Buclizine\" count=\"1\" rel=\"link\">Buclizine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_88\" namespace=\"/interactions/list-of-drug-interactions/analgesics/opioid-analgesics/codeine\" title=\"Codeine\" count=\"1\" rel=\"link\">Codeine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP460\" namespace=\"/drugs/codeine-phosphate\" title=\"CODEINE PHOSPHATE\" count=\"1\" rel=\"link\">CODEINE PHOSPHATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2632\" namespace=\"/drugs/paracetamol\" title=\"PARACETAMOL\" count=\"1\" rel=\"link\">PARACETAMOL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP93554\" namespace=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP96836\" namespace=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol/not-applicable\" title=\"Not applicable\" count=\"1\" rel=\"link\">Not applicable</xref>\n</links>\n</topic>",
+    "id": "PHP92543",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol",
+    "basename": "buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol",
+    "title": "BUCLIZINE HYDROCHLORIDE WITH CODEINE PHOSPHATE AND PARACETAMOL",
+    "interactants": [
+        {
+            "id": "bnf_int_59",
+            "label": "Paracetamol"
+        },
+        {
+            "id": "bnf_int_838",
+            "label": "Buclizine"
+        },
+        {
+            "id": "bnf_int_88",
+            "label": "Codeine"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP460",
+            "label": "codeine phosphate"
+        },
+        {
+            "id": "PHP2632",
+            "label": "paracetamol"
+        }
+    ],
+    "drugClassification": [
+        "Antihistamines",
+        "Opioids",
+        "Analgesics (non-opioids)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP93554",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP96836",
+                "label": "Not applicable",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_59",
+                "label": "Paracetamol",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_838",
+                "label": "Buclizine",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_88",
+                "label": "Codeine",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP460",
+                "label": "CODEINE PHOSPHATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP2632",
+                "label": "PARACETAMOL",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP93554",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP96836",
+                "label": "Not applicable",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

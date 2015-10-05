@@ -1,0 +1,39 @@
+{
+    "xml": "<topic id=\"PHP74756\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/measles-mumps-and-rubella-vaccine-live/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Neomycin</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Priorix vaccine powder and solvent for solution for injection 0.5ml vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4621611000001106</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.64</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8349\" title=\"MEASLES, MUMPS AND RUBELLA VACCINE, LIVE\" namespace=\"/drugs/measles-mumps-and-rubella-vaccine-live\">MEASLES, MUMPS AND RUBELLA VACCINE, LIVE</xref>\n</parents>\n</topic>",
+    "id": "PHP74756",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/measles-mumps-and-rubella-vaccine-live/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "excipients": [
+        "Neomycin"
+    ],
+    "products": [
+        {
+            "title": "Priorix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd) ",
+            "header": "Priorix vaccine powder and solvent for solution for injection 0.5ml vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Priorix vaccine powder and solvent for solution for injection 0.5ml vials",
+            "ampid": "4621611000001106",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.64 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.64</ph>",
+                        "nhsIndicativePrice": "&#163;7.64"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8349",
+        "label": "MEASLES, MUMPS AND RUBELLA VACCINE, LIVE"
+    }
+}

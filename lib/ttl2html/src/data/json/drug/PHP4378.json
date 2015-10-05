@@ -1,0 +1,146 @@
+{
+    "xml": "<topic id=\"PHP4378\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/prednisone\" basename=\"prednisone\" title=\"PREDNISONE\">\n<title>PREDNISONE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1193\" namespace=\"/interactions/list-of-drug-interactions/corticosteroids/prednisone\">Prednisone</xref>\n</p>\n<data name=\"vtmid\">10312003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832374428\" title=\"Corticosteroids\">Corticosteroids</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34623\" title=\"CORTICOSTEROIDS (SYSTEMIC)\" namespace=\"/drug-classes/corticosteroids-systemic\">CORTICOSTEROIDS (SYSTEMIC)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP50301\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/prednisone\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Moderate to severe rheumatoid arthritis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using modified-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8211;20&#8239;mg daily, adjusted according to response, dose to be take at bedtime.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50315\" outputclass=\"hepaticImpairment\" parent=\"/drugs/prednisone\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"additionalMonitoringInHepaticImpairment\">\n<sectiondiv>\n<p>Monitor patient closely in hepatic impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50253\" outputclass=\"patientAndCarerAdvice\" rev=\"1.8\" parent=\"/drugs/prednisone\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patient counselling is advised for prednisone tablets (steroid card).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP4378-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/prednisone\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75633\" title=\"Modified-release tablet\" namespace=\"/drugs/prednisone/modified-release-tablet\">Modified-release tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78288\" namespace=\"/treatment-summaries/glucocorticoid-therapy\" title=\"Glucocorticoid therapy\" count=\"1\" rel=\"backlink\">Glucocorticoid therapy</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78455\" namespace=\"/treatment-summaries/corticosteroids-inflammatory-disorders\" title=\"Corticosteroids, inflammatory disorders\" count=\"1\" rel=\"backlink\">Corticosteroids, inflammatory disorders</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78591\" namespace=\"/treatment-summaries/hormones-malignant-disease\" title=\"Hormones, malignant disease\" count=\"1\" rel=\"backlink\">Hormones, malignant disease</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1193\" namespace=\"/interactions/list-of-drug-interactions/corticosteroids/prednisone\" title=\"Prednisone\" count=\"1\" rel=\"link\">Prednisone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34623\" namespace=\"/drug-classes/corticosteroids-systemic\" title=\"CORTICOSTEROIDS (SYSTEMIC)\" count=\"1\" rel=\"link\">CORTICOSTEROIDS (SYSTEMIC)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75633\" namespace=\"/drugs/prednisone/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n</links>\n</topic>",
+    "id": "PHP4378",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/prednisone",
+    "basename": "prednisone",
+    "title": "PREDNISONE",
+    "interactants": [
+        {
+            "id": "bnf_int_1193",
+            "label": "Prednisone"
+        }
+    ],
+    "vtmid": "10312003",
+    "drugClassification": [
+        "Corticosteroids"
+    ],
+    "inheritsFromClass": [
+        "CORTICOSTEROIDS (SYSTEMIC)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Moderate to severe rheumatoid arthritis",
+                        "html": "Moderate to severe rheumatoid arthritis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using modified-release medicines"
+                    ],
+                    "textContent": "By mouth using modified-release medicines",
+                    "html": "By mouth using modified-release medicines"
+                },
+                "adult": [
+                    {
+                        "textContent": "10&#8211;20 mg daily, adjusted according to response, dose to be take at bedtime.",
+                        "html": "<p>10&#8211;20&#8239;mg daily, adjusted according to response, dose to be take at bedtime.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Monitor patient closely in hepatic impairment.",
+                "html": "<p>Monitor patient closely in hepatic impairment.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patient counselling is advised for prednisone tablets (steroid card).",
+                "html": "<p>Patient counselling is advised for prednisone tablets (steroid card).</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75633",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78288",
+                "label": "Glucocorticoid therapy",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78455",
+                "label": "Corticosteroids, inflammatory disorders",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78591",
+                "label": "Hormones, malignant disease",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1193",
+                "label": "Prednisone",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34623",
+                "label": "CORTICOSTEROIDS (SYSTEMIC)",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75633",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

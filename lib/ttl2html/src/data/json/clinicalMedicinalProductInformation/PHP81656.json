@@ -1,0 +1,52 @@
+{
+    "xml": "<topic id=\"PHP81656\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/diclomax-sr\" basename=\"diclomax-sr\" title=\"Diclomax SR\">\n<title>Diclomax SR<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82675\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/diclomax-sr\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pain and inflammation in rheumatic disease (including juvenile idiopathic arthritis) and other musculoskeletal disorders</p>\n<p outputclass=\"therapeuticIndication\">Acute gout</p>\n<p outputclass=\"therapeuticIndication\">Postoperative pain</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;capsule 1&#8211;2 times a day, alternatively 2&#8239;capsules once daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81656",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/diclomax-sr",
+    "basename": "diclomax-sr",
+    "title": "Diclomax SR",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Pain and inflammation in rheumatic disease (including juvenile idiopathic arthritis) and other musculoskeletal disorders",
+                        "html": "Pain and inflammation in rheumatic disease (including juvenile idiopathic arthritis) and other musculoskeletal disorders"
+                    },
+                    {
+                        "textContent": "Acute gout",
+                        "html": "Acute gout"
+                    },
+                    {
+                        "textContent": "Postoperative pain",
+                        "html": "Postoperative pain"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 capsule 1&#8211;2 times a day, alternatively 2 capsules once daily.",
+                        "html": "<p>1&#8239;capsule 1&#8211;2 times a day, alternatively 2&#8239;capsules once daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "xml": "<topic id=\"PHP74988\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/lanreotide/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP101390\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/somatuline-autogel\">Somatuline Autogel<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Somatuline Autogel 60mg/0.5ml solution for injection pre-filled syringes with safety system <ph outputclass=\"manufacturer\">(Ipsen Ltd)</ph>\n</title>\n<data name=\"ampid\">19888811000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lanreotide (as Lanreotide acetate) 120&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;551.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Somatuline Autogel 90mg/0.5ml solution for injection pre-filled syringes with safety system <ph outputclass=\"manufacturer\">(Ipsen Ltd)</ph>\n</title>\n<data name=\"ampid\">19889111000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lanreotide (as Lanreotide acetate) 180&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;736.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Somatuline Autogel 120mg/0.5ml solution for injection pre-filled syringes with safety system <ph outputclass=\"manufacturer\">(Ipsen Ltd)</ph>\n</title>\n<data name=\"ampid\">19889311000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lanreotide (as Lanreotide acetate) 240&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;937.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5804\" title=\"LANREOTIDE\" namespace=\"/drugs/lanreotide\">LANREOTIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP74988",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/lanreotide/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP101390",
+            "label": "Somatuline Autogel&reg;  ",
+            "html": "Somatuline Autogel<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Somatuline Autogel 60mg/0.5ml solution for injection pre-filled syringes with safety system (Ipsen Ltd) ",
+            "header": "Somatuline Autogel 60mg/0.5ml solution for injection pre-filled syringes with safety system <ph outputclass=\"manufacturer\">(Ipsen Ltd)</ph>",
+            "manufacturer": "(Ipsen Ltd)",
+            "name": "Somatuline Autogel 60mg/0.5ml solution for injection pre-filled syringes with safety system",
+            "ampid": "19888811000001101",
+            "strengthOfActiveIngredient": "Lanreotide (as Lanreotide acetate) 120 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;551.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;551.00</ph>",
+                        "nhsIndicativePrice": "&#163;551.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Somatuline Autogel 90mg/0.5ml solution for injection pre-filled syringes with safety system (Ipsen Ltd) ",
+            "header": "Somatuline Autogel 90mg/0.5ml solution for injection pre-filled syringes with safety system <ph outputclass=\"manufacturer\">(Ipsen Ltd)</ph>",
+            "manufacturer": "(Ipsen Ltd)",
+            "name": "Somatuline Autogel 90mg/0.5ml solution for injection pre-filled syringes with safety system",
+            "ampid": "19889111000001101",
+            "strengthOfActiveIngredient": "Lanreotide (as Lanreotide acetate) 180 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;736.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;736.00</ph>",
+                        "nhsIndicativePrice": "&#163;736.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Somatuline Autogel 120mg/0.5ml solution for injection pre-filled syringes with safety system (Ipsen Ltd) ",
+            "header": "Somatuline Autogel 120mg/0.5ml solution for injection pre-filled syringes with safety system <ph outputclass=\"manufacturer\">(Ipsen Ltd)</ph>",
+            "manufacturer": "(Ipsen Ltd)",
+            "name": "Somatuline Autogel 120mg/0.5ml solution for injection pre-filled syringes with safety system",
+            "ampid": "19889311000001104",
+            "strengthOfActiveIngredient": "Lanreotide (as Lanreotide acetate) 240 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;937.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;937.00</ph>",
+                        "nhsIndicativePrice": "&#163;937.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5804",
+        "label": "LANREOTIDE"
+    }
+}

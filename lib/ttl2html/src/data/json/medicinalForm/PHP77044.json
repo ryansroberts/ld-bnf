@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP77044\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tiaprofenic-acid/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Surgam 300mg tablets <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">308411000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tiaprofenic acid 300&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.95</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;14.95</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6520\" title=\"TIAPROFENIC ACID\" namespace=\"/drugs/tiaprofenic-acid\">TIAPROFENIC ACID</xref>\n</parents>\n</topic>",
+    "id": "PHP77044",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tiaprofenic-acid/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Surgam 300mg tablets (Sanofi) ",
+            "header": "Surgam 300mg tablets <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Surgam 300mg tablets",
+            "ampid": "308411000001108",
+            "strengthOfActiveIngredient": "Tiaprofenic acid 300 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.95</ph>",
+                        "nhsIndicativePrice": "&#163;14.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;14.95 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;14.95</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;14.95"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6520",
+        "label": "TIAPROFENIC ACID"
+    }
+}

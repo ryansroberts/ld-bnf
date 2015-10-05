@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP78075\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/fortipine-la-40\" basename=\"fortipine-la-40\" title=\"Fortipine LA 40\">\n<title>Fortipine<tm tmtype=\"reg\"/> LA 40</title>\n<topic id=\"PHP61618\" outputclass=\"indicationsAndDose\" rev=\"1.26\" parent=\"/clinical-medicinal-product-information/fortipine-la-40\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypertension</p>\n<p outputclass=\"therapeuticIndication\">Angina prophylaxis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 40&#8239;mg once daily, increased if necessary to 80&#8239;mg daily in 1&#8211;2 divided doses.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP61283\" outputclass=\"directionsForAdministration\" rev=\"1.7\" parent=\"/clinical-medicinal-product-information/fortipine-la-40\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Take with or just after food, or a meal.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78075",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/fortipine-la-40",
+    "basename": "fortipine-la-40",
+    "title": "Fortipine LA 40",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypertension",
+                        "html": "Hypertension"
+                    },
+                    {
+                        "textContent": "Angina prophylaxis",
+                        "html": "Angina prophylaxis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 40 mg once daily, increased if necessary to 80 mg daily in 1&#8211;2 divided doses.",
+                        "html": "<p>Initially 40&#8239;mg once daily, increased if necessary to 80&#8239;mg daily in 1&#8211;2 divided doses.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Take with or just after food, or a meal.",
+                "html": "<p>Take with or just after food, or a meal.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP75656\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/simeticone/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP98021\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/infacol\">Infacol<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Infacol 40mg/ml oral suspension <ph outputclass=\"manufacturer\">(Forest Laboratories UK Ltd)</ph>\n</title>\n<data name=\"ampid\">259711000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Simeticone 40&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.44</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;2.71</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP11104\" title=\"SIMETICONE\" namespace=\"/drugs/simeticone\">SIMETICONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75656",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/simeticone/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "productInformationGroups": [
+        {
+            "id": "PHP98021",
+            "label": "Infacol&reg;  ",
+            "html": "Infacol<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Infacol 40mg/ml oral suspension (Forest Laboratories UK Ltd) ",
+            "header": "Infacol 40mg/ml oral suspension <ph outputclass=\"manufacturer\">(Forest Laboratories UK Ltd)</ph>",
+            "manufacturer": "(Forest Laboratories UK Ltd)",
+            "name": "Infacol 40mg/ml oral suspension",
+            "ampid": "259711000001105",
+            "strengthOfActiveIngredient": "Simeticone 40 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 50 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.44 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.44</ph>",
+                        "nhsIndicativePrice": "&#163;2.44"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.71 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.71</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.71"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP11104",
+        "label": "SIMETICONE"
+    }
+}

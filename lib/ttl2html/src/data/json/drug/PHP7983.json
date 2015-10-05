@@ -1,0 +1,185 @@
+{
+    "xml": "<topic id=\"PHP7983\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/retapamulin\" basename=\"retapamulin\" title=\"RETAPAMULIN\">\n<title>RETAPAMULIN</title>\n<body>\n<data name=\"vtmid\">426825005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_531088105\" title=\"Pleuromutilin derivatives\">Pleuromutilin derivatives</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP52573\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/drugs/retapamulin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Superficial bacterial skin infection caused by <ph outputclass=\"organism\">\n<i>\n<i>Staphylococcus aureus</i>\n</i>\n</ph> and <ph outputclass=\"organism\">\n<i>\n<i>Streptococcus pyogenes</i> (if resistant to first line topical antibacterials)</i>\n</ph>\n</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 9 months&#8211;17 years</p>\n<p>Apply twice daily for 5 days, to be applied thinly, maximum area of skin treated 2% of body surface area, review treatment if no response within 2&#8211;3 days.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply twice daily for 5 days, to be applied thinly, maximum area of skin treated 100&#8239;cm<sup>2</sup> or lesion length 10&#8239;cm, review treatment if no response within 2&#8211;3 days.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP52604\" outputclass=\"contraindications\" rev=\"1.9\" parent=\"/drugs/retapamulin\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Contact with eyes</ph>; <ph outputclass=\"contraindication\">contact with mucous membranes</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP52529\" outputclass=\"sideEffects\" rev=\"1.11\" parent=\"/drugs/retapamulin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Contact dermatitis</ph>; <ph outputclass=\"sideEffect\">localised erythema</ph>; <ph outputclass=\"sideEffect\">localised irritation</ph>; <ph outputclass=\"sideEffect\">localised pain</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP52436\" outputclass=\"nationalFunding\" rev=\"1.7\" parent=\"/drugs/retapamulin\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (March 2008) that retapamulin (<i>Altargo</i>\n<tm tmtype=\"reg\"/>) is <b>not</b> recommended for use within NHS Scotland for the treatment of superficial skin infections.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP7983-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/retapamulin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75872\" title=\"Ointment\" namespace=\"/drugs/retapamulin/ointment\">Ointment</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78284\" namespace=\"/treatment-summaries/skin-infections\" title=\"Skin infections\" count=\"1\" rel=\"backlink\">Skin infections</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75872\" namespace=\"/drugs/retapamulin/ointment\" title=\"Ointment\" count=\"1\" rel=\"link\">Ointment</xref>\n</links>\n</topic>",
+    "id": "PHP7983",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/retapamulin",
+    "basename": "retapamulin",
+    "title": "RETAPAMULIN",
+    "vtmid": "426825005",
+    "drugClassification": [
+        "Pleuromutilin derivatives"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Superficial bacterial skin infection caused by Staphylococcus aureus and Streptococcus pyogenes (if resistant to first line topical antibacterials)",
+                        "html": "Superficial bacterial skin infection caused by <ph outputclass=\"organism\"> <i> <i>Staphylococcus aureus</i> </i> </ph> and <ph outputclass=\"organism\"> <i> <i>Streptococcus pyogenes</i> (if resistant to first line topical antibacterials)</i> </ph>",
+                        "organism": "Streptococcus pyogenes (if resistant to first line topical antibacterials)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin",
+                    "organism": "Streptococcus pyogenes (if resistant to first line topical antibacterials)"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply twice daily for 5 days, to be applied thinly, maximum area of skin treated 2% of body surface area, review treatment if no response within 2&#8211;3 days.",
+                        "html": "<p>Apply twice daily for 5 days, to be applied thinly, maximum area of skin treated 2% of body surface area, review treatment if no response within 2&#8211;3 days.</p>",
+                        "ageGroup": "9 months&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply twice daily for 5 days, to be applied thinly, maximum area of skin treated 100 cm2 or lesion length 10 cm, review treatment if no response within 2&#8211;3 days.",
+                        "html": "<p>Apply twice daily for 5 days, to be applied thinly, maximum area of skin treated 100&#8239;cm<sup>2</sup> or lesion length 10&#8239;cm, review treatment if no response within 2&#8211;3 days.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Contact with eyes",
+                "html": "Contact with eyes"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "contact with mucous membranes",
+                "html": "contact with mucous membranes"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Contact dermatitis",
+                        "html": "Contact dermatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "localised erythema",
+                        "html": "localised erythema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "localised irritation",
+                        "html": "localised irritation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "localised pain",
+                        "html": "localised pain",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (March 2008) that retapamulin (Altargo ) is not recommended for use within NHS Scotland for the treatment of superficial skin infections.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (March 2008) that retapamulin (<i>Altargo</i> <tm tmtype=\"reg\"/>) is <b>not</b> recommended for use within NHS Scotland for the treatment of superficial skin infections.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75872",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78284",
+                "label": "Skin infections",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75872",
+                "label": "Ointment",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

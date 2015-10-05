@@ -1,0 +1,120 @@
+{
+    "xml": "<topic id=\"PHP104991\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/avanafil/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Spedra 50mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">24395911000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Avanafil 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.94</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.70</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Spedra 100mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">24396611000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Avanafil 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.08</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;26.26</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Spedra 200mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">24397111000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Avanafil 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;21.90</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;39.40</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP104907\" title=\"AVANAFIL\" namespace=\"/drugs/avanafil\">AVANAFIL</xref>\n</parents>\n</topic>",
+    "id": "PHP104991",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/avanafil/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Spedra 50mg tablets (A. Menarini Farmaceutica Internazionale SRL) &#9660; ",
+            "header": "Spedra 50mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(A. Menarini Farmaceutica Internazionale SRL)",
+            "blackTriangle": "&#9660;",
+            "name": "Spedra 50mg tablets",
+            "ampid": "24395911000001103",
+            "strengthOfActiveIngredient": "Avanafil 50 mg",
+            "packs": [
+                {
+                    "textContent": " 4 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.94 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.94</ph>",
+                        "nhsIndicativePrice": "&#163;10.94"
+                    }
+                },
+                {
+                    "textContent": " 8 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.70</ph>",
+                        "nhsIndicativePrice": "&#163;19.70"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Spedra 100mg tablets (A. Menarini Farmaceutica Internazionale SRL) &#9660; ",
+            "header": "Spedra 100mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(A. Menarini Farmaceutica Internazionale SRL)",
+            "blackTriangle": "&#9660;",
+            "name": "Spedra 100mg tablets",
+            "ampid": "24396611000001104",
+            "strengthOfActiveIngredient": "Avanafil 100 mg",
+            "packs": [
+                {
+                    "textContent": " 4 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.08</ph>",
+                        "nhsIndicativePrice": "&#163;14.08"
+                    }
+                },
+                {
+                    "textContent": " 8 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;26.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;26.26</ph>",
+                        "nhsIndicativePrice": "&#163;26.26"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Spedra 200mg tablets (A. Menarini Farmaceutica Internazionale SRL) &#9660; ",
+            "header": "Spedra 200mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(A. Menarini Farmaceutica Internazionale SRL)",
+            "blackTriangle": "&#9660;",
+            "name": "Spedra 200mg tablets",
+            "ampid": "24397111000001105",
+            "strengthOfActiveIngredient": "Avanafil 200 mg",
+            "packs": [
+                {
+                    "textContent": " 4 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;21.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;21.90</ph>",
+                        "nhsIndicativePrice": "&#163;21.90"
+                    }
+                },
+                {
+                    "textContent": " 8 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;39.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;39.40</ph>",
+                        "nhsIndicativePrice": "&#163;39.40"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP104907",
+        "label": "AVANAFIL"
+    }
+}

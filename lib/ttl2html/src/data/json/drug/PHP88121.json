@@ -1,0 +1,114 @@
+{
+    "xml": "<topic id=\"PHP88121\" outputclass=\"drug\" rev=\"1.20\" type=\"drug\" namespace=\"/drugs/hepatitis-a-and-b-vaccine\" basename=\"hepatitis-a-and-b-vaccine\" title=\"HEPATITIS A AND B VACCINE\">\n<title>HEPATITIS A AND B VACCINE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1321\" namespace=\"/interactions/list-of-drug-interactions/vaccines/hepatitis-vaccines\">Hepatitis Vaccines</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP8291\" namespace=\"/drugs/hepatitis-a-vaccine\">hepatitis A vaccine</xref>, <xref format=\"dita\" href=\"#PHP8310\" namespace=\"/drugs/hepatitis-b-vaccine\">hepatitis B vaccine</xref>.</p>\n<data name=\"vtmid\">333702001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_581448509\" title=\"Vaccines\">Vaccines</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP91838\" outputclass=\"importantSafetyInformation\" rev=\"1.20\" parent=\"/drugs/hepatitis-a-and-b-vaccine\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>Ambirix</i>\n<tm tmtype=\"reg\"/> and <i>Twinrix</i>\n<tm tmtype=\"reg\"/> are not recommended for post-exposure prophylaxis following percutaneous (needle-stick), ocular, or mucous membrane exposure to hepatitis B virus.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88121-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/hepatitis-a-and-b-vaccine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92462\" title=\"Suspension for injection\" namespace=\"/drugs/hepatitis-a-and-b-vaccine/suspension-for-injection\">Suspension for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78335\" namespace=\"/treatment-summaries/vaccines\" title=\"Vaccines\" count=\"1\" rel=\"backlink\">Vaccines</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1321\" namespace=\"/interactions/list-of-drug-interactions/vaccines/hepatitis-vaccines\" title=\"Hepatitis Vaccines\" count=\"1\" rel=\"link\">Hepatitis Vaccines</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8291\" namespace=\"/drugs/hepatitis-a-vaccine\" title=\"HEPATITIS A VACCINE\" count=\"1\" rel=\"link\">HEPATITIS A VACCINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8310\" namespace=\"/drugs/hepatitis-b-vaccine\" title=\"HEPATITIS B VACCINE\" count=\"1\" rel=\"link\">HEPATITIS B VACCINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92462\" namespace=\"/drugs/hepatitis-a-and-b-vaccine/suspension-for-injection\" title=\"Suspension for injection\" count=\"1\" rel=\"link\">Suspension for injection</xref>\n</links>\n</topic>",
+    "id": "PHP88121",
+    "outputclass": "drug",
+    "rev": "1.20",
+    "type": "drug",
+    "namespace": "/drugs/hepatitis-a-and-b-vaccine",
+    "basename": "hepatitis-a-and-b-vaccine",
+    "title": "HEPATITIS A AND B VACCINE",
+    "interactants": [
+        {
+            "id": "bnf_int_1321",
+            "label": "Hepatitis Vaccines"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP8291",
+            "label": "hepatitis A vaccine"
+        },
+        {
+            "id": "PHP8310",
+            "label": "hepatitis B vaccine"
+        }
+    ],
+    "vtmid": "333702001",
+    "drugClassification": [
+        "Vaccines"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "textContent": "Ambirix and Twinrix are not recommended for post-exposure prophylaxis following percutaneous (needle-stick), ocular, or mucous membrane exposure to hepatitis B virus.",
+                "html": "<p>\n<i>Ambirix</i>\n<tm tmtype=\"reg\"/> and <i>Twinrix</i>\n<tm tmtype=\"reg\"/> are not recommended for post-exposure prophylaxis following percutaneous (needle-stick), ocular, or mucous membrane exposure to hepatitis B virus.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92462",
+                "label": "Suspension for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78335",
+                "label": "Vaccines",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1321",
+                "label": "Hepatitis Vaccines",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP8291",
+                "label": "HEPATITIS A VACCINE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP8310",
+                "label": "HEPATITIS B VACCINE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92462",
+                "label": "Suspension for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP92277\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/metformin-with-pioglitazone/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Competact 15mg/850mg tablets <ph outputclass=\"manufacturer\">(Takeda UK Ltd)</ph>\n</title>\n<data name=\"ampid\">10922311000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Metformin hydrochloride 850&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Pioglitazone (as Pioglitazone hydrochloride) 15&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;35.89</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;35.89</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85626\" title=\"METFORMIN WITH PIOGLITAZONE\" namespace=\"/drugs/metformin-with-pioglitazone\">METFORMIN WITH PIOGLITAZONE</xref>\n</parents>\n</topic>",
+    "id": "PHP92277",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/metformin-with-pioglitazone/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Competact 15mg/850mg tablets (Takeda UK Ltd) ",
+            "header": "Competact 15mg/850mg tablets <ph outputclass=\"manufacturer\">(Takeda UK Ltd)</ph>",
+            "manufacturer": "(Takeda UK Ltd)",
+            "name": "Competact 15mg/850mg tablets",
+            "ampid": "10922311000001108",
+            "strengthOfActiveIngredient": "Pioglitazone (as Pioglitazone hydrochloride) 15 mg",
+            "packs": [
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;35.89 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;35.89</ph>",
+                        "nhsIndicativePrice": "&#163;35.89"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;35.89 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;35.89</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;35.89"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85626",
+        "label": "METFORMIN WITH PIOGLITAZONE"
+    }
+}

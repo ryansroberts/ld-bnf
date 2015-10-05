@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP77056\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/oxybutynin-hydrochloride/transdermal-patch\" basename=\"transdermal-patch\" title=\"Transdermal patch\">\n<title>Transdermal patch</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">  </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Kentera 3.9mg/24hours patches <ph outputclass=\"manufacturer\">(Orion Pharma (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">9189311000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Oxybutynin 3.9&#8239;mg per 24&#8239;hour</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">patch</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.20</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;27.20</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5086\" title=\"OXYBUTYNIN HYDROCHLORIDE\" namespace=\"/drugs/oxybutynin-hydrochloride\">OXYBUTYNIN HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77056",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/oxybutynin-hydrochloride/transdermal-patch",
+    "basename": "transdermal-patch",
+    "form": "Transdermal patch",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "3",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines",
+            "html": "Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines"
+        }
+    ],
+    "products": [
+        {
+            "title": "Kentera 3.9mg/24hours patches (Orion Pharma (UK) Ltd) ",
+            "header": "Kentera 3.9mg/24hours patches <ph outputclass=\"manufacturer\">(Orion Pharma (UK) Ltd)</ph>",
+            "manufacturer": "(Orion Pharma (UK) Ltd)",
+            "name": "Kentera 3.9mg/24hours patches",
+            "ampid": "9189311000001105",
+            "strengthOfActiveIngredient": "Oxybutynin 3.9 mg per 24 hour",
+            "packs": [
+                {
+                    "textContent": " 8 patch POM ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">patch</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "patch",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.20 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.20</ph>",
+                        "nhsIndicativePrice": "&#163;27.20"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;27.20 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.20</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;27.20"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5086",
+        "label": "OXYBUTYNIN HYDROCHLORIDE"
+    }
+}

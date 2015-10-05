@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP77543\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ondansetron/suppository\" basename=\"suppository\" title=\"Suppository\">\n<title>Suppository</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Zofran 16mg suppositories <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4066911000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ondansetron 16&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">suppository</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.39</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2561\" title=\"ONDANSETRON\" namespace=\"/drugs/ondansetron\">ONDANSETRON</xref>\n</parents>\n</topic>",
+    "id": "PHP77543",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ondansetron/suppository",
+    "basename": "suppository",
+    "form": "Suppository",
+    "products": [
+        {
+            "title": "Zofran 16mg suppositories (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Zofran 16mg suppositories <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Zofran 16mg suppositories",
+            "ampid": "4066911000001108",
+            "strengthOfActiveIngredient": "Ondansetron 16 mg",
+            "packs": [
+                {
+                    "textContent": " 1 suppository POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">suppository</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "suppository",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.39 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.39</ph>",
+                        "nhsIndicativePrice": "&#163;14.39"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2561",
+        "label": "ONDANSETRON"
+    }
+}

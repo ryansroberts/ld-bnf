@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75938\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/docusate-sodium/enema\" basename=\"enema\" title=\"Enema\">\n<title>Enema</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Norgalax 120mg/10g enema <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">3609111000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Docusate sodium 12&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">enema</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.97</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP581\" title=\"DOCUSATE SODIUM\" namespace=\"/drugs/docusate-sodium\">DOCUSATE SODIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP75938",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/docusate-sodium/enema",
+    "basename": "enema",
+    "form": "Enema",
+    "products": [
+        {
+            "title": "Norgalax 120mg/10g enema (Essential Pharmaceuticals Ltd) ",
+            "header": "Norgalax 120mg/10g enema <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Essential Pharmaceuticals Ltd)",
+            "name": "Norgalax 120mg/10g enema",
+            "ampid": "3609111000001108",
+            "strengthOfActiveIngredient": "Docusate sodium 12 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 6 enema P ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">enema</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "enema",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.97</ph>",
+                        "nhsIndicativePrice": "&#163;3.97"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP581",
+        "label": "DOCUSATE SODIUM"
+    }
+}

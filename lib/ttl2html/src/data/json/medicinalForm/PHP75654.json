@@ -1,0 +1,115 @@
+{
+    "xml": "<topic id=\"PHP75654\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/methylprednisolone/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Medrone 2mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4051211000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Methylprednisolone 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.88</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Medrone 4mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4051611000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Methylprednisolone 4&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.19</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Medrone 16mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4051911000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Methylprednisolone 16&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.17</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Medrone 100mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4052211000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Methylprednisolone 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;48.32</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4371\" title=\"METHYLPREDNISOLONE\" namespace=\"/drugs/methylprednisolone\">METHYLPREDNISOLONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75654",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/methylprednisolone/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Medrone 2mg tablets (Pfizer Ltd) ",
+            "header": "Medrone 2mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Medrone 2mg tablets",
+            "ampid": "4051211000001101",
+            "strengthOfActiveIngredient": "Methylprednisolone 2 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.88 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.88</ph>",
+                        "nhsIndicativePrice": "&#163;3.88"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Medrone 4mg tablets (Pfizer Ltd) ",
+            "header": "Medrone 4mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Medrone 4mg tablets",
+            "ampid": "4051611000001104",
+            "strengthOfActiveIngredient": "Methylprednisolone 4 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.19 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.19</ph>",
+                        "nhsIndicativePrice": "&#163;6.19"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Medrone 16mg tablets (Pfizer Ltd) ",
+            "header": "Medrone 16mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Medrone 16mg tablets",
+            "ampid": "4051911000001105",
+            "strengthOfActiveIngredient": "Methylprednisolone 16 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.17 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.17</ph>",
+                        "nhsIndicativePrice": "&#163;17.17"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Medrone 100mg tablets (Pfizer Ltd) ",
+            "header": "Medrone 100mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Medrone 100mg tablets",
+            "ampid": "4052211000001108",
+            "strengthOfActiveIngredient": "Methylprednisolone 100 mg",
+            "packs": [
+                {
+                    "textContent": " 20 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;48.32 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;48.32</ph>",
+                        "nhsIndicativePrice": "&#163;48.32"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4371",
+        "label": "METHYLPREDNISOLONE"
+    }
+}

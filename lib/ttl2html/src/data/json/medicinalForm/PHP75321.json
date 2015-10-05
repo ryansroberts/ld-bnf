@@ -1,0 +1,90 @@
+{
+    "xml": "<topic id=\"PHP75321\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tacrolimus/granules\" basename=\"granules\" title=\"Granules\">\n<title>Granules</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\r\n<p>Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP79663\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/modigraf\">Modigraf<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Modigraf 1mg granules sachets <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">16658811000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tacrolimus (as Tacrolimus monohydrate) 1&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;356.65</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;356.65</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Modigraf 0.2mg granules sachets <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">16658411000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tacrolimus (as Tacrolimus monohydrate) 200&#8239;microgram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;71.30</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;71.30</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5639\" title=\"TACROLIMUS\" namespace=\"/drugs/tacrolimus\">TACROLIMUS</xref>\n</parents>\n</topic>",
+    "id": "PHP75321",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tacrolimus/granules",
+    "basename": "granules",
+    "form": "Granules",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "23",
+            "textContent": "Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food",
+            "html": "Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food"
+        }
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP79663",
+            "label": "Modigraf&reg;  ",
+            "html": "Modigraf<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Modigraf 1mg granules sachets (Astellas Pharma Ltd) ",
+            "header": "Modigraf 1mg granules sachets <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>",
+            "manufacturer": "(Astellas Pharma Ltd)",
+            "name": "Modigraf 1mg granules sachets",
+            "ampid": "16658811000001107",
+            "strengthOfActiveIngredient": "Tacrolimus (as Tacrolimus monohydrate) 1 mg",
+            "packs": [
+                {
+                    "textContent": " 50 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;356.65 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;356.65</ph>",
+                        "nhsIndicativePrice": "&#163;356.65"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;356.65 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;356.65</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;356.65"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Modigraf 0.2mg granules sachets (Astellas Pharma Ltd) ",
+            "header": "Modigraf 0.2mg granules sachets <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>",
+            "manufacturer": "(Astellas Pharma Ltd)",
+            "name": "Modigraf 0.2mg granules sachets",
+            "ampid": "16658411000001105",
+            "strengthOfActiveIngredient": "Tacrolimus (as Tacrolimus monohydrate) 200 microgram",
+            "packs": [
+                {
+                    "textContent": " 50 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;71.30 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;71.30</ph>",
+                        "nhsIndicativePrice": "&#163;71.30"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;71.30 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;71.30</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;71.30"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5639",
+        "label": "TACROLIMUS"
+    }
+}

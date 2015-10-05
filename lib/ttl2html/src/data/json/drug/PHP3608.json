@@ -1,0 +1,787 @@
+{
+    "xml": "<topic id=\"PHP3608\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/isoniazid\" basename=\"isoniazid\" title=\"ISONIAZID\">\n<title>ISONIAZID</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_165\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/isoniazid\">Isoniazid</xref>\n</p>\n<data name=\"vtmid\">81335000</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_951572631\" title=\"Hydrazides\">Hydrazides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP72979\" outputclass=\"indicationsAndDose\" rev=\"1.30\" parent=\"/drugs/isoniazid\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Tuberculosis, in combination with other drugs (standard unsupervised 6-month treatment)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth or by intramuscular injection or by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>10&#8239;mg/kg once daily (max. per dose 300&#8239;mg) for 6 months (initial and continuation phases).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>300&#8239;mg daily for 6 months (initial and continuation phases).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Tuberculosis, in combination with other drugs (intermittent supervised 6-month treatment) (under expert supervision)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth or by intramuscular injection or by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>15&#8239;mg/kg 3 times a week (max. per dose 900&#8239;mg) for 6 months (initial and continuation phases).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>15&#8239;mg/kg 3 times a week (max. per dose 900&#8239;mg) for 6 months (initial and continuation phases).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of tuberculosis in susceptible close contacts or those who have become tuberculin positive</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth or by intramuscular injection or by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>10&#8239;mg/kg daily (max. per dose 300&#8239;mg) for 6 months, alternatively 10&#8239;mg/kg daily (max. per dose 300&#8239;mg) for 3 months, to be taken in combination with rifampicin.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>300&#8239;mg daily for 6 months, alternatively 300&#8239;mg daily for 3 months, to be taken in combination with rifampicin.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>300&#8239;mg daily for 6 months, alternatively 300&#8239;mg daily for 3 months, to be taken in combination with rifampicin.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73050\" outputclass=\"contraindications\" rev=\"1.7\" parent=\"/drugs/isoniazid\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Drug-induced liver disease</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73069\" outputclass=\"cautions\" rev=\"1.30\" parent=\"/drugs/isoniazid\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"caution\">alcohol dependence</ph>; <ph outputclass=\"caution\">diabetes mellitus</ph>; <ph outputclass=\"caution\">epilepsy</ph>; <ph outputclass=\"caution\">history of psychosis</ph>; <ph outputclass=\"caution\">HIV infection</ph>; <ph outputclass=\"caution\">malnutrition</ph>; <ph outputclass=\"caution\">slow acetylator status (increased risk of side-effects)</ph>\r\n</p>\r\n </section>\r\n<section outputclass=\"importantAdvice\">\r\n<title>Cautions, further information</title>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Peripheral neuropathy</p>\r\n<p>Peripheral neuropathy is more likely to occur where there are pre-existing risk factors such as diabetes, alcohol dependence, chronic renal failure, pregnancy, malnutrition and HIV infection. In patients at increased risk of peripheral neuropathy, <xref format=\"dita\" href=\"#PHP6206\" type=\"drug\" namespace=\"/drugs/pyridoxine-hydrochloride\">pyridoxine hydrochloride</xref> should be given prophylactically from the start of treatment.</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP72970\" outputclass=\"interactions\" rev=\"1.12\" parent=\"/drugs/isoniazid\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (isoniazid).</p>\n<p>When used with tyramine or histamine rich foods, tachycardia, palpitation, hypotension, flushing, headache, dizziness, and sweating reported.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72910\" outputclass=\"sideEffects\" rev=\"1.26\" parent=\"/drugs/isoniazid\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Peripheral neuropathy</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hepatitis</ph>; <ph outputclass=\"sideEffect\">psychotic episodes</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agranulocytosis</ph>; <ph outputclass=\"sideEffect\">aplastic anaemia</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">convulsions</ph>; <ph outputclass=\"sideEffect\">difficulty with micturition</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">fever</ph>; <ph outputclass=\"sideEffect\">gynaecomastia</ph>; <ph outputclass=\"sideEffect\">haemolytic anaemia</ph>; <ph outputclass=\"sideEffect\">hearing loss (in patients with end-stage renal impairment)</ph>; <ph outputclass=\"sideEffect\">hyperglycaemia</ph>; <ph outputclass=\"sideEffect\">hyperreflexia</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">interstitial pneumonitis</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">optic neuritis</ph>; <ph outputclass=\"sideEffect\">pancreatitis</ph>; <ph outputclass=\"sideEffect\">pellagra</ph>; <ph outputclass=\"sideEffect\">peripheral neuritis with high doses</ph>; <ph outputclass=\"sideEffect\">purpura</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">systemic lupus erythematosus-like syndrome</ph>; <ph outputclass=\"sideEffect\">tinnitus (in patients with end-stage renal impairment)</ph>; <ph outputclass=\"sideEffect\">vertigo</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p outputclass=\"title\">Hepatitis</p>\n<p>Hepatitis more common in those aged over 35 years.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72962\" outputclass=\"pregnancy\" parent=\"/drugs/isoniazid\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Not known to be harmful; prophylactic pyridoxine recommended.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73079\" outputclass=\"breastFeeding\" parent=\"/drugs/isoniazid\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Theoretical risk of convulsions and neuropathy; prophylactic pyridoxine advisable in mother.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInBreastFeeding\">\n<sectiondiv>\n<p>In breast-feeding, monitor infant for possible toxicity.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73018\" outputclass=\"hepaticImpairment\" parent=\"/drugs/isoniazid\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInHepaticImpairment\">\n<sectiondiv>\n<p>In patients with pre-existing liver disease or hepatic impairment monitor liver function regularly and particularly frequently in the first 2 months.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72948\" outputclass=\"renalImpairment\" parent=\"/drugs/isoniazid\">\n<title>Renal impairment</title>\n<body>\r\n\r\n<section outputclass=\"generalInformation\">\r\n<sectiondiv>\r\n<p>Risk of ototoxicity and peripheral neuropathy; prophylactic <xref format=\"dita\" href=\"#PHP6206\" type=\"drug\" namespace=\"/drugs/pyridoxine-hydrochloride\">pyridoxine hydrochloride</xref> recommended.</p>\n</sectiondiv>\n</section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP72856\" outputclass=\"monitoringRequirements\" parent=\"/drugs/isoniazid\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>\n<i>Renal function</i> should be checked before treatment.</p>\n<p>\n<i>Hepatic function</i> should be checked before treatment. If there is no evidence of liver disease (and pre-treatment liver function is normal), further checks are only necessary if the patient develops fever, malaise, vomiting, jaundice or unexplained deterioration during treatment.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>Those with alcohol dependence should have frequent checks of hepatic function, particularly in the first 2 months.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58394\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.22\" parent=\"/drugs/isoniazid\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>In general, doses should be rounded up to facilitate administration of suitable volumes of liquid or an appropriate strength of tablet.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Doses may need to be recalculated to allow for weight gain in younger children.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72957\" outputclass=\"patientAndCarerAdvice\" rev=\"1.21\" parent=\"/drugs/isoniazid\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Isoniazid for latent tuberculosis</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/isoniazid-for-latent-tuberculosis\">www.medicinesforchildren.org.uk/isoniazid-for-latent-tuberculosis</xref>\n</p>\n</sectiondiv>\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Isoniazid for treatment of tuberculosis</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk//isoniazid-for-the-treatment-of-tuberculosis\">www.medicinesforchildren.org.ukisoniazid-for-the-treatment-of-tuberculosis</xref>\n</p>\n</sectiondiv>\n</section>\r\n<section outputclass=\"generalPatientAdvice\">\r\n<sectiondiv>\r\n<p outputclass=\"title\">Hepatic disorders</p>\r\n<p>Patients or their carers should be told how to recognise signs of liver disorder, and advised to discontinue treatment and seek immediate medical attention if symptoms such as persistent nausea, vomiting, malaise or jaundice develop.</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP3608-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/isoniazid\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution, oral suspension</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75047\" title=\"Tablet\" namespace=\"/drugs/isoniazid/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75055\" title=\"Solution for injection\" namespace=\"/drugs/isoniazid/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85621\" namespace=\"/drugs/isoniazid-with-pyrazinamide-and-rifampicin\" title=\"ISONIAZID WITH PYRAZINAMIDE AND RIFAMPICIN\" count=\"1\" rel=\"backlink\">ISONIAZID WITH PYRAZINAMIDE AND RIFAMPICIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85622\" namespace=\"/drugs/isoniazid-with-rifampicin\" title=\"ISONIAZID WITH RIFAMPICIN\" count=\"1\" rel=\"backlink\">ISONIAZID WITH RIFAMPICIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP97002\" namespace=\"/drugs/ethambutol-with-isoniazid-pyrazinamide-and-rifampicin\" title=\"ETHAMBUTOL WITH ISONIAZID, PYRAZINAMIDE AND RIFAMPICIN\" count=\"1\" rel=\"backlink\">ETHAMBUTOL WITH ISONIAZID, PYRAZINAMIDE AND RIFAMPICIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97237\" namespace=\"/guidance/adverse-reactions-to-drugs\" title=\"Adverse reactions to drugs\" count=\"1\" rel=\"backlink\">Adverse reactions to drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78195\" namespace=\"/treatment-summaries/vitamins\" title=\"Vitamins\" count=\"1\" rel=\"backlink\">Vitamins</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78210\" namespace=\"/treatment-summaries/antibacterials-use-for-prophylaxis\" title=\"Antibacterials, use for prophylaxis\" count=\"2\" rel=\"backlink\">Antibacterials, use for prophylaxis</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78330\" namespace=\"/treatment-summaries/tuberculosis\" title=\"Tuberculosis\" count=\"11\" rel=\"backlink\">Tuberculosis</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78590\" namespace=\"/treatment-summaries/anaemias\" title=\"Anaemias\" count=\"1\" rel=\"backlink\">Anaemias</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_165\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/isoniazid\" title=\"Isoniazid\" count=\"1\" rel=\"link\">Isoniazid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6206\" namespace=\"/drugs/pyridoxine-hydrochloride\" title=\"PYRIDOXINE HYDROCHLORIDE\" count=\"2\" rel=\"link\">PYRIDOXINE HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75047\" namespace=\"/drugs/isoniazid/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75055\" namespace=\"/drugs/isoniazid/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP3608",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/isoniazid",
+    "basename": "isoniazid",
+    "title": "ISONIAZID",
+    "interactants": [
+        {
+            "id": "bnf_int_165",
+            "label": "Isoniazid"
+        }
+    ],
+    "vtmid": "81335000",
+    "drugClassification": [
+        "Hydrazides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Tuberculosis, in combination with other drugs (standard unsupervised 6-month treatment)",
+                        "html": "Tuberculosis, in combination with other drugs (standard unsupervised 6-month treatment)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth or intramuscular injection or intravenous injection"
+                    ],
+                    "textContent": "By mouth or by intramuscular injection or by intravenous injection",
+                    "html": "By mouth or by intramuscular injection or by intravenous injection"
+                },
+                "child": [
+                    {
+                        "textContent": "10 mg/kg once daily (max. per dose 300 mg) for 6 months (initial and continuation phases).",
+                        "html": "<p>10&#8239;mg/kg once daily (max. per dose 300&#8239;mg) for 6 months (initial and continuation phases).</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "300 mg daily for 6 months (initial and continuation phases).",
+                        "html": "<p>300&#8239;mg daily for 6 months (initial and continuation phases).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Tuberculosis, in combination with other drugs (intermittent supervised 6-month treatment) (under expert supervision)",
+                        "html": "Tuberculosis, in combination with other drugs (intermittent supervised 6-month treatment) (under expert supervision)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth or intramuscular injection or intravenous injection"
+                    ],
+                    "textContent": "By mouth or by intramuscular injection or by intravenous injection",
+                    "html": "By mouth or by intramuscular injection or by intravenous injection"
+                },
+                "child": [
+                    {
+                        "textContent": "15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).",
+                        "html": "<p>15&#8239;mg/kg 3 times a week (max. per dose 900&#8239;mg) for 6 months (initial and continuation phases).</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "15 mg/kg 3 times a week (max. per dose 900 mg) for 6 months (initial and continuation phases).",
+                        "html": "<p>15&#8239;mg/kg 3 times a week (max. per dose 900&#8239;mg) for 6 months (initial and continuation phases).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of tuberculosis in susceptible close contacts or those who have become tuberculin positive",
+                        "html": "Prevention of tuberculosis in susceptible close contacts or those who have become tuberculin positive"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth or intramuscular injection or intravenous injection"
+                    ],
+                    "textContent": "By mouth or by intramuscular injection or by intravenous injection",
+                    "html": "By mouth or by intramuscular injection or by intravenous injection"
+                },
+                "child": [
+                    {
+                        "textContent": "10 mg/kg daily (max. per dose 300 mg) for 6 months, alternatively 10 mg/kg daily (max. per dose 300 mg) for 3 months, to be taken in combination with rifampicin.",
+                        "html": "<p>10&#8239;mg/kg daily (max. per dose 300&#8239;mg) for 6 months, alternatively 10&#8239;mg/kg daily (max. per dose 300&#8239;mg) for 3 months, to be taken in combination with rifampicin.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "300 mg daily for 6 months, alternatively 300 mg daily for 3 months, to be taken in combination with rifampicin.",
+                        "html": "<p>300&#8239;mg daily for 6 months, alternatively 300&#8239;mg daily for 3 months, to be taken in combination with rifampicin.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "300 mg daily for 6 months, alternatively 300 mg daily for 3 months, to be taken in combination with rifampicin.",
+                        "html": "<p>300&#8239;mg daily for 6 months, alternatively 300&#8239;mg daily for 3 months, to be taken in combination with rifampicin.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Drug-induced liver disease",
+                "html": "Drug-induced liver disease"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautions",
+                "textContent": "alcohol dependence",
+                "html": "alcohol dependence"
+            },
+            {
+                "type": "cautions",
+                "textContent": "diabetes mellitus",
+                "html": "diabetes mellitus"
+            },
+            {
+                "type": "cautions",
+                "textContent": "epilepsy",
+                "html": "epilepsy"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of psychosis",
+                "html": "history of psychosis"
+            },
+            {
+                "type": "cautions",
+                "textContent": "HIV infection",
+                "html": "HIV infection"
+            },
+            {
+                "type": "cautions",
+                "textContent": "malnutrition",
+                "html": "malnutrition"
+            },
+            {
+                "type": "cautions",
+                "textContent": "slow acetylator status (increased risk of side-effects)",
+                "html": "slow acetylator status (increased risk of side-effects)"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "references": [
+                    {
+                        "id": "PHP6206",
+                        "label": "pyridoxine hydrochloride"
+                    }
+                ],
+                "title": "Peripheral neuropathy",
+                "textContent": "Peripheral neuropathy is more likely to occur where there are pre-existing risk factors such as diabetes, alcohol dependence, chronic renal failure, pregnancy, malnutrition and HIV infection. In patients at increased risk of peripheral neuropathy, pyridoxine hydrochloride should be given prophylactically from the start of treatment.",
+                "html": "<p>Peripheral neuropathy is more likely to occur where there are pre-existing risk factors such as diabetes, alcohol dependence, chronic renal failure, pregnancy, malnutrition and HIV infection. In patients at increased risk of peripheral neuropathy, <xref format=\"dita\" href=\"#PHP6206\" type=\"drug\" namespace=\"/drugs/pyridoxine-hydrochloride\">pyridoxine hydrochloride</xref> should be given prophylactically from the start of treatment.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (isoniazid).\n\nWhen used with tyramine or histamine rich foods, tachycardia, palpitation, hypotension, flushing, headache, dizziness, and sweating reported.",
+                "html": "<p>Appendix 1 (isoniazid).</p><p>When used with tyramine or histamine rich foods, tachycardia, palpitation, hypotension, flushing, headache, dizziness, and sweating reported.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Peripheral neuropathy",
+                        "html": "Peripheral neuropathy",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Hepatitis",
+                        "html": "Hepatitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "psychotic episodes",
+                        "html": "psychotic episodes",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Agranulocytosis",
+                        "html": "Agranulocytosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "aplastic anaemia",
+                        "html": "aplastic anaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "convulsions",
+                        "html": "convulsions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "difficulty with micturition",
+                        "html": "difficulty with micturition",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "fever",
+                        "html": "fever",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gynaecomastia",
+                        "html": "gynaecomastia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "haemolytic anaemia",
+                        "html": "haemolytic anaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hearing loss (in patients with end-stage renal impairment)",
+                        "html": "hearing loss (in patients with end-stage renal impairment)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperglycaemia",
+                        "html": "hyperglycaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperreflexia",
+                        "html": "hyperreflexia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "interstitial pneumonitis",
+                        "html": "interstitial pneumonitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "optic neuritis",
+                        "html": "optic neuritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pancreatitis",
+                        "html": "pancreatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pellagra",
+                        "html": "pellagra",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "peripheral neuritis with high doses",
+                        "html": "peripheral neuritis with high doses",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "purpura",
+                        "html": "purpura",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "systemic lupus erythematosus-like syndrome",
+                        "html": "systemic lupus erythematosus-like syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tinnitus (in patients with end-stage renal impairment)",
+                        "html": "tinnitus (in patients with end-stage renal impairment)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vertigo",
+                        "html": "vertigo",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "title": "Hepatitis",
+                "textContent": "Hepatitis more common in those aged over 35 years.",
+                "html": "<p>Hepatitis more common in those aged over 35 years.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Not known to be harmful; prophylactic pyridoxine recommended.",
+                "html": "<p>Not known to be harmful; prophylactic pyridoxine recommended.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Theoretical risk of convulsions and neuropathy; prophylactic pyridoxine advisable in mother.",
+                "html": "<p>Theoretical risk of convulsions and neuropathy; prophylactic pyridoxine advisable in mother.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "In breast-feeding, monitor infant for possible toxicity.",
+                "html": "<p>In breast-feeding, monitor infant for possible toxicity.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution.",
+                "html": "<p>Use with caution.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "In patients with pre-existing liver disease or hepatic impairment monitor liver function regularly and particularly frequently in the first 2 months.",
+                "html": "<p>In patients with pre-existing liver disease or hepatic impairment monitor liver function regularly and particularly frequently in the first 2 months.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "references": [
+                    {
+                        "id": "PHP6206",
+                        "label": "pyridoxine hydrochloride"
+                    }
+                ],
+                "textContent": "Risk of ototoxicity and peripheral neuropathy; prophylactic pyridoxine hydrochloride recommended.",
+                "html": "<p>Risk of ototoxicity and peripheral neuropathy; prophylactic <xref format=\"dita\" href=\"#PHP6206\" type=\"drug\" namespace=\"/drugs/pyridoxine-hydrochloride\">pyridoxine hydrochloride</xref> recommended.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Renal function should be checked before treatment.\n\nHepatic function should be checked before treatment. If there is no evidence of liver disease (and pre-treatment liver function is normal), further checks are only necessary if the patient develops fever, malaise, vomiting, jaundice or unexplained deterioration during treatment.",
+                "html": "<p>\n<i>Renal function</i> should be checked before treatment.</p><p>\n<i>Hepatic function</i> should be checked before treatment. If there is no evidence of liver disease (and pre-treatment liver function is normal), further checks are only necessary if the patient develops fever, malaise, vomiting, jaundice or unexplained deterioration during treatment.</p>"
+            },
+            {
+                "type": "patientParameters",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "Those with alcohol dependence should have frequent checks of hepatic function, particularly in the first 2 months.",
+                "html": "<p>Those with alcohol dependence should have frequent checks of hepatic function, particularly in the first 2 months.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "With oral use in children",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "In general, doses should be rounded up to facilitate administration of suitable volumes of liquid or an appropriate strength of tablet.",
+                "html": "<p>In general, doses should be rounded up to facilitate administration of suitable volumes of liquid or an appropriate strength of tablet.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Doses may need to be recalculated to allow for weight gain in younger children.",
+                "html": "<p>Doses may need to be recalculated to allow for weight gain in younger children.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/isoniazid-for-latent-tuberculosis",
+                        "label": "www.medicinesforchildren.org.uk/isoniazid-for-latent-tuberculosis"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Isoniazid for latent tuberculosis",
+                "textContent": "www.medicinesforchildren.org.uk/isoniazid-for-latent-tuberculosis",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/isoniazid-for-latent-tuberculosis\">www.medicinesforchildren.org.uk/isoniazid-for-latent-tuberculosis</xref>\n</p>"
+            },
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk//isoniazid-for-the-treatment-of-tuberculosis",
+                        "label": "www.medicinesforchildren.org.ukisoniazid-for-the-treatment-of-tuberculosis"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Isoniazid for treatment of tuberculosis",
+                "textContent": "www.medicinesforchildren.org.ukisoniazid-for-the-treatment-of-tuberculosis",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk//isoniazid-for-the-treatment-of-tuberculosis\">www.medicinesforchildren.org.ukisoniazid-for-the-treatment-of-tuberculosis</xref>\n</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "title": "Hepatic disorders",
+                "textContent": "Patients or their carers should be told how to recognise signs of liver disorder, and advised to discontinue treatment and seek immediate medical attention if symptoms such as persistent nausea, vomiting, malaise or jaundice develop.",
+                "html": "<p>Patients or their carers should be told how to recognise signs of liver disorder, and advised to discontinue treatment and seek immediate medical attention if symptoms such as persistent nausea, vomiting, malaise or jaundice develop.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution",
+                "oral suspension"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75047",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75055",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP85621",
+                "label": "ISONIAZID WITH PYRAZINAMIDE AND RIFAMPICIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP85622",
+                "label": "ISONIAZID WITH RIFAMPICIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP97002",
+                "label": "ETHAMBUTOL WITH ISONIAZID, PYRAZINAMIDE AND RIFAMPICIN",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP97237",
+                "label": "Adverse reactions to drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78195",
+                "label": "Vitamins",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78210",
+                "label": "Antibacterials, use for prophylaxis",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78330",
+                "label": "Tuberculosis",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78590",
+                "label": "Anaemias",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_165",
+                "label": "Isoniazid",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP6206",
+                "label": "PYRIDOXINE HYDROCHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75047",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75055",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

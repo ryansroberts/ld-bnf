@@ -1,0 +1,107 @@
+{
+    "xml": "<topic id=\"PHP101387\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/dalacin-2%-cream\" basename=\"dalacin-2%-cream\" title=\"Dalacin 2% cream\">\n<title>Dalacin<tm tmtype=\"reg\"/> 2% cream</title>\n<topic id=\"PHP101663\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/dalacin-2%-cream\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bacterial vaginosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By vagina</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;applicatorful daily for 3&#8211;7 nights, dose to be administered at night.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>1 applicatorful delivers a 5&#8239;g dose of clindamycin 2%.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101674\" outputclass=\"sideEffects\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/dalacin-2%-cream\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Cervicitis</ph>; <ph outputclass=\"sideEffect\">irritation</ph>; <ph outputclass=\"sideEffect\">vaginitis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Systemic side-effects</p>\n<p>Clindamycin 2% cream is poorly absorbed into the blood&#8212;low risk of systemic effects.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101669\" outputclass=\"conceptionAndContraception\" parent=\"/clinical-medicinal-product-information/dalacin-2%-cream\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Damages latex condoms and diaphragms.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP101387",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/dalacin-2%-cream",
+    "basename": "dalacin-2%-cream",
+    "title": "Dalacin 2% cream",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Bacterial vaginosis",
+                        "html": "Bacterial vaginosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "vagina"
+                    ],
+                    "textContent": "By vagina",
+                    "html": "By vagina"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 applicatorful daily for 3&#8211;7 nights, dose to be administered at night.",
+                        "html": "<p>1&#8239;applicatorful daily for 3&#8211;7 nights, dose to be administered at night.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "1 applicatorful delivers a 5 g dose of clindamycin 2%.",
+                "html": "<p>1 applicatorful delivers a 5&#8239;g dose of clindamycin 2%.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Cervicitis",
+                        "html": "Cervicitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "irritation",
+                        "html": "irritation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vaginitis",
+                        "html": "vaginitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Systemic side-effects",
+                "textContent": "Clindamycin 2% cream is poorly absorbed into the blood&#8212;low risk of systemic effects.",
+                "html": "<p>Clindamycin 2% cream is poorly absorbed into the blood&#8212;low risk of systemic effects.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Damages latex condoms and diaphragms.",
+                "html": "<p>Damages latex condoms and diaphragms.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "xml": "<topic id=\"PHP92167\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/benzoin-tincture/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Benzoin tincture <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4321411000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Balsamic acids 16.5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.78</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.62</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Benzoin tincture <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>\n</title>\n<data name=\"ampid\">4321811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Balsamic acids 16.5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.62</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.62</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Benzoin tincture <ph outputclass=\"manufacturer\">(Optima Consumer Health Ltd)</ph>\n</title>\n<data name=\"ampid\">8971411000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Balsamic acids 16.5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;15.52</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.62</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP34500\" title=\"BENZOIN TINCTURE\" namespace=\"/drugs/benzoin-tincture\">BENZOIN TINCTURE</xref>\n</parents>\n</topic>",
+    "id": "PHP92167",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/benzoin-tincture/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "15",
+            "textContent": "Caution: flammable. Keep your body away from fire or flames after you have put on the medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Benzoin tincture (A A H Pharmaceuticals Ltd) ",
+            "header": "Benzoin tincture <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Benzoin tincture",
+            "ampid": "4321411000001102",
+            "strengthOfActiveIngredient": "Balsamic acids 16.5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.78 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.78</ph>",
+                        "nhsIndicativePrice": "&#163;22.78"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.62 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.62</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.62"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Benzoin tincture (J M Loveridge Ltd) ",
+            "header": "Benzoin tincture <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>",
+            "manufacturer": "(J M Loveridge Ltd)",
+            "name": "Benzoin tincture",
+            "ampid": "4321811000001100",
+            "strengthOfActiveIngredient": "Balsamic acids 16.5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.62 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.62</ph>",
+                        "nhsIndicativePrice": "&#163;12.62"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.62 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.62</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.62"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Benzoin tincture (Optima Consumer Health Ltd) ",
+            "header": "Benzoin tincture <ph outputclass=\"manufacturer\">(Optima Consumer Health Ltd)</ph>",
+            "manufacturer": "(Optima Consumer Health Ltd)",
+            "name": "Benzoin tincture",
+            "ampid": "8971411000001106",
+            "strengthOfActiveIngredient": "Balsamic acids 16.5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;15.52 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;15.52</ph>",
+                        "nhsIndicativePrice": "&#163;15.52"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.62 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.62</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.62"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP34500",
+        "label": "BENZOIN TINCTURE"
+    }
+}

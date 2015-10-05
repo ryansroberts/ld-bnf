@@ -1,0 +1,750 @@
+{
+    "xml": "<topic id=\"PHP3478\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/gentamicin\" basename=\"gentamicin\" title=\"GENTAMICIN\">\n<title>GENTAMICIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_131\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/aminoglycosides/gentamicin\">Gentamicin</xref>\n</p>\n<data name=\"vtmid\">57752001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_296174173\" title=\"Aminoglycosides\">Aminoglycosides</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34544\" title=\"AMINOGLYCOSIDES\" namespace=\"/drug-classes/aminoglycosides\">AMINOGLYCOSIDES</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP38991\" outputclass=\"indicationsAndDose\" rev=\"1.64\" parent=\"/drugs/gentamicin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bacterial eye infections</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply 1&#8239;drop every 2&#8239;hours, reduce frequency as infection is controlled and continue for 48 hours after healing, frequency of eye drops depends on the severity of the infection and the potential for irreversible ocular damage; for less severe infection 3&#8211;4 times daily is generally sufficient.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;drop every 2&#8239;hours, reduce frequency as infection is controlled and continue for 48 hours after healing, frequency of eye drops depends on the severity of the infection and the potential for irreversible ocular damage; for less severe infection 3&#8211;4 times daily is generally sufficient.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bacterial infection in otitis externa</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the ear</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply 2&#8211;3&#8239;drops 3&#8211;4 times a day and apply 2&#8211;3&#8239;drops daily, to be used at night.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 2&#8211;3&#8239;drops 3&#8211;4 times a day and apply 2&#8211;3&#8239;drops daily, to be used at night.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Gram-positive bacterial endocarditis or HACEK endocarditis (in combination with other antibacterials)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection or by slow intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;mg/kg every 12&#8239;hours, intravenous injection to be administered over at least 3 minutes, to be given in a multiple daily dose regimen.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Septicaemia</p>\n<p outputclass=\"therapeuticIndication\">Meningitis and other CNS infections</p>\n<p outputclass=\"therapeuticIndication\">Biliary-tract infection</p>\n<p outputclass=\"therapeuticIndication\">Acute pyelonephritis</p>\n<p outputclass=\"therapeuticIndication\">Endocarditis</p>\n<p outputclass=\"therapeuticIndication\">Pneumonia in hospital patients</p>\n<p outputclass=\"therapeuticIndication\">Adjunct in listerial meningitis</p>\n<p outputclass=\"therapeuticIndication\">Prostatitis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion or by slow intravenous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>3&#8211;5&#8239;mg/kg daily in 3 divided doses, to be given in a multiple daily dose regimen, divided doses to be given every 8 hours, intravenous injection to be administered over at least 3 minutes.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 5&#8211;7&#8239;mg/kg, subsequent doses adjusted according to serum-gentamicin concentration, to be given in a once daily dose regimen.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">CNS infections (administered on expert advice)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intrathecal injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;mg daily, increased if necessary to 5&#8239;mg daily, seek specialist advice.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Surgical prophylaxis (including joint replacement surgery)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By slow intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.5&#8239;mg/kg, intravenous injection to be administered over at least 3 minutes., administer dose up to 30 minutes before the procedure, dose may be repeated every 8 hours for high-risk procedures and joint replacement surgery; up to 3 further doses may be given.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8239;mg/kg for 1 dose, administer dose up to 30 minutes before the procedure.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"extremesOfBodyWeight\">\n<title>Doses at extremes of body-weight</title>\n<p>To avoid excessive dosage in obese patients, use ideal weight for height to calculate dose and monitor serum-gentamicin concentration closely.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38938\" outputclass=\"unlicensedUse\" rev=\"1.12\" parent=\"/drugs/gentamicin\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">ear</ph> in children</p>\n<p>Licensed for use in children (age range not specified by manufacturers).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP39027\" outputclass=\"contraindications\" rev=\"1.21\" parent=\"/drugs/gentamicin\">\n<title>Contra-indications</title>\n<body>\r\n<section outputclass=\"contraindications\">\r\n<sectiondiv outputclass=\"additionalContraindications\">\r\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\r\n<p outputclass=\"title\">When used by ear</p>\r\n<p>\r\n<ph outputclass=\"contraindication\">patent grommet (although may be used by specialists (see <xref format=\"dita\" href=\"#PHP78609\" type=\"bookmark\" namespace=\"/treatment-summaries/ear\">Ear</xref>)</ph>; <ph outputclass=\"contraindication\">perforated tympanic membrane (although may be used by specialists (see <xref format=\"dita\" href=\"#PHP78609\" type=\"bookmark\" namespace=\"/treatment-summaries/ear\">Ear</xref>)</ph>\r\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP39036\" outputclass=\"cautions\" rev=\"1.14\" parent=\"/drugs/gentamicin\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<sectiondiv outputclass=\"additionalCautions\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">When used by ear</p>\n<p>\n<ph outputclass=\"caution\">avoid prolonged use</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38953\" outputclass=\"sideEffects\" rev=\"1.26\" parent=\"/drugs/gentamicin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"specificSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intramuscular use</p>\n<p>\n<ph outputclass=\"sideEffect\">rash</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intrathecal use</p>\n<p>\n<ph outputclass=\"sideEffect\">rash</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"sideEffect\">rash</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intraventricular use</p>\n<p>\n<ph outputclass=\"sideEffect\">rash</ph> (in children)</p>\n</sectiondiv>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">When used by ear</p>\n<p>\n<ph outputclass=\"sideEffect\">local sensitivity</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38928\" outputclass=\"monitoringRequirements\" parent=\"/drugs/gentamicin\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"therapeuticDrugMonitoring\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For multiple daily dose regimen, one-hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>For multiple daily dose regimen in endocarditis, one-hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre. Serum-gentamicin concentration should be measured after 3 or 4 doses, then at least every 3 days and after a dose change (more frequently in renal impairment).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For once-daily dose regimen, consult local guidelines on monitoring serum-gentamicin concentration.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in neonates</p>\n<p>Extended interval dose regimen in neonates: pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre (less than 1&#8239;mg/litre if more than 3 doses administered); consider monitoring one hour (&#8216;peak&#8217;) concentration in neonates with poor response to treatment, with oedema, with Gram-negative infection, or with birth-weight greater than 4.5&#8239;kg (consider increasing dose if &#8216;peak&#8217; concentration less than 8&#8239;mg/litre in severe sepsis).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>Once daily dose regimen: pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>Multiple daily dose regimen: one hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10&#8239;mg/litre ; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Multiple daily dose regimen for endocarditis: one hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre. Serum-gentamicin concentration should be determined twice each week (more often in renal impairment).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>Multiple daily dose regimen for cystic fibrosis: one hour (&#8216;peak&#8217;) serum concentration should be 8&#8211;12&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intrathecal</ph> use or <ph outputclass=\"route\">intraventricular</ph> use in children</p>\n<p>Intrathecal/intraventricular injection: cerebrospinal fluid concentration should not exceed 10&#8239;mg/litre.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP39066\" outputclass=\"directionsForAdministration\" rev=\"1.18\" parent=\"/drugs/gentamicin\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intrathecal</ph> use in children</p>\n<p>For <i>intrathecal</i> or <i>intraventricular</i> injection, use preservative-free intrathecal preparations only.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>For <i>intravenous infusion</i>, dilute in Glucose 5% or Sodium Chloride 0.9%; give over 30 minutes.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">inhalation</ph> in children</p>\n<p>For <i>nebulisation</i>, dilute preservative-free preparation in 3&#8239;mL sodium chloride 0.9%. Administer after physiotherapy and bronchodilators.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> (<i>Cidomycin</i>\n<tm tmtype=\"reg\"/>); <i>Gentamicin paediatric injection,</i> Beacon; <i>Gentamicin injection</i> Hospira), give intermittently <i>or</i> via drip tubing in Glucose 5% or Sodium Chloride 0.9%. Suggested volume for intermittent infusion 50&#8211;100&#8239;ml given over 20&#8211;30 minutes (given over 60 minutes for once daily dose regimen).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58271\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.19\" parent=\"/drugs/gentamicin\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">When used by <ph outputclass=\"route\">eye</ph>\n</p>\n<p>Eye drops may be sourced as a manufactured special or from specialist importing companies.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intrathecal</ph> use or <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">intraventricular</ph> use in children</p>\n<p>Local guidelines may vary in the dosing advice provided.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>Local guidelines may vary in the dosing advice provided for once daily administration.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3478-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/gentamicin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: eye drops, oral suspension, oral solution, cream</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75783\" title=\"Solution for injection\" namespace=\"/drugs/gentamicin/solution-for-injection\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP0000100\" title=\"Infusion\" namespace=\"/drugs/gentamicin/infusion\">Infusion</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75776\" title=\"Ear/eye drops solution\" namespace=\"/drugs/gentamicin/eareye-drops-solution\">Ear/eye drops solution</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75799\" title=\"Implant\" namespace=\"/drugs/gentamicin/implant\">Implant</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78125\" namespace=\"/treatment-summaries/gastro-intestinal-system-infections-bacterial\" title=\"Gastro-intestinal system infections, bacterial\" count=\"3\" rel=\"backlink\">Gastro-intestinal system infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78148\" namespace=\"/treatment-summaries/antibacterials-principles-of-therapy\" title=\"Antibacterials, principles of therapy\" count=\"1\" rel=\"backlink\">Antibacterials, principles of therapy</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78210\" namespace=\"/treatment-summaries/antibacterials-use-for-prophylaxis\" title=\"Antibacterials, use for prophylaxis\" count=\"22\" rel=\"backlink\">Antibacterials, use for prophylaxis</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78228\" namespace=\"/treatment-summaries/urinary-tract-infections\" title=\"Urinary-tract infections\" count=\"3\" rel=\"backlink\">Urinary-tract infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78284\" namespace=\"/treatment-summaries/skin-infections\" title=\"Skin infections\" count=\"1\" rel=\"backlink\">Skin infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78502\" namespace=\"/treatment-summaries/penicillins\" title=\"Penicillins\" count=\"1\" rel=\"backlink\">Penicillins</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78553\" namespace=\"/treatment-summaries/central-nervous-system-infections-bacterial\" title=\"Central nervous system infections, bacterial\" count=\"2\" rel=\"backlink\">Central nervous system infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78557\" namespace=\"/treatment-summaries/eye\" title=\"Eye\" count=\"1\" rel=\"backlink\">Eye</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78541\" namespace=\"/treatment-summaries/eye-infections-of\" title=\"Eye, infections of\" count=\"2\" rel=\"backlink\">Eye, infections of</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78592\" namespace=\"/treatment-summaries/cardiovascular-system-infections-bacterial\" title=\"Cardiovascular system infections, bacterial\" count=\"31\" rel=\"backlink\">Cardiovascular system infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78593\" namespace=\"/treatment-summaries/aminoglycosides\" title=\"Aminoglycosides\" count=\"7\" rel=\"backlink\">Aminoglycosides</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_131\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/aminoglycosides/gentamicin\" title=\"Gentamicin\" count=\"1\" rel=\"link\">Gentamicin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34544\" namespace=\"/drug-classes/aminoglycosides\" title=\"AMINOGLYCOSIDES\" count=\"1\" rel=\"link\">AMINOGLYCOSIDES</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78609\" namespace=\"/treatment-summaries/ear\" title=\"Ear\" count=\"2\" rel=\"link\">Ear</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75783\" namespace=\"/drugs/gentamicin/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP0000100\" namespace=\"/drugs/gentamicin/infusion\" title=\"Infusion\" count=\"1\" rel=\"link\">Infusion</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75776\" namespace=\"/drugs/gentamicin/eareye-drops-solution\" title=\"Ear/eye drops solution\" count=\"1\" rel=\"link\">Ear/eye drops solution</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75799\" namespace=\"/drugs/gentamicin/implant\" title=\"Implant\" count=\"1\" rel=\"link\">Implant</xref>\n</links>\n</topic>",
+    "id": "PHP3478",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/gentamicin",
+    "basename": "gentamicin",
+    "title": "GENTAMICIN",
+    "interactants": [
+        {
+            "id": "bnf_int_131",
+            "label": "Gentamicin"
+        }
+    ],
+    "vtmid": "57752001",
+    "drugClassification": [
+        "Aminoglycosides"
+    ],
+    "inheritsFromClass": [
+        "AMINOGLYCOSIDES"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Bacterial eye infections",
+                        "html": "Bacterial eye infections"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye"
+                    ],
+                    "textContent": "To the eye",
+                    "html": "To the eye"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 1 drop every 2 hours, reduce frequency as infection is controlled and continue for 48 hours after healing, frequency of eye drops depends on the severity of the infection and the potential for irreversible ocular damage; for less severe infection 3&#8211;4 times daily is generally sufficient.",
+                        "html": "<p>Apply 1&#8239;drop every 2&#8239;hours, reduce frequency as infection is controlled and continue for 48 hours after healing, frequency of eye drops depends on the severity of the infection and the potential for irreversible ocular damage; for less severe infection 3&#8211;4 times daily is generally sufficient.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 1 drop every 2 hours, reduce frequency as infection is controlled and continue for 48 hours after healing, frequency of eye drops depends on the severity of the infection and the potential for irreversible ocular damage; for less severe infection 3&#8211;4 times daily is generally sufficient.",
+                        "html": "<p>Apply 1&#8239;drop every 2&#8239;hours, reduce frequency as infection is controlled and continue for 48 hours after healing, frequency of eye drops depends on the severity of the infection and the potential for irreversible ocular damage; for less severe infection 3&#8211;4 times daily is generally sufficient.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Bacterial infection in otitis externa",
+                        "html": "Bacterial infection in otitis externa"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the ear"
+                    ],
+                    "textContent": "To the ear",
+                    "html": "To the ear"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 2&#8211;3 drops 3&#8211;4 times a day and apply 2&#8211;3 drops daily, to be used at night.",
+                        "html": "<p>Apply 2&#8211;3&#8239;drops 3&#8211;4 times a day and apply 2&#8211;3&#8239;drops daily, to be used at night.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 2&#8211;3 drops 3&#8211;4 times a day and apply 2&#8211;3 drops daily, to be used at night.",
+                        "html": "<p>Apply 2&#8211;3&#8239;drops 3&#8211;4 times a day and apply 2&#8211;3&#8239;drops daily, to be used at night.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Gram-positive bacterial endocarditis or HACEK endocarditis (in combination with other antibacterials)",
+                        "html": "Gram-positive bacterial endocarditis or HACEK endocarditis (in combination with other antibacterials)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection or slow intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By intramuscular injection or by slow intravenous injection or by intravenous infusion",
+                    "html": "By intramuscular injection or by slow intravenous injection or by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 mg/kg every 12 hours, intravenous injection to be administered over at least 3 minutes, to be given in a multiple daily dose regimen.",
+                        "html": "<p>1&#8239;mg/kg every 12&#8239;hours, intravenous injection to be administered over at least 3 minutes, to be given in a multiple daily dose regimen.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Septicaemia",
+                        "html": "Septicaemia"
+                    },
+                    {
+                        "textContent": "Meningitis and other CNS infections",
+                        "html": "Meningitis and other CNS infections"
+                    },
+                    {
+                        "textContent": "Biliary-tract infection",
+                        "html": "Biliary-tract infection"
+                    },
+                    {
+                        "textContent": "Acute pyelonephritis",
+                        "html": "Acute pyelonephritis"
+                    },
+                    {
+                        "textContent": "Endocarditis",
+                        "html": "Endocarditis"
+                    },
+                    {
+                        "textContent": "Pneumonia in hospital patients",
+                        "html": "Pneumonia in hospital patients"
+                    },
+                    {
+                        "textContent": "Adjunct in listerial meningitis",
+                        "html": "Adjunct in listerial meningitis"
+                    },
+                    {
+                        "textContent": "Prostatitis",
+                        "html": "Prostatitis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "3&#8211;5 mg/kg daily in 3 divided doses, to be given in a multiple daily dose regimen, divided doses to be given every 8 hours, intravenous injection to be administered over at least 3 minutes.",
+                        "html": "<p>3&#8211;5&#8239;mg/kg daily in 3 divided doses, to be given in a multiple daily dose regimen, divided doses to be given every 8 hours, intravenous injection to be administered over at least 3 minutes.</p>"
+                    },
+                    {
+                        "textContent": "Initially 5&#8211;7 mg/kg, subsequent doses adjusted according to serum-gentamicin concentration, to be given in a once daily dose regimen.",
+                        "html": "<p>Initially 5&#8211;7&#8239;mg/kg, subsequent doses adjusted according to serum-gentamicin concentration, to be given in a once daily dose regimen.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "CNS infections (administered on expert advice)",
+                        "html": "CNS infections (administered on expert advice)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intrathecal injection"
+                    ],
+                    "textContent": "By intrathecal injection",
+                    "html": "By intrathecal injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 mg daily, increased if necessary to 5 mg daily, seek specialist advice.",
+                        "html": "<p>1&#8239;mg daily, increased if necessary to 5&#8239;mg daily, seek specialist advice.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Surgical prophylaxis (including joint replacement surgery)",
+                        "html": "Surgical prophylaxis (including joint replacement surgery)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "1.5 mg/kg, intravenous injection to be administered over at least 3 minutes., administer dose up to 30 minutes before the procedure, dose may be repeated every 8 hours for high-risk procedures and joint replacement surgery; up to 3 further doses may be given.",
+                        "html": "<p>1.5&#8239;mg/kg, intravenous injection to be administered over at least 3 minutes., administer dose up to 30 minutes before the procedure, dose may be repeated every 8 hours for high-risk procedures and joint replacement surgery; up to 3 further doses may be given.</p>"
+                    },
+                    {
+                        "textContent": "5 mg/kg for 1 dose, administer dose up to 30 minutes before the procedure.",
+                        "html": "<p>5&#8239;mg/kg for 1 dose, administer dose up to 30 minutes before the procedure.</p>"
+                    }
+                ]
+            }
+        ],
+        "extremesOfBodyWeight": [
+            {
+                "type": "extremesOfBodyWeight",
+                "title": "Doses at extremes of body-weight",
+                "textContent": "To avoid excessive dosage in obese patients, use ideal weight for height to calculate dose and monitor serum-gentamicin concentration closely.",
+                "html": "<p>To avoid excessive dosage in obese patients, use ideal weight for height to calculate dose and monitor serum-gentamicin concentration closely.</p>"
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "When used by ear in children",
+                    "html": "When used by <ph outputclass=\"route\">ear</ph> in children",
+                    "patientType": "children",
+                    "routes": [
+                        "ear"
+                    ]
+                },
+                "textContent": "Licensed for use in children (age range not specified by manufacturers).",
+                "html": "<p>Licensed for use in children (age range not specified by manufacturers).</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "patent grommet (although may be used by specialists (see Ear)",
+                "html": "patent grommet (although may be used by specialists (see <xref format=\"dita\" href=\"#PHP78609\" type=\"bookmark\" namespace=\"/treatment-summaries/ear\">Ear</xref>)",
+                "specificity": {
+                    "textContent": "When used by ear",
+                    "html": "When used by ear",
+                    "routes": [
+                        "ear"
+                    ]
+                },
+                "references": [
+                    {
+                        "id": "PHP78609",
+                        "label": "Ear"
+                    }
+                ]
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "perforated tympanic membrane (although may be used by specialists (see Ear)",
+                "html": "perforated tympanic membrane (although may be used by specialists (see <xref format=\"dita\" href=\"#PHP78609\" type=\"bookmark\" namespace=\"/treatment-summaries/ear\">Ear</xref>)",
+                "specificity": {
+                    "textContent": "When used by ear",
+                    "html": "When used by ear",
+                    "routes": [
+                        "ear"
+                    ]
+                },
+                "references": [
+                    {
+                        "id": "PHP78609",
+                        "label": "Ear"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid prolonged use",
+                "html": "avoid prolonged use",
+                "specificity": {
+                    "textContent": "When used by ear",
+                    "html": "When used by ear",
+                    "routes": [
+                        "ear"
+                    ]
+                }
+            }
+        ]
+    },
+    "sideEffects": {
+        "specific": {
+            "frequencies": {
+                "uncommon": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "With intramuscular use",
+                            "html": "With intramuscular use",
+                            "routes": [
+                                "intramuscular"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "With intrathecal use",
+                            "html": "With intrathecal use",
+                            "routes": [
+                                "intrathecal"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rash in children",
+                        "html": "rash in children",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "With intraventricular use",
+                            "html": "With intraventricular use",
+                            "routes": [
+                                "intraventricular"
+                            ],
+                            "patientType": "children"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "local sensitivity",
+                        "html": "local sensitivity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "When used by ear",
+                            "html": "When used by ear",
+                            "routes": [
+                                "ear"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "monitoringRequirements": {
+        "therapeuticDrugMonitoring": [
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intramuscular use or intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intramuscular",
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For multiple daily dose regimen, one-hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10 mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2 mg/litre.",
+                "html": "<p>For multiple daily dose regimen, one-hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "For multiple daily dose regimen in endocarditis, one-hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5 mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1 mg/litre. Serum-gentamicin concentration should be measured after 3 or 4 doses, then at least every 3 days and after a dose change (more frequently in renal impairment).",
+                "html": "<p>For multiple daily dose regimen in endocarditis, one-hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre. Serum-gentamicin concentration should be measured after 3 or 4 doses, then at least every 3 days and after a dose change (more frequently in renal impairment).</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For once-daily dose regimen, consult local guidelines on monitoring serum-gentamicin concentration.",
+                "html": "<p>For once-daily dose regimen, consult local guidelines on monitoring serum-gentamicin concentration.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use in neonates",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in neonates",
+                    "patientType": "neonates",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Extended interval dose regimen in neonates: pre-dose (&#8216;trough&#8217;) concentration should be less than 2 mg/litre (less than 1 mg/litre if more than 3 doses administered); consider monitoring one hour (&#8216;peak&#8217;) concentration in neonates with poor response to treatment, with oedema, with Gram-negative infection, or with birth-weight greater than 4.5 kg (consider increasing dose if &#8216;peak&#8217; concentration less than 8 mg/litre in severe sepsis).",
+                "html": "<p>Extended interval dose regimen in neonates: pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre (less than 1&#8239;mg/litre if more than 3 doses administered); consider monitoring one hour (&#8216;peak&#8217;) concentration in neonates with poor response to treatment, with oedema, with Gram-negative infection, or with birth-weight greater than 4.5&#8239;kg (consider increasing dose if &#8216;peak&#8217; concentration less than 8&#8239;mg/litre in severe sepsis).</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Once daily dose regimen: pre-dose (&#8216;trough&#8217;) concentration should be less than 1 mg/litre.",
+                "html": "<p>Once daily dose regimen: pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intramuscular use or intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intramuscular",
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Multiple daily dose regimen: one hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10 mg/litre ; pre-dose (&#8216;trough&#8217;) concentration should be less than 2 mg/litre.",
+                "html": "<p>Multiple daily dose regimen: one hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10&#8239;mg/litre ; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Multiple daily dose regimen for endocarditis: one hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5 mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1 mg/litre. Serum-gentamicin concentration should be determined twice each week (more often in renal impairment).",
+                "html": "<p>Multiple daily dose regimen for endocarditis: one hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre. Serum-gentamicin concentration should be determined twice each week (more often in renal impairment).</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intramuscular use or intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intramuscular",
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Multiple daily dose regimen for cystic fibrosis: one hour (&#8216;peak&#8217;) serum concentration should be 8&#8211;12 mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2 mg/litre.",
+                "html": "<p>Multiple daily dose regimen for cystic fibrosis: one hour (&#8216;peak&#8217;) serum concentration should be 8&#8211;12&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.</p>"
+            },
+            {
+                "type": "therapeuticDrugMonitoring",
+                "specificity": {
+                    "textContent": "With intrathecal use or intraventricular use in children",
+                    "html": "With <ph outputclass=\"route\">intrathecal</ph> use or <ph outputclass=\"route\">intraventricular</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intrathecal",
+                        "intraventricular"
+                    ]
+                },
+                "textContent": "Intrathecal/intraventricular injection: cerebrospinal fluid concentration should not exceed 10 mg/litre.",
+                "html": "<p>Intrathecal/intraventricular injection: cerebrospinal fluid concentration should not exceed 10&#8239;mg/litre.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intrathecal use in children",
+                    "html": "With <ph outputclass=\"route\">intrathecal</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intrathecal"
+                    ]
+                },
+                "textContent": "For intrathecal or intraventricular injection, use preservative-free intrathecal preparations only.",
+                "html": "<p>For <i>intrathecal</i> or <i>intraventricular</i> injection, use preservative-free intrathecal preparations only.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion, dilute in Glucose 5% or Sodium Chloride 0.9%; give over 30 minutes.",
+                "html": "<p>For <i>intravenous infusion</i>, dilute in Glucose 5% or Sodium Chloride 0.9%; give over 30 minutes.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "When used by inhalation in children",
+                    "html": "When used by <ph outputclass=\"route\">inhalation</ph> in children",
+                    "patientType": "children",
+                    "routes": [
+                        "inhalation"
+                    ]
+                },
+                "textContent": "For nebulisation, dilute preservative-free preparation in 3 mL sodium chloride 0.9%. Administer after physiotherapy and bronchodilators.",
+                "html": "<p>For <i>nebulisation</i>, dilute preservative-free preparation in 3&#8239;mL sodium chloride 0.9%. Administer after physiotherapy and bronchodilators.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Cidomycin ); Gentamicin paediatric injection, Beacon; Gentamicin injection Hospira), give intermittently or via drip tubing in Glucose 5% or Sodium Chloride 0.9%. Suggested volume for intermittent infusion 50&#8211;100 ml given over 20&#8211;30 minutes (given over 60 minutes for once daily dose regimen).",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Cidomycin</i>\n<tm tmtype=\"reg\"/>); <i>Gentamicin paediatric injection,</i> Beacon; <i>Gentamicin injection</i> Hospira), give intermittently <i>or</i> via drip tubing in Glucose 5% or Sodium Chloride 0.9%. Suggested volume for intermittent infusion 50&#8211;100&#8239;ml given over 20&#8211;30 minutes (given over 60 minutes for once daily dose regimen).</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "When used by eye",
+                    "html": "When used by <ph outputclass=\"route\">eye</ph>",
+                    "routes": [
+                        "eye"
+                    ]
+                },
+                "textContent": "Eye drops may be sourced as a manufactured special or from specialist importing companies.",
+                "html": "<p>Eye drops may be sourced as a manufactured special or from specialist importing companies.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "With intramuscular use or intrathecal use or intravenous use or intraventricular use in children",
+                    "html": "With <ph outputclass=\"route\">intramuscular</ph> use or <ph outputclass=\"route\">intrathecal</ph> use or <ph outputclass=\"route\">intravenous</ph> use or <ph outputclass=\"route\">intraventricular</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intramuscular",
+                        "intrathecal",
+                        "intravenous",
+                        "intraventricular"
+                    ]
+                },
+                "textContent": "Local guidelines may vary in the dosing advice provided.",
+                "html": "<p>Local guidelines may vary in the dosing advice provided.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Local guidelines may vary in the dosing advice provided for once daily administration.",
+                "html": "<p>Local guidelines may vary in the dosing advice provided for once daily administration.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "eye drops",
+                "oral suspension",
+                "oral solution",
+                "cream"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75783",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP0000100",
+                "label": "Infusion",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75776",
+                "label": "Ear/eye drops solution",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75799",
+                "label": "Implant",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78125",
+                "label": "Gastro-intestinal system infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78148",
+                "label": "Antibacterials, principles of therapy",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78210",
+                "label": "Antibacterials, use for prophylaxis",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78228",
+                "label": "Urinary-tract infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78284",
+                "label": "Skin infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78502",
+                "label": "Penicillins",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78553",
+                "label": "Central nervous system infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78557",
+                "label": "Eye",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78541",
+                "label": "Eye, infections of",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78592",
+                "label": "Cardiovascular system infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78593",
+                "label": "Aminoglycosides",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_131",
+                "label": "Gentamicin",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34544",
+                "label": "AMINOGLYCOSIDES",
+                "type": "drugClass"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78609",
+                "label": "Ear",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75783",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP0000100",
+                "label": "Infusion",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75776",
+                "label": "Ear/eye drops solution",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75799",
+                "label": "Implant",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

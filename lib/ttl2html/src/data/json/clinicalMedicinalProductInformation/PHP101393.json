@@ -1,0 +1,89 @@
+{
+    "xml": "<topic id=\"PHP101393\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/testim\" basename=\"testim\" title=\"Testim\">\n<title>Testim<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP101728\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/clinical-medicinal-product-information/testim\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypogonadism due to testosterone deficiency in men</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 50&#8239;mg once daily, subsequent application adjusted according to response; maximum 100&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>One tube of 5&#8239;g contains 50&#8239;mg testosterone.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101742\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/testim\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Allergic reactions</ph>; <ph outputclass=\"sideEffect\">local irritation</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101746\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/testim\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Squeeze entire content of tube on to one palm and apply as a thin layer on clean, dry, healthy skin of shoulder or upper arm, preferably in the morning after washing or bathing (if 2 tubes required use 1 per shoulder or upper arm); rub in and allow to dry before putting on clothing to cover site; wash hands with soap after application; avoid washing application site for at least 6 hours.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP101393",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/testim",
+    "basename": "testim",
+    "title": "Testim",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypogonadism due to testosterone deficiency in men",
+                        "html": "Hypogonadism due to testosterone deficiency in men"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 50 mg once daily, subsequent application adjusted according to response; maximum 100 mg per day.",
+                        "html": "<p>Apply 50&#8239;mg once daily, subsequent application adjusted according to response; maximum 100&#8239;mg per day.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "One tube of 5 g contains 50 mg testosterone.",
+                "html": "<p>One tube of 5&#8239;g contains 50&#8239;mg testosterone.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Allergic reactions",
+                        "html": "Allergic reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "local irritation",
+                        "html": "local irritation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Squeeze entire content of tube on to one palm and apply as a thin layer on clean, dry, healthy skin of shoulder or upper arm, preferably in the morning after washing or bathing (if 2 tubes required use 1 per shoulder or upper arm); rub in and allow to dry before putting on clothing to cover site; wash hands with soap after application; avoid washing application site for at least 6 hours.",
+                "html": "<p>Squeeze entire content of tube on to one palm and apply as a thin layer on clean, dry, healthy skin of shoulder or upper arm, preferably in the morning after washing or bathing (if 2 tubes required use 1 per shoulder or upper arm); rub in and allow to dry before putting on clothing to cover site; wash hands with soap after application; avoid washing application site for at least 6 hours.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP81588\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/norditropin-preparations\" basename=\"norditropin-preparations\" title=\"Norditropin preparations\">\n<title>Norditropin<tm tmtype=\"reg\"/> preparations</title>\n<topic id=\"PHP81858\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/norditropin-preparations\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For use by subcutaneous injection.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP81879\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/norditropin-preparations\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Cartridges are for use with appropriate <i>NordiPen</i>\n<tm tmtype=\"reg\"/> device (non-NHS but available free of charge from clinics).</p>\n<p>Multidose disposable prefilled pens for use with <i>NovoFine</i>\n<tm tmtype=\"reg\"/> or <i>NovoTwist</i>\n<tm tmtype=\"reg\"/> needles.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81588",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/norditropin-preparations",
+    "basename": "norditropin-preparations",
+    "title": "Norditropin preparations",
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For use by subcutaneous injection.",
+                "html": "<p>For use by subcutaneous injection.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Cartridges are for use with appropriate NordiPen device (non-NHS but available free of charge from clinics).\n\nMultidose disposable prefilled pens for use with NovoFine or NovoTwist needles.",
+                "html": "<p>Cartridges are for use with appropriate <i>NordiPen</i>\n<tm tmtype=\"reg\"/> device (non-NHS but available free of charge from clinics).</p><p>Multidose disposable prefilled pens for use with <i>NovoFine</i>\n<tm tmtype=\"reg\"/> or <i>NovoTwist</i>\n<tm tmtype=\"reg\"/> needles.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

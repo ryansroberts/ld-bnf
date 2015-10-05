@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75544\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chlorhexidine/gel\" basename=\"gel\" title=\"Gel\">\n<title>Gel</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">  </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cepton 0.5% medicated clear gel <ph outputclass=\"manufacturer\">(Boston Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">4633811000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 5&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.97</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8126\" title=\"CHLORHEXIDINE\" namespace=\"/drugs/chlorhexidine\">CHLORHEXIDINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75544",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chlorhexidine/gel",
+    "basename": "gel",
+    "form": "Gel",
+    "products": [
+        {
+            "title": "Cepton 0.5% medicated clear gel (Boston Healthcare Ltd) ",
+            "header": "Cepton 0.5% medicated clear gel <ph outputclass=\"manufacturer\">(Boston Healthcare Ltd)</ph>",
+            "manufacturer": "(Boston Healthcare Ltd)",
+            "name": "Cepton 0.5% medicated clear gel",
+            "ampid": "4633811000001107",
+            "strengthOfActiveIngredient": "Chlorhexidine gluconate 5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.97</ph>",
+                        "nhsIndicativePrice": "&#163;2.97"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8126",
+        "label": "CHLORHEXIDINE"
+    }
+}

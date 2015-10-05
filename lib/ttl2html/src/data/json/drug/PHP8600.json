@@ -1,0 +1,382 @@
+{
+    "xml": "<topic id=\"PHP8600\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/remifentanil\" basename=\"remifentanil\" title=\"REMIFENTANIL\">\n<title>REMIFENTANIL</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_105\" namespace=\"/interactions/list-of-drug-interactions/analgesics/opioid-analgesics/remifentanil\">Remifentanil</xref>\n</p>\n<data name=\"vtmid\">108379008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_110392128\" title=\"Opioids\">Opioids</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34573\" title=\"OPIOIDS\" namespace=\"/drug-classes/opioids\">OPIOIDS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP58621\" outputclass=\"indicationsAndDose\" rev=\"1.39\" parent=\"/drugs/remifentanil\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Analgesia and enhancement of anaesthesia at induction</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 0.25&#8211;1&#8239;microgram/kg, dose to be administered over at least 30 seconds, then (by intravenous infusion) 30&#8211;60&#8239;micrograms/kg/hour, alternatively (by intravenous infusion) initially 30&#8211;60&#8239;micrograms/kg/hour, if patient to be intubated more than 8 minutes after start of intravenous infusion, initial intravenous injection dose is not necessary.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Assisted ventilation: analgesia and enhancement of anaesthesia during maintenance of anaesthesia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 0.25&#8211;1&#8239;microgram/kg, dose to be administered over at least 30 seconds, according to anaesthetic technique and adjusted according to response, followed by (by intravenous infusion) 3&#8211;120&#8239;micrograms/kg/hour, intravenous infusion may be given with or without initial intravenous injection dose; in light anaesthesia supplemental doses by intravenous injection every 2&#8211;5 minute.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Spontaneous respiration: analgesia and enhancement of anaesthesia during maintenance of anaesthesia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 2.4&#8239;micrograms/kg/hour, adjusted according to response; usual dose 1.5&#8211;6&#8239;micrograms/kg/hour.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Assisted ventilation: analgesia and sedation in intensive-care patients (for max 3 days)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 6&#8211;9&#8239;micrograms/kg/hour, then adjusted in steps of 1.5&#8239;micrograms/kg/hour, allow at least 5 minutes between dose adjustments; usual dose 0.36&#8211;44.4&#8239;micrograms/kg/hour, if an infusion rate of 12&#8239;micrograms/kg/hour does not produce adequate sedation add another sedative (consult product literature for details).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Assisted ventilation: additional analgesia during stimulating or painful procedures in intensive-care patients</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Usual dose 15&#8211;45&#8239;micrograms/kg/hour, maintain infusion rate of at least 6&#8239;micrograms/kg/hour for at least 5 minutes before procedure and adjust every 2&#8211;5 minutes according to requirements.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Cardiac surgery</p>\n</sectiondiv>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"extremesOfBodyWeight\">\n<title>Doses at extremes of body-weight</title>\n<p>To avoid excessive dosage in obese patients, dose should be calculated on the basis of ideal bodyweight.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58544\" outputclass=\"unlicensedUse\" rev=\"1.11\" parent=\"/drugs/remifentanil\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Remifentanil doses in BNF may differ from those in product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58721\" outputclass=\"contraindications\" rev=\"1.7\" parent=\"/drugs/remifentanil\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Analgesia in conscious patients</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58563\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drugs/remifentanil\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hypertension</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hypoxia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Asystole</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">AV block</ph>; <ph outputclass=\"sideEffect\">convulsions</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Muscle rigidity</p>\n<p>Alfentanil can cause muscle rigidity, particularly of the chest wall or jaw; this can be managed by the use of neuromuscular blocking drugs.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"title\">Respiratory depression</p>\n<p>In contrast to other opioids which are metabolised in the liver, remifentanil undergoes rapid metabolism by non-specific blood and tissue esterases; its short duration of action allows prolonged administration at high dosage, without accumulation, and with little risk of residual postoperative respiratory depression.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58596\" outputclass=\"pregnancy\" parent=\"/drugs/remifentanil\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>No information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58835\" outputclass=\"breastFeeding\" parent=\"/drugs/remifentanil\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid breast-feeding for 24 hours after administration&#8212;present in milk in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58579\" outputclass=\"renalImpairment\" parent=\"/drugs/remifentanil\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>No dose adjustment necessary in renal impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58870\" outputclass=\"directionsForAdministration\" rev=\"1.18\" parent=\"/drugs/remifentanil\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>For <i>intravenous infusion</i> (<i>Ultiva</i>\n<tm tmtype=\"reg\"/>), give continuously in Glucose 5% or Sodium Chloride 0.9% or Water for Injections; reconstitute with infusion fluid to a concentration of 1&#8239;mg/mL then dilute further to a concentration of 20&#8211;250&#8239;micrograms/mL (50&#8239;micrograms/mL recommended for general anaesthesia, 20&#8211;50&#8239;micrograms/mL recommended when used with target controlled infusion (TCI) device).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62120\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/drugs/remifentanil\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Remifentanil should not be given by intravenous injection intra-operatively, but it is well suited to continuous infusion; a supplementary analgesic is given before stopping the infusion of remifentanil.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP8600-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/remifentanil\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75909\" title=\"Powder for solution for injection\" namespace=\"/drugs/remifentanil/powder-for-solution-for-injection\">Powder for solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97239\" namespace=\"/guidance/controlled-drugs-and-drug-dependence\" title=\"Controlled drugs and drug dependence\" count=\"2\" rel=\"backlink\">Controlled drugs and drug dependence</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78500\" namespace=\"/treatment-summaries/pre-medication-and-peri-operative-drugs\" title=\"Pre-medication and peri-operative drugs\" count=\"5\" rel=\"backlink\">Pre-medication and peri-operative drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78520\" namespace=\"/treatment-summaries/analgesics\" title=\"Analgesics\" count=\"1\" rel=\"backlink\">Analgesics</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_105\" namespace=\"/interactions/list-of-drug-interactions/analgesics/opioid-analgesics/remifentanil\" title=\"Remifentanil\" count=\"1\" rel=\"link\">Remifentanil</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34573\" namespace=\"/drug-classes/opioids\" title=\"OPIOIDS\" count=\"1\" rel=\"link\">OPIOIDS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75909\" namespace=\"/drugs/remifentanil/powder-for-solution-for-injection\" title=\"Powder for solution for injection\" count=\"1\" rel=\"link\">Powder for solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP8600",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/remifentanil",
+    "basename": "remifentanil",
+    "title": "REMIFENTANIL",
+    "interactants": [
+        {
+            "id": "bnf_int_105",
+            "label": "Remifentanil"
+        }
+    ],
+    "vtmid": "108379008",
+    "drugClassification": [
+        "Opioids"
+    ],
+    "inheritsFromClass": [
+        "OPIOIDS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Analgesia and enhancement of anaesthesia at induction",
+                        "html": "Analgesia and enhancement of anaesthesia at induction"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 0.25&#8211;1 microgram/kg, dose to be administered over at least 30 seconds, then (by intravenous infusion) 30&#8211;60 micrograms/kg/hour, alternatively (by intravenous infusion) initially 30&#8211;60 micrograms/kg/hour, if patient to be intubated more than 8 minutes after start of intravenous infusion, initial intravenous injection dose is not necessary.",
+                        "html": "<p>Initially 0.25&#8211;1&#8239;microgram/kg, dose to be administered over at least 30 seconds, then (by intravenous infusion) 30&#8211;60&#8239;micrograms/kg/hour, alternatively (by intravenous infusion) initially 30&#8211;60&#8239;micrograms/kg/hour, if patient to be intubated more than 8 minutes after start of intravenous infusion, initial intravenous injection dose is not necessary.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Assisted ventilation: analgesia and enhancement of anaesthesia during maintenance of anaesthesia",
+                        "html": "Assisted ventilation: analgesia and enhancement of anaesthesia during maintenance of anaesthesia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 0.25&#8211;1 microgram/kg, dose to be administered over at least 30 seconds, according to anaesthetic technique and adjusted according to response, followed by (by intravenous infusion) 3&#8211;120 micrograms/kg/hour, intravenous infusion may be given with or without initial intravenous injection dose; in light anaesthesia supplemental doses by intravenous injection every 2&#8211;5 minute.",
+                        "html": "<p>Initially 0.25&#8211;1&#8239;microgram/kg, dose to be administered over at least 30 seconds, according to anaesthetic technique and adjusted according to response, followed by (by intravenous infusion) 3&#8211;120&#8239;micrograms/kg/hour, intravenous infusion may be given with or without initial intravenous injection dose; in light anaesthesia supplemental doses by intravenous injection every 2&#8211;5 minute.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Spontaneous respiration: analgesia and enhancement of anaesthesia during maintenance of anaesthesia",
+                        "html": "Spontaneous respiration: analgesia and enhancement of anaesthesia during maintenance of anaesthesia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 2.4 micrograms/kg/hour, adjusted according to response; usual dose 1.5&#8211;6 micrograms/kg/hour.",
+                        "html": "<p>Initially 2.4&#8239;micrograms/kg/hour, adjusted according to response; usual dose 1.5&#8211;6&#8239;micrograms/kg/hour.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Assisted ventilation: analgesia and sedation in intensive-care patients (for max 3 days)",
+                        "html": "Assisted ventilation: analgesia and sedation in intensive-care patients (for max 3 days)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 6&#8211;9 micrograms/kg/hour, then adjusted in steps of 1.5 micrograms/kg/hour, allow at least 5 minutes between dose adjustments; usual dose 0.36&#8211;44.4 micrograms/kg/hour, if an infusion rate of 12 micrograms/kg/hour does not produce adequate sedation add another sedative (consult product literature for details).",
+                        "html": "<p>Initially 6&#8211;9&#8239;micrograms/kg/hour, then adjusted in steps of 1.5&#8239;micrograms/kg/hour, allow at least 5 minutes between dose adjustments; usual dose 0.36&#8211;44.4&#8239;micrograms/kg/hour, if an infusion rate of 12&#8239;micrograms/kg/hour does not produce adequate sedation add another sedative (consult product literature for details).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Assisted ventilation: additional analgesia during stimulating or painful procedures in intensive-care patients",
+                        "html": "Assisted ventilation: additional analgesia during stimulating or painful procedures in intensive-care patients"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Usual dose 15&#8211;45 micrograms/kg/hour, maintain infusion rate of at least 6 micrograms/kg/hour for at least 5 minutes before procedure and adjust every 2&#8211;5 minutes according to requirements.",
+                        "html": "<p>Usual dose 15&#8211;45&#8239;micrograms/kg/hour, maintain infusion rate of at least 6&#8239;micrograms/kg/hour for at least 5 minutes before procedure and adjust every 2&#8211;5 minutes according to requirements.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Cardiac surgery",
+                        "html": "Cardiac surgery"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ],
+        "extremesOfBodyWeight": [
+            {
+                "type": "extremesOfBodyWeight",
+                "title": "Doses at extremes of body-weight",
+                "textContent": "To avoid excessive dosage in obese patients, dose should be calculated on the basis of ideal bodyweight.",
+                "html": "<p>To avoid excessive dosage in obese patients, dose should be calculated on the basis of ideal bodyweight.</p>"
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Remifentanil doses in BNF may differ from those in product literature.",
+                "html": "<p>Remifentanil doses in BNF may differ from those in product literature.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Analgesia in conscious patients",
+                "html": "Analgesia in conscious patients"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Hypertension",
+                        "html": "Hypertension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Hypoxia",
+                        "html": "Hypoxia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Asystole",
+                        "html": "Asystole",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "AV block",
+                        "html": "AV block",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "convulsions",
+                        "html": "convulsions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Muscle rigidity",
+                "textContent": "Alfentanil can cause muscle rigidity, particularly of the chest wall or jaw; this can be managed by the use of neuromuscular blocking drugs.",
+                "html": "<p>Alfentanil can cause muscle rigidity, particularly of the chest wall or jaw; this can be managed by the use of neuromuscular blocking drugs.</p>"
+            },
+            {
+                "type": "advice",
+                "title": "Respiratory depression",
+                "textContent": "In contrast to other opioids which are metabolised in the liver, remifentanil undergoes rapid metabolism by non-specific blood and tissue esterases; its short duration of action allows prolonged administration at high dosage, without accumulation, and with little risk of residual postoperative respiratory depression.",
+                "html": "<p>In contrast to other opioids which are metabolised in the liver, remifentanil undergoes rapid metabolism by non-specific blood and tissue esterases; its short duration of action allows prolonged administration at high dosage, without accumulation, and with little risk of residual postoperative respiratory depression.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "No information available.",
+                "html": "<p>No information available.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid breast-feeding for 24 hours after administration&#8212;present in milk in animal studies.",
+                "html": "<p>Avoid breast-feeding for 24 hours after administration&#8212;present in milk in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "No dose adjustment necessary in renal impairment.",
+                "html": "<p>No dose adjustment necessary in renal impairment.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Ultiva ), give continuously in Glucose 5% or Sodium Chloride 0.9% or Water for Injections; reconstitute with infusion fluid to a concentration of 1 mg/mL then dilute further to a concentration of 20&#8211;250 micrograms/mL (50 micrograms/mL recommended for general anaesthesia, 20&#8211;50 micrograms/mL recommended when used with target controlled infusion (TCI) device).",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Ultiva</i>\n<tm tmtype=\"reg\"/>), give continuously in Glucose 5% or Sodium Chloride 0.9% or Water for Injections; reconstitute with infusion fluid to a concentration of 1&#8239;mg/mL then dilute further to a concentration of 20&#8211;250&#8239;micrograms/mL (50&#8239;micrograms/mL recommended for general anaesthesia, 20&#8211;50&#8239;micrograms/mL recommended when used with target controlled infusion (TCI) device).</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Remifentanil should not be given by intravenous injection intra-operatively, but it is well suited to continuous infusion; a supplementary analgesic is given before stopping the infusion of remifentanil.",
+                "html": "<p>Remifentanil should not be given by intravenous injection intra-operatively, but it is well suited to continuous infusion; a supplementary analgesic is given before stopping the infusion of remifentanil.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75909",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP97239",
+                "label": "Controlled drugs and drug dependence",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78500",
+                "label": "Pre-medication and peri-operative drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78520",
+                "label": "Analgesics",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_105",
+                "label": "Remifentanil",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34573",
+                "label": "OPIOIDS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75909",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

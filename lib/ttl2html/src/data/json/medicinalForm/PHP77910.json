@@ -1,0 +1,79 @@
+{
+    "xml": "<topic id=\"PHP77910\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/albumin-solution/infusion\" basename=\"infusion\" title=\"Infusion\">\n<title>Infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Flexbumin 20% infusion 100ml bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">15520811000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Albumin solution human 200&#8239;gram per 1&#8239;litre</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Flexbumin 20% infusion 50ml bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">15520411000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Albumin solution human 200&#8239;gram per 1&#8239;litre</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">24</ph>\n<ph outputclass=\"unitOfMeasure\">bag</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6023\" title=\"ALBUMIN SOLUTION\" namespace=\"/drugs/albumin-solution\">ALBUMIN SOLUTION</xref>\n</parents>\n</topic>",
+    "id": "PHP77910",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/albumin-solution/infusion",
+    "basename": "infusion",
+    "form": "Infusion",
+    "products": [
+        {
+            "title": "Flexbumin 20% infusion 100ml bags (Baxter Healthcare Ltd) ",
+            "header": "Flexbumin 20% infusion 100ml bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Flexbumin 20% infusion 100ml bags",
+            "ampid": "15520811000001102",
+            "strengthOfActiveIngredient": "Albumin solution human 200 gram per 1 litre",
+            "packs": [
+                {
+                    "textContent": " 1 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                },
+                {
+                    "textContent": " 12 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Flexbumin 20% infusion 50ml bags (Baxter Healthcare Ltd) ",
+            "header": "Flexbumin 20% infusion 50ml bags <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Flexbumin 20% infusion 50ml bags",
+            "ampid": "15520411000001104",
+            "strengthOfActiveIngredient": "Albumin solution human 200 gram per 1 litre",
+            "packs": [
+                {
+                    "textContent": " 1 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                },
+                {
+                    "textContent": " 24 bag POM ",
+                    "html": "<ph outputclass=\"packSize\">24</ph> <ph outputclass=\"unitOfMeasure\">bag</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "24",
+                    "unitOfMeasure": "bag",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6023",
+        "label": "ALBUMIN SOLUTION"
+    }
+}

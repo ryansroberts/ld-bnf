@@ -1,0 +1,627 @@
+{
+    "xml": "<topic id=\"PHP2923\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/ethosuximide\" basename=\"ethosuximide\" title=\"ETHOSUXIMIDE\">\n<title>ETHOSUXIMIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_281\" namespace=\"/interactions/list-of-drug-interactions/antiepileptics/ethosuximide\">Ethosuximide</xref>\n</p>\n<data name=\"vtmid\">44790008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_926692410\" title=\"Antiepileptics\">Antiepileptics</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP50420\" outputclass=\"indicationsAndDose\" rev=\"1.27\" parent=\"/drugs/ethosuximide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Absence seizures</p>\n<p outputclass=\"therapeuticIndication\">Atypical absence seizures</p>\n<p outputclass=\"therapeuticIndication\">Myoclonic seizures</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;5 years</p>\n<p>Initially 5&#8239;mg/kg twice daily (max. per dose 125&#8239;mg), dose to be increased every 5&#8211;7 days; maintenance 10&#8211;20&#8239;mg/kg twice daily (max. per dose 500&#8239;mg), total daily dose may rarely be given in 3 divided doses.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;17 years</p>\n<p>Initially 250&#8239;mg twice daily, then increased in steps of 250&#8239;mg every 5&#8211;7&#8239;days; usual dose 500&#8211;750&#8239;mg twice daily, increased if necessary up to 1&#8239;g twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 500&#8239;mg daily in 2 divided doses, then increased in steps of 250&#8239;mg every 5&#8211;7&#8239;days; usual dose 1&#8211;1.5&#8239;g daily in 2 divided doses, increased if necessary up to 2&#8239;g daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50516\" outputclass=\"cautions\" rev=\"1.20\" parent=\"/drugs/ethosuximide\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">Avoid in <xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP50402\" outputclass=\"interactions\" rev=\"1.11\" parent=\"/drugs/ethosuximide\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (ethosuximide).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50338\" outputclass=\"sideEffects\" rev=\"1.16\" parent=\"/drugs/ethosuximide\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anorexia</ph>; <ph outputclass=\"sideEffect\">abdominal pain</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>; <ph outputclass=\"sideEffect\">weight loss</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Aggression</ph>; <ph outputclass=\"sideEffect\">ataxia</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">euphoria</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hiccup</ph>; <ph outputclass=\"sideEffect\">impaired concentration</ph>; <ph outputclass=\"sideEffect\">irritability</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Depression</ph>; <ph outputclass=\"sideEffect\">dyskinesia</ph>; <ph outputclass=\"sideEffect\">gingival hypertrophy</ph>; <ph outputclass=\"sideEffect\">increased libido</ph>; <ph outputclass=\"sideEffect\">myopia</ph>; <ph outputclass=\"sideEffect\">photophobia</ph>; <ph outputclass=\"sideEffect\">psychosis</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">sleep disturbances</ph>; <ph outputclass=\"sideEffect\">tongue swelling</ph>; <ph outputclass=\"sideEffect\">vaginal bleeding</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agranulocytosis</ph>; <ph outputclass=\"sideEffect\">aplastic anaemia</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">hyperactivity</ph>; <ph outputclass=\"sideEffect\">increase in seizure frequency</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">pancytopenia</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">suicidal ideation</ph>; <ph outputclass=\"sideEffect\">systemic lupus erythematosus</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Blood disorders</p>\n<p>Blood counts required if features of infection.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50566\" outputclass=\"breastFeeding\" parent=\"/drugs/ethosuximide\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk.</p>\n<p>Hyperexcitability and sedation reported.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50438\" outputclass=\"hepaticImpairment\" parent=\"/drugs/ethosuximide\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50359\" outputclass=\"renalImpairment\" parent=\"/drugs/ethosuximide\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP50368\" outputclass=\"patientAndCarerAdvice\" rev=\"1.20\" parent=\"/drugs/ethosuximide\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Ethosuximide for preventing seizures</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/ethosuximide-for-preventing-seizures\">www.medicinesforchildren.org.uk/ethosuximide-for-preventing-seizures</xref>\n</p>\n</sectiondiv>\n</section>\r\n<section outputclass=\"generalPatientAdvice\">\r\n<sectiondiv>\r\n<p outputclass=\"title\">Blood disorders</p>\r\n<p>Patients or their carers should be told how to recognise signs of blood disorders, and advised to seek immediate medical attention if symptoms such as fever, mouth ulcers, bruising, or bleeding develop.</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP2923-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/ethosuximide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76466\" title=\"Capsule\" namespace=\"/drugs/ethosuximide/capsule\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76473\" title=\"Oral solution\" namespace=\"/drugs/ethosuximide/oral-solution\">Oral solution</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78230\" namespace=\"/treatment-summaries/epilepsy\" title=\"Epilepsy\" count=\"5\" rel=\"backlink\">Epilepsy</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_281\" namespace=\"/interactions/list-of-drug-interactions/antiepileptics/ethosuximide\" title=\"Ethosuximide\" count=\"1\" rel=\"link\">Ethosuximide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76466\" namespace=\"/drugs/ethosuximide/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76473\" namespace=\"/drugs/ethosuximide/oral-solution\" title=\"Oral solution\" count=\"1\" rel=\"link\">Oral solution</xref>\n</links>\n</topic>",
+    "id": "PHP2923",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/ethosuximide",
+    "basename": "ethosuximide",
+    "title": "ETHOSUXIMIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_281",
+            "label": "Ethosuximide"
+        }
+    ],
+    "vtmid": "44790008",
+    "drugClassification": [
+        "Antiepileptics"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Absence seizures",
+                        "html": "Absence seizures"
+                    },
+                    {
+                        "textContent": "Atypical absence seizures",
+                        "html": "Atypical absence seizures"
+                    },
+                    {
+                        "textContent": "Myoclonic seizures",
+                        "html": "Myoclonic seizures"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 5 mg/kg twice daily (max. per dose 125 mg), dose to be increased every 5&#8211;7 days; maintenance 10&#8211;20 mg/kg twice daily (max. per dose 500 mg), total daily dose may rarely be given in 3 divided doses.",
+                        "html": "<p>Initially 5&#8239;mg/kg twice daily (max. per dose 125&#8239;mg), dose to be increased every 5&#8211;7 days; maintenance 10&#8211;20&#8239;mg/kg twice daily (max. per dose 500&#8239;mg), total daily dose may rarely be given in 3 divided doses.</p>",
+                        "ageGroup": "1 month&#8211;5 years"
+                    },
+                    {
+                        "textContent": "Initially 250 mg twice daily, then increased in steps of 250 mg every 5&#8211;7 days; usual dose 500&#8211;750 mg twice daily, increased if necessary up to 1 g twice daily.",
+                        "html": "<p>Initially 250&#8239;mg twice daily, then increased in steps of 250&#8239;mg every 5&#8211;7&#8239;days; usual dose 500&#8211;750&#8239;mg twice daily, increased if necessary up to 1&#8239;g twice daily.</p>",
+                        "ageGroup": "6&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 500 mg daily in 2 divided doses, then increased in steps of 250 mg every 5&#8211;7 days; usual dose 1&#8211;1.5 g daily in 2 divided doses, increased if necessary up to 2 g daily.",
+                        "html": "<p>Initially 500&#8239;mg daily in 2 divided doses, then increased in steps of 250&#8239;mg every 5&#8211;7&#8239;days; usual dose 1&#8211;1.5&#8239;g daily in 2 divided doses, increased if necessary up to 2&#8239;g daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid in Acute porphyrias",
+                "html": "Avoid in <xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (ethosuximide).",
+                "html": "<p>Appendix 1 (ethosuximide).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Anorexia",
+                        "html": "Anorexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "abdominal pain",
+                        "html": "abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "weight loss",
+                        "html": "weight loss",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Aggression",
+                        "html": "Aggression",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "ataxia",
+                        "html": "ataxia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "euphoria",
+                        "html": "euphoria",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hiccup",
+                        "html": "hiccup",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "impaired concentration",
+                        "html": "impaired concentration",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "irritability",
+                        "html": "irritability",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Depression",
+                        "html": "Depression",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "dyskinesia",
+                        "html": "dyskinesia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "gingival hypertrophy",
+                        "html": "gingival hypertrophy",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "increased libido",
+                        "html": "increased libido",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "myopia",
+                        "html": "myopia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "photophobia",
+                        "html": "photophobia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "psychosis",
+                        "html": "psychosis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "sleep disturbances",
+                        "html": "sleep disturbances",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "tongue swelling",
+                        "html": "tongue swelling",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "vaginal bleeding",
+                        "html": "vaginal bleeding",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Agranulocytosis",
+                        "html": "Agranulocytosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "aplastic anaemia",
+                        "html": "aplastic anaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperactivity",
+                        "html": "hyperactivity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "increase in seizure frequency",
+                        "html": "increase in seizure frequency",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pancytopenia",
+                        "html": "pancytopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "suicidal ideation",
+                        "html": "suicidal ideation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "systemic lupus erythematosus",
+                        "html": "systemic lupus erythematosus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Blood disorders",
+                "textContent": "Blood counts required if features of infection.",
+                "html": "<p>Blood counts required if features of infection.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk.\n\nHyperexcitability and sedation reported.",
+                "html": "<p>Present in milk.</p><p>Hyperexcitability and sedation reported.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution.",
+                "html": "<p>Use with caution.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution.",
+                "html": "<p>Use with caution.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/ethosuximide-for-preventing-seizures",
+                        "label": "www.medicinesforchildren.org.uk/ethosuximide-for-preventing-seizures"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Ethosuximide for preventing seizures",
+                "textContent": "www.medicinesforchildren.org.uk/ethosuximide-for-preventing-seizures",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/ethosuximide-for-preventing-seizures\">www.medicinesforchildren.org.uk/ethosuximide-for-preventing-seizures</xref>\n</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "title": "Blood disorders",
+                "textContent": "Patients or their carers should be told how to recognise signs of blood disorders, and advised to seek immediate medical attention if symptoms such as fever, mouth ulcers, bruising, or bleeding develop.",
+                "html": "<p>Patients or their carers should be told how to recognise signs of blood disorders, and advised to seek immediate medical attention if symptoms such as fever, mouth ulcers, bruising, or bleeding develop.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76466",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76473",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78230",
+                "label": "Epilepsy",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_281",
+                "label": "Ethosuximide",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76466",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76473",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

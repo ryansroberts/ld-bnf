@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP97408\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/progynova-ts\" basename=\"progynova-ts\" title=\"Progynova TS\">\n<title>Progynova<tm tmtype=\"reg\"/> TS</title>\n<topic id=\"PHP97637\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/progynova-ts\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms</p>\n<p outputclass=\"therapeuticIndication\">Osteoporosis prophylaxis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;patch once weekly continuously, alternatively apply 1&#8239;patch once weekly for 3 weeks, followed by a 7-day patch-free interval (cyclical), to be used with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, initiate therapy with <i>Progynova TS 50</i>, subsequently adjust according to response, women receiving <i>Progynova TS 100</i> patches for menopausal symptoms may continue with this strength for osteoporosis prophylaxis.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP97714\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/progynova-ts\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be advised on the application of Progynova<tm tmtype=\"reg\"/> TS patches.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP97408",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/progynova-ts",
+    "basename": "progynova-ts",
+    "title": "Progynova TS",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms",
+                        "html": "Menopausal symptoms"
+                    },
+                    {
+                        "textContent": "Osteoporosis prophylaxis",
+                        "html": "Osteoporosis prophylaxis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1 patch once weekly continuously, alternatively apply 1 patch once weekly for 3 weeks, followed by a 7-day patch-free interval (cyclical), to be used with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, initiate therapy with Progynova TS 50, subsequently adjust according to response, women receiving Progynova TS 100 patches for menopausal symptoms may continue with this strength for osteoporosis prophylaxis.",
+                        "html": "<p>Apply 1&#8239;patch once weekly continuously, alternatively apply 1&#8239;patch once weekly for 3 weeks, followed by a 7-day patch-free interval (cyclical), to be used with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, initiate therapy with <i>Progynova TS 50</i>, subsequently adjust according to response, women receiving <i>Progynova TS 100</i> patches for menopausal symptoms may continue with this strength for osteoporosis prophylaxis.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be advised on the application of Progynova TS patches.",
+                "html": "<p>Patients should be advised on the application of Progynova<tm tmtype=\"reg\"/> TS patches.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

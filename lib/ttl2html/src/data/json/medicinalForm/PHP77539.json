@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP77539\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/palonosetron/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Aloxi 500microgram capsules <ph outputclass=\"manufacturer\">(Sinclair IS Pharma Plc)</ph>\n</title>\n<data name=\"ampid\">20136111000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Palonosetron (as Palonosetron hydrochloride) 500&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;55.89</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2564\" title=\"PALONOSETRON\" namespace=\"/drugs/palonosetron\">PALONOSETRON</xref>\n</parents>\n</topic>",
+    "id": "PHP77539",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/palonosetron/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Aloxi 500microgram capsules (Sinclair IS Pharma Plc) ",
+            "header": "Aloxi 500microgram capsules <ph outputclass=\"manufacturer\">(Sinclair IS Pharma Plc)</ph>",
+            "manufacturer": "(Sinclair IS Pharma Plc)",
+            "name": "Aloxi 500microgram capsules",
+            "ampid": "20136111000001105",
+            "strengthOfActiveIngredient": "Palonosetron (as Palonosetron hydrochloride) 500 microgram",
+            "packs": [
+                {
+                    "textContent": " 1 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;55.89 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;55.89</ph>",
+                        "nhsIndicativePrice": "&#163;55.89"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2564",
+        "label": "PALONOSETRON"
+    }
+}

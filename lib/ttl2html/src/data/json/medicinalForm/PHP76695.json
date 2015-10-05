@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP76695\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hydrogen-peroxide/mouthwash\" basename=\"mouthwash\" title=\"Mouthwash\">\n<title>Mouthwash</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP78648\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/peroxyl\">Peroxyl<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Peroxyl 1.5% mouthwash <ph outputclass=\"manufacturer\">(Colgate-Palmolive (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">4002911000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Hydrogen peroxide 15&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.94</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7421\" title=\"HYDROGEN PEROXIDE\" namespace=\"/drugs/hydrogen-peroxide\">HYDROGEN PEROXIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76695",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hydrogen-peroxide/mouthwash",
+    "basename": "mouthwash",
+    "form": "Mouthwash",
+    "productInformationGroups": [
+        {
+            "id": "PHP78648",
+            "label": "Peroxyl&reg;  ",
+            "html": "Peroxyl<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Peroxyl 1.5% mouthwash (Colgate-Palmolive (UK) Ltd) ",
+            "header": "Peroxyl 1.5% mouthwash <ph outputclass=\"manufacturer\">(Colgate-Palmolive (UK) Ltd)</ph>",
+            "manufacturer": "(Colgate-Palmolive (UK) Ltd)",
+            "name": "Peroxyl 1.5% mouthwash",
+            "ampid": "4002911000001105",
+            "strengthOfActiveIngredient": "Hydrogen peroxide 15 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 300 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.94 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.94</ph>",
+                        "nhsIndicativePrice": "&#163;2.94"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7421",
+        "label": "HYDROGEN PEROXIDE"
+    }
+}

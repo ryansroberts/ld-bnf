@@ -1,0 +1,125 @@
+{
+    "xml": "<topic id=\"PHP74922\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/lidocaine-hydrochloride/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Benzyl alcohol, propylene glycol</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81603\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/lmx-4\">LMX 4<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Vagisil 2% medicated cream <ph outputclass=\"manufacturer\">(Combe International Ltd)</ph>\n</title>\n<data name=\"ampid\">4040811000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lidocaine 20&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.50</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>LMX 4 cream <ph outputclass=\"manufacturer\">(Ferndale Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">14189111000001108</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lidocaine 40&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.98</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.90</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>LMX 4 cream with Tegaderm dressing 10cm x 6cm <ph outputclass=\"manufacturer\">(Ferndale Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">17076111000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lidocaine 40&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.90</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Lidocaine 4% cream <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">28033311000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lidocaine 40&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP928\" title=\"LIDOCAINE HYDROCHLORIDE\" namespace=\"/drugs/lidocaine-hydrochloride\">LIDOCAINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP74922",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/lidocaine-hydrochloride/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "excipients": [
+        "Benzyl alcohol",
+        "propylene glycol"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81603",
+            "label": "LMX 4&reg;  ",
+            "html": "LMX 4<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Vagisil 2% medicated cream (Combe International Ltd) ",
+            "header": "Vagisil 2% medicated cream <ph outputclass=\"manufacturer\">(Combe International Ltd)</ph>",
+            "manufacturer": "(Combe International Ltd)",
+            "name": "Vagisil 2% medicated cream",
+            "ampid": "4040811000001105",
+            "strengthOfActiveIngredient": "Lidocaine 20 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.50</ph>",
+                        "nhsIndicativePrice": "&#163;2.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "LMX 4 cream (Ferndale Pharmaceuticals Ltd) ",
+            "header": "LMX 4 cream <ph outputclass=\"manufacturer\">(Ferndale Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Ferndale Pharmaceuticals Ltd)",
+            "name": "LMX 4 cream",
+            "ampid": "14189111000001108",
+            "strengthOfActiveIngredient": "Lidocaine 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 gram P ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.98 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.98</ph>",
+                        "nhsIndicativePrice": "&#163;2.98"
+                    }
+                },
+                {
+                    "textContent": " 25 gram P ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.90</ph>",
+                        "nhsIndicativePrice": "&#163;14.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "LMX 4 cream with Tegaderm dressing 10cm x 6cm (Ferndale Pharmaceuticals Ltd) ",
+            "header": "LMX 4 cream with Tegaderm dressing 10cm x 6cm <ph outputclass=\"manufacturer\">(Ferndale Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Ferndale Pharmaceuticals Ltd)",
+            "name": "LMX 4 cream with Tegaderm dressing 10cm x 6cm",
+            "ampid": "17076111000001105",
+            "strengthOfActiveIngredient": "Lidocaine 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 25 gram P ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.90</ph>",
+                        "nhsIndicativePrice": "&#163;16.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Lidocaine 4% cream (Ennogen Healthcare Ltd) ",
+            "header": "Lidocaine 4% cream <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Lidocaine 4% cream",
+            "ampid": "28033311000001105",
+            "strengthOfActiveIngredient": "Lidocaine 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 gram P ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP928",
+        "label": "LIDOCAINE HYDROCHLORIDE"
+    }
+}

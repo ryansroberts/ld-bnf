@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP98030\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/abstral\" basename=\"abstral\" title=\"Abstral\">\n<title>Abstral<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP98060\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/abstral\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Breakthrough pain in patients receiving opioid therapy for chronic cancer pain</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using sublingual tablets</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8239;micrograms, then 100&#8239;micrograms after 15&#8211;30&#8239;minutes if required, dose to be adjusted according to response&#8212;consult product literature, no more than 2 dose units 15&#8211;30 minutes apart, for each pain episode; max. 800&#8239;micrograms per episode of breakthrough pain; leave at least 2 hours between treatment of episodes of breakthrough pain, if more than 4 episodes of breakthrough pain each day, adjust background analgesia.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98136\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/abstral\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be advised not to eat or drink until the tablet is completely dissolved.</p>\n<p>In patients with a dry mouth, the buccal mucosa may be moistened with water before administration of tablet.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98153\" outputclass=\"nationalFunding\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/abstral\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (January 2009) that <i>Abstral</i>\n<tm tmtype=\"reg\"/> sublingual tablets should be restricted for the management of breakthrough pain in adult patients using opioid therapy for chronic cancer pain, when other short acting opioids are unsuitable.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98030",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/abstral",
+    "basename": "abstral",
+    "title": "Abstral",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Breakthrough pain in patients receiving opioid therapy for chronic cancer pain",
+                        "html": "Breakthrough pain in patients receiving opioid therapy for chronic cancer pain"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using sublingual tablets"
+                    ],
+                    "textContent": "By mouth using sublingual tablets",
+                    "html": "By mouth using sublingual tablets"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100 micrograms, then 100 micrograms after 15&#8211;30 minutes if required, dose to be adjusted according to response&#8212;consult product literature, no more than 2 dose units 15&#8211;30 minutes apart, for each pain episode; max. 800 micrograms per episode of breakthrough pain; leave at least 2 hours between treatment of episodes of breakthrough pain, if more than 4 episodes of breakthrough pain each day, adjust background analgesia.",
+                        "html": "<p>Initially 100&#8239;micrograms, then 100&#8239;micrograms after 15&#8211;30&#8239;minutes if required, dose to be adjusted according to response&#8212;consult product literature, no more than 2 dose units 15&#8211;30 minutes apart, for each pain episode; max. 800&#8239;micrograms per episode of breakthrough pain; leave at least 2 hours between treatment of episodes of breakthrough pain, if more than 4 episodes of breakthrough pain each day, adjust background analgesia.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be advised not to eat or drink until the tablet is completely dissolved.\n\nIn patients with a dry mouth, the buccal mucosa may be moistened with water before administration of tablet.",
+                "html": "<p>Patients should be advised not to eat or drink until the tablet is completely dissolved.</p><p>In patients with a dry mouth, the buccal mucosa may be moistened with water before administration of tablet.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (January 2009) that Abstral sublingual tablets should be restricted for the management of breakthrough pain in adult patients using opioid therapy for chronic cancer pain, when other short acting opioids are unsuitable.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (January 2009) that <i>Abstral</i> <tm tmtype=\"reg\"/> sublingual tablets should be restricted for the management of breakthrough pain in adult patients using opioid therapy for chronic cancer pain, when other short acting opioids are unsuitable.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

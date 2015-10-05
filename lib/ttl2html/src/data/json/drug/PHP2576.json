@@ -1,0 +1,478 @@
+{
+    "xml": "<topic id=\"PHP2576\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/hyoscine-hydrobromide\" basename=\"hyoscine-hydrobromide\" title=\"HYOSCINE HYDROBROMIDE\">\n<title>HYOSCINE HYDROBROMIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_346\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/hyoscine\">Hyoscine</xref>\n</p>\n<data name=\"vtmid\">72870001</data>\r\n<data name=\"vtmid\">13868111000001109</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_567112641\" title=\"Antimuscarinics\">Antimuscarinics</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" namespace=\"/drug-classes/antimuscarinics-systemic\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n<p outputclass=\"synonyms\">Scopolamine hydrobromide</p>\r\n</body>\n<topic id=\"PHP73193\" outputclass=\"indicationsAndDose\" rev=\"1.46\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Motion sickness</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 4&#8211;9 years</p>\n<p>75&#8211;150&#8239;micrograms, dose to be taken up to 30 minutes before the start of journey, then 75&#8211;150&#8239;micrograms every 6&#8239;hours if required; maximum 3&#8239;doses per day.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 10&#8211;17 years</p>\n<p>150&#8211;300&#8239;micrograms, dose to be taken up to 30 minutes before the start of journey, then 150&#8211;300&#8239;micrograms every 6&#8239;hours if required; maximum 900&#8239;micrograms per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>150&#8211;300&#8239;micrograms, dose to be taken up to 30 minutes before the start of journey, then 150&#8211;300&#8239;micrograms every 6&#8239;hours if required; maximum 900&#8239;micrograms per day.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By transdermal application</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 10&#8211;17 years</p>\n<p>Apply 1&#8239;patch, apply behind ear 5&#8211;6 hours before journey, then apply 1&#8239;patch after 72&#8239;hours if required, remove old patch and site replacement patch behind the other ear.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;patch, apply behind ear 5&#8211;6 hours before journey, then apply 1&#8239;patch after 72&#8239;hours if required, remove old patch and site replacement patch behind the other ear.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypersalivation associated with clozapine therapy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>300&#8239;micrograms up to 3 times a day; maximum 900&#8239;micrograms per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Excessive respiratory secretion (in palliative care)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>400&#8239;micrograms every 4&#8239;hours as required, hourly use is occasionally necessary, particularly in excessive respiratory secretions.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By continuous subcutaneous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.2&#8211;2&#8239;mg/24 hours.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bowel colic in palliative care</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>400&#8239;micrograms every 4&#8239;hours as required, hourly use is occasionally necessary.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By subcutaneous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.2&#8211;2&#8239;mg/24 hours.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bowel colic pain in palliative care</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>300&#8239;micrograms 3 times a day, as <i>Kwells</i>\n<tm tmtype=\"reg\"/>.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Premedication</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8211;600&#8239;micrograms, to be administered 30&#8211;60 minutes before induction of anaesthesia.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73030\" outputclass=\"unlicensedUse\" rev=\"1.13\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Not licensed for use in excessive respiratory secretions or hypersalivation associated with clozapine therapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73279\" outputclass=\"importantSafetyInformation\" rev=\"1.18\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Antimuscarininc drugs used for premedication to general anaesthesia should only be administered by, or under the direct supervision of, personnel experienced in their use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73302\" outputclass=\"cautions\" rev=\"1.23\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Epilepsy</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use in adults</p>\n<p outputclass=\"title\">Anticholinergic syndrome</p>\n<p>In some patients, especially the elderly, hyoscine may cause the central anticholinergic syndrome (excitement, ataxia, hallucinations, behavioural abnormalities, and drowsiness).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use in children</p>\n<p outputclass=\"title\">Anticholinergic syndrome</p>\n<p>In some children hyoscine may cause the central anticholinergic syndrome (excitement, ataxia, hallucinations, behavioural abnormalities, and drowsiness).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73152\" outputclass=\"pregnancy\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use only if potential benefit outweighs risk. Injection may depress neonatal respiration.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73315\" outputclass=\"breastFeeding\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Amount too small to be harmful.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73252\" outputclass=\"hepaticImpairment\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73124\" outputclass=\"renalImpairment\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use with caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73345\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use in children</p>\n<p>\n<i>Patch</i> applied to hairless area of skin behind ear; if less than whole patch required <b>either</b> cut with scissors along full thickness ensuring membrane is not peeled away <b>or</b> cover portion to prevent contact with skin.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>For administration by <i>mouth</i>, injection solution may be given orally.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP57483\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.10\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Flavours of chewable tablet formulations may include raspberry.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73142\" outputclass=\"patientAndCarerAdvice\" rev=\"1.15\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">transdermal</ph> use in children</p>\n<p>Drowsiness may persist for up to 24 hours or longer after removal of patch; effects of alcohol enhanced.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">transdermal</ph> use</p>\n<p>Explain accompanying instructions to patient and in particular emphasise advice to wash hands after handling and to wash application site after removing, and to use one patch at a time.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP2576-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/hyoscine-hydrobromide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: eye drops, oral suspension, oral solution</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77571\" title=\"Tablet\" namespace=\"/drugs/hyoscine-hydrobromide/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77566\" title=\"Chewable tablet\" namespace=\"/drugs/hyoscine-hydrobromide/chewable-tablet\">Chewable tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77562\" title=\"Solution for injection\" namespace=\"/drugs/hyoscine-hydrobromide/solution-for-injection\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77592\" title=\"Transdermal patch\" namespace=\"/drugs/hyoscine-hydrobromide/transdermal-patch\">Transdermal patch</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85615\" namespace=\"/drugs/hyoscine-hydrobromide-with-papaveretum\" title=\"HYOSCINE HYDROBROMIDE WITH PAPAVERETUM\" count=\"1\" rel=\"backlink\">HYOSCINE HYDROBROMIDE WITH PAPAVERETUM</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP107735\" namespace=\"/guidance/prescribing-in-palliative-care\" title=\"Prescribing in palliative care\" count=\"5\" rel=\"backlink\">Prescribing in palliative care</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78221\" namespace=\"/treatment-summaries/nausea-and-labyrinth-disorders\" title=\"Nausea and labyrinth disorders\" count=\"1\" rel=\"backlink\">Nausea and labyrinth disorders</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78500\" namespace=\"/treatment-summaries/pre-medication-and-peri-operative-drugs\" title=\"Pre-medication and peri-operative drugs\" count=\"1\" rel=\"backlink\">Pre-medication and peri-operative drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_346\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/hyoscine\" title=\"Hyoscine\" count=\"1\" rel=\"link\">Hyoscine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" namespace=\"/drug-classes/antimuscarinics-systemic\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" count=\"1\" rel=\"link\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77571\" namespace=\"/drugs/hyoscine-hydrobromide/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77566\" namespace=\"/drugs/hyoscine-hydrobromide/chewable-tablet\" title=\"Chewable tablet\" count=\"1\" rel=\"link\">Chewable tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77562\" namespace=\"/drugs/hyoscine-hydrobromide/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77592\" namespace=\"/drugs/hyoscine-hydrobromide/transdermal-patch\" title=\"Transdermal patch\" count=\"1\" rel=\"link\">Transdermal patch</xref>\n</links>\n</topic>",
+    "id": "PHP2576",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/hyoscine-hydrobromide",
+    "basename": "hyoscine-hydrobromide",
+    "title": "HYOSCINE HYDROBROMIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_346",
+            "label": "Hyoscine"
+        }
+    ],
+    "vtmid": "13868111000001109",
+    "drugClassification": [
+        "Antimuscarinics"
+    ],
+    "inheritsFromClass": [
+        "ANTIMUSCARINICS (SYSTEMIC)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "synonyms": [
+        "Scopolamine hydrobromide"
+    ],
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Motion sickness",
+                        "html": "Motion sickness"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "transdermal application"
+                    ],
+                    "textContent": "By transdermal application",
+                    "html": "By transdermal application"
+                },
+                "child": [
+                    {
+                        "textContent": "75&#8211;150 micrograms, dose to be taken up to 30 minutes before the start of journey, then 75&#8211;150 micrograms every 6 hours if required; maximum 3 doses per day.",
+                        "html": "<p>75&#8211;150&#8239;micrograms, dose to be taken up to 30 minutes before the start of journey, then 75&#8211;150&#8239;micrograms every 6&#8239;hours if required; maximum 3&#8239;doses per day.</p>",
+                        "ageGroup": "4&#8211;9 years"
+                    },
+                    {
+                        "textContent": "150&#8211;300 micrograms, dose to be taken up to 30 minutes before the start of journey, then 150&#8211;300 micrograms every 6 hours if required; maximum 900 micrograms per day.",
+                        "html": "<p>150&#8211;300&#8239;micrograms, dose to be taken up to 30 minutes before the start of journey, then 150&#8211;300&#8239;micrograms every 6&#8239;hours if required; maximum 900&#8239;micrograms per day.</p>",
+                        "ageGroup": "10&#8211;17 years"
+                    },
+                    {
+                        "textContent": "Apply 1 patch, apply behind ear 5&#8211;6 hours before journey, then apply 1 patch after 72 hours if required, remove old patch and site replacement patch behind the other ear.",
+                        "html": "<p>Apply 1&#8239;patch, apply behind ear 5&#8211;6 hours before journey, then apply 1&#8239;patch after 72&#8239;hours if required, remove old patch and site replacement patch behind the other ear.</p>",
+                        "ageGroup": "10&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "150&#8211;300 micrograms, dose to be taken up to 30 minutes before the start of journey, then 150&#8211;300 micrograms every 6 hours if required; maximum 900 micrograms per day.",
+                        "html": "<p>150&#8211;300&#8239;micrograms, dose to be taken up to 30 minutes before the start of journey, then 150&#8211;300&#8239;micrograms every 6&#8239;hours if required; maximum 900&#8239;micrograms per day.</p>"
+                    },
+                    {
+                        "textContent": "Apply 1 patch, apply behind ear 5&#8211;6 hours before journey, then apply 1 patch after 72 hours if required, remove old patch and site replacement patch behind the other ear.",
+                        "html": "<p>Apply 1&#8239;patch, apply behind ear 5&#8211;6 hours before journey, then apply 1&#8239;patch after 72&#8239;hours if required, remove old patch and site replacement patch behind the other ear.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypersalivation associated with clozapine therapy",
+                        "html": "Hypersalivation associated with clozapine therapy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "300 micrograms up to 3 times a day; maximum 900 micrograms per day.",
+                        "html": "<p>300&#8239;micrograms up to 3 times a day; maximum 900&#8239;micrograms per day.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Excessive respiratory secretion (in palliative care)",
+                        "html": "Excessive respiratory secretion (in palliative care)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "continuous subcutaneous infusion"
+                    ],
+                    "textContent": "By continuous subcutaneous infusion",
+                    "html": "By continuous subcutaneous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "400 micrograms every 4 hours as required, hourly use is occasionally necessary, particularly in excessive respiratory secretions.",
+                        "html": "<p>400&#8239;micrograms every 4&#8239;hours as required, hourly use is occasionally necessary, particularly in excessive respiratory secretions.</p>"
+                    },
+                    {
+                        "textContent": "1.2&#8211;2 mg/24 hours.",
+                        "html": "<p>1.2&#8211;2&#8239;mg/24 hours.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Bowel colic in palliative care",
+                        "html": "Bowel colic in palliative care"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous infusion"
+                    ],
+                    "textContent": "By subcutaneous infusion",
+                    "html": "By subcutaneous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "400 micrograms every 4 hours as required, hourly use is occasionally necessary.",
+                        "html": "<p>400&#8239;micrograms every 4&#8239;hours as required, hourly use is occasionally necessary.</p>"
+                    },
+                    {
+                        "textContent": "1.2&#8211;2 mg/24 hours.",
+                        "html": "<p>1.2&#8211;2&#8239;mg/24 hours.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Bowel colic pain in palliative care",
+                        "html": "Bowel colic pain in palliative care"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "300 micrograms 3 times a day, as Kwells .",
+                        "html": "<p>300&#8239;micrograms 3 times a day, as <i>Kwells</i> <tm tmtype=\"reg\"/>.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Premedication",
+                        "html": "Premedication"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by intramuscular injection",
+                    "html": "By subcutaneous injection or by intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "200&#8211;600 micrograms, to be administered 30&#8211;60 minutes before induction of anaesthesia.",
+                        "html": "<p>200&#8211;600&#8239;micrograms, to be administered 30&#8211;60 minutes before induction of anaesthesia.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Not licensed for use in excessive respiratory secretions or hypersalivation associated with clozapine therapy.",
+                "html": "<p>Not licensed for use in excessive respiratory secretions or hypersalivation associated with clozapine therapy.</p>"
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "textContent": "Antimuscarininc drugs used for premedication to general anaesthesia should only be administered by, or under the direct supervision of, personnel experienced in their use.",
+                "html": "<p>Antimuscarininc drugs used for premedication to general anaesthesia should only be administered by, or under the direct supervision of, personnel experienced in their use.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Epilepsy",
+                "html": "Epilepsy"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "specificity": {
+                    "textContent": "With systemic use in adults",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "title": "Anticholinergic syndrome",
+                "textContent": "In some patients, especially the elderly, hyoscine may cause the central anticholinergic syndrome (excitement, ataxia, hallucinations, behavioural abnormalities, and drowsiness).",
+                "html": "<p>In some patients, especially the elderly, hyoscine may cause the central anticholinergic syndrome (excitement, ataxia, hallucinations, behavioural abnormalities, and drowsiness).</p>"
+            },
+            {
+                "type": "importantAdvice",
+                "specificity": {
+                    "textContent": "With systemic use in children",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "title": "Anticholinergic syndrome",
+                "textContent": "In some children hyoscine may cause the central anticholinergic syndrome (excitement, ataxia, hallucinations, behavioural abnormalities, and drowsiness).",
+                "html": "<p>In some children hyoscine may cause the central anticholinergic syndrome (excitement, ataxia, hallucinations, behavioural abnormalities, and drowsiness).</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use only if potential benefit outweighs risk. Injection may depress neonatal respiration.",
+                "html": "<p>Use only if potential benefit outweighs risk. Injection may depress neonatal respiration.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Amount too small to be harmful.",
+                "html": "<p>Amount too small to be harmful.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution.",
+                "html": "<p>Use with caution.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use with caution.",
+                "html": "<p>Use with caution.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With topical use in children",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Patch applied to hairless area of skin behind ear; if less than whole patch required either cut with scissors along full thickness ensuring membrane is not peeled away or cover portion to prevent contact with skin.",
+                "html": "<p>\n<i>Patch</i> applied to hairless area of skin behind ear; if less than whole patch required <b>either</b> cut with scissors along full thickness ensuring membrane is not peeled away <b>or</b> cover portion to prevent contact with skin.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With oral use in children",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "For administration by mouth, injection solution may be given orally.",
+                "html": "<p>For administration by <i>mouth</i>, injection solution may be given orally.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Flavours of chewable tablet formulations may include raspberry.",
+                "html": "<p>Flavours of chewable tablet formulations may include raspberry.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "specificity": {
+                    "textContent": "With transdermal use in children",
+                    "html": "With <ph outputclass=\"route\">transdermal</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "transdermal"
+                    ]
+                },
+                "textContent": "Drowsiness may persist for up to 24 hours or longer after removal of patch; effects of alcohol enhanced.",
+                "html": "<p>Drowsiness may persist for up to 24 hours or longer after removal of patch; effects of alcohol enhanced.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "specificity": {
+                    "textContent": "With transdermal use",
+                    "html": "With <ph outputclass=\"route\">transdermal</ph> use",
+                    "routes": [
+                        "transdermal"
+                    ]
+                },
+                "textContent": "Explain accompanying instructions to patient and in particular emphasise advice to wash hands after handling and to wash application site after removing, and to use one patch at a time.",
+                "html": "<p>Explain accompanying instructions to patient and in particular emphasise advice to wash hands after handling and to wash application site after removing, and to use one patch at a time.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "eye drops",
+                "oral suspension",
+                "oral solution"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77571",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77566",
+                "label": "Chewable tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77562",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77592",
+                "label": "Transdermal patch",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP85615",
+                "label": "HYOSCINE HYDROBROMIDE WITH PAPAVERETUM",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP107735",
+                "label": "Prescribing in palliative care",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78221",
+                "label": "Nausea and labyrinth disorders",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78500",
+                "label": "Pre-medication and peri-operative drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_346",
+                "label": "Hyoscine",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34659",
+                "label": "ANTIMUSCARINICS (SYSTEMIC)",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77571",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77566",
+                "label": "Chewable tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77562",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77592",
+                "label": "Transdermal patch",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

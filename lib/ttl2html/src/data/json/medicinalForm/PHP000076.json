@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP000076\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ivermectin/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Soolantra 10mg/g cream <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">29736311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ivermectin 10&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;18.29</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP34493\" title=\"IVERMECTIN\" namespace=\"/drugs/ivermectin\">IVERMECTIN</xref>\n</parents>\n</topic>",
+    "id": "PHP000076",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ivermectin/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "products": [
+        {
+            "title": "Soolantra 10mg/g cream (Galderma (UK) Ltd) ",
+            "header": "Soolantra 10mg/g cream <ph outputclass=\"manufacturer\">(Galderma (UK) Ltd)</ph>",
+            "manufacturer": "(Galderma (UK) Ltd)",
+            "name": "Soolantra 10mg/g cream",
+            "ampid": "29736311000001101",
+            "strengthOfActiveIngredient": "Ivermectin 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;18.29 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;18.29</ph>",
+                        "nhsIndicativePrice": "&#163;18.29"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP34493",
+        "label": "IVERMECTIN"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "xml": "<topic id=\"PHP81596\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/xgeva\" basename=\"xgeva\" title=\"XGEVA\">\n<title>XGEVA<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82354\" outputclass=\"indicationsAndDose\" rev=\"1.26\" parent=\"/clinical-medicinal-product-information/xgeva\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of skeletal related events in patients with bone metastases from solid tumours</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>120&#8239;mg every 4&#8239;weeks, supplementation of at least Calcium 500&#8239;mg and vitamin D 400&#8239;units daily should also be taken unless hypercalcaemia is present.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity in adults and skeletally mature adolescent</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>120&#8239;mg every 4&#8239;weeks, give additional dose on days 8 and 15 of the first month of treatment only, supplementation of at least Calcium 500&#8239;mg and vitamin D 400&#8239;units daily should also be taken unless hypercalcaemia is present.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP82351\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/xgeva\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Unhealed lesions from dental or oral surgery</ph>\n</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81596",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/xgeva",
+    "basename": "xgeva",
+    "title": "XGEVA",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of skeletal related events in patients with bone metastases from solid tumours",
+                        "html": "Prevention of skeletal related events in patients with bone metastases from solid tumours"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "120 mg every 4 weeks, supplementation of at least Calcium 500 mg and vitamin D 400 units daily should also be taken unless hypercalcaemia is present.",
+                        "html": "<p>120&#8239;mg every 4&#8239;weeks, supplementation of at least Calcium 500&#8239;mg and vitamin D 400&#8239;units daily should also be taken unless hypercalcaemia is present.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity in adults and skeletally mature adolescent",
+                        "html": "Treatment of giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity in adults and skeletally mature adolescent"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "120 mg every 4 weeks, give additional dose on days 8 and 15 of the first month of treatment only, supplementation of at least Calcium 500 mg and vitamin D 400 units daily should also be taken unless hypercalcaemia is present.",
+                        "html": "<p>120&#8239;mg every 4&#8239;weeks, give additional dose on days 8 and 15 of the first month of treatment only, supplementation of at least Calcium 500&#8239;mg and vitamin D 400&#8239;units daily should also be taken unless hypercalcaemia is present.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Unhealed lesions from dental or oral surgery",
+                "html": "Unhealed lesions from dental or oral surgery"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

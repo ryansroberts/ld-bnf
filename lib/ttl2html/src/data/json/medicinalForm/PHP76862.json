@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP76862\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ispaghula-husk/powder\" basename=\"powder\" title=\"Powder\">\n<title>Powder</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Aspartame</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">  </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Husk oral powder <ph outputclass=\"manufacturer\">(Savant Distribution Ltd)</ph>\n</title>\n<data name=\"ampid\">15860111000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Ispaghula husk 1&#8239;mg per 1&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.24</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP550\" title=\"ISPAGHULA HUSK\" namespace=\"/drugs/ispaghula-husk\">ISPAGHULA HUSK</xref>\n</parents>\n</topic>",
+    "id": "PHP76862",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ispaghula-husk/powder",
+    "basename": "powder",
+    "form": "Powder",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "excipients": [
+        "Aspartame"
+    ],
+    "products": [
+        {
+            "title": "Husk oral powder (Savant Distribution Ltd) ",
+            "header": "Husk oral powder <ph outputclass=\"manufacturer\">(Savant Distribution Ltd)</ph>",
+            "manufacturer": "(Savant Distribution Ltd)",
+            "name": "Husk oral powder",
+            "ampid": "15860111000001101",
+            "strengthOfActiveIngredient": "Ispaghula husk 1 mg per 1 mg",
+            "packs": [
+                {
+                    "textContent": " 200 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.24 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.24</ph>",
+                        "nhsIndicativePrice": "&#163;5.24"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP550",
+        "label": "ISPAGHULA HUSK"
+    }
+}

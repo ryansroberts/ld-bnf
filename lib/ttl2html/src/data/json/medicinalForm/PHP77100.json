@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP77100\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/fentanyl/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Fentanyl 2.5mg/50ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hameln Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">28803211000001105</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Fentanyl (as Fentanyl citrate) 50&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2713\" title=\"FENTANYL\" namespace=\"/drugs/fentanyl\">FENTANYL</xref>\n</parents>\n</topic>",
+    "id": "PHP77100",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/fentanyl/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Fentanyl 2.5mg/50ml solution for infusion vials (Hameln Pharmaceuticals Ltd) ",
+            "header": "Fentanyl 2.5mg/50ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hameln Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Hameln Pharmaceuticals Ltd)",
+            "name": "Fentanyl 2.5mg/50ml solution for infusion vials",
+            "ampid": "28803211000001105",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Fentanyl (as Fentanyl citrate) 50 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.00</ph>",
+                        "nhsIndicativePrice": "&#163;5.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2713",
+        "label": "FENTANYL"
+    }
+}

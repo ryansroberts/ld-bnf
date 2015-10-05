@@ -1,0 +1,69 @@
+{
+    "xml": "<topic id=\"PHP74812\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/human-papillomavirus-vaccines/suspension-for-injection\" basename=\"suspension-for-injection\" title=\"Suspension for injection\">\n<title>Suspension for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81535\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/gardasil\">Gardasil<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP81534\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/cervarix\">Cervarix<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cervarix vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">12238911000001100</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;80.50</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Gardasil vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>\n</title>\n<data name=\"ampid\">10880211000001104</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;86.50</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8317\" title=\"HUMAN PAPILLOMAVIRUS VACCINES\" namespace=\"/drugs/human-papillomavirus-vaccines\">HUMAN PAPILLOMAVIRUS VACCINES</xref>\n</parents>\n</topic>",
+    "id": "PHP74812",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/human-papillomavirus-vaccines/suspension-for-injection",
+    "basename": "suspension-for-injection",
+    "form": "Suspension for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP81535",
+            "label": "Gardasil&reg;  ",
+            "html": "Gardasil<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP81534",
+            "label": "Cervarix&reg;  ",
+            "html": "Cervarix<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Cervarix vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd) ",
+            "header": "Cervarix vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Cervarix vaccine suspension for injection 0.5ml pre-filled syringes",
+            "ampid": "12238911000001100",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;80.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;80.50</ph>",
+                        "nhsIndicativePrice": "&#163;80.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gardasil vaccine suspension for injection 0.5ml pre-filled syringes (sanofi pasteur MSD Ltd) ",
+            "header": "Gardasil vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(sanofi pasteur MSD Ltd)</ph>",
+            "manufacturer": "(sanofi pasteur MSD Ltd)",
+            "name": "Gardasil vaccine suspension for injection 0.5ml pre-filled syringes",
+            "ampid": "10880211000001104",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;86.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;86.50</ph>",
+                        "nhsIndicativePrice": "&#163;86.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8317",
+        "label": "HUMAN PAPILLOMAVIRUS VACCINES"
+    }
+}

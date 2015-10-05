@@ -1,0 +1,113 @@
+{
+    "xml": "<topic id=\"PHP88048\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/coal-tar-with-salicylic-acid\" basename=\"coal-tar-with-salicylic-acid\" title=\"COAL TAR WITH SALICYLIC ACID\">\n<title>COAL TAR WITH SALICYLIC ACID</title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP7754\" namespace=\"/drugs/salicylic-acid\">salicylic acid</xref>, <xref format=\"dita\" href=\"#PHP105665\" namespace=\"/drugs/coal-tar\">coal tar</xref>.</p>\n<data name=\"vtmid\">15219611000001105</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_219184260\" title=\"Tars\">Tars</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_904822154\" title=\"Salicylates\">Salicylates</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP89871\" outputclass=\"indicationsAndDose\" rev=\"1.37\" parent=\"/drugs/coal-tar-with-salicylic-acid\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Psoriasis</p>\n<p outputclass=\"therapeuticIndication\">Chronic atopic eczema</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin using ointment</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8211;2 times a day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88048-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/coal-tar-with-salicylic-acid\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: ointment, cream</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78083\" namespace=\"/treatment-summaries/scalp-and-hair-conditions\" title=\"Scalp and hair conditions\" count=\"2\" rel=\"backlink\">Scalp and hair conditions</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7754\" namespace=\"/drugs/salicylic-acid\" title=\"SALICYLIC ACID\" count=\"1\" rel=\"link\">SALICYLIC ACID</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP105665\" namespace=\"/drugs/coal-tar\" title=\"COAL TAR\" count=\"1\" rel=\"link\">COAL TAR</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n</links>\n</topic>",
+    "id": "PHP88048",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/coal-tar-with-salicylic-acid",
+    "basename": "coal-tar-with-salicylic-acid",
+    "title": "COAL TAR WITH SALICYLIC ACID",
+    "constituents": [
+        {
+            "id": "PHP7754",
+            "label": "salicylic acid"
+        },
+        {
+            "id": "PHP105665",
+            "label": "coal tar"
+        }
+    ],
+    "vtmid": "15219611000001105",
+    "drugClassification": [
+        "Tars",
+        "Salicylates"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Psoriasis",
+                        "html": "Psoriasis"
+                    },
+                    {
+                        "textContent": "Chronic atopic eczema",
+                        "html": "Chronic atopic eczema"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin using ointment"
+                    ],
+                    "textContent": "To the skin using ointment",
+                    "html": "To the skin using ointment"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day.",
+                        "html": "<p>Apply 1&#8211;2 times a day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "ointment",
+                "cream"
+            ]
+        }
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78083",
+                "label": "Scalp and hair conditions",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP7754",
+                "label": "SALICYLIC ACID",
+                "type": "drug"
+            },
+            {
+                "id": "PHP105665",
+                "label": "COAL TAR",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ]
+    }
+}

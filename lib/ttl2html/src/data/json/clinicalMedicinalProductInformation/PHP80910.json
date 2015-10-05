@@ -1,0 +1,56 @@
+{
+    "xml": "<topic id=\"PHP80910\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/adalat\" basename=\"adalat\" title=\"Adalat\">\n<title>Adalat<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP80956\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/adalat\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Angina prophylaxis (not recommended)</p>\n<p outputclass=\"therapeuticIndication\">Raynaud's phenomenon</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using immediate-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 5&#8239;mg 3 times a day, then adjusted according to response to 20&#8239;mg 3 times a day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>Adalat liquid gel capsules contain 5&#8239;mg nifedipine in 0.17&#8239;mL and 10&#8239;mg nifedipine in 0.34&#8239;mL.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80910",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/adalat",
+    "basename": "adalat",
+    "title": "Adalat",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Angina prophylaxis (not recommended)",
+                        "html": "Angina prophylaxis (not recommended)"
+                    },
+                    {
+                        "textContent": "Raynaud's phenomenon",
+                        "html": "Raynaud's phenomenon"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using immediate-release medicines"
+                    ],
+                    "textContent": "By mouth using immediate-release medicines",
+                    "html": "By mouth using immediate-release medicines"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 5 mg 3 times a day, then adjusted according to response to 20 mg 3 times a day.",
+                        "html": "<p>Initially 5&#8239;mg 3 times a day, then adjusted according to response to 20&#8239;mg 3 times a day.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Adalat liquid gel capsules contain 5 mg nifedipine in 0.17 mL and 10 mg nifedipine in 0.34 mL.",
+                "html": "<p>Adalat liquid gel capsules contain 5&#8239;mg nifedipine in 0.17&#8239;mL and 10&#8239;mg nifedipine in 0.34&#8239;mL.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

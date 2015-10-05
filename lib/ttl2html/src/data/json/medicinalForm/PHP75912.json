@@ -1,0 +1,56 @@
+{
+    "xml": "<topic id=\"PHP75912\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/podophyllotoxin/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Butylated hydroxyanisole, cetostearyl alcohol (including cetyl and stearyl alcohol), hydroxybenzoates (parabens), sorbic acid</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP85278\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/warticon-cream\">Warticon<tm tmtype=\"reg\"/> cream</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Warticon 0.15% cream <ph outputclass=\"manufacturer\">(Stiefel Laboratories (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">3891711000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Podophyllotoxin 1.5&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.83</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;17.83</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7899\" title=\"PODOPHYLLOTOXIN\" namespace=\"/drugs/podophyllotoxin\">PODOPHYLLOTOXIN</xref>\n</parents>\n</topic>",
+    "id": "PHP75912",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/podophyllotoxin/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "excipients": [
+        "Butylated hydroxyanisole",
+        "cetostearyl alcohol (including cetyl and stearyl alcohol)",
+        "hydroxybenzoates (parabens)",
+        "sorbic acid"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP85278",
+            "label": "Warticon&reg;  cream",
+            "html": "Warticon<tm tmtype=\"reg\"/> cream"
+        }
+    ],
+    "products": [
+        {
+            "title": "Warticon 0.15% cream (Stiefel Laboratories (UK) Ltd) ",
+            "header": "Warticon 0.15% cream <ph outputclass=\"manufacturer\">(Stiefel Laboratories (UK) Ltd)</ph>",
+            "manufacturer": "(Stiefel Laboratories (UK) Ltd)",
+            "name": "Warticon 0.15% cream",
+            "ampid": "3891711000001104",
+            "strengthOfActiveIngredient": "Podophyllotoxin 1.5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.83 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.83</ph>",
+                        "nhsIndicativePrice": "&#163;17.83"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;17.83 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;17.83</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;17.83"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7899",
+        "label": "PODOPHYLLOTOXIN"
+    }
+}

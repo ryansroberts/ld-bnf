@@ -1,0 +1,216 @@
+{
+    "xml": "<topic id=\"PHP1211\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/eprosartan\" basename=\"eprosartan\" title=\"EPROSARTAN\">\n<title>EPROSARTAN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_899\" namespace=\"/interactions/list-of-drug-interactions/angiotensin-ii-receptor-antagonists/eprosartan\">Eprosartan</xref>\n</p>\n<data name=\"vtmid\">318990002</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_823125050\" title=\"Angiotensin-II receptor antagonists\">Angiotensin-II receptor antagonists</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34531\" title=\"ANGIOTENSIN-II RECEPTOR ANTAGONISTS\" namespace=\"/drug-classes/angiotensin-ii-receptor-antagonists\">ANGIOTENSIN-II RECEPTOR ANTAGONISTS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP66857\" outputclass=\"indicationsAndDose\" rev=\"1.35\" parent=\"/drugs/eprosartan\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hypertension</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>600&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66729\" outputclass=\"sideEffects\" rev=\"1.17\" parent=\"/drugs/eprosartan\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Headache</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">rhinitis</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66901\" outputclass=\"hepaticImpairment\" parent=\"/drugs/eprosartan\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Caution in mild or moderate liver disease.</p>\n<p>Avoid in severe impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66771\" outputclass=\"renalImpairment\" parent=\"/drugs/eprosartan\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Caution if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP1211-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/eprosartan\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution, oral suspension</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75247\" title=\"Tablet\" namespace=\"/drugs/eprosartan/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP107699\" namespace=\"/about/changes\" title=\"Changes\" count=\"1\" rel=\"backlink\">Changes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78146\" namespace=\"/treatment-summaries/drugs-affecting-the-renin-angiotensin-system\" title=\"Drugs affecting the renin-angiotensin system\" count=\"1\" rel=\"backlink\">Drugs affecting the renin-angiotensin system</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_899\" namespace=\"/interactions/list-of-drug-interactions/angiotensin-ii-receptor-antagonists/eprosartan\" title=\"Eprosartan\" count=\"1\" rel=\"link\">Eprosartan</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34531\" namespace=\"/drug-classes/angiotensin-ii-receptor-antagonists\" title=\"ANGIOTENSIN-II RECEPTOR ANTAGONISTS\" count=\"1\" rel=\"link\">ANGIOTENSIN-II RECEPTOR ANTAGONISTS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75247\" namespace=\"/drugs/eprosartan/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP1211",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/eprosartan",
+    "basename": "eprosartan",
+    "title": "EPROSARTAN",
+    "interactants": [
+        {
+            "id": "bnf_int_899",
+            "label": "Eprosartan"
+        }
+    ],
+    "vtmid": "318990002",
+    "drugClassification": [
+        "Angiotensin-II receptor antagonists"
+    ],
+    "inheritsFromClass": [
+        "ANGIOTENSIN-II RECEPTOR ANTAGONISTS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hypertension",
+                        "html": "Hypertension"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "600 mg once daily.",
+                        "html": "<p>600&#8239;mg once daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Headache",
+                        "html": "Headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rhinitis",
+                        "html": "rhinitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Caution in mild or moderate liver disease.\n\nAvoid in severe impairment.",
+                "html": "<p>Caution in mild or moderate liver disease.</p><p>Avoid in severe impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Caution if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Caution if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution",
+                "oral suspension"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75247",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "treatmentSummary": [
+            {
+                "id": "PHP107699",
+                "label": "Changes",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78146",
+                "label": "Drugs affecting the renin-angiotensin system",
+                "type": "treatmentSummary"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_899",
+                "label": "Eprosartan",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34531",
+                "label": "ANGIOTENSIN-II RECEPTOR ANTAGONISTS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75247",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

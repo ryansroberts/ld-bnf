@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP74605\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/pegfilgrastim/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Neulasta 6mg/0.6ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph>\n</title>\n<data name=\"ampid\">9120011000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Filgrastim (as Pegfilgrastim) 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;686.38</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5953\" title=\"PEGFILGRASTIM\" namespace=\"/drugs/pegfilgrastim\">PEGFILGRASTIM</xref>\n</parents>\n</topic>",
+    "id": "PHP74605",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/pegfilgrastim/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Neulasta 6mg/0.6ml solution for injection pre-filled syringes (Amgen Ltd) ",
+            "header": "Neulasta 6mg/0.6ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph>",
+            "manufacturer": "(Amgen Ltd)",
+            "name": "Neulasta 6mg/0.6ml solution for injection pre-filled syringes",
+            "ampid": "9120011000001106",
+            "strengthOfActiveIngredient": "Filgrastim (as Pegfilgrastim) 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;686.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;686.38</ph>",
+                        "nhsIndicativePrice": "&#163;686.38"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5953",
+        "label": "PEGFILGRASTIM"
+    }
+}

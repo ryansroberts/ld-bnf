@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP76164\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hydroxocobalamin/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP101388\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/cyanokit\">Cyanokit<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cyanokit 5g powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>\n</title>\n<data name=\"ampid\">20176611000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Hydroxocobalamin 5&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP228\" title=\"HYDROXOCOBALAMIN\" namespace=\"/drugs/hydroxocobalamin\">HYDROXOCOBALAMIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76164",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hydroxocobalamin/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "productInformationGroups": [
+        {
+            "id": "PHP101388",
+            "label": "Cyanokit&reg;  ",
+            "html": "Cyanokit<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Cyanokit 5g powder for solution for infusion vials (Swedish Orphan Biovitrum Ltd) ",
+            "header": "Cyanokit 5g powder for solution for infusion vials <ph outputclass=\"manufacturer\">(Swedish Orphan Biovitrum Ltd)</ph>",
+            "manufacturer": "(Swedish Orphan Biovitrum Ltd)",
+            "name": "Cyanokit 5g powder for solution for infusion vials",
+            "ampid": "20176611000001100",
+            "strengthOfActiveIngredient": "Hydroxocobalamin 5 gram",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP228",
+        "label": "HYDROXOCOBALAMIN"
+    }
+}

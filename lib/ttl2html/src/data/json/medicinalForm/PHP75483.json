@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP75483\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/magnesium-glycerophosphate/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Mag-4 (magnesium 48.6mg (2mmol)) capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">21017611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium (as Magnesium glycerophosphate) 48.6&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;85.70</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Mag-4 (magnesium 97.2mg (4mmol)) capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">21017311000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Magnesium (as Magnesium glycerophosphate) 97.2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;89.30</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP14092\" title=\"MAGNESIUM GLYCEROPHOSPHATE\" namespace=\"/drugs/magnesium-glycerophosphate\">MAGNESIUM GLYCEROPHOSPHATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75483",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/magnesium-glycerophosphate/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Mag-4 (magnesium 48.6mg (2mmol)) capsules (Ennogen Healthcare Ltd) ",
+            "header": "Mag-4 (magnesium 48.6mg (2mmol)) capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Mag-4 (magnesium 48.6mg (2mmol)) capsules",
+            "ampid": "21017611000001108",
+            "strengthOfActiveIngredient": "Magnesium (as Magnesium glycerophosphate) 48.6 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;85.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;85.70</ph>",
+                        "nhsIndicativePrice": "&#163;85.70"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Mag-4 (magnesium 97.2mg (4mmol)) capsules (Ennogen Healthcare Ltd) ",
+            "header": "Mag-4 (magnesium 97.2mg (4mmol)) capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Mag-4 (magnesium 97.2mg (4mmol)) capsules",
+            "ampid": "21017311000001103",
+            "strengthOfActiveIngredient": "Magnesium (as Magnesium glycerophosphate) 97.2 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;89.30 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;89.30</ph>",
+                        "nhsIndicativePrice": "&#163;89.30"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP14092",
+        "label": "MAGNESIUM GLYCEROPHOSPHATE"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "xml": "<topic id=\"PHP76383\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/clobetasol-propionate/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine </p>\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dermovate 0.05% scalp application <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">107011000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Clobetasol propionate 500&#8239;microgram per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.07</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;3.07</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.42</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;10.42</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7641\" title=\"CLOBETASOL PROPIONATE\" namespace=\"/drugs/clobetasol-propionate\">CLOBETASOL PROPIONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP76383",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/clobetasol-propionate/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "15",
+            "textContent": "Caution: flammable. Keep your body away from fire or flames after you have put on the medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">15</ph> - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine"
+        },
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "products": [
+        {
+            "title": "Dermovate 0.05% scalp application (GlaxoSmithKline UK Ltd) ",
+            "header": "Dermovate 0.05% scalp application <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Dermovate 0.05% scalp application",
+            "ampid": "107011000001109",
+            "strengthOfActiveIngredient": "Clobetasol propionate 500 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.07 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.07</ph>",
+                        "nhsIndicativePrice": "&#163;3.07"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.07 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.07</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.07"
+                    }
+                },
+                {
+                    "textContent": " 100 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.42 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.42</ph>",
+                        "nhsIndicativePrice": "&#163;10.42"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;10.42 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;10.42</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;10.42"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7641",
+        "label": "CLOBETASOL PROPIONATE"
+    }
+}

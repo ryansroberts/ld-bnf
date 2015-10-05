@@ -1,0 +1,79 @@
+{
+    "xml": "<topic id=\"PHP81551\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/uniphyllin-continus\" basename=\"uniphyllin-continus\" title=\"Uniphyllin Continus\">\n<title>Uniphyllin Continus<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82938\" outputclass=\"indicationsAndDose\" rev=\"1.36\" parent=\"/clinical-medicinal-product-information/uniphyllin-continus\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic asthma</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using modified-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;11 years</p>\n<p>9&#8239;mg/kg every 12&#8239;hours (max. per dose 200&#8239;mg), dose may be increased in some children with chronic asthma; increased to 10&#8211;16&#8239;mg/kg every 12&#8239;hours (max. per dose 400&#8239;mg), may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>200&#8239;mg every 12&#8239;hours, adjusted according to response to 400&#8239;mg every 12&#8239;hours, may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Reversible airways obstruction</p>\n<p outputclass=\"therapeuticIndication\">Severe acute asthma</p>\n<p outputclass=\"therapeuticIndication\">Chronic asthma</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using modified-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;mg every 12&#8239;hours, adjusted according to response to 400&#8239;mg every 12&#8239;hours, may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81551",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/uniphyllin-continus",
+    "basename": "uniphyllin-continus",
+    "title": "Uniphyllin Continus",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic asthma",
+                        "html": "Chronic asthma"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using modified-release medicines"
+                    ],
+                    "textContent": "By mouth using modified-release medicines",
+                    "html": "By mouth using modified-release medicines"
+                },
+                "child": [
+                    {
+                        "textContent": "9 mg/kg every 12 hours (max. per dose 200 mg), dose may be increased in some children with chronic asthma; increased to 10&#8211;16 mg/kg every 12 hours (max. per dose 400 mg), may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.",
+                        "html": "<p>9&#8239;mg/kg every 12&#8239;hours (max. per dose 200&#8239;mg), dose may be increased in some children with chronic asthma; increased to 10&#8211;16&#8239;mg/kg every 12&#8239;hours (max. per dose 400&#8239;mg), may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.</p>",
+                        "ageGroup": "2&#8211;11 years"
+                    },
+                    {
+                        "textContent": "200 mg every 12 hours, adjusted according to response to 400 mg every 12 hours, may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.",
+                        "html": "<p>200&#8239;mg every 12&#8239;hours, adjusted according to response to 400&#8239;mg every 12&#8239;hours, may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Reversible airways obstruction",
+                        "html": "Reversible airways obstruction"
+                    },
+                    {
+                        "textContent": "Severe acute asthma",
+                        "html": "Severe acute asthma"
+                    },
+                    {
+                        "textContent": "Chronic asthma",
+                        "html": "Chronic asthma"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using modified-release medicines"
+                    ],
+                    "textContent": "By mouth using modified-release medicines",
+                    "html": "By mouth using modified-release medicines"
+                },
+                "adult": [
+                    {
+                        "textContent": "200 mg every 12 hours, adjusted according to response to 400 mg every 12 hours, may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.",
+                        "html": "<p>200&#8239;mg every 12&#8239;hours, adjusted according to response to 400&#8239;mg every 12&#8239;hours, may be appropriate to give larger evening or morning dose to achieve optimum therapeutic effect when symptoms most severe; in patients whose night or daytime symptoms persist despite other therapy, who are not currently receiving theophylline, total daily requirement may be added as single evening or morning dose.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

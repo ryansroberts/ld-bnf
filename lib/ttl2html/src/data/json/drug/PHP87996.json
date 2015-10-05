@@ -1,0 +1,182 @@
+{
+    "xml": "<topic id=\"PHP87996\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/calcium-acetate-with-magnesium-carbonate\" basename=\"calcium-acetate-with-magnesium-carbonate\" title=\"CALCIUM ACETATE WITH MAGNESIUM CARBONATE\">\n<title>CALCIUM ACETATE WITH MAGNESIUM CARBONATE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_110\" namespace=\"/interactions/list-of-drug-interactions/antacids\">Antacids</xref>, <xref format=\"dita\" href=\"#bnf_int_465\" namespace=\"/interactions/list-of-drug-interactions/calcium-salts\">Calcium Salts</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP298\" namespace=\"/drugs/magnesium-carbonate\">magnesium carbonate</xref>, <xref format=\"dita\" href=\"#PHP104228\" namespace=\"/drugs/calcium-acetate\">calcium acetate</xref>.</p>\n<data name=\"vtmid\">15219011000001103</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_182370403\" title=\"Calcium\">Calcium</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_979370732\" title=\"Magnesium\">Magnesium</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_876869900\" title=\"Antacids\">Antacids</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP88467\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/calcium-acetate-with-magnesium-carbonate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hyperphosphataemia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 1&#8239;tablet 3 times a day, adjusted according to serum-phosphate concentration, to be taken with food; usual dose 3&#8211;10&#8239;tablets daily; maximum 12&#8239;tablets per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88462\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drugs/calcium-acetate-with-magnesium-carbonate\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Hypercalcaemia</ph>; <ph outputclass=\"contraindication\">hypermagnesaemia</ph>; <ph outputclass=\"contraindication\">myasthenia gravis</ph>; <ph outputclass=\"contraindication\">third-degree AV block</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88457\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/drugs/calcium-acetate-with-magnesium-carbonate\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Manufacturer advises that other drugs should be taken at least 2 hours before or 3 hours after calcium acetate with magnesium carbonate to reduce possible interference with absorption of other drugs.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88470\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/drugs/calcium-acetate-with-magnesium-carbonate\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer calcium acetate with magnesium carbonate tablets.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP87996-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/calcium-acetate-with-magnesium-carbonate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92305\" title=\"Tablet\" namespace=\"/drugs/calcium-acetate-with-magnesium-carbonate/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"3\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_110\" namespace=\"/interactions/list-of-drug-interactions/antacids\" title=\"Antacids\" count=\"1\" rel=\"link\">Antacids</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_465\" namespace=\"/interactions/list-of-drug-interactions/calcium-salts\" title=\"Calcium Salts\" count=\"1\" rel=\"link\">Calcium Salts</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP298\" namespace=\"/drugs/magnesium-carbonate\" title=\"MAGNESIUM CARBONATE\" count=\"1\" rel=\"link\">MAGNESIUM CARBONATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP104228\" namespace=\"/drugs/calcium-acetate\" title=\"CALCIUM ACETATE\" count=\"1\" rel=\"link\">CALCIUM ACETATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92305\" namespace=\"/drugs/calcium-acetate-with-magnesium-carbonate/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP87996",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/calcium-acetate-with-magnesium-carbonate",
+    "basename": "calcium-acetate-with-magnesium-carbonate",
+    "title": "CALCIUM ACETATE WITH MAGNESIUM CARBONATE",
+    "interactants": [
+        {
+            "id": "bnf_int_110",
+            "label": "Antacids"
+        },
+        {
+            "id": "bnf_int_465",
+            "label": "Calcium Salts"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP298",
+            "label": "magnesium carbonate"
+        },
+        {
+            "id": "PHP104228",
+            "label": "calcium acetate"
+        }
+    ],
+    "vtmid": "15219011000001103",
+    "drugClassification": [
+        "Calcium",
+        "Magnesium",
+        "Antacids"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hyperphosphataemia",
+                        "html": "Hyperphosphataemia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 1 tablet 3 times a day, adjusted according to serum-phosphate concentration, to be taken with food; usual dose 3&#8211;10 tablets daily; maximum 12 tablets per day.",
+                        "html": "<p>Initially 1&#8239;tablet 3 times a day, adjusted according to serum-phosphate concentration, to be taken with food; usual dose 3&#8211;10&#8239;tablets daily; maximum 12&#8239;tablets per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Hypercalcaemia",
+                "html": "Hypercalcaemia"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "hypermagnesaemia",
+                "html": "hypermagnesaemia"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "myasthenia gravis",
+                "html": "myasthenia gravis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "third-degree AV block",
+                "html": "third-degree AV block"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Manufacturer advises that other drugs should be taken at least 2 hours before or 3 hours after calcium acetate with magnesium carbonate to reduce possible interference with absorption of other drugs.",
+                "html": "<p>Manufacturer advises that other drugs should be taken at least 2 hours before or 3 hours after calcium acetate with magnesium carbonate to reduce possible interference with absorption of other drugs.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer calcium acetate with magnesium carbonate tablets.",
+                "html": "<p>Patients or carers should be given advice on how to administer calcium acetate with magnesium carbonate tablets.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92305",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_110",
+                "label": "Antacids",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_465",
+                "label": "Calcium Salts",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP298",
+                "label": "MAGNESIUM CARBONATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP104228",
+                "label": "CALCIUM ACETATE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92305",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

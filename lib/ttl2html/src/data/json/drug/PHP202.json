@@ -1,0 +1,697 @@
+{
+    "xml": "<topic id=\"PHP202\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/naloxone-hydrochloride\" basename=\"naloxone-hydrochloride\" title=\"NALOXONE HYDROCHLORIDE\">\n<title>NALOXONE HYDROCHLORIDE</title>\n<body>\n<data name=\"vtmid\">89018006</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_441568498\" title=\"Opioid receptor antagonists\">Opioid receptor antagonists</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP49256\" outputclass=\"indicationsAndDose\" rev=\"1.45\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Overdosage with opioids</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous injection or by subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup neonate\">\n<p>Neonate</p>\n<p>Initially 100&#8239;micrograms/kg, if no response, repeat at intervals of 1 minute to a total max. 2 mg, then review diagnosis; further doses may be required if respiratory function deteriorates.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>Initially 100&#8239;micrograms/kg, if no response, repeat at intervals of 1 minute to a total max. 2 mg, then review diagnosis; further doses may be required if respiratory function deteriorates.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>Initially 400&#8239;micrograms, then 800&#8239;micrograms for up to 2 doses at 1 minute intervals if no response to preceding dose, then increased to 2&#8239;mg for 1 dose if still no response, then review diagnosis; further doses may be required if respiratory function deteriorates, 4&#8239;mg dose may be required in seriously poisoned patients.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 400&#8239;micrograms, then 800&#8239;micrograms for up to 2 doses at 1 minute intervals if no response to preceding dose, then increased to 2&#8239;mg for 1 dose if still no response, then review diagnosis; further doses may be required if respiratory function deteriorates, 4&#8239;mg dose may be required in seriously poisoned patients.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By continuous intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup neonate\">\n<p>Neonate</p>\n<p>Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative <i>intravenous injection</i> dose is that which maintained satisfactory ventilation for at least 15 minutes.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative <i>intravenous injection</i> dose is that which maintained satisfactory ventilation for at least 15 minutes.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative <i>intravenous injection</i> dose is that which maintained satisfactory ventilation for at least 15 minutes.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Overdosage with opioids in a non-medical setting</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>400&#8239;micrograms every 2&#8211;3&#8239;minutes, to be injected into deltoid region or anterolateral thigh. Each dose given in subsequent resuscitation cycles if patient not breathing normally, continue until consciousness regained, breathing normally, medical assistance available, or contents of syringe used up.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Reversal of postoperative respiratory depression</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup neonate\">\n<p>Neonate</p>\n<p>1&#8239;microgram/kg, repeated every 2&#8211;3 minutes if required.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>1&#8239;microgram/kg, repeated every 2&#8211;3 minutes if required.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>Initially 100&#8211;200&#8239;micrograms, alternatively (by intravenous injection) initially 1.5&#8211;3&#8239;micrograms/kg, then (by intravenous injection) 100&#8239;micrograms every 2&#8239;minutes, alternatively (by intramuscular injection) 100&#8239;micrograms every 1&#8211;2&#8239;hours if response inadequate.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8211;200&#8239;micrograms, alternatively (by intravenous injection) initially 1.5&#8211;3&#8239;micrograms/kg, then (by intravenous injection) 100&#8239;micrograms every 2&#8239;minutes, alternatively (by intramuscular injection) 100&#8239;micrograms every 1&#8211;2&#8239;hours if response inadequate.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Reversal of respiratory and CNS depression resulting from opioid administration to mother during labour</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup neonate\">\n<p>Neonate</p>\n<p>200&#8239;micrograms, alternatively 60&#8239;micrograms/kg, to be given as a single dose at birth.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By intravenous injection or by subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup neonate\">\n<p>Neonate</p>\n<p>10&#8239;micrograms/kg, repeated every 2&#8211;3 minutes if required.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"pharmacokinetics\">\n<title>Pharmacokinetics</title>\n<p>Naloxone has a short duration of action; repeated doses or infusion may be necessary to reverse effects of opioids with longer duration of action.</p>\n<p>\n<b>Important:</b> Only give by subcutaneous or intramuscular routes if intravenous route is not feasible; intravenous administration has more rapid onset of action.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49155\" outputclass=\"unlicensedUse\" rev=\"1.10\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Naloxone doses in BNF may differ from those in product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49328\" outputclass=\"importantSafetyInformation\" rev=\"1.10\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Safe practice</p>\n<p>Doses used in acute opioid overdosage may not be appropriate for the management of opioid-induced respiratory depression and sedation in those receiving palliative care and in chronic opioid use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49380\" outputclass=\"cautions\" rev=\"1.22\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Cardiovascular disease or those receiving cardiotoxic drugs (serious adverse cardiovascular effects reported)</ph>; <ph outputclass=\"caution\">maternal physical dependence on opioids (may precipitate withdrawal in newborn)</ph>; <ph outputclass=\"caution\">pain</ph>; <ph outputclass=\"caution\">physical dependence on opioids (precipitates withdrawal)</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Titration of dose </p>\n<p>In postoperative use, the dose should be titrated for each patient in order to obtain sufficient respiratory response; however, naloxone antagonises analgesia.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49169\" outputclass=\"sideEffects\" rev=\"1.15\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Cardiac arrest</ph> (in children); <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">dyspnoea</ph> (in children); <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">hyperventilation</ph> (in children); <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">pulmonary oedema</ph> (in children); <ph outputclass=\"sideEffect\">tachycardia</ph>; <ph outputclass=\"sideEffect\">ventricular fibrilation</ph> (in children); <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agitation</ph> (in children); <ph outputclass=\"sideEffect\">arrhythmia</ph> (in adults); <ph outputclass=\"sideEffect\">bradycardia</ph> (in adults); <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">excitement</ph> (in children); <ph outputclass=\"sideEffect\">hyperventilation</ph> (in adults); <ph outputclass=\"sideEffect\">paraesthesia</ph> (in children); <ph outputclass=\"sideEffect\">sweating</ph>; <ph outputclass=\"sideEffect\">tremor</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Seizures</ph> (in adults)</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anaphylaxis</ph> (in adults); <ph outputclass=\"sideEffect\">cardiac arrest</ph> (in adults); <ph outputclass=\"sideEffect\">erythema multiforme</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph> (in adults); <ph outputclass=\"sideEffect\">pulmonary oedema</ph> (in adults); <ph outputclass=\"sideEffect\">seizures</ph> (in children); <ph outputclass=\"sideEffect\">ventricular fibrillation</ph> (in adults)</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agitation</ph> (in adults)</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49221\" outputclass=\"pregnancy\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use only if potential benefit outweighs risk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49396\" outputclass=\"breastFeeding\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Not orally bioavailable.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49424\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>For <i>continuous intravenous infusion</i>, dilute to a concentration of up to 200&#8239;micrograms/mL with Glucose 5% or Sodium Chloride 0.9%.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> (<i>Minijet</i>\n<tm tmtype=\"reg\"/> Naloxone Hydrochloride), give continuously in Glucose 5% or Sodium Chloide 0.9%. Dilute to a concentration of up to 200&#8239;micrograms/mL and administer via an infusion pump.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP202-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/naloxone-hydrochloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75571\" title=\"Solution for injection\" namespace=\"/drugs/naloxone-hydrochloride/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2775\" namespace=\"/drugs/oxycodone-with-naloxone\" title=\"OXYCODONE WITH NALOXONE\" count=\"1\" rel=\"backlink\">OXYCODONE WITH NALOXONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3223\" namespace=\"/drugs/buprenorphine-with-naloxone\" title=\"BUPRENORPHINE WITH NALOXONE\" count=\"1\" rel=\"backlink\">BUPRENORPHINE WITH NALOXONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34573\" namespace=\"/drug-classes/opioids\" title=\"OPIOIDS\" count=\"1\" rel=\"backlink\">OPIOIDS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78500\" namespace=\"/treatment-summaries/pre-medication-and-peri-operative-drugs\" title=\"Pre-medication and peri-operative drugs\" count=\"4\" rel=\"backlink\">Pre-medication and peri-operative drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78520\" namespace=\"/treatment-summaries/analgesics\" title=\"Analgesics\" count=\"1\" rel=\"backlink\">Analgesics</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78560\" namespace=\"/treatment-summaries/substance-dependence\" title=\"Substance dependence\" count=\"2\" rel=\"backlink\">Substance dependence</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75571\" namespace=\"/drugs/naloxone-hydrochloride/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP202",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/naloxone-hydrochloride",
+    "basename": "naloxone-hydrochloride",
+    "title": "NALOXONE HYDROCHLORIDE",
+    "vtmid": "89018006",
+    "drugClassification": [
+        "Opioid receptor antagonists"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Overdosage with opioids",
+                        "html": "Overdosage with opioids"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "continuous intravenous infusion"
+                    ],
+                    "textContent": "By continuous intravenous infusion",
+                    "html": "By continuous intravenous infusion"
+                },
+                "neonate": [
+                    {
+                        "textContent": "Initially 100 micrograms/kg, if no response, repeat at intervals of 1 minute to a total max. 2 mg, then review diagnosis; further doses may be required if respiratory function deteriorates.",
+                        "html": "<p>Initially 100&#8239;micrograms/kg, if no response, repeat at intervals of 1 minute to a total max. 2 mg, then review diagnosis; further doses may be required if respiratory function deteriorates.</p>"
+                    },
+                    {
+                        "textContent": "Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative intravenous injection dose is that which maintained satisfactory ventilation for at least 15 minutes.",
+                        "html": "<p>Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative <i>intravenous injection</i> dose is that which maintained satisfactory ventilation for at least 15 minutes.</p>"
+                    }
+                ],
+                "child": [
+                    {
+                        "textContent": "Initially 100 micrograms/kg, if no response, repeat at intervals of 1 minute to a total max. 2 mg, then review diagnosis; further doses may be required if respiratory function deteriorates.",
+                        "html": "<p>Initially 100&#8239;micrograms/kg, if no response, repeat at intervals of 1 minute to a total max. 2 mg, then review diagnosis; further doses may be required if respiratory function deteriorates.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "Initially 400 micrograms, then 800 micrograms for up to 2 doses at 1 minute intervals if no response to preceding dose, then increased to 2 mg for 1 dose if still no response, then review diagnosis; further doses may be required if respiratory function deteriorates, 4 mg dose may be required in seriously poisoned patients.",
+                        "html": "<p>Initially 400&#8239;micrograms, then 800&#8239;micrograms for up to 2 doses at 1 minute intervals if no response to preceding dose, then increased to 2&#8239;mg for 1 dose if still no response, then review diagnosis; further doses may be required if respiratory function deteriorates, 4&#8239;mg dose may be required in seriously poisoned patients.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    },
+                    {
+                        "textContent": "Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative intravenous injection dose is that which maintained satisfactory ventilation for at least 15 minutes.",
+                        "html": "<p>Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative <i>intravenous injection</i> dose is that which maintained satisfactory ventilation for at least 15 minutes.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 400 micrograms, then 800 micrograms for up to 2 doses at 1 minute intervals if no response to preceding dose, then increased to 2 mg for 1 dose if still no response, then review diagnosis; further doses may be required if respiratory function deteriorates, 4 mg dose may be required in seriously poisoned patients.",
+                        "html": "<p>Initially 400&#8239;micrograms, then 800&#8239;micrograms for up to 2 doses at 1 minute intervals if no response to preceding dose, then increased to 2&#8239;mg for 1 dose if still no response, then review diagnosis; further doses may be required if respiratory function deteriorates, 4&#8239;mg dose may be required in seriously poisoned patients.</p>"
+                    },
+                    {
+                        "textContent": "Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative intravenous injection dose is that which maintained satisfactory ventilation for at least 15 minutes.",
+                        "html": "<p>Using an infusion pump, adjust rate according to response (initially, rate may be set at 60% of the initial resuscitative intravenous injection dose per hour). The initial resuscitative <i>intravenous injection</i> dose is that which maintained satisfactory ventilation for at least 15 minutes.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Overdosage with opioids in a non-medical setting",
+                        "html": "Overdosage with opioids in a non-medical setting"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intramuscular injection"
+                    ],
+                    "textContent": "By intramuscular injection",
+                    "html": "By intramuscular injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "400 micrograms every 2&#8211;3 minutes, to be injected into deltoid region or anterolateral thigh. Each dose given in subsequent resuscitation cycles if patient not breathing normally, continue until consciousness regained, breathing normally, medical assistance available, or contents of syringe used up.",
+                        "html": "<p>400&#8239;micrograms every 2&#8211;3&#8239;minutes, to be injected into deltoid region or anterolateral thigh. Each dose given in subsequent resuscitation cycles if patient not breathing normally, continue until consciousness regained, breathing normally, medical assistance available, or contents of syringe used up.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Reversal of postoperative respiratory depression",
+                        "html": "Reversal of postoperative respiratory depression"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "neonate": [
+                    {
+                        "textContent": "1 microgram/kg, repeated every 2&#8211;3 minutes if required.",
+                        "html": "<p>1&#8239;microgram/kg, repeated every 2&#8211;3 minutes if required.</p>"
+                    }
+                ],
+                "child": [
+                    {
+                        "textContent": "1 microgram/kg, repeated every 2&#8211;3 minutes if required.",
+                        "html": "<p>1&#8239;microgram/kg, repeated every 2&#8211;3 minutes if required.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "Initially 100&#8211;200 micrograms, alternatively (by intravenous injection) initially 1.5&#8211;3 micrograms/kg, then (by intravenous injection) 100 micrograms every 2 minutes, alternatively (by intramuscular injection) 100 micrograms every 1&#8211;2 hours if response inadequate.",
+                        "html": "<p>Initially 100&#8211;200&#8239;micrograms, alternatively (by intravenous injection) initially 1.5&#8211;3&#8239;micrograms/kg, then (by intravenous injection) 100&#8239;micrograms every 2&#8239;minutes, alternatively (by intramuscular injection) 100&#8239;micrograms every 1&#8211;2&#8239;hours if response inadequate.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 100&#8211;200 micrograms, alternatively (by intravenous injection) initially 1.5&#8211;3 micrograms/kg, then (by intravenous injection) 100 micrograms every 2 minutes, alternatively (by intramuscular injection) 100 micrograms every 1&#8211;2 hours if response inadequate.",
+                        "html": "<p>Initially 100&#8211;200&#8239;micrograms, alternatively (by intravenous injection) initially 1.5&#8211;3&#8239;micrograms/kg, then (by intravenous injection) 100&#8239;micrograms every 2&#8239;minutes, alternatively (by intramuscular injection) 100&#8239;micrograms every 1&#8211;2&#8239;hours if response inadequate.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Reversal of respiratory and CNS depression resulting from opioid administration to mother during labour",
+                        "html": "Reversal of respiratory and CNS depression resulting from opioid administration to mother during labour"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous injection or subcutaneous injection"
+                    ],
+                    "textContent": "By intravenous injection or by subcutaneous injection",
+                    "html": "By intravenous injection or by subcutaneous injection"
+                },
+                "neonate": [
+                    {
+                        "textContent": "200 micrograms, alternatively 60 micrograms/kg, to be given as a single dose at birth.",
+                        "html": "<p>200&#8239;micrograms, alternatively 60&#8239;micrograms/kg, to be given as a single dose at birth.</p>"
+                    },
+                    {
+                        "textContent": "10 micrograms/kg, repeated every 2&#8211;3 minutes if required.",
+                        "html": "<p>10&#8239;micrograms/kg, repeated every 2&#8211;3 minutes if required.</p>"
+                    }
+                ]
+            }
+        ],
+        "pharmacokinetics": [
+            {
+                "type": "pharmacokinetics",
+                "title": "Pharmacokinetics",
+                "textContent": "Naloxone has a short duration of action; repeated doses or infusion may be necessary to reverse effects of opioids with longer duration of action.\n\nImportant: Only give by subcutaneous or intramuscular routes if intravenous route is not feasible; intravenous administration has more rapid onset of action.",
+                "html": "<p>Naloxone has a short duration of action; repeated doses or infusion may be necessary to reverse effects of opioids with longer duration of action.</p><p>\n<b>Important:</b> Only give by subcutaneous or intramuscular routes if intravenous route is not feasible; intravenous administration has more rapid onset of action.</p>"
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Naloxone doses in BNF may differ from those in product literature.",
+                "html": "<p>Naloxone doses in BNF may differ from those in product literature.</p>"
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "title": "Safe practice",
+                "textContent": "Doses used in acute opioid overdosage may not be appropriate for the management of opioid-induced respiratory depression and sedation in those receiving palliative care and in chronic opioid use.",
+                "html": "<p>Doses used in acute opioid overdosage may not be appropriate for the management of opioid-induced respiratory depression and sedation in those receiving palliative care and in chronic opioid use.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Cardiovascular disease or those receiving cardiotoxic drugs (serious adverse cardiovascular effects reported)",
+                "html": "Cardiovascular disease or those receiving cardiotoxic drugs (serious adverse cardiovascular effects reported)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "maternal physical dependence on opioids (may precipitate withdrawal in newborn)",
+                "html": "maternal physical dependence on opioids (may precipitate withdrawal in newborn)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "pain",
+                "html": "pain"
+            },
+            {
+                "type": "cautions",
+                "textContent": "physical dependence on opioids (precipitates withdrawal)",
+                "html": "physical dependence on opioids (precipitates withdrawal)"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Titration of dose",
+                "textContent": "In postoperative use, the dose should be titrated for each patient in order to obtain sufficient respiratory response; however, naloxone antagonises analgesia.",
+                "html": "<p>In postoperative use, the dose should be titrated for each patient in order to obtain sufficient respiratory response; however, naloxone antagonises analgesia.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Cardiac arrest in children",
+                        "html": "Cardiac arrest in children",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspnoea in children",
+                        "html": "dyspnoea in children",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperventilation in children",
+                        "html": "hyperventilation in children",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pulmonary oedema in children",
+                        "html": "pulmonary oedema in children",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "ventricular fibrilation in children",
+                        "html": "ventricular fibrilation in children",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Agitation in children",
+                        "html": "Agitation in children",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "arrhythmia in adults",
+                        "html": "arrhythmia in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "bradycardia in adults",
+                        "html": "bradycardia in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "excitement in children",
+                        "html": "excitement in children",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hyperventilation in adults",
+                        "html": "hyperventilation in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "paraesthesia in children",
+                        "html": "paraesthesia in children",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "sweating",
+                        "html": "sweating",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Seizures in adults",
+                        "html": "Seizures in adults",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare",
+                            "patientType": "adults"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Anaphylaxis in adults",
+                        "html": "Anaphylaxis in adults",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "cardiac arrest in adults",
+                        "html": "cardiac arrest in adults",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "erythema multiforme",
+                        "html": "erythema multiforme",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "hypersensitivity reactions in adults",
+                        "html": "hypersensitivity reactions in adults",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "pulmonary oedema in adults",
+                        "html": "pulmonary oedema in adults",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "seizures in children",
+                        "html": "seizures in children",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "ventricular fibrillation in adults",
+                        "html": "ventricular fibrillation in adults",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare",
+                            "patientType": "adults"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Agitation in adults",
+                        "html": "Agitation in adults",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "adults"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use only if potential benefit outweighs risk.",
+                "html": "<p>Use only if potential benefit outweighs risk.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Not orally bioavailable.",
+                "html": "<p>Not orally bioavailable.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For continuous intravenous infusion, dilute to a concentration of up to 200 micrograms/mL with Glucose 5% or Sodium Chloride 0.9%.",
+                "html": "<p>For <i>continuous intravenous infusion</i>, dilute to a concentration of up to 200&#8239;micrograms/mL with Glucose 5% or Sodium Chloride 0.9%.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Minijet Naloxone Hydrochloride), give continuously in Glucose 5% or Sodium Chloide 0.9%. Dilute to a concentration of up to 200 micrograms/mL and administer via an infusion pump.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Minijet</i>\n<tm tmtype=\"reg\"/> Naloxone Hydrochloride), give continuously in Glucose 5% or Sodium Chloide 0.9%. Dilute to a concentration of up to 200&#8239;micrograms/mL and administer via an infusion pump.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75571",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP2775",
+                "label": "OXYCODONE WITH NALOXONE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3223",
+                "label": "BUPRENORPHINE WITH NALOXONE",
+                "type": "drug"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34573",
+                "label": "OPIOIDS",
+                "type": "drugClass"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78500",
+                "label": "Pre-medication and peri-operative drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78520",
+                "label": "Analgesics",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78560",
+                "label": "Substance dependence",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75571",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

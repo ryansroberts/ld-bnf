@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75698\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tetracaine/eye-drops\" basename=\"eye-drops\" title=\"Eye drops\">\n<title>Eye drops</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Minims tetracaine hydrochloride 0.5% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3938111000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tetracaine hydrochloride 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.16</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Minims tetracaine hydrochloride 1% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3938611000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tetracaine hydrochloride 10&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.16</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8752\" title=\"TETRACAINE\" namespace=\"/drugs/tetracaine\">TETRACAINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75698",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tetracaine/eye-drops",
+    "basename": "eye-drops",
+    "form": "Eye drops",
+    "products": [
+        {
+            "title": "Minims tetracaine hydrochloride 0.5% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd) ",
+            "header": "Minims tetracaine hydrochloride 0.5% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>",
+            "manufacturer": "(Bausch & Lomb UK Ltd)",
+            "name": "Minims tetracaine hydrochloride 0.5% eye drops 0.5ml unit dose",
+            "ampid": "3938111000001107",
+            "strengthOfActiveIngredient": "Tetracaine hydrochloride 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 20 unit dose POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.16 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.16</ph>",
+                        "nhsIndicativePrice": "&#163;10.16"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Minims tetracaine hydrochloride 1% eye drops 0.5ml unit dose (Bausch & Lomb UK Ltd) ",
+            "header": "Minims tetracaine hydrochloride 1% eye drops 0.5ml unit dose <ph outputclass=\"manufacturer\">(Bausch &amp; Lomb UK Ltd)</ph>",
+            "manufacturer": "(Bausch & Lomb UK Ltd)",
+            "name": "Minims tetracaine hydrochloride 1% eye drops 0.5ml unit dose",
+            "ampid": "3938611000001104",
+            "strengthOfActiveIngredient": "Tetracaine hydrochloride 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 20 unit dose POM ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.16 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.16</ph>",
+                        "nhsIndicativePrice": "&#163;10.16"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8752",
+        "label": "TETRACAINE"
+    }
+}

@@ -1,0 +1,688 @@
+{
+    "xml": "<topic id=\"PHP3337\" outputclass=\"drug\" rev=\"1.18\" type=\"drug\" namespace=\"/drugs/co-amoxiclav\" basename=\"co-amoxiclav\" title=\"CO-AMOXICLAV\">\n<title>CO-AMOXICLAV</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_187\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/penicillins/co-amoxiclav\">Co-amoxiclav</xref>\n</p>\n<data name=\"vtmid\">89519005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_919205675\" title=\"Penicillins (broad-spectrum)\">Penicillins (broad-spectrum)</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34546\" title=\"PENICILLINS\" namespace=\"/drug-classes/penicillins\">PENICILLINS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP38177\" outputclass=\"indicationsAndDose\" rev=\"1.55\" parent=\"/drugs/co-amoxiclav\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Infections due to beta-lactamase-producing strains (where amoxicillin alone not appropriate), including respiratory tract infections, bone and joint infections, genito-urinary and abdominal infections, cellulitis and animal bites</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by mouth using tablets</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>250/125&#8239;mg every 8&#8239;hours; (by mouth) increased to 500/125&#8239;mg every 8&#8239;hours, increased dose used for severe infection.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>250/125&#8239;mg every 8&#8239;hours; (by mouth) increased to 500/125&#8239;mg every 8&#8239;hours, increased dose used for severe infection.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.2&#8239;g every 8&#8239;hours, intravenous injection to be administered over 3&#8211;4 minutes.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe dental infection with spreading cellulitis</p>\n<p outputclass=\"therapeuticIndication\">Dental infection not responding to first-line bacterial</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using tablets</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>250/125&#8239;mg every 8&#8239;hours for 5 days.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>250/125&#8239;mg every 8&#8239;hours for 5 days.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Surgical prophylaxis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous injection or by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.2&#8239;g, to be administered up to 30 minutes before the procedure, then 1.2&#8239;g every 8&#8239;hours for up to 2&#8211;3 further doses in high risk procedures.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>Doses are expressed as co-amoxiclav.</p>\n<p>A mixture of amoxicillin (as the trihydrate or as the sodium salt) and clavulanic acid (as potassium clavulanate); the proportions are expressed in the form x/y where x and y are the strengths in milligrams of amoxicillin and clavulanic acid respectively.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38238\" outputclass=\"contraindications\" rev=\"1.10\" parent=\"/drugs/co-amoxiclav\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">History of co-amoxiclav-associated jaundice or hepatic dysfunction</ph>; <ph outputclass=\"contraindication\">history of penicillin-associated jaundice or hepatic dysfunction</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38255\" outputclass=\"cautions\" rev=\"1.15\" parent=\"/drugs/co-amoxiclav\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<title>General cautions:</title>\n<p>\n<ph outputclass=\"caution\">Acute lymphocytic leukaemia (increased risk of erythematous rashes)</ph>; <ph outputclass=\"caution\">chronic lymphocytic leukaemia (increased risk of erythematous rashes)</ph>; <ph outputclass=\"caution\">cytomegalovirus infection (increased risk of erythematous rashes)</ph>; <ph outputclass=\"caution\">glandular fever (erythematous rashes common)</ph>; <ph outputclass=\"caution\">maintain adequate hydration with high doses (particularly during parental therapy)</ph>\n</p>\n<sectiondiv outputclass=\"additionalCautions\">\n<p outputclass=\"title\">Specific cautions:</p>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"caution\">accumulation of electrolytes contained in parenteral preparations can occur with high doses</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Cholestatic jaundice</p>\n<p>Cholestatic jaundice can occur either during or shortly after the use of co-amoxiclav. An epidemiological study has shown that the risk of acute liver toxicity was about 6 times greater with co-amoxiclav than with amoxicillin. Cholestatic jaundice is more common in patients above the age of 65 years and in men; these reactions have only rarely been reported in children. Jaundice is usually self-limiting and very rarely fatal. The duration of treatment should be appropriate to the indication and should not usually exceed 14 days.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38127\" outputclass=\"sideEffects\" rev=\"1.23\" parent=\"/drugs/co-amoxiclav\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<title>General side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Cholestatic jaundice</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dizziness</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">prolongation of bleeding time</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Exfoliative dermatitis</ph>; <ph outputclass=\"sideEffect\">Steven-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">toxic epidermal necrolysis</ph>; <ph outputclass=\"sideEffect\">vasculitis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"specificSideEffects\">\n<title>Specific side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"sideEffect\">phlebitis at injection site</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With oral use</p>\n<p>\n<ph outputclass=\"sideEffect\">superficial staining of teeth with suspension</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Rash</p>\n<p>If rash occurs, discontinue treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38157\" outputclass=\"pregnancy\" parent=\"/drugs/co-amoxiclav\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Not known to be harmful.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38259\" outputclass=\"breastFeeding\" parent=\"/drugs/co-amoxiclav\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Trace amount in milk, but appropriate to use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38138\" outputclass=\"renalImpairment\" parent=\"/drugs/co-amoxiclav\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in adults</p>\n<p>\n<i>Co-amoxiclav 250/125 tablets or 500/125 tablets</i>: if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, one <i>250/125</i> strength tablet every 12 hours or one <i>500/125</i> strength tablet every 12 hours; if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, one <i>250/125</i> strength tablet every 24 hours or one <i>500/125</i> strength tablet every 24 hours.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>\n<i>Co-amoxiclav injection</i> (expressed as co-amoxiclav): if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, 1.2&#8239;g initially, then 600&#8239;mg every 12 hours; if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, 1.2&#8239;g initially, then 600&#8239;mg every 24 hours.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>\n<i>Co-amoxiclav 125/31 suspension</i>, <i>250/62 suspension, 250/125 tablets, or 500/125 tablets</i>: use normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>. Use the normal dose recommended for mild or moderate infections every 12 hours if estimated glomerular filtration rate less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>\n<i>Co-amoxiclav injection</i>: use normal initial dose and then use half normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>; use normal initial dose and then use half normal dose every 24 hours if estimated glomerular filtration rate less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Risk of crystalluria with high doses (particularly during parenteral therapy).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>Accumulation of electrolytes contained in parenteral preparations can occur in patients with renal failure.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in adults</p>\n<p>\n<i>Co-amoxiclav 400/57 suspension</i>: avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>\n<i>Co-amoxiclav 400/57 suspension</i>: avoid if estimated glomerular filtration rate less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38271\" outputclass=\"directionsForAdministration\" rev=\"1.15\" parent=\"/drugs/co-amoxiclav\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>For <i>intravenous infusion</i>, dilute reconstituted solution to a concentration of 10&#8239;mg/mL with Sodium Chloride 0.9%; give intermittently over 30&#8211;40 minutes.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> (<i>Augmentin</i>\n<tm tmtype=\"reg\"/>), give intermittently <i>in</i> Sodium chloride 0.9%. Reconstitute 600&#8239;mg initially with 10&#8239;mL water for injections, then dilute with 50&#8239;mL infusion fluid; reconstitute 1.2&#8239;g initially with 20&#8239;mL water for injections, then dilute with 100&#8239;mL infusion fluid; give over 30&#8211;40 minutes</p>\n<p>\n<i>via</i> drip tubing <i>in</i> Sodium chloride 0.9%.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58003\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.20\" parent=\"/drugs/co-amoxiclav\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Doses are expressed as co-amoxiclav: a mixture of amoxicillin (as the trihydrate or as the sodium salt) and clavulanic acid (as potassium clavulanate); the proportions are expressed in the form x/y where x and y are the strengths in milligrams of amoxicillin and clavulanic acid respectively.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Flavours of oral liquid formulations may include raspberry and orange.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP38150\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/drugs/co-amoxiclav\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Co-amoxiclav for bacterial infections</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/co-amoxiclav-bacterial-infections-0\">www.medicinesforchildren.org.uk/co-amoxiclav-bacterial-infections-0</xref>\n</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP38105\" outputclass=\"professionSpecificInformation\" rev=\"1.9\" parent=\"/drugs/co-amoxiclav\">\n<title>Profession specific information</title>\n<body>\n<section outputclass=\"dentalPractitionersFormulary\">\n<title>Dental practitioners' formulary</title>\n<sectiondiv>\n<p>Co-amoxiclav 250/125 Tablets may be prescribed.</p>\n<p>Co-amoxiclav 125/31 Suspension may be prescribed.</p>\n<p>Co-amoxiclav 250/62 Suspension may be prescribed.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3337-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/co-amoxiclav\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: infusion</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76352\" title=\"Tablet\" namespace=\"/drugs/co-amoxiclav/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76373\" title=\"Oral suspension\" namespace=\"/drugs/co-amoxiclav/oral-suspension\">Oral suspension</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76366\" title=\"Powder for solution for injection\" namespace=\"/drugs/co-amoxiclav/powder-for-solution-for-injection\">Powder for solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97237\" namespace=\"/guidance/adverse-reactions-to-drugs\" title=\"Adverse reactions to drugs\" count=\"1\" rel=\"backlink\">Adverse reactions to drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78139\" namespace=\"/treatment-summaries/chronic-bowel-disorders\" title=\"Chronic bowel disorders\" count=\"1\" rel=\"backlink\">Chronic bowel disorders</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78140\" namespace=\"/treatment-summaries/oral-bacterial-infections\" title=\"Oral bacterial infections\" count=\"2\" rel=\"backlink\">Oral bacterial infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78210\" namespace=\"/treatment-summaries/antibacterials-use-for-prophylaxis\" title=\"Antibacterials, use for prophylaxis\" count=\"9\" rel=\"backlink\">Antibacterials, use for prophylaxis</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78228\" namespace=\"/treatment-summaries/urinary-tract-infections\" title=\"Urinary-tract infections\" count=\"3\" rel=\"backlink\">Urinary-tract infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78436\" namespace=\"/treatment-summaries/skin-infections-bacterial\" title=\"Skin infections, bacterial\" count=\"1\" rel=\"backlink\">Skin infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78449\" namespace=\"/treatment-summaries/ear-infections-bacterial\" title=\"Ear infections, bacterial\" count=\"2\" rel=\"backlink\">Ear infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78459\" namespace=\"/treatment-summaries/nose-infections-bacterial\" title=\"Nose infections, bacterial\" count=\"2\" rel=\"backlink\">Nose infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78502\" namespace=\"/treatment-summaries/penicillins\" title=\"Penicillins\" count=\"2\" rel=\"backlink\">Penicillins</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78577\" namespace=\"/treatment-summaries/respiratory-system-infections-bacterial\" title=\"Respiratory system infections, bacterial\" count=\"2\" rel=\"backlink\">Respiratory system infections, bacterial</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_187\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/penicillins/co-amoxiclav\" title=\"Co-amoxiclav\" count=\"1\" rel=\"link\">Co-amoxiclav</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34546\" namespace=\"/drug-classes/penicillins\" title=\"PENICILLINS\" count=\"1\" rel=\"link\">PENICILLINS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76352\" namespace=\"/drugs/co-amoxiclav/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76373\" namespace=\"/drugs/co-amoxiclav/oral-suspension\" title=\"Oral suspension\" count=\"1\" rel=\"link\">Oral suspension</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76366\" namespace=\"/drugs/co-amoxiclav/powder-for-solution-for-injection\" title=\"Powder for solution for injection\" count=\"1\" rel=\"link\">Powder for solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP3337",
+    "outputclass": "drug",
+    "rev": "1.18",
+    "type": "drug",
+    "namespace": "/drugs/co-amoxiclav",
+    "basename": "co-amoxiclav",
+    "title": "CO-AMOXICLAV",
+    "interactants": [
+        {
+            "id": "bnf_int_187",
+            "label": "Co-amoxiclav"
+        }
+    ],
+    "vtmid": "89519005",
+    "drugClassification": [
+        "Penicillins (broad-spectrum)"
+    ],
+    "inheritsFromClass": [
+        "PENICILLINS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Infections due to beta-lactamase-producing strains (where amoxicillin alone not appropriate), including respiratory tract infections, bone and joint infections, genito-urinary and abdominal infections, cellulitis and animal bites",
+                        "html": "Infections due to beta-lactamase-producing strains (where amoxicillin alone not appropriate), including respiratory tract infections, bone and joint infections, genito-urinary and abdominal infections, cellulitis and animal bites"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By intravenous injection or by intravenous infusion",
+                    "html": "By intravenous injection or by intravenous infusion"
+                },
+                "child": [
+                    {
+                        "textContent": "250/125 mg every 8 hours; (by mouth) increased to 500/125 mg every 8 hours, increased dose used for severe infection.",
+                        "html": "<p>250/125&#8239;mg every 8&#8239;hours; (by mouth) increased to 500/125&#8239;mg every 8&#8239;hours, increased dose used for severe infection.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "250/125 mg every 8 hours; (by mouth) increased to 500/125 mg every 8 hours, increased dose used for severe infection.",
+                        "html": "<p>250/125&#8239;mg every 8&#8239;hours; (by mouth) increased to 500/125&#8239;mg every 8&#8239;hours, increased dose used for severe infection.</p>"
+                    },
+                    {
+                        "textContent": "1.2 g every 8 hours, intravenous injection to be administered over 3&#8211;4 minutes.",
+                        "html": "<p>1.2&#8239;g every 8&#8239;hours, intravenous injection to be administered over 3&#8211;4 minutes.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe dental infection with spreading cellulitis",
+                        "html": "Severe dental infection with spreading cellulitis"
+                    },
+                    {
+                        "textContent": "Dental infection not responding to first-line bacterial",
+                        "html": "Dental infection not responding to first-line bacterial"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using tablets"
+                    ],
+                    "textContent": "By mouth using tablets",
+                    "html": "By mouth using tablets"
+                },
+                "child": [
+                    {
+                        "textContent": "250/125 mg every 8 hours for 5 days.",
+                        "html": "<p>250/125&#8239;mg every 8&#8239;hours for 5 days.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "250/125 mg every 8 hours for 5 days.",
+                        "html": "<p>250/125&#8239;mg every 8&#8239;hours for 5 days.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Surgical prophylaxis",
+                        "html": "Surgical prophylaxis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous injection or intravenous infusion"
+                    ],
+                    "textContent": "By intravenous injection or by intravenous infusion",
+                    "html": "By intravenous injection or by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "1.2 g, to be administered up to 30 minutes before the procedure, then 1.2 g every 8 hours for up to 2&#8211;3 further doses in high risk procedures.",
+                        "html": "<p>1.2&#8239;g, to be administered up to 30 minutes before the procedure, then 1.2&#8239;g every 8&#8239;hours for up to 2&#8211;3 further doses in high risk procedures.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Doses are expressed as co-amoxiclav.\n\nA mixture of amoxicillin (as the trihydrate or as the sodium salt) and clavulanic acid (as potassium clavulanate); the proportions are expressed in the form x/y where x and y are the strengths in milligrams of amoxicillin and clavulanic acid respectively.",
+                "html": "<p>Doses are expressed as co-amoxiclav.</p><p>A mixture of amoxicillin (as the trihydrate or as the sodium salt) and clavulanic acid (as potassium clavulanate); the proportions are expressed in the form x/y where x and y are the strengths in milligrams of amoxicillin and clavulanic acid respectively.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "History of co-amoxiclav-associated jaundice or hepatic dysfunction",
+                "html": "History of co-amoxiclav-associated jaundice or hepatic dysfunction"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "history of penicillin-associated jaundice or hepatic dysfunction",
+                "html": "history of penicillin-associated jaundice or hepatic dysfunction"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Acute lymphocytic leukaemia (increased risk of erythematous rashes)",
+                "html": "Acute lymphocytic leukaemia (increased risk of erythematous rashes)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "chronic lymphocytic leukaemia (increased risk of erythematous rashes)",
+                "html": "chronic lymphocytic leukaemia (increased risk of erythematous rashes)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "cytomegalovirus infection (increased risk of erythematous rashes)",
+                "html": "cytomegalovirus infection (increased risk of erythematous rashes)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "glandular fever (erythematous rashes common)",
+                "html": "glandular fever (erythematous rashes common)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "maintain adequate hydration with high doses (particularly during parental therapy)",
+                "html": "maintain adequate hydration with high doses (particularly during parental therapy)"
+            }
+        ],
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "accumulation of electrolytes contained in parenteral preparations can occur with high doses",
+                "html": "accumulation of electrolytes contained in parenteral preparations can occur with high doses",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With intravenous use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                }
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Cholestatic jaundice",
+                "textContent": "Cholestatic jaundice can occur either during or shortly after the use of co-amoxiclav. An epidemiological study has shown that the risk of acute liver toxicity was about 6 times greater with co-amoxiclav than with amoxicillin. Cholestatic jaundice is more common in patients above the age of 65 years and in men; these reactions have only rarely been reported in children. Jaundice is usually self-limiting and very rarely fatal. The duration of treatment should be appropriate to the indication and should not usually exceed 14 days.",
+                "html": "<p>Cholestatic jaundice can occur either during or shortly after the use of co-amoxiclav. An epidemiological study has shown that the risk of acute liver toxicity was about 6 times greater with co-amoxiclav than with amoxicillin. Cholestatic jaundice is more common in patients above the age of 65 years and in men; these reactions have only rarely been reported in children. Jaundice is usually self-limiting and very rarely fatal. The duration of treatment should be appropriate to the indication and should not usually exceed 14 days.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Cholestatic jaundice",
+                        "html": "Cholestatic jaundice",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Dizziness",
+                        "html": "Dizziness",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "prolongation of bleeding time",
+                        "html": "prolongation of bleeding time",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Exfoliative dermatitis",
+                        "html": "Exfoliative dermatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Steven-Johnson syndrome",
+                        "html": "Steven-Johnson syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "toxic epidermal necrolysis",
+                        "html": "toxic epidermal necrolysis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vasculitis",
+                        "html": "vasculitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "specific": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "phlebitis at injection site",
+                        "html": "phlebitis at injection site",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "superficial staining of teeth with suspension",
+                        "html": "superficial staining of teeth with suspension",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With oral use",
+                            "html": "With oral use",
+                            "routes": [
+                                "oral"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Rash",
+                "textContent": "If rash occurs, discontinue treatment.",
+                "html": "<p>If rash occurs, discontinue treatment.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Not known to be harmful.",
+                "html": "<p>Not known to be harmful.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Trace amount in milk, but appropriate to use.",
+                "html": "<p>Trace amount in milk, but appropriate to use.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With oral use in adults",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Co-amoxiclav 250/125 tablets or 500/125 tablets: if eGFR 10&#8211;30 mL/minute/1.73 m2, one 250/125 strength tablet every 12 hours or one 500/125 strength tablet every 12 hours; if eGFR less than 10 mL/minute/1.73 m2, one 250/125 strength tablet every 24 hours or one 500/125 strength tablet every 24 hours.",
+                "html": "<p>\n<i>Co-amoxiclav 250/125 tablets or 500/125 tablets</i>: if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, one <i>250/125</i> strength tablet every 12 hours or one <i>500/125</i> strength tablet every 12 hours; if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, one <i>250/125</i> strength tablet every 24 hours or one <i>500/125</i> strength tablet every 24 hours.</p>"
+            },
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Co-amoxiclav injection (expressed as co-amoxiclav): if eGFR 10&#8211;30 mL/minute/1.73 m2, 1.2 g initially, then 600 mg every 12 hours; if eGFR less than 10 mL/minute/1.73 m2, 1.2 g initially, then 600 mg every 24 hours.",
+                "html": "<p>\n<i>Co-amoxiclav injection</i> (expressed as co-amoxiclav): if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, 1.2&#8239;g initially, then 600&#8239;mg every 12 hours; if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>, 1.2&#8239;g initially, then 600&#8239;mg every 24 hours.</p>"
+            },
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With oral use in children",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Co-amoxiclav 125/31 suspension, 250/62 suspension, 250/125 tablets, or 500/125 tablets: use normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30 mL/minute/1.73 m2. Use the normal dose recommended for mild or moderate infections every 12 hours if estimated glomerular filtration rate less than 10 mL/minute/1.73 m2.",
+                "html": "<p>\n<i>Co-amoxiclav 125/31 suspension</i>, <i>250/62 suspension, 250/125 tablets, or 500/125 tablets</i>: use normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>. Use the normal dose recommended for mild or moderate infections every 12 hours if estimated glomerular filtration rate less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            },
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Co-amoxiclav injection: use normal initial dose and then use half normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30 mL/minute/1.73 m2; use normal initial dose and then use half normal dose every 24 hours if estimated glomerular filtration rate less than 10 mL/minute/1.73 m2.",
+                "html": "<p>\n<i>Co-amoxiclav injection</i>: use normal initial dose and then use half normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>; use normal initial dose and then use half normal dose every 24 hours if estimated glomerular filtration rate less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Risk of crystalluria with high doses (particularly during parenteral therapy).",
+                "html": "<p>Risk of crystalluria with high doses (particularly during parenteral therapy).</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Accumulation of electrolytes contained in parenteral preparations can occur in patients with renal failure.",
+                "html": "<p>Accumulation of electrolytes contained in parenteral preparations can occur in patients with renal failure.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use in adults",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Co-amoxiclav 400/57 suspension: avoid if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>\n<i>Co-amoxiclav 400/57 suspension</i>: avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With oral use in children",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Co-amoxiclav 400/57 suspension: avoid if estimated glomerular filtration rate less than 30 mL/minute/1.73 m2.",
+                "html": "<p>\n<i>Co-amoxiclav 400/57 suspension</i>: avoid if estimated glomerular filtration rate less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion, dilute reconstituted solution to a concentration of 10 mg/mL with Sodium Chloride 0.9%; give intermittently over 30&#8211;40 minutes.",
+                "html": "<p>For <i>intravenous infusion</i>, dilute reconstituted solution to a concentration of 10&#8239;mg/mL with Sodium Chloride 0.9%; give intermittently over 30&#8211;40 minutes.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Augmentin ), give intermittently in Sodium chloride 0.9%. Reconstitute 600 mg initially with 10 mL water for injections, then dilute with 50 mL infusion fluid; reconstitute 1.2 g initially with 20 mL water for injections, then dilute with 100 mL infusion fluid; give over 30&#8211;40 minutes\n\nvia drip tubing in Sodium chloride 0.9%.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Augmentin</i>\n<tm tmtype=\"reg\"/>), give intermittently <i>in</i> Sodium chloride 0.9%. Reconstitute 600&#8239;mg initially with 10&#8239;mL water for injections, then dilute with 50&#8239;mL infusion fluid; reconstitute 1.2&#8239;g initially with 20&#8239;mL water for injections, then dilute with 100&#8239;mL infusion fluid; give over 30&#8211;40 minutes</p><p>\n<i>via</i> drip tubing <i>in</i> Sodium chloride 0.9%.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Doses are expressed as co-amoxiclav: a mixture of amoxicillin (as the trihydrate or as the sodium salt) and clavulanic acid (as potassium clavulanate); the proportions are expressed in the form x/y where x and y are the strengths in milligrams of amoxicillin and clavulanic acid respectively.",
+                "html": "<p>Doses are expressed as co-amoxiclav: a mixture of amoxicillin (as the trihydrate or as the sodium salt) and clavulanic acid (as potassium clavulanate); the proportions are expressed in the form x/y where x and y are the strengths in milligrams of amoxicillin and clavulanic acid respectively.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Flavours of oral liquid formulations may include raspberry and orange.",
+                "html": "<p>Flavours of oral liquid formulations may include raspberry and orange.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/co-amoxiclav-bacterial-infections-0",
+                        "label": "www.medicinesforchildren.org.uk/co-amoxiclav-bacterial-infections-0"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Co-amoxiclav for bacterial infections",
+                "textContent": "www.medicinesforchildren.org.uk/co-amoxiclav-bacterial-infections-0",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/co-amoxiclav-bacterial-infections-0\">www.medicinesforchildren.org.uk/co-amoxiclav-bacterial-infections-0</xref>\n</p>"
+            }
+        ]
+    },
+    "professionSpecificInformation": {
+        "dentalPractitionersFormulary": [
+            {
+                "type": "dentalPractitionersFormulary",
+                "textContent": "Co-amoxiclav 250/125 Tablets may be prescribed.\n\nCo-amoxiclav 125/31 Suspension may be prescribed.\n\nCo-amoxiclav 250/62 Suspension may be prescribed.",
+                "html": "<p>Co-amoxiclav 250/125 Tablets may be prescribed.</p><p>Co-amoxiclav 125/31 Suspension may be prescribed.</p><p>Co-amoxiclav 250/62 Suspension may be prescribed.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "infusion"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76352",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76373",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76366",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP97237",
+                "label": "Adverse reactions to drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78139",
+                "label": "Chronic bowel disorders",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78140",
+                "label": "Oral bacterial infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78210",
+                "label": "Antibacterials, use for prophylaxis",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78228",
+                "label": "Urinary-tract infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78436",
+                "label": "Skin infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78449",
+                "label": "Ear infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78459",
+                "label": "Nose infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78502",
+                "label": "Penicillins",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78577",
+                "label": "Respiratory system infections, bacterial",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_187",
+                "label": "Co-amoxiclav",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34546",
+                "label": "PENICILLINS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76352",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76373",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76366",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

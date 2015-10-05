@@ -1,0 +1,292 @@
+{
+    "xml": "<topic id=\"PHP1501\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/phenindione\" basename=\"phenindione\" title=\"PHENINDIONE\">\n<title>PHENINDIONE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_223\" namespace=\"/interactions/list-of-drug-interactions/anticoagulants/phenindione\">Phenindione</xref>\n</p>\n<data name=\"vtmid\">47527007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_412666521\" title=\"Vitamin K antagonists\">Vitamin K antagonists</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34518\" title=\"VITAMIN K ANTAGONISTS\" namespace=\"/drug-classes/vitamin-k-antagonists\">VITAMIN K ANTAGONISTS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP45965\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/phenindione\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of embolisation in rheumatic heart disease and atrial fibrillation</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis after insertion of prosthetic heart valve</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis and treatment of venous thrombosis and pulmonary embolism</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 200&#8239;mg on day 1, then 100&#8239;mg on day 2, then, adjusted according to response; maintenance 50&#8211;150&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45558\" outputclass=\"sideEffects\" rev=\"1.13\" parent=\"/drugs/phenindione\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Agranulocytosis</ph>; <ph outputclass=\"sideEffect\">eosinophilia</ph>; <ph outputclass=\"sideEffect\">exanthema</ph>; <ph outputclass=\"sideEffect\">exfoliative dermatitis</ph>; <ph outputclass=\"sideEffect\">fever</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">micro-adenopathy</ph>; <ph outputclass=\"sideEffect\">renal damage</ph>; <ph outputclass=\"sideEffect\">urine coloured pink or orange</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP46431\" outputclass=\"breastFeeding\" parent=\"/drugs/phenindione\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid.</p>\n<p>Risk of haemorrhage; increased by vitamin K deficiency.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP46052\" outputclass=\"hepaticImpairment\" parent=\"/drugs/phenindione\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe impairment, especially if prothrombin time is already prolonged.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45642\" outputclass=\"renalImpairment\" parent=\"/drugs/phenindione\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Caution in mild to moderate impairment.</p>\n<p>Avoid in severe impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45742\" outputclass=\"patientAndCarerAdvice\" rev=\"1.14\" parent=\"/drugs/phenindione\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"patientResources\">\n<sectiondiv>\n<p>Anticoagulant card to be provided.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patient counselling is advised for phenindione tablets (may turn urine pink or orange).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP1501-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/phenindione\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77326\" title=\"Tablet\" namespace=\"/drugs/phenindione/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97233\" namespace=\"/guidance/prescribing-in-hepatic-impairment\" title=\"Prescribing in hepatic impairment\" count=\"1\" rel=\"backlink\">Prescribing in hepatic impairment</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP97237\" namespace=\"/guidance/adverse-reactions-to-drugs\" title=\"Adverse reactions to drugs\" count=\"1\" rel=\"backlink\">Adverse reactions to drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP98619\" namespace=\"/guidance/prescribing-in-dental-practice\" title=\"Prescribing in dental practice\" count=\"1\" rel=\"backlink\">Prescribing in dental practice</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78213\" namespace=\"/treatment-summaries/oral-anticoagulants\" title=\"Oral anticoagulants\" count=\"1\" rel=\"backlink\">Oral anticoagulants</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_223\" namespace=\"/interactions/list-of-drug-interactions/anticoagulants/phenindione\" title=\"Phenindione\" count=\"1\" rel=\"link\">Phenindione</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34518\" namespace=\"/drug-classes/vitamin-k-antagonists\" title=\"VITAMIN K ANTAGONISTS\" count=\"1\" rel=\"link\">VITAMIN K ANTAGONISTS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77326\" namespace=\"/drugs/phenindione/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP1501",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/phenindione",
+    "basename": "phenindione",
+    "title": "PHENINDIONE",
+    "interactants": [
+        {
+            "id": "bnf_int_223",
+            "label": "Phenindione"
+        }
+    ],
+    "vtmid": "47527007",
+    "drugClassification": [
+        "Vitamin K antagonists"
+    ],
+    "inheritsFromClass": [
+        "VITAMIN K ANTAGONISTS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of embolisation in rheumatic heart disease and atrial fibrillation",
+                        "html": "Prophylaxis of embolisation in rheumatic heart disease and atrial fibrillation"
+                    },
+                    {
+                        "textContent": "Prophylaxis after insertion of prosthetic heart valve",
+                        "html": "Prophylaxis after insertion of prosthetic heart valve"
+                    },
+                    {
+                        "textContent": "Prophylaxis and treatment of venous thrombosis and pulmonary embolism",
+                        "html": "Prophylaxis and treatment of venous thrombosis and pulmonary embolism"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 200 mg on day 1, then 100 mg on day 2, then, adjusted according to response; maintenance 50&#8211;150 mg daily.",
+                        "html": "<p>Initially 200&#8239;mg on day 1, then 100&#8239;mg on day 2, then, adjusted according to response; maintenance 50&#8211;150&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Agranulocytosis",
+                        "html": "Agranulocytosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "eosinophilia",
+                        "html": "eosinophilia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "exanthema",
+                        "html": "exanthema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "exfoliative dermatitis",
+                        "html": "exfoliative dermatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "fever",
+                        "html": "fever",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "micro-adenopathy",
+                        "html": "micro-adenopathy",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "renal damage",
+                        "html": "renal damage",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "urine coloured pink or orange",
+                        "html": "urine coloured pink or orange",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid.\n\nRisk of haemorrhage; increased by vitamin K deficiency.",
+                "html": "<p>Avoid.</p><p>Risk of haemorrhage; increased by vitamin K deficiency.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe impairment, especially if prothrombin time is already prolonged.",
+                "html": "<p>Avoid in severe impairment, especially if prothrombin time is already prolonged.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Caution in mild to moderate impairment.\n\nAvoid in severe impairment.",
+                "html": "<p>Caution in mild to moderate impairment.</p><p>Avoid in severe impairment.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "textContent": "Anticoagulant card to be provided.",
+                "html": "<p>Anticoagulant card to be provided.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patient counselling is advised for phenindione tablets (may turn urine pink or orange).",
+                "html": "<p>Patient counselling is advised for phenindione tablets (may turn urine pink or orange).</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77326",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP97233",
+                "label": "Prescribing in hepatic impairment",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP97237",
+                "label": "Adverse reactions to drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP98619",
+                "label": "Prescribing in dental practice",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78213",
+                "label": "Oral anticoagulants",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_223",
+                "label": "Phenindione",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34518",
+                "label": "VITAMIN K ANTAGONISTS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77326",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

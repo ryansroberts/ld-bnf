@@ -1,0 +1,35 @@
+{
+    "xml": "<topic id=\"PHP101362\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/vitamins-a-c-and-d/oral-drops\" basename=\"oral-drops\" title=\"Oral drops\">\n<title>Oral drops</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Healthy Start Children's Vitamin drops <ph outputclass=\"manufacturer\">(Secretary of State for Health)</ph>\n</title>\n<data name=\"ampid\">24576611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ascorbic acid 150&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium ascorbate 18.58&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Vitamin A 5000&#8239;iu per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Vitamin A and D3 concentrate .55&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Vitamin D 2000&#8239;iu per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92553\" title=\"VITAMINS A, C AND D\" namespace=\"/drugs/vitamins-a-c-and-d\">VITAMINS A, C AND D</xref>\n</parents>\n</topic>",
+    "id": "PHP101362",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/vitamins-a-c-and-d/oral-drops",
+    "basename": "oral-drops",
+    "form": "Oral drops",
+    "products": [
+        {
+            "title": "Healthy Start Children's Vitamin drops (Secretary of State for Health) ",
+            "header": "Healthy Start Children's Vitamin drops <ph outputclass=\"manufacturer\">(Secretary of State for Health)</ph>",
+            "manufacturer": "(Secretary of State for Health)",
+            "name": "Healthy Start Children's Vitamin drops",
+            "ampid": "24576611000001105",
+            "strengthOfActiveIngredient": "Vitamin D 2000 iu per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ml ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP92553",
+        "label": "VITAMINS A, C AND D"
+    }
+}

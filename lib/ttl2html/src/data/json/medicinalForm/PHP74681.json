@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP74681\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/charcoal-activated/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Charcodote 200mg/ml oral suspension <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4345811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Activated charcoal 200&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.88</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Actidose-Aqua Advance 1.04g/5ml oral suspension <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4669811000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Activated charcoal 208&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">240</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.89</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP182\" title=\"CHARCOAL, ACTIVATED\" namespace=\"/drugs/charcoal-activated\">CHARCOAL, ACTIVATED</xref>\n</parents>\n</topic>",
+    "id": "PHP74681",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/charcoal-activated/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "products": [
+        {
+            "title": "Charcodote 200mg/ml oral suspension (Teva UK Ltd) ",
+            "header": "Charcodote 200mg/ml oral suspension <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "Charcodote 200mg/ml oral suspension",
+            "ampid": "4345811000001100",
+            "strengthOfActiveIngredient": "Activated charcoal 200 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 250 ml P ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.88 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.88</ph>",
+                        "nhsIndicativePrice": "&#163;11.88"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Actidose-Aqua Advance 1.04g/5ml oral suspension (Alliance Pharmaceuticals Ltd) ",
+            "header": "Actidose-Aqua Advance 1.04g/5ml oral suspension <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Alliance Pharmaceuticals Ltd)",
+            "name": "Actidose-Aqua Advance 1.04g/5ml oral suspension",
+            "ampid": "4669811000001100",
+            "strengthOfActiveIngredient": "Activated charcoal 208 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 240 ml P ",
+                    "html": "<ph outputclass=\"packSize\">240</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "240",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.89 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.89</ph>",
+                        "nhsIndicativePrice": "&#163;12.89"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP182",
+        "label": "CHARCOAL, ACTIVATED"
+    }
+}

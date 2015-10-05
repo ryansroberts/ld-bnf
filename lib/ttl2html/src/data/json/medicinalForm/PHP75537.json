@@ -1,0 +1,99 @@
+{
+    "xml": "<topic id=\"PHP75537\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chlortalidone/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Chlortalidone 50mg tablets <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">23983011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlortalidone 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;88.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;88.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Chlortalidone 50mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">23996811000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlortalidone 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;88.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;88.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Chlortalidone 50mg tablets <ph outputclass=\"manufacturer\">(Sovereign Medical Ltd)</ph>\n</title>\n<data name=\"ampid\">23667611000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlortalidone 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;88.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;88.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP785\" title=\"CHLORTALIDONE\" namespace=\"/drugs/chlortalidone\">CHLORTALIDONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75537",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chlortalidone/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Chlortalidone 50mg tablets (A A H Pharmaceuticals Ltd) ",
+            "header": "Chlortalidone 50mg tablets <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Chlortalidone 50mg tablets",
+            "ampid": "23983011000001107",
+            "strengthOfActiveIngredient": "Chlortalidone 50 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;88.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;88.00</ph>",
+                        "nhsIndicativePrice": "&#163;88.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;88.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;88.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;88.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Chlortalidone 50mg tablets (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Chlortalidone 50mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Chlortalidone 50mg tablets",
+            "ampid": "23996811000001109",
+            "strengthOfActiveIngredient": "Chlortalidone 50 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;88.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;88.00</ph>",
+                        "nhsIndicativePrice": "&#163;88.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;88.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;88.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;88.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Chlortalidone 50mg tablets (Sovereign Medical Ltd) ",
+            "header": "Chlortalidone 50mg tablets <ph outputclass=\"manufacturer\">(Sovereign Medical Ltd)</ph>",
+            "manufacturer": "(Sovereign Medical Ltd)",
+            "name": "Chlortalidone 50mg tablets",
+            "ampid": "23667611000001109",
+            "strengthOfActiveIngredient": "Chlortalidone 50 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;88.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;88.00</ph>",
+                        "nhsIndicativePrice": "&#163;88.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;88.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;88.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;88.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP785",
+        "label": "CHLORTALIDONE"
+    }
+}

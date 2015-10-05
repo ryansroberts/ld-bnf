@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP77113\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/lamivudine/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Sucrose</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81572\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/epivir-oral-solution\">Epivir<tm tmtype=\"reg\"/> oral solution</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Epivir 50mg/5ml oral solution <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>\n</title>\n<data name=\"ampid\">651611000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lamivudine 10&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">240</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.16</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3767\" title=\"LAMIVUDINE\" namespace=\"/drugs/lamivudine\">LAMIVUDINE</xref>\n</parents>\n</topic>",
+    "id": "PHP77113",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/lamivudine/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "excipients": [
+        "Sucrose"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81572",
+            "label": "Epivir&reg;  oral solution",
+            "html": "Epivir<tm tmtype=\"reg\"/> oral solution"
+        }
+    ],
+    "products": [
+        {
+            "title": "Epivir 50mg/5ml oral solution (ViiV Healthcare UK Ltd) ",
+            "header": "Epivir 50mg/5ml oral solution <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>",
+            "manufacturer": "(ViiV Healthcare UK Ltd)",
+            "name": "Epivir 50mg/5ml oral solution",
+            "ampid": "651611000001104",
+            "strengthOfActiveIngredient": "Lamivudine 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 240 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">240</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "240",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.16 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.16</ph>",
+                        "nhsIndicativePrice": "&#163;33.16"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3767",
+        "label": "LAMIVUDINE"
+    }
+}

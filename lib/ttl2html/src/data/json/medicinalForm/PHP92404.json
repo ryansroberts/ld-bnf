@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP92404\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chlorhexidine-with-lidocaine/spray\" basename=\"spray\" title=\"Spray\">\n<title>Spray</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Covonia throat spray <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">4530711000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 2&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Lidocaine hydrochloride 500&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.35</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88073\" title=\"CHLORHEXIDINE WITH LIDOCAINE\" namespace=\"/drugs/chlorhexidine-with-lidocaine\">CHLORHEXIDINE WITH LIDOCAINE</xref>\n</parents>\n</topic>",
+    "id": "PHP92404",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chlorhexidine-with-lidocaine/spray",
+    "basename": "spray",
+    "form": "Spray",
+    "products": [
+        {
+            "title": "Covonia throat spray (Thornton & Ross Ltd) ",
+            "header": "Covonia throat spray <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Covonia throat spray",
+            "ampid": "4530711000001104",
+            "strengthOfActiveIngredient": "Lidocaine hydrochloride 500 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 30 ml P ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.35 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.35</ph>",
+                        "nhsIndicativePrice": "&#163;3.35"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88073",
+        "label": "CHLORHEXIDINE WITH LIDOCAINE"
+    }
+}

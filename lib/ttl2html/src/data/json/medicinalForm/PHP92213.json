@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP92213\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/abacavir-with-lamivudine-and-zidovudine/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Trizivir tablets <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4419111000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Abacavir (as Abacavir sulfate) 300&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Lamivudine 150&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Zidovudine 300&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;432.70</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85565\" title=\"ABACAVIR WITH LAMIVUDINE AND ZIDOVUDINE\" namespace=\"/drugs/abacavir-with-lamivudine-and-zidovudine\">ABACAVIR WITH LAMIVUDINE AND ZIDOVUDINE</xref>\n</parents>\n</topic>",
+    "id": "PHP92213",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/abacavir-with-lamivudine-and-zidovudine/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Trizivir tablets (ViiV Healthcare UK Ltd) ",
+            "header": "Trizivir tablets <ph outputclass=\"manufacturer\">(ViiV Healthcare UK Ltd)</ph>",
+            "manufacturer": "(ViiV Healthcare UK Ltd)",
+            "name": "Trizivir tablets",
+            "ampid": "4419111000001106",
+            "strengthOfActiveIngredient": "Zidovudine 300 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;432.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;432.70</ph>",
+                        "nhsIndicativePrice": "&#163;432.70"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85565",
+        "label": "ABACAVIR WITH LAMIVUDINE AND ZIDOVUDINE"
+    }
+}

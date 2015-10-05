@@ -1,0 +1,165 @@
+{
+    "xml": "<topic id=\"PHP34553\" outputclass=\"drugClass\" rev=\"1.15\" type=\"drugClass\" namespace=\"/drug-classes/antimuscarinics-eye\" basename=\"antimuscarinics-eye\" title=\"ANTIMUSCARINICS (EYE)\">\n<title>ANTIMUSCARINICS (EYE)</title>\n<topic id=\"PHP36807\" outputclass=\"cautions\" rev=\"1.10\" parent=\"/drug-classes/antimuscarinics-eye\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Darkly pigmented iris is more resistant to pupillary dilatation and caution should be exercised to avoid overdosage</ph>; <ph outputclass=\"caution\">mydriasis can precipitate acute angle-closure glaucoma (usually in those aged over 60 years and hypermetropic (long-sighted), who are predisposed to the condition because of a shallow anterior chamber)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP36729\" outputclass=\"sideEffects\" rev=\"1.12\" parent=\"/drug-classes/antimuscarinics-eye\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Conjunctivitis (on prolonged administration)</ph>; <ph outputclass=\"sideEffect\">contact dermatitis</ph>; <ph outputclass=\"sideEffect\">eye oedema (on prolonged administration)</ph>; <ph outputclass=\"sideEffect\">hyperaemia (on prolonged administration)</ph>; <ph outputclass=\"sideEffect\">local irritation (on prolonged administration)</ph>; <ph outputclass=\"sideEffect\">raised intraocular pressure</ph>; <ph outputclass=\"sideEffect\">transient stinging</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP36749\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/drug-classes/antimuscarinics-eye\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients may not be able to undertake skilled tasks until vision clears after mydriasis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP356\" title=\"ATROPINE SULFATE\" namespace=\"/drugs/atropine-sulfate\">ATROPINE SULFATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6934\" title=\"CYCLOPENTOLATE HYDROCHLORIDE\" namespace=\"/drugs/cyclopentolate-hydrochloride\">CYCLOPENTOLATE HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6938\" title=\"HOMATROPINE HYDROBROMIDE\" namespace=\"/drugs/homatropine-hydrobromide\">HOMATROPINE HYDROBROMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6940\" title=\"TROPICAMIDE\" namespace=\"/drugs/tropicamide\">TROPICAMIDE</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP356\" namespace=\"/drugs/atropine-sulfate\" title=\"ATROPINE SULFATE\" count=\"1\" rel=\"link\">ATROPINE SULFATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6934\" namespace=\"/drugs/cyclopentolate-hydrochloride\" title=\"CYCLOPENTOLATE HYDROCHLORIDE\" count=\"1\" rel=\"link\">CYCLOPENTOLATE HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6938\" namespace=\"/drugs/homatropine-hydrobromide\" title=\"HOMATROPINE HYDROBROMIDE\" count=\"1\" rel=\"link\">HOMATROPINE HYDROBROMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6940\" namespace=\"/drugs/tropicamide\" title=\"TROPICAMIDE\" count=\"1\" rel=\"link\">TROPICAMIDE</xref>\n</links>\n</topic>",
+    "id": "PHP34553",
+    "outputclass": "drugClass",
+    "rev": "1.15",
+    "type": "drugClass",
+    "namespace": "/drug-classes/antimuscarinics-eye",
+    "basename": "antimuscarinics-eye",
+    "title": "ANTIMUSCARINICS (EYE)",
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Darkly pigmented iris is more resistant to pupillary dilatation and caution should be exercised to avoid overdosage",
+                "html": "Darkly pigmented iris is more resistant to pupillary dilatation and caution should be exercised to avoid overdosage"
+            },
+            {
+                "type": "cautions",
+                "textContent": "mydriasis can precipitate acute angle-closure glaucoma (usually in those aged over 60 years and hypermetropic (long-sighted), who are predisposed to the condition because of a shallow anterior chamber)",
+                "html": "mydriasis can precipitate acute angle-closure glaucoma (usually in those aged over 60 years and hypermetropic (long-sighted), who are predisposed to the condition because of a shallow anterior chamber)"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Conjunctivitis (on prolonged administration)",
+                        "html": "Conjunctivitis (on prolonged administration)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "contact dermatitis",
+                        "html": "contact dermatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "eye oedema (on prolonged administration)",
+                        "html": "eye oedema (on prolonged administration)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperaemia (on prolonged administration)",
+                        "html": "hyperaemia (on prolonged administration)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "local irritation (on prolonged administration)",
+                        "html": "local irritation (on prolonged administration)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "raised intraocular pressure",
+                        "html": "raised intraocular pressure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "transient stinging",
+                        "html": "transient stinging",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients may not be able to undertake skilled tasks until vision clears after mydriasis.",
+                "html": "<p>Patients may not be able to undertake skilled tasks until vision clears after mydriasis.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP356",
+            "label": "ATROPINE SULFATE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP6934",
+            "label": "CYCLOPENTOLATE HYDROCHLORIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP6938",
+            "label": "HOMATROPINE HYDROBROMIDE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP6940",
+            "label": "TROPICAMIDE",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP356",
+                "label": "ATROPINE SULFATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP6934",
+                "label": "CYCLOPENTOLATE HYDROCHLORIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP6938",
+                "label": "HOMATROPINE HYDROBROMIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP6940",
+                "label": "TROPICAMIDE",
+                "type": "drug"
+            }
+        ]
+    }
+}

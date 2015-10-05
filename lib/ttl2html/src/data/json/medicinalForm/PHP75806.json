@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75806\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hydralazine-hydrochloride/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Apresoline 20mg powder for solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">3925011000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Hydralazine hydrochloride 20&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.09</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1048\" title=\"HYDRALAZINE HYDROCHLORIDE\" namespace=\"/drugs/hydralazine-hydrochloride\">HYDRALAZINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75806",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hydralazine-hydrochloride/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "products": [
+        {
+            "title": "Apresoline 20mg powder for solution for injection ampoules (AMCo) ",
+            "header": "Apresoline 20mg powder for solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Apresoline 20mg powder for solution for injection ampoules",
+            "ampid": "3925011000001100",
+            "strengthOfActiveIngredient": "Hydralazine hydrochloride 20 mg",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.09 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.09</ph>",
+                        "nhsIndicativePrice": "&#163;11.09"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1048",
+        "label": "HYDRALAZINE HYDROCHLORIDE"
+    }
+}

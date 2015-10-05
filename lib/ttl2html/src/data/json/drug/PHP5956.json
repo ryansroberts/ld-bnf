@@ -1,0 +1,309 @@
+{
+    "xml": "<topic id=\"PHP5956\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/plerixafor\" basename=\"plerixafor\" title=\"PLERIXAFOR\">\n<title>PLERIXAFOR</title>\n<body>\n<data name=\"vtmid\">442206008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_346211596\" title=\"Chemokine receptor antagonists\">Chemokine receptor antagonists</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP48266\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/plerixafor\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Plerixafor is a chemokine receptor antagonist.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47991\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/drugs/plerixafor\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mobilise haematopoietic stem cells to peripheral blood for collection and subsequent autologous transplantation in patients with lymphoma or multiple myeloma (specialist use only)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>240&#8239;micrograms/kg daily usually for 2&#8211;4 days (max 7 days), to be administered 6&#8211;11 hours before initiation of apheresis, dose to be given following 4 days treatment with a granulocyte-colony stimulating factor.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47720\" outputclass=\"sideEffects\" rev=\"1.8\" parent=\"/drugs/plerixafor\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arthralgia</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">injection-site reactions</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">musculoskeletal pain</ph>; <ph outputclass=\"sideEffect\">oral hypoaesthesia</ph>; <ph outputclass=\"sideEffect\">sweating</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dyspnoea</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">periorbital swelling</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48446\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/plerixafor\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use effective contraception during treatment&#8212; teratogenic in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47896\" outputclass=\"pregnancy\" parent=\"/drugs/plerixafor\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless essential&#8212; teratogenic in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48608\" outputclass=\"breastFeeding\" parent=\"/drugs/plerixafor\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47832\" outputclass=\"renalImpairment\" parent=\"/drugs/plerixafor\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose to 160&#8239;micrograms/ kg daily if creatinine clearance 20&#8211;50&#8239;mL/minute.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>No information available if creatinine clearance less than 20&#8239;mL/minute.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP47477\" outputclass=\"monitoringRequirements\" parent=\"/drugs/plerixafor\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor platelets and white blood cell count.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP5956-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/plerixafor\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74598\" title=\"Solution for injection\" namespace=\"/drugs/plerixafor/solution-for-injection\">Solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP74598\" namespace=\"/drugs/plerixafor/solution-for-injection\" title=\"Solution for injection\" count=\"1\" rel=\"link\">Solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP5956",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/plerixafor",
+    "basename": "plerixafor",
+    "title": "PLERIXAFOR",
+    "vtmid": "442206008",
+    "drugClassification": [
+        "Chemokine receptor antagonists"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Plerixafor is a chemokine receptor antagonist.",
+                "html": "<p>Plerixafor is a chemokine receptor antagonist.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mobilise haematopoietic stem cells to peripheral blood for collection and subsequent autologous transplantation in patients with lymphoma or multiple myeloma (specialist use only)",
+                        "html": "Mobilise haematopoietic stem cells to peripheral blood for collection and subsequent autologous transplantation in patients with lymphoma or multiple myeloma (specialist use only)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection"
+                    ],
+                    "textContent": "By subcutaneous injection",
+                    "html": "By subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "240 micrograms/kg daily usually for 2&#8211;4 days (max 7 days), to be administered 6&#8211;11 hours before initiation of apheresis, dose to be given following 4 days treatment with a granulocyte-colony stimulating factor.",
+                        "html": "<p>240&#8239;micrograms/kg daily usually for 2&#8211;4 days (max 7 days), to be administered 6&#8211;11 hours before initiation of apheresis, dose to be given following 4 days treatment with a granulocyte-colony stimulating factor.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Arthralgia",
+                        "html": "Arthralgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "injection-site reactions",
+                        "html": "injection-site reactions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "musculoskeletal pain",
+                        "html": "musculoskeletal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "oral hypoaesthesia",
+                        "html": "oral hypoaesthesia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sweating",
+                        "html": "sweating",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Dyspnoea",
+                        "html": "Dyspnoea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "periorbital swelling",
+                        "html": "periorbital swelling",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use effective contraception during treatment&#8212; teratogenic in animal studies.",
+                "html": "<p>Use effective contraception during treatment&#8212; teratogenic in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless essential&#8212; teratogenic in animal studies.",
+                "html": "<p>Manufacturer advises avoid unless essential&#8212; teratogenic in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose to 160 micrograms/ kg daily if creatinine clearance 20&#8211;50 mL/minute.",
+                "html": "<p>Reduce dose to 160&#8239;micrograms/ kg daily if creatinine clearance 20&#8211;50&#8239;mL/minute.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "No information available if creatinine clearance less than 20 mL/minute.",
+                "html": "<p>No information available if creatinine clearance less than 20&#8239;mL/minute.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor platelets and white blood cell count.",
+                "html": "<p>Monitor platelets and white blood cell count.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP74598",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP74598",
+                "label": "Solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

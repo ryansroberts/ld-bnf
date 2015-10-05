@@ -1,0 +1,73 @@
+{
+    "xml": "<topic id=\"PHP74760\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hydrocortisone/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81579\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/efcortesol\">Efcortesol<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Efcortesol 100mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">3852011000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone (as Hydrocortisone sodium phosphate) 100&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.38</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Efcortesol 500mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">4888811000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Hydrocortisone (as Hydrocortisone sodium phosphate) 100&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.45</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP515\" title=\"HYDROCORTISONE\" namespace=\"/drugs/hydrocortisone\">HYDROCORTISONE</xref>\n</parents>\n</topic>",
+    "id": "PHP74760",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hydrocortisone/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81579",
+            "label": "Efcortesol&reg;  ",
+            "html": "Efcortesol<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Efcortesol 100mg/1ml solution for injection ampoules (AMCo) ",
+            "header": "Efcortesol 100mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Efcortesol 100mg/1ml solution for injection ampoules",
+            "ampid": "3852011000001104",
+            "strengthOfActiveIngredient": "Hydrocortisone (as Hydrocortisone sodium phosphate) 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.38</ph>",
+                        "nhsIndicativePrice": "&#163;5.38"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Efcortesol 500mg/5ml solution for injection ampoules (AMCo) ",
+            "header": "Efcortesol 500mg/5ml solution for injection ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Efcortesol 500mg/5ml solution for injection ampoules",
+            "ampid": "4888811000001103",
+            "strengthOfActiveIngredient": "Hydrocortisone (as Hydrocortisone sodium phosphate) 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.45 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.45</ph>",
+                        "nhsIndicativePrice": "&#163;24.45"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP515",
+        "label": "HYDROCORTISONE"
+    }
+}

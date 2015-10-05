@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75945\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/vinflunine/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Javlor 250mg/10ml concentrate for solution for infusion <ph outputclass=\"manufacturer\">(Pierre Fabre Ltd)</ph>\n</title>\n<data name=\"ampid\">16698011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Vinflunine (as Vinflunine ditartrate) 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1062.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Javlor 50mg/2ml concentrate for solution for infusion <ph outputclass=\"manufacturer\">(Pierre Fabre Ltd)</ph>\n</title>\n<data name=\"ampid\">16698411000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Vinflunine (as Vinflunine ditartrate) 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;212.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5420\" title=\"VINFLUNINE\" namespace=\"/drugs/vinflunine\">VINFLUNINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75945",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/vinflunine/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Javlor 250mg/10ml concentrate for solution for infusion (Pierre Fabre Ltd) ",
+            "header": "Javlor 250mg/10ml concentrate for solution for infusion <ph outputclass=\"manufacturer\">(Pierre Fabre Ltd)</ph>",
+            "manufacturer": "(Pierre Fabre Ltd)",
+            "name": "Javlor 250mg/10ml concentrate for solution for infusion",
+            "ampid": "16698011000001107",
+            "strengthOfActiveIngredient": "Vinflunine (as Vinflunine ditartrate) 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1062.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1062.50</ph>",
+                        "nhsIndicativePrice": "&#163;1062.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Javlor 50mg/2ml concentrate for solution for infusion (Pierre Fabre Ltd) ",
+            "header": "Javlor 50mg/2ml concentrate for solution for infusion <ph outputclass=\"manufacturer\">(Pierre Fabre Ltd)</ph>",
+            "manufacturer": "(Pierre Fabre Ltd)",
+            "name": "Javlor 50mg/2ml concentrate for solution for infusion",
+            "ampid": "16698411000001103",
+            "strengthOfActiveIngredient": "Vinflunine (as Vinflunine ditartrate) 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;212.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;212.50</ph>",
+                        "nhsIndicativePrice": "&#163;212.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5420",
+        "label": "VINFLUNINE"
+    }
+}

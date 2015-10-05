@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP76666\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/eletriptan/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Relpax 20mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">3398711000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Eletriptan (as Eletriptan hydrobromide) 20&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;22.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Relpax 40mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">3403311000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Eletriptan (as Eletriptan hydrobromide) 40&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;22.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2846\" title=\"ELETRIPTAN\" namespace=\"/drugs/eletriptan\">ELETRIPTAN</xref>\n</parents>\n</topic>",
+    "id": "PHP76666",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/eletriptan/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "3",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines",
+            "html": "Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines"
+        }
+    ],
+    "products": [
+        {
+            "title": "Relpax 20mg tablets (Pfizer Ltd) ",
+            "header": "Relpax 20mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Relpax 20mg tablets",
+            "ampid": "3398711000001106",
+            "strengthOfActiveIngredient": "Eletriptan (as Eletriptan hydrobromide) 20 mg",
+            "packs": [
+                {
+                    "textContent": " 6 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>",
+                        "nhsIndicativePrice": "&#163;22.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;22.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;22.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;22.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Relpax 40mg tablets (Pfizer Ltd) ",
+            "header": "Relpax 40mg tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Relpax 40mg tablets",
+            "ampid": "3403311000001105",
+            "strengthOfActiveIngredient": "Eletriptan (as Eletriptan hydrobromide) 40 mg",
+            "packs": [
+                {
+                    "textContent": " 6 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>",
+                        "nhsIndicativePrice": "&#163;22.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;22.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;22.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;22.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2846",
+        "label": "ELETRIPTAN"
+    }
+}

@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>NICE Formulary - THE SUPER DRUG</title>
+
+  <meta name="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="NICE - The National Institute of Health and Care Excellence">
+
+  <!--[if lt IE 9]>
+  <script src="http://mattonfoot.github.io/NICE.UI/scripts/vendor/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Le styles -->
+  <link rel="stylesheet" href="http://mattonfoot.github.io/NICE.UI/styles/ui.css">
+
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="http://cdn.nice.org.uk/V3/Content/nice/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="http://cdn.nice.org.uk/V3/Content/nice/favicon-152.png">
+  <meta name="msapplication-TileColor" content="#fafafb">
+  <meta name="msapplication-TileImage" content="http://cdn.nice.org.uk/V3/Content/nice/favicon-144.png">
+
+  <style>
+  .tab-content {
+    overflow: auto;
+  }
+  .tab-content > .tab-pane {
+    display: none;
+  }
+  .tab-content > .active {
+    display: block;
+  }
+
+  header .nav {
+    list-style: decimal inside none;
+  }
+  header .nav > li {
+    display: list-item;
+  }
+  header .nav > li > a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #01769d;
+  }
+  header .nav > li > a:hover,
+  header .nav > li > a:focus,
+  header .nav > li.active > a,
+  header .nav > li.active > a:hover,
+  header .nav > li.active > a:focus {
+    outline: 0;
+    color: #08455b;
+    background: transparent;
+    text-decoration: none;
+  }
+  header .nav > li > a:hover,
+  header .nav > li > a:focus {
+    text-decoration: underline;
+  }
+
+  [outputclass="title"],
+  .title {
+    font-size: 19px;
+    font-size: 1.9rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+  }
+
+  h3, h4, h5, h6, .title, [outputclass="title"] {
+    margin-bottom: 0;
+  }
+
+  h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, .title+p, [outputclass="title"]+p {
+    margin-top: 0;
+  }
+
+  .doses {
+    padding-left: 0;
+    list-style: none;
+  }
+  .doses .dose {
+    padding-left: 24px;
+    padding-left: 2.4rem;
+    margin-bottom: 6px;
+    margin-bottom: .6rem;
+  }
+  .doses .adult {
+    border-left: 7px solid #346e7f;
+  }
+  .doses .child {
+    border-left: 7px solid #82176F;
+  }
+
+  /* DITA symbols */
+
+  ph {
+    color: #006;
+  }
+
+  tm::before {
+    font-size: .8em;
+    margin-left: -.2em;
+    vertical-align: top;
+  }
+  tm[tmtype="reg"]::before {
+    content: "\00ae";
+  }
+  tm[tmtype="copy"]::before {
+    content: "\00a9";
+  }
+  tm[tmtype="trade"]::before {
+    content: "\2122";
+  }
+
+  </style>
+</head>
+
+<body id="" class="">
+  <header>
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="../">Home</a> <span class="divider glyph-chevron-right"></span></li>
+        <li class="active"><a href="../drug/">Drugs</a></li>
+      </ul>
+
+      <h1>THE SUPER DRUG</h1>
+
+
+      <nav>
+        <ul class="nav nav-list">
+
+          <li class="active"><a href="#indicationsAndDoses" data-toggle="tab">Indications and doses</a></li>
+          <li><a href="#constituents" data-toggle="tab">Constituants</a></li>
+          <li><a href="#drugAction" data-toggle="tab">Drug action</a></li>
+          <li><a href="#pregnancy" data-toggle="tab">Pregnancy</a></li>
+          <li><a href="#hepaticImpairment" data-toggle="tab">Hepatic impairment</a></li>
+          <li><a href="#renalImpairment" data-toggle="tab">Renal impairment</a></li>
+          <li><a href="#contraindications" data-toggle="tab">Contra indications</a></li>
+          <li><a href="#sideEffects" data-toggle="tab">Side effects</a></li>
+          <li><a href="#directionsForAdministration" data-toggle="tab">Administration</a></li>
+          <li><a href="#patientAndCarerAdvice" data-toggle="tab">Patient and carer advice</a></li>
+          <li><a href="#nationalFunding" data-toggle="tab">National funding/access decisions</a></li>
+          <li><a href="#importantSafetyInformation" data-toggle="tab">Important safety information</a></li>
+          <li><a href="#cautions" data-toggle="tab">Cautions</a></li>
+          <li><a href="#conceptionAndContraception" data-toggle="tab">conception and contraception</a></li>
+          <li><a href="#monitoringRequirements" data-toggle="tab">Monitoring requirements</a></li>
+          <li><a href="#unlicensedUse" data-toggle="tab">Unlicensed use</a></li>
+          <li><a href="#prescribingAndDispensingInformation" data-toggle="tab">Prescribing and dispensing</a></li>
+          <li><a href="#treatmentCessation" data-toggle="tab">Treatment cessation</a></li>
+          <li><a href="#handlingAndStorage" data-toggle="tab">Handling and storage</a></li>
+          <li><a href="#lessSuitableForPrescribing" data-toggle="tab">Less suitable for prescribing</a></li>
+          <li><a href="#preTreatmentScreening" data-toggle="tab">Pre-treatment screening</a></li>
+          <li><a href="#effectOnLaboratoryTests" data-toggle="tab">Effect on laboratory tests</a></li>
+          <li><a href="#professionSpecificInformation" data-toggle="tab">Profession specific information</a></li>
+          <li><a href="#exceptionsToLegalCategory" data-toggle="tab">Exceptions to legal category</a></li>
+          <li><a href="#allergyAndCrossSensitivity" data-toggle="tab">Allergy and cross sensitivity</a></li>
+          <li><a href="#medicinalForms" data-toggle="tab">Medicinal forms</a></li>
+        </ul>
+      </nav>
+
+      <br/>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="tab-content">
+
+      <section class="tab-pane active" id="indicationsAndDoses">
+        <h2>Indications and doses</h2>
+
+        <section class="indicationAndDoseGroups">
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Anaerobic infections</span>,
+            </h4>
+            <p class="specificity"><span class="route">By intravenous infusion</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400 mg every 8 hours, alternatively 500 mg every 8 hours usually treated for 7 days (for 10&#8211;14 days in Clostridium difficile infection).</li>
+              <li class="dose adult"><strong>For adults </strong><br/>
+                1 g 3 times a day for 3 days, then 1 g twice daily, for usual total treatment duration of 7 days.</li>
+              <li class="dose adult"><strong>For adults </strong><br/>
+                500 mg every 8 hours usually treated for 7 days (for 10&#8211;14 days in Clostridium difficile infection), to be given over 20 minutes.</li>
+              <li class="dose child"><strong>For children 1 month</strong><br/>
+                7.5 mg/kg every 12 hours usually treated for 7 days (for 10&#8211;14 days in Clostridium difficile infection).</li>
+              <li class="dose child"><strong>For children 2 months&#8211;11 years</strong><br/>
+                7.5 mg/kg every 8 hours (max. per dose 400 mg) usually treated for 7 days (for 10&#8211;14 days in Clostridium difficile infection).</li>
+              <li class="dose child"><strong>For children 12&#8211;17 years</strong><br/>
+                400 mg every 8 hours.</li>
+              <li class="dose child"><strong>For children 1&#8211;11 months</strong><br/>
+                125 mg 3 times a day for 3 days, then 125 mg twice daily, for usual total treatment duration of 7 days.</li>
+              <li class="dose child"><strong>For children 1&#8211;4 years</strong><br/>
+                250 mg 3 times a day for 3 days, then 250 mg twice daily, for usual total treatment duration of 7 days.</li>
+              <li class="dose child"><strong>For children 5&#8211;9 years</strong><br/>
+                500 mg 3 times a day for 3 days, then 500 mg twice daily, for usual total treatment duration of 7 days.</li>
+              <li class="dose child"><strong>For children 10&#8211;17 years</strong><br/>
+                1 g 3 times a day for 3 days, then 1 g twice daily, for usual total treatment duration of 7 days.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication"><ph outputclass="organism"> <i>Helicobacter pylori</i> </ph> eradication; in combination with clarithromycin and esomeprazole; or in combination with clarithromycin and lansoprazole; or in combination with amoxicillin and lansoprazole; or in combination with clarithromycin and omeprazole; or in combination with clarithromycin and pantoprazole; or in combination with clarithromycin and rabeprazole</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400 mg twice daily.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication"><ph outputclass="organism"> <i>Helicobacter pylori</i> </ph> eradication; in combination with amoxicillin and omeprazole</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400 mg 3 times a day.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication"><ph outputclass="organism"> <i>Helicobacter pylori</i> </ph> eradication failure (two-week regimen comprising a proton pump inhibitor plus tripotassium dicitratobismuthate plus tetracycline)</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400&#8211;500 mg 3 times a day for 2 weeks.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Fistulating Crohn's disease</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                10&#8211;20 mg/kg daily in divided doses, usual dose 400&#8211;500 mg 3 times a day usually given for 1 month but no longer than 3 months because of concerns about peripheral neuropathy.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Leg ulcers and pressure sores</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400 mg every 8 hours for 7 days.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Bacterial vaginosis (notably <ph outputclass="organism"> <i>Gardnerella vaginalis</i> </ph> infection)</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400&#8211;500 mg twice daily for 5&#8211;7 days, alternatively 2 g for 1 dose.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Bacterial vaginosis</span>,
+            </h4>
+            <p class="specificity"><span class="route">By vagina using vaginal gel</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                1 applicatorful daily for 5 days, dose to be administered at night.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Pelvic inflammatory disease</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400 mg twice daily for 14 days.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Acute ulcerative gingivitis</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                200&#8211;250 mg every 8 hours for 3 days.</li>
+              <li class="dose child"><strong>For children 1&#8211;2 years</strong><br/>
+                50 mg every 8 hours for 3 days.</li>
+              <li class="dose child"><strong>For children 3&#8211;6 years</strong><br/>
+                100 mg every 12 hours for 3 days.</li>
+              <li class="dose child"><strong>For children 7&#8211;9 years</strong><br/>
+                100 mg every 8 hours for 3 days.</li>
+              <li class="dose child"><strong>For children 10&#8211;17 years</strong><br/>
+                200&#8211;250 mg every 8 hours for 3 days.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Acute oral infections</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                200 mg every 8 hours for 3&#8211;7 days.</li>
+              <li class="dose child"><strong>For children 1&#8211;2 years</strong><br/>
+                50 mg every 8 hours for 3&#8211;7 days.</li>
+              <li class="dose child"><strong>For children 3&#8211;6 years</strong><br/>
+                100 mg every 12 hours for 3&#8211;7 days.</li>
+              <li class="dose child"><strong>For children 7&#8211;9 years</strong><br/>
+                100 mg every 8 hours for 3&#8211;7 days.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Surgical prophylaxis</span>,
+            </h4>
+            <p class="specificity"><span class="route">By intravenous infusion</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                400&#8211;500 mg, to be administered 2 hours before surgery, then 400&#8211;500 mg every 8 hours if required for up to 3 doses (in high-risk procedures).</li>
+              <li class="dose adult"><strong>For adults </strong><br/>
+                1 g, to be administered 2 hours before surgery, then 1 g every 8 hours if required for up to 3 doses (in high-risk procedures).</li>
+              <li class="dose adult"><strong>For adults </strong><br/>
+                500 mg, to be administered up to 30 minutes before the procedure (if rectal administration inappropriate), then 500 mg every 8 hours if required for up to 3 doses (in high-risk procedures).</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Invasive intestinal amoebiasis</span>,
+                <span class="indication">Extra-intestinal amoebiasis (including liver abscess)</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                800 mg 3 times a day for 5 days in intestinal infection (for 5&#8211;10 days in extra-intestinal infection).</li>
+              <li class="dose child"><strong>For children 1&#8211;2 years</strong><br/>
+                200 mg 3 times a day for 5 days in intestinal infection (for 5&#8211;10 days in extra-intestinal infection).</li>
+              <li class="dose child"><strong>For children 3&#8211;6 years</strong><br/>
+                200 mg 4 times a day for 5 days in intestinal infection (for 5&#8211;10 days in extra-intestinal infection).</li>
+              <li class="dose child"><strong>For children 7&#8211;9 years</strong><br/>
+                400 mg 3 times a day for 5 days in intestinal infection (for 5&#8211;10 days in extra-intestinal infection).</li>
+              <li class="dose child"><strong>For children 10&#8211;17 years</strong><br/>
+                800 mg 3 times a day for 5 days in intestinal infection (for 5&#8211;10 days in extra-intestinal infection).</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Urogenital trichomoniasis</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                200 mg 3 times a day for 7 days, alternatively 400&#8211;500 mg twice daily for 5&#8211;7 days, alternatively 2 g for 1 dose.</li>
+              <li class="dose child"><strong>For children 1&#8211;2 years</strong><br/>
+                50 mg 3 times a day for 7 days.</li>
+              <li class="dose child"><strong>For children 3&#8211;6 years</strong><br/>
+                100 mg twice daily for 7 days.</li>
+              <li class="dose child"><strong>For children 7&#8211;9 years</strong><br/>
+                100 mg 3 times a day for 7 days.</li>
+              <li class="dose child"><strong>For children 10&#8211;17 years</strong><br/>
+                200 mg 3 times a day for 7 days, alternatively 400&#8211;500 mg twice daily for 5&#8211;7 days, alternatively 2 g for 1 dose.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Giardiasis</span>,
+            </h4>
+            <p class="specificity"><span class="route">By mouth</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                2 g once daily for 3 days, alternatively 400 mg 3 times a day for 5 days, alternatively 500 mg twice daily for 7&#8211;10 days.</li>
+              <li class="dose child"><strong>For children 1&#8211;2 years</strong><br/>
+                500 mg once daily for 3 days.</li>
+              <li class="dose child"><strong>For children 3&#8211;6 years</strong><br/>
+                600&#8211;800 mg once daily for 3 days.</li>
+              <li class="dose child"><strong>For children 7&#8211;9 years</strong><br/>
+                1 g once daily for 3 days.</li>
+              <li class="dose child"><strong>For children 10&#8211;17 years</strong><br/>
+                2 g once daily for 3 days, alternatively 400 mg 3 times a day for 5 days, alternatively 500 mg twice daily for 7&#8211;10 days.</li>
+            </ul>
+          </section>
+          <section class="indicationAndDoseGroup">
+            <h4 class="indications">
+                <span class="indication">Established case of tetanus</span>,
+            </h4>
+            <p class="specificity"><span class="route">By intravenous infusion</span></p>
+            <ul class="doses">
+              <li class="dose adult"><strong>For adults </strong><br/>
+                (consult product literature).</li>
+            </ul>
+          </section>
+        </section>
+        
+            <section class="doseAdjustments">
+                <h3>Dose adjustments due to interactions</h3>
+              <p>Dose adjustment may be necessary if smoking started or stopped during treatment.</p>
+            </section>
+        
+            <section class="doseEquivalence">
+                <h3>Dose equivalence and conversion</h3>
+              <p>2 puffs is equivalent to 5&#8239;micrograms.</p>
+            </section>
+        
+            <section class="extremesOfBodyWeight">
+                <h3>Doses at extremes of body-weight</h3>
+              <p>To avoid excessive dosage in obese patients, dose should be calculated on the basis of ideal weight for height.</p>
+            </section>
+        
+            <section class="pharmacokinetics">
+              <h3>Pharmacokinetics</h3>
+              <p>Aminophylline is a stable mixture or combination of theophylline and ethylenediamine; the ethylenediamine confers greater solubility in water.</p><p>Theophylline is metabolised in the liver. The plasma-theophylline concentration is increased in heart failure, hepatic impairment, and in viral infections. The plasma-theophylline concentration is decreased in smokers, and by alcohol consumption. Differences in the half-life of aminophylline are important because the toxic dose is close to the therapeutic dose.</p>
+            </section>
+        
+            <section class="potency">
+              <h3>Potency of preperations</h3>
+              <p>Fluticasone cream 0.05%: potent.</p><p>Fluticasone ointment 0.005%: potent.</p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="constituents">
+        <h2>Constituents</h2>
+
+        <p>
+          <a href="./PHP3619.html">rifampicin</a>
+          <a href="./PHP3604.html">ethambutol hydrochloride</a>
+          <a href="./PHP3608.html">isoniazid</a>
+          <a href="./PHP3612.html">pyrazinamide</a>
+          <a href="./PHP3619.html">rifampicin</a>
+        </p>
+      </section>
+
+      <section class="tab-pane" id="drugAction">
+        <h2>Drug action</h2>
+
+            <section class="drugAction">
+              <p>
+            Ezetimibe inhibits the intestinal absorption of cholesterol.
+            </p>
+            </section>
+            <section class="drugAction">
+              <p>
+            If used alone, it has a modest effect on lowering LDL-cholesterol, with little effect on other lipoproteins.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="pregnancy">
+        <h2>Advice when patient is pregnant</h2>
+
+            <section class="generalInformation">
+              <h3 class="specificity">With <ph outputclass="route">systemic</ph> use</h3>
+              <p>
+            Avoid unless the potential benefit outweighs the risk.
+            </p><p>
+            Avoid during the third trimester (risk of closure of fetal ductus arteriosus
+            <i>in utero</i>
+            and possibly persistent pulmonary hypertension of the newborn); onset of labour may be delayed and duration may be increased.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <h3 class="specificity">With <ph outputclass="route">topical</ph> use in adults</h3>
+              <p>
+            Patient packs for topical preparations carry a warning to avoid during pregnancy.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <p>
+            There is limited evidence for the safe use of zafirlukast during pregnancy; however, it can be taken as normal in women who have shown a significant improvement in asthma not achievable with other drugs before becoming pregnant.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <p>
+            It is particularly important that asthma should be well controlled during pregnancy. Women planning to become pregnant should be counselled about the importance of taking their asthma medication regularly to maintain good control.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <p>
+            Manufacturer advises use only if potential benefit outweighs risk.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="hepaticImpairment">
+        <h2>Advice regarding hepatic impairment</h2>
+
+            <section class="doseAdjustments">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use</h3>
+              <p>
+            Reduce
+            <i>oral</i>
+            dose in moderate impairment.
+            </p>
+            </section>
+            <section class="doseAdjustments">
+              <h3 class="specificity">With <ph outputclass="route">injectable</ph> use</h3>
+              <p>
+            Reduce
+            <i>intravenous dose</i>
+            in severe impairment.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use</h3>
+              <p>
+            Avoid
+            <i>oral</i>
+            use in severe impairment.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <p>Consult product literature.</p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="renalImpairment">
+        <h2>Advice regarding renal impairment</h2>
+
+            <section class="doseAdjustments">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use in adults</h3>
+              <p>
+            <i>
+            Co-amoxiclav 250/125 tablets or 500/125 tablets
+            </i>
+            : if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            , one
+            <i>250/125</i>
+            strength tablet every 12 hours or one
+            <i>500/125</i>
+            strength tablet every 12 hours; if eGFR less than 10&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            , one
+            <i>250/125</i>
+            strength tablet every 24 hours or one
+            <i>500/125</i>
+            strength tablet every 24 hours.
+            </p>
+            </section>
+            <section class="doseAdjustments">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use in adults</h3>
+              <p>
+            <i>Co-amoxiclav injection</i>
+            (expressed as co-amoxiclav): if eGFR 10&#8211;30&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            , 1.2&#8239;g initially, then 600&#8239;mg every 12 hours; if eGFR less than 10&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            , 1.2&#8239;g initially, then 600&#8239;mg every 24 hours.
+            </p>
+            </section>
+            <section class="doseAdjustments">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use in children</h3>
+              <p>
+            <i>Co-amoxiclav 125/31 suspension</i>
+            ,
+            <i>
+            250/62 suspension, 250/125 tablets, or 500/125 tablets
+            </i>
+            : use normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            . Use the normal dose recommended for mild or moderate infections every 12 hours if estimated glomerular filtration rate less than 10&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            .
+            </p>
+            </section>
+            <section class="doseAdjustments">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use in children</h3>
+              <p>
+            <i>Co-amoxiclav injection</i>
+            : use normal initial dose and then use half normal dose every 12 hours if estimated glomerular filtration rate 10&#8211;30&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            ; use normal initial dose and then use half normal dose every 24 hours if estimated glomerular filtration rate less than 10&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            .
+            </p>
+            </section>
+        
+            <section class="generalInformation">
+              <p>
+            Risk of crystalluria with high doses (particularly during parenteral therapy).
+            </p>
+            </section>
+            <section class="generalInformation">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use</h3>
+              <p>
+            Accumulation of electrolytes contained in parenteral preparations can occur in patients with renal failure.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use in adults</h3>
+              <p>
+            <i>Co-amoxiclav 400/57 suspension</i>
+            : avoid if eGFR less than 30&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            .
+            </p>
+            </section>
+            <section class="generalInformation">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use in children</h3>
+              <p>
+            <i>Co-amoxiclav 400/57 suspension</i>
+            : avoid if estimated glomerular filtration rate less than 30&#8239;mL/minute/1.73&#8239;m
+            <sup>2</sup>
+            .
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="contraindications">
+        <h2>Contra indications</h2>
+
+          <ul>
+            <li><strong>children:</strong> Children under 2 years except on specialist advice (safety of such use has not been established) in children</li>
+            <li>epilepsy</li>
+            <li>hepatic dysfunction</li>
+            <li>history of narrow angle glaucoma</li>
+            <li>hypothyroidism</li>
+            <li>many antihistamines should be avoided in <xref format="dita" href="#PHP78608" type="bookmark">Acute porphyrias</xref> but alimemazine is thought to be safe</li>
+            <li>myasthenia gravis</li>
+            <li><strong>neonates:</strong> neonate (due to significant antimuscarinic activity) in neonates</li>
+            <li>Parkinson's disease</li>
+            <li>phaeochromocytoma</li>
+            <li><strong>adults:</strong> prostatic hypertrophy in adults</li>
+            <li>renal dysfunction</li>
+            <li><xref format="dita" href="#PHP78608" type="bookmark">Acute porphyrias</xref></li>
+          </ul>
+      </section>
+
+      <section class="tab-pane" id="sideEffects">
+        <h2>Known side effects</h2>
+
+        
+        
+            <section class="advice">
+              <p>
+            Patients on high dosage may develop photosensitivity and should avoid exposure to direct sunlight.
+            </p>
+            </section>
+            <section class="advice">
+              <h3 class="specificity">In adults</h3>
+              <p>
+            Elderly patients are more susceptible to side-effects.
+            </p>
+            </section>
+            <section class="advice">
+              <h3 class="specificity">In children</h3>
+              <p>
+            Children are more susceptible to side-effects.
+            </p>
+            </section>
+            <section class="advice">
+              <h3 class="specificity">In adults</h3>
+              <p>
+            Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely, especially with high doses or in children and the elderly. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.
+            </p>
+            </section>
+            <section class="advice">
+              <h3 class="specificity">In children</h3>
+              <p>
+            Drowsiness is a significant side-effect with most of the older antihistamines although paradoxical stimulation may occur rarely in children, especially with high doses. Drowsiness may diminish after a few days of treatment and is considerably less of a problem with the newer antihistamines.
+            </p>
+            </section>
+        
+      </section>
+
+      <section class="tab-pane" id="directionsForAdministration">
+        <h2>Directions for administration</h2>
+
+            <section class="directionsForAdministration">
+              <p>
+            Acidic beverages, such as coffee or fruit juice, may decrease the absorption of nicotine through the buccal mucosa and should be avoided for 15 minutes before the use of oral nicotine replacement therapy.
+            </p>
+            </section>
+            <section class="directionsForAdministration">
+                <h3>Administration by transdermal patch</h3>
+              <p>
+            Patches should be applied on waking to dry, non-hairy skin on the hip, trunk, or upper arm and held in position for 10&#8211;20 seconds to ensure adhesion; place next patch on a different area and avoid using the same site for several days.
+            </p>
+            </section>
+            <section class="directionsForAdministration">
+                <h3>Administration by nasal spray</h3>
+              <p>
+            Initially 1 spray should be used in both nostrils but when withdrawing from therapy, the dose can be gradually reduced to 1 spray in 1 nostril.
+            </p>
+            </section>
+            <section class="directionsForAdministration">
+                <h3>Administration by oral spray</h3>
+              <p>
+            The oral spray should be released into the mouth, holding the spray as close to the mouth as possible and avoiding the lips. The patient should not inhale while spraying and avoid swallowing for a few seconds after use. If using the oral spray for the first time, or if unit not used for 2 or more days, prime the unit before administration.
+            </p>
+            </section>
+            <section class="directionsForAdministration">
+                <h3>Administration by sublingual tablet</h3>
+              <p>
+            Each tablet should be placed under the tongue and allowed to dissolve.
+            </p>
+            </section>
+            <section class="directionsForAdministration">
+                <h3>Administration by lozenge</h3>
+              <p>
+            Slowly allow each lozenge to dissolve in the mouth; periodically move the lozenge from one side of the mouth to the other. Lozenges last for 10&#8211;30 minutes, depending on their size.
+            </p>
+            </section>
+            <section class="directionsForAdministration">
+                <h3>Administration by inhalation</h3>
+              <p>
+            Insert the cartridge into the device and draw in air through the mouthpiece; each session can last for approximately 5 minutes. The amount of nicotine from 1 puff of the cartridge is less than that from a cigarette, therefore it is necessary to inhale more often than when smoking a cigarette. A single 10&#8239;mg cartridge lasts for approximately 20 minutes of intense use; a single 15&#8239;mg cartridge lasts for approximately 40 minutes of intense use.
+            </p>
+            </section>
+            <section class="directionsForAdministration">
+                <h3>Administration by medicated chewing gum</h3>
+              <p>
+            Chew the gum until the taste becomes strong, then rest it between the cheek and gum; when the taste starts to fade, repeat this process. One piece of gum lasts for approximately 30 minutes.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="patientAndCarerAdvice">
+        <h2>Advice for patients and carers</h2>
+
+            <section class="adviceAroundMissedDoses">
+              <p>
+            When used as an oral contraceptive, the following advice is recommended &#8216;If you forget a pill, take it as soon as you remember and carry on with the next pill at the right time. If the pill was more than 3 hours overdue you are not protected. Continue normal pill-taking but you must also use another method, such as the condom, for the next 2 days&#8217;.
+            </p><p>
+            The Faculty of Sexual and Reproductive Healthcare recommends emergency contraception if one or more progestogen-only contraceptive tablets are missed or taken more than 3 hours late and unprotected intercourse has occurred before 2 further tablets have been correctly taken.
+            </p>
+            </section>
+            <section class="generalPatientAdvice">
+                <h3>Diarrhoea and vomiting with use as an oral contraceptive</h3>
+              <p>
+            Vomiting and persistent, severe diarrhoea can interfere with the absorption of oral progestogen-only contraceptives. If vomiting occurs within 2 hours of taking an oral progestogen-only contraceptive, another pill should be taken as soon as possible. If a replacement pill is not taken within 3 hours of the normal time for taking the progestogen-only pill, or in cases of persistent vomiting or very severe diarrhoea, additional precautions should be used during illness and for 2 days after recovery.
+            </p>
+            </section>
+            <section class="generalPatientAdvice">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use for <ph outputclass="indication">Contraception</ph></h3>
+                <p class="title">Starting routine</p>
+              <p>
+            One tablet daily, on a continuous basis, starting on day 1 of cycle and taken at the same time each day (if delayed by longer than 3 hours contraceptive protection may be lost). Additional contraceptive precautions are not necessary when initiating treatment.
+            </p><p outputclass="title"> Changing from a combined oral contraceptive </p> <p> Start on the day following completion of the combined oral contraceptive course without a break (or in the case of ED tablets omitting the inactive ones). </p><p outputclass="title">After childbirth</p> <p> Oral progestogen-only contraceptives can be started up to and including day 21 postpartum without the need for additional contraceptive precautions. If started more than 21 days postpartum, additional contraceptive precautions are required for 2 days. </p>
+            </section>
+            <section class="generalPatientAdvice">
+              <p>
+            Counsel women to seek medical attention promptly in case of significant symptoms, especially pain.
+            </p><p>Patient counselling advised.</p><p>
+            Patient information leaflet to be provided.
+            </p>
+            </section>
+            <section class="generalPatientAdvice">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use for <ph outputclass="indication">Emergency contraception</ph></h3>
+              <p>
+            If vomiting occurs within 2 hours of taking levonorgestrel, a replacement dose should be given.
+            </p>
+            </section>
+            <section class="generalPatientAdvice">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use for <ph outputclass="indication">Emergency contraception</ph></h3>
+              <ul>
+            <li>
+            When prescribing or supplying hormonal emergency contraception, women should be advised:
+            </li>
+            <li>that their next period may be early or late;</li>
+            <li>
+            that a barrier method of contraception needs to be used until the next period;
+            </li>
+            <li>
+            to seek medical attention promptly if any lower abdominal pain occurs because this could signify an ectopic pregnancy;
+            </li>
+            <li>
+            to return in 3 to 4 weeks if the subsequent menstrual bleed is abnormally light, heavy or brief, or is absent, or if she is otherwise concerned (if there is any doubt as to whether menstruation has occurred, a pregnancy test should be performed at least 3 weeks after unprotected intercourse).
+            </li>
+            </ul>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="nationalFunding">
+        <h2>National funding/access decisions</h2>
+
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA130</h3>
+              <p outputclass="title"> Adalimumab, etanercept, and infliximab for the treatment of rheumatoid arthritis (October 2007) </p> <p> The tumour necrosis factor alpha (TNF-&#945;) inhibitor infliximab is an option for the treatment of adults with active rheumatoid arthritis who have failed to respond to at least 2 disease-modifying antirheumatic drugs (DMARDs), including methotrexate (unless contra-indicated). TNF-&#945; inhibitors should be given in combination with methotrexate. </p> <p> Infliximab should be withdrawn if response is not adequate within 6 months. Response to treatment should be monitored at least every 6 months in patients who respond initially; treatment should be withdrawn if response is not maintained. An alternative TNF-&#945; inhibitor may be considered for patients in whom treatment is withdrawn because of intolerance before the initial 6-month assessment of efficacy. </p> <p> Use of TNF-&#945; inhibitors for the treatment of severe, active, and progressive rheumatoid arthritis in adults not previously treated with methotrexate or other DMARDs is not recommended. </p><xref format="html" href="http://www.nice.org.uk/TA130">www.nice.org.uk/TA130</xref>
+                <a href="http://www.nice.org.uk/TA130" target="_blank">www.nice.org.uk/TA130</a>
+            </section>
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA134</h3>
+              <p outputclass="title"> Infliximab for plaque psoriasis in adults (January 2008) </p> <p> Infliximab is recommended for the treatment of very severe plaque psoriasis which has failed to respond to standard systemic treatments (including ciclosporin and methotrexate) or to photochemotherapy, or when standard treatments cannot be used because of intolerance or contra-indications. Infliximab should be withdrawn if the response is not adequate after 10 weeks. </p><xref format="html" href="http://www.nice.org.uk/TA134">www.nice.org.uk/TA134</xref>
+                <a href="http://www.nice.org.uk/TA134" target="_blank">www.nice.org.uk/TA134</a>
+            </section>
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA143</h3>
+              <p outputclass="title"> Adalimumab, etanercept, and infliximab for the treatment of ankylosing spondylitis (May 2008) </p> <p> Infliximab is not recommended for the treatment of ankylosing spondylitis. Patients who are already receiving infliximab for the treatment of ankylosing spondylitis can continue treatment until they and their specialist consider it appropriate to stop. </p> <p> See full NICE guidance for specific criteria to diagnose severe active ankylosing spondylitis, confirm sustained active spinal disease, and assess response to treatment. </p><xref format="html" href="http://www.nice.org.uk/TA143">www.nice.org.uk/TA143</xref>
+                <a href="http://www.nice.org.uk/TA143" target="_blank">www.nice.org.uk/TA143</a>
+            </section>
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA163</h3>
+              <p outputclass="title"> Infliximab for acute exacerbations of ulcerative colitis (December 2008) </p> <p> Infliximab is recommended as an option for the treatment of acute exacerbations of severe ulcerative colitis when treatment with ciclosporin is contra-indicated or inappropriate. </p><xref format="html" href="http://www.nice.org.uk/TA163">www.nice.org.uk/TA163</xref>
+                <a href="http://www.nice.org.uk/TA163" target="_blank">www.nice.org.uk/TA163</a>
+            </section>
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA187</h3>
+              <p outputclass="title"> Infliximab and adalimumab for Crohn&#8217;s disease (May 2010) </p> <p> Infliximab is recommended for the treatment of severe active Crohn&#8217;s disease that has not responded to conventional therapy (including corticosteroids and other drugs affecting the immune response) or when conventional therapy cannot be used because of intolerance or contraindications; infliximab can also be used in a similar way in children over 6 years of age. In adults over 18 years of age, infliximab is recommended for the treatment of fistulating Crohn&#8217;s disease that has not responded to conventional therapy (including antibacterials, drainage, and other drugs affecting the immune response) or when conventional therapy cannot be used because of intolerance or contraindications. </p> <p> Infliximab should be given as a planned course of treatment for 12 months or until treatment failure, whichever is shorter. Treatment should be continued beyond 12 months only if there is evidence of active disease&#8212;in these cases the need for treatment should be reviewed at least annually. If the disease relapses after stopping treatment, infliximab can be restarted. </p><xref format="html" href="http://www.nice.org.uk/TA187">www.nice.org.uk/TA187</xref>
+                <a href="http://www.nice.org.uk/TA187" target="_blank">www.nice.org.uk/TA187</a>
+            </section>
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA195</h3>
+              <p outputclass="title"> Adalimumab, etanercept, infliximab, rituximab, and abatacept for the treatment of rheumatoid arthritis after the failure of a TNF inhibitor (August 2010) </p> <p> Infliximab, in combination with methotrexate, is an option for the treatment of severe active rheumatoid arthritis in adults who have had an inadequate response to, or have an intolerance of, other DMARDs including at least 1 TNF inhibitor, and who cannot use rituximab because of contra-indications or intolerance. Treatment should be continued only if there is adequate response. Patients should be monitored at least every 6 months. </p><xref format="html" href="http://www.nice.org.uk/TA195">www.nice.org.uk/TA195</xref>
+                <a href="http://www.nice.org.uk/TA195" target="_blank">www.nice.org.uk/TA195</a>
+            </section>
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA199</h3>
+              <p outputclass="title"> Etanercept, infliximab, and adalimumab for the treatment of psoriatic arthritis (August 2010) </p> <p> Infliximab is recommended for the treatment of active and progressive psoriatic arthritis in adults who have peripheral arthritis with at least 3 tender joints and at least 3 swollen joints, and who have not responded adequately to at least 2 standard disease-modifying antirheumatic drugs (used alone or in combination). </p> <p> Infliximab should be discontinued if there is an inadequate response at 12 weeks. </p><xref format="html" href="http://www.nice.org.uk/TA199">www.nice.org.uk/TA199</xref>
+                <a href="http://www.nice.org.uk/TA199" target="_blank">www.nice.org.uk/TA199</a>
+            </section>
+            <section class="niceTechnologyAppraisals">
+              <h3 class="fundingIdentifier">NICE TA329</h3>
+              <p outputclass="title"> Infliximab, adalimumab and golimumab for treating moderately to severely active ulcerative colitis after the failure of conventional therapy (February 2015) </p> <p> Infliximab is an option for treating moderately to severely active ulcerative colitis in adults whose disease has responded inadequately to conventional therapy including corticosteroids and mercaptopurine or azathioprine, or in adults who are intolerant to or have contra-indications for conventional therapies. </p> <p> The choice of treatment should be made on an individual basis and if more than one treatment is suitable, the least expensive should be chosen. </p> <p> Infliximab should be given as a planned course of treatment until treatment fails (including the need for surgery) or until 12 months after starting treatment, whichever is shorter. Treatment should be continued only if there is clear evidence of a response. Patients who continue treatment should be reassessed at least every 12 months to determine whether ongoing treatment is still clinically appropriate. </p><xref format="html" href="http://www.nice.org.uk/TA329">www.nice.org.uk/TA329</xref>
+                <a href="http://www.nice.org.uk/TA329" target="_blank">www.nice.org.uk/TA329</a>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="importantSafetyInformation">
+        <h2>Important safety information</h2>
+
+            <section class="importantSafetyInformation">
+                <h3>NSAIDs and cardiovascular events</h3>
+              <p>
+            All NSAID use (including cyclo-oxygenase-2 selective inhibitors) can, to varying degrees, be associated with a small increased risk of thrombotic events (e.g. myocardial infarction and stroke) independent of baseline cardiovascular risk factors or duration of NSAID use; however, the greatest risk may be in those receiving high doses long term.
+            </p><p>
+            <b>Cyclo-oxygenase-2 selective inhibitors</b>
+            ,
+            <b>diclofenac</b>
+            (150&#8239;mg daily) and
+            <b>ibuprofen</b>
+            (2.4&#8239;g daily) are associated with an increased risk of thrombotic events. The increased risk for diclofenac is similar to that of licensed doses of
+            <b>etoricoxib</b>
+            .
+            <b>Naproxen</b>
+            (1&#8239;g daily) is associated with a lower thrombotic risk, and low doses of ibuprofen (1.2&#8239;g daily or less) have not been associated with an increased risk of myocardial infarction.
+            </p><p>
+            The lowest effective dose of NSAID should be prescribed for the shortest period of time to control symptoms and the need for long-term treatment should be reviewed periodically.
+            </p>
+            </section>
+            <section class="importantSafetyInformation">
+                <h3>NSAIDs and gastro-intestinal events</h3>
+              <p>
+            All NSAIDs are associated with serious gastro-intestinal toxicity; the risk is higher in the elderly. Evidence on the relative safety of non-selective NSAIDs indicates differences in the risks of serious upper gastro-intestinal side-effects&#8212;piroxicam, ketoprofen, and ketorolac are associated with the highest risk; indometacin, diclofenac, and naproxen are associated with intermediate risk, and ibuprofen with the lowest risk (although high doses of ibuprofen have been associated with intermediate risk).
+            <b>
+            Selective inhibitors of cyclo-oxygenase-2
+            </b>
+            are associated with a
+            <i>lower risk</i>
+            of serious upper gastro-intestinal side-effects than non-selective NSAIDs.
+            </p><p>
+            Recommendations are that NSAIDs associated with a low risk e.g. ibuprofen are
+            <i>generally preferred</i>
+            , to start at the
+            <i>lowest recommended dose</i>
+            and not to use more than one oral NSAID at a time.
+            </p><p>
+            The combination of a NSAID and low-dose aspirin can increase the risk of gastro-intestinal side-effects; this combination should be used only if absolutely necessary and the patient should be monitored closely.
+            </p>
+            </section>
+            <section class="importantSafetyInformation">
+                <h3>Asthma</h3>
+              <p>
+            Any degree of worsening of asthma may be related to the ingestion of NSAIDs, either prescribed or (in the case of ibuprofen and others) purchased over the counter.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="cautions">
+        <h2>Cautions regarding administration</h2>
+
+        <ul>
+          <li>
+            Heart failure
+          </li>
+        </ul>
+        <ul>
+          <li>
+              <strong>With oral use:</strong>
+            allergic disorders
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            cardiac impairment (NSAIDs may impair renal function)
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            cerebrovascular disease
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            coagulation defects
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            connective-tissue disorders
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            Crohn&#8217;s disease (may be exacerbated)
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            epilepsy
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            ischaemic heart disease
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            peripheral arterial disease
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            psychiatric disturbances
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            risk factors for cardiovascular events
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            ulcerative colitis (may be exacerbated)
+          </li>
+          <li>
+              <strong>With oral use:</strong>
+            uncontrolled hypertension
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            allergic disorders
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            avoid rectal administration in haemorrhoids
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            avoid rectal administration in proctitis
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            cardiac impairment (NSAIDs may impair renal function)
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            cerebrovascular disease
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            coagulation defects
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            connective-tissue disorders
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            Crohn&#8217;s disease (may be exacerbated)
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            epilepsy
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            ischaemic heart disease
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            peripheral arterial disease
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            psychiatric disturbances
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            risk factors for cardiovascular events
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            ulcerative colitis (may be exacerbated)
+          </li>
+          <li>
+              <strong>With rectal use:</strong>
+            uncontrolled hypertension
+          </li>
+          <li>
+              <strong>With systemic use:</strong>
+            elderly (risk of serious side-effects and fatalities)
+          </li>
+          <li>
+              <strong>With systemic use:</strong>
+            parkinsonism
+          </li>
+        </ul>
+      </section>
+
+      <section class="tab-pane" id="conceptionAndContraception">
+        <h2>Advice regarding conception and contraception</h2>
+
+            <section class="generalInformation">
+              <p>
+            When ulipristal is given as an emergency contraceptive the effectiveness of combined hormonal and progestogen-only contraceptives may be reduced&#8212;additional precautions (barrier methods) required for 14 days for combined and parenteral progestogen-only hormonal contraceptives (16 days for
+            <i>Qlaira</i>
+            <tm tmtype="reg"/>
+            ) and 9 days for oral progestogen-only contraceptives.
+            </p>
+            </section>
+            <section class="generalInformation">
+              <p>
+            When ulipristal is given for uterine fibroids non-hormonal contraceptive methods (barrier methods or intra-uterine device) should be used both during treatment and for 12 days after stopping, if required.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="monitoringRequirements">
+        <h2>Monitoring requirements</h2>
+
+          <h3>Therapeutic drug monitoring</h3>
+        
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">With <ph outputclass="route">intramuscular</ph> use or <ph outputclass="route">intravenous</ph> use in adults</h3>
+              <p>
+            For multiple daily dose regimen, one-hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">In adults</h3>
+              <p>
+            For multiple daily dose regimen in endocarditis, one-hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre. Serum-gentamicin concentration should be measured after 3 or 4 doses, then at least every 3 days and after a dose change (more frequently in renal impairment).
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use in adults</h3>
+              <p>
+            For once-daily dose regimen, consult local guidelines on monitoring serum-gentamicin concentration.
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use in neonates</h3>
+              <p>
+            Extended interval dose regimen in neonates: pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre (less than 1&#8239;mg/litre if more than 3 doses administered); consider monitoring one hour (&#8216;peak&#8217;) concentration in neonates with poor response to treatment, with oedema, with Gram-negative infection, or with birth-weight greater than 4.5&#8239;kg (consider increasing dose if &#8216;peak&#8217; concentration less than 8&#8239;mg/litre in severe sepsis).
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use in children</h3>
+              <p>
+            Once daily dose regimen: pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre.
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">With <ph outputclass="route">intramuscular</ph> use or <ph outputclass="route">intravenous</ph> use in children</h3>
+              <p>
+            Multiple daily dose regimen: one hour (&#8216;peak&#8217;) serum concentration should be 5&#8211;10&#8239;mg/litre ; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">In children</h3>
+              <p>
+            Multiple daily dose regimen for endocarditis: one hour (&#8216;peak&#8217;) serum concentration should be 3&#8211;5&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 1&#8239;mg/litre. Serum-gentamicin concentration should be determined twice each week (more often in renal impairment).
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">With <ph outputclass="route">intramuscular</ph> use or <ph outputclass="route">intravenous</ph> use in children</h3>
+              <p>
+            Multiple daily dose regimen for cystic fibrosis: one hour (&#8216;peak&#8217;) serum concentration should be 8&#8211;12&#8239;mg/litre; pre-dose (&#8216;trough&#8217;) concentration should be less than 2&#8239;mg/litre.
+            </p>
+            </section>
+            <section class="therapeuticDrugMonitoring">
+              <h3 class="specificity">With <ph outputclass="route">intrathecal</ph> use or <ph outputclass="route">intraventricular</ph> use in children</h3>
+              <p>
+            Intrathecal/intraventricular injection: cerebrospinal fluid concentration should not exceed 10&#8239;mg/litre.
+            </p>
+            </section>
+        
+      </section>
+
+      <section class="tab-pane" id="unlicensedUse">
+        <h2>Unlicensed use</h2>
+
+            <section class="unlicensedUse">
+              <h3 class="specificity">In children</h3>
+              <p>Not licensed for use in hyperkalaemia.</p>
+            </section>
+            <section class="unlicensedUse">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use in children</h3>
+              <p>
+            Syrup and tablets not licensed for use in children under 2 years.
+            </p><p>
+            Modified-release tablets not licensed for use in children under 3 years.
+            </p>
+            </section>
+            <section class="unlicensedUse">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use or <ph outputclass="route">subcutaneous</ph> use in children</h3>
+              <p>
+            Injection and solution for intravenous infusion not licensed for use in children under 12 years.
+            </p>
+            </section>
+            <section class="unlicensedUse">
+              <h3 class="specificity">With <ph outputclass="route">intravenous</ph> use in children</h3>
+              <p>
+            Administration of undiluted salbutamol injection through a central venous catheter is not licensed.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="prescribingAndDispensingInformation">
+        <h2>Information regarding prescribing and dispensing</h2>
+
+            <section class="prescribingAndDispensingInformation">
+              <p>
+            Co-careldopa is a mixture of carbidopa and levodopa; the proportions are expressed in the form x/y where x and y are the strengths in milligrams of carbidopa and levodopa respectively.
+            </p>
+            </section>
+            <section class="prescribingAndDispensingInformation">
+              <p>
+            When transferring patients from another levodopa/dopa-decarboxylase inhibitor preparation, the previous preparation should be discontinued at least 12 hours before.
+            </p><p>
+            Co-careldopa 25/100 provides an adequate dose of carbidopa when low doses of levodopa are needed.
+            </p>
+            </section>
+            <section class="prescribingAndDispensingInformation">
+              <p>
+            2 tablets
+            <i>Sinemet</i>
+            <tm tmtype="reg"/>
+            12.5&#8239;mg/50&#8239;mg &#8801; 1 tablet
+            <i>Sinemet</i>
+            <tm tmtype="reg"/>
+            Plus 25&#8239;mg/100&#8239;mg.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="treatmentCessation">
+        <h2>Advice regarding ceasing treatment</h2>
+
+            <section class="treatmentCessation">
+              <p>
+            Associated with a higher risk of withdrawal effects compared with other antidepressants.
+            </p>
+            </section>
+            <section class="treatmentCessation">
+              <p>
+            Gastro-intestinal disturbances, headache, anxiety, dizziness, paraesthesia, tremor, sleep disturbances, and sweating are most common features of withdrawal if treatment stopped abruptly or if dose reduced markedly; dose should be reduced over several weeks.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="handlingAndStorage">
+        <h2>Advice regarding handling and storage</h2>
+
+            <section class="handlingAndStorage">
+              <h3 class="specificity">With <ph outputclass="route">topical</ph> use</h3>
+              <p>
+            Wash hands immediately after use (or wash hands 30 minutes after application if hands treated).
+            </p>
+            </section>
+            <section class="handlingAndStorage">
+              <h3 class="specificity">With <ph outputclass="route">transdermal</ph> use</h3>
+              <p>
+            Nitrile gloves to be worn while handling patches and cleaning treatment areas (latex gloves do not provide adequate protection).
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="lessSuitableForPrescribing">
+        <h2>Conditions when less suitable for prescribing</h2>
+
+            <section class="lessSuitableForPrescribing">
+              <h3 class="specificity">When used by <ph outputclass="route">eye</ph></h3>
+              <p>
+            Betamethsone with neomycin eye-drops are less suitable for prescribing.
+            </p>
+            </section>
+            <section class="lessSuitableForPrescribing">
+              <h3 class="specificity">With <ph outputclass="route">intranasal</ph> use</h3>
+              <p>
+            Betamethsone with neomycin nasal-drops are less suitable for prescribing; there is no evidence that topical anti-infective nasal preparations have any therapeutic value in rhinitis or sinusitis.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="preTreatmentScreening">
+        <h2>Pre-treatment screening</h2>
+
+            <section class="preTreatmentScreening">
+              <p>Exclude pregnancy before treatment.</p>
+            </section>
+            <section class="preTreatmentScreening">
+              <p>
+            Patients should have full blood count and renal and liver function tests before starting treatment.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="effectOnLaboratoryTests">
+        <h2>Effect on laboratory tests</h2>
+
+            <section class="effectOnLaboratoryTests">
+              <p>May suppress skin test reactions.</p>
+            </section>
+            <section class="effectOnLaboratoryTests">
+              <p>
+            Post administration total plasma cortisol levels during 30-minute test for diagnosis of adrenocotical insufficiency might be misleading due to altered cortisol binding globulin levels in some special clinical situations including, patients on oral contraceptives, post-operative patients, critical illness, severe liver disease and nephrotic syndrome.
+            </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="professionSpecificInformation">
+        <h2>Profession specific information</h2>
+
+          <h3>Dental practitioners</h3>
+        
+            <section class="dentalPractitionersFormulary">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use</h3>
+              <p>Azithromycin Capsules may be prescribed.</p>
+            </section>
+            <section class="dentalPractitionersFormulary">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use</h3>
+              <p>Azithromycin Tablets may be prescribed.</p>
+            </section>
+            <section class="dentalPractitionersFormulary">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use</h3>
+              <p>
+              Azithromycin Oral Suspension 200&#8239;mg/5&#8239;mL may be prescribed.
+              </p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="exceptionsToLegalCategory">
+        <h2>Exceptions to legal category</h2>
+
+            <section class="exceptionsToLegalCategory">
+              <h3 class="specificity">With <ph outputclass="route">intranasal</ph> use</h3>
+              <p>Ephedrine nasal drops can be sold to the public provided no more than 180&#8239;mg of ephedrine base (or salts) are supplied at one time, and pseudoephedrine salts are not supplied at the same time; for conditions that apply to supplies made at the request of a patient, see <i>Medicines, Ethics and Practice</i>, London, Pharmaceutical Press (always consult latest edition).</p>
+            </section>
+            <section class="exceptionsToLegalCategory">
+              <h3 class="specificity">With <ph outputclass="route">oral</ph> use in adults</h3>
+              <p>For exceptions relating to ephedrine tablets see <i>Medicines, Ethics and Practice</i>, London, Pharmaceutical Press (always consult latest edition).</p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="allergyAndCrossSensitivity">
+        <h2>Advice regarding allergies and cross sensitivities</h2>
+
+            <section class="contraindications">
+              <p>Contraindicated in sulfonamide hypersensitivity.</p>
+            </section>
+        
+            <section class="crossSensitivity">
+              <p>Antiepileptic hypersensitivity syndrome theoretically associated with zonisamide. See under <xref format="dita" href="#PHP78230" type="bookmark">Epilepsy</xref> for more information.</p>
+            </section>
+      </section>
+
+      <section class="tab-pane" id="medicinalForms">
+        <h2>Prepared medicinal forms of THE SUPER DRUG</h2>
+
+
+            <section class="licensingVariationStatement">
+              <p>There can be variation in the licensing of different medicines containing the same drug.</p>
+            </section>
+        
+          <strong>Forms available from special-order manufacturers include: </strong>
+            eye drops,
+            solution for injection,
+            irrigation,
+            solution for infusion,
+            oral solution,
+            capsule,
+            eye ointment,
+            nebuliser liquid,
+            infusion,
+
+      </section>
+    </div>
+  </div>
+
+  <script src="http://mattonfoot.github.io/NICE.UI/scripts/vendor/jquery.js"></script>
+  <script src="http://cdn.nice.org.uk/V3/Scripts/twitter.bootstrap.js"></script>
+  <script src="/content/scripts/NICE.RemoteLoad.js"></script>
+</html>

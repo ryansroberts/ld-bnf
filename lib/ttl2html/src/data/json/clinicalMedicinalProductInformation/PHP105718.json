@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP105718\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/cetraben-bath\" basename=\"cetraben-bath\" title=\"Cetraben bath\">\n<title>Cetraben<tm tmtype=\"reg\"/> bath</title>\n<topic id=\"PHP106150\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/cetraben-bath\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dry skin conditions, including eczema</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>0.5&#8211;1&#8239;capful/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8211;2&#8239;capfuls/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP105718",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/cetraben-bath",
+    "basename": "cetraben-bath",
+    "title": "Cetraben bath",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Dry skin conditions, including eczema",
+                        "html": "Dry skin conditions, including eczema"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "0.5&#8211;1 capful/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>0.5&#8211;1&#8239;capful/bath, alternatively, to be applied to wet skin and rinse.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "1&#8211;2 capfuls/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>1&#8211;2&#8239;capfuls/bath, alternatively, to be applied to wet skin and rinse.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

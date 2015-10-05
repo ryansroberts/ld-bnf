@@ -1,0 +1,277 @@
+{
+    "xml": "<topic id=\"PHP5075\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/darifenacin\" basename=\"darifenacin\" title=\"DARIFENACIN\">\n<title>DARIFENACIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1076\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/darifenacin\">Darifenacin</xref>\n</p>\n<data name=\"vtmid\">416385001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_567112641\" title=\"Antimuscarinics\">Antimuscarinics</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" namespace=\"/drug-classes/antimuscarinics-systemic\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP40769\" outputclass=\"indicationsAndDose\" rev=\"1.46\" parent=\"/drugs/darifenacin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Urinary frequency</p>\n<p outputclass=\"therapeuticIndication\">Urinary urgency</p>\n<p outputclass=\"therapeuticIndication\">Incontinence</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 7.5&#8239;mg once daily, increased if necessary to 15&#8239;mg after 2&#8239;weeks.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP40740\" outputclass=\"sideEffects\" rev=\"1.19\" parent=\"/drugs/darifenacin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Cough</ph>; <ph outputclass=\"sideEffect\">dyspnoea</ph>; <ph outputclass=\"sideEffect\">hypertension</ph>; <ph outputclass=\"sideEffect\">impotence</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">oedema</ph>; <ph outputclass=\"sideEffect\">rhinitis</ph>; <ph outputclass=\"sideEffect\">ulcerative stomatitis</ph>; <ph outputclass=\"sideEffect\">vaginitis</ph>; <ph outputclass=\"sideEffect\">weakness</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP40758\" outputclass=\"pregnancy\" parent=\"/drugs/darifenacin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;toxicity in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP40799\" outputclass=\"breastFeeding\" parent=\"/drugs/darifenacin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk in <i>animal</i> studies&#8212;manufacturer advises caution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP40777\" outputclass=\"hepaticImpairment\" parent=\"/drugs/darifenacin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Max. 7.5&#8239;mg daily in moderate impairment.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in severe impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59522\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.10\" parent=\"/drugs/darifenacin\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP5075-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/darifenacin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77129\" title=\"Modified-release tablet\" namespace=\"/drugs/darifenacin/modified-release-tablet\">Modified-release tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78573\" namespace=\"/treatment-summaries/urinary-frequency-enuresis-and-incontinence\" title=\"Urinary frequency, enuresis and incontinence\" count=\"1\" rel=\"backlink\">Urinary frequency, enuresis and incontinence</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1076\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/darifenacin\" title=\"Darifenacin\" count=\"1\" rel=\"link\">Darifenacin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" namespace=\"/drug-classes/antimuscarinics-systemic\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" count=\"1\" rel=\"link\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77129\" namespace=\"/drugs/darifenacin/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n</links>\n</topic>",
+    "id": "PHP5075",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/darifenacin",
+    "basename": "darifenacin",
+    "title": "DARIFENACIN",
+    "interactants": [
+        {
+            "id": "bnf_int_1076",
+            "label": "Darifenacin"
+        }
+    ],
+    "vtmid": "416385001",
+    "drugClassification": [
+        "Antimuscarinics"
+    ],
+    "inheritsFromClass": [
+        "ANTIMUSCARINICS (SYSTEMIC)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Urinary frequency",
+                        "html": "Urinary frequency"
+                    },
+                    {
+                        "textContent": "Urinary urgency",
+                        "html": "Urinary urgency"
+                    },
+                    {
+                        "textContent": "Incontinence",
+                        "html": "Incontinence"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 7.5 mg once daily, increased if necessary to 15 mg after 2 weeks.",
+                        "html": "<p>Initially 7.5&#8239;mg once daily, increased if necessary to 15&#8239;mg after 2&#8239;weeks.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Cough",
+                        "html": "Cough",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dyspnoea",
+                        "html": "dyspnoea",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypertension",
+                        "html": "hypertension",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "impotence",
+                        "html": "impotence",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "oedema",
+                        "html": "oedema",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "rhinitis",
+                        "html": "rhinitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "ulcerative stomatitis",
+                        "html": "ulcerative stomatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "vaginitis",
+                        "html": "vaginitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "weakness",
+                        "html": "weakness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;toxicity in animal studies.",
+                "html": "<p>Manufacturer advises avoid&#8212;toxicity in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk in animal studies&#8212;manufacturer advises caution.",
+                "html": "<p>Present in milk in <i>animal</i> studies&#8212;manufacturer advises caution.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Max. 7.5 mg daily in moderate impairment.",
+                "html": "<p>Max. 7.5&#8239;mg daily in moderate impairment.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in severe impairment.",
+                "html": "<p>Avoid in severe impairment.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.",
+                "html": "<p>The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77129",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78573",
+                "label": "Urinary frequency, enuresis and incontinence",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1076",
+                "label": "Darifenacin",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34659",
+                "label": "ANTIMUSCARINICS (SYSTEMIC)",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77129",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

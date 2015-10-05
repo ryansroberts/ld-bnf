@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP77021\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tenecteplase/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Metalyse 8,000unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>\n</title>\n<data name=\"ampid\">9444511000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tenecteplase 8000&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;502.25</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Metalyse 10,000unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>\n</title>\n<data name=\"ampid\">4378911000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tenecteplase 10000&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;502.25</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1584\" title=\"TENECTEPLASE\" namespace=\"/drugs/tenecteplase\">TENECTEPLASE</xref>\n</parents>\n</topic>",
+    "id": "PHP77021",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tenecteplase/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "products": [
+        {
+            "title": "Metalyse 8,000unit powder and solvent for solution for injection vials (Boehringer Ingelheim Ltd) ",
+            "header": "Metalyse 8,000unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>",
+            "manufacturer": "(Boehringer Ingelheim Ltd)",
+            "name": "Metalyse 8,000unit powder and solvent for solution for injection vials",
+            "ampid": "9444511000001108",
+            "strengthOfActiveIngredient": "Tenecteplase 8000 unit",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;502.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;502.25</ph>",
+                        "nhsIndicativePrice": "&#163;502.25"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Metalyse 10,000unit powder and solvent for solution for injection vials (Boehringer Ingelheim Ltd) ",
+            "header": "Metalyse 10,000unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(Boehringer Ingelheim Ltd)</ph>",
+            "manufacturer": "(Boehringer Ingelheim Ltd)",
+            "name": "Metalyse 10,000unit powder and solvent for solution for injection vials",
+            "ampid": "4378911000001100",
+            "strengthOfActiveIngredient": "Tenecteplase 10000 unit",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;502.25 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;502.25</ph>",
+                        "nhsIndicativePrice": "&#163;502.25"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1584",
+        "label": "TENECTEPLASE"
+    }
+}

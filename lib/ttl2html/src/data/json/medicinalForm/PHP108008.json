@@ -1,0 +1,88 @@
+{
+    "xml": "<topic id=\"PHP108008\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tacrolimus/modified-release-tablet\" basename=\"modified-release-tablet\" title=\"Modified-release tablet\">\n<title>Modified-release tablet</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP108010\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/envarsus-modified-release-tablets\">Envarsus<tm tmtype=\"reg\"/> modified-release tablets</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Envarsus 1mg modified-release tablets <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>\n</title>\n<data name=\"ampid\">28791811000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tacrolimus (as Tacrolimus monohydrate) 1&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;59.10</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Envarsus 4mg modified-release tablets <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>\n</title>\n<data name=\"ampid\">28792411000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tacrolimus (as Tacrolimus monohydrate) 4&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;236.40</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Envarsus 750microgram modified-release tablets <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>\n</title>\n<data name=\"ampid\">28792111000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Tacrolimus (as Tacrolimus monohydrate) 750&#8239;microgram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;44.33</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5639\" title=\"TACROLIMUS\" namespace=\"/drugs/tacrolimus\">TACROLIMUS</xref>\n</parents>\n</topic>",
+    "id": "PHP108008",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tacrolimus/modified-release-tablet",
+    "basename": "modified-release-tablet",
+    "form": "Modified-release tablet",
+    "productInformationGroups": [
+        {
+            "id": "PHP108010",
+            "label": "Envarsus&reg;  modified-release tablets",
+            "html": "Envarsus<tm tmtype=\"reg\"/> modified-release tablets"
+        }
+    ],
+    "products": [
+        {
+            "title": "Envarsus 1mg modified-release tablets (Chiesi Ltd) ",
+            "header": "Envarsus 1mg modified-release tablets <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>",
+            "manufacturer": "(Chiesi Ltd)",
+            "name": "Envarsus 1mg modified-release tablets",
+            "ampid": "28791811000001107",
+            "strengthOfActiveIngredient": "Tacrolimus (as Tacrolimus monohydrate) 1 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;59.10 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;59.10</ph>",
+                        "nhsIndicativePrice": "&#163;59.10"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Envarsus 4mg modified-release tablets (Chiesi Ltd) ",
+            "header": "Envarsus 4mg modified-release tablets <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>",
+            "manufacturer": "(Chiesi Ltd)",
+            "name": "Envarsus 4mg modified-release tablets",
+            "ampid": "28792411000001100",
+            "strengthOfActiveIngredient": "Tacrolimus (as Tacrolimus monohydrate) 4 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;236.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;236.40</ph>",
+                        "nhsIndicativePrice": "&#163;236.40"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Envarsus 750microgram modified-release tablets (Chiesi Ltd) ",
+            "header": "Envarsus 750microgram modified-release tablets <ph outputclass=\"manufacturer\">(Chiesi Ltd)</ph>",
+            "manufacturer": "(Chiesi Ltd)",
+            "name": "Envarsus 750microgram modified-release tablets",
+            "ampid": "28792111000001105",
+            "strengthOfActiveIngredient": "Tacrolimus (as Tacrolimus monohydrate) 750 microgram",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;44.33 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;44.33</ph>",
+                        "nhsIndicativePrice": "&#163;44.33"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5639",
+        "label": "TACROLIMUS"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "xml": "<topic id=\"PHP77708\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/zinc-sulfate/effervescent-tablet\" basename=\"effervescent-tablet\" title=\"Effervescent tablet\">\n<title>Effervescent tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Solvazinc 125mg effervescent tablets <ph outputclass=\"manufacturer\">(Galen Ltd)</ph>\n</title>\n<data name=\"ampid\">3657111000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Zinc sulfate monohydrate 125&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">90</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.95</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;14.95</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6172\" title=\"ZINC SULFATE\" namespace=\"/drugs/zinc-sulfate\">ZINC SULFATE</xref>\n</parents>\n</topic>",
+    "id": "PHP77708",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/zinc-sulfate/effervescent-tablet",
+    "basename": "effervescent-tablet",
+    "form": "Effervescent tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Solvazinc 125mg effervescent tablets (Galen Ltd) ",
+            "header": "Solvazinc 125mg effervescent tablets <ph outputclass=\"manufacturer\">(Galen Ltd)</ph>",
+            "manufacturer": "(Galen Ltd)",
+            "name": "Solvazinc 125mg effervescent tablets",
+            "ampid": "3657111000001106",
+            "strengthOfActiveIngredient": "Zinc sulfate monohydrate 125 mg",
+            "packs": [
+                {
+                    "textContent": " 90 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">90</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "90",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.95</ph>",
+                        "nhsIndicativePrice": "&#163;14.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;14.95 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;14.95</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;14.95"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6172",
+        "label": "ZINC SULFATE"
+    }
+}

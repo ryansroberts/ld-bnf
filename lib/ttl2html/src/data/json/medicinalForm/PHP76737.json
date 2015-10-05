@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP76737\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/pancreatin/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\"> \r\n<xref format=\"dita\" href=\"#PHP81647\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/pancrex-v\">Pancrex<tm tmtype=\"reg\"/> V</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Pancrex V 125mg capsules <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4074011000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Amylase 3300&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lipase 2950&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Protease 160&#8239;unit</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;42.07</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Pancrex V capsules <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">8361511000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Amylase 9000&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Lipase 8000&#8239;unit</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Protease 430&#8239;unit</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;53.20</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP732\" title=\"PANCREATIN\" namespace=\"/drugs/pancreatin\">PANCREATIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76737",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/pancreatin/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "productInformationGroups": [
+        {
+            "id": "PHP81647",
+            "label": "Pancrex&reg;  V",
+            "html": "Pancrex<tm tmtype=\"reg\"/> V"
+        }
+    ],
+    "products": [
+        {
+            "title": "Pancrex V 125mg capsules (Essential Pharmaceuticals Ltd) ",
+            "header": "Pancrex V 125mg capsules <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Essential Pharmaceuticals Ltd)",
+            "name": "Pancrex V 125mg capsules",
+            "ampid": "4074011000001107",
+            "strengthOfActiveIngredient": "Protease 160 unit",
+            "packs": [
+                {
+                    "textContent": " 300 capsule P ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;42.07 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;42.07</ph>",
+                        "nhsIndicativePrice": "&#163;42.07"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Pancrex V capsules (Essential Pharmaceuticals Ltd) ",
+            "header": "Pancrex V capsules <ph outputclass=\"manufacturer\">(Essential Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Essential Pharmaceuticals Ltd)",
+            "name": "Pancrex V capsules",
+            "ampid": "8361511000001107",
+            "strengthOfActiveIngredient": "Protease 430 unit",
+            "packs": [
+                {
+                    "textContent": " 300 capsule P ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;53.20 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;53.20</ph>",
+                        "nhsIndicativePrice": "&#163;53.20"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP732",
+        "label": "PANCREATIN"
+    }
+}

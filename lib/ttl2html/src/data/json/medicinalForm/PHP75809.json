@@ -1,0 +1,56 @@
+{
+    "xml": "<topic id=\"PHP75809\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/promethazine-hydrochloride/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sulfites</p>\n</section>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Phenergan 5mg/5ml elixir <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">134411000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Promethazine hydrochloride 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.85</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;2.85</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1950\" title=\"PROMETHAZINE HYDROCHLORIDE\" namespace=\"/drugs/promethazine-hydrochloride\">PROMETHAZINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75809",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/promethazine-hydrochloride/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "excipients": [
+        "Sulfites"
+    ],
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Phenergan 5mg/5ml elixir (Sanofi) ",
+            "header": "Phenergan 5mg/5ml elixir <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Phenergan 5mg/5ml elixir",
+            "ampid": "134411000001102",
+            "strengthOfActiveIngredient": "Promethazine hydrochloride 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 100 ml P ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.85 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.85</ph>",
+                        "nhsIndicativePrice": "&#163;2.85"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.85 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.85</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.85"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1950",
+        "label": "PROMETHAZINE HYDROCHLORIDE"
+    }
+}

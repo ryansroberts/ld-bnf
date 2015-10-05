@@ -1,0 +1,54 @@
+{
+    "xml": "<topic id=\"PHP81709\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/zyclara\" basename=\"zyclara\" title=\"Zyclara\">\n<title>Zyclara<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82539\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/zyclara\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Actinic keratosis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply once daily for 2 weeks, to be applied at bedtime to lesion on face or balding scalp, repeat course after a 2-week treatment-free interval, assess response 8 weeks after second course; maximum 2&#8239;sachets per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP82560\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/zyclara\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Important</p>\n<p>Should be rubbed in and allowed to stay on the treated area for 8 hours, then washed off with mild soap and water.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81709",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/zyclara",
+    "basename": "zyclara",
+    "title": "Zyclara",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Actinic keratosis",
+                        "html": "Actinic keratosis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply once daily for 2 weeks, to be applied at bedtime to lesion on face or balding scalp, repeat course after a 2-week treatment-free interval, assess response 8 weeks after second course; maximum 2 sachets per day.",
+                        "html": "<p>Apply once daily for 2 weeks, to be applied at bedtime to lesion on face or balding scalp, repeat course after a 2-week treatment-free interval, assess response 8 weeks after second course; maximum 2&#8239;sachets per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "title": "Important",
+                "textContent": "Should be rubbed in and allowed to stay on the treated area for 8 hours, then washed off with mild soap and water.",
+                "html": "<p>Should be rubbed in and allowed to stay on the treated area for 8 hours, then washed off with mild soap and water.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

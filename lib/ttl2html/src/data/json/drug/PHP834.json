@@ -1,0 +1,627 @@
+{
+    "xml": "<topic id=\"PHP834\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/spironolactone\" basename=\"spironolactone\" title=\"SPIRONOLACTONE\">\n<title>SPIRONOLACTONE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_549\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-potassium-sparing-and-aldosterone-antagonists/spironolactone\">Spironolactone</xref>\n</p>\n<data name=\"vtmid\">13929005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_834379454\" title=\"Aldosterone antagonists\">Aldosterone antagonists</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP49494\" outputclass=\"indicationsAndDose\" rev=\"1.44\" parent=\"/drugs/spironolactone\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Oedema</p>\n<p outputclass=\"therapeuticIndication\">Ascites in cirrhosis of the liver</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;400&#8239;mg daily, adjusted according to response.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Malignant ascites</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8211;200&#8239;mg daily, then increased if necessary to 400&#8239;mg daily, maintenance dose adjusted according to response.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Nephrotic syndrome</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;200&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Oedema in congestive heart failure</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8239;mg daily, alternatively initially 25&#8211;200&#8239;mg daily, dose may be taken as a single dose or divided doses, maintenance dose adjusted according to response.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Moderate to severe heart failure (adjunct)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 25&#8239;mg once daily, then adjusted according to response to 50&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Resistant hypertension (adjunct)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>25&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Primary hyperaldosteronism in patients awaiting surgery</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;400&#8239;mg daily, may be used for long-term maintenance if surgery inappropriate, use lowest effective dose.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49449\" outputclass=\"unlicensedUse\" rev=\"1.12\" parent=\"/drugs/spironolactone\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Resistant hypertension (adjunct) unlicensed indication.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49546\" outputclass=\"contraindications\" rev=\"1.6\" parent=\"/drugs/spironolactone\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Addison&#8217;s disease</ph>; <ph outputclass=\"contraindication\">anuria</ph>; <ph outputclass=\"contraindication\">hyperkalaemia</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49559\" outputclass=\"cautions\" rev=\"1.14\" parent=\"/drugs/spironolactone\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"caution\">elderly</ph>; <ph outputclass=\"caution\">potential metabolic products carcinogenic in <i>rodents</i>\r\n</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP49489\" outputclass=\"interactions\" rev=\"1.9\" parent=\"/drugs/spironolactone\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (diuretics).</p>\n<p>Potassium supplements must <b>not</b> be given with potassium-sparing diuretics.</p>\n<p>Administration of a potassium-sparing diuretic to a patient receiving an ACE inhibitor or an angiotensin-II receptor antagonist can also cause severe hyperkalaemia.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49462\" outputclass=\"sideEffects\" rev=\"1.11\" parent=\"/drugs/spironolactone\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Acute renal failure</ph>; <ph outputclass=\"sideEffect\">agranulocytosis</ph>; <ph outputclass=\"sideEffect\">alopecia</ph>; <ph outputclass=\"sideEffect\">benign breast tumour</ph>; <ph outputclass=\"sideEffect\">breast pain</ph>; <ph outputclass=\"sideEffect\">changes in libido</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">electrolyte disturbances</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">gynaecomastia</ph>; <ph outputclass=\"sideEffect\">hepatotoxicity</ph>; <ph outputclass=\"sideEffect\">hyperkalaemia (discontinue)</ph>; <ph outputclass=\"sideEffect\">hypertrichosis</ph>; <ph outputclass=\"sideEffect\">hyperuricaemia</ph>; <ph outputclass=\"sideEffect\">hyponatraemia</ph>; <ph outputclass=\"sideEffect\">leg cramps</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">menstrual disturbances</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49485\" outputclass=\"pregnancy\" parent=\"/drugs/spironolactone\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Use only if potential benefit outweighs risk&#8212;feminisation of male fetus in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49563\" outputclass=\"breastFeeding\" parent=\"/drugs/spironolactone\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Metabolites present in milk, but amount probably too small to be harmful.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49478\" outputclass=\"renalImpairment\" parent=\"/drugs/spironolactone\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid in acute renal insufficiency or severe impairment.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInRenalImpairment\">\n<sectiondiv>\n<p>Monitor plasma-potassium concentration (high risk of hyperkalaemia in renal impairment).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP49444\" outputclass=\"monitoringRequirements\" parent=\"/drugs/spironolactone\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor electrolytes&#8212;discontinue if hyperkalaemia occurs (in <i>severe heart failure</i> monitor potassium and creatinine 1 week after initiation and after any dose increase, monthly for first 3 months, then every 3 months for 1 year, and then every 6 months).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP834-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/spironolactone\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution, oral suspension</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75170\" title=\"Tablet\" namespace=\"/drugs/spironolactone/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85563\" namespace=\"/drugs/furosemide-with-spironolactone\" title=\"FUROSEMIDE WITH SPIRONOLACTONE\" count=\"1\" rel=\"backlink\">FUROSEMIDE WITH SPIRONOLACTONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92567\" namespace=\"/drugs/co-flumactone\" title=\"CO-FLUMACTONE\" count=\"1\" rel=\"backlink\">CO-FLUMACTONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78138\" namespace=\"/treatment-summaries/heart-failure\" title=\"Heart failure\" count=\"3\" rel=\"backlink\">Heart failure</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78146\" namespace=\"/treatment-summaries/drugs-affecting-the-renin-angiotensin-system\" title=\"Drugs affecting the renin-angiotensin system\" count=\"1\" rel=\"backlink\">Drugs affecting the renin-angiotensin system</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78178\" namespace=\"/treatment-summaries/diuretics\" title=\"Diuretics\" count=\"4\" rel=\"backlink\">Diuretics</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_549\" namespace=\"/interactions/list-of-drug-interactions/diuretics/diuretics-potassium-sparing-and-aldosterone-antagonists/spironolactone\" title=\"Spironolactone\" count=\"1\" rel=\"link\">Spironolactone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75170\" namespace=\"/drugs/spironolactone/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP834",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/spironolactone",
+    "basename": "spironolactone",
+    "title": "SPIRONOLACTONE",
+    "interactants": [
+        {
+            "id": "bnf_int_549",
+            "label": "Spironolactone"
+        }
+    ],
+    "vtmid": "13929005",
+    "drugClassification": [
+        "Aldosterone antagonists"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Oedema",
+                        "html": "Oedema"
+                    },
+                    {
+                        "textContent": "Ascites in cirrhosis of the liver",
+                        "html": "Ascites in cirrhosis of the liver"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "100&#8211;400 mg daily, adjusted according to response.",
+                        "html": "<p>100&#8211;400&#8239;mg daily, adjusted according to response.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Malignant ascites",
+                        "html": "Malignant ascites"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100&#8211;200 mg daily, then increased if necessary to 400 mg daily, maintenance dose adjusted according to response.",
+                        "html": "<p>Initially 100&#8211;200&#8239;mg daily, then increased if necessary to 400&#8239;mg daily, maintenance dose adjusted according to response.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Nephrotic syndrome",
+                        "html": "Nephrotic syndrome"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "100&#8211;200 mg daily.",
+                        "html": "<p>100&#8211;200&#8239;mg daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Oedema in congestive heart failure",
+                        "html": "Oedema in congestive heart failure"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100 mg daily, alternatively initially 25&#8211;200 mg daily, dose may be taken as a single dose or divided doses, maintenance dose adjusted according to response.",
+                        "html": "<p>Initially 100&#8239;mg daily, alternatively initially 25&#8211;200&#8239;mg daily, dose may be taken as a single dose or divided doses, maintenance dose adjusted according to response.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Moderate to severe heart failure (adjunct)",
+                        "html": "Moderate to severe heart failure (adjunct)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 25 mg once daily, then adjusted according to response to 50 mg once daily.",
+                        "html": "<p>Initially 25&#8239;mg once daily, then adjusted according to response to 50&#8239;mg once daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Resistant hypertension (adjunct)",
+                        "html": "Resistant hypertension (adjunct)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "25 mg once daily.",
+                        "html": "<p>25&#8239;mg once daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Primary hyperaldosteronism in patients awaiting surgery",
+                        "html": "Primary hyperaldosteronism in patients awaiting surgery"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "100&#8211;400 mg daily, may be used for long-term maintenance if surgery inappropriate, use lowest effective dose.",
+                        "html": "<p>100&#8211;400&#8239;mg daily, may be used for long-term maintenance if surgery inappropriate, use lowest effective dose.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Resistant hypertension (adjunct) unlicensed indication.",
+                "html": "<p>Resistant hypertension (adjunct) unlicensed indication.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Addison&#8217;s disease",
+                "html": "Addison&#8217;s disease"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "anuria",
+                "html": "anuria"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "hyperkalaemia",
+                "html": "hyperkalaemia"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly",
+                "html": "elderly"
+            },
+            {
+                "type": "cautions",
+                "textContent": "potential metabolic products carcinogenic in rodents",
+                "html": "potential metabolic products carcinogenic in <i>rodents</i>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (diuretics).\n\nPotassium supplements must not be given with potassium-sparing diuretics.\n\nAdministration of a potassium-sparing diuretic to a patient receiving an ACE inhibitor or an angiotensin-II receptor antagonist can also cause severe hyperkalaemia.",
+                "html": "<p>Appendix 1 (diuretics).</p><p>Potassium supplements must <b>not</b> be given with potassium-sparing diuretics.</p><p>Administration of a potassium-sparing diuretic to a patient receiving an ACE inhibitor or an angiotensin-II receptor antagonist can also cause severe hyperkalaemia.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Acute renal failure",
+                        "html": "Acute renal failure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "agranulocytosis",
+                        "html": "agranulocytosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "alopecia",
+                        "html": "alopecia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "benign breast tumour",
+                        "html": "benign breast tumour",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "breast pain",
+                        "html": "breast pain",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "changes in libido",
+                        "html": "changes in libido",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "electrolyte disturbances",
+                        "html": "electrolyte disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gynaecomastia",
+                        "html": "gynaecomastia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hepatotoxicity",
+                        "html": "hepatotoxicity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperkalaemia (discontinue)",
+                        "html": "hyperkalaemia (discontinue)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypertrichosis",
+                        "html": "hypertrichosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperuricaemia",
+                        "html": "hyperuricaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyponatraemia",
+                        "html": "hyponatraemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "leg cramps",
+                        "html": "leg cramps",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "menstrual disturbances",
+                        "html": "menstrual disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Use only if potential benefit outweighs risk&#8212;feminisation of male fetus in animal studies.",
+                "html": "<p>Use only if potential benefit outweighs risk&#8212;feminisation of male fetus in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Metabolites present in milk, but amount probably too small to be harmful.",
+                "html": "<p>Metabolites present in milk, but amount probably too small to be harmful.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid in acute renal insufficiency or severe impairment.",
+                "html": "<p>Avoid in acute renal insufficiency or severe impairment.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Monitor plasma-potassium concentration (high risk of hyperkalaemia in renal impairment).",
+                "html": "<p>Monitor plasma-potassium concentration (high risk of hyperkalaemia in renal impairment).</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor electrolytes&#8212;discontinue if hyperkalaemia occurs (in severe heart failure monitor potassium and creatinine 1 week after initiation and after any dose increase, monthly for first 3 months, then every 3 months for 1 year, and then every 6 months).",
+                "html": "<p>Monitor electrolytes&#8212;discontinue if hyperkalaemia occurs (in <i>severe heart failure</i> monitor potassium and creatinine 1 week after initiation and after any dose increase, monthly for first 3 months, then every 3 months for 1 year, and then every 6 months).</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution",
+                "oral suspension"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75170",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP85563",
+                "label": "FUROSEMIDE WITH SPIRONOLACTONE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP92567",
+                "label": "CO-FLUMACTONE",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78138",
+                "label": "Heart failure",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78146",
+                "label": "Drugs affecting the renin-angiotensin system",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78178",
+                "label": "Diuretics",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_549",
+                "label": "Spironolactone",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75170",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

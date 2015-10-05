@@ -1,0 +1,104 @@
+{
+    "xml": "<topic id=\"PHP76769\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tapentadol/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Palexia 50mg tablets <ph outputclass=\"manufacturer\">(Grunenthal Ltd)</ph>\n</title>\n<data name=\"ampid\">18662511000001107</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Tapentadol (as Tapentadol hydrochloride) 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.46</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;12.46</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.91</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Palexia 75mg tablets <ph outputclass=\"manufacturer\">(Grunenthal Ltd)</ph>\n</title>\n<data name=\"ampid\">18662911000001100</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Tapentadol (as Tapentadol hydrochloride) 75&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;18.68</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;18.68</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">56</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;37.37</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2789\" title=\"TAPENTADOL\" namespace=\"/drugs/tapentadol\">TAPENTADOL</xref>\n</parents>\n</topic>",
+    "id": "PHP76769",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tapentadol/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Palexia 50mg tablets (Grunenthal Ltd) ",
+            "header": "Palexia 50mg tablets <ph outputclass=\"manufacturer\">(Grunenthal Ltd)</ph>",
+            "manufacturer": "(Grunenthal Ltd)",
+            "name": "Palexia 50mg tablets",
+            "ampid": "18662511000001107",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Tapentadol (as Tapentadol hydrochloride) 50 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.46 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.46</ph>",
+                        "nhsIndicativePrice": "&#163;12.46"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.46 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.46</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.46"
+                    }
+                },
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.91 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.91</ph>",
+                        "nhsIndicativePrice": "&#163;24.91"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Palexia 75mg tablets (Grunenthal Ltd) ",
+            "header": "Palexia 75mg tablets <ph outputclass=\"manufacturer\">(Grunenthal Ltd)</ph>",
+            "manufacturer": "(Grunenthal Ltd)",
+            "name": "Palexia 75mg tablets",
+            "ampid": "18662911000001100",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Tapentadol (as Tapentadol hydrochloride) 75 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;18.68 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;18.68</ph>",
+                        "nhsIndicativePrice": "&#163;18.68"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;18.68 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;18.68</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;18.68"
+                    }
+                },
+                {
+                    "textContent": " 56 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">56</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "56",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;37.37 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;37.37</ph>",
+                        "nhsIndicativePrice": "&#163;37.37"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2789",
+        "label": "TAPENTADOL"
+    }
+}

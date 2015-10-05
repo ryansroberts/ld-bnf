@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP76678\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/colestipol-hydrochloride/granules\" basename=\"granules\" title=\"Granules\">\n<title>Granules</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Colestid 5g granules sachets plain <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4083011000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Colestipol hydrochloride 5&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;15.05</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Colestid Orange 5g granules sachets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4083711000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Colestipol hydrochloride 5&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;15.05</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1665\" title=\"COLESTIPOL HYDROCHLORIDE\" namespace=\"/drugs/colestipol-hydrochloride\">COLESTIPOL HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76678",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/colestipol-hydrochloride/granules",
+    "basename": "granules",
+    "form": "Granules",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "13",
+            "textContent": "Dissolve or mix with water before taking",
+            "html": "Label <ph outputclass=\"labelNumber\">13</ph> - Dissolve or mix with water before taking"
+        }
+    ],
+    "products": [
+        {
+            "title": "Colestid 5g granules sachets plain (Pfizer Ltd) ",
+            "header": "Colestid 5g granules sachets plain <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Colestid 5g granules sachets plain",
+            "ampid": "4083011000001103",
+            "strengthOfActiveIngredient": "Colestipol hydrochloride 5 gram",
+            "packs": [
+                {
+                    "textContent": " 30 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;15.05 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;15.05</ph>",
+                        "nhsIndicativePrice": "&#163;15.05"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Colestid Orange 5g granules sachets (Pfizer Ltd) ",
+            "header": "Colestid Orange 5g granules sachets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Colestid Orange 5g granules sachets",
+            "ampid": "4083711000001101",
+            "strengthOfActiveIngredient": "Colestipol hydrochloride 5 gram",
+            "packs": [
+                {
+                    "textContent": " 30 sachet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;15.05 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;15.05</ph>",
+                        "nhsIndicativePrice": "&#163;15.05"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1665",
+        "label": "COLESTIPOL HYDROCHLORIDE"
+    }
+}

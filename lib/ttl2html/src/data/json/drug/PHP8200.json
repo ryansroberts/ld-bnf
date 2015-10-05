@@ -1,0 +1,182 @@
+{
+    "xml": "<topic id=\"PHP8200\" outputclass=\"drug\" rev=\"1.14\" type=\"drug\" namespace=\"/drugs/aluminium-chloride-hexahydrate\" basename=\"aluminium-chloride-hexahydrate\" title=\"ALUMINIUM CHLORIDE HEXAHYDRATE\">\n<title>ALUMINIUM CHLORIDE HEXAHYDRATE</title>\n<body>\n<data name=\"vtmid\">66860004</data>\n</body>\n<topic id=\"PHP44959\" outputclass=\"indicationsAndDose\" rev=\"1.18\" parent=\"/drugs/aluminium-chloride-hexahydrate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hyperhidrosis affecting axillae, hands or feet</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply once daily, apply liquid formulation at night to dry skin, wash off the following morning, reduce frequency as condition improves&#8212;do not bathe immediately before use.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Hyperhidrosis</p>\n<p outputclass=\"therapeuticIndication\">Bromidrosis</p>\n<p outputclass=\"therapeuticIndication\">Intertrigo</p>\n<p outputclass=\"therapeuticIndication\">Prevention of tinea pedis and related conditions</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply powder to dry skin.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP45010\" outputclass=\"cautions\" rev=\"1.11\" parent=\"/drugs/aluminium-chloride-hexahydrate\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Avoid contact with eyes</ph>; <ph outputclass=\"caution\">avoid contact with mucous membranes</ph>; <ph outputclass=\"caution\">avoid use on broken or irritated skin</ph>; <ph outputclass=\"caution\">do not shave axillae or use depilatories within 12 hours of application</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44908\" outputclass=\"sideEffects\" rev=\"1.10\" parent=\"/drugs/aluminium-chloride-hexahydrate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Skin irritation</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44926\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/drugs/aluminium-chloride-hexahydrate\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Avoid contact with clothing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44869\" outputclass=\"exceptionsToLegalCategory\" rev=\"1.9\" parent=\"/drugs/aluminium-chloride-hexahydrate\">\n<title>Exceptions to legal category</title>\n<body>\n<section>\n<sectiondiv>\n<p>A 30&#8239;mL pack of aluminium chloride hexahydrate 20% is on sale to the public.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP8200-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/aluminium-chloride-hexahydrate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75196\" title=\"Liquid\" namespace=\"/drugs/aluminium-chloride-hexahydrate/liquid\">Liquid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75210\" title=\"Spray\" namespace=\"/drugs/aluminium-chloride-hexahydrate/spray\">Spray</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78384\" namespace=\"/treatment-summaries/antiperspirants\" title=\"Antiperspirants\" count=\"1\" rel=\"backlink\">Antiperspirants</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75196\" namespace=\"/drugs/aluminium-chloride-hexahydrate/liquid\" title=\"Liquid\" count=\"1\" rel=\"link\">Liquid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75210\" namespace=\"/drugs/aluminium-chloride-hexahydrate/spray\" title=\"Spray\" count=\"1\" rel=\"link\">Spray</xref>\n</links>\n</topic>",
+    "id": "PHP8200",
+    "outputclass": "drug",
+    "rev": "1.14",
+    "type": "drug",
+    "namespace": "/drugs/aluminium-chloride-hexahydrate",
+    "basename": "aluminium-chloride-hexahydrate",
+    "title": "ALUMINIUM CHLORIDE HEXAHYDRATE",
+    "vtmid": "66860004",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hyperhidrosis affecting axillae, hands or feet",
+                        "html": "Hyperhidrosis affecting axillae, hands or feet"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply once daily, apply liquid formulation at night to dry skin, wash off the following morning, reduce frequency as condition improves&#8212;do not bathe immediately before use.",
+                        "html": "<p>Apply once daily, apply liquid formulation at night to dry skin, wash off the following morning, reduce frequency as condition improves&#8212;do not bathe immediately before use.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Hyperhidrosis",
+                        "html": "Hyperhidrosis"
+                    },
+                    {
+                        "textContent": "Bromidrosis",
+                        "html": "Bromidrosis"
+                    },
+                    {
+                        "textContent": "Intertrigo",
+                        "html": "Intertrigo"
+                    },
+                    {
+                        "textContent": "Prevention of tinea pedis and related conditions",
+                        "html": "Prevention of tinea pedis and related conditions"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply powder to dry skin.",
+                        "html": "<p>Apply powder to dry skin.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid contact with eyes",
+                "html": "Avoid contact with eyes"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid contact with mucous membranes",
+                "html": "avoid contact with mucous membranes"
+            },
+            {
+                "type": "cautions",
+                "textContent": "avoid use on broken or irritated skin",
+                "html": "avoid use on broken or irritated skin"
+            },
+            {
+                "type": "cautions",
+                "textContent": "do not shave axillae or use depilatories within 12 hours of application",
+                "html": "do not shave axillae or use depilatories within 12 hours of application"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Skin irritation",
+                        "html": "Skin irritation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Avoid contact with clothing.",
+                "html": "<p>Avoid contact with clothing.</p>"
+            }
+        ]
+    },
+    "exceptionsToLegalCategory": {
+        "exceptionsToLegalCategory": [
+            {
+                "type": "exceptionsToLegalCategory",
+                "textContent": "A 30 mL pack of aluminium chloride hexahydrate 20% is on sale to the public.",
+                "html": "<p>A 30&#8239;mL pack of aluminium chloride hexahydrate 20% is on sale to the public.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75196",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75210",
+                "label": "Spray",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "treatmentSummary": [
+            {
+                "id": "PHP78384",
+                "label": "Antiperspirants",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75196",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75210",
+                "label": "Spray",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

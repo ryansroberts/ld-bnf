@@ -1,0 +1,61 @@
+{
+    "xml": "<topic id=\"PHP75869\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/catumaxomab/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Removab 10micrograms/0.1ml concentrate for solution for infusion pre-filled syringes <ph outputclass=\"manufacturer\">(Neovii Biotech GmbH)</ph>\n</title>\n<data name=\"ampid\">20307311000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Catumaxomab 100&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;510.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Removab 50micrograms/0.5ml concentrate for solution for infusion pre-filled syringes <ph outputclass=\"manufacturer\">(Neovii Biotech GmbH)</ph>\n</title>\n<data name=\"ampid\">20307611000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Catumaxomab 100&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2550.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5447\" title=\"CATUMAXOMAB\" namespace=\"/drugs/catumaxomab\">CATUMAXOMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP75869",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/catumaxomab/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Removab 10micrograms/0.1ml concentrate for solution for infusion pre-filled syringes (Neovii Biotech GmbH) ",
+            "header": "Removab 10micrograms/0.1ml concentrate for solution for infusion pre-filled syringes <ph outputclass=\"manufacturer\">(Neovii Biotech GmbH)</ph>",
+            "manufacturer": "(Neovii Biotech GmbH)",
+            "name": "Removab 10micrograms/0.1ml concentrate for solution for infusion pre-filled syringes",
+            "ampid": "20307311000001108",
+            "strengthOfActiveIngredient": "Catumaxomab 100 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;510.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;510.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;510.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Removab 50micrograms/0.5ml concentrate for solution for infusion pre-filled syringes (Neovii Biotech GmbH) ",
+            "header": "Removab 50micrograms/0.5ml concentrate for solution for infusion pre-filled syringes <ph outputclass=\"manufacturer\">(Neovii Biotech GmbH)</ph>",
+            "manufacturer": "(Neovii Biotech GmbH)",
+            "name": "Removab 50micrograms/0.5ml concentrate for solution for infusion pre-filled syringes",
+            "ampid": "20307611000001103",
+            "strengthOfActiveIngredient": "Catumaxomab 100 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2550.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2550.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;2550.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5447",
+        "label": "CATUMAXOMAB"
+    }
+}

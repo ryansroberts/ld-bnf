@@ -1,0 +1,143 @@
+{
+    "xml": "<topic id=\"PHP85591\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/dutasteride-with-tamsulosin\" basename=\"dutasteride-with-tamsulosin\" title=\"DUTASTERIDE WITH TAMSULOSIN\">\n<title>DUTASTERIDE WITH TAMSULOSIN </title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_33\" namespace=\"/interactions/list-of-drug-interactions/alpha-blockers/alpha-blockers-post-synaptic/tamsulosin\">Tamsulosin</xref>, <xref format=\"dita\" href=\"#bnf_int_975\" namespace=\"/interactions/list-of-drug-interactions/hormone-antagonists/dutasteride\">Dutasteride</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP4548\" namespace=\"/drugs/dutasteride\">dutasteride</xref>, <xref format=\"dita\" href=\"#PHP5050\" namespace=\"/drugs/tamsulosin-hydrochloride\">tamsulosin hydrochloride</xref>.</p>\n<data name=\"vtmid\">17198211000001104</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_794871746\" title=\"5&#945;-reductase inhibitors\">5&#945;-reductase inhibitors</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_658662261\" title=\"Alpha-adrenoceptor blockers\">Alpha-adrenoceptor blockers</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP86806\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/drugs/dutasteride-with-tamsulosin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Benign prostatic hyperplasia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult male\">\n<p>Adult (male)</p>\n<p>1&#8239;capsule daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP86809\" outputclass=\"patientAndCarerAdvice\" rev=\"1.12\" parent=\"/drugs/dutasteride-with-tamsulosin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p>May affect performance of skilled tasks e.g. driving.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85591-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/dutasteride-with-tamsulosin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92241\" title=\"Capsule\" namespace=\"/drugs/dutasteride-with-tamsulosin/capsule\">Capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_33\" namespace=\"/interactions/list-of-drug-interactions/alpha-blockers/alpha-blockers-post-synaptic/tamsulosin\" title=\"Tamsulosin\" count=\"1\" rel=\"link\">Tamsulosin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_975\" namespace=\"/interactions/list-of-drug-interactions/hormone-antagonists/dutasteride\" title=\"Dutasteride\" count=\"1\" rel=\"link\">Dutasteride</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4548\" namespace=\"/drugs/dutasteride\" title=\"DUTASTERIDE\" count=\"1\" rel=\"link\">DUTASTERIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5050\" namespace=\"/drugs/tamsulosin-hydrochloride\" title=\"TAMSULOSIN HYDROCHLORIDE\" count=\"1\" rel=\"link\">TAMSULOSIN HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92241\" namespace=\"/drugs/dutasteride-with-tamsulosin/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n</links>\n</topic>",
+    "id": "PHP85591",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/dutasteride-with-tamsulosin",
+    "basename": "dutasteride-with-tamsulosin",
+    "title": "DUTASTERIDE WITH TAMSULOSIN",
+    "interactants": [
+        {
+            "id": "bnf_int_33",
+            "label": "Tamsulosin"
+        },
+        {
+            "id": "bnf_int_975",
+            "label": "Dutasteride"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP4548",
+            "label": "dutasteride"
+        },
+        {
+            "id": "PHP5050",
+            "label": "tamsulosin hydrochloride"
+        }
+    ],
+    "vtmid": "17198211000001104",
+    "drugClassification": [
+        "5&#945;-reductase inhibitors",
+        "Alpha-adrenoceptor blockers"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Benign prostatic hyperplasia",
+                        "html": "Benign prostatic hyperplasia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult male": [
+                    {
+                        "textContent": "1 capsule daily.",
+                        "html": "<p>1&#8239;capsule daily.</p>",
+                        "ageGroup": "adult (male)"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "textContent": "May affect performance of skilled tasks e.g. driving.",
+                "html": "<p>May affect performance of skilled tasks e.g. driving.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92241",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_33",
+                "label": "Tamsulosin",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_975",
+                "label": "Dutasteride",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP4548",
+                "label": "DUTASTERIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP5050",
+                "label": "TAMSULOSIN HYDROCHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92241",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

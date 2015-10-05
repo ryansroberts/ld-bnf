@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP79680\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/df118-forte\" basename=\"df118-forte\" title=\"DF118 Forte\">\n<title>DF118 Forte<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP80313\" outputclass=\"indicationsAndDose\" rev=\"1.22\" parent=\"/clinical-medicinal-product-information/df118-forte\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe pain</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>40&#8211;80&#8239;mg 3 times a day; maximum 240&#8239;mg per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>40&#8211;80&#8239;mg 3 times a day; maximum 240&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP79680",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/df118-forte",
+    "basename": "df118-forte",
+    "title": "DF118 Forte",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe pain",
+                        "html": "Severe pain"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "40&#8211;80 mg 3 times a day; maximum 240 mg per day.",
+                        "html": "<p>40&#8211;80&#8239;mg 3 times a day; maximum 240&#8239;mg per day.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "40&#8211;80 mg 3 times a day; maximum 240 mg per day.",
+                        "html": "<p>40&#8211;80&#8239;mg 3 times a day; maximum 240&#8239;mg per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

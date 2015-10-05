@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP96836\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\r\n<p>Label <ph outputclass=\"labelNumber\">17</ph> - Do not take more than . . . in 24 hours </p>\r\n<p>Label <ph outputclass=\"labelNumber\">30</ph> - Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">  </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Migraleve tablets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">3363411000001108</data>\r\n<p outputclass=\"controlledDrugs\">Schedule 5 (CD Inv)</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.45</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">24</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.45</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">48</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.64</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92543\" title=\"BUCLIZINE HYDROCHLORIDE WITH CODEINE PHOSPHATE AND PARACETAMOL\" namespace=\"/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol\">BUCLIZINE HYDROCHLORIDE WITH CODEINE PHOSPHATE AND PARACETAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP96836",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/buclizine-hydrochloride-with-codeine-phosphate-and-paracetamol/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "17",
+            "textContent": "Do not take more than . . . in 24 hours",
+            "html": "Label <ph outputclass=\"labelNumber\">17</ph> - Do not take more than . . . in 24 hours"
+        },
+        {
+            "number": "30",
+            "textContent": "Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well",
+            "html": "Label <ph outputclass=\"labelNumber\">30</ph> - Contains paracetamol. Do not take anything else containing paracetamol while taking this medicine. Talk to a doctor at once if you take too much of this medicine, even if you feel well"
+        }
+    ],
+    "products": [
+        {
+            "title": "Migraleve tablets (McNeil Products Ltd) ",
+            "header": "Migraleve tablets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Migraleve tablets",
+            "ampid": "3363411000001108",
+            "controlledDrugs": "Schedule 5 (CD Inv)",
+            "packs": [
+                {
+                    "textContent": " 12 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.45 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.45</ph>",
+                        "nhsIndicativePrice": "&#163;3.45"
+                    }
+                },
+                {
+                    "textContent": " 24 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">24</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "24",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.45 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.45</ph>",
+                        "nhsIndicativePrice": "&#163;5.45"
+                    }
+                },
+                {
+                    "textContent": " 48 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">48</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "48",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.64 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.64</ph>",
+                        "nhsIndicativePrice": "&#163;3.64"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP92543",
+        "label": "BUCLIZINE HYDROCHLORIDE WITH CODEINE PHOSPHATE AND PARACETAMOL"
+    }
+}

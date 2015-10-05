@@ -1,0 +1,820 @@
+{
+    "xml": "<topic id=\"PHP3007\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/clobazam\" basename=\"clobazam\" title=\"CLOBAZAM\">\n<title>CLOBAZAM</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_409\" namespace=\"/interactions/list-of-drug-interactions/anxiolytics-and-hypnotics/benzodiazepines/clobazam\">Clobazam</xref>\n</p>\n<data name=\"vtmid\">96236000</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_916643688\" title=\"Hypnotics and sedatives (benzodiazepine)\">Hypnotics and sedatives (benzodiazepine)</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34584\" title=\"BENZODIAZEPINES\" namespace=\"/drug-classes/benzodiazepines\">BENZODIAZEPINES</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP65368\" outputclass=\"indicationsAndDose\" rev=\"1.49\" parent=\"/drugs/clobazam\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Adjunct in epilepsy</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;17 years</p>\n<p>Initially 5&#8239;mg daily, dose to be increased if necessary at intervals of 5 days, maintenance 0.3&#8211;1&#8239;mg/kg daily, daily doses of up to 30&#8239;mg may be given as a single dose at bedtime, higher doses should be divided; maximum 60&#8239;mg per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8211;30&#8239;mg daily, then increased if necessary up to 60&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Anxiety (short-term use)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8211;30&#8239;mg daily in divided doses, alternatively 20&#8211;30&#8239;mg once daily, dose to be taken at bedtime; increased if necessary up to 60&#8239;mg daily in divided doses, dose only increased in severe anxiety (in hospital patients), for debilitated patients, use elderly dose.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>10&#8211;20&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65314\" outputclass=\"unlicensedUse\" rev=\"1.9\" parent=\"/drugs/clobazam\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Not licensed for use in children under 6 years.</p>\n<p>Not licensed as monotherapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65446\" outputclass=\"contraindications\" rev=\"1.16\" parent=\"/drugs/clobazam\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Chronic psychosis</ph> (in adults); <ph outputclass=\"contraindication\">hyperkinesis</ph>; <ph outputclass=\"contraindication\">not for use alone to treat anxiety associated with depression</ph> (in adults); <ph outputclass=\"contraindication\">obsessional states</ph>; <ph outputclass=\"contraindication\">phobic states</ph>; <ph outputclass=\"contraindication\">respiratory depression</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65453\" outputclass=\"cautions\" rev=\"1.21\" parent=\"/drugs/clobazam\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Muscle weakness</ph>; <ph outputclass=\"caution\">organic brain changes</ph>; <ph outputclass=\"caution\">personality disorder (within the fearful group&#8212;dependent, avoidant, obsessive-compulsive) may increase risk of dependence</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p>The effectiveness of clobazam may decrease significantly after weeks or months of continuous therapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65342\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drugs/clobazam\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Amnesia</ph>; <ph outputclass=\"sideEffect\">ataxia (especially in the elderly)</ph>; <ph outputclass=\"sideEffect\">confusion (especially in the elderly)</ph>; <ph outputclass=\"sideEffect\">dependence</ph>; <ph outputclass=\"sideEffect\">drowsiness the next day</ph>; <ph outputclass=\"sideEffect\">lightheadedness the next day</ph>; <ph outputclass=\"sideEffect\">muscle weakness</ph>; <ph outputclass=\"sideEffect\">paradoxical increase in aggression</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Changes in libido</ph> (in adults); <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">dysarthria</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">gynaecomastia</ph>; <ph outputclass=\"sideEffect\">headache</ph> (in adults); <ph outputclass=\"sideEffect\">hypotension</ph> (in adults); <ph outputclass=\"sideEffect\">incontinence</ph>; <ph outputclass=\"sideEffect\">salivation changes</ph>; <ph outputclass=\"sideEffect\">slurred speech</ph> (in adults); <ph outputclass=\"sideEffect\">tremor</ph>; <ph outputclass=\"sideEffect\">urinary retention</ph> (in adults); <ph outputclass=\"sideEffect\">vertigo</ph> (in adults); <ph outputclass=\"sideEffect\">visual disturbances</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Apnoea</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">changes in libido</ph> (in children); <ph outputclass=\"sideEffect\">headache</ph> (in children); <ph outputclass=\"sideEffect\">hypotension</ph> (in children); <ph outputclass=\"sideEffect\">jaundice</ph>; <ph outputclass=\"sideEffect\">respiratory depression</ph>; <ph outputclass=\"sideEffect\">skin reactions</ph>; <ph outputclass=\"sideEffect\">urinary retention</ph> (in children); <ph outputclass=\"sideEffect\">vertigo</ph> (in children)</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Delusions</ph> (in children); <ph outputclass=\"sideEffect\">excitement</ph> (in children); <ph outputclass=\"sideEffect\">hallucinations</ph> (in children); <ph outputclass=\"sideEffect\">irritability</ph> (in children); <ph outputclass=\"sideEffect\">psychosis</ph> (in children); <ph outputclass=\"sideEffect\">restlessness</ph> (in children)</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65450\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/clobazam\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Prescribers should consider carefully the choice of antiepileptic therapy in pre-pubescent girls who may later become pregnant.</p>\n<p>Women of child-bearing potential who take antiepileptic drugs should be given contraceptive advice. Some antiepileptic drugs can reduce the efficacy of hormonal contraceptives, and the efficacy of some antiepileptics may be affected by hormonal contraceptives.</p>\n<p>Women who want to become pregnant should be referred to a specialist for advice in advance of conception. For some women, the severity of seizure or the seizure type may not pose a serious threat, and drug withdrawal may be considered; therapy may be resumed after the first trimester. If treatment with antiepileptic drugs must continue throughout pregnancy, then monotherapy is preferable at the lowest effective dose.</p>\n<p>To reduce the risk of neural tube defects, folate supplementation is advised before conception.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65360\" outputclass=\"pregnancy\" parent=\"/drugs/clobazam\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">When used for <ph outputclass=\"indication\">Epilepsy</ph>\n</p>\n<p outputclass=\"title\">Epilepsy and Pregnancy Register</p>\n<p>All pregnant women with epilepsy, whether taking medication or not, should be encouraged to notify the UK Epilepsy and Pregnancy Register (Tel: 0800 389 1248).</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInPregnancy\">\n<sectiondiv>\n<p>Women who have seizures in the second half of pregnancy should be assessed for eclampsia before any change is made to antiepileptic treatment. Status epilepticus should be treated according to the standard protocol.</p>\n<p>The concentration of antiepileptic drugs in the plasma can change during pregnancy. The dose of antiepileptic drugs should be monitored carefully during pregnancy and after birth, and adjustments made on a clinical basis.</p>\n<p>Plasma-drug concentration monitoring during pregnancy is also useful to check compliance.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65457\" outputclass=\"breastFeeding\" parent=\"/drugs/clobazam\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Benzodiazepines are present in milk, and should be avoided if possible during breast-feeding.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInBreastFeeding\">\n<sectiondiv>\n<p>All infants should be monitored for sedation, feeding difficulties, adequate weight gain, and developmental milestones.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65413\" outputclass=\"hepaticImpairment\" parent=\"/drugs/clobazam\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Start with smaller initial doses or reduce dose.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Can precipitate coma.</p>\n<p>Avoid in severe impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65352\" outputclass=\"renalImpairment\" parent=\"/drugs/clobazam\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Start with small doses in severe impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65311\" outputclass=\"monitoringRequirements\" parent=\"/drugs/clobazam\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p outputclass=\"title\">Monitoring</p>\n<p>Routine measurement of plasma concentrations of antiepileptic drugs is not usually justified, because the target concentration ranges are arbitrary and often vary between individuals. However, plasma drug concentrations may be measured in children with worsening seizures, status epilepticus, suspected noncompliance, or suspected toxicity. Similarly, haematological and biochemical monitoring should not be undertaken unless clinically indicated.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65334\" outputclass=\"treatmentCessation\" rev=\"1.11\" parent=\"/drugs/clobazam\">\n<title>Treatment cessation</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Drugs should be gradually withdrawn over at least 2&#8211;3 months by reducing the daily dose by 10&#8211;25% at intervals of 1&#8211;2 weeks. Benzodiazepines may need to be withdrawn over 6 months or longer.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Antiepileptic drugs should be withdrawn under specialist supervision. Avoid abrupt withdrawal because this can precipitate severe rebound seizures. Reduction in dosage should be gradual.</p>\n<p>The decision to withdraw antiepileptic drugs from a seizure-free patient, and its timing, is often difficult and depends on individual circumstances. Even in patients who have been seizure-free for several years, there is a significant risk of seizure recurrence on drug withdrawal.</p>\n<p>In patients receiving several antiepileptic drugs, only one drug should be withdrawn at a time.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP57761\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.10\" parent=\"/drugs/clobazam\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Switching between formulations</p>\n<p>Care should be taken when switching between oral formulations in the treatment of epilepsy. The need for continued supply of a particular manufacturer's product should be based on clinical judgement and consultation with the patient or their carer, taking into account factors such as seizure frequency and treatment history.</p>\n<p>Patients being treated for epilepsy may need to be maintained on a specific manufacturer&#8217;s branded or generic clobazam product.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65356\" outputclass=\"patientAndCarerAdvice\" rev=\"1.22\" parent=\"/drugs/clobazam\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\r\n<title>Driving and skilled tasks</title>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Driving</p>\r\n<p>Patients with epilepsy may drive a motor vehicle (but not a large goods or passenger carrying vehicle) provided that they have been seizure-free for one year or, if subject to attacks only while asleep, have established a 3-year period of asleep attacks without awake attacks. Those affected by drowsiness should not drive or operate machinery.</p>\r\n<p>Guidance issued by the Drivers Medical Unit of the Driver and Vehicle Licensing Agency (DVLA) recommends that patients should be advised not to drive during medication changes or withdrawal of antiepileptic drugs, and for 6 months afterwards.</p>\r\n<p>Patients who have had a first or single epileptic seizure must not drive for 6 months (5 years in the case of large goods or passenger carrying vehicles) after the event; driving may then be resumed, provided the patient has been assessed by a specialist as fit to drive because no abnormality was detected on investigation.</p>\n</sectiondiv>\n</section>\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Clobazam for preventing seizures</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/clobazam-preventing-seizures-0\">www.medicinesforchildren.org.uk/clobazam-preventing-seizures-0</xref>\n</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP65289\" outputclass=\"nationalFunding\" rev=\"1.10\" parent=\"/drugs/clobazam\">\n<title>National funding/access decisions</title>\n<body>\n<section outputclass=\"nonNHS\">\n<title>NHS restrictions</title>\n<sectiondiv>\n<p>Clobazam is not prescribable under the NHS except for epilepsy and endorsed 'SLS'.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3007-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/clobazam\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral suspension, capsule</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77396\" title=\"Tablet\" namespace=\"/drugs/clobazam/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77414\" title=\"Oral suspension\" namespace=\"/drugs/clobazam/oral-suspension\">Oral suspension</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78112\" namespace=\"/treatment-summaries/hypnotics-and-anxiolytics\" title=\"Hypnotics and anxiolytics\" count=\"1\" rel=\"backlink\">Hypnotics and anxiolytics</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78230\" namespace=\"/treatment-summaries/epilepsy\" title=\"Epilepsy\" count=\"6\" rel=\"backlink\">Epilepsy</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_409\" namespace=\"/interactions/list-of-drug-interactions/anxiolytics-and-hypnotics/benzodiazepines/clobazam\" title=\"Clobazam\" count=\"1\" rel=\"link\">Clobazam</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34584\" namespace=\"/drug-classes/benzodiazepines\" title=\"BENZODIAZEPINES\" count=\"1\" rel=\"link\">BENZODIAZEPINES</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77396\" namespace=\"/drugs/clobazam/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77414\" namespace=\"/drugs/clobazam/oral-suspension\" title=\"Oral suspension\" count=\"1\" rel=\"link\">Oral suspension</xref>\n</links>\n</topic>",
+    "id": "PHP3007",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/clobazam",
+    "basename": "clobazam",
+    "title": "CLOBAZAM",
+    "interactants": [
+        {
+            "id": "bnf_int_409",
+            "label": "Clobazam"
+        }
+    ],
+    "vtmid": "96236000",
+    "drugClassification": [
+        "Hypnotics and sedatives (benzodiazepine)"
+    ],
+    "inheritsFromClass": [
+        "BENZODIAZEPINES"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Adjunct in epilepsy",
+                        "html": "Adjunct in epilepsy"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 5 mg daily, dose to be increased if necessary at intervals of 5 days, maintenance 0.3&#8211;1 mg/kg daily, daily doses of up to 30 mg may be given as a single dose at bedtime, higher doses should be divided; maximum 60 mg per day.",
+                        "html": "<p>Initially 5&#8239;mg daily, dose to be increased if necessary at intervals of 5 days, maintenance 0.3&#8211;1&#8239;mg/kg daily, daily doses of up to 30&#8239;mg may be given as a single dose at bedtime, higher doses should be divided; maximum 60&#8239;mg per day.</p>",
+                        "ageGroup": "6&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "20&#8211;30 mg daily, then increased if necessary up to 60 mg daily.",
+                        "html": "<p>20&#8211;30&#8239;mg daily, then increased if necessary up to 60&#8239;mg daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Anxiety (short-term use)",
+                        "html": "Anxiety (short-term use)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "20&#8211;30 mg daily in divided doses, alternatively 20&#8211;30 mg once daily, dose to be taken at bedtime; increased if necessary up to 60 mg daily in divided doses, dose only increased in severe anxiety (in hospital patients), for debilitated patients, use elderly dose.",
+                        "html": "<p>20&#8211;30&#8239;mg daily in divided doses, alternatively 20&#8211;30&#8239;mg once daily, dose to be taken at bedtime; increased if necessary up to 60&#8239;mg daily in divided doses, dose only increased in severe anxiety (in hospital patients), for debilitated patients, use elderly dose.</p>"
+                    },
+                    {
+                        "textContent": "10&#8211;20 mg daily.",
+                        "html": "<p>10&#8211;20&#8239;mg daily.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Not licensed for use in children under 6 years.\n\nNot licensed as monotherapy.",
+                "html": "<p>Not licensed for use in children under 6 years.</p><p>Not licensed as monotherapy.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Chronic psychosis in adults",
+                "html": "Chronic psychosis in adults",
+                "specificity": {
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "contraindications",
+                "textContent": "hyperkinesis",
+                "html": "hyperkinesis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "not for use alone to treat anxiety associated with depression in adults",
+                "html": "not for use alone to treat anxiety associated with depression in adults",
+                "specificity": {
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "contraindications",
+                "textContent": "obsessional states",
+                "html": "obsessional states"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "phobic states",
+                "html": "phobic states"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "respiratory depression",
+                "html": "respiratory depression"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Muscle weakness",
+                "html": "Muscle weakness"
+            },
+            {
+                "type": "cautions",
+                "textContent": "organic brain changes",
+                "html": "organic brain changes"
+            },
+            {
+                "type": "cautions",
+                "textContent": "personality disorder (within the fearful group&#8212;dependent, avoidant, obsessive-compulsive) may increase risk of dependence",
+                "html": "personality disorder (within the fearful group&#8212;dependent, avoidant, obsessive-compulsive) may increase risk of dependence"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "textContent": "The effectiveness of clobazam may decrease significantly after weeks or months of continuous therapy.",
+                "html": "<p>The effectiveness of clobazam may decrease significantly after weeks or months of continuous therapy.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Amnesia",
+                        "html": "Amnesia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "ataxia (especially in the elderly)",
+                        "html": "ataxia (especially in the elderly)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "confusion (especially in the elderly)",
+                        "html": "confusion (especially in the elderly)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dependence",
+                        "html": "dependence",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "drowsiness the next day",
+                        "html": "drowsiness the next day",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "lightheadedness the next day",
+                        "html": "lightheadedness the next day",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "muscle weakness",
+                        "html": "muscle weakness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paradoxical increase in aggression",
+                        "html": "paradoxical increase in aggression",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Changes in libido in adults",
+                        "html": "Changes in libido in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "dysarthria",
+                        "html": "dysarthria",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "gynaecomastia",
+                        "html": "gynaecomastia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "headache in adults",
+                        "html": "headache in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "hypotension in adults",
+                        "html": "hypotension in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "incontinence",
+                        "html": "incontinence",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "salivation changes",
+                        "html": "salivation changes",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "slurred speech in adults",
+                        "html": "slurred speech in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "urinary retention in adults",
+                        "html": "urinary retention in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "vertigo in adults",
+                        "html": "vertigo in adults",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "visual disturbances",
+                        "html": "visual disturbances",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Apnoea",
+                        "html": "Apnoea",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "changes in libido in children",
+                        "html": "changes in libido in children",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "headache in children",
+                        "html": "headache in children",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hypotension in children",
+                        "html": "hypotension in children",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "jaundice",
+                        "html": "jaundice",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "respiratory depression",
+                        "html": "respiratory depression",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "skin reactions",
+                        "html": "skin reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "urinary retention in children",
+                        "html": "urinary retention in children",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "vertigo in children",
+                        "html": "vertigo in children",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare",
+                            "patientType": "children"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Delusions in children",
+                        "html": "Delusions in children",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "excitement in children",
+                        "html": "excitement in children",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hallucinations in children",
+                        "html": "hallucinations in children",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "irritability in children",
+                        "html": "irritability in children",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "psychosis in children",
+                        "html": "psychosis in children",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "children"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "restlessness in children",
+                        "html": "restlessness in children",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "children"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Prescribers should consider carefully the choice of antiepileptic therapy in pre-pubescent girls who may later become pregnant.\n\nWomen of child-bearing potential who take antiepileptic drugs should be given contraceptive advice. Some antiepileptic drugs can reduce the efficacy of hormonal contraceptives, and the efficacy of some antiepileptics may be affected by hormonal contraceptives.\n\nWomen who want to become pregnant should be referred to a specialist for advice in advance of conception. For some women, the severity of seizure or the seizure type may not pose a serious threat, and drug withdrawal may be considered; therapy may be resumed after the first trimester. If treatment with antiepileptic drugs must continue throughout pregnancy, then monotherapy is preferable at the lowest effective dose.\n\nTo reduce the risk of neural tube defects, folate supplementation is advised before conception.",
+                "html": "<p>Prescribers should consider carefully the choice of antiepileptic therapy in pre-pubescent girls who may later become pregnant.</p><p>Women of child-bearing potential who take antiepileptic drugs should be given contraceptive advice. Some antiepileptic drugs can reduce the efficacy of hormonal contraceptives, and the efficacy of some antiepileptics may be affected by hormonal contraceptives.</p><p>Women who want to become pregnant should be referred to a specialist for advice in advance of conception. For some women, the severity of seizure or the seizure type may not pose a serious threat, and drug withdrawal may be considered; therapy may be resumed after the first trimester. If treatment with antiepileptic drugs must continue throughout pregnancy, then monotherapy is preferable at the lowest effective dose.</p><p>To reduce the risk of neural tube defects, folate supplementation is advised before conception.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "When used for Epilepsy",
+                    "html": "When used for <ph outputclass=\"indication\">Epilepsy</ph>",
+                    "indications": [
+                        "Epilepsy"
+                    ]
+                },
+                "title": "Epilepsy and Pregnancy Register",
+                "textContent": "All pregnant women with epilepsy, whether taking medication or not, should be encouraged to notify the UK Epilepsy and Pregnancy Register (Tel: 0800 389 1248).",
+                "html": "<p>All pregnant women with epilepsy, whether taking medication or not, should be encouraged to notify the UK Epilepsy and Pregnancy Register (Tel: 0800 389 1248).</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Women who have seizures in the second half of pregnancy should be assessed for eclampsia before any change is made to antiepileptic treatment. Status epilepticus should be treated according to the standard protocol.\n\nThe concentration of antiepileptic drugs in the plasma can change during pregnancy. The dose of antiepileptic drugs should be monitored carefully during pregnancy and after birth, and adjustments made on a clinical basis.\n\nPlasma-drug concentration monitoring during pregnancy is also useful to check compliance.",
+                "html": "<p>Women who have seizures in the second half of pregnancy should be assessed for eclampsia before any change is made to antiepileptic treatment. Status epilepticus should be treated according to the standard protocol.</p><p>The concentration of antiepileptic drugs in the plasma can change during pregnancy. The dose of antiepileptic drugs should be monitored carefully during pregnancy and after birth, and adjustments made on a clinical basis.</p><p>Plasma-drug concentration monitoring during pregnancy is also useful to check compliance.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Benzodiazepines are present in milk, and should be avoided if possible during breast-feeding.",
+                "html": "<p>Benzodiazepines are present in milk, and should be avoided if possible during breast-feeding.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "All infants should be monitored for sedation, feeding difficulties, adequate weight gain, and developmental milestones.",
+                "html": "<p>All infants should be monitored for sedation, feeding difficulties, adequate weight gain, and developmental milestones.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Start with smaller initial doses or reduce dose.",
+                "html": "<p>Start with smaller initial doses or reduce dose.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Can precipitate coma.\n\nAvoid in severe impairment.",
+                "html": "<p>Can precipitate coma.</p><p>Avoid in severe impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Start with small doses in severe impairment.",
+                "html": "<p>Start with small doses in severe impairment.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Monitoring",
+                "textContent": "Routine measurement of plasma concentrations of antiepileptic drugs is not usually justified, because the target concentration ranges are arbitrary and often vary between individuals. However, plasma drug concentrations may be measured in children with worsening seizures, status epilepticus, suspected noncompliance, or suspected toxicity. Similarly, haematological and biochemical monitoring should not be undertaken unless clinically indicated.",
+                "html": "<p>Routine measurement of plasma concentrations of antiepileptic drugs is not usually justified, because the target concentration ranges are arbitrary and often vary between individuals. However, plasma drug concentrations may be measured in children with worsening seizures, status epilepticus, suspected noncompliance, or suspected toxicity. Similarly, haematological and biochemical monitoring should not be undertaken unless clinically indicated.</p>"
+            }
+        ]
+    },
+    "treatmentCessation": {
+        "treatmentCessation": [
+            {
+                "type": "treatmentCessation",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Drugs should be gradually withdrawn over at least 2&#8211;3 months by reducing the daily dose by 10&#8211;25% at intervals of 1&#8211;2 weeks. Benzodiazepines may need to be withdrawn over 6 months or longer.",
+                "html": "<p>Drugs should be gradually withdrawn over at least 2&#8211;3 months by reducing the daily dose by 10&#8211;25% at intervals of 1&#8211;2 weeks. Benzodiazepines may need to be withdrawn over 6 months or longer.</p>"
+            },
+            {
+                "type": "treatmentCessation",
+                "textContent": "Antiepileptic drugs should be withdrawn under specialist supervision. Avoid abrupt withdrawal because this can precipitate severe rebound seizures. Reduction in dosage should be gradual.\n\nThe decision to withdraw antiepileptic drugs from a seizure-free patient, and its timing, is often difficult and depends on individual circumstances. Even in patients who have been seizure-free for several years, there is a significant risk of seizure recurrence on drug withdrawal.\n\nIn patients receiving several antiepileptic drugs, only one drug should be withdrawn at a time.",
+                "html": "<p>Antiepileptic drugs should be withdrawn under specialist supervision. Avoid abrupt withdrawal because this can precipitate severe rebound seizures. Reduction in dosage should be gradual.</p><p>The decision to withdraw antiepileptic drugs from a seizure-free patient, and its timing, is often difficult and depends on individual circumstances. Even in patients who have been seizure-free for several years, there is a significant risk of seizure recurrence on drug withdrawal.</p><p>In patients receiving several antiepileptic drugs, only one drug should be withdrawn at a time.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "title": "Switching between formulations",
+                "textContent": "Care should be taken when switching between oral formulations in the treatment of epilepsy. The need for continued supply of a particular manufacturer's product should be based on clinical judgement and consultation with the patient or their carer, taking into account factors such as seizure frequency and treatment history.\n\nPatients being treated for epilepsy may need to be maintained on a specific manufacturer&#8217;s branded or generic clobazam product.",
+                "html": "<p>Care should be taken when switching between oral formulations in the treatment of epilepsy. The need for continued supply of a particular manufacturer's product should be based on clinical judgement and consultation with the patient or their carer, taking into account factors such as seizure frequency and treatment history.</p><p>Patients being treated for epilepsy may need to be maintained on a specific manufacturer&#8217;s branded or generic clobazam product.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "title": "Driving",
+                "textContent": "Patients with epilepsy may drive a motor vehicle (but not a large goods or passenger carrying vehicle) provided that they have been seizure-free for one year or, if subject to attacks only while asleep, have established a 3-year period of asleep attacks without awake attacks. Those affected by drowsiness should not drive or operate machinery.\n\nGuidance issued by the Drivers Medical Unit of the Driver and Vehicle Licensing Agency (DVLA) recommends that patients should be advised not to drive during medication changes or withdrawal of antiepileptic drugs, and for 6 months afterwards.\n\nPatients who have had a first or single epileptic seizure must not drive for 6 months (5 years in the case of large goods or passenger carrying vehicles) after the event; driving may then be resumed, provided the patient has been assessed by a specialist as fit to drive because no abnormality was detected on investigation.",
+                "html": "<p>Patients with epilepsy may drive a motor vehicle (but not a large goods or passenger carrying vehicle) provided that they have been seizure-free for one year or, if subject to attacks only while asleep, have established a 3-year period of asleep attacks without awake attacks. Those affected by drowsiness should not drive or operate machinery.</p><p>Guidance issued by the Drivers Medical Unit of the Driver and Vehicle Licensing Agency (DVLA) recommends that patients should be advised not to drive during medication changes or withdrawal of antiepileptic drugs, and for 6 months afterwards.</p><p>Patients who have had a first or single epileptic seizure must not drive for 6 months (5 years in the case of large goods or passenger carrying vehicles) after the event; driving may then be resumed, provided the patient has been assessed by a specialist as fit to drive because no abnormality was detected on investigation.</p>"
+            }
+        ],
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/clobazam-preventing-seizures-0",
+                        "label": "www.medicinesforchildren.org.uk/clobazam-preventing-seizures-0"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Clobazam for preventing seizures",
+                "textContent": "www.medicinesforchildren.org.uk/clobazam-preventing-seizures-0",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/clobazam-preventing-seizures-0\">www.medicinesforchildren.org.uk/clobazam-preventing-seizures-0</xref>\n</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "nonNHS": [
+            {
+                "type": "nonNHS",
+                "textContent": "Clobazam is not prescribable under the NHS except for epilepsy and endorsed 'SLS'.",
+                "html": "<p>Clobazam is not prescribable under the NHS except for epilepsy and endorsed 'SLS'.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral suspension",
+                "capsule"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77396",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77414",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78112",
+                "label": "Hypnotics and anxiolytics",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78230",
+                "label": "Epilepsy",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_409",
+                "label": "Clobazam",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34584",
+                "label": "BENZODIAZEPINES",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77396",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77414",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

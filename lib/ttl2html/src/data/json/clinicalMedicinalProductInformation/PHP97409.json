@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP97409\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/sandrena\" basename=\"sandrena\" title=\"Sandrena\">\n<title>Sandrena<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP97737\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/sandrena\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;mg once daily, to be applied over area 1&#8211;2 times size of hand; with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, dose may be adjusted after 2&#8211;3 cycles to lowest effective dose; usual dose 0.5&#8211;1.5&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP97747\" outputclass=\"patientAndCarerAdvice\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/sandrena\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Apply gel to intact areas of skin such as lower trunk or thighs, using right and left sides on alternate days. Wash hands after application. Not to be applied on the breasts or face and avoid contact with eyes. Allow area of application to dry for 5 minutes and do not wash area for at least 1 hour.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP97409",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/sandrena",
+    "basename": "sandrena",
+    "title": "Sandrena",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms",
+                        "html": "Menopausal symptoms"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1 mg once daily, to be applied over area 1&#8211;2 times size of hand; with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, dose may be adjusted after 2&#8211;3 cycles to lowest effective dose; usual dose 0.5&#8211;1.5 mg daily.",
+                        "html": "<p>Apply 1&#8239;mg once daily, to be applied over area 1&#8211;2 times size of hand; with cyclical progestogen for 12&#8211;14 days of each cycle in women with a uterus, dose may be adjusted after 2&#8211;3 cycles to lowest effective dose; usual dose 0.5&#8211;1.5&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Apply gel to intact areas of skin such as lower trunk or thighs, using right and left sides on alternate days. Wash hands after application. Not to be applied on the breasts or face and avoid contact with eyes. Allow area of application to dry for 5 minutes and do not wash area for at least 1 hour.",
+                "html": "<p>Apply gel to intact areas of skin such as lower trunk or thighs, using right and left sides on alternate days. Wash hands after application. Not to be applied on the breasts or face and avoid contact with eyes. Allow area of application to dry for 5 minutes and do not wash area for at least 1 hour.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

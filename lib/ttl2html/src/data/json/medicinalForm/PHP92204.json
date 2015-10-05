@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP92204\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cinchocaine-with-prednisolone/suppository\" basename=\"suppository\" title=\"Suppository\">\n<title>Suppository</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Scheriproct suppositories <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>\n</title>\n<data name=\"ampid\">385411000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Cinchocaine hydrochloride 1&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Prednisolone hexanoate 1.3&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">suppository</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.38</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1.38</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85557\" title=\"CINCHOCAINE WITH PREDNISOLONE\" namespace=\"/drugs/cinchocaine-with-prednisolone\">CINCHOCAINE WITH PREDNISOLONE</xref>\n</parents>\n</topic>",
+    "id": "PHP92204",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cinchocaine-with-prednisolone/suppository",
+    "basename": "suppository",
+    "form": "Suppository",
+    "products": [
+        {
+            "title": "Scheriproct suppositories (Bayer Plc) ",
+            "header": "Scheriproct suppositories <ph outputclass=\"manufacturer\">(Bayer Plc)</ph>",
+            "manufacturer": "(Bayer Plc)",
+            "name": "Scheriproct suppositories",
+            "ampid": "385411000001102",
+            "strengthOfActiveIngredient": "Prednisolone hexanoate 1.3 mg",
+            "packs": [
+                {
+                    "textContent": " 12 suppository POM ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">suppository</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "suppository",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.38</ph>",
+                        "nhsIndicativePrice": "&#163;1.38"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1.38 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1.38</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1.38"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85557",
+        "label": "CINCHOCAINE WITH PREDNISOLONE"
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "xml": "<topic id=\"PHP77107\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/fentanyl/buccal-film\" basename=\"buccal-film\" title=\"Buccal film\">\n<title>Buccal film</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Propylene glycol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Breakyl 200microgram buccal films <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">23523811000001103</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Fentanyl (as Fentanyl citrate) 200&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">film</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;49.90</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Breakyl 400microgram buccal films <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">23524511000001103</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Fentanyl (as Fentanyl citrate) 400&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">film</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;49.90</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Breakyl 800microgram buccal films <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">23524811000001100</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Fentanyl (as Fentanyl citrate) 800&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">film</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;139.72</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2713\" title=\"FENTANYL\" namespace=\"/drugs/fentanyl\">FENTANYL</xref>\n</parents>\n</topic>",
+    "id": "PHP77107",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/fentanyl/buccal-film",
+    "basename": "buccal-film",
+    "form": "Buccal film",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "excipients": [
+        "Propylene glycol"
+    ],
+    "products": [
+        {
+            "title": "Breakyl 200microgram buccal films (Meda Pharmaceuticals Ltd) ",
+            "header": "Breakyl 200microgram buccal films <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Breakyl 200microgram buccal films",
+            "ampid": "23523811000001103",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Fentanyl (as Fentanyl citrate) 200 microgram",
+            "packs": [
+                {
+                    "textContent": " 10 film POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">film</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "film",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;49.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;49.90</ph>",
+                        "nhsIndicativePrice": "&#163;49.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Breakyl 400microgram buccal films (Meda Pharmaceuticals Ltd) ",
+            "header": "Breakyl 400microgram buccal films <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Breakyl 400microgram buccal films",
+            "ampid": "23524511000001103",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Fentanyl (as Fentanyl citrate) 400 microgram",
+            "packs": [
+                {
+                    "textContent": " 10 film POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">film</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "film",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;49.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;49.90</ph>",
+                        "nhsIndicativePrice": "&#163;49.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Breakyl 800microgram buccal films (Meda Pharmaceuticals Ltd) ",
+            "header": "Breakyl 800microgram buccal films <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Breakyl 800microgram buccal films",
+            "ampid": "23524811000001100",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Fentanyl (as Fentanyl citrate) 800 microgram",
+            "packs": [
+                {
+                    "textContent": " 28 film POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">film</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "film",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;139.72 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;139.72</ph>",
+                        "nhsIndicativePrice": "&#163;139.72"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2713",
+        "label": "FENTANYL"
+    }
+}

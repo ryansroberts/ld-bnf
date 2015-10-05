@@ -1,0 +1,39 @@
+{
+    "xml": "<topic id=\"PHP77395\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/argatroban-monohydrate/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Ethanol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Exembol 250mg/2.5ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Mitsubishi Pharma Europe Ltd)</ph>\n</title>\n<data name=\"ampid\">21289811000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Argatroban monohydrate 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP18455\" title=\"ARGATROBAN MONOHYDRATE\" namespace=\"/drugs/argatroban-monohydrate\">ARGATROBAN MONOHYDRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP77395",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/argatroban-monohydrate/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "excipients": [
+        "Ethanol"
+    ],
+    "products": [
+        {
+            "title": "Exembol 250mg/2.5ml concentrate for solution for infusion vials (Mitsubishi Pharma Europe Ltd) ",
+            "header": "Exembol 250mg/2.5ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Mitsubishi Pharma Europe Ltd)</ph>",
+            "manufacturer": "(Mitsubishi Pharma Europe Ltd)",
+            "name": "Exembol 250mg/2.5ml concentrate for solution for infusion vials",
+            "ampid": "21289811000001107",
+            "strengthOfActiveIngredient": "Argatroban monohydrate 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP18455",
+        "label": "ARGATROBAN MONOHYDRATE"
+    }
+}

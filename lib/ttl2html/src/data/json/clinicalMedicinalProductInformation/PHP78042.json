@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP78042\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/slozem\" basename=\"slozem\" title=\"Slozem\">\n<title>Slozem<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP60014\" outputclass=\"indicationsAndDose\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/slozem\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Angina</p>\n<p outputclass=\"therapeuticIndication\">Mild to moderate hypertension</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 240&#8239;mg daily; increased if necessary to 360&#8239;mg daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 120&#8239;mg daily; increased if necessary to 360&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59995\" outputclass=\"hepaticImpairment\" parent=\"/clinical-medicinal-product-information/slozem\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Dose for angina and mild to moderate hypertension&#8212;initially 120&#8239;mg once daily.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59980\" outputclass=\"renalImpairment\" parent=\"/clinical-medicinal-product-information/slozem\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Dose for angina and mild to moderate hypertension&#8212;initially 120&#8239;mg once daily.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78042",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/slozem",
+    "basename": "slozem",
+    "title": "Slozem",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Angina",
+                        "html": "Angina"
+                    },
+                    {
+                        "textContent": "Mild to moderate hypertension",
+                        "html": "Mild to moderate hypertension"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 240 mg daily; increased if necessary to 360 mg daily.",
+                        "html": "<p>Initially 240&#8239;mg daily; increased if necessary to 360&#8239;mg daily.</p>"
+                    },
+                    {
+                        "textContent": "Initially 120 mg daily; increased if necessary to 360 mg daily.",
+                        "html": "<p>Initially 120&#8239;mg daily; increased if necessary to 360&#8239;mg daily.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Dose for angina and mild to moderate hypertension&#8212;initially 120 mg once daily.",
+                "html": "<p>Dose for angina and mild to moderate hypertension&#8212;initially 120&#8239;mg once daily.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Dose for angina and mild to moderate hypertension&#8212;initially 120 mg once daily.",
+                "html": "<p>Dose for angina and mild to moderate hypertension&#8212;initially 120&#8239;mg once daily.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

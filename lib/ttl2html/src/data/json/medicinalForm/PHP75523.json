@@ -1,0 +1,63 @@
+{
+    "xml": "<topic id=\"PHP75523\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ciclosporin/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Alcohol, propylene glycol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Neoral 100mg/ml oral solution <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3490411000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ciclosporin 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;102.30</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sandimmun 100mg/ml oral solution <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3490711000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ciclosporin 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;164.72</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP529\" title=\"CICLOSPORIN\" namespace=\"/drugs/ciclosporin\">CICLOSPORIN</xref>\n</parents>\n</topic>",
+    "id": "PHP75523",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ciclosporin/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "excipients": [
+        "Alcohol",
+        "propylene glycol"
+    ],
+    "products": [
+        {
+            "title": "Neoral 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Neoral 100mg/ml oral solution <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Neoral 100mg/ml oral solution",
+            "ampid": "3490411000001109",
+            "strengthOfActiveIngredient": "Ciclosporin 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 50 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;102.30 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;102.30</ph>",
+                        "nhsIndicativePrice": "&#163;102.30"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sandimmun 100mg/ml oral solution (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Sandimmun 100mg/ml oral solution <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Sandimmun 100mg/ml oral solution",
+            "ampid": "3490711000001103",
+            "strengthOfActiveIngredient": "Ciclosporin 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 50 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;164.72 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;164.72</ph>",
+                        "nhsIndicativePrice": "&#163;164.72"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP529",
+        "label": "CICLOSPORIN"
+    }
+}

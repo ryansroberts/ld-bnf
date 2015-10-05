@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP76081\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/roflumilast/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Daxas 500microgram tablets <ph outputclass=\"manufacturer\">(Takeda UK Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">17669411000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Roflumilast 500&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;37.71</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;37.71</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1892\" title=\"ROFLUMILAST\" namespace=\"/drugs/roflumilast\">ROFLUMILAST</xref>\n</parents>\n</topic>",
+    "id": "PHP76081",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/roflumilast/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Daxas 500microgram tablets (Takeda UK Ltd) &#9660; ",
+            "header": "Daxas 500microgram tablets <ph outputclass=\"manufacturer\">(Takeda UK Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Takeda UK Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Daxas 500microgram tablets",
+            "ampid": "17669411000001109",
+            "strengthOfActiveIngredient": "Roflumilast 500 microgram",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;37.71 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;37.71</ph>",
+                        "nhsIndicativePrice": "&#163;37.71"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;37.71 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;37.71</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;37.71"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1892",
+        "label": "ROFLUMILAST"
+    }
+}

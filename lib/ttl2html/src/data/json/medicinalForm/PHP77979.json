@@ -1,0 +1,80 @@
+{
+    "xml": "<topic id=\"PHP77979\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/salicylic-acid/medicated-plaster\" basename=\"medicated-plaster\" title=\"Medicated plaster\">\n<title>Medicated plaster</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Boots Corn Removal 40% plasters <ph outputclass=\"manufacturer\">(The Boots Company Plc)</ph>\n</title>\n<data name=\"ampid\">20576611000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Salicylic acid 400&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">plaster</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Scholl Corn Removal 40% plasters washproof <ph outputclass=\"manufacturer\">(SSL International Plc)</ph>\n</title>\n<data name=\"ampid\">12204611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Salicylic acid 400&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">8</ph>\n<ph outputclass=\"unitOfMeasure\">plaster</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.29</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Scholl Verucca Removal System 40% medicated plasters <ph outputclass=\"manufacturer\">(SSL International Plc)</ph>\n</title>\n<data name=\"ampid\">23662311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Salicylic acid 400&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">plaster</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.91</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7754\" title=\"SALICYLIC ACID\" namespace=\"/drugs/salicylic-acid\">SALICYLIC ACID</xref>\n</parents>\n</topic>",
+    "id": "PHP77979",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/salicylic-acid/medicated-plaster",
+    "basename": "medicated-plaster",
+    "form": "Medicated plaster",
+    "products": [
+        {
+            "title": "Boots Corn Removal 40% plasters (The Boots Company Plc) ",
+            "header": "Boots Corn Removal 40% plasters <ph outputclass=\"manufacturer\">(The Boots Company Plc)</ph>",
+            "manufacturer": "(The Boots Company Plc)",
+            "name": "Boots Corn Removal 40% plasters",
+            "ampid": "20576611000001108",
+            "strengthOfActiveIngredient": "Salicylic acid 400 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 5 plaster GSL ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">plaster</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "plaster",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Scholl Corn Removal 40% plasters washproof (SSL International Plc) ",
+            "header": "Scholl Corn Removal 40% plasters washproof <ph outputclass=\"manufacturer\">(SSL International Plc)</ph>",
+            "manufacturer": "(SSL International Plc)",
+            "name": "Scholl Corn Removal 40% plasters washproof",
+            "ampid": "12204611000001105",
+            "strengthOfActiveIngredient": "Salicylic acid 400 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 8 plaster GSL ",
+                    "html": "<ph outputclass=\"packSize\">8</ph> <ph outputclass=\"unitOfMeasure\">plaster</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "8",
+                    "unitOfMeasure": "plaster",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.29 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.29</ph>",
+                        "nhsIndicativePrice": "&#163;1.29"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Scholl Verucca Removal System 40% medicated plasters (SSL International Plc) ",
+            "header": "Scholl Verucca Removal System 40% medicated plasters <ph outputclass=\"manufacturer\">(SSL International Plc)</ph>",
+            "manufacturer": "(SSL International Plc)",
+            "name": "Scholl Verucca Removal System 40% medicated plasters",
+            "ampid": "23662311000001101",
+            "strengthOfActiveIngredient": "Salicylic acid 400 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 plaster GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">plaster</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "plaster",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.91 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.91</ph>",
+                        "nhsIndicativePrice": "&#163;2.91"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7754",
+        "label": "SALICYLIC ACID"
+    }
+}

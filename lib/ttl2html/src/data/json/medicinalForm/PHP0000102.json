@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP0000102\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sodium-hyaluronate/products-without-form\" basename=\"products-without-form\" title=\"Products without form\">\n<title>Products without form</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>SportVis 12mg/1.2ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Holy Stone Biotech Co Ltd)</ph>\n</title>\n<data name=\"ampid\">20273911000001103</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">2</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;139.00</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>TendoVis 12mg/1.2ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Holy Stone Biotech Co Ltd)</ph>\n</title>\n<data name=\"ampid\">28897211000001103</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;69.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7122\" title=\"SODIUM HYALURONATE\" namespace=\"/drugs/sodium-hyaluronate\">SODIUM HYALURONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP0000102",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sodium-hyaluronate/products-without-form",
+    "basename": "products-without-form",
+    "form": "Products without form",
+    "products": [
+        {
+            "title": "SportVis 12mg/1.2ml solution for injection pre-filled syringes (Holy Stone Biotech Co Ltd) ",
+            "header": "SportVis 12mg/1.2ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Holy Stone Biotech Co Ltd)</ph>",
+            "manufacturer": "(Holy Stone Biotech Co Ltd)",
+            "name": "SportVis 12mg/1.2ml solution for injection pre-filled syringes",
+            "ampid": "20273911000001103",
+            "packs": [
+                {
+                    "textContent": " 2 pre-filled disposable injection ",
+                    "html": "<ph outputclass=\"packSize\">2</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>",
+                    "packSize": "2",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;139.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;139.00</ph>",
+                        "nhsIndicativePrice": "&#163;139.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "TendoVis 12mg/1.2ml solution for injection pre-filled syringes (Holy Stone Biotech Co Ltd) ",
+            "header": "TendoVis 12mg/1.2ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Holy Stone Biotech Co Ltd)</ph>",
+            "manufacturer": "(Holy Stone Biotech Co Ltd)",
+            "name": "TendoVis 12mg/1.2ml solution for injection pre-filled syringes",
+            "ampid": "28897211000001103",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;69.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;69.50</ph>",
+                        "nhsIndicativePrice": "&#163;69.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7122",
+        "label": "SODIUM HYALURONATE"
+    }
+}

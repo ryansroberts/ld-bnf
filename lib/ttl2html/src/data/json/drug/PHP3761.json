@@ -1,0 +1,418 @@
+{
+    "xml": "<topic id=\"PHP3761\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/didanosine\" basename=\"didanosine\" title=\"DIDANOSINE\">\n<title>DIDANOSINE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_397\" namespace=\"/interactions/list-of-drug-interactions/antivirals/didanosine\">Didanosine</xref>\n</p>\n<data name=\"vtmid\">19194001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_149321041\" title=\"Nucleoside reverse transcriptase inhibitors\">Nucleoside reverse transcriptase inhibitors</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34645\" title=\"NUCLEOSIDE REVERSE TRANSCRIPTASE INHIBITORS\" namespace=\"/drug-classes/nucleoside-reverse-transcriptase-inhibitors\">NUCLEOSIDE REVERSE TRANSCRIPTASE INHIBITORS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n<p outputclass=\"synonyms\">ddI; DDI</p>\r\n</body>\n<topic id=\"PHP65096\" outputclass=\"indicationsAndDose\" rev=\"1.24\" parent=\"/drugs/didanosine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">HIV infection in combination with other antiretroviral drugs</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight up to 60 kg)</p>\n<p>250&#8239;mg daily in 1&#8211;2 divided doses.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 60 kg and above)</p>\n<p>400&#8239;mg daily in 1&#8211;2 divided doses.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65186\" outputclass=\"cautions\" rev=\"1.21\" parent=\"/drugs/didanosine\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">History of pancreatitis (preferably avoid, otherwise extreme caution)</ph>; <ph outputclass=\"caution\">hyperuricaemia</ph>; <ph outputclass=\"caution\">peripheral neuropathy</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65088\" outputclass=\"interactions\" rev=\"1.10\" parent=\"/drugs/didanosine\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (didanosine).</p>\n<p>Antacids in tablet formulation might affect absorption of other drugs&#8212;give at least 2 hours apart.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65027\" outputclass=\"sideEffects\" rev=\"1.22\" parent=\"/drugs/didanosine\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Acute renal failure</ph>; <ph outputclass=\"sideEffect\">alopecia</ph>; <ph outputclass=\"sideEffect\">anaphylactic reactions</ph>; <ph outputclass=\"sideEffect\">diabetes mellitus</ph>; <ph outputclass=\"sideEffect\">dry eyes</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">hyperuricaemia (suspend if raised significantly)</ph>; <ph outputclass=\"sideEffect\">hypoglycaemia</ph>; <ph outputclass=\"sideEffect\">liver failure</ph>; <ph outputclass=\"sideEffect\">non-cirrhotic portal hypertension</ph>; <ph outputclass=\"sideEffect\">optic nerve changes</ph>; <ph outputclass=\"sideEffect\">pancreatitis (less common in children)</ph>; <ph outputclass=\"sideEffect\">parotid gland enlargement</ph>; <ph outputclass=\"sideEffect\">peripheral neuropathy (switch to another antiretroviral if peripheral neuropathy develops)</ph>; <ph outputclass=\"sideEffect\">retinal changes</ph>; <ph outputclass=\"sideEffect\">rhabdomyolysis</ph>; <ph outputclass=\"sideEffect\">sialadenitis</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Pancreatitis</p>\n<p>Suspend treatment if serum lipase raised (even if asymptomatic) or if symptoms of pancreatitis develop; discontinue if pancreatitis confirmed. Whenever possible avoid concomitant treatment with other drugs known to cause pancreatic toxicity (e.g. intravenous pentamidine isetionate); monitor closely if concomitant therapy unavoidable. Since significant elevations of triglycerides cause pancreatitis monitor closely if elevated.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65076\" outputclass=\"pregnancy\" parent=\"/drugs/didanosine\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises use only if potential benefit outweighs risk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65115\" outputclass=\"hepaticImpairment\" parent=\"/drugs/didanosine\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Insufficient information.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInHepaticImpairment\">\n<sectiondiv>\n<p>In hepatic impairment, monitor for toxicity.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65042\" outputclass=\"renalImpairment\" parent=\"/drugs/didanosine\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose if eGFR less than 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>; consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65009\" outputclass=\"monitoringRequirements\" parent=\"/drugs/didanosine\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Ophthalmological examination (including visual acuity, colour vision, and dilated fundus examination) recommended annually or if visual changes occur.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65218\" outputclass=\"directionsForAdministration\" rev=\"1.14\" parent=\"/drugs/didanosine\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>With chewable tablets, to ensure sufficient antacid, each dose to be taken as at least 2 tablets (child under 1 year 1 tablet) chewed thoroughly, crushed or dispersed in water; clear apple juice may be added for flavouring; tablets to be taken 2 hours after lopinavir with ritonavir capsules and oral solution or atazanavir with ritonavir.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Capsules should be swallowed whole and taken at least 2 hours before or 2 hours after food.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP65058\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/drugs/didanosine\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer didanosine capsules and chewable tablets.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3761-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/didanosine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77147\" title=\"Chewable tablet\" namespace=\"/drugs/didanosine/chewable-tablet\">Chewable tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77133\" title=\"Gastro-resistant capsule\" namespace=\"/drugs/didanosine/gastro-resistant-capsule\">Gastro-resistant capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78275\" namespace=\"/treatment-summaries/hiv-infection\" title=\"HIV infection\" count=\"1\" rel=\"backlink\">HIV infection</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_397\" namespace=\"/interactions/list-of-drug-interactions/antivirals/didanosine\" title=\"Didanosine\" count=\"1\" rel=\"link\">Didanosine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34645\" namespace=\"/drug-classes/nucleoside-reverse-transcriptase-inhibitors\" title=\"NUCLEOSIDE REVERSE TRANSCRIPTASE INHIBITORS\" count=\"1\" rel=\"link\">NUCLEOSIDE REVERSE TRANSCRIPTASE INHIBITORS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77147\" namespace=\"/drugs/didanosine/chewable-tablet\" title=\"Chewable tablet\" count=\"1\" rel=\"link\">Chewable tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77133\" namespace=\"/drugs/didanosine/gastro-resistant-capsule\" title=\"Gastro-resistant capsule\" count=\"1\" rel=\"link\">Gastro-resistant capsule</xref>\n</links>\n</topic>",
+    "id": "PHP3761",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/didanosine",
+    "basename": "didanosine",
+    "title": "DIDANOSINE",
+    "interactants": [
+        {
+            "id": "bnf_int_397",
+            "label": "Didanosine"
+        }
+    ],
+    "vtmid": "19194001",
+    "drugClassification": [
+        "Nucleoside reverse transcriptase inhibitors"
+    ],
+    "inheritsFromClass": [
+        "NUCLEOSIDE REVERSE TRANSCRIPTASE INHIBITORS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "synonyms": [
+        "ddI",
+        "DDI"
+    ],
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "HIV infection in combination with other antiretroviral drugs",
+                        "html": "HIV infection in combination with other antiretroviral drugs"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "250 mg daily in 1&#8211;2 divided doses.",
+                        "html": "<p>250&#8239;mg daily in 1&#8211;2 divided doses.</p>",
+                        "ageGroup": "(body-weight up to 60 kg)"
+                    },
+                    {
+                        "textContent": "400 mg daily in 1&#8211;2 divided doses.",
+                        "html": "<p>400&#8239;mg daily in 1&#8211;2 divided doses.</p>",
+                        "ageGroup": "(body-weight 60 kg and above)"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "History of pancreatitis (preferably avoid, otherwise extreme caution)",
+                "html": "History of pancreatitis (preferably avoid, otherwise extreme caution)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hyperuricaemia",
+                "html": "hyperuricaemia"
+            },
+            {
+                "type": "cautions",
+                "textContent": "peripheral neuropathy",
+                "html": "peripheral neuropathy"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (didanosine).\n\nAntacids in tablet formulation might affect absorption of other drugs&#8212;give at least 2 hours apart.",
+                "html": "<p>Appendix 1 (didanosine).</p><p>Antacids in tablet formulation might affect absorption of other drugs&#8212;give at least 2 hours apart.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Acute renal failure",
+                        "html": "Acute renal failure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "alopecia",
+                        "html": "alopecia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "anaphylactic reactions",
+                        "html": "anaphylactic reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "diabetes mellitus",
+                        "html": "diabetes mellitus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dry eyes",
+                        "html": "dry eyes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperuricaemia (suspend if raised significantly)",
+                        "html": "hyperuricaemia (suspend if raised significantly)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypoglycaemia",
+                        "html": "hypoglycaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "liver failure",
+                        "html": "liver failure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "non-cirrhotic portal hypertension",
+                        "html": "non-cirrhotic portal hypertension",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "optic nerve changes",
+                        "html": "optic nerve changes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pancreatitis (less common in children)",
+                        "html": "pancreatitis (less common in children)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "parotid gland enlargement",
+                        "html": "parotid gland enlargement",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "peripheral neuropathy (switch to another antiretroviral if peripheral neuropathy develops)",
+                        "html": "peripheral neuropathy (switch to another antiretroviral if peripheral neuropathy develops)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "retinal changes",
+                        "html": "retinal changes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rhabdomyolysis",
+                        "html": "rhabdomyolysis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "sialadenitis",
+                        "html": "sialadenitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Pancreatitis",
+                "textContent": "Suspend treatment if serum lipase raised (even if asymptomatic) or if symptoms of pancreatitis develop; discontinue if pancreatitis confirmed. Whenever possible avoid concomitant treatment with other drugs known to cause pancreatic toxicity (e.g. intravenous pentamidine isetionate); monitor closely if concomitant therapy unavoidable. Since significant elevations of triglycerides cause pancreatitis monitor closely if elevated.",
+                "html": "<p>Suspend treatment if serum lipase raised (even if asymptomatic) or if symptoms of pancreatitis develop; discontinue if pancreatitis confirmed. Whenever possible avoid concomitant treatment with other drugs known to cause pancreatic toxicity (e.g. intravenous pentamidine isetionate); monitor closely if concomitant therapy unavoidable. Since significant elevations of triglycerides cause pancreatitis monitor closely if elevated.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises use only if potential benefit outweighs risk.",
+                "html": "<p>Manufacturer advises use only if potential benefit outweighs risk.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Insufficient information.",
+                "html": "<p>Insufficient information.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "In hepatic impairment, monitor for toxicity.",
+                "html": "<p>In hepatic impairment, monitor for toxicity.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose if eGFR less than 60 mL/minute/1.73 m2; consult product literature.",
+                "html": "<p>Reduce dose if eGFR less than 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>; consult product literature.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Ophthalmological examination (including visual acuity, colour vision, and dilated fundus examination) recommended annually or if visual changes occur.",
+                "html": "<p>Ophthalmological examination (including visual acuity, colour vision, and dilated fundus examination) recommended annually or if visual changes occur.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "With chewable tablets, to ensure sufficient antacid, each dose to be taken as at least 2 tablets (child under 1 year 1 tablet) chewed thoroughly, crushed or dispersed in water; clear apple juice may be added for flavouring; tablets to be taken 2 hours after lopinavir with ritonavir capsules and oral solution or atazanavir with ritonavir.",
+                "html": "<p>With chewable tablets, to ensure sufficient antacid, each dose to be taken as at least 2 tablets (child under 1 year 1 tablet) chewed thoroughly, crushed or dispersed in water; clear apple juice may be added for flavouring; tablets to be taken 2 hours after lopinavir with ritonavir capsules and oral solution or atazanavir with ritonavir.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Capsules should be swallowed whole and taken at least 2 hours before or 2 hours after food.",
+                "html": "<p>Capsules should be swallowed whole and taken at least 2 hours before or 2 hours after food.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer didanosine capsules and chewable tablets.",
+                "html": "<p>Patients or carers should be given advice on how to administer didanosine capsules and chewable tablets.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77147",
+                "label": "Chewable tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77133",
+                "label": "Gastro-resistant capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78275",
+                "label": "HIV infection",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_397",
+                "label": "Didanosine",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34645",
+                "label": "NUCLEOSIDE REVERSE TRANSCRIPTASE INHIBITORS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77147",
+                "label": "Chewable tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77133",
+                "label": "Gastro-resistant capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

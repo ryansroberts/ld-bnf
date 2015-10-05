@@ -1,0 +1,67 @@
+{
+    "xml": "<topic id=\"PHP75488\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/budesonide/modified-release-capsule\" basename=\"modified-release-capsule\" title=\"Modified-release capsule\">\n<title>Modified-release capsule</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine </p>\r\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\r\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81629\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/entocort-capsules\">Entocort<tm tmtype=\"reg\"/> capsules</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Entocort CR 3mg capsules <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3765811000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Budesonide 3&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;99.00</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;99.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP512\" title=\"BUDESONIDE\" namespace=\"/drugs/budesonide\">BUDESONIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75488",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/budesonide/modified-release-capsule",
+    "basename": "modified-release-capsule",
+    "form": "Modified-release capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "5",
+            "textContent": "Do not take indigestion remedies 2 hours before or after you take this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine"
+        },
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81629",
+            "label": "Entocort&reg;  capsules",
+            "html": "Entocort<tm tmtype=\"reg\"/> capsules"
+        }
+    ],
+    "products": [
+        {
+            "title": "Entocort CR 3mg capsules (AstraZeneca UK Ltd) ",
+            "header": "Entocort CR 3mg capsules <ph outputclass=\"manufacturer\">(AstraZeneca UK Ltd)</ph>",
+            "manufacturer": "(AstraZeneca UK Ltd)",
+            "name": "Entocort CR 3mg capsules",
+            "ampid": "3765811000001105",
+            "strengthOfActiveIngredient": "Budesonide 3 mg",
+            "packs": [
+                {
+                    "textContent": " 100 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;99.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;99.00</ph>",
+                        "nhsIndicativePrice": "&#163;99.00"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;99.00 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;99.00</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;99.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP512",
+        "label": "BUDESONIDE"
+    }
+}

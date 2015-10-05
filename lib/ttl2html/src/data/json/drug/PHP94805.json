@@ -1,0 +1,152 @@
+{
+    "xml": "<topic id=\"PHP94805\" outputclass=\"drug\" rev=\"1.23\" type=\"drug\" namespace=\"/drugs/drospirenone-with-estradiol\" basename=\"drospirenone-with-estradiol\" title=\"DROSPIRENONE WITH ESTRADIOL\">\n<title>DROSPIRENONE WITH ESTRADIOL</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_640\" namespace=\"/interactions/list-of-drug-interactions/oestrogens/estradiol\">Estradiol</xref>, <xref format=\"dita\" href=\"#bnf_int_962\" namespace=\"/interactions/list-of-drug-interactions/progestogens/drospirenone\">Drospirenone</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP94655\" namespace=\"/drugs/estradiol\">estradiol</xref>.</p>\n<data name=\"vtmid\">419371005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_203813864\" title=\"Progestogens\">Progestogens</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_848193368\" title=\"Oestrogens\">Oestrogens</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP94876\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/drugs/drospirenone-with-estradiol\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms in women with a uterus whose last menstrual period occurred over 12 months previously</p>\n<p outputclass=\"therapeuticIndication\">Osteoporosis prophylaxis in women with a uterus whose last menstrual period occurred over 12 months previously</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet daily continuously, if changing from cyclical HRT begin treatment the day after finishing oestrogen plus progestogen phase.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP94869\" outputclass=\"cautions\" rev=\"1.19\" parent=\"/drugs/drospirenone-with-estradiol\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Use with care if an increased concentration of potassium might be hazardous</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP94880\" outputclass=\"renalImpairment\" parent=\"/drugs/drospirenone-with-estradiol\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 30&#8239;mL/ minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP94805-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/drospirenone-with-estradiol\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP95058\" title=\"Tablet\" namespace=\"/drugs/drospirenone-with-estradiol/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_640\" namespace=\"/interactions/list-of-drug-interactions/oestrogens/estradiol\" title=\"Estradiol\" count=\"1\" rel=\"link\">Estradiol</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_962\" namespace=\"/interactions/list-of-drug-interactions/progestogens/drospirenone\" title=\"Drospirenone\" count=\"1\" rel=\"link\">Drospirenone</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94655\" namespace=\"/drugs/estradiol\" title=\"ESTRADIOL\" count=\"1\" rel=\"link\">ESTRADIOL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP95058\" namespace=\"/drugs/drospirenone-with-estradiol/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP94805",
+    "outputclass": "drug",
+    "rev": "1.23",
+    "type": "drug",
+    "namespace": "/drugs/drospirenone-with-estradiol",
+    "basename": "drospirenone-with-estradiol",
+    "title": "DROSPIRENONE WITH ESTRADIOL",
+    "interactants": [
+        {
+            "id": "bnf_int_640",
+            "label": "Estradiol"
+        },
+        {
+            "id": "bnf_int_962",
+            "label": "Drospirenone"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP94655",
+            "label": "estradiol"
+        }
+    ],
+    "vtmid": "419371005",
+    "drugClassification": [
+        "Progestogens",
+        "Oestrogens"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms in women with a uterus whose last menstrual period occurred over 12 months previously",
+                        "html": "Menopausal symptoms in women with a uterus whose last menstrual period occurred over 12 months previously"
+                    },
+                    {
+                        "textContent": "Osteoporosis prophylaxis in women with a uterus whose last menstrual period occurred over 12 months previously",
+                        "html": "Osteoporosis prophylaxis in women with a uterus whose last menstrual period occurred over 12 months previously"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet daily continuously, if changing from cyclical HRT begin treatment the day after finishing oestrogen plus progestogen phase.",
+                        "html": "<p>1&#8239;tablet daily continuously, if changing from cyclical HRT begin treatment the day after finishing oestrogen plus progestogen phase.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Use with care if an increased concentration of potassium might be hazardous",
+                "html": "Use with care if an increased concentration of potassium might be hazardous"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 30 mL/ minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 30&#8239;mL/ minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP95058",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_640",
+                "label": "Estradiol",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_962",
+                "label": "Drospirenone",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP94655",
+                "label": "ESTRADIOL",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP95058",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

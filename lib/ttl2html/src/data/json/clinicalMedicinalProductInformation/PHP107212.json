@@ -1,0 +1,69 @@
+{
+    "xml": "<topic id=\"PHP107212\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/peditrace-solution-for-infusion-10ml-vials\" basename=\"peditrace-solution-for-infusion-10ml-vials\" title=\"Peditrace solution for infusion 10ml vials\">\n<title>Peditrace solution for infusion 10ml vials</title>\n<topic id=\"PHP107222\" outputclass=\"cautions\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/peditrace-solution-for-infusion-10ml-vials\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Reduced biliary excretion</ph>; <ph outputclass=\"caution\">reduced biliary excretion in cholestatic liver disease</ph>; <ph outputclass=\"caution\">reduced biliary excretion in markedly reduced urinary excretion (careful biochemical monitoring required)</ph>; <ph outputclass=\"caution\">total parenteral nutrition exceeding one month</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Total parenteral nutrition exceeding one month</p>\n<p>Measure serum manganese concentration and check liver function before commencing treatment and regularly during treatment&#8212;discontinue if manganese concentration raised or if cholestasis develops.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107304\" outputclass=\"directionsForAdministration\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/peditrace-solution-for-infusion-10ml-vials\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For addition to <i>Vaminolact</i>\n<tm tmtype=\"reg\"/>, <i>Vamin</i>\n<tm tmtype=\"reg\"/>\n<i>14 Electrolyte-Free</i> solutions, and glucose intravenous infusions.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107337\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/peditrace-solution-for-infusion-10ml-vials\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>For use in neonates (when kidney function established, usually second day of life), infants, and children.</p>\n<p>\n<i>Peditrace</i>\n<tm tmtype=\"reg\"/> solution contains traces of Zn<sup>2+</sup>, Cu<sup>2+</sup>, Mn<sup>2+</sup>, Se<sup>4+</sup>, F<sup>-</sup>, I<sup>-</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP107212",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/peditrace-solution-for-infusion-10ml-vials",
+    "basename": "peditrace-solution-for-infusion-10ml-vials",
+    "title": "Peditrace solution for infusion 10ml vials",
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Reduced biliary excretion",
+                "html": "Reduced biliary excretion"
+            },
+            {
+                "type": "cautions",
+                "textContent": "reduced biliary excretion in cholestatic liver disease",
+                "html": "reduced biliary excretion in cholestatic liver disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "reduced biliary excretion in markedly reduced urinary excretion (careful biochemical monitoring required)",
+                "html": "reduced biliary excretion in markedly reduced urinary excretion (careful biochemical monitoring required)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "total parenteral nutrition exceeding one month",
+                "html": "total parenteral nutrition exceeding one month"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Total parenteral nutrition exceeding one month",
+                "textContent": "Measure serum manganese concentration and check liver function before commencing treatment and regularly during treatment&#8212;discontinue if manganese concentration raised or if cholestasis develops.",
+                "html": "<p>Measure serum manganese concentration and check liver function before commencing treatment and regularly during treatment&#8212;discontinue if manganese concentration raised or if cholestasis develops.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For addition to Vaminolact , Vamin 14 Electrolyte-Free solutions, and glucose intravenous infusions.",
+                "html": "<p>For addition to <i>Vaminolact</i>\n<tm tmtype=\"reg\"/>, <i>Vamin</i>\n<tm tmtype=\"reg\"/>\n<i>14 Electrolyte-Free</i> solutions, and glucose intravenous infusions.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "For use in neonates (when kidney function established, usually second day of life), infants, and children.\n\nPeditrace solution contains traces of Zn2+, Cu2+, Mn2+, Se4+, F-, I-.",
+                "html": "<p>For use in neonates (when kidney function established, usually second day of life), infants, and children.</p><p>\n<i>Peditrace</i>\n<tm tmtype=\"reg\"/> solution contains traces of Zn<sup>2+</sup>, Cu<sup>2+</sup>, Mn<sup>2+</sup>, Se<sup>4+</sup>, F<sup>-</sup>, I<sup>-</sup>.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

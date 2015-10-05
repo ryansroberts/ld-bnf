@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75224\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/colistimethate-sodium/powder-for-nebuliser-solution\" basename=\"powder-for-nebuliser-solution\" title=\"Powder for nebuliser solution\">\n<title>Powder for nebuliser solution</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Promixin 1million unit powder for nebuliser solution unit dose vials <ph outputclass=\"manufacturer\">(Profile Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">4252411000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Colistimethate sodium 1000000&#8239;unit</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;168.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3560\" title=\"COLISTIMETHATE SODIUM\" namespace=\"/drugs/colistimethate-sodium\">COLISTIMETHATE SODIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP75224",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/colistimethate-sodium/powder-for-nebuliser-solution",
+    "basename": "powder-for-nebuliser-solution",
+    "form": "Powder for nebuliser solution",
+    "products": [
+        {
+            "title": "Promixin 1million unit powder for nebuliser solution unit dose vials (Profile Pharma Ltd) ",
+            "header": "Promixin 1million unit powder for nebuliser solution unit dose vials <ph outputclass=\"manufacturer\">(Profile Pharma Ltd)</ph>",
+            "manufacturer": "(Profile Pharma Ltd)",
+            "name": "Promixin 1million unit powder for nebuliser solution unit dose vials",
+            "ampid": "4252411000001104",
+            "strengthOfActiveIngredient": "Colistimethate sodium 1000000 unit",
+            "packs": [
+                {
+                    "textContent": " 30 unit dose POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;168.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;168.00</ph>",
+                        "nhsIndicativePrice": "&#163;168.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3560",
+        "label": "COLISTIMETHATE SODIUM"
+    }
+}

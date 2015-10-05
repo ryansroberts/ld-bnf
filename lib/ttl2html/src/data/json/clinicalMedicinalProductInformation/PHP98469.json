@@ -1,0 +1,129 @@
+{
+    "xml": "<topic id=\"PHP98469\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/movicol-paediatric\" basename=\"movicol-paediatric\" title=\"Movicol-Paediatric\">\n<title>Movicol-Paediatric<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP98485\" outputclass=\"indicationsAndDose\" rev=\"1.31\" parent=\"/clinical-medicinal-product-information/movicol-paediatric\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic constipation</p>\n<p outputclass=\"therapeuticIndication\">Prevention of faecal impaction</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;5 years</p>\n<p>1&#8239;sachet daily, adjust dose to produce regular soft stools; maximum 4&#8239;sachets per day.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;11 years</p>\n<p>2&#8239;sachets daily, adjust dose to produce regular soft stools; maximum 4&#8239;sachets per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Faecal impaction</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 5&#8211;11 years</p>\n<p>Initially 4&#8239;sachets daily on first day, then increased in steps of 2&#8239;sachets daily, total daily dose to be taken over a 12-hour period, after disimpaction, switch to maintenance laxative therapy; maximum 12&#8239;sachets per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98520\" outputclass=\"unlicensedUse\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/movicol-paediatric\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>Movicol</i>\n<tm tmtype=\"reg\"/>\n<i>Paediatric</i> not licensed for use in faecal impaction in children under 5 years, or for chronic constipation in children under 2 years.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98482\" outputclass=\"contraindications\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/movicol-paediatric\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Cardiovascular impairment</ph>\n</p>\n</section>\n<section outputclass=\"contraindicationsRenalImpairment\">\n<sectiondiv>\n<p>Contra-indicated in renal impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98473\" outputclass=\"cautions\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/movicol-paediatric\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Impaired consciousness (with high doses)</ph>; <ph outputclass=\"caution\">impaired gag reflex (with high doses)</ph>; <ph outputclass=\"caution\">reflux oesophagitis (with high doses)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98527\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/movicol-paediatric\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Contents of each sachet to be dissolved in quarter of a glass (approx. 60&#8211;65&#8239;mL) of water; after reconstitution the solution should be kept in a refrigerator and discarded if unused after 24 hours.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98469",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/movicol-paediatric",
+    "basename": "movicol-paediatric",
+    "title": "Movicol-Paediatric",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic constipation",
+                        "html": "Chronic constipation"
+                    },
+                    {
+                        "textContent": "Prevention of faecal impaction",
+                        "html": "Prevention of faecal impaction"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "1 sachet daily, adjust dose to produce regular soft stools; maximum 4 sachets per day.",
+                        "html": "<p>1&#8239;sachet daily, adjust dose to produce regular soft stools; maximum 4&#8239;sachets per day.</p>",
+                        "ageGroup": "2&#8211;5 years"
+                    },
+                    {
+                        "textContent": "2 sachets daily, adjust dose to produce regular soft stools; maximum 4 sachets per day.",
+                        "html": "<p>2&#8239;sachets daily, adjust dose to produce regular soft stools; maximum 4&#8239;sachets per day.</p>",
+                        "ageGroup": "6&#8211;11 years"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Faecal impaction",
+                        "html": "Faecal impaction"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 4 sachets daily on first day, then increased in steps of 2 sachets daily, total daily dose to be taken over a 12-hour period, after disimpaction, switch to maintenance laxative therapy; maximum 12 sachets per day.",
+                        "html": "<p>Initially 4&#8239;sachets daily on first day, then increased in steps of 2&#8239;sachets daily, total daily dose to be taken over a 12-hour period, after disimpaction, switch to maintenance laxative therapy; maximum 12&#8239;sachets per day.</p>",
+                        "ageGroup": "5&#8211;11 years"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Movicol Paediatric not licensed for use in faecal impaction in children under 5 years, or for chronic constipation in children under 2 years.",
+                "html": "<p>\n<i>Movicol</i>\n<tm tmtype=\"reg\"/>\n<i>Paediatric</i> not licensed for use in faecal impaction in children under 5 years, or for chronic constipation in children under 2 years.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Cardiovascular impairment",
+                "html": "Cardiovascular impairment"
+            }
+        ],
+        "contraindicationsRenalImpairment": [
+            {
+                "type": "contraindicationsRenalImpairment",
+                "textContent": "Contra-indicated in renal impairment.",
+                "html": "<p>Contra-indicated in renal impairment.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Impaired consciousness (with high doses)",
+                "html": "Impaired consciousness (with high doses)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "impaired gag reflex (with high doses)",
+                "html": "impaired gag reflex (with high doses)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "reflux oesophagitis (with high doses)",
+                "html": "reflux oesophagitis (with high doses)"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Contents of each sachet to be dissolved in quarter of a glass (approx. 60&#8211;65 mL) of water; after reconstitution the solution should be kept in a refrigerator and discarded if unused after 24 hours.",
+                "html": "<p>Contents of each sachet to be dissolved in quarter of a glass (approx. 60&#8211;65&#8239;mL) of water; after reconstitution the solution should be kept in a refrigerator and discarded if unused after 24 hours.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

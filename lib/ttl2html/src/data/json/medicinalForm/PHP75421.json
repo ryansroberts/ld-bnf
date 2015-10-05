@@ -1,0 +1,74 @@
+{
+    "xml": "<topic id=\"PHP75421\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/progesterone/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Arachis (peanut) oil</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP104412\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/utrogestan-capsules\">Utrogestan<tm tmtype=\"reg\"/> capsules</xref>\r\n<xref format=\"dita\" href=\"#PHP104413\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/utrogestan-vaginal-capsules\">Utrogestan<tm tmtype=\"reg\"/> vaginal capsules</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Utrogestan 100mg capsules <ph outputclass=\"manufacturer\">(Besins Healthcare (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">11758911000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 100&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.13</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Utrogestan 200mg vaginal capsules with applicators <ph outputclass=\"manufacturer\">(Besins Healthcare (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">22676711000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 200&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">21</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;21.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4504\" title=\"PROGESTERONE\" namespace=\"/drugs/progesterone\">PROGESTERONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75421",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/progesterone/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "excipients": [
+        "Arachis (peanut) oil"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP104412",
+            "label": "Utrogestan&reg;  capsules",
+            "html": "Utrogestan<tm tmtype=\"reg\"/> capsules"
+        },
+        {
+            "id": "PHP104413",
+            "label": "Utrogestan&reg;  vaginal capsules",
+            "html": "Utrogestan<tm tmtype=\"reg\"/> vaginal capsules"
+        }
+    ],
+    "products": [
+        {
+            "title": "Utrogestan 100mg capsules (Besins Healthcare (UK) Ltd) ",
+            "header": "Utrogestan 100mg capsules <ph outputclass=\"manufacturer\">(Besins Healthcare (UK) Ltd)</ph>",
+            "manufacturer": "(Besins Healthcare (UK) Ltd)",
+            "name": "Utrogestan 100mg capsules",
+            "ampid": "11758911000001105",
+            "strengthOfActiveIngredient": "Progesterone 100 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.13 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.13</ph>",
+                        "nhsIndicativePrice": "&#163;5.13"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Utrogestan 200mg vaginal capsules with applicators (Besins Healthcare (UK) Ltd) ",
+            "header": "Utrogestan 200mg vaginal capsules with applicators <ph outputclass=\"manufacturer\">(Besins Healthcare (UK) Ltd)</ph>",
+            "manufacturer": "(Besins Healthcare (UK) Ltd)",
+            "name": "Utrogestan 200mg vaginal capsules with applicators",
+            "ampid": "22676711000001104",
+            "strengthOfActiveIngredient": "Progesterone 200 mg",
+            "packs": [
+                {
+                    "textContent": " 21 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">21</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "21",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;21.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;21.00</ph>",
+                        "nhsIndicativePrice": "&#163;21.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4504",
+        "label": "PROGESTERONE"
+    }
+}

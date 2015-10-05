@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP77592\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hyoscine-hydrobromide/transdermal-patch\" basename=\"transdermal-patch\" title=\"Transdermal patch\">\n<title>Transdermal patch</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">19</ph> - Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Scopoderm 1.5mg patches <ph outputclass=\"manufacturer\">(Novartis Consumer Health UK Ltd)</ph>\n</title>\n<data name=\"ampid\">9244511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Hyoscine 1&#8239;mg per 72&#8239;hour</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">2</ph>\n<ph outputclass=\"unitOfMeasure\">patch</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.52</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.52</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2576\" title=\"HYOSCINE HYDROBROMIDE\" namespace=\"/drugs/hyoscine-hydrobromide\">HYOSCINE HYDROBROMIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77592",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hyoscine-hydrobromide/transdermal-patch",
+    "basename": "transdermal-patch",
+    "form": "Transdermal patch",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "19",
+            "textContent": "Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">19</ph> - Warning: This medicine makes you sleepy. If you still feel sleepy the next day, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Scopoderm 1.5mg patches (Novartis Consumer Health UK Ltd) ",
+            "header": "Scopoderm 1.5mg patches <ph outputclass=\"manufacturer\">(Novartis Consumer Health UK Ltd)</ph>",
+            "manufacturer": "(Novartis Consumer Health UK Ltd)",
+            "name": "Scopoderm 1.5mg patches",
+            "ampid": "9244511000001107",
+            "strengthOfActiveIngredient": "Hyoscine 1 mg per 72 hour",
+            "packs": [
+                {
+                    "textContent": " 2 patch P ",
+                    "html": "<ph outputclass=\"packSize\">2</ph> <ph outputclass=\"unitOfMeasure\">patch</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "2",
+                    "unitOfMeasure": "patch",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.52 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.52</ph>",
+                        "nhsIndicativePrice": "&#163;4.52"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.52 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.52</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.52"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2576",
+        "label": "HYOSCINE HYDROBROMIDE"
+    }
+}

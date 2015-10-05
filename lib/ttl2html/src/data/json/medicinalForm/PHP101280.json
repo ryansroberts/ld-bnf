@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP101280\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/insulin-degludec-with-liraglutide/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">28054311000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Insulin human (as Insulin degludec) 100&#8239;unit per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Liraglutide 3.6&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;159.22</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP101222\" title=\"INSULIN DEGLUDEC WITH LIRAGLUTIDE\" namespace=\"/drugs/insulin-degludec-with-liraglutide\">INSULIN DEGLUDEC WITH LIRAGLUTIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP101280",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/insulin-degludec-with-liraglutide/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen (Novo Nordisk Ltd) &#9660; ",
+            "header": "Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen <ph outputclass=\"manufacturer\">(Novo Nordisk Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Novo Nordisk Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pen",
+            "ampid": "28054311000001106",
+            "strengthOfActiveIngredient": "Liraglutide 3.6 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;159.22 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;159.22</ph>",
+                        "nhsIndicativePrice": "&#163;159.22"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP101222",
+        "label": "INSULIN DEGLUDEC WITH LIRAGLUTIDE"
+    }
+}

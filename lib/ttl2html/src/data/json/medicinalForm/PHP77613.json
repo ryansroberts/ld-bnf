@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP77613\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/thiamine/modified-release-tablet\" basename=\"modified-release-tablet\" title=\"Modified-release tablet\">\n<title>Modified-release tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>HealthAid Vitamin B1 100mg modified-release tablets <ph outputclass=\"manufacturer\">(HealthAid Ltd)</ph>\n</title>\n<data name=\"ampid\">7871911000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Thiamine hydrochloride 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">90</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.18</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6202\" title=\"THIAMINE\" namespace=\"/drugs/thiamine\">THIAMINE</xref>\n</parents>\n</topic>",
+    "id": "PHP77613",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/thiamine/modified-release-tablet",
+    "basename": "modified-release-tablet",
+    "form": "Modified-release tablet",
+    "products": [
+        {
+            "title": "HealthAid Vitamin B1 100mg modified-release tablets (HealthAid Ltd) ",
+            "header": "HealthAid Vitamin B1 100mg modified-release tablets <ph outputclass=\"manufacturer\">(HealthAid Ltd)</ph>",
+            "manufacturer": "(HealthAid Ltd)",
+            "name": "HealthAid Vitamin B1 100mg modified-release tablets",
+            "ampid": "7871911000001100",
+            "strengthOfActiveIngredient": "Thiamine hydrochloride 100 mg",
+            "packs": [
+                {
+                    "textContent": " 90 tablet ",
+                    "html": "<ph outputclass=\"packSize\">90</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph>",
+                    "packSize": "90",
+                    "unitOfMeasure": "tablet",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.18 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.18</ph>",
+                        "nhsIndicativePrice": "&#163;4.18"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6202",
+        "label": "THIAMINE"
+    }
+}

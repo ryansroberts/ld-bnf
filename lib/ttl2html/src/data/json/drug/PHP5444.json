@@ -1,0 +1,628 @@
+{
+    "xml": "<topic id=\"PHP5444\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/bortezomib\" basename=\"bortezomib\" title=\"BORTEZOMIB\">\n<title>BORTEZOMIB</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1116\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/bortezomib\">Bortezomib</xref>\n</p>\n<data name=\"vtmid\">398907002</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_832029277\" title=\"Proteasome inhibitors\">Proteasome inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP67861\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/bortezomib\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Bortezomib is a proteasome inhibitor.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67832\" outputclass=\"indicationsAndDose\" rev=\"1.12\" parent=\"/drugs/bortezomib\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of multiple myeloma that has progressed despite the use of at least one therapy, and where the patient has already had, or is unable to have, haematopoietic stem cell transplantation (either as monotherapy, or in combination with pegylated liposomal doxorubicin or dexamethasone)</p>\n<p outputclass=\"therapeuticIndication\">Treatment of previously untreated multiple myeloma in patients who are not eligible for high-dose chemotherapy with haematopoietic stem cell transplantation (in combination with melphalan and prednisolone)</p>\n<p outputclass=\"therapeuticIndication\">Induction treatment of previously untreated multiple myeloma in patients who are eligible for high-dose chemotherapy with haematopoietic stem cell transplantation (in combination with dexamethasone, or with dexamethasone and thalidomide)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous injection or by subcutaneous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult local protocol).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67864\" outputclass=\"importantSafetyInformation\" rev=\"1.7\" parent=\"/drugs/bortezomib\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Bortezomib injection is for <b>intravenous or subcutaneous administration </b>only. Inadvertent intrathecal administration with fatal outcome has been reported.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67873\" outputclass=\"contraindications\" rev=\"1.7\" parent=\"/drugs/bortezomib\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Acute diffuse infiltrative pulmonary disease</ph>; <ph outputclass=\"contraindication\">pericardial disease</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67898\" outputclass=\"cautions\" rev=\"1.11\" parent=\"/drugs/bortezomib\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Amyloidosis</ph>; <ph outputclass=\"caution\">cardiovascular disease</ph>; <ph outputclass=\"caution\">consider antiviral prophylaxis for herpes zoster infection</ph>; <ph outputclass=\"caution\">dehydration</ph>; <ph outputclass=\"caution\">history of syncope</ph>; <ph outputclass=\"caution\">pulmonary disease (discontinue if interstitial lung disease develops)</ph>; <ph outputclass=\"caution\">risk factors for seizures</ph>; <ph outputclass=\"caution\">risk of neuropathy&#8212;consult product literature</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67810\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/bortezomib\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Caution with concurrent use of medication which may cause hypotension.</p>\n<p>Appendix 1 (bortezomib).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67753\" outputclass=\"sideEffects\" rev=\"1.14\" parent=\"/drugs/bortezomib\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Constipation (cases of ileus reported)</ph>; <ph outputclass=\"sideEffect\">decreased appetite</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dyspnoea</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">herpes zoster</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">peripheral neuropathy</ph>; <ph outputclass=\"sideEffect\">pyrexia</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">reactivation of herpes zoster</ph>; <ph outputclass=\"sideEffect\">sensory neuropathy</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Acute diffuse infiltrative pulmonary disorders</ph>; <ph outputclass=\"sideEffect\">heart failure</ph>; <ph outputclass=\"sideEffect\">posterior reversible encephalopathy syndrome (discontinue treatment)</ph>; <ph outputclass=\"sideEffect\">pulmonary hypertension</ph>; <ph outputclass=\"sideEffect\">seizures</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Autonomic neuropathy</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Progressive multifocal leucoencephalopathy</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">bone-marrow suppression</ph>; <ph outputclass=\"sideEffect\">extravasation</ph>; <ph outputclass=\"sideEffect\">hyperuricaemia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">oral mucositis</ph>; <ph outputclass=\"sideEffect\">thromboembolism</ph>; <ph outputclass=\"sideEffect\">tumour lysis syndrome</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p>For further information on side-effects, consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67882\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/bortezomib\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Exclude pregnancy before treatment with cytotoxic drugs.</p>\n<p>Contraceptive advice should be given to men and women before cytotoxic therapy begins&#8212;manufacturer advises effective contraception during and for 3 months after treatment in men or women.</p>\n<p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67802\" outputclass=\"pregnancy\" parent=\"/drugs/bortezomib\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Toxicity in <i>animal</i> studies.</p>\n<p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p>\n<p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67905\" outputclass=\"breastFeeding\" parent=\"/drugs/bortezomib\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Discontinue breast-feeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67836\" outputclass=\"hepaticImpairment\" parent=\"/drugs/bortezomib\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose in moderate to severe impairment&#8212;consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67778\" outputclass=\"renalImpairment\" parent=\"/drugs/bortezomib\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>No information available for creatinine clearance less than 20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67673\" outputclass=\"monitoringRequirements\" parent=\"/drugs/bortezomib\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor blood-glucose concentration in patients on oral antidiabetics.</p>\n<p>Monitor for symptoms of progressive multifocal leucoencephalopathy (presenting as new or worsening neurological signs or symptoms)&#8212;discontinue treatment if diagnosed.</p>\n<p>Chest x-ray recommended before treatment to monitor for pulmonary disease&#8212;discontinue if interstitial lung disease develops.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67587\" outputclass=\"nationalFunding\" rev=\"1.27\" parent=\"/drugs/bortezomib\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA129</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Bortezomib monotherapy for relapsed multiple myeloma (October 2007)</p>\r\n<p>Bortezomib monotherapy is an option for the treatment of progressive multiple myeloma in patients who are at first relapse having received one prior therapy and who have undergone, or are unsuitable for, bone-marrow transplantation, under the following circumstances:</p>\r\n<ul>\r\n<li>the response to bortezomib is measured using serum M protein after a maximum of four cycles of treatment, and treatment is continued only in patients who have a reduction in serum M protein of 50% or more (where serum M protein is not measurable, an appropriate alternative biochemical measure of response should be used) <b>and</b>\r\n</li>\r\n<li>the manufacturer rebates the full cost of bortezomib if there is an inadequate response (as defined above) after four cycles of treatment.</li>\r\n</ul>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA129\">www.nice.org.uk/TA129</xref>\n</sectiondiv>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA228</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Bortezomib and thalidomide for the first-line treatment of multiple myeloma (July 2011)</p>\r\n<p>Bortezomib in combination with an alkylating drug and a corticosteroid is recommended as an option for the first-line treatment of multiple myeloma if:</p>\r\n<ul>\r\n<li>high-dose chemotherapy with stem cell transplantation is considered inappropriate <b>and</b>\r\n</li>\r\n<li>the person is unable to tolerate or has contra-indications to thalidomide.</li>\r\n</ul>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA228\">www.nice.org.uk/TA228</xref>\n</sectiondiv>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA311</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Bortezomib for induction therapy in multiple myeloma before high-dose chemotherapy and autologous stem cell transplantation (April 2014)</p>\r\n<p>Bortezomib is recommended as an option within its marketing authorisation, in combination with dexamethasone, or with dexamethasone and thalidomide, for the induction treatment of adults with previously untreated multiple myeloma, who are eligible for high-dose chemotherapy with haematopoietic stem cell transplantation.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA311\">www.nice.org.uk/TA311</xref>\n</sectiondiv>\n</sectiondiv>\r\n<sectiondiv outputclass=\"smcDecisions\">\r\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\r\n<sectiondiv outputclass=\"smcDecision\">\r\n<sectiondiv>\r\n<p>The <i>Scottish Medicines Consortium</i>, has advised (December 2013) that bortezomib (<i>Velcade</i>\n<tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland in combination with dexamethasone and thalidomide for the induction treatment of adults with previously untreated multiple myeloma who are eligible for high-dose chemotherapy with haematopoietic stem cell transplantation.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP5444-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/bortezomib\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75876\" title=\"Powder for solution for injection\" namespace=\"/drugs/bortezomib/powder-for-solution-for-injection\">Powder for solution for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP107699\" namespace=\"/about/changes\" title=\"Changes\" count=\"1\" rel=\"backlink\">Changes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1116\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/bortezomib\" title=\"Bortezomib\" count=\"1\" rel=\"link\">Bortezomib</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75876\" namespace=\"/drugs/bortezomib/powder-for-solution-for-injection\" title=\"Powder for solution for injection\" count=\"1\" rel=\"link\">Powder for solution for injection</xref>\n</links>\n</topic>",
+    "id": "PHP5444",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/bortezomib",
+    "basename": "bortezomib",
+    "title": "BORTEZOMIB",
+    "interactants": [
+        {
+            "id": "bnf_int_1116",
+            "label": "Bortezomib"
+        }
+    ],
+    "vtmid": "398907002",
+    "drugClassification": [
+        "Proteasome inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Bortezomib is a proteasome inhibitor.",
+                "html": "<p>Bortezomib is a proteasome inhibitor.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of multiple myeloma that has progressed despite the use of at least one therapy, and where the patient has already had, or is unable to have, haematopoietic stem cell transplantation (either as monotherapy, or in combination with pegylated liposomal doxorubicin or dexamethasone)",
+                        "html": "Treatment of multiple myeloma that has progressed despite the use of at least one therapy, and where the patient has already had, or is unable to have, haematopoietic stem cell transplantation (either as monotherapy, or in combination with pegylated liposomal doxorubicin or dexamethasone)"
+                    },
+                    {
+                        "textContent": "Treatment of previously untreated multiple myeloma in patients who are not eligible for high-dose chemotherapy with haematopoietic stem cell transplantation (in combination with melphalan and prednisolone)",
+                        "html": "Treatment of previously untreated multiple myeloma in patients who are not eligible for high-dose chemotherapy with haematopoietic stem cell transplantation (in combination with melphalan and prednisolone)"
+                    },
+                    {
+                        "textContent": "Induction treatment of previously untreated multiple myeloma in patients who are eligible for high-dose chemotherapy with haematopoietic stem cell transplantation (in combination with dexamethasone, or with dexamethasone and thalidomide)",
+                        "html": "Induction treatment of previously untreated multiple myeloma in patients who are eligible for high-dose chemotherapy with haematopoietic stem cell transplantation (in combination with dexamethasone, or with dexamethasone and thalidomide)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous injection or subcutaneous injection"
+                    ],
+                    "textContent": "By intravenous injection or by subcutaneous injection",
+                    "html": "By intravenous injection or by subcutaneous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult local protocol).",
+                        "html": "<p>(consult local protocol).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "textContent": "Bortezomib injection is for intravenous or subcutaneous administration only. Inadvertent intrathecal administration with fatal outcome has been reported.",
+                "html": "<p>Bortezomib injection is for <b>intravenous or subcutaneous administration </b>only. Inadvertent intrathecal administration with fatal outcome has been reported.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Acute diffuse infiltrative pulmonary disease",
+                "html": "Acute diffuse infiltrative pulmonary disease"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "pericardial disease",
+                "html": "pericardial disease"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Amyloidosis",
+                "html": "Amyloidosis"
+            },
+            {
+                "type": "cautions",
+                "textContent": "cardiovascular disease",
+                "html": "cardiovascular disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "consider antiviral prophylaxis for herpes zoster infection",
+                "html": "consider antiviral prophylaxis for herpes zoster infection"
+            },
+            {
+                "type": "cautions",
+                "textContent": "dehydration",
+                "html": "dehydration"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of syncope",
+                "html": "history of syncope"
+            },
+            {
+                "type": "cautions",
+                "textContent": "pulmonary disease (discontinue if interstitial lung disease develops)",
+                "html": "pulmonary disease (discontinue if interstitial lung disease develops)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "risk factors for seizures",
+                "html": "risk factors for seizures"
+            },
+            {
+                "type": "cautions",
+                "textContent": "risk of neuropathy&#8212;consult product literature",
+                "html": "risk of neuropathy&#8212;consult product literature"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Caution with concurrent use of medication which may cause hypotension.\n\nAppendix 1 (bortezomib).",
+                "html": "<p>Caution with concurrent use of medication which may cause hypotension.</p><p>Appendix 1 (bortezomib).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Constipation (cases of ileus reported)",
+                        "html": "Constipation (cases of ileus reported)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite",
+                        "html": "decreased appetite",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspnoea",
+                        "html": "dyspnoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "herpes zoster",
+                        "html": "herpes zoster",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "peripheral neuropathy",
+                        "html": "peripheral neuropathy",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pyrexia",
+                        "html": "pyrexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "reactivation of herpes zoster",
+                        "html": "reactivation of herpes zoster",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sensory neuropathy",
+                        "html": "sensory neuropathy",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Acute diffuse infiltrative pulmonary disorders",
+                        "html": "Acute diffuse infiltrative pulmonary disorders",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "heart failure",
+                        "html": "heart failure",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "posterior reversible encephalopathy syndrome (discontinue treatment)",
+                        "html": "posterior reversible encephalopathy syndrome (discontinue treatment)",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "pulmonary hypertension",
+                        "html": "pulmonary hypertension",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "seizures",
+                        "html": "seizures",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Autonomic neuropathy",
+                        "html": "Autonomic neuropathy",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Progressive multifocal leucoencephalopathy",
+                        "html": "Progressive multifocal leucoencephalopathy",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "bone-marrow suppression",
+                        "html": "bone-marrow suppression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "extravasation",
+                        "html": "extravasation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperuricaemia",
+                        "html": "hyperuricaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "oral mucositis",
+                        "html": "oral mucositis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thromboembolism",
+                        "html": "thromboembolism",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tumour lysis syndrome",
+                        "html": "tumour lysis syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "textContent": "For further information on side-effects, consult product literature.",
+                "html": "<p>For further information on side-effects, consult product literature.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Exclude pregnancy before treatment with cytotoxic drugs.\n\nContraceptive advice should be given to men and women before cytotoxic therapy begins&#8212;manufacturer advises effective contraception during and for 3 months after treatment in men or women.\n\nRegimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.",
+                "html": "<p>Exclude pregnancy before treatment with cytotoxic drugs.</p><p>Contraceptive advice should be given to men and women before cytotoxic therapy begins&#8212;manufacturer advises effective contraception during and for 3 months after treatment in men or women.</p><p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Toxicity in animal studies.\n\nMost cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.\n\nConsiderable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.",
+                "html": "<p>Toxicity in <i>animal</i> studies.</p><p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p><p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Discontinue breast-feeding.",
+                "html": "<p>Discontinue breast-feeding.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose in moderate to severe impairment&#8212;consult product literature.",
+                "html": "<p>Reduce dose in moderate to severe impairment&#8212;consult product literature.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "No information available for creatinine clearance less than 20 mL/minute/1.73 m2.",
+                "html": "<p>No information available for creatinine clearance less than 20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor blood-glucose concentration in patients on oral antidiabetics.\n\nMonitor for symptoms of progressive multifocal leucoencephalopathy (presenting as new or worsening neurological signs or symptoms)&#8212;discontinue treatment if diagnosed.\n\nChest x-ray recommended before treatment to monitor for pulmonary disease&#8212;discontinue if interstitial lung disease develops.",
+                "html": "<p>Monitor blood-glucose concentration in patients on oral antidiabetics.</p><p>Monitor for symptoms of progressive multifocal leucoencephalopathy (presenting as new or worsening neurological signs or symptoms)&#8212;discontinue treatment if diagnosed.</p><p>Chest x-ray recommended before treatment to monitor for pulmonary disease&#8212;discontinue if interstitial lung disease develops.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA129",
+                        "label": "www.nice.org.uk/TA129"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA129",
+                "textContent": "Bortezomib monotherapy for relapsed multiple myeloma (October 2007) Bortezomib monotherapy is an option for the treatment of progressive multiple myeloma in patients who are at first relapse having received one prior therapy and who have undergone, or are unsuitable for, bone-marrow transplantation, under the following circumstances: the response to bortezomib is measured using serum M protein after a maximum of four cycles of treatment, and treatment is continued only in patients who have a reduction in serum M protein of 50% or more (where serum M protein is not measurable, an appropriate alternative biochemical measure of response should be used) and the manufacturer rebates the full cost of bortezomib if there is an inadequate response (as defined above) after four cycles of treatment.\n\nwww.nice.org.uk/TA129",
+                "html": "<p outputclass=\"title\">Bortezomib monotherapy for relapsed multiple myeloma (October 2007)</p> <p>Bortezomib monotherapy is an option for the treatment of progressive multiple myeloma in patients who are at first relapse having received one prior therapy and who have undergone, or are unsuitable for, bone-marrow transplantation, under the following circumstances:</p> <ul> <li>the response to bortezomib is measured using serum M protein after a maximum of four cycles of treatment, and treatment is continued only in patients who have a reduction in serum M protein of 50% or more (where serum M protein is not measurable, an appropriate alternative biochemical measure of response should be used) <b>and</b> </li> <li>the manufacturer rebates the full cost of bortezomib if there is an inadequate response (as defined above) after four cycles of treatment.</li> </ul><xref format=\"html\" href=\"http://www.nice.org.uk/TA129\">www.nice.org.uk/TA129</xref>"
+            },
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA228",
+                        "label": "www.nice.org.uk/TA228"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA228",
+                "textContent": "Bortezomib and thalidomide for the first-line treatment of multiple myeloma (July 2011) Bortezomib in combination with an alkylating drug and a corticosteroid is recommended as an option for the first-line treatment of multiple myeloma if: high-dose chemotherapy with stem cell transplantation is considered inappropriate and the person is unable to tolerate or has contra-indications to thalidomide.\n\nwww.nice.org.uk/TA228",
+                "html": "<p outputclass=\"title\">Bortezomib and thalidomide for the first-line treatment of multiple myeloma (July 2011)</p> <p>Bortezomib in combination with an alkylating drug and a corticosteroid is recommended as an option for the first-line treatment of multiple myeloma if:</p> <ul> <li>high-dose chemotherapy with stem cell transplantation is considered inappropriate <b>and</b> </li> <li>the person is unable to tolerate or has contra-indications to thalidomide.</li> </ul><xref format=\"html\" href=\"http://www.nice.org.uk/TA228\">www.nice.org.uk/TA228</xref>"
+            },
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA311",
+                        "label": "www.nice.org.uk/TA311"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA311",
+                "textContent": "Bortezomib for induction therapy in multiple myeloma before high-dose chemotherapy and autologous stem cell transplantation (April 2014) Bortezomib is recommended as an option within its marketing authorisation, in combination with dexamethasone, or with dexamethasone and thalidomide, for the induction treatment of adults with previously untreated multiple myeloma, who are eligible for high-dose chemotherapy with haematopoietic stem cell transplantation.\n\nwww.nice.org.uk/TA311",
+                "html": "<p outputclass=\"title\">Bortezomib for induction therapy in multiple myeloma before high-dose chemotherapy and autologous stem cell transplantation (April 2014)</p> <p>Bortezomib is recommended as an option within its marketing authorisation, in combination with dexamethasone, or with dexamethasone and thalidomide, for the induction treatment of adults with previously untreated multiple myeloma, who are eligible for high-dose chemotherapy with haematopoietic stem cell transplantation.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA311\">www.nice.org.uk/TA311</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75876",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "treatmentSummary": [
+            {
+                "id": "PHP107699",
+                "label": "Changes",
+                "type": "treatmentSummary"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1116",
+                "label": "Bortezomib",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75876",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

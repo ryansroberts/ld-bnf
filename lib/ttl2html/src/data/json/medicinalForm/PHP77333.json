@@ -1,0 +1,77 @@
+{
+    "xml": "<topic id=\"PHP77333\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/acenocoumarol/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Acenocoumarol 1mg tablets <ph outputclass=\"manufacturer\">(Waymade Healthcare Plc)</ph>\n</title>\n<data name=\"ampid\">21749211000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acenocoumarol 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.62</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sinthrome 1mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">738511000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acenocoumarol 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.62</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.62</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1499\" title=\"ACENOCOUMAROL\" namespace=\"/drugs/acenocoumarol\">ACENOCOUMAROL</xref>\n</parents>\n</topic>",
+    "id": "PHP77333",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/acenocoumarol/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Acenocoumarol 1mg tablets (Waymade Healthcare Plc) ",
+            "header": "Acenocoumarol 1mg tablets <ph outputclass=\"manufacturer\">(Waymade Healthcare Plc)</ph>",
+            "manufacturer": "(Waymade Healthcare Plc)",
+            "name": "Acenocoumarol 1mg tablets",
+            "ampid": "21749211000001108",
+            "strengthOfActiveIngredient": "Acenocoumarol 1 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.62 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.62</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.62"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sinthrome 1mg tablets (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Sinthrome 1mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Sinthrome 1mg tablets",
+            "ampid": "738511000001103",
+            "strengthOfActiveIngredient": "Acenocoumarol 1 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.62 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.62</ph>",
+                        "nhsIndicativePrice": "&#163;4.62"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.62 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.62</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.62"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1499",
+        "label": "ACENOCOUMAROL"
+    }
+}

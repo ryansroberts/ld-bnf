@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP101903\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/optaflu\" basename=\"optaflu\" title=\"Optaflu\">\n<title>Optaflu<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP101999\" outputclass=\"unlicensedUse\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/optaflu\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Not licensed for use in children and adolescents under 18 years.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP101903",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/optaflu",
+    "basename": "optaflu",
+    "title": "Optaflu",
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Not licensed for use in children and adolescents under 18 years.",
+                "html": "<p>Not licensed for use in children and adolescents under 18 years.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

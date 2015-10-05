@@ -1,0 +1,46 @@
+{
+    "xml": "<topic id=\"PHP74638\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/varicella-zoster-vaccine/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Neomycin</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81538\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/varilrix\">Varilrix<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Varilrix vaccine powder and solvent for solution for injection 0.5ml vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4622911000001106</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.31</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8420\" title=\"VARICELLA-ZOSTER VACCINE\" namespace=\"/drugs/varicella-zoster-vaccine\">VARICELLA-ZOSTER VACCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP74638",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/varicella-zoster-vaccine/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "excipients": [
+        "Neomycin"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81538",
+            "label": "Varilrix&reg;  ",
+            "html": "Varilrix<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Varilrix vaccine powder and solvent for solution for injection 0.5ml vials (GlaxoSmithKline UK Ltd) ",
+            "header": "Varilrix vaccine powder and solvent for solution for injection 0.5ml vials <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Varilrix vaccine powder and solvent for solution for injection 0.5ml vials",
+            "ampid": "4622911000001106",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.31 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.31</ph>",
+                        "nhsIndicativePrice": "&#163;27.31"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8420",
+        "label": "VARICELLA-ZOSTER VACCINE"
+    }
+}

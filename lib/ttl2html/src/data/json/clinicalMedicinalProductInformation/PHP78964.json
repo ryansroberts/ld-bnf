@@ -1,0 +1,75 @@
+{
+    "xml": "<topic id=\"PHP78964\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/priadel-tablets\" basename=\"priadel-tablets\" title=\"Priadel tablets\">\n<title>Priadel<tm tmtype=\"reg\"/> tablets</title>\n<topic id=\"PHP79472\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/priadel-tablets\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment and prophylaxis of mania</p>\n<p outputclass=\"therapeuticIndication\">Treatment and prophylaxis of bipolar disorder</p>\n<p outputclass=\"therapeuticIndication\">Treatment and prophylaxis of recurrent depression</p>\n<p outputclass=\"therapeuticIndication\">Treatment and prophlyaxis of aggressive or self-harming behaviour</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight up to 49 kg)</p>\n<p>Initially 200&#8211;400&#8239;mg daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult (body-weight 50 kg and above)</p>\n<p>Initially 0.4&#8211;1.2&#8239;g once daily, alternatively initially 0.4&#8211;1.2&#8239;g daily in 2 divided doses, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 200&#8211;400&#8239;mg daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>\n<b>Preparations vary widely in bioavailability</b>; changing the preparation requires the same precautions as initiation of treatment.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78964",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/priadel-tablets",
+    "basename": "priadel-tablets",
+    "title": "Priadel tablets",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment and prophylaxis of mania",
+                        "html": "Treatment and prophylaxis of mania"
+                    },
+                    {
+                        "textContent": "Treatment and prophylaxis of bipolar disorder",
+                        "html": "Treatment and prophylaxis of bipolar disorder"
+                    },
+                    {
+                        "textContent": "Treatment and prophylaxis of recurrent depression",
+                        "html": "Treatment and prophylaxis of recurrent depression"
+                    },
+                    {
+                        "textContent": "Treatment and prophlyaxis of aggressive or self-harming behaviour",
+                        "html": "Treatment and prophlyaxis of aggressive or self-harming behaviour"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 200&#8211;400 mg daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1 mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.",
+                        "html": "<p>Initially 200&#8211;400&#8239;mg daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>",
+                        "ageGroup": "(body-weight up to 49 kg)"
+                    },
+                    {
+                        "textContent": "Initially 0.4&#8211;1.2 g once daily, alternatively initially 0.4&#8211;1.2 g daily in 2 divided doses, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1 mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.",
+                        "html": "<p>Initially 0.4&#8211;1.2&#8239;g once daily, alternatively initially 0.4&#8211;1.2&#8239;g daily in 2 divided doses, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>",
+                        "ageGroup": "(body-weight 50 kg and above)"
+                    },
+                    {
+                        "textContent": "Initially 200&#8211;400 mg daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1 mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.",
+                        "html": "<p>Initially 200&#8211;400&#8239;mg daily, dose adjusted to achieve a serum-lithium concentration of 0.4&#8211;1&#8239;mmol/litre 12 hours after a dose on days 4&#8211;7 of treatment, then every week until dosage has remained constant for 4 weeks and every 3 months thereafter, doses are initially divided throughout the day, but once daily administration is preferred when serum-lithium concentration stabilised.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Preparations vary widely in bioavailability; changing the preparation requires the same precautions as initiation of treatment.",
+                "html": "<p>\n<b>Preparations vary widely in bioavailability</b>; changing the preparation requires the same precautions as initiation of treatment.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

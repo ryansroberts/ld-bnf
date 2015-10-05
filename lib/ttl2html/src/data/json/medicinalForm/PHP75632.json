@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP75632\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/malathion/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Cetostearyl alcohol (including cetyl and stearyl alcohol), fragrances, hydroxybenzoates (parabens)</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Derbac-M 0.5% liquid <ph outputclass=\"manufacturer\">(G.R. Lane Health Products Ltd)</ph>\n</title>\n<data name=\"ampid\">650111000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Malathion 5&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">50</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;3.23</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">200</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.76</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;7.76</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8075\" title=\"MALATHION\" namespace=\"/drugs/malathion\">MALATHION</xref>\n</parents>\n</topic>",
+    "id": "PHP75632",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/malathion/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "excipients": [
+        "Cetostearyl alcohol (including cetyl and stearyl alcohol)",
+        "fragrances",
+        "hydroxybenzoates (parabens)"
+    ],
+    "products": [
+        {
+            "title": "Derbac-M 0.5% liquid (G.R. Lane Health Products Ltd) ",
+            "header": "Derbac-M 0.5% liquid <ph outputclass=\"manufacturer\">(G.R. Lane Health Products Ltd)</ph>",
+            "manufacturer": "(G.R. Lane Health Products Ltd)",
+            "name": "Derbac-M 0.5% liquid",
+            "ampid": "650111000001101",
+            "strengthOfActiveIngredient": "Malathion 5 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 50 ml P ",
+                    "html": "<ph outputclass=\"packSize\">50</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.23 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>",
+                        "nhsIndicativePrice": "&#163;3.23"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.23 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.23</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.23"
+                    }
+                },
+                {
+                    "textContent": " 200 ml P ",
+                    "html": "<ph outputclass=\"packSize\">200</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "200",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.76 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.76</ph>",
+                        "nhsIndicativePrice": "&#163;7.76"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;7.76 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;7.76</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;7.76"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8075",
+        "label": "MALATHION"
+    }
+}

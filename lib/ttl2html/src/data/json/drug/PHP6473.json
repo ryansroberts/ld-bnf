@@ -1,0 +1,1333 @@
+{
+    "xml": "<topic id=\"PHP6473\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/ketoprofen\" basename=\"ketoprofen\" title=\"KETOPROFEN\">\n<title>KETOPROFEN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_71\" namespace=\"/interactions/list-of-drug-interactions/analgesics/nsaids/ketoprofen\">Ketoprofen</xref>\n</p>\n<data name=\"vtmid\">10099000</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_322611837\" title=\"Non-steroidal anti-inflammatory drugs\">Non-steroidal anti-inflammatory drugs</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\n<data name=\"secondaryDomainsOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP62924\" outputclass=\"indicationsAndDose\" rev=\"1.42\" parent=\"/drugs/ketoprofen\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pain and mild inflammation in rheumatic disease</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using immediate-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;200&#8239;mg daily in 2&#8211;4 divided doses.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By mouth using modified-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;200&#8239;mg once daily, dose to be taken with food.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By rectum</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8239;mg once daily, to be administered at bedtime, combined oral and rectal treatment, maximum total daily dose 200&#8239;mg.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pain in musculoskeletal disorders</p>\n<p outputclass=\"therapeuticIndication\">Pain after orthopaedic surgery</p>\n<p outputclass=\"therapeuticIndication\">Dysmenorrhoea</p>\n<p outputclass=\"therapeuticIndication\">Acute gout</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using immediate-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>50&#8239;mg up to 3 times a day.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By mouth using modified-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;200&#8239;mg once daily, dose to be taken with food.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Relief of pain in musculoskeletal disorders</p>\n<p outputclass=\"therapeuticIndication\">Treatment in knee or hand osteoarthritis (adjunct)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 2&#8211;4 times a day for up to 7 days, ketoprofen 2.5% gel to be administered; maximum 15&#8239;g per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP63063\" outputclass=\"contraindications\" rev=\"1.10\" parent=\"/drugs/ketoprofen\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<sectiondiv outputclass=\"additionalContraindications\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With systemic use</p>\n<p>\n<ph outputclass=\"contraindication\">active gastro-intestinal bleeding</ph>; <ph outputclass=\"contraindication\">active gastro-intestinal ulceration</ph>; <ph outputclass=\"contraindication\">history of gastro-intestinal bleeding</ph>; <ph outputclass=\"contraindication\">history of gastro-intestinal perforation</ph>; <ph outputclass=\"contraindication\">history of gastro-intestinal ulceration</ph>; <ph outputclass=\"contraindication\">severe heart failure</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP63091\" outputclass=\"cautions\" rev=\"1.15\" parent=\"/drugs/ketoprofen\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<sectiondiv outputclass=\"additionalCautions\">\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With systemic use</p>\n<p>\n<ph outputclass=\"caution\">allergic disorders</ph>; <ph outputclass=\"caution\">cardiac impairment (NSAIDs may impair renal function)</ph>; <ph outputclass=\"caution\">cerebrovascular disease</ph>; <ph outputclass=\"caution\">coagulation defects</ph>; <ph outputclass=\"caution\">connective-tissue disorders</ph>; <ph outputclass=\"caution\">Crohn&#8217;s disease (may be exacerbated)</ph>; <ph outputclass=\"caution\">elderly (risk of serious side-effects and fatalities)</ph>; <ph outputclass=\"caution\">heart failure</ph>; <ph outputclass=\"caution\">ischaemic heart disease</ph>; <ph outputclass=\"caution\">peripheral arterial disease</ph>; <ph outputclass=\"caution\">risk factors for cardiovascular events</ph>; <ph outputclass=\"caution\">ulcerative colitis (may be exacerbated)</ph>; <ph outputclass=\"caution\">uncontrolled hypertension</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithRoutes\">\n<p outputclass=\"title\">With topical use</p>\n<p>\n<ph outputclass=\"caution\">avoid contact with eyes</ph>; <ph outputclass=\"caution\">avoid contact with inflamed or broken skin</ph>; <ph outputclass=\"caution\">avoid contact with mucous membranes</ph>; <ph outputclass=\"caution\">not for use with occlusive dressings</ph>; <ph outputclass=\"caution\">topical application of large amounts can result in systemic effects, including hypersensitivity and asthma (renal disease has also been reported)</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62913\" outputclass=\"interactions\" rev=\"1.8\" parent=\"/drugs/ketoprofen\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Interactions do not generally apply to topical NSAIDs.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Appendix 1 (NSAIDs).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62792\" outputclass=\"sideEffects\" rev=\"1.26\" parent=\"/drugs/ketoprofen\">\n<title>Side-effects</title>\n<body>\r\n<section outputclass=\"generalSideEffects\">\r\n<title>General side-effects:</title>\r\n<sectiondiv outputclass=\"frequencies\">\r\n\r\n\r\n\r\n\r\n<sectiondiv outputclass=\"notKnown\">\r\n<p outputclass=\"title\">Frequency not known</p>\r\n<p outputclass=\"sideEffects\">\r\n<ph outputclass=\"sideEffect\">Photosensitivity</ph>\r\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n<section outputclass=\"specificSideEffects\">\r\n<title>Specific side-effects:</title>\r\n<sectiondiv outputclass=\"frequencies\">\r\n\r\n\r\n<sectiondiv outputclass=\"rare\">\r\n<p outputclass=\"title\">Rare</p>\r\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\r\n<p outputclass=\"title\">With systemic use</p>\r\n<p>\r\n<ph outputclass=\"sideEffect\">alveolitis</ph>; <ph outputclass=\"sideEffect\">aseptic meningitis (patients with connective-tissue disorders such as systemic lupus erythematosus may be especially susceptible)</ph>; <ph outputclass=\"sideEffect\">hepatic damage</ph>; <ph outputclass=\"sideEffect\">interstitial fibrosis associated with NSAIDs can lead to renal failure</ph>; <ph outputclass=\"sideEffect\">pancreatitis</ph>; <ph outputclass=\"sideEffect\">papillary necrosis associated with NSAIDs can lead to renal failure</ph>; <ph outputclass=\"sideEffect\">pulmonary eosinophilia</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">toxic epidermal necrolysis</ph>; <ph outputclass=\"sideEffect\">visual disturbances</ph>\r\n</p>\n</sectiondiv>\n</sectiondiv>\r\n\r\n<sectiondiv outputclass=\"notKnown\">\r\n<p outputclass=\"title\">Frequency not known</p>\r\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\r\n<p outputclass=\"title\">With rectal use</p>\r\n<p>\r\n<ph outputclass=\"sideEffect\">suppositories may cause rectal irritation</ph>\r\n</p>\n</sectiondiv>\r\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\r\n<p outputclass=\"title\">With systemic use</p>\r\n<p>\r\n<ph outputclass=\"sideEffect\">angioedema</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">bronchospasm</ph>; <ph outputclass=\"sideEffect\">colitis (induction of or exacerbation of)</ph>; <ph outputclass=\"sideEffect\">Crohn&#8217;s disease (induction of or exacerbation of)</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">drowsiness</ph>; <ph outputclass=\"sideEffect\">fluid retention (rarely precipitating congestive heart failure)</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal bleeding</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal discomfort</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal ulceration</ph>; <ph outputclass=\"sideEffect\">haematuria</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hearing disturbances</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">insomnia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">nervousness</ph>; <ph outputclass=\"sideEffect\">raised blood pressure</ph>; <ph outputclass=\"sideEffect\">rashes</ph>; <ph outputclass=\"sideEffect\">renal failure (especially in patients with pre-existing renal impairment)</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>; <ph outputclass=\"sideEffect\">vertigo</ph>\r\n</p>\n</sectiondiv>\r\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\r\n<p outputclass=\"title\">With topical use</p>\r\n<p>\r\n<ph outputclass=\"sideEffect\">rash (discontinue use if develops)</ph>\r\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\r\n </section>\r\n<section outputclass=\"sideEffectsAdvice\">\r\n<title>Side-effects, further information</title>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Serious side-effects</p>\r\n<p>For information about cardiovascular and gastro-intestinal side-effects, and a possible exacerbation of symptoms in asthma, see <xref format=\"dita\" href=\"#PHP78612\" type=\"bookmark\" namespace=\"/treatment-summaries/non-steroidal-anti-inflammatory-drugs\">Non-steroidal anti-inflammatory drugs</xref>.</p>\n</sectiondiv>\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\r\n<p>Topical application of large amounts can result in systemic effects, including hypersensitivity and asthma (renal disease has also been reported).</p>\n</sectiondiv>\n</section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP63129\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.9\" parent=\"/drugs/ketoprofen\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityContraindications\">\n<sectiondiv>\n<p>Contraindicated in patients with a history of hypersensitivity to aspirin or any other NSAID&#8212;which includes those in whom attacks of asthma, angioedema, urticaria or rhinitis have been precipitated by aspirin or any other NSAID.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP63080\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/ketoprofen\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>Caution&#8212;long-term use of some NSAIDs is associated with reduced female fertility, which is reversible on stopping treatment. </p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62894\" outputclass=\"pregnancy\" parent=\"/drugs/ketoprofen\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>Avoid unless the potential benefit outweighs the risk.</p>\n<p>Avoid during the third trimester (risk of closure of fetal ductus arteriosus <i>in utero</i> and possibly persistent pulmonary hypertension of the newborn); onset of labour may be delayed and duration may be increased.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Patient packs for topical preparations carry a warning to avoid during pregnancy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP63108\" outputclass=\"breastFeeding\" parent=\"/drugs/ketoprofen\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>Use with caution during breast-feeding.</p>\n<p>Amount probably too small to be harmful but manufacturers advise avoid.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Patient packs for topical preparations carry a warning to avoid during breast-feeding.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62957\" outputclass=\"hepaticImpairment\" parent=\"/drugs/ketoprofen\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>Use with caution; there is an increased risk of gastro-intestinal bleeding and fluid retention.</p>\n<p>Should be avoided in severe liver disease.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62855\" outputclass=\"renalImpairment\" parent=\"/drugs/ketoprofen\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>The lowest effective dose should be used for the shortest possible duration.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>Avoid if possible or use with caution.</p>\n<p>Avoid in severe impairment.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Deterioration in renal function has also been reported after topical use.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInRenalImpairment\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">systemic</ph> use</p>\n<p>In renal impairment monitor renal function; sodium and water retention may occur and renal function may deteriorate, possibly leading to renal failure.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP63152\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/drugs/ketoprofen\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>For topical preparations apply with gentle massage only.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60850\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.14\" parent=\"/drugs/ketoprofen\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Caution&#8212;topical preparations not generally suitable for children.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Flavours of oral liquid formulations may include strawberry.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62876\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/drugs/ketoprofen\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>For topical preparations, patients and their carers should be advised to wash hands immediately after use.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p outputclass=\"title\">Photosensitivity</p>\n<p>Patients should be advised against excessive exposure to sunlight of area treated in order to avoid possibility of photosensitivity.</p>\n<p>Patients should be advised not to expose area treated to sunbeds or sunlight (even on a bright but cloudy day) during, and for two weeks after stopping treatment; treated areas should be protected with clothing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP62617\" outputclass=\"exceptionsToLegalCategory\" rev=\"1.10\" parent=\"/drugs/ketoprofen\">\n<title>Exceptions to legal category</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">topical</ph> use</p>\n<p>Smaller pack sizes of gel preparations may be available on sale to the public.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP6473-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/ketoprofen\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77247\" title=\"Capsule\" namespace=\"/drugs/ketoprofen/capsule\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77261\" title=\"Modified-release capsule\" namespace=\"/drugs/ketoprofen/modified-release-capsule\">Modified-release capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77255\" title=\"Gel\" namespace=\"/drugs/ketoprofen/gel\">Gel</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88004\" namespace=\"/drugs/ketoprofen-with-omeprazole\" title=\"KETOPROFEN WITH OMEPRAZOLE\" count=\"1\" rel=\"backlink\">KETOPROFEN WITH OMEPRAZOLE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78488\" namespace=\"/treatment-summaries/soft-tissue-disorders\" title=\"Soft-tissue disorders\" count=\"1\" rel=\"backlink\">Soft-tissue disorders</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78500\" namespace=\"/treatment-summaries/pre-medication-and-peri-operative-drugs\" title=\"Pre-medication and peri-operative drugs\" count=\"3\" rel=\"backlink\">Pre-medication and peri-operative drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78607\" namespace=\"/treatment-summaries/gout\" title=\"Gout\" count=\"1\" rel=\"backlink\">Gout</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_71\" namespace=\"/interactions/list-of-drug-interactions/analgesics/nsaids/ketoprofen\" title=\"Ketoprofen\" count=\"1\" rel=\"link\">Ketoprofen</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78612\" namespace=\"/treatment-summaries/non-steroidal-anti-inflammatory-drugs\" title=\"Non-steroidal anti-inflammatory drugs\" count=\"1\" rel=\"link\">Non-steroidal anti-inflammatory drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77247\" namespace=\"/drugs/ketoprofen/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77261\" namespace=\"/drugs/ketoprofen/modified-release-capsule\" title=\"Modified-release capsule\" count=\"1\" rel=\"link\">Modified-release capsule</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77255\" namespace=\"/drugs/ketoprofen/gel\" title=\"Gel\" count=\"1\" rel=\"link\">Gel</xref>\n</links>\n</topic>",
+    "id": "PHP6473",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/ketoprofen",
+    "basename": "ketoprofen",
+    "title": "KETOPROFEN",
+    "interactants": [
+        {
+            "id": "bnf_int_71",
+            "label": "Ketoprofen"
+        }
+    ],
+    "vtmid": "10099000",
+    "drugClassification": [
+        "Non-steroidal anti-inflammatory drugs"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "secondaryDomainsOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Pain and mild inflammation in rheumatic disease",
+                        "html": "Pain and mild inflammation in rheumatic disease"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "rectum"
+                    ],
+                    "textContent": "By rectum",
+                    "html": "By rectum"
+                },
+                "adult": [
+                    {
+                        "textContent": "100&#8211;200 mg daily in 2&#8211;4 divided doses.",
+                        "html": "<p>100&#8211;200&#8239;mg daily in 2&#8211;4 divided doses.</p>"
+                    },
+                    {
+                        "textContent": "100&#8211;200 mg once daily, dose to be taken with food.",
+                        "html": "<p>100&#8211;200&#8239;mg once daily, dose to be taken with food.</p>"
+                    },
+                    {
+                        "textContent": "100 mg once daily, to be administered at bedtime, combined oral and rectal treatment, maximum total daily dose 200 mg.",
+                        "html": "<p>100&#8239;mg once daily, to be administered at bedtime, combined oral and rectal treatment, maximum total daily dose 200&#8239;mg.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Pain in musculoskeletal disorders",
+                        "html": "Pain in musculoskeletal disorders"
+                    },
+                    {
+                        "textContent": "Pain after orthopaedic surgery",
+                        "html": "Pain after orthopaedic surgery"
+                    },
+                    {
+                        "textContent": "Dysmenorrhoea",
+                        "html": "Dysmenorrhoea"
+                    },
+                    {
+                        "textContent": "Acute gout",
+                        "html": "Acute gout"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using modified-release medicines"
+                    ],
+                    "textContent": "By mouth using modified-release medicines",
+                    "html": "By mouth using modified-release medicines"
+                },
+                "adult": [
+                    {
+                        "textContent": "50 mg up to 3 times a day.",
+                        "html": "<p>50&#8239;mg up to 3 times a day.</p>"
+                    },
+                    {
+                        "textContent": "100&#8211;200 mg once daily, dose to be taken with food.",
+                        "html": "<p>100&#8211;200&#8239;mg once daily, dose to be taken with food.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Relief of pain in musculoskeletal disorders",
+                        "html": "Relief of pain in musculoskeletal disorders"
+                    },
+                    {
+                        "textContent": "Treatment in knee or hand osteoarthritis (adjunct)",
+                        "html": "Treatment in knee or hand osteoarthritis (adjunct)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 2&#8211;4 times a day for up to 7 days, ketoprofen 2.5% gel to be administered; maximum 15 g per day.",
+                        "html": "<p>Apply 2&#8211;4 times a day for up to 7 days, ketoprofen 2.5% gel to be administered; maximum 15&#8239;g per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "active gastro-intestinal bleeding",
+                "html": "active gastro-intestinal bleeding",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "active gastro-intestinal ulceration",
+                "html": "active gastro-intestinal ulceration",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "history of gastro-intestinal bleeding",
+                "html": "history of gastro-intestinal bleeding",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "history of gastro-intestinal perforation",
+                "html": "history of gastro-intestinal perforation",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "history of gastro-intestinal ulceration",
+                "html": "history of gastro-intestinal ulceration",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "severe heart failure",
+                "html": "severe heart failure",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            }
+        ]
+    },
+    "cautions": {
+        "cautionsOrContraindicationsWithRoutes": [
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "allergic disorders",
+                "html": "allergic disorders",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "cardiac impairment (NSAIDs may impair renal function)",
+                "html": "cardiac impairment (NSAIDs may impair renal function)",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "cerebrovascular disease",
+                "html": "cerebrovascular disease",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "coagulation defects",
+                "html": "coagulation defects",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "connective-tissue disorders",
+                "html": "connective-tissue disorders",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "Crohn&#8217;s disease (may be exacerbated)",
+                "html": "Crohn&#8217;s disease (may be exacerbated)",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "elderly (risk of serious side-effects and fatalities)",
+                "html": "elderly (risk of serious side-effects and fatalities)",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "heart failure",
+                "html": "heart failure",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "ischaemic heart disease",
+                "html": "ischaemic heart disease",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "peripheral arterial disease",
+                "html": "peripheral arterial disease",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "risk factors for cardiovascular events",
+                "html": "risk factors for cardiovascular events",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "ulcerative colitis (may be exacerbated)",
+                "html": "ulcerative colitis (may be exacerbated)",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "uncontrolled hypertension",
+                "html": "uncontrolled hypertension",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With systemic use",
+                    "routes": [
+                        "systemic"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid contact with eyes",
+                "html": "avoid contact with eyes",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With topical use",
+                    "routes": [
+                        "topical"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid contact with inflamed or broken skin",
+                "html": "avoid contact with inflamed or broken skin",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With topical use",
+                    "routes": [
+                        "topical"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "avoid contact with mucous membranes",
+                "html": "avoid contact with mucous membranes",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With topical use",
+                    "routes": [
+                        "topical"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "not for use with occlusive dressings",
+                "html": "not for use with occlusive dressings",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With topical use",
+                    "routes": [
+                        "topical"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithRoutes",
+                "textContent": "topical application of large amounts can result in systemic effects, including hypersensitivity and asthma (renal disease has also been reported)",
+                "html": "topical application of large amounts can result in systemic effects, including hypersensitivity and asthma (renal disease has also been reported)",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With topical use",
+                    "routes": [
+                        "topical"
+                    ]
+                }
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Interactions do not generally apply to topical NSAIDs.",
+                "html": "<p>Interactions do not generally apply to topical NSAIDs.</p>"
+            },
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (NSAIDs).",
+                "html": "<p>Appendix 1 (NSAIDs).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Photosensitivity",
+                        "html": "Photosensitivity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "specific": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "alveolitis",
+                        "html": "alveolitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "aseptic meningitis (patients with connective-tissue disorders such as systemic lupus erythematosus may be especially susceptible)",
+                        "html": "aseptic meningitis (patients with connective-tissue disorders such as systemic lupus erythematosus may be especially susceptible)",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "hepatic damage",
+                        "html": "hepatic damage",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "interstitial fibrosis associated with NSAIDs can lead to renal failure",
+                        "html": "interstitial fibrosis associated with NSAIDs can lead to renal failure",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "pancreatitis",
+                        "html": "pancreatitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "papillary necrosis associated with NSAIDs can lead to renal failure",
+                        "html": "papillary necrosis associated with NSAIDs can lead to renal failure",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "pulmonary eosinophilia",
+                        "html": "pulmonary eosinophilia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "toxic epidermal necrolysis",
+                        "html": "toxic epidermal necrolysis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "visual disturbances",
+                        "html": "visual disturbances",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "suppositories may cause rectal irritation",
+                        "html": "suppositories may cause rectal irritation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With rectal use",
+                            "html": "With rectal use",
+                            "routes": [
+                                "rectal"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "angioedema",
+                        "html": "angioedema",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "bronchospasm",
+                        "html": "bronchospasm",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "colitis (induction of or exacerbation of)",
+                        "html": "colitis (induction of or exacerbation of)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "Crohn&#8217;s disease (induction of or exacerbation of)",
+                        "html": "Crohn&#8217;s disease (induction of or exacerbation of)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "drowsiness",
+                        "html": "drowsiness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "fluid retention (rarely precipitating congestive heart failure)",
+                        "html": "fluid retention (rarely precipitating congestive heart failure)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "gastro-intestinal bleeding",
+                        "html": "gastro-intestinal bleeding",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "gastro-intestinal discomfort",
+                        "html": "gastro-intestinal discomfort",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "gastro-intestinal ulceration",
+                        "html": "gastro-intestinal ulceration",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "haematuria",
+                        "html": "haematuria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "hearing disturbances",
+                        "html": "hearing disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "insomnia",
+                        "html": "insomnia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "nervousness",
+                        "html": "nervousness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "raised blood pressure",
+                        "html": "raised blood pressure",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rashes",
+                        "html": "rashes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "renal failure (especially in patients with pre-existing renal impairment)",
+                        "html": "renal failure (especially in patients with pre-existing renal impairment)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "vertigo",
+                        "html": "vertigo",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With systemic use",
+                            "html": "With systemic use",
+                            "routes": [
+                                "systemic"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "rash (discontinue use if develops)",
+                        "html": "rash (discontinue use if develops)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "With topical use",
+                            "html": "With topical use",
+                            "routes": [
+                                "topical"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "references": [
+                    {
+                        "id": "PHP78612",
+                        "label": "Non-steroidal anti-inflammatory drugs"
+                    }
+                ],
+                "title": "Serious side-effects",
+                "textContent": "For information about cardiovascular and gastro-intestinal side-effects, and a possible exacerbation of symptoms in asthma, see Non-steroidal anti-inflammatory drugs.",
+                "html": "<p>For information about cardiovascular and gastro-intestinal side-effects, and a possible exacerbation of symptoms in asthma, see <xref format=\"dita\" href=\"#PHP78612\" type=\"bookmark\" namespace=\"/treatment-summaries/non-steroidal-anti-inflammatory-drugs\">Non-steroidal anti-inflammatory drugs</xref>.</p>"
+            },
+            {
+                "type": "advice",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Topical application of large amounts can result in systemic effects, including hypersensitivity and asthma (renal disease has also been reported).",
+                "html": "<p>Topical application of large amounts can result in systemic effects, including hypersensitivity and asthma (renal disease has also been reported).</p>"
+            }
+        ]
+    },
+    "allergyAndCrossSensitivity": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Contraindicated in patients with a history of hypersensitivity to aspirin or any other NSAID&#8212;which includes those in whom attacks of asthma, angioedema, urticaria or rhinitis have been precipitated by aspirin or any other NSAID.",
+                "html": "<p>Contraindicated in patients with a history of hypersensitivity to aspirin or any other NSAID&#8212;which includes those in whom attacks of asthma, angioedema, urticaria or rhinitis have been precipitated by aspirin or any other NSAID.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Caution&#8212;long-term use of some NSAIDs is associated with reduced female fertility, which is reversible on stopping treatment.",
+                "html": "<p>Caution&#8212;long-term use of some NSAIDs is associated with reduced female fertility, which is reversible on stopping treatment. </p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Avoid unless the potential benefit outweighs the risk.\n\nAvoid during the third trimester (risk of closure of fetal ductus arteriosus in utero and possibly persistent pulmonary hypertension of the newborn); onset of labour may be delayed and duration may be increased.",
+                "html": "<p>Avoid unless the potential benefit outweighs the risk.</p><p>Avoid during the third trimester (risk of closure of fetal ductus arteriosus <i>in utero</i> and possibly persistent pulmonary hypertension of the newborn); onset of labour may be delayed and duration may be increased.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Patient packs for topical preparations carry a warning to avoid during pregnancy.",
+                "html": "<p>Patient packs for topical preparations carry a warning to avoid during pregnancy.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Use with caution during breast-feeding.\n\nAmount probably too small to be harmful but manufacturers advise avoid.",
+                "html": "<p>Use with caution during breast-feeding.</p><p>Amount probably too small to be harmful but manufacturers advise avoid.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Patient packs for topical preparations carry a warning to avoid during breast-feeding.",
+                "html": "<p>Patient packs for topical preparations carry a warning to avoid during breast-feeding.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Use with caution; there is an increased risk of gastro-intestinal bleeding and fluid retention.\n\nShould be avoided in severe liver disease.",
+                "html": "<p>Use with caution; there is an increased risk of gastro-intestinal bleeding and fluid retention.</p><p>Should be avoided in severe liver disease.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "The lowest effective dose should be used for the shortest possible duration.",
+                "html": "<p>The lowest effective dose should be used for the shortest possible duration.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "Avoid if possible or use with caution.\n\nAvoid in severe impairment.",
+                "html": "<p>Avoid if possible or use with caution.</p><p>Avoid in severe impairment.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Deterioration in renal function has also been reported after topical use.",
+                "html": "<p>Deterioration in renal function has also been reported after topical use.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "specificity": {
+                    "textContent": "With systemic use",
+                    "html": "With <ph outputclass=\"route\">systemic</ph> use",
+                    "routes": [
+                        "systemic"
+                    ]
+                },
+                "textContent": "In renal impairment monitor renal function; sodium and water retention may occur and renal function may deteriorate, possibly leading to renal failure.",
+                "html": "<p>In renal impairment monitor renal function; sodium and water retention may occur and renal function may deteriorate, possibly leading to renal failure.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "For topical preparations apply with gentle massage only.",
+                "html": "<p>For topical preparations apply with gentle massage only.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Caution&#8212;topical preparations not generally suitable for children.",
+                "html": "<p>Caution&#8212;topical preparations not generally suitable for children.</p>"
+            },
+            {
+                "type": "prescribingAndDispensingInformation",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Flavours of oral liquid formulations may include strawberry.",
+                "html": "<p>Flavours of oral liquid formulations may include strawberry.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "For topical preparations, patients and their carers should be advised to wash hands immediately after use.",
+                "html": "<p>For topical preparations, patients and their carers should be advised to wash hands immediately after use.</p>"
+            },
+            {
+                "type": "generalPatientAdvice",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "title": "Photosensitivity",
+                "textContent": "Patients should be advised against excessive exposure to sunlight of area treated in order to avoid possibility of photosensitivity.\n\nPatients should be advised not to expose area treated to sunbeds or sunlight (even on a bright but cloudy day) during, and for two weeks after stopping treatment; treated areas should be protected with clothing.",
+                "html": "<p>Patients should be advised against excessive exposure to sunlight of area treated in order to avoid possibility of photosensitivity.</p><p>Patients should be advised not to expose area treated to sunbeds or sunlight (even on a bright but cloudy day) during, and for two weeks after stopping treatment; treated areas should be protected with clothing.</p>"
+            }
+        ]
+    },
+    "exceptionsToLegalCategory": {
+        "exceptionsToLegalCategory": [
+            {
+                "type": "exceptionsToLegalCategory",
+                "specificity": {
+                    "textContent": "With topical use",
+                    "html": "With <ph outputclass=\"route\">topical</ph> use",
+                    "routes": [
+                        "topical"
+                    ]
+                },
+                "textContent": "Smaller pack sizes of gel preparations may be available on sale to the public.",
+                "html": "<p>Smaller pack sizes of gel preparations may be available on sale to the public.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77247",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77261",
+                "label": "Modified-release capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77255",
+                "label": "Gel",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP88004",
+                "label": "KETOPROFEN WITH OMEPRAZOLE",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78488",
+                "label": "Soft-tissue disorders",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78500",
+                "label": "Pre-medication and peri-operative drugs",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78607",
+                "label": "Gout",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_71",
+                "label": "Ketoprofen",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78612",
+                "label": "Non-steroidal anti-inflammatory drugs",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77247",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77261",
+                "label": "Modified-release capsule",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77255",
+                "label": "Gel",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

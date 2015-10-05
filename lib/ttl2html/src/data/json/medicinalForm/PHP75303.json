@@ -1,0 +1,127 @@
+{
+    "xml": "<topic id=\"PHP75303\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/tacrolimus/ointment\" basename=\"ointment\" title=\"Ointment\">\n<title>Ointment</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">4</ph> - Warning: Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds </p>\n<p>Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Beeswax</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Protopic 0.1% ointment <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">3384711000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tacrolimus (as Tacrolimus monohydrate) 1&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;21.60</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;21.60</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;39.40</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;39.40</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Protopic 0.03% ointment <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">3383011000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Tacrolimus (as Tacrolimus monohydrate) 300&#8239;microgram per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.44</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;19.44</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;35.46</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;35.46</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5639\" title=\"TACROLIMUS\" namespace=\"/drugs/tacrolimus\">TACROLIMUS</xref>\n</parents>\n</topic>",
+    "id": "PHP75303",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/tacrolimus/ointment",
+    "basename": "ointment",
+    "form": "Ointment",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "4",
+            "textContent": "Warning: Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">4</ph> - Warning: Do not drink alcohol"
+        },
+        {
+            "number": "11",
+            "textContent": "Protect your skin from sunlight—even on a bright but cloudy day. Do not use sunbeds",
+            "html": "Label <ph outputclass=\"labelNumber\">11</ph> - Protect your skin from sunlight&#8212;even on a bright but cloudy day. Do not use sunbeds"
+        },
+        {
+            "number": "28",
+            "textContent": "Spread thinly on the affected skin only",
+            "html": "Label <ph outputclass=\"labelNumber\">28</ph> - Spread thinly on the affected skin only"
+        }
+    ],
+    "excipients": [
+        "Beeswax"
+    ],
+    "products": [
+        {
+            "title": "Protopic 0.1% ointment (Astellas Pharma Ltd) ",
+            "header": "Protopic 0.1% ointment <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>",
+            "manufacturer": "(Astellas Pharma Ltd)",
+            "name": "Protopic 0.1% ointment",
+            "ampid": "3384711000001102",
+            "strengthOfActiveIngredient": "Tacrolimus (as Tacrolimus monohydrate) 1 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;21.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;21.60</ph>",
+                        "nhsIndicativePrice": "&#163;21.60"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;21.60 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;21.60</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;21.60"
+                    }
+                },
+                {
+                    "textContent": " 60 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;39.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;39.40</ph>",
+                        "nhsIndicativePrice": "&#163;39.40"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;39.40 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;39.40</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;39.40"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Protopic 0.03% ointment (Astellas Pharma Ltd) ",
+            "header": "Protopic 0.03% ointment <ph outputclass=\"manufacturer\">(Astellas Pharma Ltd)</ph>",
+            "manufacturer": "(Astellas Pharma Ltd)",
+            "name": "Protopic 0.03% ointment",
+            "ampid": "3383011000001101",
+            "strengthOfActiveIngredient": "Tacrolimus (as Tacrolimus monohydrate) 300 microgram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.44 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.44</ph>",
+                        "nhsIndicativePrice": "&#163;19.44"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;19.44 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;19.44</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;19.44"
+                    }
+                },
+                {
+                    "textContent": " 60 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;35.46 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;35.46</ph>",
+                        "nhsIndicativePrice": "&#163;35.46"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;35.46 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;35.46</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;35.46"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5639",
+        "label": "TACROLIMUS"
+    }
+}

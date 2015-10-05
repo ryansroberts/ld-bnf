@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP76092\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cefuroxime/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP106982\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/aprokam-intracameral-injection\">Aprokam<tm tmtype=\"reg\"/> intracameral injection</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Aprokam 50mg powder for solution for injection vials <ph outputclass=\"manufacturer\">(Spectrum Thea Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">21797411000001109</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Cefuroxime (as Cefuroxime sodium) 50&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;79.50</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3400\" title=\"CEFUROXIME\" namespace=\"/drugs/cefuroxime\">CEFUROXIME</xref>\n</parents>\n</topic>",
+    "id": "PHP76092",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cefuroxime/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP106982",
+            "label": "Aprokam&reg;  intracameral injection",
+            "html": "Aprokam<tm tmtype=\"reg\"/> intracameral injection"
+        }
+    ],
+    "products": [
+        {
+            "title": "Aprokam 50mg powder for solution for injection vials (Spectrum Thea Pharmaceuticals Ltd) ",
+            "header": "Aprokam 50mg powder for solution for injection vials <ph outputclass=\"manufacturer\">(Spectrum Thea Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Spectrum Thea Pharmaceuticals Ltd)",
+            "name": "Aprokam 50mg powder for solution for injection vials",
+            "ampid": "21797411000001109",
+            "strengthOfActiveIngredient": "Cefuroxime (as Cefuroxime sodium) 50 mg",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;79.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;79.50</ph>",
+                        "nhsIndicativePrice": "&#163;79.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3400",
+        "label": "CEFUROXIME"
+    }
+}

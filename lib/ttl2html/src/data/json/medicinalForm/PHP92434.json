@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP92434\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ichthammol-with-zinc-oxide/impregnated-dressing\" basename=\"impregnated-dressing\" title=\"Impregnated dressing\">\n<title>Impregnated dressing</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Ichthopaste bandage 7.5cm x 6m <ph outputclass=\"manufacturer\">(Smith &amp; Nephew Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">9626011000001105</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">bandage</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.68</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88101\" title=\"ICHTHAMMOL WITH ZINC OXIDE\" namespace=\"/drugs/ichthammol-with-zinc-oxide\">ICHTHAMMOL WITH ZINC OXIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP92434",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ichthammol-with-zinc-oxide/impregnated-dressing",
+    "basename": "impregnated-dressing",
+    "form": "Impregnated dressing",
+    "products": [
+        {
+            "title": "Ichthopaste bandage 7.5cm x 6m (Smith & Nephew Healthcare Ltd) ",
+            "header": "Ichthopaste bandage 7.5cm x 6m <ph outputclass=\"manufacturer\">(Smith &amp; Nephew Healthcare Ltd)</ph>",
+            "manufacturer": "(Smith & Nephew Healthcare Ltd)",
+            "name": "Ichthopaste bandage 7.5cm x 6m",
+            "ampid": "9626011000001105",
+            "packs": [
+                {
+                    "textContent": " 1 bandage ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">bandage</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "bandage",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.68 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.68</ph>",
+                        "nhsIndicativePrice": "&#163;3.68"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part IXa) ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part IXa)</ph>",
+                        "drugTariff": "Drug Tariff (Part IXa)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88101",
+        "label": "ICHTHAMMOL WITH ZINC OXIDE"
+    }
+}

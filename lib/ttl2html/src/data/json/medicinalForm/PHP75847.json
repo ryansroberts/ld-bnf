@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75847\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ambrisentan/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Volibris 5mg tablets <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">13755511000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ambrisentan 5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1618.08</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Volibris 10mg tablets <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">13756111000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ambrisentan 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1618.08</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1042\" title=\"AMBRISENTAN\" namespace=\"/drugs/ambrisentan\">AMBRISENTAN</xref>\n</parents>\n</topic>",
+    "id": "PHP75847",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ambrisentan/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Volibris 5mg tablets (GlaxoSmithKline UK Ltd) ",
+            "header": "Volibris 5mg tablets <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Volibris 5mg tablets",
+            "ampid": "13755511000001103",
+            "strengthOfActiveIngredient": "Ambrisentan 5 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1618.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1618.08</ph>",
+                        "nhsIndicativePrice": "&#163;1618.08"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Volibris 10mg tablets (GlaxoSmithKline UK Ltd) ",
+            "header": "Volibris 10mg tablets <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Volibris 10mg tablets",
+            "ampid": "13756111000001101",
+            "strengthOfActiveIngredient": "Ambrisentan 10 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1618.08 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1618.08</ph>",
+                        "nhsIndicativePrice": "&#163;1618.08"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1042",
+        "label": "AMBRISENTAN"
+    }
+}

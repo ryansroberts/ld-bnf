@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP76431\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dantrolene-sodium/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dantrium 25mg capsules <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">726211000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dantrolene sodium 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.87</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;16.87</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dantrium 100mg capsules <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">23311000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dantrolene sodium 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;43.07</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;43.07</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6727\" title=\"DANTROLENE SODIUM\" namespace=\"/drugs/dantrolene-sodium\">DANTROLENE SODIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP76431",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dantrolene-sodium/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Dantrium 25mg capsules (Norgine Pharmaceuticals Ltd) ",
+            "header": "Dantrium 25mg capsules <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Dantrium 25mg capsules",
+            "ampid": "726211000001104",
+            "strengthOfActiveIngredient": "Dantrolene sodium 25 mg",
+            "packs": [
+                {
+                    "textContent": " 100 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.87 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.87</ph>",
+                        "nhsIndicativePrice": "&#163;16.87"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;16.87 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;16.87</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;16.87"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Dantrium 100mg capsules (Norgine Pharmaceuticals Ltd) ",
+            "header": "Dantrium 100mg capsules <ph outputclass=\"manufacturer\">(Norgine Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Norgine Pharmaceuticals Ltd)",
+            "name": "Dantrium 100mg capsules",
+            "ampid": "23311000001102",
+            "strengthOfActiveIngredient": "Dantrolene sodium 100 mg",
+            "packs": [
+                {
+                    "textContent": " 100 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;43.07 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;43.07</ph>",
+                        "nhsIndicativePrice": "&#163;43.07"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;43.07 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;43.07</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;43.07"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6727",
+        "label": "DANTROLENE SODIUM"
+    }
+}

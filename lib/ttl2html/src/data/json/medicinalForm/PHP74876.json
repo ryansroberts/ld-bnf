@@ -1,0 +1,126 @@
+{
+    "xml": "<topic id=\"PHP74876\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/arachis-oil/enema\" basename=\"enema\" title=\"Enema\">\n<title>Enema</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">14772011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Arachis oil 1&#8239;ml per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">enema</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">14036911000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Arachis oil 1&#8239;ml per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">enema</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">25825511000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Arachis oil 1&#8239;ml per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">enema</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(Essential Generics Ltd)</ph>\n</title>\n<data name=\"ampid\">14942411000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Arachis oil 1&#8239;ml per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">enema</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP606\" title=\"ARACHIS OIL\" namespace=\"/drugs/arachis-oil\">ARACHIS OIL</xref>\n</parents>\n</topic>",
+    "id": "PHP74876",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/arachis-oil/enema",
+    "basename": "enema",
+    "form": "Enema",
+    "products": [
+        {
+            "title": "Arachis oil 130ml enema (A A H Pharmaceuticals Ltd) ",
+            "header": "Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Arachis oil 130ml enema",
+            "ampid": "14772011000001102",
+            "strengthOfActiveIngredient": "Arachis oil 1 ml per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 enema P ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">enema</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "enema",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>",
+                        "nhsIndicativePrice": "&#163;27.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Arachis oil 130ml enema (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Arachis oil 130ml enema",
+            "ampid": "14036911000001100",
+            "strengthOfActiveIngredient": "Arachis oil 1 ml per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 enema P ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">enema</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "enema",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>",
+                        "nhsIndicativePrice": "&#163;27.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Arachis oil 130ml enema (Ennogen Healthcare Ltd) ",
+            "header": "Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Arachis oil 130ml enema",
+            "ampid": "25825511000001108",
+            "strengthOfActiveIngredient": "Arachis oil 1 ml per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 enema P ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">enema</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "enema",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Arachis oil 130ml enema (Essential Generics Ltd) ",
+            "header": "Arachis oil 130ml enema <ph outputclass=\"manufacturer\">(Essential Generics Ltd)</ph>",
+            "manufacturer": "(Essential Generics Ltd)",
+            "name": "Arachis oil 130ml enema",
+            "ampid": "14942411000001100",
+            "strengthOfActiveIngredient": "Arachis oil 1 ml per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 enema P ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">enema</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "enema",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;27.50</ph>",
+                        "nhsIndicativePrice": "&#163;27.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;27.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;27.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;27.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP606",
+        "label": "ARACHIS OIL"
+    }
+}

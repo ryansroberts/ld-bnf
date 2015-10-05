@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP104414\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/en-de-kay-fluorinse\" basename=\"en-de-kay-fluorinse\" title=\"En-De-Kay Fluorinse\">\n<title>En-De-Kay<tm tmtype=\"reg\"/> Fluorinse</title>\n<topic id=\"PHP104702\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/clinical-medicinal-product-information/en-de-kay-fluorinse\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of dental carries for individuals who are caries prone or medically compromised</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by mouth using mouthwash</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8239;drops daily, dilute 5 drops to 10&#8239;mL of water, alternatively (by mouth) 20&#8239;drops once weekly, dilute 20 drops to 10&#8239;mL.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP104414",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/en-de-kay-fluorinse",
+    "basename": "en-de-kay-fluorinse",
+    "title": "En-De-Kay Fluorinse",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of dental carries for individuals who are caries prone or medically compromised",
+                        "html": "Prophylaxis of dental carries for individuals who are caries prone or medically compromised"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially mouth using mouthwash"
+                    ],
+                    "textContent": "Initially by mouth using mouthwash",
+                    "html": "Initially by mouth using mouthwash"
+                },
+                "adult": [
+                    {
+                        "textContent": "5 drops daily, dilute 5 drops to 10 mL of water, alternatively (by mouth) 20 drops once weekly, dilute 20 drops to 10 mL.",
+                        "html": "<p>5&#8239;drops daily, dilute 5 drops to 10&#8239;mL of water, alternatively (by mouth) 20&#8239;drops once weekly, dilute 20 drops to 10&#8239;mL.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

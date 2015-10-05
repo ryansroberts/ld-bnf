@@ -1,0 +1,216 @@
+{
+    "xml": "<topic id=\"PHP6364\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/haem-arginate\" basename=\"haem-arginate\" title=\"HAEM ARGINATE\">\n<title>HAEM ARGINATE</title>\n<body>\n<data name=\"vtmid\">425021005</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_887506940\" title=\"Haem derivatives\">Haem derivatives</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n<p outputclass=\"synonyms\">Human hemin</p>\n</body>\n<topic id=\"PHP68470\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/drugs/haem-arginate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acute porphyrias</p>\n<p outputclass=\"therapeuticIndication\">Acute intermittent porphyria</p>\n<p outputclass=\"therapeuticIndication\">Porphyria variegata</p>\n<p outputclass=\"therapeuticIndication\">Hereditary coproporphyria</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 3&#8239;mg/kg once daily for 4 days, if response inadequate, repeat 4-day course with close biochemical monitoring; maximum 250&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP68734\" outputclass=\"sideEffects\" rev=\"1.12\" parent=\"/drugs/haem-arginate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<title>General side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Fever</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Headache</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"specificSideEffects\">\n<title>Specific side-effects:</title>\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<sectiondiv outputclass=\"sideEffectsWithRoutes\">\n<p outputclass=\"title\">With intravenous use</p>\n<p>\n<ph outputclass=\"sideEffect\">pain at injection site</ph>; <ph outputclass=\"sideEffect\">thrombophlebitis at injection site</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP68387\" outputclass=\"pregnancy\" parent=\"/drugs/haem-arginate\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless essential.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70104\" outputclass=\"breastFeeding\" parent=\"/drugs/haem-arginate\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless essential&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71157\" outputclass=\"directionsForAdministration\" rev=\"1.13\" parent=\"/drugs/haem-arginate\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>For <i>intravenous infusion</i> (<i>Normosang</i>\n<tm tmtype=\"reg\"/>), give intermittently in Sodium chloride 0.9%; dilute requisite dose in 100&#8239;mL infusion fluid in glass bottle and give over at least 30 minutes through a filter <i>via</i> large antebrachial or central vein; administer within 1 hour after dilution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP6364-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/haem-arginate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77538\" title=\"Solution for infusion\" namespace=\"/drugs/haem-arginate/solution-for-infusion\">Solution for infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"backlink\">Acute porphyrias</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77538\" namespace=\"/drugs/haem-arginate/solution-for-infusion\" title=\"Solution for infusion\" count=\"1\" rel=\"link\">Solution for infusion</xref>\n</links>\n</topic>",
+    "id": "PHP6364",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/haem-arginate",
+    "basename": "haem-arginate",
+    "title": "HAEM ARGINATE",
+    "vtmid": "425021005",
+    "drugClassification": [
+        "Haem derivatives"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "synonyms": [
+        "Human hemin"
+    ],
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Acute porphyrias",
+                        "html": "Acute porphyrias"
+                    },
+                    {
+                        "textContent": "Acute intermittent porphyria",
+                        "html": "Acute intermittent porphyria"
+                    },
+                    {
+                        "textContent": "Porphyria variegata",
+                        "html": "Porphyria variegata"
+                    },
+                    {
+                        "textContent": "Hereditary coproporphyria",
+                        "html": "Hereditary coproporphyria"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 3 mg/kg once daily for 4 days, if response inadequate, repeat 4-day course with close biochemical monitoring; maximum 250 mg per day.",
+                        "html": "<p>Initially 3&#8239;mg/kg once daily for 4 days, if response inadequate, repeat 4-day course with close biochemical monitoring; maximum 250&#8239;mg per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Fever",
+                        "html": "Fever",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Headache",
+                        "html": "Headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "specific": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "pain at injection site",
+                        "html": "pain at injection site",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithRoutes",
+                        "textContent": "thrombophlebitis at injection site",
+                        "html": "thrombophlebitis at injection site",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "With intravenous use",
+                            "html": "With intravenous use",
+                            "routes": [
+                                "intravenous"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless essential.",
+                "html": "<p>Manufacturer advises avoid unless essential.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless essential&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid unless essential&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Normosang ), give intermittently in Sodium chloride 0.9%; dilute requisite dose in 100 mL infusion fluid in glass bottle and give over at least 30 minutes through a filter via large antebrachial or central vein; administer within 1 hour after dilution.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Normosang</i>\n<tm tmtype=\"reg\"/>), give intermittently in Sodium chloride 0.9%; dilute requisite dose in 100&#8239;mL infusion fluid in glass bottle and give over at least 30 minutes through a filter <i>via</i> large antebrachial or central vein; administer within 1 hour after dilution.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77538",
+                "label": "Solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77538",
+                "label": "Solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

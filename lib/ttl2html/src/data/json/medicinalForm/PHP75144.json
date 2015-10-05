@@ -1,0 +1,68 @@
+{
+    "xml": "<topic id=\"PHP75144\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/alprazolam/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Xanax 250microgram tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4658511000001101</data>\n<p outputclass=\"controlledDrugs\">Schedule 4 (CD Benz)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Alprazolam 250&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.18</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Xanax 500microgram tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4659411000001108</data>\n<p outputclass=\"controlledDrugs\">Schedule 4 (CD Benz)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Alprazolam 500&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.09</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2165\" title=\"ALPRAZOLAM\" namespace=\"/drugs/alprazolam\">ALPRAZOLAM</xref>\n</parents>\n</topic>",
+    "id": "PHP75144",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/alprazolam/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Xanax 250microgram tablets (Pfizer Ltd) ",
+            "header": "Xanax 250microgram tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Xanax 250microgram tablets",
+            "ampid": "4658511000001101",
+            "controlledDrugs": "Schedule 4 (CD Benz)",
+            "strengthOfActiveIngredient": "Alprazolam 250 microgram",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.18 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.18</ph>",
+                        "nhsIndicativePrice": "&#163;3.18"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Xanax 500microgram tablets (Pfizer Ltd) ",
+            "header": "Xanax 500microgram tablets <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Xanax 500microgram tablets",
+            "ampid": "4659411000001108",
+            "controlledDrugs": "Schedule 4 (CD Benz)",
+            "strengthOfActiveIngredient": "Alprazolam 500 microgram",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.09 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.09</ph>",
+                        "nhsIndicativePrice": "&#163;6.09"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2165",
+        "label": "ALPRAZOLAM"
+    }
+}

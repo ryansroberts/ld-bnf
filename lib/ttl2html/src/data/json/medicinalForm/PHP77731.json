@@ -1,0 +1,73 @@
+{
+    "xml": "<topic id=\"PHP77731\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/co-phenotrope/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Co-phenotrope 2.5mg/0.025mg tablets <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">13828911000001100</data>\n<p outputclass=\"controlledDrugs\">Schedule 5 (CD Inv)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Atropine sulfate 25&#8239;microgram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Diphenoxylate hydrochloride 2.5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.74</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;10.74</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Co-phenotrope 2.5mg/0.025mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">15247711000001102</data>\n<p outputclass=\"controlledDrugs\">Schedule 5 (CD Inv)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Atropine sulfate 25&#8239;microgram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Diphenoxylate hydrochloride 2.5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.74</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;10.74</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP464\" title=\"CO-PHENOTROPE\" namespace=\"/drugs/co-phenotrope\">CO-PHENOTROPE</xref>\n</parents>\n</topic>",
+    "id": "PHP77731",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/co-phenotrope/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Co-phenotrope 2.5mg/0.025mg tablets (AMCo) ",
+            "header": "Co-phenotrope 2.5mg/0.025mg tablets <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Co-phenotrope 2.5mg/0.025mg tablets",
+            "ampid": "13828911000001100",
+            "controlledDrugs": "Schedule 5 (CD Inv)",
+            "strengthOfActiveIngredient": "Diphenoxylate hydrochloride 2.5 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.74 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.74</ph>",
+                        "nhsIndicativePrice": "&#163;10.74"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;10.74 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;10.74</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;10.74"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Co-phenotrope 2.5mg/0.025mg tablets (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Co-phenotrope 2.5mg/0.025mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Co-phenotrope 2.5mg/0.025mg tablets",
+            "ampid": "15247711000001102",
+            "controlledDrugs": "Schedule 5 (CD Inv)",
+            "strengthOfActiveIngredient": "Diphenoxylate hydrochloride 2.5 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.74 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.74</ph>",
+                        "nhsIndicativePrice": "&#163;10.74"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;10.74 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;10.74</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;10.74"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP464",
+        "label": "CO-PHENOTROPE"
+    }
+}

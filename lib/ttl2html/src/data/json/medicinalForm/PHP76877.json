@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP76877\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/miconazole/oromucosal-gel\" basename=\"oromucosal-gel\" title=\"Oromucosal gel\">\n<title>Oromucosal gel</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">  </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Daktarin 20mg/g oromucosal gel <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">14718011000001108</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Miconazole 20&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">80</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.38</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;4.38</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Daktarin 20mg/g oromucosal gel <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">3164211000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Miconazole 20&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;3.23</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7386\" title=\"MICONAZOLE\" namespace=\"/drugs/miconazole\">MICONAZOLE</xref>\n</parents>\n</topic>",
+    "id": "PHP76877",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/miconazole/oromucosal-gel",
+    "basename": "oromucosal-gel",
+    "form": "Oromucosal gel",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "9",
+            "textContent": "Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop"
+        }
+    ],
+    "products": [
+        {
+            "title": "Daktarin 20mg/g oromucosal gel (Janssen-Cilag Ltd) ",
+            "header": "Daktarin 20mg/g oromucosal gel <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Daktarin 20mg/g oromucosal gel",
+            "ampid": "14718011000001108",
+            "strengthOfActiveIngredient": "Miconazole 20 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 80 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">80</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "80",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.38</ph>",
+                        "nhsIndicativePrice": "&#163;4.38"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.38 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.38</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.38"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Daktarin 20mg/g oromucosal gel (McNeil Products Ltd) ",
+            "header": "Daktarin 20mg/g oromucosal gel <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Daktarin 20mg/g oromucosal gel",
+            "ampid": "3164211000001101",
+            "strengthOfActiveIngredient": "Miconazole 20 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram P ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.23 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>",
+                        "nhsIndicativePrice": "&#163;3.23"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.23 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.23</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.23"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7386",
+        "label": "MICONAZOLE"
+    }
+}

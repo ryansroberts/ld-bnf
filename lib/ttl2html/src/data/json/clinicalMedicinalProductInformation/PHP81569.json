@@ -1,0 +1,57 @@
+{
+    "xml": "<topic id=\"PHP81569\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/abelcet\" basename=\"abelcet\" title=\"Abelcet\">\n<title>Abelcet<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP83542\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/abelcet\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe invasive candidiasis</p>\n<p outputclass=\"therapeuticIndication\">Severe systemic fungal infections in patients not responding to conventional amphotericin or to other antifungal drugs or where toxicity or renal impairment precludes conventional amphotericin, including invasive aspergillosis, cryptococcal meningitis and disseminated cryptococcosis in HIV patients</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Test dose 1&#8239;mg, to be given over 15 minutes, then 5&#8239;mg/kg once daily for at least 14 days.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83554\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/abelcet\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<b>Amphotericin (lipid complex)</b>\n</p>\n<p>For <i>intravenous infusion</i>, give intermittently <i>in</i> Glucose 5%. Allow suspension to reach room temperature, shake gently to ensure no yellow settlement, withdraw requisite dose (using 17-19&#8239;gauge needle) into one or more 20-mL syringes; replace needle on syringe with a 5-micron filter needle provided (fresh needle for each syringe) and dilute to a concentration of 1&#8239;mg/mL (2&#8239;mg/mL can be used in fluid restriction and in children); preferably give <i>via</i> an infusion pump at a rate of 2.5&#8239;mg/kg/hour (initial test dose of 1&#8239;mg over 15 minutes); an in-line filter (pore size no less than 15&#8239;micron) may be used; do not use sodium chloride or other electrolyte solutions, flush existing intravenous line with glucose 5% or use separate line.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81569",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/abelcet",
+    "basename": "abelcet",
+    "title": "Abelcet",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe invasive candidiasis",
+                        "html": "Severe invasive candidiasis"
+                    },
+                    {
+                        "textContent": "Severe systemic fungal infections in patients not responding to conventional amphotericin or to other antifungal drugs or where toxicity or renal impairment precludes conventional amphotericin, including invasive aspergillosis, cryptococcal meningitis and disseminated cryptococcosis in HIV patients",
+                        "html": "Severe systemic fungal infections in patients not responding to conventional amphotericin or to other antifungal drugs or where toxicity or renal impairment precludes conventional amphotericin, including invasive aspergillosis, cryptococcal meningitis and disseminated cryptococcosis in HIV patients"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Test dose 1 mg, to be given over 15 minutes, then 5 mg/kg once daily for at least 14 days.",
+                        "html": "<p>Test dose 1&#8239;mg, to be given over 15 minutes, then 5&#8239;mg/kg once daily for at least 14 days.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Amphotericin (lipid complex)\n\nFor intravenous infusion, give intermittently in Glucose 5%. Allow suspension to reach room temperature, shake gently to ensure no yellow settlement, withdraw requisite dose (using 17-19 gauge needle) into one or more 20-mL syringes; replace needle on syringe with a 5-micron filter needle provided (fresh needle for each syringe) and dilute to a concentration of 1 mg/mL (2 mg/mL can be used in fluid restriction and in children); preferably give via an infusion pump at a rate of 2.5 mg/kg/hour (initial test dose of 1 mg over 15 minutes); an in-line filter (pore size no less than 15 micron) may be used; do not use sodium chloride or other electrolyte solutions, flush existing intravenous line with glucose 5% or use separate line.",
+                "html": "<p>\n<b>Amphotericin (lipid complex)</b>\n</p><p>For <i>intravenous infusion</i>, give intermittently <i>in</i> Glucose 5%. Allow suspension to reach room temperature, shake gently to ensure no yellow settlement, withdraw requisite dose (using 17-19&#8239;gauge needle) into one or more 20-mL syringes; replace needle on syringe with a 5-micron filter needle provided (fresh needle for each syringe) and dilute to a concentration of 1&#8239;mg/mL (2&#8239;mg/mL can be used in fluid restriction and in children); preferably give <i>via</i> an infusion pump at a rate of 2.5&#8239;mg/kg/hour (initial test dose of 1&#8239;mg over 15 minutes); an in-line filter (pore size no less than 15&#8239;micron) may be used; do not use sodium chloride or other electrolyte solutions, flush existing intravenous line with glucose 5% or use separate line.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

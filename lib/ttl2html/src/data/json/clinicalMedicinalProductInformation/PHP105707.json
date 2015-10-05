@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP105707\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/balneum-plus-bath-oil\" basename=\"balneum-plus-bath-oil\" title=\"Balneum plus bath oil\">\n<title>Balneum<tm tmtype=\"reg\"/> plus bath oil</title>\n<topic id=\"PHP105992\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/clinical-medicinal-product-information/balneum-plus-bath-oil\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dry skin conditions including those associated with dermatitis and eczema where pruritus also experienced</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;23 months</p>\n<p>5&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP105707",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/balneum-plus-bath-oil",
+    "basename": "balneum-plus-bath-oil",
+    "title": "Balneum plus bath oil",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Dry skin conditions including those associated with dermatitis and eczema where pruritus also experienced",
+                        "html": "Dry skin conditions including those associated with dermatitis and eczema where pruritus also experienced"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "5 mL/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>5&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>",
+                        "ageGroup": "1&#8211;23 months"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "20 mL/bath, alternatively, to be applied to wet skin and rinse.",
+                        "html": "<p>20&#8239;mL/bath, alternatively, to be applied to wet skin and rinse.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

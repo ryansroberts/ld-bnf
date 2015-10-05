@@ -1,0 +1,53 @@
+{
+    "xml": "<topic id=\"PHP101382\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/gynest\" basename=\"gynest\" title=\"Gynest\">\n<title>Gynest<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP101423\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/clinical-medicinal-product-information/gynest\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Improve the vaginal epithelium in menopausal atrophic vaginitis (short-term use)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By vagina</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8239;applicatorful daily until improvement occurrs, dose to be applied preferably in the evening, reduced to 1&#8239;applicatorful twice weekly, attempts to discontinue should be made at 3&#8211;6 month intervals with re-examination.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101443\" outputclass=\"conceptionAndContraception\" parent=\"/clinical-medicinal-product-information/gynest\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>May damage latex condoms and diaphragms.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP101382",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/gynest",
+    "basename": "gynest",
+    "title": "Gynest",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Improve the vaginal epithelium in menopausal atrophic vaginitis (short-term use)",
+                        "html": "Improve the vaginal epithelium in menopausal atrophic vaginitis (short-term use)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "vagina"
+                    ],
+                    "textContent": "By vagina",
+                    "html": "By vagina"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 1 applicatorful daily until improvement occurrs, dose to be applied preferably in the evening, reduced to 1 applicatorful twice weekly, attempts to discontinue should be made at 3&#8211;6 month intervals with re-examination.",
+                        "html": "<p>Apply 1&#8239;applicatorful daily until improvement occurrs, dose to be applied preferably in the evening, reduced to 1&#8239;applicatorful twice weekly, attempts to discontinue should be made at 3&#8211;6 month intervals with re-examination.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "May damage latex condoms and diaphragms.",
+                "html": "<p>May damage latex condoms and diaphragms.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

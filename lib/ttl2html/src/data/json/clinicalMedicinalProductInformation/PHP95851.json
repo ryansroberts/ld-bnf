@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP95851\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/prempak-c-0625\" basename=\"prempak-c-0625\" title=\"Prempak C 0.625\">\n<title>Prempak C<tm tmtype=\"reg\"/> 0.625</title>\n<topic id=\"PHP96325\" outputclass=\"indicationsAndDose\" rev=\"1.23\" parent=\"/clinical-medicinal-product-information/prempak-c-0625\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Menopausal symptoms in women with a uterus</p>\n<p outputclass=\"therapeuticIndication\">Osteoporosis prophylaxis in women with a uterus</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet daily continuously, maroon tablet to taken and started on day 1 of menstruation (or at any time if cycles have ceased or are infrequent) and 1&#8239;tablet daily, brown tablet to be taken and started on days 17&#8211;28 of each 28-day treatment cycle, subsequent courses are repeated without interval.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95851",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/prempak-c-0625",
+    "basename": "prempak-c-0625",
+    "title": "Prempak C 0.625",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Menopausal symptoms in women with a uterus",
+                        "html": "Menopausal symptoms in women with a uterus"
+                    },
+                    {
+                        "textContent": "Osteoporosis prophylaxis in women with a uterus",
+                        "html": "Osteoporosis prophylaxis in women with a uterus"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet daily continuously, maroon tablet to taken and started on day 1 of menstruation (or at any time if cycles have ceased or are infrequent) and 1 tablet daily, brown tablet to be taken and started on days 17&#8211;28 of each 28-day treatment cycle, subsequent courses are repeated without interval.",
+                        "html": "<p>1&#8239;tablet daily continuously, maroon tablet to taken and started on day 1 of menstruation (or at any time if cycles have ceased or are infrequent) and 1&#8239;tablet daily, brown tablet to be taken and started on days 17&#8211;28 of each 28-day treatment cycle, subsequent courses are repeated without interval.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

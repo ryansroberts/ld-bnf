@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP81706\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/verrugon\" basename=\"verrugon\" title=\"Verrugon\">\n<title>Verrugon<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82348\" outputclass=\"indicationsAndDose\" rev=\"1.31\" parent=\"/clinical-medicinal-product-information/verrugon\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">For plantar warts</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the lesion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply daily, treatment may need to be continued for up to 3 months.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply daily, treatment may need to be continued for up to 3 months.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81706",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/verrugon",
+    "basename": "verrugon",
+    "title": "Verrugon",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "For plantar warts",
+                        "html": "For plantar warts"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the lesion"
+                    ],
+                    "textContent": "To the lesion",
+                    "html": "To the lesion"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply daily, treatment may need to be continued for up to 3 months.",
+                        "html": "<p>Apply daily, treatment may need to be continued for up to 3 months.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply daily, treatment may need to be continued for up to 3 months.",
+                        "html": "<p>Apply daily, treatment may need to be continued for up to 3 months.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

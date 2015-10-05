@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP105069\" outputclass=\"drug\" rev=\"1.10\" type=\"drug\" namespace=\"/drugs/emollients-urea-containing\" basename=\"emollients-urea-containing\" title=\"EMOLLIENTS, UREA-CONTAINING\">\n<title>EMOLLIENTS, UREA-CONTAINING</title>\n<body/>\n<topic id=\"PHP105085\" outputclass=\"drugAction\" rev=\"1.10\" parent=\"/drugs/emollients-urea-containing\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<b>Urea</b> is a keratin softener and hydrating agent used in the treatment of dry, scaling conditions (including ichthyosis) and may be useful in elderly patients.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP105078\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/drugs/emollients-urea-containing\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Emollients should be applied immediately after washing or bathing to maximise the effect of skin hydration.</p>\n<p>Emollient preparations contained in tubs should be removed with a clean spoon or spatula to reduce bacterial contamination of the emollient.</p>\n<p>Emollients should be applied in the direction of hair growth to reduce the risk of folliculitis.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP105069-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/emollients-urea-containing\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105321\" title=\"Liquid\" namespace=\"/drugs/emollients-urea-containing/liquid\">Liquid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105322\" title=\"Cream\" namespace=\"/drugs/emollients-urea-containing/cream\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105702\" title=\"Products without form\" namespace=\"/drugs/emollients-urea-containing/products-without-form\">Products without form</xref>\n</children>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105321\" namespace=\"/drugs/emollients-urea-containing/liquid\" title=\"Liquid\" count=\"1\" rel=\"link\">Liquid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105322\" namespace=\"/drugs/emollients-urea-containing/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP105702\" namespace=\"/drugs/emollients-urea-containing/products-without-form\" title=\"Products without form\" count=\"1\" rel=\"link\">Products without form</xref>\n</links>\n</topic>",
+    "id": "PHP105069",
+    "outputclass": "drug",
+    "rev": "1.10",
+    "type": "drug",
+    "namespace": "/drugs/emollients-urea-containing",
+    "basename": "emollients-urea-containing",
+    "title": "EMOLLIENTS, UREA-CONTAINING",
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Urea is a keratin softener and hydrating agent used in the treatment of dry, scaling conditions (including ichthyosis) and may be useful in elderly patients.",
+                "html": "<p>\n<b>Urea</b> is a keratin softener and hydrating agent used in the treatment of dry, scaling conditions (including ichthyosis) and may be useful in elderly patients.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Emollients should be applied immediately after washing or bathing to maximise the effect of skin hydration.\n\nEmollient preparations contained in tubs should be removed with a clean spoon or spatula to reduce bacterial contamination of the emollient.\n\nEmollients should be applied in the direction of hair growth to reduce the risk of folliculitis.",
+                "html": "<p>Emollients should be applied immediately after washing or bathing to maximise the effect of skin hydration.</p><p>Emollient preparations contained in tubs should be removed with a clean spoon or spatula to reduce bacterial contamination of the emollient.</p><p>Emollients should be applied in the direction of hair growth to reduce the risk of folliculitis.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP105321",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP105322",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP105702",
+                "label": "Products without form",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP105321",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP105322",
+                "label": "Cream",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP105702",
+                "label": "Products without form",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

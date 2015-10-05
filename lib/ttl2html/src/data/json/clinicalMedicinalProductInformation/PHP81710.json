@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP81710\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/condyline\" basename=\"condyline\" title=\"Condyline\">\n<title>Condyline<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82602\" outputclass=\"indicationsAndDose\" rev=\"1.17\" parent=\"/clinical-medicinal-product-information/condyline\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Condylomata acuminata affecting the penis or the female external genitalia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply twice daily for 3 consecutive days, treatment may be repeated at weekly intervals if necessary for a total of five 3-day treatment courses, direct medical supervision for lesions in the female and for lesions greater than 4&#8239;cm<sup>2</sup> in the male, maximum 50 single applications (&#8216;loops&#8217;) per session (consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81710",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/condyline",
+    "basename": "condyline",
+    "title": "Condyline",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Condylomata acuminata affecting the penis or the female external genitalia",
+                        "html": "Condylomata acuminata affecting the penis or the female external genitalia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply twice daily for 3 consecutive days, treatment may be repeated at weekly intervals if necessary for a total of five 3-day treatment courses, direct medical supervision for lesions in the female and for lesions greater than 4 cm2 in the male, maximum 50 single applications (&#8216;loops&#8217;) per session (consult product literature).",
+                        "html": "<p>Apply twice daily for 3 consecutive days, treatment may be repeated at weekly intervals if necessary for a total of five 3-day treatment courses, direct medical supervision for lesions in the female and for lesions greater than 4&#8239;cm<sup>2</sup> in the male, maximum 50 single applications (&#8216;loops&#8217;) per session (consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

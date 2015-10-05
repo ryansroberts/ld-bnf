@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP95876\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/diprosalic-ointment\" basename=\"diprosalic-ointment\" title=\"Diprosalic ointment\">\n<title>Diprosalic<tm tmtype=\"reg\"/> ointment</title>\n<topic id=\"PHP96343\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/diprosalic-ointment\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe inflammatory skin disorders such as eczemas unresponsive to less potent corticosteroids</p>\n<p outputclass=\"therapeuticIndication\">Psoriasis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply 1&#8211;2 times a day, max. 60&#8239;g per week.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8211;2 times a day, max. 60&#8239;g per week.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"potency\">\n<title>Potency</title>\n<p>Betamethasone (as dipropionate) 0.05% with salicylic acid 3%: potent.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP96371\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/diprosalic-ointment\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be counselled on application of betamethasone and salicylic acid preparations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95876",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/diprosalic-ointment",
+    "basename": "diprosalic-ointment",
+    "title": "Diprosalic ointment",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe inflammatory skin disorders such as eczemas unresponsive to less potent corticosteroids",
+                        "html": "Severe inflammatory skin disorders such as eczemas unresponsive to less potent corticosteroids"
+                    },
+                    {
+                        "textContent": "Psoriasis",
+                        "html": "Psoriasis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day, max. 60 g per week.",
+                        "html": "<p>Apply 1&#8211;2 times a day, max. 60&#8239;g per week.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 1&#8211;2 times a day, max. 60 g per week.",
+                        "html": "<p>Apply 1&#8211;2 times a day, max. 60&#8239;g per week.</p>"
+                    }
+                ]
+            }
+        ],
+        "potency": [
+            {
+                "type": "potency",
+                "title": "Potency",
+                "textContent": "Betamethasone (as dipropionate) 0.05% with salicylic acid 3%: potent.",
+                "html": "<p>Betamethasone (as dipropionate) 0.05% with salicylic acid 3%: potent.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be counselled on application of betamethasone and salicylic acid preparations.",
+                "html": "<p>Patients or carers should be counselled on application of betamethasone and salicylic acid preparations.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

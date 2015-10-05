@@ -1,0 +1,105 @@
+{
+    "xml": "<topic id=\"PHP88098\" outputclass=\"drug\" rev=\"1.22\" type=\"drug\" namespace=\"/drugs/calamine-with-zinc-oxide\" basename=\"calamine-with-zinc-oxide\" title=\"CALAMINE WITH ZINC OXIDE\">\n<title>CALAMINE WITH ZINC OXIDE</title>\n<body>\n<data name=\"vtmid\">421996002</data>\n</body>\n<topic id=\"PHP91221\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/drugs/calamine-with-zinc-oxide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pruritus</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>(consult product literature).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP91216\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drugs/calamine-with-zinc-oxide\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Avoid application of preparations containing zinc oxide prior to x-ray (zinc oxide may affect outcome of x-ray)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP91232\" outputclass=\"lessSuitableForPrescribing\" rev=\"1.9\" parent=\"/drugs/calamine-with-zinc-oxide\">\n<title>Less suitable for prescribing</title>\n<body>\n<section>\n<sectiondiv>\n<p>Less suitable for prescribing.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88098-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/calamine-with-zinc-oxide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92430\" title=\"Liquid\" namespace=\"/drugs/calamine-with-zinc-oxide/liquid\">Liquid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92429\" title=\"Cream\" namespace=\"/drugs/calamine-with-zinc-oxide/cream\">Cream</xref>\n</children>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92430\" namespace=\"/drugs/calamine-with-zinc-oxide/liquid\" title=\"Liquid\" count=\"1\" rel=\"link\">Liquid</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92429\" namespace=\"/drugs/calamine-with-zinc-oxide/cream\" title=\"Cream\" count=\"1\" rel=\"link\">Cream</xref>\n</links>\n</topic>",
+    "id": "PHP88098",
+    "outputclass": "drug",
+    "rev": "1.22",
+    "type": "drug",
+    "namespace": "/drugs/calamine-with-zinc-oxide",
+    "basename": "calamine-with-zinc-oxide",
+    "title": "CALAMINE WITH ZINC OXIDE",
+    "vtmid": "421996002",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Pruritus",
+                        "html": "Pruritus"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Avoid application of preparations containing zinc oxide prior to x-ray (zinc oxide may affect outcome of x-ray)",
+                "html": "Avoid application of preparations containing zinc oxide prior to x-ray (zinc oxide may affect outcome of x-ray)"
+            }
+        ]
+    },
+    "lessSuitableForPrescribing": {
+        "lessSuitableForPrescribing": [
+            {
+                "type": "lessSuitableForPrescribing",
+                "textContent": "Less suitable for prescribing.",
+                "html": "<p>Less suitable for prescribing.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92430",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92429",
+                "label": "Cream",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92430",
+                "label": "Liquid",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP92429",
+                "label": "Cream",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

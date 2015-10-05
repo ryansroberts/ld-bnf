@@ -1,0 +1,81 @@
+{
+    "xml": "<topic id=\"PHP76210\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/idarubicin-hydrochloride/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Idarubicin 10mg/10ml solution for injection vials <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">22705211000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Idarubicin hydrochloride 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;165.98</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Idarubicin 5mg/5ml solution for injection vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">22785511000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Idarubicin hydrochloride 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;87.36</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Idarubicin 5mg/5ml solution for injection vials <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">22705511000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Idarubicin hydrochloride 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;82.99</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5319\" title=\"IDARUBICIN HYDROCHLORIDE\" namespace=\"/drugs/idarubicin-hydrochloride\">IDARUBICIN HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76210",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/idarubicin-hydrochloride/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Idarubicin 10mg/10ml solution for injection vials (Teva UK Ltd) ",
+            "header": "Idarubicin 10mg/10ml solution for injection vials <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "Idarubicin 10mg/10ml solution for injection vials",
+            "ampid": "22705211000001100",
+            "strengthOfActiveIngredient": "Idarubicin hydrochloride 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;165.98 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;165.98</ph>",
+                        "nhsIndicativePrice": "&#163;165.98"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Idarubicin 5mg/5ml solution for injection vials (A A H Pharmaceuticals Ltd) ",
+            "header": "Idarubicin 5mg/5ml solution for injection vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Idarubicin 5mg/5ml solution for injection vials",
+            "ampid": "22785511000001101",
+            "strengthOfActiveIngredient": "Idarubicin hydrochloride 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;87.36 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;87.36</ph>",
+                        "nhsIndicativePrice": "&#163;87.36"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Idarubicin 5mg/5ml solution for injection vials (Teva UK Ltd) ",
+            "header": "Idarubicin 5mg/5ml solution for injection vials <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "Idarubicin 5mg/5ml solution for injection vials",
+            "ampid": "22705511000001102",
+            "strengthOfActiveIngredient": "Idarubicin hydrochloride 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;82.99 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;82.99</ph>",
+                        "nhsIndicativePrice": "&#163;82.99"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5319",
+        "label": "IDARUBICIN HYDROCHLORIDE"
+    }
+}

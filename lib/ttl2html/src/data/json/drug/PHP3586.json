@@ -1,0 +1,675 @@
+{
+    "xml": "<topic id=\"PHP3586\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/trimethoprim\" basename=\"trimethoprim\" title=\"TRIMETHOPRIM\">\n<title>TRIMETHOPRIM</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_217\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/trimethoprim\">Trimethoprim</xref>\n</p>\n<data name=\"vtmid\">32792001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_347407165\" title=\"Diaminopyrimidines\">Diaminopyrimidines</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP66155\" outputclass=\"indicationsAndDose\" rev=\"1.46\" parent=\"/drugs/trimethoprim\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Urinary-tract infections</p>\n<p outputclass=\"therapeuticIndication\">Respiratory tract infections</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>4&#8211;5 weeks</p>\n<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg).</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6 weeks&#8211;5 months</p>\n<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg), alternatively 25&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6 months&#8211;5 years</p>\n<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg), alternatively 50&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;11 years</p>\n<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg), alternatively 100&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>200&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>200&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prophylaxis of urinary-tract infection (considered for recurrent infection, significant urinary-tract anomalies, or significant kidney damage)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>4&#8211;5 weeks</p>\n<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6 weeks&#8211;5 months</p>\n<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night, alternatively 12.5&#8239;mg once daily, dose to be taken at night.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6 months&#8211;5 years</p>\n<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night, alternatively 25&#8239;mg once daily, dose to be taken at night.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 6&#8211;11 years</p>\n<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night, alternatively 50&#8239;mg once daily, dose to be taken at night.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>100&#8239;mg once daily, dose to be taken at night.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8239;mg once daily, dose to be taken at night.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of mild to moderate <ph outputclass=\"organism\">\n<i>Pneumocystis jirovecii</i>\n</ph> (<ph outputclass=\"organism\">\n<i>Pneumocystis carinii</i>\n</ph> ) pneumonia in patients who cannot tolerate co-trimoxazole (in combination with dapsone)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>5&#8239;mg/kg every 6&#8211;8&#8239;hours.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8239;mg/kg every 6&#8211;8&#8239;hours.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Acne resistant to other antibacterials</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>300&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prostatitis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Shigellosis</p>\n<p outputclass=\"therapeuticIndication\">Invasive salmonella infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66021\" outputclass=\"unlicensedUse\" rev=\"1.15\" parent=\"/drugs/trimethoprim\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Not licensed for use in children under 6 weeks.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>Not licensed for treatment of acne resistant to other antibacterials.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Not licensed for treatment of pneumocystis pneumonia.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66260\" outputclass=\"contraindications\" rev=\"1.7\" parent=\"/drugs/trimethoprim\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Blood dyscrasias</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66289\" outputclass=\"cautions\" rev=\"1.23\" parent=\"/drugs/trimethoprim\">\n<title>Cautions</title>\n<body>\r\n<section outputclass=\"cautions\">\r\n<p>\r\n<ph outputclass=\"caution\">Elderly</ph> (in adults); <ph outputclass=\"caution\">\r\n<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>\r\n</ph>; <ph outputclass=\"caution\">neonates (specialist supervision required)</ph> (in neonates); <ph outputclass=\"caution\">predisposition to folate deficiency</ph>\r\n</p>\r\n </section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP66152\" outputclass=\"interactions\" rev=\"1.9\" parent=\"/drugs/trimethoprim\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (trimethoprim).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66071\" outputclass=\"sideEffects\" rev=\"1.18\" parent=\"/drugs/trimethoprim\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Allergic reactions</ph>; <ph outputclass=\"sideEffect\">anaphylaxis</ph>; <ph outputclass=\"sideEffect\">angioedema</ph>; <ph outputclass=\"sideEffect\">erythema multiforme</ph>; <ph outputclass=\"sideEffect\">photosensitivity</ph>; <ph outputclass=\"sideEffect\">toxic epidermal necrolysis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Aseptic meningitis</ph>; <ph outputclass=\"sideEffect\">depression of haematopoiesis</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">hyperkalaemia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">rashes</ph>; <ph outputclass=\"sideEffect\">uveitis</ph> (in adults); <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p>Trimethoprim has side-effects similar to co-trimoxazole but they are less severe and occur less frequently.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66143\" outputclass=\"pregnancy\" parent=\"/drugs/trimethoprim\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Teratogenic risk in first trimester (folate antagonist); manufacturers advise avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66304\" outputclass=\"breastFeeding\" parent=\"/drugs/trimethoprim\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk&#8212;short-term use not known to be harmful.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66128\" outputclass=\"renalImpairment\" parent=\"/drugs/trimethoprim\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>Use half normal dose after 3 days if eGFR 15&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n<p>Use half normal dose if eGFR less than 15&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Use half normal dose after 3 days if estimated glomerular filtration rate 15&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n<p>Use half normal dose if estimated glomerular filtration rate less than 15&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInRenalImpairment\">\n<sectiondiv>\n<p>Monitor plasma-trimethoprim concentration if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66013\" outputclass=\"monitoringRequirements\" parent=\"/drugs/trimethoprim\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Manufacturer recommends blood counts on long-term therapy (but evidence of practical value unsatisfactory).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP66137\" outputclass=\"patientAndCarerAdvice\" rev=\"1.17\" parent=\"/drugs/trimethoprim\">\n<title>Patient and carer advice</title>\n<body>\r\n\r\n\r\n<section outputclass=\"patientResources\">\r\n<sectiondiv>\r\n<p outputclass=\"specificity\">In children</p>\r\n<p outputclass=\"title\">Medicines for Children leaflet: Trimethoprim for bacterial infections</p>\r\n<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/trimethoprim-for-bacterial-infections\">www.medicinesforchildren.org.uk/trimethoprim-for-bacterial-infections</xref>\n</p>\n</sectiondiv>\n</section>\r\n<section outputclass=\"generalPatientAdvice\">\r\n<sectiondiv>\r\n<p outputclass=\"title\">Blood disorders</p>\r\n<p>On long-term treatment, patients and their carers should be told how to recognise signs of blood disorders and advised to seek immediate medical attention if symptoms such as fever, sore throat, rash, mouth ulcers, purpura, bruising or bleeding develop.</p>\n</sectiondiv>\n</section>\r\n\r\n\r\n\r\n\r\n\r\n</body>\n</topic>\n<topic id=\"PHP3586-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/trimethoprim\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution, oral suspension</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75109\" title=\"Tablet\" namespace=\"/drugs/trimethoprim/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75139\" title=\"Oral suspension\" namespace=\"/drugs/trimethoprim/oral-suspension\">Oral suspension</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78125\" namespace=\"/treatment-summaries/gastro-intestinal-system-infections-bacterial\" title=\"Gastro-intestinal system infections, bacterial\" count=\"1\" rel=\"backlink\">Gastro-intestinal system infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78148\" namespace=\"/treatment-summaries/antibacterials-principles-of-therapy\" title=\"Antibacterials, principles of therapy\" count=\"1\" rel=\"backlink\">Antibacterials, principles of therapy</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78228\" namespace=\"/treatment-summaries/urinary-tract-infections\" title=\"Urinary-tract infections\" count=\"7\" rel=\"backlink\">Urinary-tract infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78289\" namespace=\"/treatment-summaries/mrsa\" title=\"MRSA\" count=\"1\" rel=\"backlink\">MRSA</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78307\" namespace=\"/treatment-summaries/rosacea-and-acne\" title=\"Rosacea and Acne\" count=\"2\" rel=\"backlink\">Rosacea and Acne</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78452\" namespace=\"/treatment-summaries/pneumocystis-pneumonia\" title=\"Pneumocystis pneumonia\" count=\"1\" rel=\"backlink\">Pneumocystis pneumonia</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78537\" namespace=\"/treatment-summaries/cytotoxic-drugs\" title=\"Cytotoxic drugs\" count=\"1\" rel=\"backlink\">Cytotoxic drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_217\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/trimethoprim\" title=\"Trimethoprim\" count=\"1\" rel=\"link\">Trimethoprim</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78608\" namespace=\"/treatment-summaries/acute-porphyrias\" title=\"Acute porphyrias\" count=\"1\" rel=\"link\">Acute porphyrias</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75109\" namespace=\"/drugs/trimethoprim/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75139\" namespace=\"/drugs/trimethoprim/oral-suspension\" title=\"Oral suspension\" count=\"1\" rel=\"link\">Oral suspension</xref>\n</links>\n</topic>",
+    "id": "PHP3586",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/trimethoprim",
+    "basename": "trimethoprim",
+    "title": "TRIMETHOPRIM",
+    "interactants": [
+        {
+            "id": "bnf_int_217",
+            "label": "Trimethoprim"
+        }
+    ],
+    "vtmid": "32792001",
+    "drugClassification": [
+        "Diaminopyrimidines"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Urinary-tract infections",
+                        "html": "Urinary-tract infections"
+                    },
+                    {
+                        "textContent": "Respiratory tract infections",
+                        "html": "Respiratory tract infections"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "4 mg/kg twice daily (max. per dose 200 mg).",
+                        "html": "<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg).</p>",
+                        "ageGroup": "4&#8211;5 weeks"
+                    },
+                    {
+                        "textContent": "4 mg/kg twice daily (max. per dose 200 mg), alternatively 25 mg twice daily.",
+                        "html": "<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg), alternatively 25&#8239;mg twice daily.</p>",
+                        "ageGroup": "6 weeks&#8211;5 months"
+                    },
+                    {
+                        "textContent": "4 mg/kg twice daily (max. per dose 200 mg), alternatively 50 mg twice daily.",
+                        "html": "<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg), alternatively 50&#8239;mg twice daily.</p>",
+                        "ageGroup": "6 months&#8211;5 years"
+                    },
+                    {
+                        "textContent": "4 mg/kg twice daily (max. per dose 200 mg), alternatively 100 mg twice daily.",
+                        "html": "<p>4&#8239;mg/kg twice daily (max. per dose 200&#8239;mg), alternatively 100&#8239;mg twice daily.</p>",
+                        "ageGroup": "6&#8211;11 years"
+                    },
+                    {
+                        "textContent": "200 mg twice daily.",
+                        "html": "<p>200&#8239;mg twice daily.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "200 mg twice daily.",
+                        "html": "<p>200&#8239;mg twice daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prophylaxis of urinary-tract infection (considered for recurrent infection, significant urinary-tract anomalies, or significant kidney damage)",
+                        "html": "Prophylaxis of urinary-tract infection (considered for recurrent infection, significant urinary-tract anomalies, or significant kidney damage)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "2 mg/kg once daily (max. per dose 100 mg), dose to be taken at night.",
+                        "html": "<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night.</p>",
+                        "ageGroup": "4&#8211;5 weeks"
+                    },
+                    {
+                        "textContent": "2 mg/kg once daily (max. per dose 100 mg), dose to be taken at night, alternatively 12.5 mg once daily, dose to be taken at night.",
+                        "html": "<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night, alternatively 12.5&#8239;mg once daily, dose to be taken at night.</p>",
+                        "ageGroup": "6 weeks&#8211;5 months"
+                    },
+                    {
+                        "textContent": "2 mg/kg once daily (max. per dose 100 mg), dose to be taken at night, alternatively 25 mg once daily, dose to be taken at night.",
+                        "html": "<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night, alternatively 25&#8239;mg once daily, dose to be taken at night.</p>",
+                        "ageGroup": "6 months&#8211;5 years"
+                    },
+                    {
+                        "textContent": "2 mg/kg once daily (max. per dose 100 mg), dose to be taken at night, alternatively 50 mg once daily, dose to be taken at night.",
+                        "html": "<p>2&#8239;mg/kg once daily (max. per dose 100&#8239;mg), dose to be taken at night, alternatively 50&#8239;mg once daily, dose to be taken at night.</p>",
+                        "ageGroup": "6&#8211;11 years"
+                    },
+                    {
+                        "textContent": "100 mg once daily, dose to be taken at night.",
+                        "html": "<p>100&#8239;mg once daily, dose to be taken at night.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "100 mg once daily, dose to be taken at night.",
+                        "html": "<p>100&#8239;mg once daily, dose to be taken at night.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of mild to moderate Pneumocystis jirovecii ( Pneumocystis carinii ) pneumonia in patients who cannot tolerate co-trimoxazole (in combination with dapsone)",
+                        "html": "Treatment of mild to moderate <ph outputclass=\"organism\"> <i>Pneumocystis jirovecii</i> </ph> (<ph outputclass=\"organism\"> <i>Pneumocystis carinii</i> </ph> ) pneumonia in patients who cannot tolerate co-trimoxazole (in combination with dapsone)",
+                        "organism": "Pneumocystis carinii"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth",
+                    "organism": "Pneumocystis carinii"
+                },
+                "child": [
+                    {
+                        "textContent": "5 mg/kg every 6&#8211;8 hours.",
+                        "html": "<p>5&#8239;mg/kg every 6&#8211;8&#8239;hours.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "5 mg/kg every 6&#8211;8 hours.",
+                        "html": "<p>5&#8239;mg/kg every 6&#8211;8&#8239;hours.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Acne resistant to other antibacterials",
+                        "html": "Acne resistant to other antibacterials"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "300 mg twice daily.",
+                        "html": "<p>300&#8239;mg twice daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prostatitis",
+                        "html": "Prostatitis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Shigellosis",
+                        "html": "Shigellosis"
+                    },
+                    {
+                        "textContent": "Invasive salmonella infection",
+                        "html": "Invasive salmonella infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Not licensed for use in children under 6 weeks.",
+                "html": "<p>Not licensed for use in children under 6 weeks.</p>"
+            },
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "Not licensed for treatment of acne resistant to other antibacterials.",
+                "html": "<p>Not licensed for treatment of acne resistant to other antibacterials.</p>"
+            },
+            {
+                "type": "unlicensedUse",
+                "textContent": "Not licensed for treatment of pneumocystis pneumonia.",
+                "html": "<p>Not licensed for treatment of pneumocystis pneumonia.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Blood dyscrasias",
+                "html": "Blood dyscrasias"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Elderly in adults",
+                "html": "Elderly in adults",
+                "specificity": {
+                    "patientType": "adults"
+                }
+            },
+            {
+                "type": "cautions",
+                "textContent": "Acute porphyrias",
+                "html": "<xref format=\"dita\" href=\"#PHP78608\" type=\"bookmark\" namespace=\"/treatment-summaries/acute-porphyrias\">Acute porphyrias</xref>",
+                "references": [
+                    {
+                        "id": "PHP78608",
+                        "label": "Acute porphyrias"
+                    }
+                ]
+            },
+            {
+                "type": "cautions",
+                "textContent": "neonates (specialist supervision required) in neonates",
+                "html": "neonates (specialist supervision required) in neonates",
+                "specificity": {
+                    "patientType": "neonates"
+                }
+            },
+            {
+                "type": "cautions",
+                "textContent": "predisposition to folate deficiency",
+                "html": "predisposition to folate deficiency"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (trimethoprim).",
+                "html": "<p>Appendix 1 (trimethoprim).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Allergic reactions",
+                        "html": "Allergic reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "anaphylaxis",
+                        "html": "anaphylaxis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "angioedema",
+                        "html": "angioedema",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "erythema multiforme",
+                        "html": "erythema multiforme",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "photosensitivity",
+                        "html": "photosensitivity",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "toxic epidermal necrolysis",
+                        "html": "toxic epidermal necrolysis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Aseptic meningitis",
+                        "html": "Aseptic meningitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "depression of haematopoiesis",
+                        "html": "depression of haematopoiesis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperkalaemia",
+                        "html": "hyperkalaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rashes",
+                        "html": "rashes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "uveitis in adults",
+                        "html": "uveitis in adults",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known",
+                            "patientType": "adults"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "textContent": "Trimethoprim has side-effects similar to co-trimoxazole but they are less severe and occur less frequently.",
+                "html": "<p>Trimethoprim has side-effects similar to co-trimoxazole but they are less severe and occur less frequently.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Teratogenic risk in first trimester (folate antagonist); manufacturers advise avoid.",
+                "html": "<p>Teratogenic risk in first trimester (folate antagonist); manufacturers advise avoid.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk&#8212;short-term use not known to be harmful.",
+                "html": "<p>Present in milk&#8212;short-term use not known to be harmful.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "Use half normal dose after 3 days if eGFR 15&#8211;30 mL/minute/1.73 m2.\n\nUse half normal dose if eGFR less than 15 mL/minute/1.73 m2.",
+                "html": "<p>Use half normal dose after 3 days if eGFR 15&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p><p>Use half normal dose if eGFR less than 15&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            },
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Use half normal dose after 3 days if estimated glomerular filtration rate 15&#8211;30 mL/minute/1.73 m2.\n\nUse half normal dose if estimated glomerular filtration rate less than 15 mL/minute/1.73 m2.",
+                "html": "<p>Use half normal dose after 3 days if estimated glomerular filtration rate 15&#8211;30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p><p>Use half normal dose if estimated glomerular filtration rate less than 15&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Monitor plasma-trimethoprim concentration if eGFR less than 10 mL/minute/1.73 m2.",
+                "html": "<p>Monitor plasma-trimethoprim concentration if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Manufacturer recommends blood counts on long-term therapy (but evidence of practical value unsatisfactory).",
+                "html": "<p>Manufacturer recommends blood counts on long-term therapy (but evidence of practical value unsatisfactory).</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "patientResources": [
+            {
+                "type": "patientResources",
+                "references": [
+                    {
+                        "id": "http://www.medicinesforchildren.org.uk/trimethoprim-for-bacterial-infections",
+                        "label": "www.medicinesforchildren.org.uk/trimethoprim-for-bacterial-infections"
+                    }
+                ],
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "title": "Medicines for Children leaflet: Trimethoprim for bacterial infections",
+                "textContent": "www.medicinesforchildren.org.uk/trimethoprim-for-bacterial-infections",
+                "html": "<p>\n<xref format=\"html\" href=\"http://www.medicinesforchildren.org.uk/trimethoprim-for-bacterial-infections\">www.medicinesforchildren.org.uk/trimethoprim-for-bacterial-infections</xref>\n</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "title": "Blood disorders",
+                "textContent": "On long-term treatment, patients and their carers should be told how to recognise signs of blood disorders and advised to seek immediate medical attention if symptoms such as fever, sore throat, rash, mouth ulcers, purpura, bruising or bleeding develop.",
+                "html": "<p>On long-term treatment, patients and their carers should be told how to recognise signs of blood disorders and advised to seek immediate medical attention if symptoms such as fever, sore throat, rash, mouth ulcers, purpura, bruising or bleeding develop.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution",
+                "oral suspension"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75109",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75139",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78125",
+                "label": "Gastro-intestinal system infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78148",
+                "label": "Antibacterials, principles of therapy",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78228",
+                "label": "Urinary-tract infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78289",
+                "label": "MRSA",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78307",
+                "label": "Rosacea and Acne",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78452",
+                "label": "Pneumocystis pneumonia",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78537",
+                "label": "Cytotoxic drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_217",
+                "label": "Trimethoprim",
+                "type": "interaction"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78608",
+                "label": "Acute porphyrias",
+                "type": "treatmentSummary"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75109",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP75139",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

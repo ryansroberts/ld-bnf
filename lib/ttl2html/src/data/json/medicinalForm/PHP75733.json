@@ -1,0 +1,75 @@
+{
+    "xml": "<topic id=\"PHP75733\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/c1-esterase-inhibitor/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\r\n\r\n\r\n<section outputclass=\"electrolytes\">\r\n<title>Electrolytes</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Sodium</p>\n</section>\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81566\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/cinryze\">Cinryze<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP81565\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/berinert\">Berinert<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Berinert 500unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(CSL Behring UK Ltd)</ph>\n</title>\n<data name=\"ampid\">10921911000001103</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">C1-esterase inhibitor 500&#8239;unit</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;467.50</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cinryze 500unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(ViroPharma Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\r\n</title>\n<data name=\"ampid\">20023511000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">C1-esterase inhibitor 500&#8239;unit</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">2</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1336.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1988\" title=\"C1-ESTERASE INHIBITOR\" namespace=\"/drugs/c1-esterase-inhibitor\">C1-ESTERASE INHIBITOR</xref>\n</parents>\n</topic>",
+    "id": "PHP75733",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/c1-esterase-inhibitor/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81566",
+            "label": "Cinryze&reg;  ",
+            "html": "Cinryze<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP81565",
+            "label": "Berinert&reg;  ",
+            "html": "Berinert<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Berinert 500unit powder and solvent for solution for injection vials (CSL Behring UK Ltd) ",
+            "header": "Berinert 500unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(CSL Behring UK Ltd)</ph>",
+            "manufacturer": "(CSL Behring UK Ltd)",
+            "name": "Berinert 500unit powder and solvent for solution for injection vials",
+            "ampid": "10921911000001103",
+            "strengthOfActiveIngredient": "C1-esterase inhibitor 500 unit",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;467.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;467.50</ph>",
+                        "nhsIndicativePrice": "&#163;467.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Cinryze 500unit powder and solvent for solution for injection vials (ViroPharma Ltd) &#9660; ",
+            "header": "Cinryze 500unit powder and solvent for solution for injection vials <ph outputclass=\"manufacturer\">(ViroPharma Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(ViroPharma Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Cinryze 500unit powder and solvent for solution for injection vials",
+            "ampid": "20023511000001104",
+            "strengthOfActiveIngredient": "C1-esterase inhibitor 500 unit",
+            "packs": [
+                {
+                    "textContent": " 2 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">2</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "2",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1336.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1336.00</ph>",
+                        "nhsIndicativePrice": "&#163;1336.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1988",
+        "label": "C1-ESTERASE INHIBITOR"
+    }
+}

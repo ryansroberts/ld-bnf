@@ -1,0 +1,345 @@
+{
+    "xml": "<topic id=\"PHP5102\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/tolterodine-tartrate\" basename=\"tolterodine-tartrate\" title=\"TOLTERODINE TARTRATE\">\n<title>TOLTERODINE TARTRATE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_850\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/tolterodine\">Tolterodine</xref>\n</p>\n<data name=\"vtmid\">109113000</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_567112641\" title=\"Antimuscarinics\">Antimuscarinics</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" namespace=\"/drug-classes/antimuscarinics-systemic\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP48909\" outputclass=\"indicationsAndDose\" rev=\"1.51\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Urinary frequency</p>\n<p outputclass=\"therapeuticIndication\">Urinary urgency</p>\n<p outputclass=\"therapeuticIndication\">Urinary incontinence</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by mouth using immediate-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>2&#8239;mg twice daily, (by mouth) reduced if not tolerated to 1&#8239;mg twice daily.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By mouth using modified-release capsules</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>4&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>Children stabilised on immediate-release tolterodine tartrate 2&#8239;mg twice daily may be transferred to modified-release tolterodine tartrate 4&#8239;mg once daily.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48966\" outputclass=\"cautions\" rev=\"1.15\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">History of QT-interval prolongation</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48903\" outputclass=\"interactions\" rev=\"1.11\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Caution with concomitant use with other drugs known to prolong QT interval.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48878\" outputclass=\"sideEffects\" rev=\"1.17\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bronchitis</ph>; <ph outputclass=\"sideEffect\">chest pain</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">peripheral oedema</ph>; <ph outputclass=\"sideEffect\">sinusitis</ph>; <ph outputclass=\"sideEffect\">vertigo</ph>; <ph outputclass=\"sideEffect\">weight gain</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Memory impairment</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Flushing</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48899\" outputclass=\"pregnancy\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;toxicity in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48974\" outputclass=\"breastFeeding\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48918\" outputclass=\"hepaticImpairment\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose to 1&#8239;mg twice daily.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid modified-release preparations.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP48889\" outputclass=\"renalImpairment\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose to 1&#8239;mg twice daily if eGFR less than 30&#8239;mL/minute/1.73m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid modified-release preparations if eGFR less than 30&#8239;mL/minute/1.73m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59555\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP5102-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/tolterodine-tartrate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral suspension, oral solution, powder</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76967\" title=\"Tablet\" namespace=\"/drugs/tolterodine-tartrate/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76994\" title=\"Modified-release capsule\" namespace=\"/drugs/tolterodine-tartrate/modified-release-capsule\">Modified-release capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78573\" namespace=\"/treatment-summaries/urinary-frequency-enuresis-and-incontinence\" title=\"Urinary frequency, enuresis and incontinence\" count=\"1\" rel=\"backlink\">Urinary frequency, enuresis and incontinence</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_850\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/tolterodine\" title=\"Tolterodine\" count=\"1\" rel=\"link\">Tolterodine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34659\" namespace=\"/drug-classes/antimuscarinics-systemic\" title=\"ANTIMUSCARINICS (SYSTEMIC)\" count=\"1\" rel=\"link\">ANTIMUSCARINICS (SYSTEMIC)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76967\" namespace=\"/drugs/tolterodine-tartrate/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76994\" namespace=\"/drugs/tolterodine-tartrate/modified-release-capsule\" title=\"Modified-release capsule\" count=\"1\" rel=\"link\">Modified-release capsule</xref>\n</links>\n</topic>",
+    "id": "PHP5102",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/tolterodine-tartrate",
+    "basename": "tolterodine-tartrate",
+    "title": "TOLTERODINE TARTRATE",
+    "interactants": [
+        {
+            "id": "bnf_int_850",
+            "label": "Tolterodine"
+        }
+    ],
+    "vtmid": "109113000",
+    "drugClassification": [
+        "Antimuscarinics"
+    ],
+    "inheritsFromClass": [
+        "ANTIMUSCARINICS (SYSTEMIC)"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Urinary frequency",
+                        "html": "Urinary frequency"
+                    },
+                    {
+                        "textContent": "Urinary urgency",
+                        "html": "Urinary urgency"
+                    },
+                    {
+                        "textContent": "Urinary incontinence",
+                        "html": "Urinary incontinence"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using modified-release capsules"
+                    ],
+                    "textContent": "By mouth using modified-release capsules",
+                    "html": "By mouth using modified-release capsules"
+                },
+                "adult": [
+                    {
+                        "textContent": "2 mg twice daily, (by mouth) reduced if not tolerated to 1 mg twice daily.",
+                        "html": "<p>2&#8239;mg twice daily, (by mouth) reduced if not tolerated to 1&#8239;mg twice daily.</p>"
+                    },
+                    {
+                        "textContent": "4 mg once daily.",
+                        "html": "<p>4&#8239;mg once daily.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Children stabilised on immediate-release tolterodine tartrate 2 mg twice daily may be transferred to modified-release tolterodine tartrate 4 mg once daily.",
+                "html": "<p>Children stabilised on immediate-release tolterodine tartrate 2&#8239;mg twice daily may be transferred to modified-release tolterodine tartrate 4&#8239;mg once daily.</p>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "History of QT-interval prolongation",
+                "html": "History of QT-interval prolongation"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Caution with concomitant use with other drugs known to prolong QT interval.",
+                "html": "<p>Caution with concomitant use with other drugs known to prolong QT interval.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Bronchitis",
+                        "html": "Bronchitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "chest pain",
+                        "html": "chest pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "peripheral oedema",
+                        "html": "peripheral oedema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sinusitis",
+                        "html": "sinusitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vertigo",
+                        "html": "vertigo",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "weight gain",
+                        "html": "weight gain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Memory impairment",
+                        "html": "Memory impairment",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Flushing",
+                        "html": "Flushing",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;toxicity in animal studies.",
+                "html": "<p>Manufacturer advises avoid&#8212;toxicity in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose to 1 mg twice daily.",
+                "html": "<p>Reduce dose to 1&#8239;mg twice daily.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid modified-release preparations.",
+                "html": "<p>Avoid modified-release preparations.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose to 1 mg twice daily if eGFR less than 30 mL/minute/1.73m2.",
+                "html": "<p>Reduce dose to 1&#8239;mg twice daily if eGFR less than 30&#8239;mL/minute/1.73m<sup>2</sup>.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid modified-release preparations if eGFR less than 30 mL/minute/1.73m2.",
+                "html": "<p>Avoid modified-release preparations if eGFR less than 30&#8239;mL/minute/1.73m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.",
+                "html": "<p>The need for continuing therapy for urinary incontinence should be reviewed every 4&#8211;6 weeks until symptoms stabilise, and then every 6&#8211;12 months.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral suspension",
+                "oral solution",
+                "powder"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76967",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76994",
+                "label": "Modified-release capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78573",
+                "label": "Urinary frequency, enuresis and incontinence",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_850",
+                "label": "Tolterodine",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34659",
+                "label": "ANTIMUSCARINICS (SYSTEMIC)",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76967",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76994",
+                "label": "Modified-release capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

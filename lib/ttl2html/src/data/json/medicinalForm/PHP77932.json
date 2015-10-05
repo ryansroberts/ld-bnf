@@ -1,0 +1,93 @@
+{
+    "xml": "<topic id=\"PHP77932\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/paliperidone/modified-release-tablet\" basename=\"modified-release-tablet\" title=\"Modified-release tablet\">\n<title>Modified-release tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Invega 3mg modified-release tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">11749311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paliperidone 3&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;97.28</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Invega 6mg modified-release tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">11749811000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paliperidone 6&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;97.28</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Invega 9mg modified-release tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">11751011000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paliperidone 9&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;145.92</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2280\" title=\"PALIPERIDONE\" namespace=\"/drugs/paliperidone\">PALIPERIDONE</xref>\n</parents>\n</topic>",
+    "id": "PHP77932",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/paliperidone/modified-release-tablet",
+    "basename": "modified-release-tablet",
+    "form": "Modified-release tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Invega 3mg modified-release tablets (Janssen-Cilag Ltd) ",
+            "header": "Invega 3mg modified-release tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Invega 3mg modified-release tablets",
+            "ampid": "11749311000001101",
+            "strengthOfActiveIngredient": "Paliperidone 3 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;97.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;97.28</ph>",
+                        "nhsIndicativePrice": "&#163;97.28"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Invega 6mg modified-release tablets (Janssen-Cilag Ltd) ",
+            "header": "Invega 6mg modified-release tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Invega 6mg modified-release tablets",
+            "ampid": "11749811000001105",
+            "strengthOfActiveIngredient": "Paliperidone 6 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;97.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;97.28</ph>",
+                        "nhsIndicativePrice": "&#163;97.28"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Invega 9mg modified-release tablets (Janssen-Cilag Ltd) ",
+            "header": "Invega 9mg modified-release tablets <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Invega 9mg modified-release tablets",
+            "ampid": "11751011000001100",
+            "strengthOfActiveIngredient": "Paliperidone 9 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;145.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;145.92</ph>",
+                        "nhsIndicativePrice": "&#163;145.92"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2280",
+        "label": "PALIPERIDONE"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP76479\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/methylcellulose/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Celevac 500mg tablets <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">797011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Methylcellulose \"450\" 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.64</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;4.64</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP558\" title=\"METHYLCELLULOSE\" namespace=\"/drugs/methylcellulose\">METHYLCELLULOSE</xref>\n</parents>\n</topic>",
+    "id": "PHP76479",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/methylcellulose/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Celevac 500mg tablets (AMCo) ",
+            "header": "Celevac 500mg tablets <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Celevac 500mg tablets",
+            "ampid": "797011000001102",
+            "strengthOfActiveIngredient": "Methylcellulose \"450\" 500 mg",
+            "packs": [
+                {
+                    "textContent": " 112 tablet GSL ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.64 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.64</ph>",
+                        "nhsIndicativePrice": "&#163;4.64"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;4.64 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;4.64</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;4.64"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP558",
+        "label": "METHYLCELLULOSE"
+    }
+}

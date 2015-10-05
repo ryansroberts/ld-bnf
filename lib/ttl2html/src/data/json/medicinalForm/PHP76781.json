@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP76781\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/abatacept/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Orencia 125mg/1ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">21699611000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Abatacept 125&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1209.60</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Orencia ClickJect 125mg/1ml solution for injection pre-filled pen <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">29747111000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Abatacept 125&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">4</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1209.60</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6626\" title=\"ABATACEPT\" namespace=\"/drugs/abatacept\">ABATACEPT</xref>\n</parents>\n</topic>",
+    "id": "PHP76781",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/abatacept/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Orencia 125mg/1ml solution for injection pre-filled syringes (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Orencia 125mg/1ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Orencia 125mg/1ml solution for injection pre-filled syringes",
+            "ampid": "21699611000001106",
+            "strengthOfActiveIngredient": "Abatacept 125 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 4 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1209.60 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1209.60</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;1209.60",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Orencia ClickJect 125mg/1ml solution for injection pre-filled pen (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Orencia ClickJect 125mg/1ml solution for injection pre-filled pen <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Orencia ClickJect 125mg/1ml solution for injection pre-filled pen",
+            "ampid": "29747111000001101",
+            "strengthOfActiveIngredient": "Abatacept 125 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 4 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">4</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "4",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1209.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1209.60</ph>",
+                        "nhsIndicativePrice": "&#163;1209.60"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6626",
+        "label": "ABATACEPT"
+    }
+}

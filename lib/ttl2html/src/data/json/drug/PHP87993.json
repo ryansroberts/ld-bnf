@@ -1,0 +1,136 @@
+{
+    "xml": "<topic id=\"PHP87993\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/glucose-with-potassium-chloride-and-sodium-chloride\" basename=\"glucose-with-potassium-chloride-and-sodium-chloride\" title=\"GLUCOSE WITH POTASSIUM CHLORIDE AND SODIUM CHLORIDE\">\n<title>GLUCOSE WITH POTASSIUM CHLORIDE AND SODIUM CHLORIDE</title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP6004\" namespace=\"/drugs/glucose\">glucose</xref>, <xref format=\"dita\" href=\"#PHP5965\" namespace=\"/drugs/potassium-chloride\">potassium chloride</xref>, <xref format=\"dita\" href=\"#PHP5143\" namespace=\"/drugs/sodium-chloride\">sodium chloride</xref>.</p>\n<data name=\"vtmid\">419981003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_301079668\" title=\"Sugars\">Sugars</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_576667290\" title=\"Potassium\">Potassium</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP88386\" outputclass=\"indicationsAndDose\" rev=\"1.24\" parent=\"/drugs/glucose-with-potassium-chloride-and-sodium-chloride\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Electrolyte imbalance</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Dosed according to the deficit or daily maintenance requirements.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88400\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.11\" parent=\"/drugs/glucose-with-potassium-chloride-and-sodium-chloride\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Concentration of potassium chloride to be specified by the prescriber (usually K<sup>+</sup> 10&#8211;40&#8239;mmol/litre).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP87993-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/glucose-with-potassium-chloride-and-sodium-chloride\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: infusion, solution for infusion</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92302\" title=\"Infusion\" namespace=\"/drugs/glucose-with-potassium-chloride-and-sodium-chloride/infusion\">Infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6004\" namespace=\"/drugs/glucose\" title=\"GLUCOSE\" count=\"1\" rel=\"link\">GLUCOSE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5965\" namespace=\"/drugs/potassium-chloride\" title=\"POTASSIUM CHLORIDE\" count=\"1\" rel=\"link\">POTASSIUM CHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5143\" namespace=\"/drugs/sodium-chloride\" title=\"SODIUM CHLORIDE\" count=\"1\" rel=\"link\">SODIUM CHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92302\" namespace=\"/drugs/glucose-with-potassium-chloride-and-sodium-chloride/infusion\" title=\"Infusion\" count=\"1\" rel=\"link\">Infusion</xref>\n</links>\n</topic>",
+    "id": "PHP87993",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/glucose-with-potassium-chloride-and-sodium-chloride",
+    "basename": "glucose-with-potassium-chloride-and-sodium-chloride",
+    "title": "GLUCOSE WITH POTASSIUM CHLORIDE AND SODIUM CHLORIDE",
+    "constituents": [
+        {
+            "id": "PHP6004",
+            "label": "glucose"
+        },
+        {
+            "id": "PHP5965",
+            "label": "potassium chloride"
+        },
+        {
+            "id": "PHP5143",
+            "label": "sodium chloride"
+        }
+    ],
+    "vtmid": "419981003",
+    "drugClassification": [
+        "Sugars",
+        "Potassium"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Electrolyte imbalance",
+                        "html": "Electrolyte imbalance"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Dosed according to the deficit or daily maintenance requirements.",
+                        "html": "<p>Dosed according to the deficit or daily maintenance requirements.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Concentration of potassium chloride to be specified by the prescriber (usually K+ 10&#8211;40 mmol/litre).",
+                "html": "<p>Concentration of potassium chloride to be specified by the prescriber (usually K<sup>+</sup> 10&#8211;40&#8239;mmol/litre).</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "infusion",
+                "solution for infusion"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92302",
+                "label": "Infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP6004",
+                "label": "GLUCOSE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP5965",
+                "label": "POTASSIUM CHLORIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP5143",
+                "label": "SODIUM CHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92302",
+                "label": "Infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

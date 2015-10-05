@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP95067\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/ganfort-single-use\" basename=\"ganfort-single-use\" title=\"Ganfort single use\">\n<title>Ganfort<tm tmtype=\"reg\"/> single use</title>\n<topic id=\"PHP95207\" outputclass=\"nationalFunding\" rev=\"1.7\" parent=\"/clinical-medicinal-product-information/ganfort-single-use\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The Scottish Medicines Consortium has advised (October 2013) that <i>Ganfort</i>\n<tm tmtype=\"reg\"/> unit dose eye drops are accepted for restricted use within NHS Scotland for the reduction of intra-ocular pressure in patients with open-angle glaucoma or ocular hypertension insufficiently responsive to topical beta-blockers or prostaglandin analogues who have proven sensitivity to preservatives.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95067",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/ganfort-single-use",
+    "basename": "ganfort-single-use",
+    "title": "Ganfort single use",
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (October 2013) that Ganfort unit dose eye drops are accepted for restricted use within NHS Scotland for the reduction of intra-ocular pressure in patients with open-angle glaucoma or ocular hypertension insufficiently responsive to topical beta-blockers or prostaglandin analogues who have proven sensitivity to preservatives.",
+                "html": "<p>The Scottish Medicines Consortium has advised (October 2013) that <i>Ganfort</i> <tm tmtype=\"reg\"/> unit dose eye drops are accepted for restricted use within NHS Scotland for the reduction of intra-ocular pressure in patients with open-angle glaucoma or ocular hypertension insufficiently responsive to topical beta-blockers or prostaglandin analogues who have proven sensitivity to preservatives.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

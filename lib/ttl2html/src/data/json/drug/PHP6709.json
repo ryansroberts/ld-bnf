@@ -1,0 +1,159 @@
+{
+    "xml": "<topic id=\"PHP6709\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/pyridostigmine-bromide\" basename=\"pyridostigmine-bromide\" title=\"PYRIDOSTIGMINE BROMIDE\">\n<title>PYRIDOSTIGMINE BROMIDE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_648\" namespace=\"/interactions/list-of-drug-interactions/parasympathomimetics/pyridostigmine\">Pyridostigmine</xref>\n</p>\n<data name=\"vtmid\">59953007</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_126257276\" title=\"Anticholinesterases\">Anticholinesterases</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34588\" title=\"ANTICHOLINESTERASES\" namespace=\"/drug-classes/anticholinesterases\">ANTICHOLINESTERASES</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP55979\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/pyridostigmine-bromide\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Pyridostigmine bromide has weaker muscarinic action than neostigmine.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP55957\" outputclass=\"indicationsAndDose\" rev=\"1.23\" parent=\"/drugs/pyridostigmine-bromide\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Myasthenia gravis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using immediate-release medicines</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>30&#8211;120&#8239;mg, dose to be given at suitable intervals throughout day; usual dose 0.3&#8211;1.2&#8239;g daily in divided doses, it is inadvisable to exceed a total daily dose of 450&#8239;mg in order to avoid acetylcholine receptor downregulation; patients requiring doses exceeding 450&#8239;mg daily will usually require input from a specialised neuromuscular service. Immunosuppressant therapy is usually considered if the dose of pyridostigmine exceeds 360&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP55916\" outputclass=\"renalImpairment\" parent=\"/drugs/pyridostigmine-bromide\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose; excreted by kidney.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP6709-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/pyridostigmine-bromide\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: oral solution, oral suspension, modified-release tablet</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76522\" title=\"Tablet\" namespace=\"/drugs/pyridostigmine-bromide/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76529\" title=\"Modified-release tablet\" namespace=\"/drugs/pyridostigmine-bromide/modified-release-tablet\">Modified-release tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78233\" namespace=\"/treatment-summaries/constipation\" title=\"Constipation\" count=\"1\" rel=\"backlink\">Constipation</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78505\" namespace=\"/treatment-summaries/neuromuscular-disorders\" title=\"Neuromuscular disorders\" count=\"1\" rel=\"backlink\">Neuromuscular disorders</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_648\" namespace=\"/interactions/list-of-drug-interactions/parasympathomimetics/pyridostigmine\" title=\"Pyridostigmine\" count=\"1\" rel=\"link\">Pyridostigmine</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34588\" namespace=\"/drug-classes/anticholinesterases\" title=\"ANTICHOLINESTERASES\" count=\"1\" rel=\"link\">ANTICHOLINESTERASES</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76522\" namespace=\"/drugs/pyridostigmine-bromide/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76529\" namespace=\"/drugs/pyridostigmine-bromide/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n</links>\n</topic>",
+    "id": "PHP6709",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/pyridostigmine-bromide",
+    "basename": "pyridostigmine-bromide",
+    "title": "PYRIDOSTIGMINE BROMIDE",
+    "interactants": [
+        {
+            "id": "bnf_int_648",
+            "label": "Pyridostigmine"
+        }
+    ],
+    "vtmid": "59953007",
+    "drugClassification": [
+        "Anticholinesterases"
+    ],
+    "inheritsFromClass": [
+        "ANTICHOLINESTERASES"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Pyridostigmine bromide has weaker muscarinic action than neostigmine.",
+                "html": "<p>Pyridostigmine bromide has weaker muscarinic action than neostigmine.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Myasthenia gravis",
+                        "html": "Myasthenia gravis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using immediate-release medicines"
+                    ],
+                    "textContent": "By mouth using immediate-release medicines",
+                    "html": "By mouth using immediate-release medicines"
+                },
+                "adult": [
+                    {
+                        "textContent": "30&#8211;120 mg, dose to be given at suitable intervals throughout day; usual dose 0.3&#8211;1.2 g daily in divided doses, it is inadvisable to exceed a total daily dose of 450 mg in order to avoid acetylcholine receptor downregulation; patients requiring doses exceeding 450 mg daily will usually require input from a specialised neuromuscular service. Immunosuppressant therapy is usually considered if the dose of pyridostigmine exceeds 360 mg daily.",
+                        "html": "<p>30&#8211;120&#8239;mg, dose to be given at suitable intervals throughout day; usual dose 0.3&#8211;1.2&#8239;g daily in divided doses, it is inadvisable to exceed a total daily dose of 450&#8239;mg in order to avoid acetylcholine receptor downregulation; patients requiring doses exceeding 450&#8239;mg daily will usually require input from a specialised neuromuscular service. Immunosuppressant therapy is usually considered if the dose of pyridostigmine exceeds 360&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose; excreted by kidney.",
+                "html": "<p>Reduce dose; excreted by kidney.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "oral solution",
+                "oral suspension",
+                "modified-release tablet"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76522",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76529",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78233",
+                "label": "Constipation",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78505",
+                "label": "Neuromuscular disorders",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_648",
+                "label": "Pyridostigmine",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34588",
+                "label": "ANTICHOLINESTERASES",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76522",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76529",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

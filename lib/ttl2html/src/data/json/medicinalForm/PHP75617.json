@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP75617\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/lapatinib/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Tyverb 250mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">13667811000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Lapatinib ditosylate monohydrate 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">84</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;965.16</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">105</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1206.45</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5538\" title=\"LAPATINIB\" namespace=\"/drugs/lapatinib\">LAPATINIB</xref>\n</parents>\n</topic>",
+    "id": "PHP75617",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/lapatinib/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Tyverb 250mg tablets (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Tyverb 250mg tablets <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Tyverb 250mg tablets",
+            "ampid": "13667811000001109",
+            "strengthOfActiveIngredient": "Lapatinib ditosylate monohydrate 250 mg",
+            "packs": [
+                {
+                    "textContent": " 84 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">84</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "84",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;965.16 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;965.16</ph>",
+                        "nhsIndicativePrice": "&#163;965.16"
+                    }
+                },
+                {
+                    "textContent": " 105 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">105</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "105",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1206.45 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1206.45</ph>",
+                        "nhsIndicativePrice": "&#163;1206.45"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5538",
+        "label": "LAPATINIB"
+    }
+}

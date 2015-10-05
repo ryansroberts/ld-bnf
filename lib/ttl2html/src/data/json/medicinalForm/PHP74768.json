@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP74768\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/carboprost/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Hemabate 250micrograms/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">4855411000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Carboprost (as Carboprost trometamol) 250&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;182.01</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4767\" title=\"CARBOPROST\" namespace=\"/drugs/carboprost\">CARBOPROST</xref>\n</parents>\n</topic>",
+    "id": "PHP74768",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/carboprost/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Hemabate 250micrograms/1ml solution for injection ampoules (Pfizer Ltd) ",
+            "header": "Hemabate 250micrograms/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Hemabate 250micrograms/1ml solution for injection ampoules",
+            "ampid": "4855411000001103",
+            "strengthOfActiveIngredient": "Carboprost (as Carboprost trometamol) 250 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;182.01 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;182.01</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;182.01",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4767",
+        "label": "CARBOPROST"
+    }
+}

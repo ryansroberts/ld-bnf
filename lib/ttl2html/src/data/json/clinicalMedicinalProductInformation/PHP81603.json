@@ -1,0 +1,61 @@
+{
+    "xml": "<topic id=\"PHP81603\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/lmx-4\" basename=\"lmx-4\" title=\"LMX 4\">\n<title>LMX 4<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82828\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/lmx-4\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Anaesthesia before venous cannulation or venepuncture</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;2 months</p>\n<p>Apply up to 1&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 60 minutes, remove cream with gauze and perform procedure after approximately 5 minutes.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 3&#8211;11 months</p>\n<p>Apply up to 1&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 4 hours, remove cream with gauze and perform procedure after approximately 5 minutes.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;17 years</p>\n<p>Apply 1&#8211;2.5&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 5 hours, remove cream with gauze and perform procedure after approximately 5 minutes.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 1&#8211;2.5&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 5 hours, remove cream with gauze and perform procedure after approximately 5 minutes.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81603",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/lmx-4",
+    "basename": "lmx-4",
+    "title": "LMX 4",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Anaesthesia before venous cannulation or venepuncture",
+                        "html": "Anaesthesia before venous cannulation or venepuncture"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply up to 1 g, apply thick layer to small area (2.5 cm &#215; 2.5 cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 60 minutes, remove cream with gauze and perform procedure after approximately 5 minutes.",
+                        "html": "<p>Apply up to 1&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 60 minutes, remove cream with gauze and perform procedure after approximately 5 minutes.</p>",
+                        "ageGroup": "1&#8211;2 months"
+                    },
+                    {
+                        "textContent": "Apply up to 1 g, apply thick layer to small area (2.5 cm &#215; 2.5 cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 4 hours, remove cream with gauze and perform procedure after approximately 5 minutes.",
+                        "html": "<p>Apply up to 1&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 4 hours, remove cream with gauze and perform procedure after approximately 5 minutes.</p>",
+                        "ageGroup": "3&#8211;11 months"
+                    },
+                    {
+                        "textContent": "Apply 1&#8211;2.5 g, apply thick layer to small area (2.5 cm &#215; 2.5 cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 5 hours, remove cream with gauze and perform procedure after approximately 5 minutes.",
+                        "html": "<p>Apply 1&#8211;2.5&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 5 hours, remove cream with gauze and perform procedure after approximately 5 minutes.</p>",
+                        "ageGroup": "1&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 1&#8211;2.5 g, apply thick layer to small area (2.5 cm &#215; 2.5 cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 5 hours, remove cream with gauze and perform procedure after approximately 5 minutes.",
+                        "html": "<p>Apply 1&#8211;2.5&#8239;g, apply thick layer to small area (2.5&#8239;cm &#215; 2.5&#8239;cm) of non-irritated skin at least 30 minutes before procedure; may be applied under an occlusive dressing; max. application time 5 hours, remove cream with gauze and perform procedure after approximately 5 minutes.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

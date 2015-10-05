@@ -1,0 +1,106 @@
+{
+    "xml": "<topic id=\"PHP75403\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/progesterone/pessary\" basename=\"pessary\" title=\"Pessary\">\n<title>Pessary</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP104410\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/cyclogest-pessaries\">Cyclogest<tm tmtype=\"reg\"/> pessaries</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Lutigest 100mg vaginal tablets <ph outputclass=\"manufacturer\">(Ferring Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">28402511000001108</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 100&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">21</ph>\n<ph outputclass=\"unitOfMeasure\">pessary</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.50</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;19.50</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cyclogest 200mg pessaries <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3913011000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 200&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">pessary</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.95</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;8.95</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cyclogest 400mg pessaries <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>\n</title>\n<data name=\"ampid\">397511000001106</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 400&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">pessary</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;12.96</ph>\n</p>\r\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\r\n<ph outputclass=\"drugTariffPrice\">&#163;12.96</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4504\" title=\"PROGESTERONE\" namespace=\"/drugs/progesterone\">PROGESTERONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75403",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/progesterone/pessary",
+    "basename": "pessary",
+    "form": "Pessary",
+    "productInformationGroups": [
+        {
+            "id": "PHP104410",
+            "label": "Cyclogest&reg;  pessaries",
+            "html": "Cyclogest<tm tmtype=\"reg\"/> pessaries"
+        }
+    ],
+    "products": [
+        {
+            "title": "Lutigest 100mg vaginal tablets (Ferring Pharmaceuticals Ltd) ",
+            "header": "Lutigest 100mg vaginal tablets <ph outputclass=\"manufacturer\">(Ferring Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Ferring Pharmaceuticals Ltd)",
+            "name": "Lutigest 100mg vaginal tablets",
+            "ampid": "28402511000001108",
+            "strengthOfActiveIngredient": "Progesterone 100 mg",
+            "packs": [
+                {
+                    "textContent": " 21 pessary POM ",
+                    "html": "<ph outputclass=\"packSize\">21</ph> <ph outputclass=\"unitOfMeasure\">pessary</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "21",
+                    "unitOfMeasure": "pessary",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.50</ph>",
+                        "nhsIndicativePrice": "&#163;19.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;19.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;19.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;19.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Cyclogest 200mg pessaries (Actavis UK Ltd) ",
+            "header": "Cyclogest 200mg pessaries <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>",
+            "manufacturer": "(Actavis UK Ltd)",
+            "name": "Cyclogest 200mg pessaries",
+            "ampid": "3913011000001107",
+            "strengthOfActiveIngredient": "Progesterone 200 mg",
+            "packs": [
+                {
+                    "textContent": " 15 pessary POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">pessary</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "pessary",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.95</ph>",
+                        "nhsIndicativePrice": "&#163;8.95"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;8.95 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;8.95</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;8.95"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Cyclogest 400mg pessaries (Actavis UK Ltd) ",
+            "header": "Cyclogest 400mg pessaries <ph outputclass=\"manufacturer\">(Actavis UK Ltd)</ph>",
+            "manufacturer": "(Actavis UK Ltd)",
+            "name": "Cyclogest 400mg pessaries",
+            "ampid": "397511000001106",
+            "strengthOfActiveIngredient": "Progesterone 400 mg",
+            "packs": [
+                {
+                    "textContent": " 15 pessary POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">pessary</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "pessary",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;12.96 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;12.96</ph>",
+                        "nhsIndicativePrice": "&#163;12.96"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;12.96 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;12.96</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;12.96"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4504",
+        "label": "PROGESTERONE"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP76637\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/oseltamivir/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sorbitol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tamiflu 6mg/ml oral suspension <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n</title>\n<data name=\"ampid\">21525111000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Oseltamivir (as Oseltamivir phosphate) 6&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">65</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.27</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3896\" title=\"OSELTAMIVIR\" namespace=\"/drugs/oseltamivir\">OSELTAMIVIR</xref>\n</parents>\n</topic>",
+    "id": "PHP76637",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/oseltamivir/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "9",
+            "textContent": "Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">9</ph> - Space the doses evenly throughout the day. Keep taking this medicine until the course is finished, unless you are told to stop"
+        }
+    ],
+    "excipients": [
+        "Sorbitol"
+    ],
+    "products": [
+        {
+            "title": "Tamiflu 6mg/ml oral suspension (Roche Products Ltd) ",
+            "header": "Tamiflu 6mg/ml oral suspension <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "name": "Tamiflu 6mg/ml oral suspension",
+            "ampid": "21525111000001101",
+            "strengthOfActiveIngredient": "Oseltamivir (as Oseltamivir phosphate) 6 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 65 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">65</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "65",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.27 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.27</ph>",
+                        "nhsIndicativePrice": "&#163;10.27"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3896",
+        "label": "OSELTAMIVIR"
+    }
+}

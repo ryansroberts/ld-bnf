@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP77585\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/loperamide-hydrochloride/medicinal-forms/oral-lyophilisate\" basename=\"oral-lyophilisate\" title=\"Oral lyophilisate\">\n      <title>Oral lyophilisate</title>\n      <body>\n       <section outputclass=\"medicinalProduct\"><title>Imodium Instants 2mg oral lyophilisates <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n        </title>\n        <data name=\"ampid\">3324311000001109</data><p outputclass=\"strengthOfActiveIngredient\">Loperamide hydrochloride 2 mg</p><ul outputclass=\"packs\">\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">6</ph>&#8239;<ph outputclass=\"unitOfMeasure\">tablet</ph>\n           <ph outputclass=\"legalCategory\">GSL</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;2.45</ph>\n          </p>\n         </li>\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">12</ph>&#8239;<ph outputclass=\"unitOfMeasure\">tablet</ph>\n           <ph outputclass=\"legalCategory\">GSL</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;3.76</ph>\n          </p>\n         </li>\n        </ul>\n       </section>\n      </body>\n     <parents><xref format=\"dita\" scope=\"local\" type=\"\" href=\"#PHP469-medicinalForms\" title=\"\"/></parents></topic>",
+    "id": "PHP77585",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/loperamide-hydrochloride/medicinal-forms/oral-lyophilisate",
+    "basename": "oral-lyophilisate",
+    "form": "Oral lyophilisate",
+    "products": [
+        {
+            "title": "Imodium Instants 2mg oral lyophilisates (McNeil Products Ltd) ",
+            "header": "Imodium Instants 2mg oral lyophilisates <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Imodium Instants 2mg oral lyophilisates",
+            "ampid": "3324311000001109",
+            "strengthOfActiveIngredient": "Loperamide hydrochloride 2 mg",
+            "packs": [
+                {
+                    "textContent": "6 tablet GSL",
+                    "html": "<ph outputclass=\"packSize\">6</ph>&#8239;<ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.45 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.45</ph>",
+                        "nhsIndicativePrice": "&#163;2.45"
+                    }
+                },
+                {
+                    "textContent": "12 tablet GSL",
+                    "html": "<ph outputclass=\"packSize\">12</ph>&#8239;<ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.76 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.76</ph>",
+                        "nhsIndicativePrice": "&#163;3.76"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP469",
+        "label": ""
+    }
+}

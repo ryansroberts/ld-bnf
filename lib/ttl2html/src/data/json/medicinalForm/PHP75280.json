@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP75280\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/senna/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Senokot 7.5mg/5ml Syrup Pharmacy sugar free <ph outputclass=\"manufacturer\">(Forum Health Products Ltd)</ph>\n</title>\n<data name=\"ampid\">9550311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sennoside B (as Sennosides) 1.5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.99</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;2.99</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP588\" title=\"SENNA\" namespace=\"/drugs/senna\">SENNA</xref>\n</parents>\n</topic>",
+    "id": "PHP75280",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/senna/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "products": [
+        {
+            "title": "Senokot 7.5mg/5ml Syrup Pharmacy sugar free (Forum Health Products Ltd) ",
+            "header": "Senokot 7.5mg/5ml Syrup Pharmacy sugar free <ph outputclass=\"manufacturer\">(Forum Health Products Ltd)</ph>",
+            "manufacturer": "(Forum Health Products Ltd)",
+            "name": "Senokot 7.5mg/5ml Syrup Pharmacy sugar free",
+            "ampid": "9550311000001101",
+            "strengthOfActiveIngredient": "Sennoside B (as Sennosides) 1.5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml P ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.99 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.99</ph>",
+                        "nhsIndicativePrice": "&#163;2.99"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.99 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.99</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.99"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP588",
+        "label": "SENNA"
+    }
+}

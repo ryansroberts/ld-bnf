@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP77428\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ibuprofen/powder\" basename=\"powder\" title=\"Powder\">\n<title>Powder</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Nurofen Express Soluble 400mg oral powder sachets <ph outputclass=\"manufacturer\">(Reckitt Benckiser Healthcare (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">21679511000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ibuprofen (as Ibuprofen lysine) 400&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6461\" title=\"IBUPROFEN\" namespace=\"/drugs/ibuprofen\">IBUPROFEN</xref>\n</parents>\n</topic>",
+    "id": "PHP77428",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ibuprofen/powder",
+    "basename": "powder",
+    "form": "Powder",
+    "products": [
+        {
+            "title": "Nurofen Express Soluble 400mg oral powder sachets (Reckitt Benckiser Healthcare (UK) Ltd) ",
+            "header": "Nurofen Express Soluble 400mg oral powder sachets <ph outputclass=\"manufacturer\">(Reckitt Benckiser Healthcare (UK) Ltd)</ph>",
+            "manufacturer": "(Reckitt Benckiser Healthcare (UK) Ltd)",
+            "name": "Nurofen Express Soluble 400mg oral powder sachets",
+            "ampid": "21679511000001103",
+            "strengthOfActiveIngredient": "Ibuprofen (as Ibuprofen lysine) 400 mg",
+            "packs": [
+                {
+                    "textContent": " 10 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.23 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>",
+                        "nhsIndicativePrice": "&#163;3.23"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6461",
+        "label": "IBUPROFEN"
+    }
+}

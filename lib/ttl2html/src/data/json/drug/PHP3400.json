@@ -1,0 +1,449 @@
+{
+    "xml": "<topic id=\"PHP3400\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/cefuroxime\" basename=\"cefuroxime\" title=\"CEFUROXIME\">\n<title>CEFUROXIME</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_152\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/cephalosporins/cefuroxime\">Cefuroxime</xref>\n</p>\n<data name=\"vtmid\">73986003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_341352686\" title=\"Cephalosporins\">Cephalosporins</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34534\" title=\"CEPHALOSPORINS\" namespace=\"/drug-classes/cephalosporins\">CEPHALOSPORINS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP46796\" outputclass=\"indicationsAndDose\" rev=\"1.53\" parent=\"/drugs/cefuroxime\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Susceptible infections due to Gram-positive and Gram-negative bacteria</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 3 months&#8211;1 year</p>\n<p>10&#8239;mg/kg twice daily (max. per dose 125&#8239;mg).</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 2&#8211;11 years</p>\n<p>15&#8239;mg/kg twice daily (max. per dose 250&#8239;mg).</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>250&#8239;mg twice daily, dose may be doubled in severe lower respiratory-tract infections or if pneumonia is suspected.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>250&#8239;mg twice daily, dose may be doubled in severe lower respiratory-tract infections or if pneumonia is suspected.</p>\n</li>\n</ul>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion or by intravenous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>20&#8239;mg/kg every 8&#8239;hours (max. per dose 750&#8239;mg); increased to 50&#8211;60&#8239;mg/kg every 6&#8211;8&#8239;hours (max. per dose 1.5&#8239;g), increased dose used for severe infection and cystic fibrosis.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>750&#8239;mg every 6&#8211;8&#8239;hours; increased if necessary up to 1.5&#8239;g every 6&#8211;8&#8239;hours, increased dose used for severe infections.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Lyme disease</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>500&#8239;mg twice daily for 14&#8211;21 days (for 28 days in Lyme arthritis).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Lower urinary-tract infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>125&#8239;mg twice daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>125&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pyelonephritis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>250&#8239;mg twice daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Surgical prophylaxis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.5&#8239;g, to be administered up to 30 minutes before the procedure, then (by intravenous injection or by intramuscular injection) 750&#8239;mg every 8&#8239;hours if required for up to 3 doses (in high risk procedures).</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Open fractures, prophylaxis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion or by intravenous injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1.5&#8239;g every 8&#8239;hours until soft tissue closure (maximum duration 72 hours).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP46740\" outputclass=\"unlicensedUse\" rev=\"1.11\" parent=\"/drugs/cefuroxime\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use in children</p>\n<p>Not licensed for treatment of Lyme disease in children under 12 years.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>Duration of treatment in Lyme disease is unlicensed.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP46776\" outputclass=\"pregnancy\" parent=\"/drugs/cefuroxime\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Not known to be harmful.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP46880\" outputclass=\"breastFeeding\" parent=\"/drugs/cefuroxime\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in milk in low concentration, but appropriate to use.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP46765\" outputclass=\"renalImpairment\" parent=\"/drugs/cefuroxime\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p outputclass=\"specificity\">In adults</p>\n<p>Use parenteral dose of 750&#8239;mg twice daily if eGFR 10&#8211;20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n<p>Use parenteral dose of 750&#8239;mg once daily if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">In children</p>\n<p>Reduce parenteral dose if estimated glomerular filtration rate less than 20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP46896\" outputclass=\"directionsForAdministration\" rev=\"1.12\" parent=\"/drugs/cefuroxime\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Single doses over 750&#8239;mg should be administered by the intravenous route only.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in children</p>\n<p>Displacement value may be significant when reconstituting injection, consult local guidelines.</p>\n<p>For intermittent intravenous infusion, dilute reconstituted solution further in glucose 5% or sodium chloride 0.9%; give over 30 minutes.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use in adults</p>\n<p>For <i>intravenous infusion</i> (<i>Zinacef</i>\n<tm tmtype=\"reg\"/>), give intermittently or via drip tubing in <i>Glucose</i> 5% or Sodium chloride 0.9%. Dissolve initially in water for injections (at least 2&#8239;mL for each 250&#8239;mg,15&#8239;mL for 1.5&#8239;g); suggested volume 50&#8211;100&#8239;mL given over 30 minutes.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP3400-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/cefuroxime\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: eye drops, solution for injection, infusion</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76062\" title=\"Tablet\" namespace=\"/drugs/cefuroxime/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76067\" title=\"Oral suspension\" namespace=\"/drugs/cefuroxime/oral-suspension\">Oral suspension</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76092\" title=\"Powder for solution for injection\" namespace=\"/drugs/cefuroxime/powder-for-solution-for-injection\">Powder for solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76082\" title=\"Powder for injection\" namespace=\"/drugs/cefuroxime/powder-for-injection\">Powder for injection</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78145\" namespace=\"/treatment-summaries/cephalosporins\" title=\"Cephalosporins\" count=\"4\" rel=\"backlink\">Cephalosporins</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78210\" namespace=\"/treatment-summaries/antibacterials-use-for-prophylaxis\" title=\"Antibacterials, use for prophylaxis\" count=\"15\" rel=\"backlink\">Antibacterials, use for prophylaxis</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78228\" namespace=\"/treatment-summaries/urinary-tract-infections\" title=\"Urinary-tract infections\" count=\"1\" rel=\"backlink\">Urinary-tract infections</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78245\" namespace=\"/treatment-summaries/lyme-disease\" title=\"Lyme disease\" count=\"1\" rel=\"backlink\">Lyme disease</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78449\" namespace=\"/treatment-summaries/ear-infections-bacterial\" title=\"Ear infections, bacterial\" count=\"1\" rel=\"backlink\">Ear infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78459\" namespace=\"/treatment-summaries/nose-infections-bacterial\" title=\"Nose infections, bacterial\" count=\"1\" rel=\"backlink\">Nose infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78491\" namespace=\"/treatment-summaries/blood-infections-bacterial\" title=\"Blood infections, bacterial\" count=\"1\" rel=\"backlink\">Blood infections, bacterial</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78517\" namespace=\"/treatment-summaries/eye-surgical-and-peri-operative-drug-use\" title=\"Eye, surgical and peri-operative drug use\" count=\"1\" rel=\"backlink\">Eye, surgical and peri-operative drug use</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78557\" namespace=\"/treatment-summaries/eye\" title=\"Eye\" count=\"1\" rel=\"backlink\">Eye</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78541\" namespace=\"/treatment-summaries/eye-infections-of\" title=\"Eye, infections of\" count=\"1\" rel=\"backlink\">Eye, infections of</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78577\" namespace=\"/treatment-summaries/respiratory-system-infections-bacterial\" title=\"Respiratory system infections, bacterial\" count=\"2\" rel=\"backlink\">Respiratory system infections, bacterial</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_152\" namespace=\"/interactions/list-of-drug-interactions/antibacterials/cephalosporins/cefuroxime\" title=\"Cefuroxime\" count=\"1\" rel=\"link\">Cefuroxime</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34534\" namespace=\"/drug-classes/cephalosporins\" title=\"CEPHALOSPORINS\" count=\"1\" rel=\"link\">CEPHALOSPORINS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76062\" namespace=\"/drugs/cefuroxime/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76067\" namespace=\"/drugs/cefuroxime/oral-suspension\" title=\"Oral suspension\" count=\"1\" rel=\"link\">Oral suspension</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76092\" namespace=\"/drugs/cefuroxime/powder-for-solution-for-injection\" title=\"Powder for solution for injection\" count=\"1\" rel=\"link\">Powder for solution for injection</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76082\" namespace=\"/drugs/cefuroxime/powder-for-injection\" title=\"Powder for injection\" count=\"1\" rel=\"link\">Powder for injection</xref>\n</links>\n</topic>",
+    "id": "PHP3400",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/cefuroxime",
+    "basename": "cefuroxime",
+    "title": "CEFUROXIME",
+    "interactants": [
+        {
+            "id": "bnf_int_152",
+            "label": "Cefuroxime"
+        }
+    ],
+    "vtmid": "73986003",
+    "drugClassification": [
+        "Cephalosporins"
+    ],
+    "inheritsFromClass": [
+        "CEPHALOSPORINS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Susceptible infections due to Gram-positive and Gram-negative bacteria",
+                        "html": "Susceptible infections due to Gram-positive and Gram-negative bacteria"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion or intravenous injection or intramuscular injection"
+                    ],
+                    "textContent": "By intravenous infusion or by intravenous injection or by intramuscular injection",
+                    "html": "By intravenous infusion or by intravenous injection or by intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "10 mg/kg twice daily (max. per dose 125 mg).",
+                        "html": "<p>10&#8239;mg/kg twice daily (max. per dose 125&#8239;mg).</p>",
+                        "ageGroup": "3 months&#8211;1 year"
+                    },
+                    {
+                        "textContent": "15 mg/kg twice daily (max. per dose 250 mg).",
+                        "html": "<p>15&#8239;mg/kg twice daily (max. per dose 250&#8239;mg).</p>",
+                        "ageGroup": "2&#8211;11 years"
+                    },
+                    {
+                        "textContent": "250 mg twice daily, dose may be doubled in severe lower respiratory-tract infections or if pneumonia is suspected.",
+                        "html": "<p>250&#8239;mg twice daily, dose may be doubled in severe lower respiratory-tract infections or if pneumonia is suspected.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    },
+                    {
+                        "textContent": "20 mg/kg every 8 hours (max. per dose 750 mg); increased to 50&#8211;60 mg/kg every 6&#8211;8 hours (max. per dose 1.5 g), increased dose used for severe infection and cystic fibrosis.",
+                        "html": "<p>20&#8239;mg/kg every 8&#8239;hours (max. per dose 750&#8239;mg); increased to 50&#8211;60&#8239;mg/kg every 6&#8211;8&#8239;hours (max. per dose 1.5&#8239;g), increased dose used for severe infection and cystic fibrosis.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "250 mg twice daily, dose may be doubled in severe lower respiratory-tract infections or if pneumonia is suspected.",
+                        "html": "<p>250&#8239;mg twice daily, dose may be doubled in severe lower respiratory-tract infections or if pneumonia is suspected.</p>"
+                    },
+                    {
+                        "textContent": "750 mg every 6&#8211;8 hours; increased if necessary up to 1.5 g every 6&#8211;8 hours, increased dose used for severe infections.",
+                        "html": "<p>750&#8239;mg every 6&#8211;8&#8239;hours; increased if necessary up to 1.5&#8239;g every 6&#8211;8&#8239;hours, increased dose used for severe infections.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Lyme disease",
+                        "html": "Lyme disease"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "500 mg twice daily for 14&#8211;21 days (for 28 days in Lyme arthritis).",
+                        "html": "<p>500&#8239;mg twice daily for 14&#8211;21 days (for 28 days in Lyme arthritis).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Lower urinary-tract infection",
+                        "html": "Lower urinary-tract infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "125 mg twice daily.",
+                        "html": "<p>125&#8239;mg twice daily.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "125 mg twice daily.",
+                        "html": "<p>125&#8239;mg twice daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Pyelonephritis",
+                        "html": "Pyelonephritis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "250 mg twice daily.",
+                        "html": "<p>250&#8239;mg twice daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Surgical prophylaxis",
+                        "html": "Surgical prophylaxis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous injection"
+                    ],
+                    "textContent": "Initially by intravenous injection",
+                    "html": "Initially by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1.5 g, to be administered up to 30 minutes before the procedure, then (by intravenous injection or by intramuscular injection) 750 mg every 8 hours if required for up to 3 doses (in high risk procedures).",
+                        "html": "<p>1.5&#8239;g, to be administered up to 30 minutes before the procedure, then (by intravenous injection or by intramuscular injection) 750&#8239;mg every 8&#8239;hours if required for up to 3 doses (in high risk procedures).</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Open fractures, prophylaxis",
+                        "html": "Open fractures, prophylaxis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion or intravenous injection"
+                    ],
+                    "textContent": "By intravenous infusion or by intravenous injection",
+                    "html": "By intravenous infusion or by intravenous injection"
+                },
+                "adult": [
+                    {
+                        "textContent": "1.5 g every 8 hours until soft tissue closure (maximum duration 72 hours).",
+                        "html": "<p>1.5&#8239;g every 8&#8239;hours until soft tissue closure (maximum duration 72 hours).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With oral use in children",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Not licensed for treatment of Lyme disease in children under 12 years.",
+                "html": "<p>Not licensed for treatment of Lyme disease in children under 12 years.</p>"
+            },
+            {
+                "type": "unlicensedUse",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "Duration of treatment in Lyme disease is unlicensed.",
+                "html": "<p>Duration of treatment in Lyme disease is unlicensed.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Not known to be harmful.",
+                "html": "<p>Not known to be harmful.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in milk in low concentration, but appropriate to use.",
+                "html": "<p>Present in milk in low concentration, but appropriate to use.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "In adults",
+                    "html": "In adults",
+                    "patientType": "adults"
+                },
+                "textContent": "Use parenteral dose of 750 mg twice daily if eGFR 10&#8211;20 mL/minute/1.73 m2.\n\nUse parenteral dose of 750 mg once daily if eGFR less than 10 mL/minute/1.73 m2.",
+                "html": "<p>Use parenteral dose of 750&#8239;mg twice daily if eGFR 10&#8211;20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p><p>Use parenteral dose of 750&#8239;mg once daily if eGFR less than 10&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            },
+            {
+                "type": "doseAdjustments",
+                "specificity": {
+                    "textContent": "In children",
+                    "html": "In children",
+                    "patientType": "children"
+                },
+                "textContent": "Reduce parenteral dose if estimated glomerular filtration rate less than 20 mL/minute/1.73 m2.",
+                "html": "<p>Reduce parenteral dose if estimated glomerular filtration rate less than 20&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Single doses over 750 mg should be administered by the intravenous route only.",
+                "html": "<p>Single doses over 750&#8239;mg should be administered by the intravenous route only.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in children",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in children",
+                    "patientType": "children",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Displacement value may be significant when reconstituting injection, consult local guidelines.\n\nFor intermittent intravenous infusion, dilute reconstituted solution further in glucose 5% or sodium chloride 0.9%; give over 30 minutes.",
+                "html": "<p>Displacement value may be significant when reconstituting injection, consult local guidelines.</p><p>For intermittent intravenous infusion, dilute reconstituted solution further in glucose 5% or sodium chloride 0.9%; give over 30 minutes.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use in adults",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use in adults",
+                    "patientType": "adults",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Zinacef ), give intermittently or via drip tubing in Glucose 5% or Sodium chloride 0.9%. Dissolve initially in water for injections (at least 2 mL for each 250 mg,15 mL for 1.5 g); suggested volume 50&#8211;100 mL given over 30 minutes.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Zinacef</i>\n<tm tmtype=\"reg\"/>), give intermittently or via drip tubing in <i>Glucose</i> 5% or Sodium chloride 0.9%. Dissolve initially in water for injections (at least 2&#8239;mL for each 250&#8239;mg,15&#8239;mL for 1.5&#8239;g); suggested volume 50&#8211;100&#8239;mL given over 30 minutes.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "eye drops",
+                "solution for injection",
+                "infusion"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76062",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76067",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76092",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76082",
+                "label": "Powder for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78145",
+                "label": "Cephalosporins",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78210",
+                "label": "Antibacterials, use for prophylaxis",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78228",
+                "label": "Urinary-tract infections",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78245",
+                "label": "Lyme disease",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78449",
+                "label": "Ear infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78459",
+                "label": "Nose infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78491",
+                "label": "Blood infections, bacterial",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78517",
+                "label": "Eye, surgical and peri-operative drug use",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78557",
+                "label": "Eye",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78541",
+                "label": "Eye, infections of",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78577",
+                "label": "Respiratory system infections, bacterial",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_152",
+                "label": "Cefuroxime",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34534",
+                "label": "CEPHALOSPORINS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76062",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76067",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76092",
+                "label": "Powder for solution for injection",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76082",
+                "label": "Powder for injection",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

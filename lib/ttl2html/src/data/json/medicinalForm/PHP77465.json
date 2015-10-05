@@ -1,0 +1,88 @@
+{
+    "xml": "<topic id=\"PHP77465\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/golimumab/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Simponi 100mg/1ml solution for injection pre-filled pen <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">23982811000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Golimumab 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1525.94</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Simponi 50mg/0.5ml solution for injection pre-filled disposable devices <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">18035811000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Golimumab 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;762.97</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Simponi 50mg/0.5ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">18035511000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Golimumab 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;762.97</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP34186\" title=\"GOLIMUMAB\" namespace=\"/drugs/golimumab\">GOLIMUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP77465",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/golimumab/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Simponi 100mg/1ml solution for injection pre-filled pen (Merck Sharp & Dohme Ltd) ",
+            "header": "Simponi 100mg/1ml solution for injection pre-filled pen <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Simponi 100mg/1ml solution for injection pre-filled pen",
+            "ampid": "23982811000001109",
+            "strengthOfActiveIngredient": "Golimumab 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1525.94 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1525.94</ph>",
+                        "nhsIndicativePrice": "&#163;1525.94"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Simponi 50mg/0.5ml solution for injection pre-filled disposable devices (Merck Sharp & Dohme Ltd) ",
+            "header": "Simponi 50mg/0.5ml solution for injection pre-filled disposable devices <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Simponi 50mg/0.5ml solution for injection pre-filled disposable devices",
+            "ampid": "18035811000001103",
+            "strengthOfActiveIngredient": "Golimumab 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;762.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;762.97</ph>",
+                        "nhsIndicativePrice": "&#163;762.97"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Simponi 50mg/0.5ml solution for injection pre-filled syringes (Merck Sharp & Dohme Ltd) ",
+            "header": "Simponi 50mg/0.5ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Simponi 50mg/0.5ml solution for injection pre-filled syringes",
+            "ampid": "18035511000001101",
+            "strengthOfActiveIngredient": "Golimumab 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;762.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;762.97</ph>",
+                        "nhsIndicativePrice": "&#163;762.97"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP34186",
+        "label": "GOLIMUMAB"
+    }
+}

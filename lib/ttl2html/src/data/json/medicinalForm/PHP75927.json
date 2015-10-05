@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75927\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/liothyronine-sodium/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Liothyronine 20microgram powder for solution for injection vials <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">19384811000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Liothyronine sodium 20&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1425.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4306\" title=\"LIOTHYRONINE SODIUM\" namespace=\"/drugs/liothyronine-sodium\">LIOTHYRONINE SODIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP75927",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/liothyronine-sodium/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "products": [
+        {
+            "title": "Liothyronine 20microgram powder for solution for injection vials (AMCo) ",
+            "header": "Liothyronine 20microgram powder for solution for injection vials <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Liothyronine 20microgram powder for solution for injection vials",
+            "ampid": "19384811000001106",
+            "strengthOfActiveIngredient": "Liothyronine sodium 20 microgram",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1425.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1425.00</ph>",
+                        "nhsIndicativePrice": "&#163;1425.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4306",
+        "label": "LIOTHYRONINE SODIUM"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "xml": "<topic id=\"PHP95839\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/salactol\" basename=\"salactol\" title=\"Salactol\">\n<title>Salactol<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP96114\" outputclass=\"indicationsAndDose\" rev=\"1.17\" parent=\"/clinical-medicinal-product-information/salactol\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Warts (particularly plantar warts)</p>\n<p outputclass=\"therapeuticIndication\">Verrucas</p>\n<p outputclass=\"therapeuticIndication\">Corns</p>\n<p outputclass=\"therapeuticIndication\">Calluses</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the lesion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP96178\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/salactol\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Preparations of salicylic acid in a collodion basis are available but some patients may develop an allergy to colophony in the formulation.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95839",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/salactol",
+    "basename": "salactol",
+    "title": "Salactol",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Warts (particularly plantar warts)",
+                        "html": "Warts (particularly plantar warts)"
+                    },
+                    {
+                        "textContent": "Verrucas",
+                        "html": "Verrucas"
+                    },
+                    {
+                        "textContent": "Corns",
+                        "html": "Corns"
+                    },
+                    {
+                        "textContent": "Calluses",
+                        "html": "Calluses"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the lesion"
+                    ],
+                    "textContent": "To the lesion",
+                    "html": "To the lesion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply daily.",
+                        "html": "<p>Apply daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Preparations of salicylic acid in a collodion basis are available but some patients may develop an allergy to colophony in the formulation.",
+                "html": "<p>Preparations of salicylic acid in a collodion basis are available but some patients may develop an allergy to colophony in the formulation.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

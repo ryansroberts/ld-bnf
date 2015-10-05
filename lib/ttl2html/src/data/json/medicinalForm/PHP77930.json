@@ -1,0 +1,99 @@
+{
+    "xml": "<topic id=\"PHP77930\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ergocalciferol/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>D-Forte 50,000unit capsules <ph outputclass=\"manufacturer\">(Go-Kyo Science Ltd)</ph>\n</title>\n<data name=\"ampid\">27373011000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ergocalciferol 1.25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;61.90</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Eciferol D2 50,000unit capsules <ph outputclass=\"manufacturer\">(Disposable Medical Equipment Ltd)</ph>\n</title>\n<data name=\"ampid\">21300211000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ergocalciferol 1.25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;29.99</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ergo-D2 1.25mg capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">21037211000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ergocalciferol 1.25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;96.80</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Ergoral D2 50,000unit capsules <ph outputclass=\"manufacturer\">(Cubic Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">21669211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ergocalciferol 1.25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.95</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6227\" title=\"ERGOCALCIFEROL\" namespace=\"/drugs/ergocalciferol\">ERGOCALCIFEROL</xref>\n</parents>\n</topic>",
+    "id": "PHP77930",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ergocalciferol/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "D-Forte 50,000unit capsules (Go-Kyo Science Ltd) ",
+            "header": "D-Forte 50,000unit capsules <ph outputclass=\"manufacturer\">(Go-Kyo Science Ltd)</ph>",
+            "manufacturer": "(Go-Kyo Science Ltd)",
+            "name": "D-Forte 50,000unit capsules",
+            "ampid": "27373011000001104",
+            "strengthOfActiveIngredient": "Ergocalciferol 1.25 mg",
+            "packs": [
+                {
+                    "textContent": " 100 capsule ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;61.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;61.90</ph>",
+                        "nhsIndicativePrice": "&#163;61.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Eciferol D2 50,000unit capsules (Disposable Medical Equipment Ltd) ",
+            "header": "Eciferol D2 50,000unit capsules <ph outputclass=\"manufacturer\">(Disposable Medical Equipment Ltd)</ph>",
+            "manufacturer": "(Disposable Medical Equipment Ltd)",
+            "name": "Eciferol D2 50,000unit capsules",
+            "ampid": "21300211000001109",
+            "strengthOfActiveIngredient": "Ergocalciferol 1.25 mg",
+            "packs": [
+                {
+                    "textContent": " 10 capsule ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;29.99 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;29.99</ph>",
+                        "nhsIndicativePrice": "&#163;29.99"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Ergo-D2 1.25mg capsules (Ennogen Healthcare Ltd) ",
+            "header": "Ergo-D2 1.25mg capsules <ph outputclass=\"manufacturer\">(Ennogen Healthcare Ltd)</ph>",
+            "manufacturer": "(Ennogen Healthcare Ltd)",
+            "name": "Ergo-D2 1.25mg capsules",
+            "ampid": "21037211000001100",
+            "strengthOfActiveIngredient": "Ergocalciferol 1.25 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;96.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;96.80</ph>",
+                        "nhsIndicativePrice": "&#163;96.80"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Ergoral D2 50,000unit capsules (Cubic Pharmaceuticals Ltd) ",
+            "header": "Ergoral D2 50,000unit capsules <ph outputclass=\"manufacturer\">(Cubic Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Cubic Pharmaceuticals Ltd)",
+            "name": "Ergoral D2 50,000unit capsules",
+            "ampid": "21669211000001106",
+            "strengthOfActiveIngredient": "Ergocalciferol 1.25 mg",
+            "packs": [
+                {
+                    "textContent": " 10 capsule ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.95 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.95</ph>",
+                        "nhsIndicativePrice": "&#163;19.95"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6227",
+        "label": "ERGOCALCIFEROL"
+    }
+}

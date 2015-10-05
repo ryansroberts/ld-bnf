@@ -1,0 +1,99 @@
+{
+    "xml": "<topic id=\"PHP76342\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/melphalan/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Melphalan 2mg tablets <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">23361911000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Melphalan 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;45.38</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;42.88</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Melphalan 2mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">28094111000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Melphalan 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;45.38</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;42.88</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Melphalan 2mg tablets <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>\n</title>\n<data name=\"ampid\">23326611000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Melphalan 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;45.38</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;42.88</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5274\" title=\"MELPHALAN\" namespace=\"/drugs/melphalan\">MELPHALAN</xref>\n</parents>\n</topic>",
+    "id": "PHP76342",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/melphalan/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "products": [
+        {
+            "title": "Melphalan 2mg tablets (A A H Pharmaceuticals Ltd) ",
+            "header": "Melphalan 2mg tablets <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Melphalan 2mg tablets",
+            "ampid": "23361911000001104",
+            "strengthOfActiveIngredient": "Melphalan 2 mg",
+            "packs": [
+                {
+                    "textContent": " 25 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;45.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;45.38</ph>",
+                        "nhsIndicativePrice": "&#163;45.38"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;42.88 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;42.88</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;42.88"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Melphalan 2mg tablets (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Melphalan 2mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Melphalan 2mg tablets",
+            "ampid": "28094111000001100",
+            "strengthOfActiveIngredient": "Melphalan 2 mg",
+            "packs": [
+                {
+                    "textContent": " 25 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;45.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;45.38</ph>",
+                        "nhsIndicativePrice": "&#163;45.38"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;42.88 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;42.88</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;42.88"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Melphalan 2mg tablets (Aspen Pharma Trading Ltd) ",
+            "header": "Melphalan 2mg tablets <ph outputclass=\"manufacturer\">(Aspen Pharma Trading Ltd)</ph>",
+            "manufacturer": "(Aspen Pharma Trading Ltd)",
+            "name": "Melphalan 2mg tablets",
+            "ampid": "23326611000001106",
+            "strengthOfActiveIngredient": "Melphalan 2 mg",
+            "packs": [
+                {
+                    "textContent": " 25 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;45.38 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;45.38</ph>",
+                        "nhsIndicativePrice": "&#163;45.38"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;42.88 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;42.88</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;42.88"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5274",
+        "label": "MELPHALAN"
+    }
+}

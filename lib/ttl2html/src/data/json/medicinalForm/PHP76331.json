@@ -1,0 +1,84 @@
+{
+    "xml": "<topic id=\"PHP76331\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/acetylcysteine/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Acetylcysteine 2g/10ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(Martindale Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">9857511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 200&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;20.56</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Acetylcysteine 2g/10ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>\n</title>\n<data name=\"ampid\">9378111000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 200&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;24.99</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Parvolex 2g/10ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(Phoenix Labs Ltd)</ph>\n</title>\n<data name=\"ampid\">3935811000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetylcysteine 200&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP195\" title=\"ACETYLCYSTEINE\" namespace=\"/drugs/acetylcysteine\">ACETYLCYSTEINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76331",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/acetylcysteine/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Acetylcysteine 2g/10ml solution for infusion ampoules (Martindale Pharmaceuticals Ltd) ",
+            "header": "Acetylcysteine 2g/10ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(Martindale Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Martindale Pharmaceuticals Ltd)",
+            "name": "Acetylcysteine 2g/10ml solution for infusion ampoules",
+            "ampid": "9857511000001107",
+            "strengthOfActiveIngredient": "Acetylcysteine 200 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;20.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;20.56</ph>",
+                        "nhsIndicativePrice": "&#163;20.56"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Acetylcysteine 2g/10ml solution for infusion ampoules (Teva UK Ltd) ",
+            "header": "Acetylcysteine 2g/10ml solution for infusion ampoules <ph outputclass=\"manufacturer\">(Teva UK Ltd)</ph>",
+            "manufacturer": "(Teva UK Ltd)",
+            "name": "Acetylcysteine 2g/10ml solution for infusion ampoules",
+            "ampid": "9378111000001102",
+            "strengthOfActiveIngredient": "Acetylcysteine 200 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;24.99 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;24.99</ph>",
+                        "nhsIndicativePrice": "&#163;24.99"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Parvolex 2g/10ml concentrate for solution for infusion ampoules (Phoenix Labs Ltd) ",
+            "header": "Parvolex 2g/10ml concentrate for solution for infusion ampoules <ph outputclass=\"manufacturer\">(Phoenix Labs Ltd)</ph>",
+            "manufacturer": "(Phoenix Labs Ltd)",
+            "name": "Parvolex 2g/10ml concentrate for solution for infusion ampoules",
+            "ampid": "3935811000001109",
+            "strengthOfActiveIngredient": "Acetylcysteine 200 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;22.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;22.50</ph>",
+                        "nhsIndicativePrice": "&#163;22.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP195",
+        "label": "ACETYLCYSTEINE"
+    }
+}

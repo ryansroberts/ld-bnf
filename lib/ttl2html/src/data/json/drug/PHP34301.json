@@ -1,0 +1,613 @@
+{
+    "xml": "<topic id=\"PHP34301\" outputclass=\"drug\" rev=\"1.12\" type=\"drug\" namespace=\"/drugs/afatinib\" basename=\"afatinib\" title=\"AFATINIB\">\n<title>AFATINIB</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1277\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/protein-kinase-inhibitors/afatinib\">Afatinib</xref>\n</p>\n<data name=\"vtmid\">703580004</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_208007314\" title=\"Protein kinase inhibitors\">Protein kinase inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP59991\" outputclass=\"drugAction\" rev=\"1.6\" parent=\"/drugs/afatinib\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Afatinib is a protein kinase inhibitor.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59883\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/drugs/afatinib\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Treatment of locally advanced or metastatic non-small cell lung cancer with activating epidermal growth factor receptor (EGFR) mutations, in patients who have not previously been treated with EGFR tyrosine kinase inhibitor</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>40&#8239;mg once daily for 3 weeks, then increased if tolerated to 50&#8239;mg once daily, consult product literature for details on dosing and dose adjustment due to side effects.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60007\" outputclass=\"importantSafetyInformation\" rev=\"1.6\" parent=\"/drugs/afatinib\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Risks of incorrect dosing of oral anti-cancer medicines</p>\n<p>The National Patient Safety Agency has advised (January 2008) that the prescribing and use of oral cytotoxic medicines should be carried out to the same standard as parenteral cytotoxic therapy.</p>\n<p>Standards to be followed to achieve this include:</p>\n<ul>\n<li>non-specialists who prescribe or administer on-going oral cytotoxic medication should have access to written protocols and treatment plans, including guidance on the monitoring and treatment of toxicity;</li>\n<li>staff dispensing oral cytotoxic medicines should confirm that the prescribed dose is appropriate for the patient. Patients should have written information that includes details of the intended oral anti-cancer regimen, the treatment plan, and arrangements for monitoring, taken from the original protocol from the initiating hospital. Staff dispensing oral cytotoxic medicines should also have access to this information, and to advice from an experienced cancer pharmacist in the initiating hospital.</li>\n</ul>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60114\" outputclass=\"cautions\" rev=\"1.13\" parent=\"/drugs/afatinib\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Cardiac risk factors</ph>; <ph outputclass=\"caution\">conditions which may affect left ventricular ejection fraction&#8212;consider cardiac monitoring, including assessment of left ventricular ejection fraction, at baseline and during treatment</ph>; <ph outputclass=\"caution\">diarrhoea&#8212;proactive management recommended (consult product literature)</ph>; <ph outputclass=\"caution\">exposure to sun (protect skin from exposure to sun)</ph>; <ph outputclass=\"caution\">history of keratitis</ph>; <ph outputclass=\"caution\">new pulmonary symptoms (including dyspnoea, cough, fever)&#8212;interrupt treatment until interstitial lung disease is excluded</ph>; <ph outputclass=\"caution\">severe dry eyes</ph>; <ph outputclass=\"caution\">signs and symptoms of keratitis&#8212; promptly refer to ophthalmologist for assessment</ph>; <ph outputclass=\"caution\">signs and symptoms of skin reaction&#8212;treat promptly and interrupt afatinib treatment if severe or if Stevens-Johnson syndrome suspected (consult product literature)</ph>; <ph outputclass=\"caution\">ulcerative keratitis</ph>; <ph outputclass=\"caution\">use of contact lenses</ph>; <ph outputclass=\"caution\">worsening pulmonary symptoms (including dyspnoea, cough, fever)&#8212;interrupt treatment until interstitial lung disease is excluded</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59867\" outputclass=\"interactions\" rev=\"1.7\" parent=\"/drugs/afatinib\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (afatinib).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59722\" outputclass=\"sideEffects\" rev=\"1.12\" parent=\"/drugs/afatinib\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Acne</ph>; <ph outputclass=\"sideEffect\">conjunctivitis</ph>; <ph outputclass=\"sideEffect\">cystitis</ph>; <ph outputclass=\"sideEffect\">decreased appetite</ph>; <ph outputclass=\"sideEffect\">dehydration</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dry eyes</ph>; <ph outputclass=\"sideEffect\">dry skin</ph>; <ph outputclass=\"sideEffect\">dysgeusia</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">epistaxis</ph>; <ph outputclass=\"sideEffect\">hand-foot syndrome</ph>; <ph outputclass=\"sideEffect\">hypokalaemia</ph>; <ph outputclass=\"sideEffect\">muscle spasms</ph>; <ph outputclass=\"sideEffect\">paronychia</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">pyrexia</ph>; <ph outputclass=\"sideEffect\">rash (see Cautions)</ph>; <ph outputclass=\"sideEffect\">renal failure</ph>; <ph outputclass=\"sideEffect\">rhinorrhoea</ph>; <ph outputclass=\"sideEffect\">weight loss</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Interstitial lung disease</ph>; <ph outputclass=\"sideEffect\">keratitis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">bone-marrow suppression</ph>; <ph outputclass=\"sideEffect\">hyperuricaemia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">oral mucositis</ph>; <ph outputclass=\"sideEffect\">thromboembolism</ph>; <ph outputclass=\"sideEffect\">tumour lysis syndrome</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60082\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/afatinib\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Exclude pregnancy before treatment with cytotoxic drugs.</p>\n<p>Contraceptive advice should be given before cytotoxic therapy begins&#8212;ensure effective contraception during and for at least one month after treatment in women of childbearing potential.</p>\n<p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59826\" outputclass=\"pregnancy\" parent=\"/drugs/afatinib\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid.</p>\n<p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p>\n<p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60131\" outputclass=\"breastFeeding\" parent=\"/drugs/afatinib\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59935\" outputclass=\"hepaticImpairment\" parent=\"/drugs/afatinib\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Monitor hepatic function regularly and consult product literature for dose adjustment in worsening liver function.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid in severe hepatic impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59763\" outputclass=\"renalImpairment\" parent=\"/drugs/afatinib\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid in severe renal impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP60190\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/drugs/afatinib\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Tablets should be taken whole on an empty stomach. Food should not be consumed for at least 3 hours before and at least 1 hour after each dose.</p>\n</sectiondiv>\n<sectiondiv>\n<p>\n<i>Giotrif</i>\n<tm tmtype=\"reg\"/> tablets may be dispersed in approximately 100&#8239;mL of noncarbonated water by stirring occasionally for up to 15 minutes (must not be crushed). The dispersion should be swallowed immediately, and the glass rinsed with the same volume of water which should also be swallowed. The dispersion can also be administered via a gastric tube.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59787\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/drugs/afatinib\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p>Ocular adverse reactions may affect performance of skilled tasks e.g. driving.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patient counselling advised (administration).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59668\" outputclass=\"nationalFunding\" rev=\"1.17\" parent=\"/drugs/afatinib\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA310</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Afatinib for treating epidermal growth factor receptor mutation-positive locally advanced or metastatic non-small-cell lung cancer (April 2014)</p>\r\n<p>Afatinib is recommended as an option, within its marketing authorisation, for treating locally advanced or metastatic non-small-cell lung cancer in adults:</p>\r\n<ul>\r\n<li>whose tumour tests positive for the epidermal growth factor receptor tyrosine kinase (EGFR-TK) mutation, <b>and</b>\r\n</li>\r\n<li>who have not previously had an EGFR-TK inhibitor, <b>and</b>\r\n</li>\r\n<li>if the manufacturer provides afatinib with the discount agreed in the patient access scheme.</li>\r\n</ul>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA310\">www.nice.org.uk/TA310</xref>\n</sectiondiv>\n</sectiondiv>\r\n </section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP34301-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/afatinib\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101308\" title=\"Tablet\" namespace=\"/drugs/afatinib/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1277\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/protein-kinase-inhibitors/afatinib\" title=\"Afatinib\" count=\"1\" rel=\"link\">Afatinib</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101308\" namespace=\"/drugs/afatinib/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP34301",
+    "outputclass": "drug",
+    "rev": "1.12",
+    "type": "drug",
+    "namespace": "/drugs/afatinib",
+    "basename": "afatinib",
+    "title": "AFATINIB",
+    "interactants": [
+        {
+            "id": "bnf_int_1277",
+            "label": "Afatinib"
+        }
+    ],
+    "vtmid": "703580004",
+    "drugClassification": [
+        "Protein kinase inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Afatinib is a protein kinase inhibitor.",
+                "html": "<p>Afatinib is a protein kinase inhibitor.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Treatment of locally advanced or metastatic non-small cell lung cancer with activating epidermal growth factor receptor (EGFR) mutations, in patients who have not previously been treated with EGFR tyrosine kinase inhibitor",
+                        "html": "Treatment of locally advanced or metastatic non-small cell lung cancer with activating epidermal growth factor receptor (EGFR) mutations, in patients who have not previously been treated with EGFR tyrosine kinase inhibitor"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "40 mg once daily for 3 weeks, then increased if tolerated to 50 mg once daily, consult product literature for details on dosing and dose adjustment due to side effects.",
+                        "html": "<p>40&#8239;mg once daily for 3 weeks, then increased if tolerated to 50&#8239;mg once daily, consult product literature for details on dosing and dose adjustment due to side effects.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "title": "Risks of incorrect dosing of oral anti-cancer medicines",
+                "textContent": "The National Patient Safety Agency has advised (January 2008) that the prescribing and use of oral cytotoxic medicines should be carried out to the same standard as parenteral cytotoxic therapy.\n\nStandards to be followed to achieve this include:\n\nnon-specialists who prescribe or administer on-going oral cytotoxic medication should have access to written protocols and treatment plans, including guidance on the monitoring and treatment of toxicity; staff dispensing oral cytotoxic medicines should confirm that the prescribed dose is appropriate for the patient. Patients should have written information that includes details of the intended oral anti-cancer regimen, the treatment plan, and arrangements for monitoring, taken from the original protocol from the initiating hospital. Staff dispensing oral cytotoxic medicines should also have access to this information, and to advice from an experienced cancer pharmacist in the initiating hospital.",
+                "html": "<p>The National Patient Safety Agency has advised (January 2008) that the prescribing and use of oral cytotoxic medicines should be carried out to the same standard as parenteral cytotoxic therapy.</p><p>Standards to be followed to achieve this include:</p><ul>\n<li>non-specialists who prescribe or administer on-going oral cytotoxic medication should have access to written protocols and treatment plans, including guidance on the monitoring and treatment of toxicity;</li>\n<li>staff dispensing oral cytotoxic medicines should confirm that the prescribed dose is appropriate for the patient. Patients should have written information that includes details of the intended oral anti-cancer regimen, the treatment plan, and arrangements for monitoring, taken from the original protocol from the initiating hospital. Staff dispensing oral cytotoxic medicines should also have access to this information, and to advice from an experienced cancer pharmacist in the initiating hospital.</li>\n</ul>"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Cardiac risk factors",
+                "html": "Cardiac risk factors"
+            },
+            {
+                "type": "cautions",
+                "textContent": "conditions which may affect left ventricular ejection fraction&#8212;consider cardiac monitoring, including assessment of left ventricular ejection fraction, at baseline and during treatment",
+                "html": "conditions which may affect left ventricular ejection fraction&#8212;consider cardiac monitoring, including assessment of left ventricular ejection fraction, at baseline and during treatment"
+            },
+            {
+                "type": "cautions",
+                "textContent": "diarrhoea&#8212;proactive management recommended (consult product literature)",
+                "html": "diarrhoea&#8212;proactive management recommended (consult product literature)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "exposure to sun (protect skin from exposure to sun)",
+                "html": "exposure to sun (protect skin from exposure to sun)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of keratitis",
+                "html": "history of keratitis"
+            },
+            {
+                "type": "cautions",
+                "textContent": "new pulmonary symptoms (including dyspnoea, cough, fever)&#8212;interrupt treatment until interstitial lung disease is excluded",
+                "html": "new pulmonary symptoms (including dyspnoea, cough, fever)&#8212;interrupt treatment until interstitial lung disease is excluded"
+            },
+            {
+                "type": "cautions",
+                "textContent": "severe dry eyes",
+                "html": "severe dry eyes"
+            },
+            {
+                "type": "cautions",
+                "textContent": "signs and symptoms of keratitis&#8212; promptly refer to ophthalmologist for assessment",
+                "html": "signs and symptoms of keratitis&#8212; promptly refer to ophthalmologist for assessment"
+            },
+            {
+                "type": "cautions",
+                "textContent": "signs and symptoms of skin reaction&#8212;treat promptly and interrupt afatinib treatment if severe or if Stevens-Johnson syndrome suspected (consult product literature)",
+                "html": "signs and symptoms of skin reaction&#8212;treat promptly and interrupt afatinib treatment if severe or if Stevens-Johnson syndrome suspected (consult product literature)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "ulcerative keratitis",
+                "html": "ulcerative keratitis"
+            },
+            {
+                "type": "cautions",
+                "textContent": "use of contact lenses",
+                "html": "use of contact lenses"
+            },
+            {
+                "type": "cautions",
+                "textContent": "worsening pulmonary symptoms (including dyspnoea, cough, fever)&#8212;interrupt treatment until interstitial lung disease is excluded",
+                "html": "worsening pulmonary symptoms (including dyspnoea, cough, fever)&#8212;interrupt treatment until interstitial lung disease is excluded"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (afatinib).",
+                "html": "<p>Appendix 1 (afatinib).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Acne",
+                        "html": "Acne",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "conjunctivitis",
+                        "html": "conjunctivitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cystitis",
+                        "html": "cystitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite",
+                        "html": "decreased appetite",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dehydration",
+                        "html": "dehydration",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry eyes",
+                        "html": "dry eyes",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry skin",
+                        "html": "dry skin",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dysgeusia",
+                        "html": "dysgeusia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "epistaxis",
+                        "html": "epistaxis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hand-foot syndrome",
+                        "html": "hand-foot syndrome",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypokalaemia",
+                        "html": "hypokalaemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "muscle spasms",
+                        "html": "muscle spasms",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paronychia",
+                        "html": "paronychia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pyrexia",
+                        "html": "pyrexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash (see Cautions)",
+                        "html": "rash (see Cautions)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "renal failure",
+                        "html": "renal failure",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rhinorrhoea",
+                        "html": "rhinorrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "weight loss",
+                        "html": "weight loss",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Interstitial lung disease",
+                        "html": "Interstitial lung disease",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "keratitis",
+                        "html": "keratitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "bone-marrow suppression",
+                        "html": "bone-marrow suppression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperuricaemia",
+                        "html": "hyperuricaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "oral mucositis",
+                        "html": "oral mucositis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thromboembolism",
+                        "html": "thromboembolism",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tumour lysis syndrome",
+                        "html": "tumour lysis syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Exclude pregnancy before treatment with cytotoxic drugs.\n\nContraceptive advice should be given before cytotoxic therapy begins&#8212;ensure effective contraception during and for at least one month after treatment in women of childbearing potential.\n\nRegimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.",
+                "html": "<p>Exclude pregnancy before treatment with cytotoxic drugs.</p><p>Contraceptive advice should be given before cytotoxic therapy begins&#8212;ensure effective contraception during and for at least one month after treatment in women of childbearing potential.</p><p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid.\n\nMost cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.\n\nConsiderable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.",
+                "html": "<p>Manufacturer advises avoid.</p><p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p><p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;present in milk in animal studies.",
+                "html": "<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Monitor hepatic function regularly and consult product literature for dose adjustment in worsening liver function.",
+                "html": "<p>Monitor hepatic function regularly and consult product literature for dose adjustment in worsening liver function.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid in severe hepatic impairment.",
+                "html": "<p>Manufacturer advises avoid in severe hepatic impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid in severe renal impairment.",
+                "html": "<p>Manufacturer advises avoid in severe renal impairment.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Tablets should be taken whole on an empty stomach. Food should not be consumed for at least 3 hours before and at least 1 hour after each dose.",
+                "html": "<p>Tablets should be taken whole on an empty stomach. Food should not be consumed for at least 3 hours before and at least 1 hour after each dose.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Giotrif tablets may be dispersed in approximately 100 mL of noncarbonated water by stirring occasionally for up to 15 minutes (must not be crushed). The dispersion should be swallowed immediately, and the glass rinsed with the same volume of water which should also be swallowed. The dispersion can also be administered via a gastric tube.",
+                "html": "<p>\n<i>Giotrif</i>\n<tm tmtype=\"reg\"/> tablets may be dispersed in approximately 100&#8239;mL of noncarbonated water by stirring occasionally for up to 15 minutes (must not be crushed). The dispersion should be swallowed immediately, and the glass rinsed with the same volume of water which should also be swallowed. The dispersion can also be administered via a gastric tube.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "textContent": "Ocular adverse reactions may affect performance of skilled tasks e.g. driving.",
+                "html": "<p>Ocular adverse reactions may affect performance of skilled tasks e.g. driving.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patient counselling advised (administration).",
+                "html": "<p>Patient counselling advised (administration).</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA310",
+                        "label": "www.nice.org.uk/TA310"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA310",
+                "textContent": "Afatinib for treating epidermal growth factor receptor mutation-positive locally advanced or metastatic non-small-cell lung cancer (April 2014) Afatinib is recommended as an option, within its marketing authorisation, for treating locally advanced or metastatic non-small-cell lung cancer in adults: whose tumour tests positive for the epidermal growth factor receptor tyrosine kinase (EGFR-TK) mutation, and who have not previously had an EGFR-TK inhibitor, and if the manufacturer provides afatinib with the discount agreed in the patient access scheme.\n\nwww.nice.org.uk/TA310",
+                "html": "<p outputclass=\"title\">Afatinib for treating epidermal growth factor receptor mutation-positive locally advanced or metastatic non-small-cell lung cancer (April 2014)</p> <p>Afatinib is recommended as an option, within its marketing authorisation, for treating locally advanced or metastatic non-small-cell lung cancer in adults:</p> <ul> <li>whose tumour tests positive for the epidermal growth factor receptor tyrosine kinase (EGFR-TK) mutation, <b>and</b> </li> <li>who have not previously had an EGFR-TK inhibitor, <b>and</b> </li> <li>if the manufacturer provides afatinib with the discount agreed in the patient access scheme.</li> </ul><xref format=\"html\" href=\"http://www.nice.org.uk/TA310\">www.nice.org.uk/TA310</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP101308",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1277",
+                "label": "Afatinib",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP101308",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

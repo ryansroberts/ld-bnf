@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75677\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/simeticone/chewable-tablet\" basename=\"chewable-tablet\" title=\"Chewable tablet\">\n<title>Chewable tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Wind-eze 125mg chewable tablets <ph outputclass=\"manufacturer\">(Forest Laboratories UK Ltd)</ph>\n</title>\n<data name=\"ampid\">4622511000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Simeticone 125&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.44</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP11104\" title=\"SIMETICONE\" namespace=\"/drugs/simeticone\">SIMETICONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75677",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/simeticone/chewable-tablet",
+    "basename": "chewable-tablet",
+    "form": "Chewable tablet",
+    "products": [
+        {
+            "title": "Wind-eze 125mg chewable tablets (Forest Laboratories UK Ltd) ",
+            "header": "Wind-eze 125mg chewable tablets <ph outputclass=\"manufacturer\">(Forest Laboratories UK Ltd)</ph>",
+            "manufacturer": "(Forest Laboratories UK Ltd)",
+            "name": "Wind-eze 125mg chewable tablets",
+            "ampid": "4622511000001104",
+            "strengthOfActiveIngredient": "Simeticone 125 mg",
+            "packs": [
+                {
+                    "textContent": " 30 tablet GSL ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.44 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.44</ph>",
+                        "nhsIndicativePrice": "&#163;2.44"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP11104",
+        "label": "SIMETICONE"
+    }
+}

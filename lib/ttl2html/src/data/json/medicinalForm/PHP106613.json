@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP106613\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/parenteral-nutrition-supplements/emulsion-for-injection\" basename=\"emulsion-for-injection\" title=\"Emulsion for injection\">\n<title>Emulsion for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP107214\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/vitlipid-n-adult-emulsion-for-injection-10ml-ampoules\">Vitlipid N Adult emulsion for injection 10ml ampoules</xref>\r\n<xref format=\"dita\" href=\"#PHP107215\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/vitlipid-n-infant-emulsion-for-injection-10ml-ampoules\">Vitlipid N Infant emulsion for injection 10ml ampoules</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Vitlipid N Infant emulsion for injection 10ml ampoules <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>\n</title>\n<data name=\"ampid\">7502111000001102</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Alpha tocopherol 640&#8239;microgram per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Ergocalciferol 1&#8239;microgram per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Phytomenadione 20&#8239;microgram per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Retinol palmitate 69&#8239;microgram per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.97</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Vitlipid N Adult emulsion for injection 10ml ampoules <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>\n</title>\n<data name=\"ampid\">7502511000001106</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Alpha tocopherol 910&#8239;microgram per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Ergocalciferol 500&#8239;nanogram per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Phytomenadione 15&#8239;microgram per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Retinol palmitate 99&#8239;microgram per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.97</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP106444\" title=\"PARENTERAL NUTRITION SUPPLEMENTS\" namespace=\"/drugs/parenteral-nutrition-supplements\">PARENTERAL NUTRITION SUPPLEMENTS</xref>\n</parents>\n</topic>",
+    "id": "PHP106613",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/parenteral-nutrition-supplements/emulsion-for-injection",
+    "basename": "emulsion-for-injection",
+    "form": "Emulsion for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP107214",
+            "label": "Vitlipid N Adult emulsion for injection 10ml ampoules",
+            "html": "Vitlipid N Adult emulsion for injection 10ml ampoules"
+        },
+        {
+            "id": "PHP107215",
+            "label": "Vitlipid N Infant emulsion for injection 10ml ampoules",
+            "html": "Vitlipid N Infant emulsion for injection 10ml ampoules"
+        }
+    ],
+    "products": [
+        {
+            "title": "Vitlipid N Infant emulsion for injection 10ml ampoules (Fresenius Kabi Ltd) ",
+            "header": "Vitlipid N Infant emulsion for injection 10ml ampoules <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>",
+            "manufacturer": "(Fresenius Kabi Ltd)",
+            "name": "Vitlipid N Infant emulsion for injection 10ml ampoules",
+            "ampid": "7502111000001102",
+            "strengthOfActiveIngredient": "Retinol palmitate 69 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.97</ph>",
+                        "nhsIndicativePrice": "&#163;1.97"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Vitlipid N Adult emulsion for injection 10ml ampoules (Fresenius Kabi Ltd) ",
+            "header": "Vitlipid N Adult emulsion for injection 10ml ampoules <ph outputclass=\"manufacturer\">(Fresenius Kabi Ltd)</ph>",
+            "manufacturer": "(Fresenius Kabi Ltd)",
+            "name": "Vitlipid N Adult emulsion for injection 10ml ampoules",
+            "ampid": "7502511000001106",
+            "strengthOfActiveIngredient": "Retinol palmitate 99 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.97 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.97</ph>",
+                        "nhsIndicativePrice": "&#163;1.97"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP106444",
+        "label": "PARENTERAL NUTRITION SUPPLEMENTS"
+    }
+}

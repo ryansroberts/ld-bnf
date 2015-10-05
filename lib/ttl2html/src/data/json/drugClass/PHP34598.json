@@ -1,0 +1,173 @@
+{
+    "xml": "<topic id=\"PHP34598\" outputclass=\"drugClass\" rev=\"1.18\" type=\"drugClass\" namespace=\"/drug-classes/volatile-liquid-anaesthetics\" basename=\"volatile-liquid-anaesthetics\" title=\"VOLATILE LIQUID ANAESTHETICS\">\n<title>VOLATILE LIQUID ANAESTHETICS</title>\n<topic id=\"PHP37656\" outputclass=\"importantSafetyInformation\" rev=\"1.7\" parent=\"/drug-classes/volatile-liquid-anaesthetics\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Should only be administered by, or under the direct supervision of, personnel experienced in their use, with adequate training in anaesthesia and airway management, and when resuscitation equipment is available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP37659\" outputclass=\"contraindications\" rev=\"1.11\" parent=\"/drug-classes/volatile-liquid-anaesthetics\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Susceptibility to malignant hyperthermia</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP37673\" outputclass=\"cautions\" rev=\"1.11\" parent=\"/drug-classes/volatile-liquid-anaesthetics\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Can trigger malignant hyperthermia</ph>; <ph outputclass=\"caution\">raised intracranial pressure (can increase cerebrospinal pressure)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP37603\" outputclass=\"sideEffects\" rev=\"1.7\" parent=\"/drug-classes/volatile-liquid-anaesthetics\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arrhythmias</ph>; <ph outputclass=\"sideEffect\">cardiorespiratory depression</ph>; <ph outputclass=\"sideEffect\">hypotension</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Convulsions</ph>; <ph outputclass=\"sideEffect\">mood changes (that can last several days)</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP37691\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.23\" parent=\"/drug-classes/volatile-liquid-anaesthetics\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityCrossSensitivity\">\n<sectiondiv>\n<p>Can cause hepatotoxicity in those sensitised to halogenated anaesthetics.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP37696\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/drug-classes/volatile-liquid-anaesthetics\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Volatile liquid anaesthetics are administered using calibrated vaporisers, using air, oxygen, or nitrous oxide-oxygen mixtures as the carrier gas. To prevent hypoxia, the inspired gas mixture should contain a minimum of 25% oxygen at all times.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP37619\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/drug-classes/volatile-liquid-anaesthetics\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p>Patients given sedatives and analgesics during minor outpatient procedures should be very carefully warned about the risks of driving or undertaking skilled tasks afterwards. For a short general anaesthetic, the risk extends <b>to at least 24 hours</b> after administration. Responsible persons should be available to take patients home. The dangers of taking <b>alcohol</b> should also be emphasised.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8534\" title=\"DESFLURANE\" namespace=\"/drugs/desflurane\">DESFLURANE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8539\" title=\"ISOFLURANE\" namespace=\"/drugs/isoflurane\">ISOFLURANE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8542\" title=\"SEVOFLURANE\" namespace=\"/drugs/sevoflurane\">SEVOFLURANE</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8534\" namespace=\"/drugs/desflurane\" title=\"DESFLURANE\" count=\"1\" rel=\"link\">DESFLURANE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8539\" namespace=\"/drugs/isoflurane\" title=\"ISOFLURANE\" count=\"1\" rel=\"link\">ISOFLURANE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8542\" namespace=\"/drugs/sevoflurane\" title=\"SEVOFLURANE\" count=\"1\" rel=\"link\">SEVOFLURANE</xref>\n</links>\n</topic>",
+    "id": "PHP34598",
+    "outputclass": "drugClass",
+    "rev": "1.18",
+    "type": "drugClass",
+    "namespace": "/drug-classes/volatile-liquid-anaesthetics",
+    "basename": "volatile-liquid-anaesthetics",
+    "title": "VOLATILE LIQUID ANAESTHETICS",
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "textContent": "Should only be administered by, or under the direct supervision of, personnel experienced in their use, with adequate training in anaesthesia and airway management, and when resuscitation equipment is available.",
+                "html": "<p>Should only be administered by, or under the direct supervision of, personnel experienced in their use, with adequate training in anaesthesia and airway management, and when resuscitation equipment is available.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Susceptibility to malignant hyperthermia",
+                "html": "Susceptibility to malignant hyperthermia"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Can trigger malignant hyperthermia",
+                "html": "Can trigger malignant hyperthermia"
+            },
+            {
+                "type": "cautions",
+                "textContent": "raised intracranial pressure (can increase cerebrospinal pressure)",
+                "html": "raised intracranial pressure (can increase cerebrospinal pressure)"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Arrhythmias",
+                        "html": "Arrhythmias",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cardiorespiratory depression",
+                        "html": "cardiorespiratory depression",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypotension",
+                        "html": "hypotension",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Convulsions",
+                        "html": "Convulsions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "mood changes (that can last several days)",
+                        "html": "mood changes (that can last several days)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "allergyAndCrossSensitivity": {
+        "crossSensitivity": [
+            {
+                "type": "crossSensitivity",
+                "textContent": "Can cause hepatotoxicity in those sensitised to halogenated anaesthetics.",
+                "html": "<p>Can cause hepatotoxicity in those sensitised to halogenated anaesthetics.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Volatile liquid anaesthetics are administered using calibrated vaporisers, using air, oxygen, or nitrous oxide-oxygen mixtures as the carrier gas. To prevent hypoxia, the inspired gas mixture should contain a minimum of 25% oxygen at all times.",
+                "html": "<p>Volatile liquid anaesthetics are administered using calibrated vaporisers, using air, oxygen, or nitrous oxide-oxygen mixtures as the carrier gas. To prevent hypoxia, the inspired gas mixture should contain a minimum of 25% oxygen at all times.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "textContent": "Patients given sedatives and analgesics during minor outpatient procedures should be very carefully warned about the risks of driving or undertaking skilled tasks afterwards. For a short general anaesthetic, the risk extends to at least 24 hours after administration. Responsible persons should be available to take patients home. The dangers of taking alcohol should also be emphasised.",
+                "html": "<p>Patients given sedatives and analgesics during minor outpatient procedures should be very carefully warned about the risks of driving or undertaking skilled tasks afterwards. For a short general anaesthetic, the risk extends <b>to at least 24 hours</b> after administration. Responsible persons should be available to take patients home. The dangers of taking <b>alcohol</b> should also be emphasised.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP8534",
+            "label": "DESFLURANE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP8539",
+            "label": "ISOFLURANE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP8542",
+            "label": "SEVOFLURANE",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP8534",
+                "label": "DESFLURANE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP8539",
+                "label": "ISOFLURANE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP8542",
+                "label": "SEVOFLURANE",
+                "type": "drug"
+            }
+        ]
+    }
+}

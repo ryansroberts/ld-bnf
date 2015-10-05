@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP101378\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/estradiol/vaginal-delivery-system\" basename=\"vaginal-delivery-system\" title=\"Vaginal delivery system\">\n<title>Vaginal delivery system</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP101919\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/estring\">Estring<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Estring 7.5micrograms/24hours vaginal delivery system <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">24576311000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Estradiol (as Estradiol hemihydrate) 7.5&#8239;microgram per 24&#8239;hour</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">device</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;31.42</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP94655\" title=\"ESTRADIOL\" namespace=\"/drugs/estradiol\">ESTRADIOL</xref>\n</parents>\n</topic>",
+    "id": "PHP101378",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/estradiol/vaginal-delivery-system",
+    "basename": "vaginal-delivery-system",
+    "form": "Vaginal delivery system",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP101919",
+            "label": "Estring&reg;  ",
+            "html": "Estring<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Estring 7.5micrograms/24hours vaginal delivery system (Pfizer Ltd) ",
+            "header": "Estring 7.5micrograms/24hours vaginal delivery system <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Estring 7.5micrograms/24hours vaginal delivery system",
+            "ampid": "24576311000001100",
+            "strengthOfActiveIngredient": "Estradiol (as Estradiol hemihydrate) 7.5 microgram per 24 hour",
+            "packs": [
+                {
+                    "textContent": " 1 device POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">device</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "device",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;31.42 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;31.42</ph>",
+                        "nhsIndicativePrice": "&#163;31.42"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP94655",
+        "label": "ESTRADIOL"
+    }
+}

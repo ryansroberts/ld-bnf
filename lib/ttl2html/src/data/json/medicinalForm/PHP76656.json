@@ -1,0 +1,85 @@
+{
+    "xml": "<topic id=\"PHP76656\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/buprenorphine-with-naloxone/sublingual-tablet\" basename=\"sublingual-tablet\" title=\"Sublingual tablet\">\n<title>Sublingual tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">26</ph> - Dissolve this medicine under your tongue </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Suboxone 8mg/2mg sublingual tablets <ph outputclass=\"manufacturer\">(RB Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">11048311000001109</data>\n<p outputclass=\"controlledDrugs\">Schedule 3 (CD No Register)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Buprenorphine (as Buprenorphine hydrochloride) 8&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Naloxone (as Naloxone hydrochloride) 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;76.19</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;76.19</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Suboxone 2mg/500microgram sublingual tablets <ph outputclass=\"manufacturer\">(RB Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">11047511000001102</data>\n<p outputclass=\"controlledDrugs\">Schedule 3 (CD No Register)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Buprenorphine (as Buprenorphine hydrochloride) 2&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Naloxone (as Naloxone hydrochloride) 500&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;25.40</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;25.40</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3223\" title=\"BUPRENORPHINE WITH NALOXONE\" namespace=\"/drugs/buprenorphine-with-naloxone\">BUPRENORPHINE WITH NALOXONE</xref>\n</parents>\n</topic>",
+    "id": "PHP76656",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/buprenorphine-with-naloxone/sublingual-tablet",
+    "basename": "sublingual-tablet",
+    "form": "Sublingual tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "26",
+            "textContent": "Dissolve this medicine under your tongue",
+            "html": "Label <ph outputclass=\"labelNumber\">26</ph> - Dissolve this medicine under your tongue"
+        }
+    ],
+    "products": [
+        {
+            "title": "Suboxone 8mg/2mg sublingual tablets (RB Pharmaceuticals Ltd) ",
+            "header": "Suboxone 8mg/2mg sublingual tablets <ph outputclass=\"manufacturer\">(RB Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(RB Pharmaceuticals Ltd)",
+            "name": "Suboxone 8mg/2mg sublingual tablets",
+            "ampid": "11048311000001109",
+            "controlledDrugs": "Schedule 3 (CD No Register)",
+            "strengthOfActiveIngredient": "Naloxone (as Naloxone hydrochloride) 2 mg",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;76.19 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;76.19</ph>",
+                        "nhsIndicativePrice": "&#163;76.19"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;76.19 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;76.19</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;76.19"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Suboxone 2mg/500microgram sublingual tablets (RB Pharmaceuticals Ltd) ",
+            "header": "Suboxone 2mg/500microgram sublingual tablets <ph outputclass=\"manufacturer\">(RB Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(RB Pharmaceuticals Ltd)",
+            "name": "Suboxone 2mg/500microgram sublingual tablets",
+            "ampid": "11047511000001102",
+            "controlledDrugs": "Schedule 3 (CD No Register)",
+            "strengthOfActiveIngredient": "Naloxone (as Naloxone hydrochloride) 500 microgram",
+            "packs": [
+                {
+                    "textContent": " 28 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;25.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;25.40</ph>",
+                        "nhsIndicativePrice": "&#163;25.40"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;25.40 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;25.40</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;25.40"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3223",
+        "label": "BUPRENORPHINE WITH NALOXONE"
+    }
+}

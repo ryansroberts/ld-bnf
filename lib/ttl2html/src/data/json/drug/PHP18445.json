@@ -1,0 +1,880 @@
+{
+    "xml": "<topic id=\"PHP18445\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/ulipristal-acetate\" basename=\"ulipristal-acetate\" title=\"ULIPRISTAL ACETATE\">\n<title>ULIPRISTAL ACETATE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1163\" namespace=\"/interactions/list-of-drug-interactions/ulipristal\">Ulipristal</xref>\n</p>\n<data name=\"vtmid\">16098911000001100</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_407627730\" title=\"Progesterone receptor modulators\">Progesterone receptor modulators</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP70477\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/ulipristal-acetate\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Ulipristal acetate is a progesterone receptor modulator with a partial progesterone antagonist effect.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70421\" outputclass=\"indicationsAndDose\" rev=\"1.62\" parent=\"/drugs/ulipristal-acetate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Pre-operative treatment of moderate to severe symptoms of uterine fibroids</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8239;mg daily for up to 3 months starting during the first week of menstruation, course may be repeated once if necessary, starting during the second menstruation after the first course completed, maximum 2 courses of 3 months.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Emergency contraception</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Females of childbearing potential</p>\n<p>30&#8239;mg for 1 dose, to be take as soon as possible after coitus, but no later than after 120 hours.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70491\" outputclass=\"contraindications\" rev=\"1.19\" parent=\"/drugs/ulipristal-acetate\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<title>General contraindications:</title>\n<p>\n<ph outputclass=\"contraindication\">Repeated use as an emergency contraceptive within a menstrual cycle</ph>\n</p>\n<sectiondiv outputclass=\"additionalContraindications\">\n<p outputclass=\"title\">Specific contraindications:</p>\n<sectiondiv outputclass=\"cautionsOrContraindicationsWithIndications\">\n<p outputclass=\"title\">When used for uterine fibroids</p>\n<p>\n<ph outputclass=\"contraindication\">breast cancer</ph>; <ph outputclass=\"contraindication\">cervical cancer</ph>; <ph outputclass=\"contraindication\">ovarian cancer</ph>; <ph outputclass=\"contraindication\">undiagnosed vaginal bleeding</ph>; <ph outputclass=\"contraindication\">uterine cancer</ph>; <ph outputclass=\"contraindication\">vaginal bleeding not caused by uterine fibroids</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70520\" outputclass=\"cautions\" rev=\"1.8\" parent=\"/drugs/ulipristal-acetate\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Uncontrolled severe asthma</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70416\" outputclass=\"interactions\" rev=\"1.23\" parent=\"/drugs/ulipristal-acetate\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (ulipristal).</p>\n<p>The effectiveness of ulipristal as an emergency contraceptive is possibly reduced in women taking enzyme-inducing drugs (and possibly for 4 weeks after stopping); a copper intra-uterine device can be offered instead. There is no need to increase the dose for emergency contraception if the patient is taking antibacterials that are not enzyme inducers.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70297\" outputclass=\"sideEffects\" rev=\"1.20\" parent=\"/drugs/ulipristal-acetate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"specificSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<sectiondiv outputclass=\"sideEffectsWithIndications\">\n<p outputclass=\"title\">When used for emergency contraception</p>\n<p>\n<ph outputclass=\"sideEffect\">abdominal pain</ph>; <ph outputclass=\"sideEffect\">back pain</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">gastro-intestinal disturbances</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">menstrual irregularities</ph>; <ph outputclass=\"sideEffect\">muscle spasms</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithIndications\">\n<p outputclass=\"title\">When used for uterine fibroids</p>\n<p>\n<ph outputclass=\"sideEffect\">abdominal pain</ph>; <ph outputclass=\"sideEffect\">acne</ph>; <ph outputclass=\"sideEffect\">breast pain</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">endometrial thickening</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hot flushes</ph>; <ph outputclass=\"sideEffect\">hyperhidrosis</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">menstrual disturbances</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">oedema</ph>; <ph outputclass=\"sideEffect\">ovarian cyst (including rupture)</ph>; <ph outputclass=\"sideEffect\">pelvic pain</ph>; <ph outputclass=\"sideEffect\">uterine haemorrhage</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<sectiondiv outputclass=\"sideEffectsWithIndications\">\n<p outputclass=\"title\">When used for emergency contraception</p>\n<p>\n<ph outputclass=\"sideEffect\">blurred vision</ph>; <ph outputclass=\"sideEffect\">breast tenderness</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">hot flushes</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">tremor</ph>; <ph outputclass=\"sideEffect\">uterine spasm</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"sideEffectsWithIndications\">\n<p outputclass=\"title\">When used for uterine fibroids</p>\n<p>\n<ph outputclass=\"sideEffect\">anxiety</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">dry mouth</ph>; <ph outputclass=\"sideEffect\">dyspepsia</ph>; <ph outputclass=\"sideEffect\">epistaxis</ph>; <ph outputclass=\"sideEffect\">flatulence</ph>; <ph outputclass=\"sideEffect\">urinary incontinence</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70510\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/ulipristal-acetate\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>When ulipristal is given as an emergency contraceptive the effectiveness of combined hormonal and progestogen-only contraceptives may be reduced&#8212;additional precautions (barrier methods) required for 14 days for combined and parenteral progestogen-only hormonal contraceptives (16 days for <i>Qlaira</i>\n<tm tmtype=\"reg\"/>) and 9 days for oral progestogen-only contraceptives.</p>\n</sectiondiv>\n<sectiondiv>\n<p>When ulipristal is given for uterine fibroids non-hormonal contraceptive methods (barrier methods or intra-uterine device) should be used both during treatment and for 12 days after stopping, if required.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70398\" outputclass=\"pregnancy\" parent=\"/drugs/ulipristal-acetate\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid for uterine fibroids&#8212;no information available.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Limited information available when used as an emergency contraceptive.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70525\" outputclass=\"breastFeeding\" parent=\"/drugs/ulipristal-acetate\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>When used for uterine fibroids, manufacturer advises avoid&#8212;no information available.</p>\n</sectiondiv>\n<sectiondiv>\n<p>In emergency contraception manufacturer advises avoid for 1 week after administration&#8212;present in milk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70454\" outputclass=\"hepaticImpairment\" parent=\"/drugs/ulipristal-acetate\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Caution with use in uterine fibroids in moderate to severe hepatic impairment&#8212;no information available.</p>\n</sectiondiv>\n<sectiondiv>\n<p>Manufacturer advises avoiding use as an emergency contraceptive in severe hepatic impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70359\" outputclass=\"renalImpairment\" parent=\"/drugs/ulipristal-acetate\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Caution in severe renal impairment when used for uterine fibroids&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP70378\" outputclass=\"patientAndCarerAdvice\" rev=\"1.20\" parent=\"/drugs/ulipristal-acetate\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>When ulipristal is given as an emergency contraceptive, if vomiting occurs within 3 hours of taking a dose, a replacement dose should be given.</p>\n<p>When prescribing or supplying hormonal emergency contraception, women should be advised:</p>\n<ul>\n<li>that their next period may be early or late;</li>\n<li>that a barrier method of contraception needs to be used until the next period;</li>\n<li>to seek medical attention promptly if any lower abdominal pain occurs because this could signify an ectopic pregnancy;</li>\n<li>to return in 3 to 4 weeks if the subsequent menstrual bleed is abnormally light, heavy or brief, or is absent, or if she is otherwise concerned (if there is any doubt as to whether menstruation has occurred, a pregnancy test should be performed at least 3 weeks after unprotected intercourse).</li>\n</ul>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP18445-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/ulipristal-acetate\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75399\" title=\"Tablet\" namespace=\"/drugs/ulipristal-acetate/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78143\" namespace=\"/treatment-summaries/contraceptives-interactions\" title=\"Contraceptives, interactions\" count=\"1\" rel=\"backlink\">Contraceptives, interactions</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78400\" namespace=\"/treatment-summaries/sex-hormones\" title=\"Sex hormones\" count=\"2\" rel=\"backlink\">Sex hormones</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78485\" namespace=\"/treatment-summaries/contraceptives-hormonal\" title=\"Contraceptives, hormonal\" count=\"3\" rel=\"backlink\">Contraceptives, hormonal</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1163\" namespace=\"/interactions/list-of-drug-interactions/ulipristal\" title=\"Ulipristal\" count=\"1\" rel=\"link\">Ulipristal</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75399\" namespace=\"/drugs/ulipristal-acetate/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP18445",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/ulipristal-acetate",
+    "basename": "ulipristal-acetate",
+    "title": "ULIPRISTAL ACETATE",
+    "interactants": [
+        {
+            "id": "bnf_int_1163",
+            "label": "Ulipristal"
+        }
+    ],
+    "vtmid": "16098911000001100",
+    "drugClassification": [
+        "Progesterone receptor modulators"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Ulipristal acetate is a progesterone receptor modulator with a partial progesterone antagonist effect.",
+                "html": "<p>Ulipristal acetate is a progesterone receptor modulator with a partial progesterone antagonist effect.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Pre-operative treatment of moderate to severe symptoms of uterine fibroids",
+                        "html": "Pre-operative treatment of moderate to severe symptoms of uterine fibroids"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "5 mg daily for up to 3 months starting during the first week of menstruation, course may be repeated once if necessary, starting during the second menstruation after the first course completed, maximum 2 courses of 3 months.",
+                        "html": "<p>5&#8239;mg daily for up to 3 months starting during the first week of menstruation, course may be repeated once if necessary, starting during the second menstruation after the first course completed, maximum 2 courses of 3 months.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Emergency contraception",
+                        "html": "Emergency contraception"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "30 mg for 1 dose, to be take as soon as possible after coitus, but no later than after 120 hours.",
+                        "html": "<p>30&#8239;mg for 1 dose, to be take as soon as possible after coitus, but no later than after 120 hours.</p>",
+                        "ageGroup": "females of childbearing potential"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Repeated use as an emergency contraceptive within a menstrual cycle",
+                "html": "Repeated use as an emergency contraceptive within a menstrual cycle"
+            }
+        ],
+        "cautionsOrContraindicationsWithIndications": [
+            {
+                "type": "cautionsOrContraindicationsWithIndications",
+                "textContent": "breast cancer",
+                "html": "breast cancer",
+                "specificity": {
+                    "textContent": "When used for uterine fibroids",
+                    "html": "When used for uterine fibroids",
+                    "indications": [
+                        "uterine fibroids"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithIndications",
+                "textContent": "cervical cancer",
+                "html": "cervical cancer",
+                "specificity": {
+                    "textContent": "When used for uterine fibroids",
+                    "html": "When used for uterine fibroids",
+                    "indications": [
+                        "uterine fibroids"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithIndications",
+                "textContent": "ovarian cancer",
+                "html": "ovarian cancer",
+                "specificity": {
+                    "textContent": "When used for uterine fibroids",
+                    "html": "When used for uterine fibroids",
+                    "indications": [
+                        "uterine fibroids"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithIndications",
+                "textContent": "undiagnosed vaginal bleeding",
+                "html": "undiagnosed vaginal bleeding",
+                "specificity": {
+                    "textContent": "When used for uterine fibroids",
+                    "html": "When used for uterine fibroids",
+                    "indications": [
+                        "uterine fibroids"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithIndications",
+                "textContent": "uterine cancer",
+                "html": "uterine cancer",
+                "specificity": {
+                    "textContent": "When used for uterine fibroids",
+                    "html": "When used for uterine fibroids",
+                    "indications": [
+                        "uterine fibroids"
+                    ]
+                }
+            },
+            {
+                "type": "cautionsOrContraindicationsWithIndications",
+                "textContent": "vaginal bleeding not caused by uterine fibroids",
+                "html": "vaginal bleeding not caused by uterine fibroids",
+                "specificity": {
+                    "textContent": "When used for uterine fibroids",
+                    "html": "When used for uterine fibroids",
+                    "indications": [
+                        "uterine fibroids"
+                    ]
+                }
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Uncontrolled severe asthma",
+                "html": "Uncontrolled severe asthma"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (ulipristal).\n\nThe effectiveness of ulipristal as an emergency contraceptive is possibly reduced in women taking enzyme-inducing drugs (and possibly for 4 weeks after stopping); a copper intra-uterine device can be offered instead. There is no need to increase the dose for emergency contraception if the patient is taking antibacterials that are not enzyme inducers.",
+                "html": "<p>Appendix 1 (ulipristal).</p><p>The effectiveness of ulipristal as an emergency contraceptive is possibly reduced in women taking enzyme-inducing drugs (and possibly for 4 weeks after stopping); a copper intra-uterine device can be offered instead. There is no need to increase the dose for emergency contraception if the patient is taking antibacterials that are not enzyme inducers.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "specific": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "abdominal pain",
+                        "html": "abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "back pain",
+                        "html": "back pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "gastro-intestinal disturbances",
+                        "html": "gastro-intestinal disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "menstrual irregularities",
+                        "html": "menstrual irregularities",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "muscle spasms",
+                        "html": "muscle spasms",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "abdominal pain",
+                        "html": "abdominal pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "acne",
+                        "html": "acne",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "breast pain",
+                        "html": "breast pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "endometrial thickening",
+                        "html": "endometrial thickening",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "hot flushes",
+                        "html": "hot flushes",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "hyperhidrosis",
+                        "html": "hyperhidrosis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "menstrual disturbances",
+                        "html": "menstrual disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "oedema",
+                        "html": "oedema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "ovarian cyst (including rupture)",
+                        "html": "ovarian cyst (including rupture)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "pelvic pain",
+                        "html": "pelvic pain",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "uterine haemorrhage",
+                        "html": "uterine haemorrhage",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "blurred vision",
+                        "html": "blurred vision",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "breast tenderness",
+                        "html": "breast tenderness",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "hot flushes",
+                        "html": "hot flushes",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "tremor",
+                        "html": "tremor",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "uterine spasm",
+                        "html": "uterine spasm",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for emergency contraception",
+                            "html": "When used for emergency contraception",
+                            "indications": [
+                                "emergency contraception"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "anxiety",
+                        "html": "anxiety",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "dry mouth",
+                        "html": "dry mouth",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "dyspepsia",
+                        "html": "dyspepsia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "epistaxis",
+                        "html": "epistaxis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "flatulence",
+                        "html": "flatulence",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "sideEffectsWithIndications",
+                        "textContent": "urinary incontinence",
+                        "html": "urinary incontinence",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "When used for uterine fibroids",
+                            "html": "When used for uterine fibroids",
+                            "indications": [
+                                "uterine fibroids"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "When ulipristal is given as an emergency contraceptive the effectiveness of combined hormonal and progestogen-only contraceptives may be reduced&#8212;additional precautions (barrier methods) required for 14 days for combined and parenteral progestogen-only hormonal contraceptives (16 days for Qlaira ) and 9 days for oral progestogen-only contraceptives.",
+                "html": "<p>When ulipristal is given as an emergency contraceptive the effectiveness of combined hormonal and progestogen-only contraceptives may be reduced&#8212;additional precautions (barrier methods) required for 14 days for combined and parenteral progestogen-only hormonal contraceptives (16 days for <i>Qlaira</i>\n<tm tmtype=\"reg\"/>) and 9 days for oral progestogen-only contraceptives.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "textContent": "When ulipristal is given for uterine fibroids non-hormonal contraceptive methods (barrier methods or intra-uterine device) should be used both during treatment and for 12 days after stopping, if required.",
+                "html": "<p>When ulipristal is given for uterine fibroids non-hormonal contraceptive methods (barrier methods or intra-uterine device) should be used both during treatment and for 12 days after stopping, if required.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid for uterine fibroids&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid for uterine fibroids&#8212;no information available.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "textContent": "Limited information available when used as an emergency contraceptive.",
+                "html": "<p>Limited information available when used as an emergency contraceptive.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "When used for uterine fibroids, manufacturer advises avoid&#8212;no information available.",
+                "html": "<p>When used for uterine fibroids, manufacturer advises avoid&#8212;no information available.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "textContent": "In emergency contraception manufacturer advises avoid for 1 week after administration&#8212;present in milk.",
+                "html": "<p>In emergency contraception manufacturer advises avoid for 1 week after administration&#8212;present in milk.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Caution with use in uterine fibroids in moderate to severe hepatic impairment&#8212;no information available.",
+                "html": "<p>Caution with use in uterine fibroids in moderate to severe hepatic impairment&#8212;no information available.</p>"
+            },
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoiding use as an emergency contraceptive in severe hepatic impairment&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoiding use as an emergency contraceptive in severe hepatic impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Caution in severe renal impairment when used for uterine fibroids&#8212;no information available.",
+                "html": "<p>Caution in severe renal impairment when used for uterine fibroids&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "When ulipristal is given as an emergency contraceptive, if vomiting occurs within 3 hours of taking a dose, a replacement dose should be given.\n\nWhen prescribing or supplying hormonal emergency contraception, women should be advised:\n\nthat their next period may be early or late; that a barrier method of contraception needs to be used until the next period; to seek medical attention promptly if any lower abdominal pain occurs because this could signify an ectopic pregnancy; to return in 3 to 4 weeks if the subsequent menstrual bleed is abnormally light, heavy or brief, or is absent, or if she is otherwise concerned (if there is any doubt as to whether menstruation has occurred, a pregnancy test should be performed at least 3 weeks after unprotected intercourse).",
+                "html": "<p>When ulipristal is given as an emergency contraceptive, if vomiting occurs within 3 hours of taking a dose, a replacement dose should be given.</p><p>When prescribing or supplying hormonal emergency contraception, women should be advised:</p><ul>\n<li>that their next period may be early or late;</li>\n<li>that a barrier method of contraception needs to be used until the next period;</li>\n<li>to seek medical attention promptly if any lower abdominal pain occurs because this could signify an ectopic pregnancy;</li>\n<li>to return in 3 to 4 weeks if the subsequent menstrual bleed is abnormally light, heavy or brief, or is absent, or if she is otherwise concerned (if there is any doubt as to whether menstruation has occurred, a pregnancy test should be performed at least 3 weeks after unprotected intercourse).</li>\n</ul>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75399",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78143",
+                "label": "Contraceptives, interactions",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78400",
+                "label": "Sex hormones",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78485",
+                "label": "Contraceptives, hormonal",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1163",
+                "label": "Ulipristal",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75399",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

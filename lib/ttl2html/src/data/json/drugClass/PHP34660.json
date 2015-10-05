@@ -1,0 +1,313 @@
+{
+    "xml": "<topic id=\"PHP34660\" outputclass=\"drugClass\" rev=\"1.30\" type=\"drugClass\" namespace=\"/drug-classes/h2-receptor-antagonists\" basename=\"h2-receptor-antagonists\" title=\"H2-RECEPTOR ANTAGONISTS\">\n<title>H<sub>2</sub>-RECEPTOR ANTAGONISTS</title>\n<topic id=\"PHP40271\" outputclass=\"cautions\" rev=\"1.15\" parent=\"/drug-classes/h2-receptor-antagonists\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Signs and symptoms of gastric cancer</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Gastric cancer</p>\n<p>H<sub>2</sub>-receptor antagonists might mask symptoms of gastric cancer; particular care is required in patients presenting with &#8216;alarm features&#8217; in such cases gastric malignancy should be ruled out before treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP40190\" outputclass=\"sideEffects\" rev=\"1.21\" parent=\"/drug-classes/h2-receptor-antagonists\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">headache</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Erythema multiforme</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">toxic epidermal necrolysis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arthralgia</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">bradycardia</ph>; <ph outputclass=\"sideEffect\">cholestatic jaundice</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">depression</ph>; <ph outputclass=\"sideEffect\">hallucinations</ph>; <ph outputclass=\"sideEffect\">hepatitis</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">pancytopenia</ph>; <ph outputclass=\"sideEffect\">psychiatric reactions</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Gynaecomastia</ph>; <ph outputclass=\"sideEffect\">impotence</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Psychiatric reactions</p>\n<p>Psychiatric reactions, including confusion, depression, and hallucinations occur particularly in the elderly or the very ill.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP404\" title=\"CIMETIDINE\" namespace=\"/drugs/cimetidine\">CIMETIDINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP407\" title=\"FAMOTIDINE\" namespace=\"/drugs/famotidine\">FAMOTIDINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP410\" title=\"NIZATIDINE\" namespace=\"/drugs/nizatidine\">NIZATIDINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP413\" title=\"RANITIDINE\" namespace=\"/drugs/ranitidine\">RANITIDINE</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP404\" namespace=\"/drugs/cimetidine\" title=\"CIMETIDINE\" count=\"1\" rel=\"link\">CIMETIDINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP407\" namespace=\"/drugs/famotidine\" title=\"FAMOTIDINE\" count=\"1\" rel=\"link\">FAMOTIDINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP410\" namespace=\"/drugs/nizatidine\" title=\"NIZATIDINE\" count=\"1\" rel=\"link\">NIZATIDINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP413\" namespace=\"/drugs/ranitidine\" title=\"RANITIDINE\" count=\"1\" rel=\"link\">RANITIDINE</xref>\n</links>\n</topic>",
+    "id": "PHP34660",
+    "outputclass": "drugClass",
+    "rev": "1.30",
+    "type": "drugClass",
+    "namespace": "/drug-classes/h2-receptor-antagonists",
+    "basename": "h2-receptor-antagonists",
+    "title": "H2-RECEPTOR ANTAGONISTS",
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Signs and symptoms of gastric cancer",
+                "html": "Signs and symptoms of gastric cancer"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Gastric cancer",
+                "textContent": "H2-receptor antagonists might mask symptoms of gastric cancer; particular care is required in patients presenting with &#8216;alarm features&#8217; in such cases gastric malignancy should be ruled out before treatment.",
+                "html": "<p>H<sub>2</sub>-receptor antagonists might mask symptoms of gastric cancer; particular care is required in patients presenting with &#8216;alarm features&#8217; in such cases gastric malignancy should be ruled out before treatment.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Diarrhoea",
+                        "html": "Diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Erythema multiforme",
+                        "html": "Erythema multiforme",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "toxic epidermal necrolysis",
+                        "html": "toxic epidermal necrolysis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Arthralgia",
+                        "html": "Arthralgia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "bradycardia",
+                        "html": "bradycardia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "cholestatic jaundice",
+                        "html": "cholestatic jaundice",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "depression",
+                        "html": "depression",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hallucinations",
+                        "html": "hallucinations",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "hepatitis",
+                        "html": "hepatitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "pancytopenia",
+                        "html": "pancytopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "psychiatric reactions",
+                        "html": "psychiatric reactions",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Gynaecomastia",
+                        "html": "Gynaecomastia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "impotence",
+                        "html": "impotence",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Psychiatric reactions",
+                "textContent": "Psychiatric reactions, including confusion, depression, and hallucinations occur particularly in the elderly or the very ill.",
+                "html": "<p>Psychiatric reactions, including confusion, depression, and hallucinations occur particularly in the elderly or the very ill.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP404",
+            "label": "CIMETIDINE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP407",
+            "label": "FAMOTIDINE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP410",
+            "label": "NIZATIDINE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP413",
+            "label": "RANITIDINE",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP404",
+                "label": "CIMETIDINE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP407",
+                "label": "FAMOTIDINE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP410",
+                "label": "NIZATIDINE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP413",
+                "label": "RANITIDINE",
+                "type": "drug"
+            }
+        ]
+    }
+}

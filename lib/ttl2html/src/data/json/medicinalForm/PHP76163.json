@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP76163\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/fluticasone/nebuliser-liquid\" basename=\"nebuliser-liquid\" title=\"Nebuliser liquid\">\n<title>Nebuliser liquid</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop </p>\n<p>Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Flixotide 2mg/2ml Nebules <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3397211000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Fluticasone propionate 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;37.35</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Flixotide 0.5mg/2ml Nebules <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">3389111000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Fluticasone propionate 250&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">unit dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.34</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1869\" title=\"FLUTICASONE\" namespace=\"/drugs/fluticasone\">FLUTICASONE</xref>\n</parents>\n</topic>",
+    "id": "PHP76163",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/fluticasone/nebuliser-liquid",
+    "basename": "nebuliser-liquid",
+    "form": "Nebuliser liquid",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "8",
+            "textContent": "Warning: Do not stop taking this medicine unless your doctor tells you to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop"
+        },
+        {
+            "number": "10",
+            "textContent": "Warning: Read the additional information given with this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">10</ph> - Warning: Read the additional information given with this medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Flixotide 2mg/2ml Nebules (GlaxoSmithKline UK Ltd) ",
+            "header": "Flixotide 2mg/2ml Nebules <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Flixotide 2mg/2ml Nebules",
+            "ampid": "3397211000001103",
+            "strengthOfActiveIngredient": "Fluticasone propionate 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 unit dose POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;37.35 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;37.35</ph>",
+                        "nhsIndicativePrice": "&#163;37.35"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Flixotide 0.5mg/2ml Nebules (GlaxoSmithKline UK Ltd) ",
+            "header": "Flixotide 0.5mg/2ml Nebules <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Flixotide 0.5mg/2ml Nebules",
+            "ampid": "3389111000001102",
+            "strengthOfActiveIngredient": "Fluticasone propionate 250 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 unit dose POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">unit dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "unit dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.34 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.34</ph>",
+                        "nhsIndicativePrice": "&#163;9.34"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP1869",
+        "label": "FLUTICASONE"
+    }
+}

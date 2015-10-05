@@ -1,0 +1,93 @@
+{
+    "xml": "<topic id=\"PHP75427\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/progesterone/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP101391\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/lubion\">Lubion<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP104411\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/gestone-solution-for-injection\">Gestone<tm tmtype=\"reg\"/> solution for injection</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Lubion 25mg/1.119ml solution for injection vials <ph outputclass=\"manufacturer\">(Pharmasure Ltd)</ph>\n</title>\n<data name=\"ampid\">23948411000001104</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 22.35&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">7</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;56.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Gestone 100mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Nordic Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">4228211000001102</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 50&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;45.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Gestone 50mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Nordic Pharma Ltd)</ph>\n</title>\n<data name=\"ampid\">4087311000001107</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Progesterone 50&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;45.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4504\" title=\"PROGESTERONE\" namespace=\"/drugs/progesterone\">PROGESTERONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75427",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/progesterone/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP101391",
+            "label": "Lubion&reg;  ",
+            "html": "Lubion<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP104411",
+            "label": "Gestone&reg;  solution for injection",
+            "html": "Gestone<tm tmtype=\"reg\"/> solution for injection"
+        }
+    ],
+    "products": [
+        {
+            "title": "Lubion 25mg/1.119ml solution for injection vials (Pharmasure Ltd) ",
+            "header": "Lubion 25mg/1.119ml solution for injection vials <ph outputclass=\"manufacturer\">(Pharmasure Ltd)</ph>",
+            "manufacturer": "(Pharmasure Ltd)",
+            "name": "Lubion 25mg/1.119ml solution for injection vials",
+            "ampid": "23948411000001104",
+            "strengthOfActiveIngredient": "Progesterone 22.35 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 7 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">7</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "7",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;56.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;56.00</ph>",
+                        "nhsIndicativePrice": "&#163;56.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gestone 100mg/2ml solution for injection ampoules (Nordic Pharma Ltd) ",
+            "header": "Gestone 100mg/2ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Nordic Pharma Ltd)</ph>",
+            "manufacturer": "(Nordic Pharma Ltd)",
+            "name": "Gestone 100mg/2ml solution for injection ampoules",
+            "ampid": "4228211000001102",
+            "strengthOfActiveIngredient": "Progesterone 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;45.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;45.00</ph>",
+                        "nhsIndicativePrice": "&#163;45.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gestone 50mg/1ml solution for injection ampoules (Nordic Pharma Ltd) ",
+            "header": "Gestone 50mg/1ml solution for injection ampoules <ph outputclass=\"manufacturer\">(Nordic Pharma Ltd)</ph>",
+            "manufacturer": "(Nordic Pharma Ltd)",
+            "name": "Gestone 50mg/1ml solution for injection ampoules",
+            "ampid": "4087311000001107",
+            "strengthOfActiveIngredient": "Progesterone 50 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;45.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;45.00</ph>",
+                        "nhsIndicativePrice": "&#163;45.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4504",
+        "label": "PROGESTERONE"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "xml": "<topic id=\"PHP76021\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/aztreonam/powder-for-solution-for-injection\" basename=\"powder-for-solution-for-injection\" title=\"Powder for solution for injection\">\n<title>Powder for solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Azactam 1g powder for solution for injection vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4343611000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aztreonam 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.40</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Azactam 2g powder for solution for injection vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4344011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aztreonam 2&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;18.82</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3419\" title=\"AZTREONAM\" namespace=\"/drugs/aztreonam\">AZTREONAM</xref>\n</parents>\n</topic>",
+    "id": "PHP76021",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/aztreonam/powder-for-solution-for-injection",
+    "basename": "powder-for-solution-for-injection",
+    "form": "Powder for solution for injection",
+    "products": [
+        {
+            "title": "Azactam 1g powder for solution for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Azactam 1g powder for solution for injection vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Azactam 1g powder for solution for injection vials",
+            "ampid": "4343611000001103",
+            "strengthOfActiveIngredient": "Aztreonam 1 gram",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.40 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.40</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;9.40",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Azactam 2g powder for solution for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Azactam 2g powder for solution for injection vials <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Azactam 2g powder for solution for injection vials",
+            "ampid": "4344011000001107",
+            "strengthOfActiveIngredient": "Aztreonam 2 gram",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;18.82 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;18.82</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;18.82",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3419",
+        "label": "AZTREONAM"
+    }
+}

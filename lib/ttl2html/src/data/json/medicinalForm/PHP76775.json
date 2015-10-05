@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP76775\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/glycine/powder-for-gastroenteral-liquid\" basename=\"powder-for-gastroenteral-liquid\" title=\"Powder for gastroenteral liquid\">\n<title>Powder for gastroenteral liquid</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Glycine powder <ph outputclass=\"manufacturer\">(Nutricia Ltd)</ph>\n</title>\n<data name=\"ampid\">17566311000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Glycine 1&#8239;gram per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;36.58</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5132\" title=\"GLYCINE\" namespace=\"/drugs/glycine\">GLYCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76775",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/glycine/powder-for-gastroenteral-liquid",
+    "basename": "powder-for-gastroenteral-liquid",
+    "form": "Powder for gastroenteral liquid",
+    "products": [
+        {
+            "title": "Glycine powder (Nutricia Ltd) ",
+            "header": "Glycine powder <ph outputclass=\"manufacturer\">(Nutricia Ltd)</ph>",
+            "manufacturer": "(Nutricia Ltd)",
+            "name": "Glycine powder",
+            "ampid": "17566311000001101",
+            "strengthOfActiveIngredient": "Glycine 1 gram per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 100 gram ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">gram</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;36.58 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;36.58</ph>",
+                        "nhsIndicativePrice": "&#163;36.58"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5132",
+        "label": "GLYCINE"
+    }
+}

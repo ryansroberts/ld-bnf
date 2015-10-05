@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP76551\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chloroquine/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Malarivon 80mg/5ml syrup <ph outputclass=\"manufacturer\">(Wallace Manufacturing Chemists Ltd)</ph>\n</title>\n<data name=\"ampid\">4555611000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chloroquine phosphate 16&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">75</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;10.85</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3939\" title=\"CHLOROQUINE\" namespace=\"/drugs/chloroquine\">CHLOROQUINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76551",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chloroquine/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "5",
+            "textContent": "Do not take indigestion remedies 2 hours before or after you take this medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">5</ph> - Do not take indigestion remedies 2 hours before or after you take this medicine"
+        }
+    ],
+    "products": [
+        {
+            "title": "Malarivon 80mg/5ml syrup (Wallace Manufacturing Chemists Ltd) ",
+            "header": "Malarivon 80mg/5ml syrup <ph outputclass=\"manufacturer\">(Wallace Manufacturing Chemists Ltd)</ph>",
+            "manufacturer": "(Wallace Manufacturing Chemists Ltd)",
+            "name": "Malarivon 80mg/5ml syrup",
+            "ampid": "4555611000001104",
+            "strengthOfActiveIngredient": "Chloroquine phosphate 16 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 75 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">75</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "75",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;10.85 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;10.85</ph>",
+                        "nhsIndicativePrice": "&#163;10.85"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3939",
+        "label": "CHLOROQUINE"
+    }
+}

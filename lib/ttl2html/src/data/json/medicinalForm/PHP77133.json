@@ -1,0 +1,114 @@
+{
+    "xml": "<topic id=\"PHP77133\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/didanosine/gastro-resistant-capsule\" basename=\"gastro-resistant-capsule\" title=\"Gastro-resistant capsule\">\n<title>Gastro-resistant capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Videx EC 125mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4433711000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Didanosine 125&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;48.18</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Videx EC 200mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4434011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Didanosine 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;77.09</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Videx EC 250mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4434311000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Didanosine 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;96.37</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Videx EC 400mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4434611000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Didanosine 400&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;154.19</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3761\" title=\"DIDANOSINE\" namespace=\"/drugs/didanosine\">DIDANOSINE</xref>\n</parents>\n</topic>",
+    "id": "PHP77133",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/didanosine/gastro-resistant-capsule",
+    "basename": "gastro-resistant-capsule",
+    "form": "Gastro-resistant capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Videx EC 125mg capsules (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Videx EC 125mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Videx EC 125mg capsules",
+            "ampid": "4433711000001102",
+            "strengthOfActiveIngredient": "Didanosine 125 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;48.18 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;48.18</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;48.18",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Videx EC 200mg capsules (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Videx EC 200mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Videx EC 200mg capsules",
+            "ampid": "4434011000001102",
+            "strengthOfActiveIngredient": "Didanosine 200 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;77.09 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;77.09</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;77.09",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Videx EC 250mg capsules (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Videx EC 250mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Videx EC 250mg capsules",
+            "ampid": "4434311000001104",
+            "strengthOfActiveIngredient": "Didanosine 250 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;96.37 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;96.37</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;96.37",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Videx EC 400mg capsules (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Videx EC 400mg capsules <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Videx EC 400mg capsules",
+            "ampid": "4434611000001109",
+            "strengthOfActiveIngredient": "Didanosine 400 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;154.19 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;154.19</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;154.19",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3761",
+        "label": "DIDANOSINE"
+    }
+}

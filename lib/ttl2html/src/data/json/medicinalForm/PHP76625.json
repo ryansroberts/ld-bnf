@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP76625\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/rizatriptan/oral-lyophilisate\" basename=\"oral-lyophilisate\" title=\"Oral lyophilisate\">\n<title>Oral lyophilisate</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Aspartame</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Maxalt Melt 10mg oral lyophilisates <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>\n</title>\n<data name=\"ampid\">3205011000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Rizatriptan (as Rizatriptan benzoate) 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">3</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.37</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;13.37</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;26.74</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;26.74</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;53.48</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2852\" title=\"RIZATRIPTAN\" namespace=\"/drugs/rizatriptan\">RIZATRIPTAN</xref>\n</parents>\n</topic>",
+    "id": "PHP76625",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/rizatriptan/oral-lyophilisate",
+    "basename": "oral-lyophilisate",
+    "form": "Oral lyophilisate",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "3",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines",
+            "html": "Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines"
+        }
+    ],
+    "excipients": [
+        "Aspartame"
+    ],
+    "products": [
+        {
+            "title": "Maxalt Melt 10mg oral lyophilisates (Merck Sharp & Dohme Ltd) ",
+            "header": "Maxalt Melt 10mg oral lyophilisates <ph outputclass=\"manufacturer\">(Merck Sharp &amp; Dohme Ltd)</ph>",
+            "manufacturer": "(Merck Sharp & Dohme Ltd)",
+            "name": "Maxalt Melt 10mg oral lyophilisates",
+            "ampid": "3205011000001107",
+            "strengthOfActiveIngredient": "Rizatriptan (as Rizatriptan benzoate) 10 mg",
+            "packs": [
+                {
+                    "textContent": " 3 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">3</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "3",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.37 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.37</ph>",
+                        "nhsIndicativePrice": "&#163;13.37"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;13.37 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;13.37</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;13.37"
+                    }
+                },
+                {
+                    "textContent": " 6 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;26.74 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;26.74</ph>",
+                        "nhsIndicativePrice": "&#163;26.74"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;26.74 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;26.74</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;26.74"
+                    }
+                },
+                {
+                    "textContent": " 12 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;53.48 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;53.48</ph>",
+                        "nhsIndicativePrice": "&#163;53.48"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2852",
+        "label": "RIZATRIPTAN"
+    }
+}

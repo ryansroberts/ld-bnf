@@ -1,0 +1,51 @@
+{
+    "xml": "<topic id=\"PHP101388\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/cyanokit\" basename=\"cyanokit\" title=\"Cyanokit\">\n<title>Cyanokit<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP101706\" outputclass=\"indicationsAndDose\" rev=\"1.25\" parent=\"/clinical-medicinal-product-information/cyanokit\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Poisoning with cyanides</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child (body-weight 5 kg and above)</p>\n<p>Initially 70&#8239;mg/kg (max. per dose 5&#8239;g), to be given over 15 minutes, then 70&#8239;mg/kg (max. per dose 5&#8239;g) if required, this second dose can be given over 15 minutes&#8211;2 hours depending on severity of poisoning and patient stability.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 5&#8239;g, to be given over 15 minutes, then 5&#8239;g if required, this second dose can be given over 15 minutes&#8211;2 hours depending on severity of poisoning and patient stability.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP101388",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/cyanokit",
+    "basename": "cyanokit",
+    "title": "Cyanokit",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Poisoning with cyanides",
+                        "html": "Poisoning with cyanides"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "child": [
+                    {
+                        "textContent": "Initially 70 mg/kg (max. per dose 5 g), to be given over 15 minutes, then 70 mg/kg (max. per dose 5 g) if required, this second dose can be given over 15 minutes&#8211;2 hours depending on severity of poisoning and patient stability.",
+                        "html": "<p>Initially 70&#8239;mg/kg (max. per dose 5&#8239;g), to be given over 15 minutes, then 70&#8239;mg/kg (max. per dose 5&#8239;g) if required, this second dose can be given over 15 minutes&#8211;2 hours depending on severity of poisoning and patient stability.</p>",
+                        "ageGroup": "(body-weight 5 kg and above)"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Initially 5 g, to be given over 15 minutes, then 5 g if required, this second dose can be given over 15 minutes&#8211;2 hours depending on severity of poisoning and patient stability.",
+                        "html": "<p>Initially 5&#8239;g, to be given over 15 minutes, then 5&#8239;g if required, this second dose can be given over 15 minutes&#8211;2 hours depending on severity of poisoning and patient stability.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

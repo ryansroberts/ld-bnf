@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP75975\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/formaldehyde/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Formaldehyde (Buffered) 4% solution <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">8004311000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Formaldehyde 40&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1000</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.90</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Formaldehyde (Buffered) 4% solution <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">8004711000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Formaldehyde 40&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1000</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.90</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Formaldehyde (Buffered) 4% solution <ph outputclass=\"manufacturer\">(Ecolab Healthcare Division)</ph>\n</title>\n<data name=\"ampid\">8003811000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Formaldehyde 40&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1000</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.56</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7888\" title=\"FORMALDEHYDE\" namespace=\"/drugs/formaldehyde\">FORMALDEHYDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75975",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/formaldehyde/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "products": [
+        {
+            "title": "Formaldehyde (Buffered) 4% solution (A A H Pharmaceuticals Ltd) ",
+            "header": "Formaldehyde (Buffered) 4% solution <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Formaldehyde (Buffered) 4% solution",
+            "ampid": "8004311000001103",
+            "strengthOfActiveIngredient": "Formaldehyde 40 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1000 ml ",
+                    "html": "<ph outputclass=\"packSize\">1000</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "1000",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.90</ph>",
+                        "nhsIndicativePrice": "&#163;3.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Formaldehyde (Buffered) 4% solution (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Formaldehyde (Buffered) 4% solution <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Formaldehyde (Buffered) 4% solution",
+            "ampid": "8004711000001104",
+            "strengthOfActiveIngredient": "Formaldehyde 40 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1000 ml ",
+                    "html": "<ph outputclass=\"packSize\">1000</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "1000",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.90 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.90</ph>",
+                        "nhsIndicativePrice": "&#163;3.90"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Formaldehyde (Buffered) 4% solution (Ecolab Healthcare Division) ",
+            "header": "Formaldehyde (Buffered) 4% solution <ph outputclass=\"manufacturer\">(Ecolab Healthcare Division)</ph>",
+            "manufacturer": "(Ecolab Healthcare Division)",
+            "name": "Formaldehyde (Buffered) 4% solution",
+            "ampid": "8003811000001109",
+            "strengthOfActiveIngredient": "Formaldehyde 40 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1000 ml ",
+                    "html": "<ph outputclass=\"packSize\">1000</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "1000",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.56 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.56</ph>",
+                        "nhsIndicativePrice": "&#163;3.56"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7888",
+        "label": "FORMALDEHYDE"
+    }
+}

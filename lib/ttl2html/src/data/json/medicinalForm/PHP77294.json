@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP77294\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/paracetamol/orodispersible-tablet\" basename=\"orodispersible-tablet\" title=\"Orodispersible tablet\">\n<title>Orodispersible tablet</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Calpol Six Plus Fastmelts 250mg tablets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">245711000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Paracetamol 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">12</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.28</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">24</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.59</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2632\" title=\"PARACETAMOL\" namespace=\"/drugs/paracetamol\">PARACETAMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP77294",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/paracetamol/orodispersible-tablet",
+    "basename": "orodispersible-tablet",
+    "form": "Orodispersible tablet",
+    "products": [
+        {
+            "title": "Calpol Six Plus Fastmelts 250mg tablets (McNeil Products Ltd) ",
+            "header": "Calpol Six Plus Fastmelts 250mg tablets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Calpol Six Plus Fastmelts 250mg tablets",
+            "ampid": "245711000001105",
+            "strengthOfActiveIngredient": "Paracetamol 250 mg",
+            "packs": [
+                {
+                    "textContent": " 12 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">12</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "12",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.28 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.28</ph>",
+                        "nhsIndicativePrice": "&#163;2.28"
+                    }
+                },
+                {
+                    "textContent": " 24 tablet P ",
+                    "html": "<ph outputclass=\"packSize\">24</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "24",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.59 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.59</ph>",
+                        "nhsIndicativePrice": "&#163;3.59"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2632",
+        "label": "PARACETAMOL"
+    }
+}

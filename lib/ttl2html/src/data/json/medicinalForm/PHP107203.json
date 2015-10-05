@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP107203\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/arachis-oil-with-extract-of-coal-tar/shampoo\" basename=\"shampoo\" title=\"Shampoo\">\n<title>Shampoo</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Polytar Plus liquid <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>\n</title>\n<data name=\"ampid\">790611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Arachis oil extract of crude coal tar 3&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cade oil 3&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Coal tar solution 1&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Pine tar 3&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.91</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Polytar liquid <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>\n</title>\n<data name=\"ampid\">137911000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Arachis oil extract of crude coal tar 3&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Cade oil 3&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Coal tar solution 1&#8239;mg per 1&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Pine tar 3&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.61</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.23</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;4.40</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP100018\" title=\"ARACHIS OIL WITH EXTRACT OF COAL TAR\" namespace=\"/drugs/arachis-oil-with-extract-of-coal-tar\">ARACHIS OIL WITH EXTRACT OF COAL TAR</xref>\n</parents>\n</topic>",
+    "id": "PHP107203",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/arachis-oil-with-extract-of-coal-tar/shampoo",
+    "basename": "shampoo",
+    "form": "Shampoo",
+    "products": [
+        {
+            "title": "Polytar Plus liquid (GlaxoSmithKline Consumer Healthcare) ",
+            "header": "Polytar Plus liquid <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>",
+            "manufacturer": "(GlaxoSmithKline Consumer Healthcare)",
+            "name": "Polytar Plus liquid",
+            "ampid": "790611000001105",
+            "strengthOfActiveIngredient": "Pine tar 3 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.91 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.91</ph>",
+                        "nhsIndicativePrice": "&#163;3.91"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Polytar liquid (GlaxoSmithKline Consumer Healthcare) ",
+            "header": "Polytar liquid <ph outputclass=\"manufacturer\">(GlaxoSmithKline Consumer Healthcare)</ph>",
+            "manufacturer": "(GlaxoSmithKline Consumer Healthcare)",
+            "name": "Polytar liquid",
+            "ampid": "137911000001104",
+            "strengthOfActiveIngredient": "Pine tar 3 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 150 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.61 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.61</ph>",
+                        "nhsIndicativePrice": "&#163;1.61"
+                    }
+                },
+                {
+                    "textContent": " 250 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.23 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.23</ph>",
+                        "nhsIndicativePrice": "&#163;2.23"
+                    }
+                },
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;4.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;4.40</ph>",
+                        "nhsIndicativePrice": "&#163;4.40"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP100018",
+        "label": "ARACHIS OIL WITH EXTRACT OF COAL TAR"
+    }
+}

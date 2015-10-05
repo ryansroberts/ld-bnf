@@ -1,0 +1,256 @@
+{
+    "xml": "<topic id=\"PHP4318\" outputclass=\"drug\" rev=\"1.14\" type=\"drug\" namespace=\"/drugs/iodide-with-iodine\" basename=\"iodide-with-iodine\" title=\"IODIDE WITH IODINE\">\n<title>IODIDE WITH IODINE</title>\n<body>\n<data name=\"vtmid\">422477005</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP55611\" outputclass=\"indicationsAndDose\" rev=\"1.17\" parent=\"/drugs/iodide-with-iodine\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Thyrotoxicosis (pre-operative)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth using oral solution</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>0.1&#8211;0.3&#8239;mL 3 times a day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP55666\" outputclass=\"cautions\" rev=\"1.13\" parent=\"/drugs/iodide-with-iodine\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Children</ph>; <ph outputclass=\"caution\">not for long-term treatment</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP55550\" outputclass=\"sideEffects\" rev=\"1.13\" parent=\"/drugs/iodide-with-iodine\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Bronchitis</ph>; <ph outputclass=\"sideEffect\">conjunctivitis</ph>; <ph outputclass=\"sideEffect\">coryza-like symptoms</ph>; <ph outputclass=\"sideEffect\">depression (on prolonged treatment)</ph>; <ph outputclass=\"sideEffect\">goitre in infants of mothers taking iodides</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hypersensitivity reactions</ph>; <ph outputclass=\"sideEffect\">impotence (on prolonged treatment)</ph>; <ph outputclass=\"sideEffect\">insomnia (on prolonged treatment)</ph>; <ph outputclass=\"sideEffect\">lacrimation</ph>; <ph outputclass=\"sideEffect\">laryngitis</ph>; <ph outputclass=\"sideEffect\">pain in salivary glands</ph>; <ph outputclass=\"sideEffect\">rashes</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP55600\" outputclass=\"pregnancy\" parent=\"/drugs/iodide-with-iodine\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Neonatal goitre and hypothyroidism.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP55675\" outputclass=\"breastFeeding\" parent=\"/drugs/iodide-with-iodine\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Stop breast-feeding.</p>\n<p>Danger of neonatal hypothyroidism or goitre.</p>\n<p>Appears to be concentrated in milk.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP55691\" outputclass=\"directionsForAdministration\" rev=\"1.10\" parent=\"/drugs/iodide-with-iodine\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For oral solution, dilute well with milk or water.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP4318-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/iodide-with-iodine\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75852\" title=\"Oral solution\" namespace=\"/drugs/iodide-with-iodine/oral-solution\">Oral solution</xref>\n</children>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP75852\" namespace=\"/drugs/iodide-with-iodine/oral-solution\" title=\"Oral solution\" count=\"1\" rel=\"link\">Oral solution</xref>\n</links>\n</topic>",
+    "id": "PHP4318",
+    "outputclass": "drug",
+    "rev": "1.14",
+    "type": "drug",
+    "namespace": "/drugs/iodide-with-iodine",
+    "basename": "iodide-with-iodine",
+    "title": "IODIDE WITH IODINE",
+    "vtmid": "422477005",
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Thyrotoxicosis (pre-operative)",
+                        "html": "Thyrotoxicosis (pre-operative)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth using oral solution"
+                    ],
+                    "textContent": "By mouth using oral solution",
+                    "html": "By mouth using oral solution"
+                },
+                "adult": [
+                    {
+                        "textContent": "0.1&#8211;0.3 mL 3 times a day.",
+                        "html": "<p>0.1&#8211;0.3&#8239;mL 3 times a day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Children",
+                "html": "Children"
+            },
+            {
+                "type": "cautions",
+                "textContent": "not for long-term treatment",
+                "html": "not for long-term treatment"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Bronchitis",
+                        "html": "Bronchitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "conjunctivitis",
+                        "html": "conjunctivitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "coryza-like symptoms",
+                        "html": "coryza-like symptoms",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "depression (on prolonged treatment)",
+                        "html": "depression (on prolonged treatment)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "goitre in infants of mothers taking iodides",
+                        "html": "goitre in infants of mothers taking iodides",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypersensitivity reactions",
+                        "html": "hypersensitivity reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "impotence (on prolonged treatment)",
+                        "html": "impotence (on prolonged treatment)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "insomnia (on prolonged treatment)",
+                        "html": "insomnia (on prolonged treatment)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "lacrimation",
+                        "html": "lacrimation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "laryngitis",
+                        "html": "laryngitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pain in salivary glands",
+                        "html": "pain in salivary glands",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rashes",
+                        "html": "rashes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Neonatal goitre and hypothyroidism.",
+                "html": "<p>Neonatal goitre and hypothyroidism.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Stop breast-feeding.\n\nDanger of neonatal hypothyroidism or goitre.\n\nAppears to be concentrated in milk.",
+                "html": "<p>Stop breast-feeding.</p><p>Danger of neonatal hypothyroidism or goitre.</p><p>Appears to be concentrated in milk.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For oral solution, dilute well with milk or water.",
+                "html": "<p>For oral solution, dilute well with milk or water.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP75852",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP75852",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

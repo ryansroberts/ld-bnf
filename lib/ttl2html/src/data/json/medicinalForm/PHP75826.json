@@ -1,0 +1,82 @@
+{
+    "xml": "<topic id=\"PHP75826\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/econazole-nitrate/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Butylated hydroxyanisole, fragrances</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP97393\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/gyno-pevaryl-cream\">Gyno-Pevaryl<tm tmtype=\"reg\"/> cream</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Gyno-Pevaryl 1% cream <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">676811000001108</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Econazole nitrate 10&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.11</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.78</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Pevaryl 1% cream <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>\n</title>\n<data name=\"ampid\">908311000001106</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Econazole nitrate 10&#8239;mg per 1&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.71</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8022\" title=\"ECONAZOLE NITRATE\" namespace=\"/drugs/econazole-nitrate\">ECONAZOLE NITRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP75826",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/econazole-nitrate/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "excipients": [
+        "Butylated hydroxyanisole",
+        "fragrances"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP97393",
+            "label": "Gyno-Pevaryl&reg;  cream",
+            "html": "Gyno-Pevaryl<tm tmtype=\"reg\"/> cream"
+        }
+    ],
+    "products": [
+        {
+            "title": "Gyno-Pevaryl 1% cream (Janssen-Cilag Ltd) ",
+            "header": "Gyno-Pevaryl 1% cream <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Gyno-Pevaryl 1% cream",
+            "ampid": "676811000001108",
+            "strengthOfActiveIngredient": "Econazole nitrate 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.11 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.11</ph>",
+                        "nhsIndicativePrice": "&#163;2.11"
+                    }
+                },
+                {
+                    "textContent": " 30 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.78 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.78</ph>",
+                        "nhsIndicativePrice": "&#163;3.78"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Pevaryl 1% cream (Janssen-Cilag Ltd) ",
+            "header": "Pevaryl 1% cream <ph outputclass=\"manufacturer\">(Janssen-Cilag Ltd)</ph>",
+            "manufacturer": "(Janssen-Cilag Ltd)",
+            "name": "Pevaryl 1% cream",
+            "ampid": "908311000001106",
+            "strengthOfActiveIngredient": "Econazole nitrate 10 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 30 gram P ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.71 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.71</ph>",
+                        "nhsIndicativePrice": "&#163;3.71"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8022",
+        "label": "ECONAZOLE NITRATE"
+    }
+}

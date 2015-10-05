@@ -1,0 +1,671 @@
+{
+    "xml": "<topic id=\"PHP752\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/digoxin\" basename=\"digoxin\" title=\"DIGOXIN\">\n<title>DIGOXIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_480\" namespace=\"/interactions/list-of-drug-interactions/cardiac-glycosides/digoxin\">Digoxin</xref>\n</p>\n<data name=\"vtmid\">796001</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_289527544\" title=\"Cardiac glycosides\">Cardiac glycosides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP43985\" outputclass=\"drugAction\" rev=\"1.5\" parent=\"/drugs/digoxin\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Digoxin is a cardiac glycoside that increases the force of myocardial contraction and reduces conductivity within the atrioventricular (AV) node.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43757\" outputclass=\"indicationsAndDose\" rev=\"1.38\" parent=\"/drugs/digoxin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Rapid digitalisation, for atrial fibrillation or flutter</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>0.75&#8211;1.5&#8239;mg in divided doses, dose to be given over 24 hours, reduce dose in the elderly.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Maintenance, for atrial fibrillation or flutter</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Maintenance 125&#8211;250&#8239;micrograms daily, dose according to renal function and initial loading dose, reduce dose in the elderly.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Heart failure (for patients in sinus rhythm)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>62.5&#8211;125&#8239;micrograms once daily, reduce dose in the elderly.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Emergency loading dose, for atrial fibrillation or flutter</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">Initially by intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Loading dose 0.75&#8211;1&#8239;mg, to be given over at least 2 hours, then (by mouth) maintenance, start on the following day, reduce dose in the elderly.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseEquivalence\">\n<title>Dose equivalence and conversion</title>\n<p>Dose may need to be reduced if digoxin (or another cardiac glycoside) has been given in the preceding 2 weeks.</p>\n<p>When switching from intravenous to oral route may need to increase dose by 20&#8211;33% to maintain the same plasma-digoxin concentration.</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43092\" outputclass=\"unlicensedUse\" rev=\"1.16\" parent=\"/drugs/digoxin\">\n<title>Unlicensed use</title>\n<body>\n<section>\n<sectiondiv>\n<p>Digoxin doses in the BNF may differ from those in product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44129\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drugs/digoxin\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Constrictive pericarditis (unless to control atrial fibrillation or improve systolic dysfunction&#8212;but use with caution)</ph>; <ph outputclass=\"contraindication\">hypertrophic cardiomyopathy (unless concomitant atrial fibrillation and heart failure&#8212;but use with caution)</ph>; <ph outputclass=\"contraindication\">intermittent complete heart block</ph>; <ph outputclass=\"contraindication\">myocarditis</ph>; <ph outputclass=\"contraindication\">second degree AV block</ph>; <ph outputclass=\"contraindication\">supraventricular arrhythmias associated with accessory conducting pathways e.g. Wolff-Parkinson-White syndrome (although can be used in infancy)</ph>; <ph outputclass=\"contraindication\">ventricular tachycardia or fibrillation</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44280\" outputclass=\"cautions\" rev=\"1.11\" parent=\"/drugs/digoxin\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Hypercalcaemia (risk of digitalis toxicity)</ph>; <ph outputclass=\"caution\">hypokalaemia (risk of digitalis toxicity)</ph>; <ph outputclass=\"caution\">hypomagnesaemia (risk of digitalis toxicity)</ph>; <ph outputclass=\"caution\">hypoxia (risk of digitalis toxicity)</ph>; <ph outputclass=\"caution\">recent myocardial infarction</ph>; <ph outputclass=\"caution\">severe respiratory disease</ph>; <ph outputclass=\"caution\">sick sinus syndrome</ph>; <ph outputclass=\"caution\">thyroid disease</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43708\" outputclass=\"interactions\" rev=\"1.5\" parent=\"/drugs/digoxin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (cardiac glycosides).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43312\" outputclass=\"sideEffects\" rev=\"1.9\" parent=\"/drugs/digoxin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Arrhythmias</ph>; <ph outputclass=\"sideEffect\">blurred vision</ph>; <ph outputclass=\"sideEffect\">conduction disturbances</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">eosinophilia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>; <ph outputclass=\"sideEffect\">yellow vision</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Depression</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"veryRare\">\n<p outputclass=\"title\">Very rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Anorexia</ph>; <ph outputclass=\"sideEffect\">apathy</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">gynaecomastia on long-term use</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">intestinal ischaemia and necrosis</ph>; <ph outputclass=\"sideEffect\">psychosis</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>; <ph outputclass=\"sideEffect\">weakness</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsOverdosageInformation\">\n<title>Overdose</title>\n<sectiondiv>\n<p outputclass=\"title\">Toxicity</p>\n<p>If toxicity occurs, digoxin should be withdrawn; serious manifestations require urgent specialist management.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43617\" outputclass=\"pregnancy\" parent=\"/drugs/digoxin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>May need dosage adjustment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44456\" outputclass=\"breastFeeding\" parent=\"/drugs/digoxin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Amount too small to be harmful.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43459\" outputclass=\"renalImpairment\" parent=\"/drugs/digoxin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInRenalImpairment\">\n<sectiondiv>\n<p>Monitor plasma-digoxin concentration in renal impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43041\" outputclass=\"monitoringRequirements\" parent=\"/drugs/digoxin\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"therapeuticDrugMonitoring\">\n<sectiondiv>\n<p>For plasma-digoxin concentration assay, blood should be taken at least 6 hours after a dose.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Monitor serum electrolytes and renal function. Toxicity increased by electrolyte disturbances.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP44771\" outputclass=\"directionsForAdministration\" rev=\"1.15\" parent=\"/drugs/digoxin\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>Avoid rapid intravenous administration (risk of hypertension and reduced coronary flow).</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">intravenous</ph> use</p>\n<p>For <i>intravenous infusion</i> (<i>Lanoxin</i>\n<tm tmtype=\"reg\"/>), give intermittently in Glucose 5% or Sodium chloride 0.9%; dilute to a concentration of not more than 62.5&#8239;micrograms/mL. To be given over at least 2 hours.</p>\n</sectiondiv>\n<sectiondiv>\n<p outputclass=\"specificity\">With <ph outputclass=\"route\">oral</ph> use</p>\n<p>For <i>oral</i> administration, oral solution must <b>not</b> be diluted.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP43546\" outputclass=\"patientAndCarerAdvice\" rev=\"1.10\" parent=\"/drugs/digoxin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patient counselling is advised for digoxin elixir (use pipette).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP752-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/digoxin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n<p>Forms available from special-order manufacturers include: solution for injection, oral suspension, oral solution</p>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76111\" title=\"Tablet\" namespace=\"/drugs/digoxin/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76256\" title=\"Oral solution\" namespace=\"/drugs/digoxin/oral-solution\">Oral solution</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76180\" title=\"Solution for infusion\" namespace=\"/drugs/digoxin/solution-for-infusion\">Solution for infusion</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP98618\" namespace=\"/guidance/prescribing-for-the-elderly\" title=\"Prescribing for the elderly\" count=\"3\" rel=\"backlink\">Prescribing for the elderly</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78138\" namespace=\"/treatment-summaries/heart-failure\" title=\"Heart failure\" count=\"2\" rel=\"backlink\">Heart failure</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78203\" namespace=\"/treatment-summaries/cardiac-glycosides\" title=\"Cardiac glycosides\" count=\"10\" rel=\"backlink\">Cardiac glycosides</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78214\" namespace=\"/treatment-summaries/stoma-care\" title=\"Stoma care\" count=\"1\" rel=\"backlink\">Stoma care</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78221\" namespace=\"/treatment-summaries/nausea-and-labyrinth-disorders\" title=\"Nausea and labyrinth disorders\" count=\"1\" rel=\"backlink\">Nausea and labyrinth disorders</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78291\" namespace=\"/treatment-summaries/arrhythmias\" title=\"Arrhythmias\" count=\"7\" rel=\"backlink\">Arrhythmias</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_480\" namespace=\"/interactions/list-of-drug-interactions/cardiac-glycosides/digoxin\" title=\"Digoxin\" count=\"1\" rel=\"link\">Digoxin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76111\" namespace=\"/drugs/digoxin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76256\" namespace=\"/drugs/digoxin/oral-solution\" title=\"Oral solution\" count=\"1\" rel=\"link\">Oral solution</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP76180\" namespace=\"/drugs/digoxin/solution-for-infusion\" title=\"Solution for infusion\" count=\"1\" rel=\"link\">Solution for infusion</xref>\n</links>\n</topic>",
+    "id": "PHP752",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/digoxin",
+    "basename": "digoxin",
+    "title": "DIGOXIN",
+    "interactants": [
+        {
+            "id": "bnf_int_480",
+            "label": "Digoxin"
+        }
+    ],
+    "vtmid": "796001",
+    "drugClassification": [
+        "Cardiac glycosides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Digoxin is a cardiac glycoside that increases the force of myocardial contraction and reduces conductivity within the atrioventricular (AV) node.",
+                "html": "<p>Digoxin is a cardiac glycoside that increases the force of myocardial contraction and reduces conductivity within the atrioventricular (AV) node.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Rapid digitalisation, for atrial fibrillation or flutter",
+                        "html": "Rapid digitalisation, for atrial fibrillation or flutter"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "0.75&#8211;1.5 mg in divided doses, dose to be given over 24 hours, reduce dose in the elderly.",
+                        "html": "<p>0.75&#8211;1.5&#8239;mg in divided doses, dose to be given over 24 hours, reduce dose in the elderly.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Maintenance, for atrial fibrillation or flutter",
+                        "html": "Maintenance, for atrial fibrillation or flutter"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Maintenance 125&#8211;250 micrograms daily, dose according to renal function and initial loading dose, reduce dose in the elderly.",
+                        "html": "<p>Maintenance 125&#8211;250&#8239;micrograms daily, dose according to renal function and initial loading dose, reduce dose in the elderly.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Heart failure (for patients in sinus rhythm)",
+                        "html": "Heart failure (for patients in sinus rhythm)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "62.5&#8211;125 micrograms once daily, reduce dose in the elderly.",
+                        "html": "<p>62.5&#8211;125&#8239;micrograms once daily, reduce dose in the elderly.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Emergency loading dose, for atrial fibrillation or flutter",
+                        "html": "Emergency loading dose, for atrial fibrillation or flutter"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "Initially intravenous infusion"
+                    ],
+                    "textContent": "Initially by intravenous infusion",
+                    "html": "Initially by intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Loading dose 0.75&#8211;1 mg, to be given over at least 2 hours, then (by mouth) maintenance, start on the following day, reduce dose in the elderly.",
+                        "html": "<p>Loading dose 0.75&#8211;1&#8239;mg, to be given over at least 2 hours, then (by mouth) maintenance, start on the following day, reduce dose in the elderly.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseEquivalence": [
+            {
+                "type": "doseEquivalence",
+                "title": "Dose equivalence and conversion",
+                "textContent": "Dose may need to be reduced if digoxin (or another cardiac glycoside) has been given in the preceding 2 weeks.\n\nWhen switching from intravenous to oral route may need to increase dose by 20&#8211;33% to maintain the same plasma-digoxin concentration.",
+                "html": "<p>Dose may need to be reduced if digoxin (or another cardiac glycoside) has been given in the preceding 2 weeks.</p><p>When switching from intravenous to oral route may need to increase dose by 20&#8211;33% to maintain the same plasma-digoxin concentration.</p>"
+            }
+        ]
+    },
+    "unlicensedUse": {
+        "unlicensedUse": [
+            {
+                "type": "unlicensedUse",
+                "textContent": "Digoxin doses in the BNF may differ from those in product literature.",
+                "html": "<p>Digoxin doses in the BNF may differ from those in product literature.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Constrictive pericarditis (unless to control atrial fibrillation or improve systolic dysfunction&#8212;but use with caution)",
+                "html": "Constrictive pericarditis (unless to control atrial fibrillation or improve systolic dysfunction&#8212;but use with caution)"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "hypertrophic cardiomyopathy (unless concomitant atrial fibrillation and heart failure&#8212;but use with caution)",
+                "html": "hypertrophic cardiomyopathy (unless concomitant atrial fibrillation and heart failure&#8212;but use with caution)"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "intermittent complete heart block",
+                "html": "intermittent complete heart block"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "myocarditis",
+                "html": "myocarditis"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "second degree AV block",
+                "html": "second degree AV block"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "supraventricular arrhythmias associated with accessory conducting pathways e.g. Wolff-Parkinson-White syndrome (although can be used in infancy)",
+                "html": "supraventricular arrhythmias associated with accessory conducting pathways e.g. Wolff-Parkinson-White syndrome (although can be used in infancy)"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "ventricular tachycardia or fibrillation",
+                "html": "ventricular tachycardia or fibrillation"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Hypercalcaemia (risk of digitalis toxicity)",
+                "html": "Hypercalcaemia (risk of digitalis toxicity)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypokalaemia (risk of digitalis toxicity)",
+                "html": "hypokalaemia (risk of digitalis toxicity)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypomagnesaemia (risk of digitalis toxicity)",
+                "html": "hypomagnesaemia (risk of digitalis toxicity)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "hypoxia (risk of digitalis toxicity)",
+                "html": "hypoxia (risk of digitalis toxicity)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "recent myocardial infarction",
+                "html": "recent myocardial infarction"
+            },
+            {
+                "type": "cautions",
+                "textContent": "severe respiratory disease",
+                "html": "severe respiratory disease"
+            },
+            {
+                "type": "cautions",
+                "textContent": "sick sinus syndrome",
+                "html": "sick sinus syndrome"
+            },
+            {
+                "type": "cautions",
+                "textContent": "thyroid disease",
+                "html": "thyroid disease"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (cardiac glycosides).",
+                "html": "<p>Appendix 1 (cardiac glycosides).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Arrhythmias",
+                        "html": "Arrhythmias",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "blurred vision",
+                        "html": "blurred vision",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "conduction disturbances",
+                        "html": "conduction disturbances",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "eosinophilia",
+                        "html": "eosinophilia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "yellow vision",
+                        "html": "yellow vision",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Depression",
+                        "html": "Depression",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "veryRare": [
+                    {
+                        "type": "veryRare",
+                        "textContent": "Anorexia",
+                        "html": "Anorexia",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "apathy",
+                        "html": "apathy",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "gynaecomastia on long-term use",
+                        "html": "gynaecomastia on long-term use",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "intestinal ischaemia and necrosis",
+                        "html": "intestinal ischaemia and necrosis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "psychosis",
+                        "html": "psychosis",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    },
+                    {
+                        "type": "veryRare",
+                        "textContent": "weakness",
+                        "html": "weakness",
+                        "frequency": "veryRare",
+                        "specificity": {
+                            "textContent": "Very rare",
+                            "html": "Very rare"
+                        }
+                    }
+                ]
+            }
+        },
+        "overdosageInformation": [
+            {
+                "type": "overdosageInformation",
+                "title": "Toxicity",
+                "textContent": "If toxicity occurs, digoxin should be withdrawn; serious manifestations require urgent specialist management.",
+                "html": "<p>If toxicity occurs, digoxin should be withdrawn; serious manifestations require urgent specialist management.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "May need dosage adjustment.",
+                "html": "<p>May need dosage adjustment.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Amount too small to be harmful.",
+                "html": "<p>Amount too small to be harmful.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose.",
+                "html": "<p>Reduce dose.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Monitor plasma-digoxin concentration in renal impairment.",
+                "html": "<p>Monitor plasma-digoxin concentration in renal impairment.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "therapeuticDrugMonitoring": [
+            {
+                "type": "therapeuticDrugMonitoring",
+                "textContent": "For plasma-digoxin concentration assay, blood should be taken at least 6 hours after a dose.",
+                "html": "<p>For plasma-digoxin concentration assay, blood should be taken at least 6 hours after a dose.</p>"
+            }
+        ],
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Monitor serum electrolytes and renal function. Toxicity increased by electrolyte disturbances.",
+                "html": "<p>Monitor serum electrolytes and renal function. Toxicity increased by electrolyte disturbances.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "Avoid rapid intravenous administration (risk of hypertension and reduced coronary flow).",
+                "html": "<p>Avoid rapid intravenous administration (risk of hypertension and reduced coronary flow).</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With intravenous use",
+                    "html": "With <ph outputclass=\"route\">intravenous</ph> use",
+                    "routes": [
+                        "intravenous"
+                    ]
+                },
+                "textContent": "For intravenous infusion (Lanoxin ), give intermittently in Glucose 5% or Sodium chloride 0.9%; dilute to a concentration of not more than 62.5 micrograms/mL. To be given over at least 2 hours.",
+                "html": "<p>For <i>intravenous infusion</i> (<i>Lanoxin</i>\n<tm tmtype=\"reg\"/>), give intermittently in Glucose 5% or Sodium chloride 0.9%; dilute to a concentration of not more than 62.5&#8239;micrograms/mL. To be given over at least 2 hours.</p>"
+            },
+            {
+                "type": "directionsForAdministration",
+                "specificity": {
+                    "textContent": "With oral use",
+                    "html": "With <ph outputclass=\"route\">oral</ph> use",
+                    "routes": [
+                        "oral"
+                    ]
+                },
+                "textContent": "For oral administration, oral solution must not be diluted.",
+                "html": "<p>For <i>oral</i> administration, oral solution must <b>not</b> be diluted.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patient counselling is advised for digoxin elixir (use pipette).",
+                "html": "<p>Patient counselling is advised for digoxin elixir (use pipette).</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ],
+        "availableForms": {
+            "before": "Forms available from special-order manufacturers include",
+            "forms": [
+                "solution for injection",
+                "oral suspension",
+                "oral solution"
+            ]
+        }
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP76111",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76256",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76180",
+                "label": "Solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP98618",
+                "label": "Prescribing for the elderly",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78138",
+                "label": "Heart failure",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78203",
+                "label": "Cardiac glycosides",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78214",
+                "label": "Stoma care",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78221",
+                "label": "Nausea and labyrinth disorders",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78291",
+                "label": "Arrhythmias",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_480",
+                "label": "Digoxin",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP76111",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76256",
+                "label": "Oral solution",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP76180",
+                "label": "Solution for infusion",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

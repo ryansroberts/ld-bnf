@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP98471\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/movicol-liquid\" basename=\"movicol-liquid\" title=\"Movicol liquid\">\n<title>Movicol<tm tmtype=\"reg\"/> liquid</title>\n<topic id=\"PHP98486\" outputclass=\"indicationsAndDose\" rev=\"1.26\" parent=\"/clinical-medicinal-product-information/movicol-liquid\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Chronic constipation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>25&#8239;mL 1&#8211;3 times a day usually for up to 2 weeks; maintenance 25&#8239;mL 1&#8211;2 times a day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>25&#8239;mL 1&#8211;3 times a day usually for up to 2 weeks; maintenance 25&#8239;mL 1&#8211;2 times a day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98525\" outputclass=\"directionsForAdministration\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/movicol-liquid\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>25&#8239;mL of oral concentrate to be diluted with half a glass (approx. 100&#8239;mL) of water. After dilution the solution should be discarded if unused after 24 hours.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98550\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/movicol-liquid\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>25&#8239;mL of oral concentrate when diluted with 100&#8239;mL water provides K<sup>+</sup> 5.4&#8239;mmol/litre.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP98534\" outputclass=\"patientAndCarerAdvice\" rev=\"1.12\" parent=\"/clinical-medicinal-product-information/movicol-liquid\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be counselled on how to take <i>Movicol</i>\n<tm tmtype=\"reg\"/> oral solution.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP98471",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/movicol-liquid",
+    "basename": "movicol-liquid",
+    "title": "Movicol liquid",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Chronic constipation",
+                        "html": "Chronic constipation"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "25 mL 1&#8211;3 times a day usually for up to 2 weeks; maintenance 25 mL 1&#8211;2 times a day.",
+                        "html": "<p>25&#8239;mL 1&#8211;3 times a day usually for up to 2 weeks; maintenance 25&#8239;mL 1&#8211;2 times a day.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "25 mL 1&#8211;3 times a day usually for up to 2 weeks; maintenance 25 mL 1&#8211;2 times a day.",
+                        "html": "<p>25&#8239;mL 1&#8211;3 times a day usually for up to 2 weeks; maintenance 25&#8239;mL 1&#8211;2 times a day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "25 mL of oral concentrate to be diluted with half a glass (approx. 100 mL) of water. After dilution the solution should be discarded if unused after 24 hours.",
+                "html": "<p>25&#8239;mL of oral concentrate to be diluted with half a glass (approx. 100&#8239;mL) of water. After dilution the solution should be discarded if unused after 24 hours.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "25 mL of oral concentrate when diluted with 100 mL water provides K+ 5.4 mmol/litre.",
+                "html": "<p>25&#8239;mL of oral concentrate when diluted with 100&#8239;mL water provides K<sup>+</sup> 5.4&#8239;mmol/litre.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be counselled on how to take Movicol oral solution.",
+                "html": "<p>Patients or carers should be counselled on how to take <i>Movicol</i>\n<tm tmtype=\"reg\"/> oral solution.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

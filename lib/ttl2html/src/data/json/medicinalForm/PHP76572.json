@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP76572\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ribavirin/powder-for-nebuliser-solution\" basename=\"powder-for-nebuliser-solution\" title=\"Powder for nebuliser solution\">\n<title>Powder for nebuliser solution</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">  </section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Virazole 6g powder for nebuliser solution vials <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4780111000001106</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Ribavirin 6&#8239;gram</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">3</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;349.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3904\" title=\"RIBAVIRIN\" namespace=\"/drugs/ribavirin\">RIBAVIRIN</xref>\n</parents>\n</topic>",
+    "id": "PHP76572",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ribavirin/powder-for-nebuliser-solution",
+    "basename": "powder-for-nebuliser-solution",
+    "form": "Powder for nebuliser solution",
+    "products": [
+        {
+            "title": "Virazole 6g powder for nebuliser solution vials (Meda Pharmaceuticals Ltd) ",
+            "header": "Virazole 6g powder for nebuliser solution vials <ph outputclass=\"manufacturer\">(Meda Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Meda Pharmaceuticals Ltd)",
+            "name": "Virazole 6g powder for nebuliser solution vials",
+            "ampid": "4780111000001106",
+            "strengthOfActiveIngredient": "Ribavirin 6 gram",
+            "packs": [
+                {
+                    "textContent": " 3 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">3</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "3",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;349.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;349.00</ph>",
+                        "nhsIndicativePrice": "&#163;349.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3904",
+        "label": "RIBAVIRIN"
+    }
+}

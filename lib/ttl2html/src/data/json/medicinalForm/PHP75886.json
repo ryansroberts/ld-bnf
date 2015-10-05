@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP75886\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/mupirocin/cream\" basename=\"cream\" title=\"Cream\">\n<title>Cream</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzyl alcohol, cetostearyl alcohol (including cetyl and stearyl alcohol)</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Bactroban 2% cream <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">2908011000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Mupirocin (as Mupirocin calcium) 20&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.26</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;5.26</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7973\" title=\"MUPIROCIN\" namespace=\"/drugs/mupirocin\">MUPIROCIN</xref>\n</parents>\n</topic>",
+    "id": "PHP75886",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/mupirocin/cream",
+    "basename": "cream",
+    "form": "Cream",
+    "excipients": [
+        "Benzyl alcohol",
+        "cetostearyl alcohol (including cetyl and stearyl alcohol)"
+    ],
+    "products": [
+        {
+            "title": "Bactroban 2% cream (GlaxoSmithKline UK Ltd) ",
+            "header": "Bactroban 2% cream <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Bactroban 2% cream",
+            "ampid": "2908011000001109",
+            "strengthOfActiveIngredient": "Mupirocin (as Mupirocin calcium) 20 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 15 gram POM ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.26 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.26</ph>",
+                        "nhsIndicativePrice": "&#163;5.26"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;5.26 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;5.26</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;5.26"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7973",
+        "label": "MUPIROCIN"
+    }
+}

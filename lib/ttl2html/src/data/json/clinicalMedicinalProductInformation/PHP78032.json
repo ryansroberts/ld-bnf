@@ -1,0 +1,93 @@
+{
+    "xml": "<topic id=\"PHP78032\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/valni-xl\" basename=\"valni-xl\" title=\"Valni XL\">\n<title>Valni<tm tmtype=\"reg\"/> XL</title>\n<topic id=\"PHP63847\" outputclass=\"indicationsAndDose\" rev=\"1.24\" parent=\"/clinical-medicinal-product-information/valni-xl\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Severe hypertension</p>\n<p outputclass=\"therapeuticIndication\">Prophylaxis of angina</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>30&#8239;mg once daily, increased if necessary up to 90&#8239;mg once daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP63939\" outputclass=\"cautions\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/valni-xl\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Decreased lumen diameter of gastro-intestinal tract</ph>; <ph outputclass=\"caution\">history of gastro-intestinal obstruction</ph>; <ph outputclass=\"caution\">history of oesophageal obstruction</ph>; <ph outputclass=\"caution\">ileostomy after proctocolectomy</ph>; <ph outputclass=\"caution\">inflammatory bowel disease</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p>Dose form not appropriate for use where there is a history of oesophageal or gastro-intestinal obstruction, decreased lumen diameter of the gastro-intestinal tract, inflammatory bowel disease, or ileostomy after proctocolectomy. </p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP63813\" outputclass=\"hepaticImpairment\" parent=\"/clinical-medicinal-product-information/valni-xl\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Dose form not appropriate.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78032",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/valni-xl",
+    "basename": "valni-xl",
+    "title": "Valni XL",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Severe hypertension",
+                        "html": "Severe hypertension"
+                    },
+                    {
+                        "textContent": "Prophylaxis of angina",
+                        "html": "Prophylaxis of angina"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "30 mg once daily, increased if necessary up to 90 mg once daily.",
+                        "html": "<p>30&#8239;mg once daily, increased if necessary up to 90&#8239;mg once daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Decreased lumen diameter of gastro-intestinal tract",
+                "html": "Decreased lumen diameter of gastro-intestinal tract"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of gastro-intestinal obstruction",
+                "html": "history of gastro-intestinal obstruction"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of oesophageal obstruction",
+                "html": "history of oesophageal obstruction"
+            },
+            {
+                "type": "cautions",
+                "textContent": "ileostomy after proctocolectomy",
+                "html": "ileostomy after proctocolectomy"
+            },
+            {
+                "type": "cautions",
+                "textContent": "inflammatory bowel disease",
+                "html": "inflammatory bowel disease"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "textContent": "Dose form not appropriate for use where there is a history of oesophageal or gastro-intestinal obstruction, decreased lumen diameter of the gastro-intestinal tract, inflammatory bowel disease, or ileostomy after proctocolectomy.",
+                "html": "<p>Dose form not appropriate for use where there is a history of oesophageal or gastro-intestinal obstruction, decreased lumen diameter of the gastro-intestinal tract, inflammatory bowel disease, or ileostomy after proctocolectomy. </p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Dose form not appropriate.",
+                "html": "<p>Dose form not appropriate.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

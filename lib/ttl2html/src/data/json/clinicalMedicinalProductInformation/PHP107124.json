@@ -1,0 +1,53 @@
+{
+    "xml": "<topic id=\"PHP107124\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/recivit-sublingual-tablets\" basename=\"recivit-sublingual-tablets\" title=\"Recivit sublingual tablets\">\n<title>Recivit<tm tmtype=\"reg\"/> sublingual tablets</title>\n<topic id=\"PHP107134\" outputclass=\"indicationsAndDose\" rev=\"1.19\" parent=\"/clinical-medicinal-product-information/recivit-sublingual-tablets\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Breakthrough pain in patients receiving opioid therapy for chronic cancer pain</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 133&#8239;micrograms, then 133&#8239;micrograms after 15&#8211;30&#8239;minutes (max. per dose 800&#8239;micrograms), dose to be repeated only if necessary. Consult product literature for dose adjustments, no more than 2 dose units, 15-30 minutes apart, for each pain episode, maximum of 800&#8239;micrograms per episode of breakthrough pain, if more than 4 episodes of breakthrough pain each day, adjust background analgesia; maximum 4&#8239;doses per day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107175\" outputclass=\"patientAndCarerAdvice\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/recivit-sublingual-tablets\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be advised not to eat or drink until the tablet is completely dissolved; after 30 minutes, if any remnants remain, they may be swallowed. In patients with a dry mouth, the buccal mucosa may be moistened with water before administration of tablet.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP107124",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/recivit-sublingual-tablets",
+    "basename": "recivit-sublingual-tablets",
+    "title": "Recivit sublingual tablets",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Breakthrough pain in patients receiving opioid therapy for chronic cancer pain",
+                        "html": "Breakthrough pain in patients receiving opioid therapy for chronic cancer pain"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 133 micrograms, then 133 micrograms after 15&#8211;30 minutes (max. per dose 800 micrograms), dose to be repeated only if necessary. Consult product literature for dose adjustments, no more than 2 dose units, 15-30 minutes apart, for each pain episode, maximum of 800 micrograms per episode of breakthrough pain, if more than 4 episodes of breakthrough pain each day, adjust background analgesia; maximum 4 doses per day.",
+                        "html": "<p>Initially 133&#8239;micrograms, then 133&#8239;micrograms after 15&#8211;30&#8239;minutes (max. per dose 800&#8239;micrograms), dose to be repeated only if necessary. Consult product literature for dose adjustments, no more than 2 dose units, 15-30 minutes apart, for each pain episode, maximum of 800&#8239;micrograms per episode of breakthrough pain, if more than 4 episodes of breakthrough pain each day, adjust background analgesia; maximum 4&#8239;doses per day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be advised not to eat or drink until the tablet is completely dissolved; after 30 minutes, if any remnants remain, they may be swallowed. In patients with a dry mouth, the buccal mucosa may be moistened with water before administration of tablet.",
+                "html": "<p>Patients should be advised not to eat or drink until the tablet is completely dissolved; after 30 minutes, if any remnants remain, they may be swallowed. In patients with a dry mouth, the buccal mucosa may be moistened with water before administration of tablet.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

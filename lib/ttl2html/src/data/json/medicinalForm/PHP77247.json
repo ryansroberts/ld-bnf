@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP77247\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ketoprofen/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Tiloket 50mg capsules <ph outputclass=\"manufacturer\">(Tillomed Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">7498011000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ketoprofen 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.99</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">112</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;17.20</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;15.14</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6473\" title=\"KETOPROFEN\" namespace=\"/drugs/ketoprofen\">KETOPROFEN</xref>\n</parents>\n</topic>",
+    "id": "PHP77247",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ketoprofen/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Tiloket 50mg capsules (Tillomed Laboratories Ltd) ",
+            "header": "Tiloket 50mg capsules <ph outputclass=\"manufacturer\">(Tillomed Laboratories Ltd)</ph>",
+            "manufacturer": "(Tillomed Laboratories Ltd)",
+            "name": "Tiloket 50mg capsules",
+            "ampid": "7498011000001106",
+            "strengthOfActiveIngredient": "Ketoprofen 50 mg",
+            "packs": [
+                {
+                    "textContent": " 28 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.99 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.99</ph>",
+                        "nhsIndicativePrice": "&#163;3.99"
+                    }
+                },
+                {
+                    "textContent": " 112 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">112</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "112",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;17.20 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;17.20</ph>",
+                        "nhsIndicativePrice": "&#163;17.20"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;15.14 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;15.14</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;15.14"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6473",
+        "label": "KETOPROFEN"
+    }
+}

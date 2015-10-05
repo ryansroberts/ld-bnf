@@ -1,0 +1,43 @@
+{
+    "xml": "<topic id=\"PHP106693\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/phoslo-capsules\" basename=\"phoslo-capsules\" title=\"PhosLo capsules\">\n    <title>PhosLo<tm tmtype=\"reg\"/> capsules</title>\n    <topic id=\"PHP106858\" outputclass=\"indicationsAndDose\">\n     <title>Indications and dose</title>\n     <body>\n      <section outputclass=\"indicationAndDoseGroup\"><sectiondiv outputclass=\"therapeuticIndications\"><p outputclass=\"therapeuticIndication\">Hyperphosphataemia</p>\n       </sectiondiv><p outputclass=\"routesOfAdministration\">By mouth</p><ul outputclass=\"patientGroups\">\n        <li outputclass=\"patientGroup adult\"><p>Adult</p><p>Initially 2&#8239;capsules, to be taken with\n          each meal, dose to be adjusted according to serum-phosphate concentration, usual dose\n          3&#8211;4&#8239;capsules, to be taken with each meal.</p>\n        </li>\n       </ul>\n      </section>\n     </body>\n    </topic>\n    <topic id=\"PHP106876\" outputclass=\"patientAndCarerAdvice\">\n     <title>Patient and carer advice</title>\n     <body>\n      <section outputclass=\"generalPatientAdvice\"><sectiondiv><p>Patients or carers should be given\n         advice on how to administer <i>PhosLo</i><tm tmtype=\"reg\"/> tablets.</p>\n       </sectiondiv>\n      </section>\n     </body>\n    </topic>\n   <parents><xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\">Clinical medicinal product information</xref></parents></topic>",
+    "id": "PHP106693",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/phoslo-capsules",
+    "basename": "phoslo-capsules",
+    "title": "PhosLo capsules",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Hyperphosphataemia",
+                        "html": "Hyperphosphataemia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 2 capsules, to be taken with each meal, dose to be adjusted according to serum-phosphate concentration, usual dose 3&#8211;4 capsules, to be taken with each meal.",
+                        "html": "<p>Initially 2&#8239;capsules, to be taken with each meal, dose to be adjusted according to serum-phosphate concentration, usual dose 3&#8211;4&#8239;capsules, to be taken with each meal.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer PhosLo tablets.",
+                "html": "<p>Patients or carers should be given\n         advice on how to administer <i>PhosLo</i><tm tmtype=\"reg\"/> tablets.</p>"
+            }
+        ]
+    }
+}

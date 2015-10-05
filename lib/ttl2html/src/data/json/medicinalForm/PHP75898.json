@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP75898\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/minocycline/dental-gel\" basename=\"dental-gel\" title=\"Dental gel\">\n<title>Dental gel</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Dentomycin 2% dental gel <ph outputclass=\"manufacturer\">(Henry Schein Ltd)</ph>\n</title>\n<data name=\"ampid\">4576511000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Minocycline (as Minocycline hydrochloride) 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">dose</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3453\" title=\"MINOCYCLINE\" namespace=\"/drugs/minocycline\">MINOCYCLINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75898",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/minocycline/dental-gel",
+    "basename": "dental-gel",
+    "form": "Dental gel",
+    "products": [
+        {
+            "title": "Dentomycin 2% dental gel (Henry Schein Ltd) ",
+            "header": "Dentomycin 2% dental gel <ph outputclass=\"manufacturer\">(Henry Schein Ltd)</ph>",
+            "manufacturer": "(Henry Schein Ltd)",
+            "name": "Dentomycin 2% dental gel",
+            "ampid": "4576511000001108",
+            "strengthOfActiveIngredient": "Minocycline (as Minocycline hydrochloride) 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 dose POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">dose</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "dose",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3453",
+        "label": "MINOCYCLINE"
+    }
+}

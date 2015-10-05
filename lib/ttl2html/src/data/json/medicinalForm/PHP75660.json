@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP75660\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dimeticone/cutaneous-spray-solution\" basename=\"cutaneous-spray-solution\" title=\"Cutaneous spray solution\">\n<title>Cutaneous spray solution</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Hedrin 4% spray <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">18564811000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dimeticone 40&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">120</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.13</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8072\" title=\"DIMETICONE\" namespace=\"/drugs/dimeticone\">DIMETICONE</xref>\n</parents>\n</topic>",
+    "id": "PHP75660",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dimeticone/cutaneous-spray-solution",
+    "basename": "cutaneous-spray-solution",
+    "form": "Cutaneous spray solution",
+    "products": [
+        {
+            "title": "Hedrin 4% spray (Thornton & Ross Ltd) ",
+            "header": "Hedrin 4% spray <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Hedrin 4% spray",
+            "ampid": "18564811000001108",
+            "strengthOfActiveIngredient": "Dimeticone 40 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 120 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">120</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "120",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.13 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.13</ph>",
+                        "nhsIndicativePrice": "&#163;7.13"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8072",
+        "label": "DIMETICONE"
+    }
+}

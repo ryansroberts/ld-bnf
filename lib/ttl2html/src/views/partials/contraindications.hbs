@@ -1,0 +1,7 @@
+{{#if contraindications.contraindications }}
+  <ul>
+  {{#each contraindications.contraindications as |contraindication| }}
+    <li>{{#if contraindication.specificity }}<strong>{{ contraindication.specificity.patientType }}:</strong> {{/if}}{{{ contraindication.html }}}</li>
+  {{/each }}
+  </ul>
+{{/if }}

@@ -1,0 +1,42 @@
+{
+    "xml": "<topic id=\"PHP107560\" outputclass=\"drug\" rev=\"1.3\" type=\"drug\" namespace=\"/drugs/grapefruit-juice\" basename=\"grapefruit-juice\" title=\"GRAPEFRUIT JUICE\">\n<title>GRAPEFRUIT JUICE</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_829\" namespace=\"/interactions/list-of-drug-interactions/grapefruit-juice\">Grapefruit Juice</xref>\n</p>\r\n</body>\n<topic id=\"PHP107624\" outputclass=\"drugAction\" rev=\"1.8\" parent=\"/drugs/grapefruit-juice\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Grapefruit juice is a food substance included only for its potential to interact with drugs.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_829\" namespace=\"/interactions/list-of-drug-interactions/grapefruit-juice\" title=\"Grapefruit Juice\" count=\"1\" rel=\"link\">Grapefruit Juice</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n</links>\n</topic>",
+    "id": "PHP107560",
+    "outputclass": "drug",
+    "rev": "1.3",
+    "type": "drug",
+    "namespace": "/drugs/grapefruit-juice",
+    "basename": "grapefruit-juice",
+    "title": "GRAPEFRUIT JUICE",
+    "interactants": [
+        {
+            "id": "bnf_int_829",
+            "label": "Grapefruit Juice"
+        }
+    ],
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Grapefruit juice is a food substance included only for its potential to interact with drugs.",
+                "html": "<p>Grapefruit juice is a food substance included only for its potential to interact with drugs.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_829",
+                "label": "Grapefruit Juice",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ]
+    }
+}

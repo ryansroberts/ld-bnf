@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP81539\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/varivax\" basename=\"varivax\" title=\"Varivax\">\n<title>Varivax<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82202\" outputclass=\"indicationsAndDose\" rev=\"1.40\" parent=\"/clinical-medicinal-product-information/varivax\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of varicella infection (chickenpox)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;12 years</p>\n<p>0.5&#8239;mL for 2 doses, interval of at least 4 weeks between each dose, to be administered into the deltoid region (or higher anterolateral thigh).</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 13&#8211;17 years</p>\n<p>0.5&#8239;mL every 4&#8211;8&#8239;weeks for 2 doses, to be administered preferably into the deltoid region (or higher anterolateral thigh in children).</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>0.5&#8239;mL every 4&#8211;8&#8239;weeks for 2 doses, to be administered preferably into the deltoid region.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Prevention of varicella infection (chickenpox) in children with asymptomatic HIV infection</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By subcutaneous injection or by intramuscular injection</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1&#8211;12 years</p>\n<p>0.5&#8239;mL every 12&#8239;weeks for 2 doses, to be administered into the deltoid region (or higher anterolateral thigh).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81539",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/varivax",
+    "basename": "varivax",
+    "title": "Varivax",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of varicella infection (chickenpox)",
+                        "html": "Prevention of varicella infection (chickenpox)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by intramuscular injection",
+                    "html": "By subcutaneous injection or by intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "0.5 mL for 2 doses, interval of at least 4 weeks between each dose, to be administered into the deltoid region (or higher anterolateral thigh).",
+                        "html": "<p>0.5&#8239;mL for 2 doses, interval of at least 4 weeks between each dose, to be administered into the deltoid region (or higher anterolateral thigh).</p>",
+                        "ageGroup": "1&#8211;12 years"
+                    },
+                    {
+                        "textContent": "0.5 mL every 4&#8211;8 weeks for 2 doses, to be administered preferably into the deltoid region (or higher anterolateral thigh in children).",
+                        "html": "<p>0.5&#8239;mL every 4&#8211;8&#8239;weeks for 2 doses, to be administered preferably into the deltoid region (or higher anterolateral thigh in children).</p>",
+                        "ageGroup": "13&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "0.5 mL every 4&#8211;8 weeks for 2 doses, to be administered preferably into the deltoid region.",
+                        "html": "<p>0.5&#8239;mL every 4&#8211;8&#8239;weeks for 2 doses, to be administered preferably into the deltoid region.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Prevention of varicella infection (chickenpox) in children with asymptomatic HIV infection",
+                        "html": "Prevention of varicella infection (chickenpox) in children with asymptomatic HIV infection"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "subcutaneous injection or intramuscular injection"
+                    ],
+                    "textContent": "By subcutaneous injection or by intramuscular injection",
+                    "html": "By subcutaneous injection or by intramuscular injection"
+                },
+                "child": [
+                    {
+                        "textContent": "0.5 mL every 12 weeks for 2 doses, to be administered into the deltoid region (or higher anterolateral thigh).",
+                        "html": "<p>0.5&#8239;mL every 12&#8239;weeks for 2 doses, to be administered into the deltoid region (or higher anterolateral thigh).</p>",
+                        "ageGroup": "1&#8211;12 years"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

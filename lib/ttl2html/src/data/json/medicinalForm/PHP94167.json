@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP94167\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/calcium-chloride/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Calcium chloride 200micromol/5ml solution vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">10976611000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calcium chloride 40&#8239;micromol per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Calcium chloride 40micromol/1ml solution vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">10976011000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calcium chloride 40&#8239;micromol per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Calcium chloride 80micromol/2ml solution vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">10976311000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calcium chloride 40&#8239;micromol per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP93603\" title=\"CALCIUM CHLORIDE\" namespace=\"/drugs/calcium-chloride\">CALCIUM CHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP94167",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/calcium-chloride/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "products": [
+        {
+            "title": "Calcium chloride 200micromol/5ml solution vials (Baxter Healthcare Ltd) ",
+            "header": "Calcium chloride 200micromol/5ml solution vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Calcium chloride 200micromol/5ml solution vials",
+            "ampid": "10976611000001103",
+            "strengthOfActiveIngredient": "Calcium chloride 40 micromol per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Calcium chloride 40micromol/1ml solution vials (Baxter Healthcare Ltd) ",
+            "header": "Calcium chloride 40micromol/1ml solution vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Calcium chloride 40micromol/1ml solution vials",
+            "ampid": "10976011000001105",
+            "strengthOfActiveIngredient": "Calcium chloride 40 micromol per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Calcium chloride 80micromol/2ml solution vials (Baxter Healthcare Ltd) ",
+            "header": "Calcium chloride 80micromol/2ml solution vials <ph outputclass=\"manufacturer\">(Baxter Healthcare Ltd)</ph>",
+            "manufacturer": "(Baxter Healthcare Ltd)",
+            "name": "Calcium chloride 80micromol/2ml solution vials",
+            "ampid": "10976311000001108",
+            "strengthOfActiveIngredient": "Calcium chloride 40 micromol per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP93603",
+        "label": "CALCIUM CHLORIDE"
+    }
+}

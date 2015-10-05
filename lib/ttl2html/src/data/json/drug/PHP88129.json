@@ -1,0 +1,116 @@
+{
+    "xml": "<topic id=\"PHP88129\" outputclass=\"drug\" rev=\"1.26\" type=\"drug\" namespace=\"/drugs/co-magaldrox\" basename=\"co-magaldrox\" title=\"CO-MAGALDROX\">\n<title>CO-MAGALDROX</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_113\" namespace=\"/interactions/list-of-drug-interactions/antacids/magnesium-salts-oral\">Magnesium Salts (oral)</xref>, <xref format=\"dita\" href=\"#bnf_int_111\" namespace=\"/interactions/list-of-drug-interactions/antacids/aluminium-hydroxide\">Aluminium Hydroxide</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP287\" namespace=\"/drugs/aluminium-hydroxide\">aluminium hydroxide</xref>, <xref format=\"dita\" href=\"#PHP104230\" namespace=\"/drugs/magnesium-hydroxide\">magnesium hydroxide</xref>.</p>\n<data name=\"vtmid\">418373003</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_876869900\" title=\"Antacids\">Antacids</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP92072\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.7\" parent=\"/drugs/co-magaldrox\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Co-magaldrox is a mixture of aluminium hydroxide and magnesium hydroxide; the proportions are expressed in the form x/y where x and y are the strengths in milligrams per unit dose of magnesium hydroxide and aluminium hydroxide respectively.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88129-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/co-magaldrox\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92474\" title=\"Oral suspension\" namespace=\"/drugs/co-magaldrox/oral-suspension\">Oral suspension</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_113\" namespace=\"/interactions/list-of-drug-interactions/antacids/magnesium-salts-oral\" title=\"Magnesium Salts (oral)\" count=\"1\" rel=\"link\">Magnesium Salts (oral)</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_111\" namespace=\"/interactions/list-of-drug-interactions/antacids/aluminium-hydroxide\" title=\"Aluminium Hydroxide\" count=\"1\" rel=\"link\">Aluminium Hydroxide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP287\" namespace=\"/drugs/aluminium-hydroxide\" title=\"ALUMINIUM HYDROXIDE\" count=\"1\" rel=\"link\">ALUMINIUM HYDROXIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP104230\" namespace=\"/drugs/magnesium-hydroxide\" title=\"MAGNESIUM HYDROXIDE\" count=\"1\" rel=\"link\">MAGNESIUM HYDROXIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92474\" namespace=\"/drugs/co-magaldrox/oral-suspension\" title=\"Oral suspension\" count=\"1\" rel=\"link\">Oral suspension</xref>\n</links>\n</topic>",
+    "id": "PHP88129",
+    "outputclass": "drug",
+    "rev": "1.26",
+    "type": "drug",
+    "namespace": "/drugs/co-magaldrox",
+    "basename": "co-magaldrox",
+    "title": "CO-MAGALDROX",
+    "interactants": [
+        {
+            "id": "bnf_int_113",
+            "label": "Magnesium Salts (oral)"
+        },
+        {
+            "id": "bnf_int_111",
+            "label": "Aluminium Hydroxide"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP287",
+            "label": "aluminium hydroxide"
+        },
+        {
+            "id": "PHP104230",
+            "label": "magnesium hydroxide"
+        }
+    ],
+    "vtmid": "418373003",
+    "drugClassification": [
+        "Antacids"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Co-magaldrox is a mixture of aluminium hydroxide and magnesium hydroxide; the proportions are expressed in the form x/y where x and y are the strengths in milligrams per unit dose of magnesium hydroxide and aluminium hydroxide respectively.",
+                "html": "<p>Co-magaldrox is a mixture of aluminium hydroxide and magnesium hydroxide; the proportions are expressed in the form x/y where x and y are the strengths in milligrams per unit dose of magnesium hydroxide and aluminium hydroxide respectively.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92474",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_113",
+                "label": "Magnesium Salts (oral)",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_111",
+                "label": "Aluminium Hydroxide",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP287",
+                "label": "ALUMINIUM HYDROXIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP104230",
+                "label": "MAGNESIUM HYDROXIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92474",
+                "label": "Oral suspension",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

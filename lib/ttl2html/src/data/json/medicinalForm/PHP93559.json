@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP93559\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/potassium-chloride-with-rice-powder-sodium-chloride-and-sodium-citrate/powder\" basename=\"powder\" title=\"Powder\">\n<title>Powder</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Aspartame</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dioralyte Relief oral powder sachets blackcurrant <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">3265811000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Potassium chloride 300&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Rice powder pre-cooked 6&#8239;gram</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium chloride 350&#8239;mg</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium citrate 580&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">20</ph>\n<ph outputclass=\"unitOfMeasure\">sachet</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;7.13</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92548\" title=\"POTASSIUM CHLORIDE WITH RICE POWDER, SODIUM CHLORIDE AND SODIUM CITRATE\" namespace=\"/drugs/potassium-chloride-with-rice-powder-sodium-chloride-and-sodium-citrate\">POTASSIUM CHLORIDE WITH RICE POWDER, SODIUM CHLORIDE AND SODIUM CITRATE</xref>\n</parents>\n</topic>",
+    "id": "PHP93559",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/potassium-chloride-with-rice-powder-sodium-chloride-and-sodium-citrate/powder",
+    "basename": "powder",
+    "form": "Powder",
+    "excipients": [
+        "Aspartame"
+    ],
+    "products": [
+        {
+            "title": "Dioralyte Relief oral powder sachets blackcurrant (Sanofi) ",
+            "header": "Dioralyte Relief oral powder sachets blackcurrant <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Dioralyte Relief oral powder sachets blackcurrant",
+            "ampid": "3265811000001102",
+            "strengthOfActiveIngredient": "Sodium citrate 580 mg",
+            "packs": [
+                {
+                    "textContent": " 20 sachet P ",
+                    "html": "<ph outputclass=\"packSize\">20</ph> <ph outputclass=\"unitOfMeasure\">sachet</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "20",
+                    "unitOfMeasure": "sachet",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;7.13 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;7.13</ph>",
+                        "nhsIndicativePrice": "&#163;7.13"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP92548",
+        "label": "POTASSIUM CHLORIDE WITH RICE POWDER, SODIUM CHLORIDE AND SODIUM CITRATE"
+    }
+}

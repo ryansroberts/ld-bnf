@@ -1,0 +1,35 @@
+{
+    "xml": "<topic id=\"PHP77847\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/colecalciferol/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>DLux 400 oral spray <ph outputclass=\"manufacturer\">(BetterYou Ltd)</ph>\n</title>\n<data name=\"ampid\">20091911000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Colecalciferol 400&#8239;unit per 1&#8239;dose</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">15</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6244\" title=\"COLECALCIFEROL\" namespace=\"/drugs/colecalciferol\">COLECALCIFEROL</xref>\n</parents>\n</topic>",
+    "id": "PHP77847",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/colecalciferol/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "DLux 400 oral spray (BetterYou Ltd) ",
+            "header": "DLux 400 oral spray <ph outputclass=\"manufacturer\">(BetterYou Ltd)</ph>",
+            "manufacturer": "(BetterYou Ltd)",
+            "name": "DLux 400 oral spray",
+            "ampid": "20091911000001102",
+            "strengthOfActiveIngredient": "Colecalciferol 400 unit per 1 dose",
+            "packs": [
+                {
+                    "textContent": " 15 ml ",
+                    "html": "<ph outputclass=\"packSize\">15</ph> <ph outputclass=\"unitOfMeasure\">ml</ph>",
+                    "packSize": "15",
+                    "unitOfMeasure": "ml",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6244",
+        "label": "COLECALCIFEROL"
+    }
+}

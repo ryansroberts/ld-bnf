@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP77147\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/didanosine/chewable-tablet\" basename=\"chewable-tablet\" title=\"Chewable tablet\">\n<title>Chewable tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food </p>\n</section>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Aspartame</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Videx 25mg chewable dispersible tablets <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">4456511000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Didanosine 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;25.06</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3761\" title=\"DIDANOSINE\" namespace=\"/drugs/didanosine\">DIDANOSINE</xref>\n</parents>\n</topic>",
+    "id": "PHP77147",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/didanosine/chewable-tablet",
+    "basename": "chewable-tablet",
+    "form": "Chewable tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "23",
+            "textContent": "Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food",
+            "html": "Label <ph outputclass=\"labelNumber\">23</ph> - Take this medicine when your stomach is empty. This means an hour before food or 2 hours after food"
+        }
+    ],
+    "excipients": [
+        "Aspartame"
+    ],
+    "products": [
+        {
+            "title": "Videx 25mg chewable dispersible tablets (Bristol-Myers Squibb Pharmaceuticals Ltd) ",
+            "header": "Videx 25mg chewable dispersible tablets <ph outputclass=\"manufacturer\">(Bristol-Myers Squibb Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "name": "Videx 25mg chewable dispersible tablets",
+            "ampid": "4456511000001100",
+            "strengthOfActiveIngredient": "Didanosine 25 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;25.06 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;25.06</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;25.06",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3761",
+        "label": "DIDANOSINE"
+    }
+}

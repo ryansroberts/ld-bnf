@@ -1,0 +1,37 @@
+{
+    "xml": "<topic id=\"PHP80918\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/exelon-patches\" basename=\"exelon-patches\" title=\"Exelon patches\">\n<title>Exelon<tm tmtype=\"reg\"/> patches</title>\n<topic id=\"PHP81252\" outputclass=\"patientAndCarerAdvice\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/exelon-patches\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Advise patients and carers of patch administration instructions, particularly to remove the previous day's patch before applying the new patch&#8212;consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP81254\" outputclass=\"nationalFunding\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/exelon-patches\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (October 2007) that <i>Exelon</i>\n<tm tmtype=\"reg\"/> patches should be restricted for use in patients with moderately severe Alzheimer&#8217;s disease under the conditions of the NICE guidance (September 2007) and when a transdermal patch is an appropriate choice of formulation.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80918",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/exelon-patches",
+    "basename": "exelon-patches",
+    "title": "Exelon patches",
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Advise patients and carers of patch administration instructions, particularly to remove the previous day's patch before applying the new patch&#8212;consult product literature.",
+                "html": "<p>Advise patients and carers of patch administration instructions, particularly to remove the previous day's patch before applying the new patch&#8212;consult product literature.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (October 2007) that Exelon patches should be restricted for use in patients with moderately severe Alzheimer&#8217;s disease under the conditions of the NICE guidance (September 2007) and when a transdermal patch is an appropriate choice of formulation.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (October 2007) that <i>Exelon</i> <tm tmtype=\"reg\"/> patches should be restricted for use in patients with moderately severe Alzheimer&#8217;s disease under the conditions of the NICE guidance (September 2007) and when a transdermal patch is an appropriate choice of formulation.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

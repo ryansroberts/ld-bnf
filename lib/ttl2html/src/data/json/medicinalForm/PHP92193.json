@@ -1,0 +1,75 @@
+{
+    "xml": "<topic id=\"PHP92193\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/potassium-bicarbonate-with-sodium-alginate/oral-suspension\" basename=\"oral-suspension\" title=\"Oral suspension\">\n<title>Oral suspension</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Potassium, sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Gaviscon Advance oral suspension aniseed <ph outputclass=\"manufacturer\">(Reckitt Benckiser Healthcare (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">3028011000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Potassium bicarbonate 20&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium alginate 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">150</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.82</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Gaviscon Advance oral suspension peppermint <ph outputclass=\"manufacturer\">(Reckitt Benckiser Healthcare (UK) Ltd)</ph>\n</title>\n<data name=\"ampid\">3027611000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Potassium bicarbonate 20&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Sodium alginate 100&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">300</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.82</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85549\" title=\"POTASSIUM BICARBONATE WITH SODIUM ALGINATE\" namespace=\"/drugs/potassium-bicarbonate-with-sodium-alginate\">POTASSIUM BICARBONATE WITH SODIUM ALGINATE</xref>\n</parents>\n</topic>",
+    "id": "PHP92193",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/potassium-bicarbonate-with-sodium-alginate/oral-suspension",
+    "basename": "oral-suspension",
+    "form": "Oral suspension",
+    "electrolytes": [
+        "Potassium",
+        "sodium"
+    ],
+    "products": [
+        {
+            "title": "Gaviscon Advance oral suspension aniseed (Reckitt Benckiser Healthcare (UK) Ltd) ",
+            "header": "Gaviscon Advance oral suspension aniseed <ph outputclass=\"manufacturer\">(Reckitt Benckiser Healthcare (UK) Ltd)</ph>",
+            "manufacturer": "(Reckitt Benckiser Healthcare (UK) Ltd)",
+            "name": "Gaviscon Advance oral suspension aniseed",
+            "ampid": "3028011000001101",
+            "strengthOfActiveIngredient": "Sodium alginate 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 150 ml P ",
+                    "html": "<ph outputclass=\"packSize\">150</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "150",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.23 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.23</ph>",
+                        "nhsIndicativePrice": "&#163;3.23"
+                    }
+                },
+                {
+                    "textContent": " 300 ml P ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.82 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.82</ph>",
+                        "nhsIndicativePrice": "&#163;5.82"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gaviscon Advance oral suspension peppermint (Reckitt Benckiser Healthcare (UK) Ltd) ",
+            "header": "Gaviscon Advance oral suspension peppermint <ph outputclass=\"manufacturer\">(Reckitt Benckiser Healthcare (UK) Ltd)</ph>",
+            "manufacturer": "(Reckitt Benckiser Healthcare (UK) Ltd)",
+            "name": "Gaviscon Advance oral suspension peppermint",
+            "ampid": "3027611000001109",
+            "strengthOfActiveIngredient": "Sodium alginate 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 300 ml P ",
+                    "html": "<ph outputclass=\"packSize\">300</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "300",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.82 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.82</ph>",
+                        "nhsIndicativePrice": "&#163;5.82"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85549",
+        "label": "POTASSIUM BICARBONATE WITH SODIUM ALGINATE"
+    }
+}

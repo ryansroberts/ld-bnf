@@ -1,0 +1,159 @@
+{
+    "xml": "<topic id=\"PHP101223\" outputclass=\"drug\" rev=\"1.15\" type=\"drug\" namespace=\"/drugs/canagliflozin-with-metformin\" basename=\"canagliflozin-with-metformin\" title=\"CANAGLIFLOZIN WITH METFORMIN\">\n<title>CANAGLIFLOZIN WITH METFORMIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_267\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/biguanides/metformin\">Metformin</xref>, <xref format=\"dita\" href=\"#bnf_int_1283\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/canagliflozin\">Canagliflozin</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP34485\" namespace=\"/drugs/canagliflozin\">canagliflozin</xref>, <xref format=\"dita\" href=\"#PHP4161\" namespace=\"/drugs/metformin-hydrochloride\">metformin hydrochloride</xref>.</p>\n<data name=\"vtmid\">28050111000001100</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_387708906\" title=\"Sodium glucose co-transporter 2 inhibitors\">Sodium glucose co-transporter 2 inhibitors</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_709441655\" title=\"Biguanides\">Biguanides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP101261\" outputclass=\"indicationsAndDose\" rev=\"1.21\" parent=\"/drugs/canagliflozin-with-metformin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Type 2 diabetes mellitus not controlled by metformin alone or by metformin in combination with insulin or other antidiabetic drugs</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet twice daily, dose based on patient's current metformin dose, daily dose of metformin should not exceed 2&#8239;g.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseAdjustments\">\n<title>Dose adjustments due to interactions</title>\n<sectiondiv>\n<p>Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101265\" outputclass=\"renalImpairment\" parent=\"/drugs/canagliflozin-with-metformin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid if eGFR less than 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101274\" outputclass=\"nationalFunding\" rev=\"1.11\" parent=\"/drugs/canagliflozin-with-metformin\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (December 2014) that <i>Vokanamet</i>\n<tm tmtype=\"reg\"/> is accepted for restricted use within NHS Scotland in patients with type 2 diabetes mellitus for whom a combination of canagliflozin and metformin is an appropriate choice of therapy.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101223-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/canagliflozin-with-metformin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101281\" title=\"Tablet\" namespace=\"/drugs/canagliflozin-with-metformin/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_267\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/biguanides/metformin\" title=\"Metformin\" count=\"1\" rel=\"link\">Metformin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1283\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/canagliflozin\" title=\"Canagliflozin\" count=\"1\" rel=\"link\">Canagliflozin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP34485\" namespace=\"/drugs/canagliflozin\" title=\"CANAGLIFLOZIN\" count=\"1\" rel=\"link\">CANAGLIFLOZIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4161\" namespace=\"/drugs/metformin-hydrochloride\" title=\"METFORMIN HYDROCHLORIDE\" count=\"1\" rel=\"link\">METFORMIN HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101281\" namespace=\"/drugs/canagliflozin-with-metformin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP101223",
+    "outputclass": "drug",
+    "rev": "1.15",
+    "type": "drug",
+    "namespace": "/drugs/canagliflozin-with-metformin",
+    "basename": "canagliflozin-with-metformin",
+    "title": "CANAGLIFLOZIN WITH METFORMIN",
+    "interactants": [
+        {
+            "id": "bnf_int_267",
+            "label": "Metformin"
+        },
+        {
+            "id": "bnf_int_1283",
+            "label": "Canagliflozin"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP34485",
+            "label": "canagliflozin"
+        },
+        {
+            "id": "PHP4161",
+            "label": "metformin hydrochloride"
+        }
+    ],
+    "vtmid": "28050111000001100",
+    "drugClassification": [
+        "Sodium glucose co-transporter 2 inhibitors",
+        "Biguanides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Type 2 diabetes mellitus not controlled by metformin alone or by metformin in combination with insulin or other antidiabetic drugs",
+                        "html": "Type 2 diabetes mellitus not controlled by metformin alone or by metformin in combination with insulin or other antidiabetic drugs"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet twice daily, dose based on patient's current metformin dose, daily dose of metformin should not exceed 2 g.",
+                        "html": "<p>1&#8239;tablet twice daily, dose based on patient's current metformin dose, daily dose of metformin should not exceed 2&#8239;g.</p>"
+                    }
+                ]
+            }
+        ],
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "title": "Dose adjustments due to interactions",
+                "textContent": "Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.",
+                "html": "<p>Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid if eGFR less than 60 mL/minute/1.73 m2.",
+                "html": "<p>Avoid if eGFR less than 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (December 2014) that Vokanamet is accepted for restricted use within NHS Scotland in patients with type 2 diabetes mellitus for whom a combination of canagliflozin and metformin is an appropriate choice of therapy.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (December 2014) that <i>Vokanamet</i> <tm tmtype=\"reg\"/> is accepted for restricted use within NHS Scotland in patients with type 2 diabetes mellitus for whom a combination of canagliflozin and metformin is an appropriate choice of therapy.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP101281",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_267",
+                "label": "Metformin",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_1283",
+                "label": "Canagliflozin",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP34485",
+                "label": "CANAGLIFLOZIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP4161",
+                "label": "METFORMIN HYDROCHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP101281",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

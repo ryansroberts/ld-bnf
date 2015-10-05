@@ -1,0 +1,133 @@
+{
+    "xml": "<topic id=\"PHP88014\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/brinzolamide-with-timolol\" basename=\"brinzolamide-with-timolol\" title=\"BRINZOLAMIDE WITH TIMOLOL\">\n<title>BRINZOLAMIDE WITH TIMOLOL</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_897\" namespace=\"/interactions/list-of-drug-interactions/diuretics/carbonic-anhydrase-inhibitors/brinzolamide\">Brinzolamide</xref>, <xref format=\"dita\" href=\"#bnf_int_456\" namespace=\"/interactions/list-of-drug-interactions/beta-blockers/timolol\">Timolol</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP7020\" namespace=\"/drugs/brinzolamide\">brinzolamide</xref>, <xref format=\"dita\" href=\"#PHP1025\" namespace=\"/drugs/timolol-maleate\">timolol maleate</xref>.</p>\n<data name=\"vtmid\">15465711000001103</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_974043057\" title=\"Carbonic anhydrase inhibitors\">Carbonic anhydrase inhibitors</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_613648210\" title=\"Beta-adrenoceptor blockers\">Beta-adrenoceptor blockers</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP88953\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/drugs/brinzolamide-with-timolol\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Raised intra-ocular pressure in open-angle glaucoma or ocular hypertension when beta-blocker alone not adequate</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the eye</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply twice daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP88014-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/brinzolamide-with-timolol\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92326\" title=\"Eye drops\" namespace=\"/drugs/brinzolamide-with-timolol/eye-drops\">Eye drops</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_897\" namespace=\"/interactions/list-of-drug-interactions/diuretics/carbonic-anhydrase-inhibitors/brinzolamide\" title=\"Brinzolamide\" count=\"1\" rel=\"link\">Brinzolamide</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_456\" namespace=\"/interactions/list-of-drug-interactions/beta-blockers/timolol\" title=\"Timolol\" count=\"1\" rel=\"link\">Timolol</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7020\" namespace=\"/drugs/brinzolamide\" title=\"BRINZOLAMIDE\" count=\"1\" rel=\"link\">BRINZOLAMIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP1025\" namespace=\"/drugs/timolol-maleate\" title=\"TIMOLOL MALEATE\" count=\"1\" rel=\"link\">TIMOLOL MALEATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92326\" namespace=\"/drugs/brinzolamide-with-timolol/eye-drops\" title=\"Eye drops\" count=\"1\" rel=\"link\">Eye drops</xref>\n</links>\n</topic>",
+    "id": "PHP88014",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/brinzolamide-with-timolol",
+    "basename": "brinzolamide-with-timolol",
+    "title": "BRINZOLAMIDE WITH TIMOLOL",
+    "interactants": [
+        {
+            "id": "bnf_int_897",
+            "label": "Brinzolamide"
+        },
+        {
+            "id": "bnf_int_456",
+            "label": "Timolol"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP7020",
+            "label": "brinzolamide"
+        },
+        {
+            "id": "PHP1025",
+            "label": "timolol maleate"
+        }
+    ],
+    "vtmid": "15465711000001103",
+    "drugClassification": [
+        "Carbonic anhydrase inhibitors",
+        "Beta-adrenoceptor blockers"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Raised intra-ocular pressure in open-angle glaucoma or ocular hypertension when beta-blocker alone not adequate",
+                        "html": "Raised intra-ocular pressure in open-angle glaucoma or ocular hypertension when beta-blocker alone not adequate"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the eye"
+                    ],
+                    "textContent": "To the eye",
+                    "html": "To the eye"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply twice daily.",
+                        "html": "<p>Apply twice daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92326",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_897",
+                "label": "Brinzolamide",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_456",
+                "label": "Timolol",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP7020",
+                "label": "BRINZOLAMIDE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP1025",
+                "label": "TIMOLOL MALEATE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92326",
+                "label": "Eye drops",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

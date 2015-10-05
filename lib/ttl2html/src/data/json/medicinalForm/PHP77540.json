@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP77540\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/miglustat/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Zavesca 100mg capsules <ph outputclass=\"manufacturer\">(Actelion Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">9504011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Miglustat 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">84</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3934.17</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6351\" title=\"MIGLUSTAT\" namespace=\"/drugs/miglustat\">MIGLUSTAT</xref>\n</parents>\n</topic>",
+    "id": "PHP77540",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/miglustat/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Zavesca 100mg capsules (Actelion Pharmaceuticals UK Ltd) ",
+            "header": "Zavesca 100mg capsules <ph outputclass=\"manufacturer\">(Actelion Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Actelion Pharmaceuticals UK Ltd)",
+            "name": "Zavesca 100mg capsules",
+            "ampid": "9504011000001102",
+            "strengthOfActiveIngredient": "Miglustat 100 mg",
+            "packs": [
+                {
+                    "textContent": " 84 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">84</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "84",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3934.17 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3934.17</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;3934.17",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6351",
+        "label": "MIGLUSTAT"
+    }
+}

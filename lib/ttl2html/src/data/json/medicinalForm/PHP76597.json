@@ -1,0 +1,95 @@
+{
+    "xml": "<topic id=\"PHP76597\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dapoxetine/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Priligy 30mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph>\n</title>\n<data name=\"ampid\">23362111000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dapoxetine 30&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">3</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.71</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;26.48</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Priligy 60mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph>\n</title>\n<data name=\"ampid\">23361611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dapoxetine 60&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">3</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;19.12</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">6</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;34.42</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP34155\" title=\"DAPOXETINE\" namespace=\"/drugs/dapoxetine\">DAPOXETINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76597",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dapoxetine/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Priligy 30mg tablets (A. Menarini Farmaceutica Internazionale SRL) ",
+            "header": "Priligy 30mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph>",
+            "manufacturer": "(A. Menarini Farmaceutica Internazionale SRL)",
+            "name": "Priligy 30mg tablets",
+            "ampid": "23362111000001107",
+            "strengthOfActiveIngredient": "Dapoxetine 30 mg",
+            "packs": [
+                {
+                    "textContent": " 3 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">3</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "3",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.71 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.71</ph>",
+                        "nhsIndicativePrice": "&#163;14.71"
+                    }
+                },
+                {
+                    "textContent": " 6 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;26.48 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;26.48</ph>",
+                        "nhsIndicativePrice": "&#163;26.48"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Priligy 60mg tablets (A. Menarini Farmaceutica Internazionale SRL) ",
+            "header": "Priligy 60mg tablets <ph outputclass=\"manufacturer\">(A. Menarini Farmaceutica Internazionale SRL)</ph>",
+            "manufacturer": "(A. Menarini Farmaceutica Internazionale SRL)",
+            "name": "Priligy 60mg tablets",
+            "ampid": "23361611000001105",
+            "strengthOfActiveIngredient": "Dapoxetine 60 mg",
+            "packs": [
+                {
+                    "textContent": " 3 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">3</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "3",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;19.12 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;19.12</ph>",
+                        "nhsIndicativePrice": "&#163;19.12"
+                    }
+                },
+                {
+                    "textContent": " 6 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">6</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "6",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;34.42 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;34.42</ph>",
+                        "nhsIndicativePrice": "&#163;34.42"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP34155",
+        "label": "DAPOXETINE"
+    }
+}

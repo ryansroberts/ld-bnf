@@ -1,0 +1,60 @@
+{
+    "xml": "<topic id=\"PHP95843\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/maalox\" basename=\"maalox\" title=\"Maalox\">\n<title>Maalox<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP96619\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/maalox\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Dyspepsia</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 14&#8211;17 years</p>\n<p>10&#8211;20&#8239;mL, to be taken 20&#8211;60 minutes after meals, and at bedtime or when required.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8211;20&#8239;mL, to be taken 20&#8211;60 minutes after meals, and at bedtime or when required.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP96632\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/maalox\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Maalox<tm tmtype=\"reg\"/> suspension is low in sodium.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP95843",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/maalox",
+    "basename": "maalox",
+    "title": "Maalox",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Dyspepsia",
+                        "html": "Dyspepsia"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "10&#8211;20 mL, to be taken 20&#8211;60 minutes after meals, and at bedtime or when required.",
+                        "html": "<p>10&#8211;20&#8239;mL, to be taken 20&#8211;60 minutes after meals, and at bedtime or when required.</p>",
+                        "ageGroup": "14&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "10&#8211;20 mL, to be taken 20&#8211;60 minutes after meals, and at bedtime or when required.",
+                        "html": "<p>10&#8211;20&#8239;mL, to be taken 20&#8211;60 minutes after meals, and at bedtime or when required.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Maalox suspension is low in sodium.",
+                "html": "<p>Maalox<tm tmtype=\"reg\"/> suspension is low in sodium.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

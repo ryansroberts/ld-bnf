@@ -1,0 +1,377 @@
+{
+    "xml": "<topic id=\"PHP101782\" outputclass=\"drug\" rev=\"1.10\" type=\"drug\" namespace=\"/drugs/empagliflozin\" basename=\"empagliflozin\" title=\"EMPAGLIFLOZIN\">\n<title>EMPAGLIFLOZIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1342\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/empagliflozin\">Empagliflozin</xref>\n</p>\n<data name=\"vtmid\">703895009</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_387708906\" title=\"Sodium glucose co-transporter 2 inhibitors\">Sodium glucose co-transporter 2 inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP101844\" outputclass=\"drugAction\" rev=\"1.12\" parent=\"/drugs/empagliflozin\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Reversibly inhibits sodium-glucose co-transporter 2 (SGLT2) in the renal proximal convoluted tubule to reduce glucose reabsorption and increase urinary glucose excretion.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101847\" outputclass=\"indicationsAndDose\" rev=\"1.27\" parent=\"/drugs/empagliflozin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Type II diabetes as monotherapy (if metformin inappropriate)</p>\n<p outputclass=\"therapeuticIndication\">Type II diabetes in combination with insulin or other antidiabetic drugs (if existing treatment fails to achieve adequate glycaemic control)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult 18&#8211;84 years</p>\n<p>10&#8239;mg once daily, increased to 25&#8239;mg once daily if necessary and if tolerated.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult 85 years and over</p>\n<p>Initiation not recommended.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseAdjustments\">\n<title>Dose adjustments due to interactions</title>\n<sectiondiv>\n<p>Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101843\" outputclass=\"importantSafetyInformation\" rev=\"1.15\" parent=\"/drugs/empagliflozin\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">MHRA/CHM advice (June 2015): Risk of diabetic ketoacidosis with sodium-glucose co-transporter 2 inhibitors (canagliflozin, dapagliflozin or empagliflozin)</p>\n<p>Serious and potentially life-threatening cases of diabetic ketoacidosis (DKA) have been reported in patients taking the SGLT2 inhibitor empagliflozin for type 2 diabetes. To minimise the risk of such effects when treating patients with a SGLT2 inhibitor, the European Medicines Agency has issued the following advice:</p>\n<ul>\n<li>Test for raised ketones in patients presenting with symptoms of DKA, even if plasma glucose levels are near-normal; omitting this test could delay diagnosis of DKA.</li>\n<li>Discontinue treatment if DKA is suspected.</li>\n<li>If DKA is confirmed, take appropriate measures to correct the DKA and monitor glucose levels.</li>\n<li>Patients should be advised on how to recognise the signs and symptoms of DKA such as nausea, vomiting, anorexia, abdominal pain, excessive thirst, difficulty breathing, confusion, unusual fatigue, or sleepiness, and to seek prompt medical attention if symptoms of DKA develop.</li>\n</ul>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101842\" outputclass=\"contraindications\" rev=\"1.8\" parent=\"/drugs/empagliflozin\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Diabetic ketoacidosis</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101840\" outputclass=\"cautions\" rev=\"1.18\" parent=\"/drugs/empagliflozin\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Cardiovascular disease (increased risk of volume depletion)</ph>; <ph outputclass=\"caution\">complicated urinary tract infections&#8212;consider temporarily interrupting treatment</ph>; <ph outputclass=\"caution\">concomitant antihypertensive therapy (increased risk of volume depletion)</ph>; <ph outputclass=\"caution\">elderly patients aged over 75 years (increased risk of volume depletion)</ph>; <ph outputclass=\"caution\">heart failure</ph>; <ph outputclass=\"caution\">history of hypotension (increased risk of volume depletion)</ph>; <ph outputclass=\"caution\">patients at increased risk of volume depletion</ph>; <ph outputclass=\"caution\">predisposition to fluid disturbances e.g. gastro-intestinal illness, concomitant use of diuretics (increased risk of volume depletion)</ph>\n</p>\n</section>\n<section outputclass=\"importantAdvice\">\n<title>Cautions, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Volume depletion</p>\n<p>Correct hypovolaemia before starting treatment. Consider interrupting treatment if volume depletion occurs.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101848\" outputclass=\"interactions\" rev=\"1.9\" parent=\"/drugs/empagliflozin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (antidiabetics).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101853\" outputclass=\"sideEffects\" rev=\"1.10\" parent=\"/drugs/empagliflozin\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Genital infection</ph>; <ph outputclass=\"sideEffect\">hypoglycaemia (in combination with insulin or sulfonylurea)</ph>; <ph outputclass=\"sideEffect\">polyuria</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">urinary tract infection</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Dysuria</ph>; <ph outputclass=\"sideEffect\">volume depletion</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101849\" outputclass=\"pregnancy\" parent=\"/drugs/empagliflozin\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;toxicity in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101839\" outputclass=\"breastFeeding\" parent=\"/drugs/empagliflozin\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101846\" outputclass=\"hepaticImpairment\" parent=\"/drugs/empagliflozin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid in severe impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101851\" outputclass=\"renalImpairment\" parent=\"/drugs/empagliflozin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Reduce dose to 10&#8239;mg once daily if eGFR falls persistently below 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Avoid initiation if eGFR below 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n<p>Avoid if eGFR is persistently below 45&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101857\" outputclass=\"monitoringRequirements\" parent=\"/drugs/empagliflozin\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Determine renal function before treatment and before initiation of concomitant drugs that may reduce renal function, then at least annually thereafter.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101850\" outputclass=\"patientAndCarerAdvice\" rev=\"1.23\" parent=\"/drugs/empagliflozin\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients should be informed of the signs and symptoms of diabetic ketoacidosis, see MHRA advice.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP101860\" outputclass=\"nationalFunding\" rev=\"1.20\" parent=\"/drugs/empagliflozin\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA336</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Empagliflozin in combination therapy for treating type 2 diabetes (March 2015)</p>\r\n<p>Empagliflozin in a dual therapy regimen in combination with metformin is an option for the treatment of type 2 diabetes, only if:</p>\r\n<ul>\r\n<li>a sulfonylurea is contraindicated or not tolerated, <b>or</b>\r\n</li>\r\n<li>the patient is at significant risk of hypoglycaemia or its consequences.</li>\r\n</ul>\r\n<p>Empagliflozin in a triple therapy regimen is an option for the treatment of type 2 diabetes in combination with:</p>\r\n<ul>\r\n<li>metformin and a sulfonylurea <b>or</b>\r\n</li>\r\n<li>metformin and a thiazolidinedione.</li>\r\n</ul>\r\n<p>Empagliflozin in combination with insulin with or without other antidiabetic drugs is an option for the treatment of type 2 diabetes.</p>\r\n<p>Patients currently receiving empagliflozin whose disease does not meet the above criteria should have the option to continue treatment until they and their clinician consider it appropriate to stop.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA336\">www.nice.org.uk/TA336</xref>\n</sectiondiv>\n</sectiondiv>\r\n </section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP101782-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/empagliflozin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101867\" title=\"Tablet\" namespace=\"/drugs/empagliflozin/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP107699\" namespace=\"/about/changes\" title=\"Changes\" count=\"1\" rel=\"backlink\">Changes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78107\" namespace=\"/treatment-summaries/insulins-and-anti-diabetic-drugs\" title=\"Insulins and anti-diabetic drugs\" count=\"2\" rel=\"backlink\">Insulins and anti-diabetic drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1342\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/empagliflozin\" title=\"Empagliflozin\" count=\"1\" rel=\"link\">Empagliflozin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP101867\" namespace=\"/drugs/empagliflozin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP101782",
+    "outputclass": "drug",
+    "rev": "1.10",
+    "type": "drug",
+    "namespace": "/drugs/empagliflozin",
+    "basename": "empagliflozin",
+    "title": "EMPAGLIFLOZIN",
+    "interactants": [
+        {
+            "id": "bnf_int_1342",
+            "label": "Empagliflozin"
+        }
+    ],
+    "vtmid": "703895009",
+    "drugClassification": [
+        "Sodium glucose co-transporter 2 inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Reversibly inhibits sodium-glucose co-transporter 2 (SGLT2) in the renal proximal convoluted tubule to reduce glucose reabsorption and increase urinary glucose excretion.",
+                "html": "<p>Reversibly inhibits sodium-glucose co-transporter 2 (SGLT2) in the renal proximal convoluted tubule to reduce glucose reabsorption and increase urinary glucose excretion.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Type II diabetes as monotherapy (if metformin inappropriate)",
+                        "html": "Type II diabetes as monotherapy (if metformin inappropriate)"
+                    },
+                    {
+                        "textContent": "Type II diabetes in combination with insulin or other antidiabetic drugs (if existing treatment fails to achieve adequate glycaemic control)",
+                        "html": "Type II diabetes in combination with insulin or other antidiabetic drugs (if existing treatment fails to achieve adequate glycaemic control)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "10 mg once daily, increased to 25 mg once daily if necessary and if tolerated.",
+                        "html": "<p>10&#8239;mg once daily, increased to 25&#8239;mg once daily if necessary and if tolerated.</p>",
+                        "ageGroup": "18&#8211;84 years"
+                    },
+                    {
+                        "textContent": "Initiation not recommended.",
+                        "html": "<p>Initiation not recommended.</p>",
+                        "ageGroup": "85 years and over"
+                    }
+                ]
+            }
+        ],
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "title": "Dose adjustments due to interactions",
+                "textContent": "Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.",
+                "html": "<p>Dose of concomitant insulin or drugs that stimulate insulin secretion may need to be reduced.</p>"
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "title": "MHRA/CHM advice (June 2015): Risk of diabetic ketoacidosis with sodium-glucose co-transporter 2 inhibitors (canagliflozin, dapagliflozin or empagliflozin)",
+                "textContent": "Serious and potentially life-threatening cases of diabetic ketoacidosis (DKA) have been reported in patients taking the SGLT2 inhibitor empagliflozin for type 2 diabetes. To minimise the risk of such effects when treating patients with a SGLT2 inhibitor, the European Medicines Agency has issued the following advice:\n\nTest for raised ketones in patients presenting with symptoms of DKA, even if plasma glucose levels are near-normal; omitting this test could delay diagnosis of DKA. Discontinue treatment if DKA is suspected. If DKA is confirmed, take appropriate measures to correct the DKA and monitor glucose levels. Patients should be advised on how to recognise the signs and symptoms of DKA such as nausea, vomiting, anorexia, abdominal pain, excessive thirst, difficulty breathing, confusion, unusual fatigue, or sleepiness, and to seek prompt medical attention if symptoms of DKA develop.",
+                "html": "<p>Serious and potentially life-threatening cases of diabetic ketoacidosis (DKA) have been reported in patients taking the SGLT2 inhibitor empagliflozin for type 2 diabetes. To minimise the risk of such effects when treating patients with a SGLT2 inhibitor, the European Medicines Agency has issued the following advice:</p><ul>\n<li>Test for raised ketones in patients presenting with symptoms of DKA, even if plasma glucose levels are near-normal; omitting this test could delay diagnosis of DKA.</li>\n<li>Discontinue treatment if DKA is suspected.</li>\n<li>If DKA is confirmed, take appropriate measures to correct the DKA and monitor glucose levels.</li>\n<li>Patients should be advised on how to recognise the signs and symptoms of DKA such as nausea, vomiting, anorexia, abdominal pain, excessive thirst, difficulty breathing, confusion, unusual fatigue, or sleepiness, and to seek prompt medical attention if symptoms of DKA develop.</li>\n</ul>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Diabetic ketoacidosis",
+                "html": "Diabetic ketoacidosis"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Cardiovascular disease (increased risk of volume depletion)",
+                "html": "Cardiovascular disease (increased risk of volume depletion)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "complicated urinary tract infections&#8212;consider temporarily interrupting treatment",
+                "html": "complicated urinary tract infections&#8212;consider temporarily interrupting treatment"
+            },
+            {
+                "type": "cautions",
+                "textContent": "concomitant antihypertensive therapy (increased risk of volume depletion)",
+                "html": "concomitant antihypertensive therapy (increased risk of volume depletion)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "elderly patients aged over 75 years (increased risk of volume depletion)",
+                "html": "elderly patients aged over 75 years (increased risk of volume depletion)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "heart failure",
+                "html": "heart failure"
+            },
+            {
+                "type": "cautions",
+                "textContent": "history of hypotension (increased risk of volume depletion)",
+                "html": "history of hypotension (increased risk of volume depletion)"
+            },
+            {
+                "type": "cautions",
+                "textContent": "patients at increased risk of volume depletion",
+                "html": "patients at increased risk of volume depletion"
+            },
+            {
+                "type": "cautions",
+                "textContent": "predisposition to fluid disturbances e.g. gastro-intestinal illness, concomitant use of diuretics (increased risk of volume depletion)",
+                "html": "predisposition to fluid disturbances e.g. gastro-intestinal illness, concomitant use of diuretics (increased risk of volume depletion)"
+            }
+        ],
+        "importantAdvice": [
+            {
+                "type": "importantAdvice",
+                "title": "Volume depletion",
+                "textContent": "Correct hypovolaemia before starting treatment. Consider interrupting treatment if volume depletion occurs.",
+                "html": "<p>Correct hypovolaemia before starting treatment. Consider interrupting treatment if volume depletion occurs.</p>"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (antidiabetics).",
+                "html": "<p>Appendix 1 (antidiabetics).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Genital infection",
+                        "html": "Genital infection",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypoglycaemia (in combination with insulin or sulfonylurea)",
+                        "html": "hypoglycaemia (in combination with insulin or sulfonylurea)",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "polyuria",
+                        "html": "polyuria",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "urinary tract infection",
+                        "html": "urinary tract infection",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Dysuria",
+                        "html": "Dysuria",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "volume depletion",
+                        "html": "volume depletion",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;toxicity in animal studies.",
+                "html": "<p>Manufacturer advises avoid&#8212;toxicity in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid&#8212;present in milk in animal studies.",
+                "html": "<p>Manufacturer advises avoid&#8212;present in milk in <i>animal</i> studies.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid in severe impairment&#8212;no information available.",
+                "html": "<p>Manufacturer advises avoid in severe impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Reduce dose to 10 mg once daily if eGFR falls persistently below 60 mL/minute/1.73 m2.",
+                "html": "<p>Reduce dose to 10&#8239;mg once daily if eGFR falls persistently below 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ],
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Avoid initiation if eGFR below 60 mL/minute/1.73 m2.\n\nAvoid if eGFR is persistently below 45 mL/minute/1.73 m2.",
+                "html": "<p>Avoid initiation if eGFR below 60&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p><p>Avoid if eGFR is persistently below 45&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Determine renal function before treatment and before initiation of concomitant drugs that may reduce renal function, then at least annually thereafter.",
+                "html": "<p>Determine renal function before treatment and before initiation of concomitant drugs that may reduce renal function, then at least annually thereafter.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients should be informed of the signs and symptoms of diabetic ketoacidosis, see MHRA advice.",
+                "html": "<p>Patients should be informed of the signs and symptoms of diabetic ketoacidosis, see MHRA advice.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA336",
+                        "label": "www.nice.org.uk/TA336"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA336",
+                "textContent": "Empagliflozin in combination therapy for treating type 2 diabetes (March 2015) Empagliflozin in a dual therapy regimen in combination with metformin is an option for the treatment of type 2 diabetes, only if: a sulfonylurea is contraindicated or not tolerated, or the patient is at significant risk of hypoglycaemia or its consequences. Empagliflozin in a triple therapy regimen is an option for the treatment of type 2 diabetes in combination with: metformin and a sulfonylurea or metformin and a thiazolidinedione. Empagliflozin in combination with insulin with or without other antidiabetic drugs is an option for the treatment of type 2 diabetes. Patients currently receiving empagliflozin whose disease does not meet the above criteria should have the option to continue treatment until they and their clinician consider it appropriate to stop.\n\nwww.nice.org.uk/TA336",
+                "html": "<p outputclass=\"title\">Empagliflozin in combination therapy for treating type 2 diabetes (March 2015)</p> <p>Empagliflozin in a dual therapy regimen in combination with metformin is an option for the treatment of type 2 diabetes, only if:</p> <ul> <li>a sulfonylurea is contraindicated or not tolerated, <b>or</b> </li> <li>the patient is at significant risk of hypoglycaemia or its consequences.</li> </ul> <p>Empagliflozin in a triple therapy regimen is an option for the treatment of type 2 diabetes in combination with:</p> <ul> <li>metformin and a sulfonylurea <b>or</b> </li> <li>metformin and a thiazolidinedione.</li> </ul> <p>Empagliflozin in combination with insulin with or without other antidiabetic drugs is an option for the treatment of type 2 diabetes.</p> <p>Patients currently receiving empagliflozin whose disease does not meet the above criteria should have the option to continue treatment until they and their clinician consider it appropriate to stop.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA336\">www.nice.org.uk/TA336</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP101867",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "treatmentSummary": [
+            {
+                "id": "PHP107699",
+                "label": "Changes",
+                "type": "treatmentSummary"
+            },
+            {
+                "id": "PHP78107",
+                "label": "Insulins and anti-diabetic drugs",
+                "type": "treatmentSummary"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1342",
+                "label": "Empagliflozin",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP101867",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

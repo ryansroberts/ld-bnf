@@ -1,0 +1,136 @@
+{
+    "xml": "<topic id=\"PHP85553\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/ispaghula-husk-with-senna\" basename=\"ispaghula-husk-with-senna\" title=\"ISPAGHULA HUSK WITH SENNA\">\n<title>ISPAGHULA HUSK WITH SENNA </title>\n<body>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP550\" namespace=\"/drugs/ispaghula-husk\">ISPAGHULA HUSK</xref>, <xref format=\"dita\" href=\"#PHP588\" namespace=\"/drugs/senna\">senna</xref>.</p>\n<data name=\"vtmid\">404799008</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_184657044\" title=\"Bulk forming laxatives\">Bulk forming laxatives</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_790742780\" title=\"Stimulant laxatives\">Stimulant laxatives</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP85780\" outputclass=\"indicationsAndDose\" rev=\"1.28\" parent=\"/drugs/ispaghula-husk-with-senna\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Constipation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>5&#8211;10&#8239;mL once daily, to be taken at night, 5&#8239;ml equivalent to one level teaspoonful of granules.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>5&#8211;10&#8239;mL once daily, to be taken at night, 5&#8239;ml equivalent to one level teaspoonful of granules.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85770\" outputclass=\"directionsForAdministration\" rev=\"1.11\" parent=\"/drugs/ispaghula-husk-with-senna\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Take at night with at least 150&#8239;mL water, fruit juice, milk or warm drink.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85783\" outputclass=\"patientAndCarerAdvice\" rev=\"1.8\" parent=\"/drugs/ispaghula-husk-with-senna\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Patients or carers should be given advice on how to administer ispaghula with senna granules.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85553-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/ispaghula-husk-with-senna\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92197\" title=\"Granules\" namespace=\"/drugs/ispaghula-husk-with-senna/granules\">Granules</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP550\" namespace=\"/drugs/ispaghula-husk\" title=\"ISPAGHULA HUSK\" count=\"1\" rel=\"link\">ISPAGHULA HUSK</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP588\" namespace=\"/drugs/senna\" title=\"SENNA\" count=\"1\" rel=\"link\">SENNA</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92197\" namespace=\"/drugs/ispaghula-husk-with-senna/granules\" title=\"Granules\" count=\"1\" rel=\"link\">Granules</xref>\n</links>\n</topic>",
+    "id": "PHP85553",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/ispaghula-husk-with-senna",
+    "basename": "ispaghula-husk-with-senna",
+    "title": "ISPAGHULA HUSK WITH SENNA",
+    "constituents": [
+        {
+            "id": "PHP550",
+            "label": "ISPAGHULA HUSK"
+        },
+        {
+            "id": "PHP588",
+            "label": "senna"
+        }
+    ],
+    "vtmid": "404799008",
+    "drugClassification": [
+        "Bulk forming laxatives",
+        "Stimulant laxatives"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Constipation",
+                        "html": "Constipation"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "5&#8211;10 mL once daily, to be taken at night, 5 ml equivalent to one level teaspoonful of granules.",
+                        "html": "<p>5&#8211;10&#8239;mL once daily, to be taken at night, 5&#8239;ml equivalent to one level teaspoonful of granules.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "5&#8211;10 mL once daily, to be taken at night, 5 ml equivalent to one level teaspoonful of granules.",
+                        "html": "<p>5&#8211;10&#8239;mL once daily, to be taken at night, 5&#8239;ml equivalent to one level teaspoonful of granules.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Take at night with at least 150 mL water, fruit juice, milk or warm drink.",
+                "html": "<p>Take at night with at least 150&#8239;mL water, fruit juice, milk or warm drink.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Patients or carers should be given advice on how to administer ispaghula with senna granules.",
+                "html": "<p>Patients or carers should be given advice on how to administer ispaghula with senna granules.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92197",
+                "label": "Granules",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "drug": [
+            {
+                "id": "PHP550",
+                "label": "ISPAGHULA HUSK",
+                "type": "drug"
+            },
+            {
+                "id": "PHP588",
+                "label": "SENNA",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92197",
+                "label": "Granules",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

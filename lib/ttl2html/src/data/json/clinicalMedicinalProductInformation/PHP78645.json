@@ -1,0 +1,52 @@
+{
+    "xml": "<topic id=\"PHP78645\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/bactroban-nasal\" basename=\"bactroban-nasal\" title=\"Bactroban Nasal\">\n<title>Bactroban Nasal<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP78903\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/bactroban-nasal\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">For eradication of nasal carriage of staphylococci, including meticillin-resistant <ph outputclass=\"organism\">\n<i>Staphylococcus aureus</i>\n</ph> (MRSA)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intranasal administration</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child</p>\n<p>Apply 2&#8211;3 times a day for 5 days; a sample should be taken 2 days after treatment to confirm eradication. Course may be repeated if sample positive (and throat not colonised), dose to be applied to the inner surface of each nostril.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 2&#8211;3 times a day for 5 days; a sample should be taken 2 days after treatment to confirm eradication. Course may be repeated if sample positive (and throat not colonised), dose to be applied to the inner surface of each nostril.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78645",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/bactroban-nasal",
+    "basename": "bactroban-nasal",
+    "title": "Bactroban Nasal",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "For eradication of nasal carriage of staphylococci, including meticillin-resistant Staphylococcus aureus (MRSA)",
+                        "html": "For eradication of nasal carriage of staphylococci, including meticillin-resistant <ph outputclass=\"organism\"> <i>Staphylococcus aureus</i> </ph> (MRSA)",
+                        "organism": "Staphylococcus aureus"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intranasal administration"
+                    ],
+                    "textContent": "By intranasal administration",
+                    "html": "By intranasal administration",
+                    "organism": "Staphylococcus aureus"
+                },
+                "child": [
+                    {
+                        "textContent": "Apply 2&#8211;3 times a day for 5 days; a sample should be taken 2 days after treatment to confirm eradication. Course may be repeated if sample positive (and throat not colonised), dose to be applied to the inner surface of each nostril.",
+                        "html": "<p>Apply 2&#8211;3 times a day for 5 days; a sample should be taken 2 days after treatment to confirm eradication. Course may be repeated if sample positive (and throat not colonised), dose to be applied to the inner surface of each nostril.</p>"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "Apply 2&#8211;3 times a day for 5 days; a sample should be taken 2 days after treatment to confirm eradication. Course may be repeated if sample positive (and throat not colonised), dose to be applied to the inner surface of each nostril.",
+                        "html": "<p>Apply 2&#8211;3 times a day for 5 days; a sample should be taken 2 days after treatment to confirm eradication. Course may be repeated if sample positive (and throat not colonised), dose to be applied to the inner surface of each nostril.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

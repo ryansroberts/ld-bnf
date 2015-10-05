@@ -1,0 +1,663 @@
+{
+    "xml": "<topic id=\"PHP34376\" outputclass=\"drug\" rev=\"1.12\" type=\"drug\" namespace=\"/drugs/dabrafenib\" basename=\"dabrafenib\" title=\"DABRAFENIB\">\n<title>DABRAFENIB</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1280\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/protein-kinase-inhibitors/dabrafenib\">Dabrafenib</xref>\n</p>\n<data name=\"vtmid\">23117411000001106</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_208007314\" title=\"Protein kinase inhibitors\">Protein kinase inhibitors</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP71786\" outputclass=\"drugAction\" rev=\"1.9\" parent=\"/drugs/dabrafenib\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Dabrafenib is a BRAF kinase inhibitor.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71777\" outputclass=\"indicationsAndDose\" rev=\"1.23\" parent=\"/drugs/dabrafenib\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Monotherapy for the treatment of unresectable or metastatic melanoma with BRAF V600 mutation</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>150&#8239;mg every 12&#8239;hours, for dose adjustments due to side effects consult product literature.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71790\" outputclass=\"contraindications\" rev=\"1.9\" parent=\"/drugs/dabrafenib\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">BRAF wild-type melanoma</ph>; <ph outputclass=\"contraindication\">long QT syndrome</ph>; <ph outputclass=\"contraindication\">uncorrectable electrolyte abnormalities (including magnesium)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71809\" outputclass=\"cautions\" rev=\"1.8\" parent=\"/drugs/dabrafenib\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Pyrexia (interrupt treatment if &#8805;38.5&#176;C and assess for signs and symptoms of infection&#8212;consult product literature)</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71773\" outputclass=\"interactions\" rev=\"1.8\" parent=\"/drugs/dabrafenib\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (dabrafenib).</p>\n<p>Contra-indicated with concomitant use of drugs that prolong the QT interval.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71700\" outputclass=\"sideEffects\" rev=\"1.12\" parent=\"/drugs/dabrafenib\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Acrochordon</ph>; <ph outputclass=\"sideEffect\">arthralgia</ph>; <ph outputclass=\"sideEffect\">basal cell carcinoma</ph>; <ph outputclass=\"sideEffect\">chills</ph>; <ph outputclass=\"sideEffect\">constipation</ph>; <ph outputclass=\"sideEffect\">cough</ph>; <ph outputclass=\"sideEffect\">cutaneous squamous cell carcinoma</ph>; <ph outputclass=\"sideEffect\">decrease in left ventricular ejection fraction</ph>; <ph outputclass=\"sideEffect\">decreased appetite</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">dry skin</ph>; <ph outputclass=\"sideEffect\">erythema</ph>; <ph outputclass=\"sideEffect\">hand-foot syndrome</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hyperglycaemia</ph>; <ph outputclass=\"sideEffect\">hyperkeratosis</ph>; <ph outputclass=\"sideEffect\">hypophosphataemia</ph>; <ph outputclass=\"sideEffect\">influenza-like symptoms</ph>; <ph outputclass=\"sideEffect\">keratosis</ph>; <ph outputclass=\"sideEffect\">malaise</ph>; <ph outputclass=\"sideEffect\">myalgia</ph>; <ph outputclass=\"sideEffect\">papilloma</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">pyrexia</ph>; <ph outputclass=\"sideEffect\">rash</ph>; <ph outputclass=\"sideEffect\">skin lesions</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Nephritis</ph>; <ph outputclass=\"sideEffect\">new primary melanoma</ph>; <ph outputclass=\"sideEffect\">pancreatitis</ph>; <ph outputclass=\"sideEffect\">panniculitis</ph>; <ph outputclass=\"sideEffect\">QT-interval prolongation</ph>; <ph outputclass=\"sideEffect\">renal failure</ph>; <ph outputclass=\"sideEffect\">uveitis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">bone-marrow suppression</ph>; <ph outputclass=\"sideEffect\">hyperuricaemia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">oral mucositis</ph>; <ph outputclass=\"sideEffect\">thromboembolism</ph>; <ph outputclass=\"sideEffect\">tumour lysis syndrome</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Pancreatitis</p>\n<p>Promptly investigate signs and symptoms of pancreatitis&#8212;consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71794\" outputclass=\"conceptionAndContraception\" parent=\"/drugs/dabrafenib\">\n<title>Conception and contraception</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Exclude pregnancy before treatment with cytotoxic drugs.</p>\n<p>Contraceptive advice should be given before cytotoxic therapy begins&#8212;effective non-hormonal contraception required during and for one month after treatment in women of childbearing potential.</p>\n<p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71760\" outputclass=\"pregnancy\" parent=\"/drugs/dabrafenib\">\n<title>Pregnancy</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid unless potential benefit outweighs risk (toxicity in <i>animal</i> studies).</p>\n<p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p>\n<p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71819\" outputclass=\"breastFeeding\" parent=\"/drugs/dabrafenib\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71780\" outputclass=\"hepaticImpairment\" parent=\"/drugs/dabrafenib\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution in moderate to severe impairment.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"additionalMonitoringInHepaticImpairment\">\n<sectiondiv>\n<p>Additional monitoring of ECG and electrolytes required in hepatic impairment&#8212;consult product literature.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71734\" outputclass=\"renalImpairment\" parent=\"/drugs/dabrafenib\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Manufacturer advises caution in severe impairment&#8212;no information available.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71639\" outputclass=\"monitoringRequirements\" parent=\"/drugs/dabrafenib\">\n<title>Monitoring requirements</title>\n<body>\n<section outputclass=\"monitoringOfPatientParameters\">\n<sectiondiv>\n<p>Assess for cutaneous squamous cell carcinoma and new primary melanoma before treatment, monthly during treatment, and for 6 months after discontinuation or until initiation of alternative treatment.</p>\n<p>Assess and monitor for non-cutaneous secondary or recurrent malignancy before, during, and for 6 months after discontinuation or until initiation of alternative treatment&#8212;consult product literature.</p>\n<p>Monitor serum creatinine and other signs of renal failure&#8212;consult product literature and interrupt dose as appropriate.</p>\n<p>Monitor for ophthalmologic reactions including uveitis and iritis.</p>\n<p>Monitor ECG and electrolytes (including magnesium) before and one month after treatment initiation and after each dose modification&#8212; consult product literature if abnormalities occur.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71748\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/drugs/dabrafenib\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p>Ocular adverse reactions and fatigue may affect performance of skilled tasks e.g. driving.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71602\" outputclass=\"nationalFunding\" rev=\"1.23\" parent=\"/drugs/dabrafenib\">\n<title>National funding/access decisions</title>\n<body>\r\n<section>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisals\">\r\n<p outputclass=\"title\">NICE technology appraisals (TAs)</p>\r\n<sectiondiv outputclass=\"niceTechnologyAppraisal\">\r\n<p outputclass=\"fundingIdentifier\">NICE TA321</p>\r\n<sectiondiv>\r\n<p outputclass=\"title\">Dabrafenib for treating unresectable or metastatic BRAF V600 mutation-positive melanoma (October 2014)</p>\r\n<p>Dabrafenib is recommended, within its marketing authorisation, as an option for treating unresectable or metastatic BRAF V600 mutation-positive melanoma only if the manufacturer provides dabrafenib with the discount agreed in the patient access scheme.</p>\n</sectiondiv>\n<xref format=\"html\" href=\"http://www.nice.org.uk/TA321\">www.nice.org.uk/TA321</xref>\n</sectiondiv>\n</sectiondiv>\r\n<sectiondiv outputclass=\"smcDecisions\">\r\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\r\n<sectiondiv outputclass=\"smcDecision\">\r\n<sectiondiv>\r\n<p>The <i>Scottish Medicines Consortium</i> has advised (February 2015) that dabrafenib (<i>Tafinlar</i>\r\n<tm tmtype=\"reg\"/>) is accepted for restricted use within NHS Scotland for the treatment of unresectable or metastatic BRAFV600 mutation-positive melanoma in patients who have received no prior therapy.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\r\n\r\n</body>\n</topic>\n<topic id=\"PHP34376-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/dabrafenib\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP94210\" title=\"Capsule\" namespace=\"/drugs/dabrafenib/capsule\">Capsule</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1280\" namespace=\"/interactions/list-of-drug-interactions/cytotoxics/protein-kinase-inhibitors/dabrafenib\" title=\"Dabrafenib\" count=\"1\" rel=\"link\">Dabrafenib</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP94210\" namespace=\"/drugs/dabrafenib/capsule\" title=\"Capsule\" count=\"1\" rel=\"link\">Capsule</xref>\n</links>\n</topic>",
+    "id": "PHP34376",
+    "outputclass": "drug",
+    "rev": "1.12",
+    "type": "drug",
+    "namespace": "/drugs/dabrafenib",
+    "basename": "dabrafenib",
+    "title": "DABRAFENIB",
+    "interactants": [
+        {
+            "id": "bnf_int_1280",
+            "label": "Dabrafenib"
+        }
+    ],
+    "vtmid": "23117411000001106",
+    "drugClassification": [
+        "Protein kinase inhibitors"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Dabrafenib is a BRAF kinase inhibitor.",
+                "html": "<p>Dabrafenib is a BRAF kinase inhibitor.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Monotherapy for the treatment of unresectable or metastatic melanoma with BRAF V600 mutation",
+                        "html": "Monotherapy for the treatment of unresectable or metastatic melanoma with BRAF V600 mutation"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "150 mg every 12 hours, for dose adjustments due to side effects consult product literature.",
+                        "html": "<p>150&#8239;mg every 12&#8239;hours, for dose adjustments due to side effects consult product literature.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "BRAF wild-type melanoma",
+                "html": "BRAF wild-type melanoma"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "long QT syndrome",
+                "html": "long QT syndrome"
+            },
+            {
+                "type": "contraindications",
+                "textContent": "uncorrectable electrolyte abnormalities (including magnesium)",
+                "html": "uncorrectable electrolyte abnormalities (including magnesium)"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Pyrexia (interrupt treatment if &#8805;38.5&#176;C and assess for signs and symptoms of infection&#8212;consult product literature)",
+                "html": "Pyrexia (interrupt treatment if &#8805;38.5&#176;C and assess for signs and symptoms of infection&#8212;consult product literature)"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (dabrafenib).\n\nContra-indicated with concomitant use of drugs that prolong the QT interval.",
+                "html": "<p>Appendix 1 (dabrafenib).</p><p>Contra-indicated with concomitant use of drugs that prolong the QT interval.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Acrochordon",
+                        "html": "Acrochordon",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "arthralgia",
+                        "html": "arthralgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "basal cell carcinoma",
+                        "html": "basal cell carcinoma",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "chills",
+                        "html": "chills",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "constipation",
+                        "html": "constipation",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cough",
+                        "html": "cough",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "cutaneous squamous cell carcinoma",
+                        "html": "cutaneous squamous cell carcinoma",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decrease in left ventricular ejection fraction",
+                        "html": "decrease in left ventricular ejection fraction",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "decreased appetite",
+                        "html": "decreased appetite",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "dry skin",
+                        "html": "dry skin",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "erythema",
+                        "html": "erythema",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hand-foot syndrome",
+                        "html": "hand-foot syndrome",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperglycaemia",
+                        "html": "hyperglycaemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hyperkeratosis",
+                        "html": "hyperkeratosis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "hypophosphataemia",
+                        "html": "hypophosphataemia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "influenza-like symptoms",
+                        "html": "influenza-like symptoms",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "keratosis",
+                        "html": "keratosis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "malaise",
+                        "html": "malaise",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "myalgia",
+                        "html": "myalgia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "papilloma",
+                        "html": "papilloma",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pyrexia",
+                        "html": "pyrexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "rash",
+                        "html": "rash",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "skin lesions",
+                        "html": "skin lesions",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Nephritis",
+                        "html": "Nephritis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "new primary melanoma",
+                        "html": "new primary melanoma",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "pancreatitis",
+                        "html": "pancreatitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "panniculitis",
+                        "html": "panniculitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "QT-interval prolongation",
+                        "html": "QT-interval prolongation",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "renal failure",
+                        "html": "renal failure",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "uveitis",
+                        "html": "uveitis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "bone-marrow suppression",
+                        "html": "bone-marrow suppression",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperuricaemia",
+                        "html": "hyperuricaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "oral mucositis",
+                        "html": "oral mucositis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thromboembolism",
+                        "html": "thromboembolism",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "tumour lysis syndrome",
+                        "html": "tumour lysis syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Pancreatitis",
+                "textContent": "Promptly investigate signs and symptoms of pancreatitis&#8212;consult product literature.",
+                "html": "<p>Promptly investigate signs and symptoms of pancreatitis&#8212;consult product literature.</p>"
+            }
+        ]
+    },
+    "conceptionAndContraception": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Exclude pregnancy before treatment with cytotoxic drugs.\n\nContraceptive advice should be given before cytotoxic therapy begins&#8212;effective non-hormonal contraception required during and for one month after treatment in women of childbearing potential.\n\nRegimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.",
+                "html": "<p>Exclude pregnancy before treatment with cytotoxic drugs.</p><p>Contraceptive advice should be given before cytotoxic therapy begins&#8212;effective non-hormonal contraception required during and for one month after treatment in women of childbearing potential.</p><p>Regimens that do not contain an alkylating drug or procarbazine may have less effect on fertility, but those with an alkylating drug or procarbazine carry the risk of causing permanent male sterility (there is no effect on potency). Pretreatment counselling and consideration of sperm storage may be appropriate. Women are less severely affected, though the span of reproductive life may be shortened by the onset of a premature menopause. No increase in fetal abnormalities or abortion rate has been recorded in patients who remain fertile after cytotoxic chemotherapy.</p>"
+            }
+        ]
+    },
+    "pregnancy": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid unless potential benefit outweighs risk (toxicity in animal studies).\n\nMost cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.\n\nConsiderable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.",
+                "html": "<p>Manufacturer advises avoid unless potential benefit outweighs risk (toxicity in <i>animal</i> studies).</p><p>Most cytotoxic drugs are teratogenic and should not be administered during pregnancy, especially during the first trimester.</p><p>Considerable caution is necessary if a pregnant woman presents with cancer requiring chemotherapy, and specialist advice should always be sought.</p>"
+            }
+        ]
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises avoid.",
+                "html": "<p>Manufacturer advises avoid.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution in moderate to severe impairment.",
+                "html": "<p>Manufacturer advises caution in moderate to severe impairment.</p>"
+            }
+        ],
+        "additionalMonitoring": [
+            {
+                "type": "additionalMonitoring",
+                "textContent": "Additional monitoring of ECG and electrolytes required in hepatic impairment&#8212;consult product literature.",
+                "html": "<p>Additional monitoring of ECG and electrolytes required in hepatic impairment&#8212;consult product literature.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Manufacturer advises caution in severe impairment&#8212;no information available.",
+                "html": "<p>Manufacturer advises caution in severe impairment&#8212;no information available.</p>"
+            }
+        ]
+    },
+    "monitoringRequirements": {
+        "patientParameters": [
+            {
+                "type": "patientParameters",
+                "textContent": "Assess for cutaneous squamous cell carcinoma and new primary melanoma before treatment, monthly during treatment, and for 6 months after discontinuation or until initiation of alternative treatment.\n\nAssess and monitor for non-cutaneous secondary or recurrent malignancy before, during, and for 6 months after discontinuation or until initiation of alternative treatment&#8212;consult product literature.\n\nMonitor serum creatinine and other signs of renal failure&#8212;consult product literature and interrupt dose as appropriate.\n\nMonitor for ophthalmologic reactions including uveitis and iritis.\n\nMonitor ECG and electrolytes (including magnesium) before and one month after treatment initiation and after each dose modification&#8212; consult product literature if abnormalities occur.",
+                "html": "<p>Assess for cutaneous squamous cell carcinoma and new primary melanoma before treatment, monthly during treatment, and for 6 months after discontinuation or until initiation of alternative treatment.</p><p>Assess and monitor for non-cutaneous secondary or recurrent malignancy before, during, and for 6 months after discontinuation or until initiation of alternative treatment&#8212;consult product literature.</p><p>Monitor serum creatinine and other signs of renal failure&#8212;consult product literature and interrupt dose as appropriate.</p><p>Monitor for ophthalmologic reactions including uveitis and iritis.</p><p>Monitor ECG and electrolytes (including magnesium) before and one month after treatment initiation and after each dose modification&#8212; consult product literature if abnormalities occur.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "textContent": "Ocular adverse reactions and fatigue may affect performance of skilled tasks e.g. driving.",
+                "html": "<p>Ocular adverse reactions and fatigue may affect performance of skilled tasks e.g. driving.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "niceTechnologyAppraisals": [
+            {
+                "type": "niceTechnologyAppraisals",
+                "references": [
+                    {
+                        "id": "http://www.nice.org.uk/TA321",
+                        "label": "www.nice.org.uk/TA321"
+                    }
+                ],
+                "fundingIdentifier": "NICE TA321",
+                "textContent": "Dabrafenib for treating unresectable or metastatic BRAF V600 mutation-positive melanoma (October 2014) Dabrafenib is recommended, within its marketing authorisation, as an option for treating unresectable or metastatic BRAF V600 mutation-positive melanoma only if the manufacturer provides dabrafenib with the discount agreed in the patient access scheme.\n\nwww.nice.org.uk/TA321",
+                "html": "<p outputclass=\"title\">Dabrafenib for treating unresectable or metastatic BRAF V600 mutation-positive melanoma (October 2014)</p> <p>Dabrafenib is recommended, within its marketing authorisation, as an option for treating unresectable or metastatic BRAF V600 mutation-positive melanoma only if the manufacturer provides dabrafenib with the discount agreed in the patient access scheme.</p><xref format=\"html\" href=\"http://www.nice.org.uk/TA321\">www.nice.org.uk/TA321</xref>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP94210",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1280",
+                "label": "Dabrafenib",
+                "type": "interaction"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP94210",
+                "label": "Capsule",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

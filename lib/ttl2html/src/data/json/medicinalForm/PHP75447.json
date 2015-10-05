@@ -1,0 +1,90 @@
+{
+    "xml": "<topic id=\"PHP75447\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/pseudoephedrine-hydrochloride/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Alcohol</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Care Decongestant 30mg/5ml oral liquid <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">18570311000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Pseudoephedrine hydrochloride 6&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.50</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;1.50</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Galpseud 30mg/5ml linctus <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>\n</title>\n<data name=\"ampid\">334611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Pseudoephedrine hydrochloride 6&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">2000</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;14.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sudafed Decongestant 30mg/5ml liquid <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">415211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Pseudoephedrine hydrochloride 6&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.92</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2089\" title=\"PSEUDOEPHEDRINE HYDROCHLORIDE\" namespace=\"/drugs/pseudoephedrine-hydrochloride\">PSEUDOEPHEDRINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP75447",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/pseudoephedrine-hydrochloride/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "excipients": [
+        "Alcohol"
+    ],
+    "products": [
+        {
+            "title": "Care Decongestant 30mg/5ml oral liquid (Thornton & Ross Ltd) ",
+            "header": "Care Decongestant 30mg/5ml oral liquid <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Care Decongestant 30mg/5ml oral liquid",
+            "ampid": "18570311000001100",
+            "strengthOfActiveIngredient": "Pseudoephedrine hydrochloride 6 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 100 ml P ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.50</ph>",
+                        "nhsIndicativePrice": "&#163;1.50"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;1.50 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;1.50</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;1.50"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Galpseud 30mg/5ml linctus (Thornton & Ross Ltd) ",
+            "header": "Galpseud 30mg/5ml linctus <ph outputclass=\"manufacturer\">(Thornton &amp; Ross Ltd)</ph>",
+            "manufacturer": "(Thornton & Ross Ltd)",
+            "name": "Galpseud 30mg/5ml linctus",
+            "ampid": "334611000001105",
+            "strengthOfActiveIngredient": "Pseudoephedrine hydrochloride 6 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 2000 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">2000</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "2000",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;14.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;14.00</ph>",
+                        "nhsIndicativePrice": "&#163;14.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sudafed Decongestant 30mg/5ml liquid (McNeil Products Ltd) ",
+            "header": "Sudafed Decongestant 30mg/5ml liquid <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Sudafed Decongestant 30mg/5ml liquid",
+            "ampid": "415211000001106",
+            "strengthOfActiveIngredient": "Pseudoephedrine hydrochloride 6 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 100 ml P ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.92 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.92</ph>",
+                        "nhsIndicativePrice": "&#163;1.92"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2089",
+        "label": "PSEUDOEPHEDRINE HYDROCHLORIDE"
+    }
+}

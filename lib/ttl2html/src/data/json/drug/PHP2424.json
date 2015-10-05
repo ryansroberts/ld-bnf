@@ -1,0 +1,570 @@
+{
+    "xml": "<topic id=\"PHP2424\" outputclass=\"drug\" rev=\"1.17\" type=\"drug\" namespace=\"/drugs/escitalopram\" basename=\"escitalopram\" title=\"ESCITALOPRAM\">\n<title>ESCITALOPRAM</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_964\" namespace=\"/interactions/list-of-drug-interactions/antidepressants/antidepressants-ssri/escitalopram\">Escitalopram</xref>\n</p>\n<data name=\"vtmid\">395246009</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_259964361\" title=\"Selective serotonin re-uptake inhibitors\">Selective serotonin re-uptake inhibitors</xref>\n</data>\n<data name=\"inheritsFromClass\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34555\" title=\"SELECTIVE SEROTONIN RE-UPTAKE INHIBITORS\" namespace=\"/drug-classes/selective-serotonin-re-uptake-inhibitors\">SELECTIVE SEROTONIN RE-UPTAKE INHIBITORS</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">   </data>\n</data>\r\n</body>\n<topic id=\"PHP57940\" outputclass=\"drugAction\" rev=\"1.10\" parent=\"/drugs/escitalopram\">\n<title>Drug action</title>\n<body>\n<section>\n<sectiondiv>\n<p>Escitalopram is the active enantiomer of citalopram.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54926\" outputclass=\"indicationsAndDose\" rev=\"1.16\" parent=\"/drugs/escitalopram\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Depressive illness</p>\n<p outputclass=\"therapeuticIndication\">Generalised anxiety disorder</p>\n<p outputclass=\"therapeuticIndication\">Obsessive-compulsive disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8239;mg once daily; increased if necessary up to 20&#8239;mg daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 5&#8239;mg once daily; maximum 10&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Panic disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 5&#8239;mg once daily for 7 days, then increased to 10&#8239;mg daily; maximum 20&#8239;mg per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 2.5&#8239;mg once daily; maximum 10&#8239;mg per day.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Social anxiety disorder</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 10&#8239;mg once daily for 2&#8211;4 weeks, dose to be adjusted after 2-4 weeks of treatment; usual dose 5&#8211;20&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58042\" outputclass=\"importantSafetyInformation\" rev=\"1.16\" parent=\"/drugs/escitalopram\">\n<title>Important safety information</title>\n<body>\n<section>\n<sectiondiv>\n<p outputclass=\"title\">Depressive illness in children and adolescents</p>\n<p>The balance of risks and benefits for the treatment of depressive illness in individuals under 18 years is considered unfavourable for escitalopram. Clinical trials have failed to show efficacy and have shown an increase in harmful outcomes. However, it is recognised that specialists may sometimes decide to use escitalopram in response to individual clinical need; children and adolescents should be monitored carefully for suicidal behaviour, self-harm or hostility, particularly at the beginning of treatment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58159\" outputclass=\"contraindications\" rev=\"1.9\" parent=\"/drugs/escitalopram\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">QT-interval prolongation</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58356\" outputclass=\"cautions\" rev=\"1.10\" parent=\"/drugs/escitalopram\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Susceptibility to QT-interval prolongation</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP54821\" outputclass=\"interactions\" rev=\"1.12\" parent=\"/drugs/escitalopram\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Avoid concomitant administration of drugs that prolong QT interval.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67520\" outputclass=\"sideEffects\" rev=\"1.13\" parent=\"/drugs/escitalopram\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"commonOrVeryCommon\">\n<p outputclass=\"title\">Common or very common</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abnormal dreams</ph>; <ph outputclass=\"sideEffect\">fatigue</ph>; <ph outputclass=\"sideEffect\">paraesthesia</ph>; <ph outputclass=\"sideEffect\">pyrexia</ph>; <ph outputclass=\"sideEffect\">restlessness</ph>; <ph outputclass=\"sideEffect\">sinusitis</ph>; <ph outputclass=\"sideEffect\">yawning</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"uncommon\">\n<p outputclass=\"title\">Uncommon</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Alopecia</ph>; <ph outputclass=\"sideEffect\">bruxism</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">epistaxis</ph>; <ph outputclass=\"sideEffect\">menstrual disturbances</ph>; <ph outputclass=\"sideEffect\">mydriasis</ph>; <ph outputclass=\"sideEffect\">oedema</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">syncope</ph>; <ph outputclass=\"sideEffect\">tachycardia</ph>; <ph outputclass=\"sideEffect\">taste disturbance</ph>; <ph outputclass=\"sideEffect\">tinnitus</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Aggression</ph>; <ph outputclass=\"sideEffect\">bradycardia</ph>; <ph outputclass=\"sideEffect\">depersonalisation</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Hepatitis</ph>; <ph outputclass=\"sideEffect\">paradoxical increased anxiety during initial treatment of panic disorder (reduce dose)</ph>; <ph outputclass=\"sideEffect\">postural hypotension</ph>; <ph outputclass=\"sideEffect\">QT interval prolongation</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58469\" outputclass=\"breastFeeding\" parent=\"/drugs/escitalopram\">\n<title>Breast feeding</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Present in breast milk; avoid.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP57680\" outputclass=\"hepaticImpairment\" parent=\"/drugs/escitalopram\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Initial dose 5&#8239;mg daily for 2 weeks, thereafter increased to max. 10&#8239;mg daily according to response; particular caution in severe impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP67914\" outputclass=\"renalImpairment\" parent=\"/drugs/escitalopram\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"generalInformation\">\n<sectiondiv>\n<p>Caution if eGFR less than 30 mL/ minute/1.73m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP58717\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/drugs/escitalopram\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>Oral drops can be mixed with water, orange juice, or apple juice before taking.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP68225\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/drugs/escitalopram\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"adviceAroundDrivingAndOtherTasks\">\n<title>Driving and skilled tasks</title>\n<sectiondiv>\n<p>Patients should be counselled about the effects on driving.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Counselling on administration of oral drops advised.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP2424-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/escitalopram\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77911\" title=\"Tablet\" namespace=\"/drugs/escitalopram/tablet\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77914\" title=\"Oral drops\" namespace=\"/drugs/escitalopram/oral-drops\">Oral drops</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n<xref format=\"dita\" scope=\"local\" type=\"treatmentSummary\" href=\"#PHP78258\" namespace=\"/treatment-summaries/antidepressant-drugs\" title=\"Antidepressant drugs\" count=\"1\" rel=\"backlink\">Antidepressant drugs</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_964\" namespace=\"/interactions/list-of-drug-interactions/antidepressants/antidepressants-ssri/escitalopram\" title=\"Escitalopram\" count=\"1\" rel=\"link\">Escitalopram</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClass\" href=\"#PHP34555\" namespace=\"/drug-classes/selective-serotonin-re-uptake-inhibitors\" title=\"SELECTIVE SEROTONIN RE-UPTAKE INHIBITORS\" count=\"1\" rel=\"link\">SELECTIVE SEROTONIN RE-UPTAKE INHIBITORS</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77911\" namespace=\"/drugs/escitalopram/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP77914\" namespace=\"/drugs/escitalopram/oral-drops\" title=\"Oral drops\" count=\"1\" rel=\"link\">Oral drops</xref>\n</links>\n</topic>",
+    "id": "PHP2424",
+    "outputclass": "drug",
+    "rev": "1.17",
+    "type": "drug",
+    "namespace": "/drugs/escitalopram",
+    "basename": "escitalopram",
+    "title": "ESCITALOPRAM",
+    "interactants": [
+        {
+            "id": "bnf_int_964",
+            "label": "Escitalopram"
+        }
+    ],
+    "vtmid": "395246009",
+    "drugClassification": [
+        "Selective serotonin re-uptake inhibitors"
+    ],
+    "inheritsFromClass": [
+        "SELECTIVE SEROTONIN RE-UPTAKE INHIBITORS"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "drugAction": {
+        "drugAction": [
+            {
+                "type": "drugAction",
+                "textContent": "Escitalopram is the active enantiomer of citalopram.",
+                "html": "<p>Escitalopram is the active enantiomer of citalopram.</p>"
+            }
+        ]
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Depressive illness",
+                        "html": "Depressive illness"
+                    },
+                    {
+                        "textContent": "Generalised anxiety disorder",
+                        "html": "Generalised anxiety disorder"
+                    },
+                    {
+                        "textContent": "Obsessive-compulsive disorder",
+                        "html": "Obsessive-compulsive disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "10 mg once daily; increased if necessary up to 20 mg daily.",
+                        "html": "<p>10&#8239;mg once daily; increased if necessary up to 20&#8239;mg daily.</p>"
+                    },
+                    {
+                        "textContent": "Initially 5 mg once daily; maximum 10 mg per day.",
+                        "html": "<p>Initially 5&#8239;mg once daily; maximum 10&#8239;mg per day.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Panic disorder",
+                        "html": "Panic disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 5 mg once daily for 7 days, then increased to 10 mg daily; maximum 20 mg per day.",
+                        "html": "<p>Initially 5&#8239;mg once daily for 7 days, then increased to 10&#8239;mg daily; maximum 20&#8239;mg per day.</p>"
+                    },
+                    {
+                        "textContent": "Initially 2.5 mg once daily; maximum 10 mg per day.",
+                        "html": "<p>Initially 2.5&#8239;mg once daily; maximum 10&#8239;mg per day.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Social anxiety disorder",
+                        "html": "Social anxiety disorder"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 10 mg once daily for 2&#8211;4 weeks, dose to be adjusted after 2-4 weeks of treatment; usual dose 5&#8211;20 mg daily.",
+                        "html": "<p>Initially 10&#8239;mg once daily for 2&#8211;4 weeks, dose to be adjusted after 2-4 weeks of treatment; usual dose 5&#8211;20&#8239;mg daily.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "importantSafetyInformation": {
+        "importantSafetyInformation": [
+            {
+                "type": "importantSafetyInformation",
+                "title": "Depressive illness in children and adolescents",
+                "textContent": "The balance of risks and benefits for the treatment of depressive illness in individuals under 18 years is considered unfavourable for escitalopram. Clinical trials have failed to show efficacy and have shown an increase in harmful outcomes. However, it is recognised that specialists may sometimes decide to use escitalopram in response to individual clinical need; children and adolescents should be monitored carefully for suicidal behaviour, self-harm or hostility, particularly at the beginning of treatment.",
+                "html": "<p>The balance of risks and benefits for the treatment of depressive illness in individuals under 18 years is considered unfavourable for escitalopram. Clinical trials have failed to show efficacy and have shown an increase in harmful outcomes. However, it is recognised that specialists may sometimes decide to use escitalopram in response to individual clinical need; children and adolescents should be monitored carefully for suicidal behaviour, self-harm or hostility, particularly at the beginning of treatment.</p>"
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "QT-interval prolongation",
+                "html": "QT-interval prolongation"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Susceptibility to QT-interval prolongation",
+                "html": "Susceptibility to QT-interval prolongation"
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Avoid concomitant administration of drugs that prolong QT interval.",
+                "html": "<p>Avoid concomitant administration of drugs that prolong QT interval.</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "commonOrVeryCommon": [
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "Abnormal dreams",
+                        "html": "Abnormal dreams",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "fatigue",
+                        "html": "fatigue",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "paraesthesia",
+                        "html": "paraesthesia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "pyrexia",
+                        "html": "pyrexia",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "restlessness",
+                        "html": "restlessness",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "sinusitis",
+                        "html": "sinusitis",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    },
+                    {
+                        "type": "commonOrVeryCommon",
+                        "textContent": "yawning",
+                        "html": "yawning",
+                        "frequency": "commonOrVeryCommon",
+                        "specificity": {
+                            "textContent": "Common or very common",
+                            "html": "Common or very common"
+                        }
+                    }
+                ],
+                "uncommon": [
+                    {
+                        "type": "uncommon",
+                        "textContent": "Alopecia",
+                        "html": "Alopecia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "bruxism",
+                        "html": "bruxism",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "epistaxis",
+                        "html": "epistaxis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "menstrual disturbances",
+                        "html": "menstrual disturbances",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "mydriasis",
+                        "html": "mydriasis",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "oedema",
+                        "html": "oedema",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "syncope",
+                        "html": "syncope",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tachycardia",
+                        "html": "tachycardia",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "taste disturbance",
+                        "html": "taste disturbance",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    },
+                    {
+                        "type": "uncommon",
+                        "textContent": "tinnitus",
+                        "html": "tinnitus",
+                        "frequency": "uncommon",
+                        "specificity": {
+                            "textContent": "Uncommon",
+                            "html": "Uncommon"
+                        }
+                    }
+                ],
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Aggression",
+                        "html": "Aggression",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "bradycardia",
+                        "html": "bradycardia",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    },
+                    {
+                        "type": "rare",
+                        "textContent": "depersonalisation",
+                        "html": "depersonalisation",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Hepatitis",
+                        "html": "Hepatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "paradoxical increased anxiety during initial treatment of panic disorder (reduce dose)",
+                        "html": "paradoxical increased anxiety during initial treatment of panic disorder (reduce dose)",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "postural hypotension",
+                        "html": "postural hypotension",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "QT interval prolongation",
+                        "html": "QT interval prolongation",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "breastFeeding": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Present in breast milk; avoid.",
+                "html": "<p>Present in breast milk; avoid.</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Initial dose 5 mg daily for 2 weeks, thereafter increased to max. 10 mg daily according to response; particular caution in severe impairment.",
+                "html": "<p>Initial dose 5&#8239;mg daily for 2 weeks, thereafter increased to max. 10&#8239;mg daily according to response; particular caution in severe impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "generalInformation": [
+            {
+                "type": "generalInformation",
+                "textContent": "Caution if eGFR less than 30 mL/ minute/1.73m2.",
+                "html": "<p>Caution if eGFR less than 30 mL/ minute/1.73m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Oral drops can be mixed with water, orange juice, or apple juice before taking.",
+                "html": "<p>Oral drops can be mixed with water, orange juice, or apple juice before taking.</p>"
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "adviceAroundDrivingAndOtherTasks": [
+            {
+                "type": "adviceAroundDrivingAndOtherTasks",
+                "textContent": "Patients should be counselled about the effects on driving.",
+                "html": "<p>Patients should be counselled about the effects on driving.</p>"
+            }
+        ],
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Counselling on administration of oral drops advised.",
+                "html": "<p>Counselling on administration of oral drops advised.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP77911",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77914",
+                "label": "Oral drops",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ],
+        "treatmentSummary": [
+            {
+                "id": "PHP78258",
+                "label": "Antidepressant drugs",
+                "type": "treatmentSummary"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_964",
+                "label": "Escitalopram",
+                "type": "interaction"
+            }
+        ],
+        "drugClass": [
+            {
+                "id": "PHP34555",
+                "label": "SELECTIVE SEROTONIN RE-UPTAKE INHIBITORS",
+                "type": "drugClass"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP77911",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            },
+            {
+                "id": "PHP77914",
+                "label": "Oral drops",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "xml": "<topic id=\"PHP74755\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dinoprostone/vaginal-device\" basename=\"vaginal-device\" title=\"Vaginal device\">\n<title>Vaginal device</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP78985\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/propess\">Propess<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Propess 10mg vaginal delivery system <ph outputclass=\"manufacturer\">(Ferring Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">9466711000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Dinoprostone 10&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">device</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;150.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4769\" title=\"DINOPROSTONE\" namespace=\"/drugs/dinoprostone\">DINOPROSTONE</xref>\n</parents>\n</topic>",
+    "id": "PHP74755",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dinoprostone/vaginal-device",
+    "basename": "vaginal-device",
+    "form": "Vaginal device",
+    "productInformationGroups": [
+        {
+            "id": "PHP78985",
+            "label": "Propess&reg;  ",
+            "html": "Propess<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Propess 10mg vaginal delivery system (Ferring Pharmaceuticals Ltd) ",
+            "header": "Propess 10mg vaginal delivery system <ph outputclass=\"manufacturer\">(Ferring Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Ferring Pharmaceuticals Ltd)",
+            "name": "Propess 10mg vaginal delivery system",
+            "ampid": "9466711000001100",
+            "strengthOfActiveIngredient": "Dinoprostone 10 mg",
+            "packs": [
+                {
+                    "textContent": " 5 device POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">device</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "device",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;150.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;150.00</ph>",
+                        "nhsIndicativePrice": "&#163;150.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4769",
+        "label": "DINOPROSTONE"
+    }
+}

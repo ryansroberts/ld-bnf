@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP74828\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/iron-sucrose/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Venofer 100mg/5ml solution for injection vials <ph outputclass=\"manufacturer\">(Vifor Pharma UK Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">18538511000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Iron (as Iron sucrose) 20&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;43.52</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5865\" title=\"IRON SUCROSE\" namespace=\"/drugs/iron-sucrose\">IRON SUCROSE</xref>\n</parents>\n</topic>",
+    "id": "PHP74828",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/iron-sucrose/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "products": [
+        {
+            "title": "Venofer 100mg/5ml solution for injection vials (Vifor Pharma UK Ltd) &#9660; ",
+            "header": "Venofer 100mg/5ml solution for injection vials <ph outputclass=\"manufacturer\">(Vifor Pharma UK Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Vifor Pharma UK Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Venofer 100mg/5ml solution for injection vials",
+            "ampid": "18538511000001107",
+            "strengthOfActiveIngredient": "Iron (as Iron sucrose) 20 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;43.52 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;43.52</ph>",
+                        "nhsIndicativePrice": "&#163;43.52"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5865",
+        "label": "IRON SUCROSE"
+    }
+}

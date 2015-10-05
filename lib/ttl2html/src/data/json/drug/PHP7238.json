@@ -1,0 +1,105 @@
+{
+    "xml": "<topic id=\"PHP7238\" outputclass=\"drug\" rev=\"1.11\" type=\"drug\" namespace=\"/drugs/framycetin-sulfate\" basename=\"framycetin-sulfate\" title=\"FRAMYCETIN SULFATE\">\n<title>FRAMYCETIN SULFATE</title>\n<body>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_296174173\" title=\"Aminoglycosides\">Aminoglycosides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\n</body>\n<topic id=\"PHP73525\" outputclass=\"indicationsAndDose\" rev=\"1.15\" parent=\"/drugs/framycetin-sulfate\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Bacterial infection in otitis externa</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the ear</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>(consult product literature).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73877\" outputclass=\"contraindications\" rev=\"1.6\" parent=\"/drugs/framycetin-sulfate\">\n<title>Contra-indications</title>\n<body>\n<section outputclass=\"contraindications\">\n<p>\n<ph outputclass=\"contraindication\">Perforated tympanic membrane</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP73988\" outputclass=\"cautions\" rev=\"1.6\" parent=\"/drugs/framycetin-sulfate\">\n<title>Cautions</title>\n<body>\n<section outputclass=\"cautions\">\n<p>\n<ph outputclass=\"caution\">Avoid prolonged use</ph>\n</p>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72945\" outputclass=\"sideEffects\" rev=\"1.7\" parent=\"/drugs/framycetin-sulfate\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Local sensitivity</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP92555\" namespace=\"/drugs/dexamethasone-with-framycetin-sulfate-and-gramicidin\" title=\"DEXAMETHASONE WITH FRAMYCETIN SULFATE AND GRAMICIDIN\" count=\"1\" rel=\"backlink\">DEXAMETHASONE WITH FRAMYCETIN SULFATE AND GRAMICIDIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"1\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n</links>\n</topic>",
+    "id": "PHP7238",
+    "outputclass": "drug",
+    "rev": "1.11",
+    "type": "drug",
+    "namespace": "/drugs/framycetin-sulfate",
+    "basename": "framycetin-sulfate",
+    "title": "FRAMYCETIN SULFATE",
+    "drugClassification": [
+        "Aminoglycosides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Bacterial infection in otitis externa",
+                        "html": "Bacterial infection in otitis externa"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the ear"
+                    ],
+                    "textContent": "To the ear",
+                    "html": "To the ear"
+                },
+                "adult": [
+                    {
+                        "textContent": "(consult product literature).",
+                        "html": "<p>(consult product literature).</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "contraindications": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Perforated tympanic membrane",
+                "html": "Perforated tympanic membrane"
+            }
+        ]
+    },
+    "cautions": {
+        "cautions": [
+            {
+                "type": "cautions",
+                "textContent": "Avoid prolonged use",
+                "html": "Avoid prolonged use"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Local sensitivity",
+                        "html": "Local sensitivity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "backlinks": {
+        "drug": [
+            {
+                "id": "PHP92555",
+                "label": "DEXAMETHASONE WITH FRAMYCETIN SULFATE AND GRAMICIDIN",
+                "type": "drug"
+            }
+        ],
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP75291\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/povidone-iodine/liquid\" basename=\"liquid\" title=\"Liquid\">\n<title>Liquid</title>\n<body>\r\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\r\n<title>Cautionary and advisory labels</title>\r\n<p>Label <ph outputclass=\"labelNumber\">15</ph> (Only for use with alcoholic solutions) - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine </p>\n</section>\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81749\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/videne-solution\">Videne<tm tmtype=\"reg\"/> solution</xref>\r\n<xref format=\"dita\" href=\"#PHP81750\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/videne-surgical-scrub\">Videne<tm tmtype=\"reg\"/> surgical scrub<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP81748\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/videne-tincture\">Videne<tm tmtype=\"reg\"/> tincture</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Videne 7.5% surgical scrub solution <ph outputclass=\"manufacturer\">(Ecolab Healthcare Division)</ph>\n</title>\n<data name=\"ampid\">4654211000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Povidone-Iodine 75&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.43</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Videne 10% antiseptic solution <ph outputclass=\"manufacturer\">(Ecolab Healthcare Division)</ph>\n</title>\n<data name=\"ampid\">3786011000001105</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Povidone-Iodine 100&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.43</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8156\" title=\"POVIDONE-IODINE\" namespace=\"/drugs/povidone-iodine\">POVIDONE-IODINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75291",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/povidone-iodine/liquid",
+    "basename": "liquid",
+    "form": "Liquid",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "15",
+            "textContent": "(Only for use with alcoholic solutions)Caution: flammable. Keep your body away from fire or flames after you have put on the medicine",
+            "html": "Label <ph outputclass=\"labelNumber\">15</ph> (Only for use with alcoholic solutions) - Caution: flammable. Keep your body away from fire or flames after you have put on the medicine"
+        }
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP81749",
+            "label": "Videne&reg;  solution",
+            "html": "Videne<tm tmtype=\"reg\"/> solution"
+        },
+        {
+            "id": "PHP81750",
+            "label": "Videne&reg;  surgical scrub&reg;  ",
+            "html": "Videne<tm tmtype=\"reg\"/> surgical scrub<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP81748",
+            "label": "Videne&reg;  tincture",
+            "html": "Videne<tm tmtype=\"reg\"/> tincture"
+        }
+    ],
+    "products": [
+        {
+            "title": "Videne 7.5% surgical scrub solution (Ecolab Healthcare Division) ",
+            "header": "Videne 7.5% surgical scrub solution <ph outputclass=\"manufacturer\">(Ecolab Healthcare Division)</ph>",
+            "manufacturer": "(Ecolab Healthcare Division)",
+            "name": "Videne 7.5% surgical scrub solution",
+            "ampid": "4654211000001105",
+            "strengthOfActiveIngredient": "Povidone-Iodine 75 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml P ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.43 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.43</ph>",
+                        "nhsIndicativePrice": "&#163;5.43"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Videne 10% antiseptic solution (Ecolab Healthcare Division) ",
+            "header": "Videne 10% antiseptic solution <ph outputclass=\"manufacturer\">(Ecolab Healthcare Division)</ph>",
+            "manufacturer": "(Ecolab Healthcare Division)",
+            "name": "Videne 10% antiseptic solution",
+            "ampid": "3786011000001105",
+            "strengthOfActiveIngredient": "Povidone-Iodine 100 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.43 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.43</ph>",
+                        "nhsIndicativePrice": "&#163;5.43"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8156",
+        "label": "POVIDONE-IODINE"
+    }
+}

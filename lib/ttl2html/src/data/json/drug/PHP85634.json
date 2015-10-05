@@ -1,0 +1,160 @@
+{
+    "xml": "<topic id=\"PHP85634\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/solifenacin-with-tamsulosin\" basename=\"solifenacin-with-tamsulosin\" title=\"SOLIFENACIN WITH TAMSULOSIN\">\n<title>SOLIFENACIN WITH TAMSULOSIN </title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_1020\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/solifenacin\">Solifenacin</xref>, <xref format=\"dita\" href=\"#bnf_int_33\" namespace=\"/interactions/list-of-drug-interactions/alpha-blockers/alpha-blockers-post-synaptic/tamsulosin\">Tamsulosin</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP5100\" namespace=\"/drugs/solifenacin-succinate\">solifenacin succinate</xref>, <xref format=\"dita\" href=\"#PHP5050\" namespace=\"/drugs/tamsulosin-hydrochloride\">tamsulosin hydrochloride</xref>.</p>\n<data name=\"vtmid\">23675711000001101</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_567112641\" title=\"Antimuscarinics\">Antimuscarinics</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_658662261\" title=\"Alpha-adrenoceptor blockers\">Alpha-adrenoceptor blockers</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP87967\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/drugs/solifenacin-with-tamsulosin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Moderate to severe urinary frequency, urgency, and obstructive symptoms associated with benign prostatic hyperplasia when monotherapy ineffective</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult male\">\n<p>Adult (male)</p>\n<p>1&#8239;tablet daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"doseAdjustments\">\n<title>Dose adjustments due to interactions</title>\n<sectiondiv>\n<p>Max. 1<i> Vesomni</i>\n<tm tmtype=\"reg\"/> tablet daily with concomitant potent inhibitors of cytochrome P450 enzyme CYP3A4 (such as itraconazole or ritonavir).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP87966\" outputclass=\"hepaticImpairment\" parent=\"/drugs/solifenacin-with-tamsulosin\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Max. 1 <i>Vesomni </i>\n<tm tmtype=\"reg\"/> tablet daily in moderate impairment.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP87971\" outputclass=\"renalImpairment\" parent=\"/drugs/solifenacin-with-tamsulosin\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Max. 1<i> Vesomni</i>\n<tm tmtype=\"reg\"/> tablet daily if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85634-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/solifenacin-with-tamsulosin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92288\" title=\"Modified-release tablet\" namespace=\"/drugs/solifenacin-with-tamsulosin/modified-release-tablet\">Modified-release tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1020\" namespace=\"/interactions/list-of-drug-interactions/antimuscarinics/solifenacin\" title=\"Solifenacin\" count=\"1\" rel=\"link\">Solifenacin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_33\" namespace=\"/interactions/list-of-drug-interactions/alpha-blockers/alpha-blockers-post-synaptic/tamsulosin\" title=\"Tamsulosin\" count=\"1\" rel=\"link\">Tamsulosin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5100\" namespace=\"/drugs/solifenacin-succinate\" title=\"SOLIFENACIN SUCCINATE\" count=\"1\" rel=\"link\">SOLIFENACIN SUCCINATE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5050\" namespace=\"/drugs/tamsulosin-hydrochloride\" title=\"TAMSULOSIN HYDROCHLORIDE\" count=\"1\" rel=\"link\">TAMSULOSIN HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92288\" namespace=\"/drugs/solifenacin-with-tamsulosin/modified-release-tablet\" title=\"Modified-release tablet\" count=\"1\" rel=\"link\">Modified-release tablet</xref>\n</links>\n</topic>",
+    "id": "PHP85634",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/solifenacin-with-tamsulosin",
+    "basename": "solifenacin-with-tamsulosin",
+    "title": "SOLIFENACIN WITH TAMSULOSIN",
+    "interactants": [
+        {
+            "id": "bnf_int_1020",
+            "label": "Solifenacin"
+        },
+        {
+            "id": "bnf_int_33",
+            "label": "Tamsulosin"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP5100",
+            "label": "solifenacin succinate"
+        },
+        {
+            "id": "PHP5050",
+            "label": "tamsulosin hydrochloride"
+        }
+    ],
+    "vtmid": "23675711000001101",
+    "drugClassification": [
+        "Antimuscarinics",
+        "Alpha-adrenoceptor blockers"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Moderate to severe urinary frequency, urgency, and obstructive symptoms associated with benign prostatic hyperplasia when monotherapy ineffective",
+                        "html": "Moderate to severe urinary frequency, urgency, and obstructive symptoms associated with benign prostatic hyperplasia when monotherapy ineffective"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult male": [
+                    {
+                        "textContent": "1 tablet daily.",
+                        "html": "<p>1&#8239;tablet daily.</p>",
+                        "ageGroup": "adult (male)"
+                    }
+                ]
+            }
+        ],
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "title": "Dose adjustments due to interactions",
+                "textContent": "Max. 1 Vesomni tablet daily with concomitant potent inhibitors of cytochrome P450 enzyme CYP3A4 (such as itraconazole or ritonavir).",
+                "html": "<p>Max. 1<i> Vesomni</i> <tm tmtype=\"reg\"/> tablet daily with concomitant potent inhibitors of cytochrome P450 enzyme CYP3A4 (such as itraconazole or ritonavir).</p>"
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Max. 1 Vesomni tablet daily in moderate impairment.",
+                "html": "<p>Max. 1 <i>Vesomni </i>\n<tm tmtype=\"reg\"/> tablet daily in moderate impairment.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Max. 1 Vesomni tablet daily if eGFR less than 30 mL/minute/1.73 m2.",
+                "html": "<p>Max. 1<i> Vesomni</i>\n<tm tmtype=\"reg\"/> tablet daily if eGFR less than 30&#8239;mL/minute/1.73&#8239;m<sup>2</sup>.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92288",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_1020",
+                "label": "Solifenacin",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_33",
+                "label": "Tamsulosin",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP5100",
+                "label": "SOLIFENACIN SUCCINATE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP5050",
+                "label": "TAMSULOSIN HYDROCHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92288",
+                "label": "Modified-release tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

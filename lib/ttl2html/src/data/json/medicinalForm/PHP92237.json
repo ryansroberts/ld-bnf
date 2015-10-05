@@ -1,0 +1,73 @@
+{
+    "xml": "<topic id=\"PHP92237\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/cyclizine-with-morphine/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP95846\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/cyclimorph-15\">Cyclimorph-15<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP95845\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/cyclimorph-10\">Cyclimorph-10<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cyclimorph 10 solution for injection 1ml ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">3885111000001102</data>\r\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Cyclizine tartrate 50&#8239;mg per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Morphine tartrate 10&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;8.77</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Cyclimorph 15 solution for injection 1ml ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">3884611000001109</data>\r\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Cyclizine tartrate 50&#8239;mg per 1&#8239;ml</p>\r\n<p outputclass=\"strengthOfActiveIngredient\">Morphine tartrate 15&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ampoule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.12</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP85588\" title=\"CYCLIZINE WITH MORPHINE\" namespace=\"/drugs/cyclizine-with-morphine\">CYCLIZINE WITH MORPHINE</xref>\n</parents>\n</topic>",
+    "id": "PHP92237",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/cyclizine-with-morphine/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP95846",
+            "label": "Cyclimorph-15&reg;  ",
+            "html": "Cyclimorph-15<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP95845",
+            "label": "Cyclimorph-10&reg;  ",
+            "html": "Cyclimorph-10<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Cyclimorph 10 solution for injection 1ml ampoules (AMCo) ",
+            "header": "Cyclimorph 10 solution for injection 1ml ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Cyclimorph 10 solution for injection 1ml ampoules",
+            "ampid": "3885111000001102",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Morphine tartrate 10 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;8.77 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;8.77</ph>",
+                        "nhsIndicativePrice": "&#163;8.77"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Cyclimorph 15 solution for injection 1ml ampoules (AMCo) ",
+            "header": "Cyclimorph 15 solution for injection 1ml ampoules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Cyclimorph 15 solution for injection 1ml ampoules",
+            "ampid": "3884611000001109",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Morphine tartrate 15 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ampoule POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ampoule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ampoule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.12 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.12</ph>",
+                        "nhsIndicativePrice": "&#163;9.12"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP85588",
+        "label": "CYCLIZINE WITH MORPHINE"
+    }
+}

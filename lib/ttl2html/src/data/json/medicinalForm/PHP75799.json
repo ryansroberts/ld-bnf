@@ -1,0 +1,78 @@
+{
+    "xml": "<topic id=\"PHP75799\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/gentamicin/implant\" basename=\"implant\" title=\"Implant\">\n<title>Implant</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Septopal Minichain 28mg implant <ph outputclass=\"manufacturer\">(Biomet Europe)</ph>\n</title>\n<data name=\"ampid\">8752211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Gentamicin sulfate 28&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">device</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Septopal Chain 75mg implant <ph outputclass=\"manufacturer\">(Biomet Europe)</ph>\n</title>\n<data name=\"ampid\">8749811000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Gentamicin sulfate 75&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">device</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Septopal Chain 225mg implant <ph outputclass=\"manufacturer\">(Biomet Europe)</ph>\n</title>\n<data name=\"ampid\">8751211000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Gentamicin sulfate 225&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">device</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3478\" title=\"GENTAMICIN\" namespace=\"/drugs/gentamicin\">GENTAMICIN</xref>\n</parents>\n</topic>",
+    "id": "PHP75799",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/gentamicin/implant",
+    "basename": "implant",
+    "form": "Implant",
+    "products": [
+        {
+            "title": "Septopal Minichain 28mg implant (Biomet Europe) ",
+            "header": "Septopal Minichain 28mg implant <ph outputclass=\"manufacturer\">(Biomet Europe)</ph>",
+            "manufacturer": "(Biomet Europe)",
+            "name": "Septopal Minichain 28mg implant",
+            "ampid": "8752211000001106",
+            "strengthOfActiveIngredient": "Gentamicin sulfate 28 mg",
+            "packs": [
+                {
+                    "textContent": " 1 device POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">device</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "device",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Septopal Chain 75mg implant (Biomet Europe) ",
+            "header": "Septopal Chain 75mg implant <ph outputclass=\"manufacturer\">(Biomet Europe)</ph>",
+            "manufacturer": "(Biomet Europe)",
+            "name": "Septopal Chain 75mg implant",
+            "ampid": "8749811000001104",
+            "strengthOfActiveIngredient": "Gentamicin sulfate 75 mg",
+            "packs": [
+                {
+                    "textContent": " 1 device POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">device</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "device",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Septopal Chain 225mg implant (Biomet Europe) ",
+            "header": "Septopal Chain 225mg implant <ph outputclass=\"manufacturer\">(Biomet Europe)</ph>",
+            "manufacturer": "(Biomet Europe)",
+            "name": "Septopal Chain 225mg implant",
+            "ampid": "8751211000001104",
+            "strengthOfActiveIngredient": "Gentamicin sulfate 225 mg",
+            "packs": [
+                {
+                    "textContent": " 1 device POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">device</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "device",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3478",
+        "label": "GENTAMICIN"
+    }
+}

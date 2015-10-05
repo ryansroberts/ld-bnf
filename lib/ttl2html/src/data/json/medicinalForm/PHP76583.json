@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP76583\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dexrazoxane/powder-and-solvent-for-solution-for-infusion\" basename=\"powder-and-solvent-for-solution-for-infusion\" title=\"Powder and solvent for solution for infusion\">\n<title>Powder and solvent for solution for infusion</title>\n<body>\r\n\r\n\r\n<section outputclass=\"electrolytes\">\r\n<title>Electrolytes</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Potassium, sodium</p>\n</section>\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP79653\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/savene\">Savene<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Savene 500mg powder for concentrate and solvent for solution for infusion vials <ph outputclass=\"manufacturer\">(Clinigen Healthcare Ltd)</ph>\n</title>\n<data name=\"ampid\">10937511000001102</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Dexrazoxane 500&#8239;mg</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5202\" title=\"DEXRAZOXANE\" namespace=\"/drugs/dexrazoxane\">DEXRAZOXANE</xref>\n</parents>\n</topic>",
+    "id": "PHP76583",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dexrazoxane/powder-and-solvent-for-solution-for-infusion",
+    "basename": "powder-and-solvent-for-solution-for-infusion",
+    "form": "Powder and solvent for solution for infusion",
+    "electrolytes": [
+        "Potassium",
+        "sodium"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP79653",
+            "label": "Savene&reg;  ",
+            "html": "Savene<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Savene 500mg powder for concentrate and solvent for solution for infusion vials (Clinigen Healthcare Ltd) ",
+            "header": "Savene 500mg powder for concentrate and solvent for solution for infusion vials <ph outputclass=\"manufacturer\">(Clinigen Healthcare Ltd)</ph>",
+            "manufacturer": "(Clinigen Healthcare Ltd)",
+            "name": "Savene 500mg powder for concentrate and solvent for solution for infusion vials",
+            "ampid": "10937511000001102",
+            "strengthOfActiveIngredient": "Dexrazoxane 500 mg",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5202",
+        "label": "DEXRAZOXANE"
+    }
+}

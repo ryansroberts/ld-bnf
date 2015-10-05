@@ -1,0 +1,83 @@
+{
+    "xml": "<topic id=\"PHP77764\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/acetazolamide/modified-release-capsule\" basename=\"modified-release-capsule\" title=\"Modified-release capsule\">\n<title>Modified-release capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines </p>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Diamox SR 250mg capsules <ph outputclass=\"manufacturer\">(AMCo)</ph>\n</title>\n<data name=\"ampid\">664611000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetazolamide 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.66</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;16.66</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Eytazox 250mg modified-release capsules <ph outputclass=\"manufacturer\">(Auden McKenzie (Pharma Division) Ltd)</ph>\n</title>\n<data name=\"ampid\">24194011000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Acetazolamide 250&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;16.60</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;16.66</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7015\" title=\"ACETAZOLAMIDE\" namespace=\"/drugs/acetazolamide\">ACETAZOLAMIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77764",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/acetazolamide/modified-release-capsule",
+    "basename": "modified-release-capsule",
+    "form": "Modified-release capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "3",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines",
+            "html": "Label <ph outputclass=\"labelNumber\">3</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines"
+        },
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Diamox SR 250mg capsules (AMCo) ",
+            "header": "Diamox SR 250mg capsules <ph outputclass=\"manufacturer\">(AMCo)</ph>",
+            "manufacturer": "(AMCo)",
+            "name": "Diamox SR 250mg capsules",
+            "ampid": "664611000001106",
+            "strengthOfActiveIngredient": "Acetazolamide 250 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.66 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.66</ph>",
+                        "nhsIndicativePrice": "&#163;16.66"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;16.66 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;16.66</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;16.66"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Eytazox 250mg modified-release capsules (Auden McKenzie (Pharma Division) Ltd) ",
+            "header": "Eytazox 250mg modified-release capsules <ph outputclass=\"manufacturer\">(Auden McKenzie (Pharma Division) Ltd)</ph>",
+            "manufacturer": "(Auden McKenzie (Pharma Division) Ltd)",
+            "name": "Eytazox 250mg modified-release capsules",
+            "ampid": "24194011000001109",
+            "strengthOfActiveIngredient": "Acetazolamide 250 mg",
+            "packs": [
+                {
+                    "textContent": " 30 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;16.60 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;16.60</ph>",
+                        "nhsIndicativePrice": "&#163;16.60"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;16.66 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;16.66</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;16.66"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7015",
+        "label": "ACETAZOLAMIDE"
+    }
+}

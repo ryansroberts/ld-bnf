@@ -1,0 +1,142 @@
+{
+    "xml": "<topic id=\"PHP85624\" outputclass=\"drug\" rev=\"1.16\" type=\"drug\" namespace=\"/drugs/linagliptin-with-metformin\" basename=\"linagliptin-with-metformin\" title=\"LINAGLIPTIN WITH METFORMIN\">\n<title>LINAGLIPTIN WITH METFORMIN</title>\n<body>\r\n<p outputclass=\"interactionsLinks\"> List of individual interactants: <xref format=\"dita\" href=\"#bnf_int_267\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/biguanides/metformin\">Metformin</xref>, <xref format=\"dita\" href=\"#bnf_int_1210\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/linagliptin\">Linagliptin</xref>\n</p>\r\n<p outputclass=\"constituentDrugs\">The properties listed below are those particular to the combination only. For the properties of the components please consider, <xref format=\"dita\" href=\"#PHP4188\" namespace=\"/drugs/linagliptin\">linagliptin</xref>, <xref format=\"dita\" href=\"#PHP4161\" namespace=\"/drugs/metformin-hydrochloride\">metformin hydrochloride</xref>.</p>\n<data name=\"vtmid\">21248711000001101</data>\n<data name=\"classifications\">\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_617518759\" title=\"Dipeptidylpeptidase-4 inhibitors (gliptins)\">Dipeptidylpeptidase-4 inhibitors (gliptins)</xref>\n</data>\n</data>\r\n<data name=\"classification\">\n<data name=\"drugClassification\">\n<xref format=\"dita\" scope=\"local\" type=\"drugClassification\" href=\"#_709441655\" title=\"Biguanides\">Biguanides</xref>\n</data>\n</data>\n</data>\n<data name=\"primaryDomainOfEffect\">\n<data name=\"domainOfEffect\">  </data>\n</data>\r\n</body>\n<topic id=\"PHP87697\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/drugs/linagliptin-with-metformin\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Type 2 diabetes mellitus not controlled by metformin alone or by metformin in combination with either a sulfonylurea or insulin</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>1&#8239;tablet twice daily, based on patient&#8217;s current metformin dose.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP87698\" outputclass=\"interactions\" rev=\"1.15\" parent=\"/drugs/linagliptin-with-metformin\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Dose of concomitant sulfonyurea or insulin may need to be reduced.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP85624-medicinalForms\" outputclass=\"medicinalForms\" parent=\"/drugs/linagliptin-with-metformin\">\n<title>Medicinal forms</title>\n<body>\n<section outputclass=\"licensingVariationStatement\">\n<p>There can be variation in the licensing of different medicines containing the same drug.</p>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugs\" href=\"#drugs\" title=\"Drugs\" namespace=\"/drugs\">Drugs</xref>\n</parents>\n<children>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92274\" title=\"Tablet\" namespace=\"/drugs/linagliptin-with-metformin/tablet\">Tablet</xref>\n</children>\n<backlinks>\n<xref format=\"dita\" scope=\"local\" type=\"drugClassifications\" href=\"#PHP106980\" namespace=\"/drug-classifications\" title=\"Drug classifications\" count=\"2\" rel=\"backlink\">Drug classifications</xref>\n</backlinks>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_267\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/biguanides/metformin\" title=\"Metformin\" count=\"1\" rel=\"link\">Metformin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"interaction\" href=\"#bnf_int_1210\" namespace=\"/interactions/list-of-drug-interactions/antidiabetics/linagliptin\" title=\"Linagliptin\" count=\"1\" rel=\"link\">Linagliptin</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4188\" namespace=\"/drugs/linagliptin\" title=\"LINAGLIPTIN\" count=\"1\" rel=\"link\">LINAGLIPTIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4161\" namespace=\"/drugs/metformin-hydrochloride\" title=\"METFORMIN HYDROCHLORIDE\" count=\"1\" rel=\"link\">METFORMIN HYDROCHLORIDE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"#drugs\" href=\"#drugs\" namespace=\"/drugs\" title=\"Drugs\" count=\"1\" rel=\"link\">Drugs</xref>\n<xref format=\"dita\" scope=\"local\" type=\"medicinalForm\" href=\"#PHP92274\" namespace=\"/drugs/linagliptin-with-metformin/tablet\" title=\"Tablet\" count=\"1\" rel=\"link\">Tablet</xref>\n</links>\n</topic>",
+    "id": "PHP85624",
+    "outputclass": "drug",
+    "rev": "1.16",
+    "type": "drug",
+    "namespace": "/drugs/linagliptin-with-metformin",
+    "basename": "linagliptin-with-metformin",
+    "title": "LINAGLIPTIN WITH METFORMIN",
+    "interactants": [
+        {
+            "id": "bnf_int_267",
+            "label": "Metformin"
+        },
+        {
+            "id": "bnf_int_1210",
+            "label": "Linagliptin"
+        }
+    ],
+    "constituents": [
+        {
+            "id": "PHP4188",
+            "label": "linagliptin"
+        },
+        {
+            "id": "PHP4161",
+            "label": "metformin hydrochloride"
+        }
+    ],
+    "vtmid": "21248711000001101",
+    "drugClassification": [
+        "Dipeptidylpeptidase-4 inhibitors (gliptins)",
+        "Biguanides"
+    ],
+    "primaryDomainOfEffect": {
+        "": {
+            "domain": "",
+            "therapeuticUses": {}
+        }
+    },
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Type 2 diabetes mellitus not controlled by metformin alone or by metformin in combination with either a sulfonylurea or insulin",
+                        "html": "Type 2 diabetes mellitus not controlled by metformin alone or by metformin in combination with either a sulfonylurea or insulin"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "1 tablet twice daily, based on patient&#8217;s current metformin dose.",
+                        "html": "<p>1&#8239;tablet twice daily, based on patient&#8217;s current metformin dose.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Dose of concomitant sulfonyurea or insulin may need to be reduced.",
+                "html": "<p>Dose of concomitant sulfonyurea or insulin may need to be reduced.</p>"
+            }
+        ]
+    },
+    "medicinalForms": {
+        "licensingVariationStatement": [
+            {
+                "type": "licensingVariationStatement",
+                "textContent": "There can be variation in the licensing of different medicines containing the same drug.",
+                "html": "<p>There can be variation in the licensing of different medicines containing the same drug.</p>"
+            }
+        ]
+    },
+    "children": {
+        "medicinalForm": [
+            {
+                "id": "PHP92274",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    },
+    "backlinks": {
+        "drugClassifications": [
+            {
+                "id": "PHP106980",
+                "label": "Drug classifications",
+                "type": "drugClassifications"
+            }
+        ]
+    },
+    "links": {
+        "interaction": [
+            {
+                "id": "bnf_int_267",
+                "label": "Metformin",
+                "type": "interaction"
+            },
+            {
+                "id": "bnf_int_1210",
+                "label": "Linagliptin",
+                "type": "interaction"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP4188",
+                "label": "LINAGLIPTIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP4161",
+                "label": "METFORMIN HYDROCHLORIDE",
+                "type": "drug"
+            }
+        ],
+        "#drugs": [
+            {
+                "id": "drugs",
+                "label": "Drugs",
+                "type": "#drugs"
+            }
+        ],
+        "medicinalForm": [
+            {
+                "id": "PHP92274",
+                "label": "Tablet",
+                "type": "medicinalForm"
+            }
+        ]
+    }
+}

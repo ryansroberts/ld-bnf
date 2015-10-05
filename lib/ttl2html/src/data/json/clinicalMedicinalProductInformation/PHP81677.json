@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP81677\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/powergel\" basename=\"powergel\" title=\"Powergel\">\n<title>Powergel<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP84267\" outputclass=\"indicationsAndDose\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/powergel\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Relief of pain in musculoskeletal conditions</p>\n<p outputclass=\"therapeuticIndication\">Adjunctive treatment in knee or hand osteoarthritis</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">To the skin</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Apply 2&#8211;3 times a day for up to max. 10 days.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81677",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/powergel",
+    "basename": "powergel",
+    "title": "Powergel",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Relief of pain in musculoskeletal conditions",
+                        "html": "Relief of pain in musculoskeletal conditions"
+                    },
+                    {
+                        "textContent": "Adjunctive treatment in knee or hand osteoarthritis",
+                        "html": "Adjunctive treatment in knee or hand osteoarthritis"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "To the skin"
+                    ],
+                    "textContent": "To the skin",
+                    "html": "To the skin"
+                },
+                "adult": [
+                    {
+                        "textContent": "Apply 2&#8211;3 times a day for up to max. 10 days.",
+                        "html": "<p>Apply 2&#8211;3 times a day for up to max. 10 days.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

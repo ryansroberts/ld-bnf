@@ -1,0 +1,47 @@
+{
+    "xml": "<topic id=\"PHP77674\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/selenium/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Selenium 200microgram capsules <ph outputclass=\"manufacturer\">(Vega Nutritionals Ltd)</ph>\n</title>\n<data name=\"ampid\">10324211000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">L-Selenomethionine 200&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.98</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.39</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6176\" title=\"SELENIUM\" namespace=\"/drugs/selenium\">SELENIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP77674",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/selenium/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Selenium 200microgram capsules (Vega Nutritionals Ltd) ",
+            "header": "Selenium 200microgram capsules <ph outputclass=\"manufacturer\">(Vega Nutritionals Ltd)</ph>",
+            "manufacturer": "(Vega Nutritionals Ltd)",
+            "name": "Selenium 200microgram capsules",
+            "ampid": "10324211000001101",
+            "strengthOfActiveIngredient": "L-Selenomethionine 200 microgram",
+            "packs": [
+                {
+                    "textContent": " 30 capsule ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.98 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.98</ph>",
+                        "nhsIndicativePrice": "&#163;2.98"
+                    }
+                },
+                {
+                    "textContent": " 60 capsule ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "capsule",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.39 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.39</ph>",
+                        "nhsIndicativePrice": "&#163;5.39"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6176",
+        "label": "SELENIUM"
+    }
+}

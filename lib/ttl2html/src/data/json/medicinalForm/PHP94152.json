@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP94152\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/calcium-gluconate/gel\" basename=\"gel\" title=\"Gel\">\n<title>Gel</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>H-F Antidote 2.5% gel <ph outputclass=\"manufacturer\">(Healthcare Sales &amp; Service Ltd)</ph>\n</title>\n<data name=\"ampid\">10904511000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Calcium gluconate 25&#8239;mg per 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">25</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP93600\" title=\"CALCIUM GLUCONATE\" namespace=\"/drugs/calcium-gluconate\">CALCIUM GLUCONATE</xref>\n</parents>\n</topic>",
+    "id": "PHP94152",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/calcium-gluconate/gel",
+    "basename": "gel",
+    "form": "Gel",
+    "products": [
+        {
+            "title": "H-F Antidote 2.5% gel (Healthcare Sales & Service Ltd) ",
+            "header": "H-F Antidote 2.5% gel <ph outputclass=\"manufacturer\">(Healthcare Sales &amp; Service Ltd)</ph>",
+            "manufacturer": "(Healthcare Sales & Service Ltd)",
+            "name": "H-F Antidote 2.5% gel",
+            "ampid": "10904511000001104",
+            "strengthOfActiveIngredient": "Calcium gluconate 25 mg per 1 gram",
+            "packs": [
+                {
+                    "textContent": " 25 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">25</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "25",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP93600",
+        "label": "CALCIUM GLUCONATE"
+    }
+}

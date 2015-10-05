@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP74823\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/prochlorperazine/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Stemetil 5mg/5ml syrup <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">344011000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Prochlorperazine mesilate 1&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3.34</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;3.34</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2247\" title=\"PROCHLORPERAZINE\" namespace=\"/drugs/prochlorperazine\">PROCHLORPERAZINE</xref>\n</parents>\n</topic>",
+    "id": "PHP74823",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/prochlorperazine/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Stemetil 5mg/5ml syrup (Sanofi) ",
+            "header": "Stemetil 5mg/5ml syrup <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Stemetil 5mg/5ml syrup",
+            "ampid": "344011000001102",
+            "strengthOfActiveIngredient": "Prochlorperazine mesilate 1 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 100 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3.34 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3.34</ph>",
+                        "nhsIndicativePrice": "&#163;3.34"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;3.34 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;3.34</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;3.34"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2247",
+        "label": "PROCHLORPERAZINE"
+    }
+}

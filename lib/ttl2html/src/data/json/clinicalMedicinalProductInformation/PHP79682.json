@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP79682\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/pecfent\" basename=\"pecfent\" title=\"PecFent\">\n<title>PecFent<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP80023\" outputclass=\"indicationsAndDose\" rev=\"1.13\" parent=\"/clinical-medicinal-product-information/pecfent\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Breakthrough pain in patients receiving opioid therapy for chronic cancer pain</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intranasal administration</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 100&#8239;micrograms, adjusted according to response, dose to be administered into one nostril only, maximum 2 sprays for each pain episode and minimum 4 hours between treatment of each pain episode, if more than 4 breakthrough pain episodes daily, adjust background analgesia.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80065\" outputclass=\"patientAndCarerAdvice\" rev=\"1.11\" parent=\"/clinical-medicinal-product-information/pecfent\">\n<title>Patient and carer advice</title>\n<body>\n<section outputclass=\"generalPatientAdvice\">\n<sectiondiv>\n<p>Avoid concomitant use of other nasal preparations.</p>\n<p>Patients or carers should be given advice on how to administer <i>PecFent</i>\n<tm tmtype=\"reg\"/> spray.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP80100\" outputclass=\"nationalFunding\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/pecfent\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (September 2008) that <i>PecFent</i>\n<tm tmtype=\"reg\"/> nasal spray should be restricted for use within NHS Scotland for the management of breakthrough pain in adult patients using opioid therapy for chronic cancer pain, when other short-acting opioids are unsuitable.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP79682",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/pecfent",
+    "basename": "pecfent",
+    "title": "PecFent",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Breakthrough pain in patients receiving opioid therapy for chronic cancer pain",
+                        "html": "Breakthrough pain in patients receiving opioid therapy for chronic cancer pain"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intranasal administration"
+                    ],
+                    "textContent": "By intranasal administration",
+                    "html": "By intranasal administration"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 100 micrograms, adjusted according to response, dose to be administered into one nostril only, maximum 2 sprays for each pain episode and minimum 4 hours between treatment of each pain episode, if more than 4 breakthrough pain episodes daily, adjust background analgesia.",
+                        "html": "<p>Initially 100&#8239;micrograms, adjusted according to response, dose to be administered into one nostril only, maximum 2 sprays for each pain episode and minimum 4 hours between treatment of each pain episode, if more than 4 breakthrough pain episodes daily, adjust background analgesia.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "patientAndCarerAdvice": {
+        "generalPatientAdvice": [
+            {
+                "type": "generalPatientAdvice",
+                "textContent": "Avoid concomitant use of other nasal preparations.\n\nPatients or carers should be given advice on how to administer PecFent spray.",
+                "html": "<p>Avoid concomitant use of other nasal preparations.</p><p>Patients or carers should be given advice on how to administer <i>PecFent</i>\n<tm tmtype=\"reg\"/> spray.</p>"
+            }
+        ]
+    },
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (September 2008) that PecFent nasal spray should be restricted for use within NHS Scotland for the management of breakthrough pain in adult patients using opioid therapy for chronic cancer pain, when other short-acting opioids are unsuitable.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (September 2008) that <i>PecFent</i> <tm tmtype=\"reg\"/> nasal spray should be restricted for use within NHS Scotland for the management of breakthrough pain in adult patients using opioid therapy for chronic cancer pain, when other short-acting opioids are unsuitable.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

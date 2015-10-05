@@ -1,0 +1,110 @@
+{
+    "xml": "<topic id=\"PHP92462\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/hepatitis-a-and-b-vaccine/suspension-for-injection\" basename=\"suspension-for-injection\" title=\"Suspension for injection\">\n<title>Suspension for injection</title>\n<body>\r\n\r\n<section outputclass=\"excipients\">\r\n<title>Excipients</title>\r\n<p outputclass=\"introductoryText\">May contain</p>\r\n<p>Neomycin</p>\n</section>\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP95884\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/twinrix-paediatric\">Twinrix<tm tmtype=\"reg\"/> Paediatric</xref>\r\n<xref format=\"dita\" href=\"#PHP95883\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/twinrix-adult\">Twinrix<tm tmtype=\"reg\"/> Adult</xref>\r\n<xref format=\"dita\" href=\"#PHP95882\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/ambirix\">Ambirix<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Ambirix vaccine suspension for injection 1ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">12951811000001104</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;31.18</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Twinrix Adult vaccine suspension for injection 1ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">2993111000001103</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;33.31</ph>\n</p>\n</li>\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;333.13</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Twinrix Paediatric vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>\n</title>\n<data name=\"ampid\">2997511000001102</data>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;20.79</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88121\" title=\"HEPATITIS A AND B VACCINE\" namespace=\"/drugs/hepatitis-a-and-b-vaccine\">HEPATITIS A AND B VACCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP92462",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/hepatitis-a-and-b-vaccine/suspension-for-injection",
+    "basename": "suspension-for-injection",
+    "form": "Suspension for injection",
+    "excipients": [
+        "Neomycin"
+    ],
+    "productInformationGroups": [
+        {
+            "id": "PHP95884",
+            "label": "Twinrix&reg;  Paediatric",
+            "html": "Twinrix<tm tmtype=\"reg\"/> Paediatric"
+        },
+        {
+            "id": "PHP95883",
+            "label": "Twinrix&reg;  Adult",
+            "html": "Twinrix<tm tmtype=\"reg\"/> Adult"
+        },
+        {
+            "id": "PHP95882",
+            "label": "Ambirix&reg;  ",
+            "html": "Ambirix<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Ambirix vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd) ",
+            "header": "Ambirix vaccine suspension for injection 1ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Ambirix vaccine suspension for injection 1ml pre-filled syringes",
+            "ampid": "12951811000001104",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;31.18 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;31.18</ph>",
+                        "nhsIndicativePrice": "&#163;31.18"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Twinrix Adult vaccine suspension for injection 1ml pre-filled syringes (GlaxoSmithKline UK Ltd) ",
+            "header": "Twinrix Adult vaccine suspension for injection 1ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Twinrix Adult vaccine suspension for injection 1ml pre-filled syringes",
+            "ampid": "2993111000001103",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;33.31 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;33.31</ph>",
+                        "nhsIndicativePrice": "&#163;33.31"
+                    }
+                },
+                {
+                    "textContent": " 10 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;333.13 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;333.13</ph>",
+                        "nhsIndicativePrice": "&#163;333.13"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Twinrix Paediatric vaccine suspension for injection 0.5ml pre-filled syringes (GlaxoSmithKline UK Ltd) ",
+            "header": "Twinrix Paediatric vaccine suspension for injection 0.5ml pre-filled syringes <ph outputclass=\"manufacturer\">(GlaxoSmithKline UK Ltd)</ph>",
+            "manufacturer": "(GlaxoSmithKline UK Ltd)",
+            "name": "Twinrix Paediatric vaccine suspension for injection 0.5ml pre-filled syringes",
+            "ampid": "2997511000001102",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;20.79 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;20.79</ph>",
+                        "nhsIndicativePrice": "&#163;20.79"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88121",
+        "label": "HEPATITIS A AND B VACCINE"
+    }
+}

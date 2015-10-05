@@ -1,0 +1,36 @@
+{
+    "xml": "<topic id=\"PHP101342\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/selenium/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Selenium 100micrograms/10ml solution for infusion vials <ph outputclass=\"manufacturer\">(Aguettant Ltd)</ph>\n</title>\n<data name=\"ampid\">24612711000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Selenium (as Sodium selenite) 10&#8239;microgram per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">No NHS indicative price available</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP6176\" title=\"SELENIUM\" namespace=\"/drugs/selenium\">SELENIUM</xref>\n</parents>\n</topic>",
+    "id": "PHP101342",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/selenium/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Selenium 100micrograms/10ml solution for infusion vials (Aguettant Ltd) ",
+            "header": "Selenium 100micrograms/10ml solution for infusion vials <ph outputclass=\"manufacturer\">(Aguettant Ltd)</ph>",
+            "manufacturer": "(Aguettant Ltd)",
+            "name": "Selenium 100micrograms/10ml solution for infusion vials",
+            "ampid": "24612711000001101",
+            "strengthOfActiveIngredient": "Selenium (as Sodium selenite) 10 microgram per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 10 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": "No NHS indicative price available",
+                        "html": "No NHS indicative price available"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP6176",
+        "label": "SELENIUM"
+    }
+}

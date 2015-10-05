@@ -1,0 +1,89 @@
+{
+    "xml": "<topic id=\"PHP80925\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/galfer-syrup\" basename=\"galfer-syrup\" title=\"Galfer syrup\">\n<title>Galfer<tm tmtype=\"reg\"/> syrup</title>\n<topic id=\"PHP81163\" outputclass=\"indicationsAndDose\" rev=\"1.39\" parent=\"/clinical-medicinal-product-information/galfer-syrup\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Iron-deficiency anaemia (prophylaxis)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>0.25&#8239;mL/kilogram twice daily, the total daily dose may alternatively be given in 3 divided doses, prophylactic iron supplementation may be required in babies of low birth-weight who are solely breast-fed; supplementation is started 4&#8211;6 weeks after birth and continued until mixed feeding is established; maximum 20&#8239;mL per day.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>10&#8239;mL once daily.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8239;mL once daily.</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Iron-deficiency anaemia (therapeutic)</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup child\">\n<p>Child 1 month&#8211;11 years</p>\n<p>0.25&#8239;mL/kilogram twice daily, the total daily dose may alternatively be given in 3 divided doses; maximum 20&#8239;mL per day.</p>\n</li>\n<li outputclass=\"patientGroup child\">\n<p>Child 12&#8211;17 years</p>\n<p>10&#8239;mL 1&#8211;2 times a day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>10&#8239;mL 1&#8211;2 times a day.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP80925",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/galfer-syrup",
+    "basename": "galfer-syrup",
+    "title": "Galfer syrup",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Iron-deficiency anaemia (prophylaxis)",
+                        "html": "Iron-deficiency anaemia (prophylaxis)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "0.25 mL/kilogram twice daily, the total daily dose may alternatively be given in 3 divided doses, prophylactic iron supplementation may be required in babies of low birth-weight who are solely breast-fed; supplementation is started 4&#8211;6 weeks after birth and continued until mixed feeding is established; maximum 20 mL per day.",
+                        "html": "<p>0.25&#8239;mL/kilogram twice daily, the total daily dose may alternatively be given in 3 divided doses, prophylactic iron supplementation may be required in babies of low birth-weight who are solely breast-fed; supplementation is started 4&#8211;6 weeks after birth and continued until mixed feeding is established; maximum 20&#8239;mL per day.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "10 mL once daily.",
+                        "html": "<p>10&#8239;mL once daily.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "10 mL once daily.",
+                        "html": "<p>10&#8239;mL once daily.</p>"
+                    }
+                ]
+            },
+            {
+                "indications": [
+                    {
+                        "textContent": "Iron-deficiency anaemia (therapeutic)",
+                        "html": "Iron-deficiency anaemia (therapeutic)"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "child": [
+                    {
+                        "textContent": "0.25 mL/kilogram twice daily, the total daily dose may alternatively be given in 3 divided doses; maximum 20 mL per day.",
+                        "html": "<p>0.25&#8239;mL/kilogram twice daily, the total daily dose may alternatively be given in 3 divided doses; maximum 20&#8239;mL per day.</p>",
+                        "ageGroup": "1 month&#8211;11 years"
+                    },
+                    {
+                        "textContent": "10 mL 1&#8211;2 times a day.",
+                        "html": "<p>10&#8239;mL 1&#8211;2 times a day.</p>",
+                        "ageGroup": "12&#8211;17 years"
+                    }
+                ],
+                "adult": [
+                    {
+                        "textContent": "10 mL 1&#8211;2 times a day.",
+                        "html": "<p>10&#8239;mL 1&#8211;2 times a day.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

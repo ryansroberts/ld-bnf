@@ -1,0 +1,28 @@
+{
+    "xml": "<topic id=\"PHP81578\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/glucophage-sr\" basename=\"glucophage-sr\" title=\"Glucophage SR\">\n<title>Glucophage<tm tmtype=\"reg\"/> SR</title>\n<topic id=\"PHP84414\" outputclass=\"nationalFunding\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/glucophage-sr\">\n<title>National funding/access decisions</title>\n<body>\n<section>\n<sectiondiv outputclass=\"smcDecisions\">\n<p outputclass=\"title\">Scottish Medicines Consortium (SMC) Decisions</p>\n<sectiondiv outputclass=\"smcDecision\">\n<sectiondiv>\n<p>The <i>Scottish Medicines Consortium</i> has advised (September 2009) that <i>Glucophage</i>\n<tm tmtype=\"reg\"/>\n<i>SR</i> is accepted for restricted use within NHS Scotland for the treatment of type 2 diabetes mellitus in adult patients who are intolerant of standard-release metformin, and in whom the prolonged-release tablet allows the use of a dose of metformin not previously tolerated, or in patients for whom a once daily preparation offers a clinically significant benefit.</p>\n</sectiondiv>\n</sectiondiv>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81578",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/glucophage-sr",
+    "basename": "glucophage-sr",
+    "title": "Glucophage SR",
+    "nationalFunding": {
+        "smcDecisions": [
+            {
+                "type": "smcDecisions",
+                "textContent": "The Scottish Medicines Consortium has advised (September 2009) that Glucophage SR is accepted for restricted use within NHS Scotland for the treatment of type 2 diabetes mellitus in adult patients who are intolerant of standard-release metformin, and in whom the prolonged-release tablet allows the use of a dose of metformin not previously tolerated, or in patients for whom a once daily preparation offers a clinically significant benefit.",
+                "html": "<p>The <i>Scottish Medicines Consortium</i> has advised (September 2009) that <i>Glucophage</i> <tm tmtype=\"reg\"/> <i>SR</i> is accepted for restricted use within NHS Scotland for the treatment of type 2 diabetes mellitus in adult patients who are intolerant of standard-release metformin, and in whom the prolonged-release tablet allows the use of a dose of metformin not previously tolerated, or in patients for whom a once daily preparation offers a clinically significant benefit.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

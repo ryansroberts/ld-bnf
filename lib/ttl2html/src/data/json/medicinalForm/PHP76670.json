@@ -1,0 +1,50 @@
+{
+    "xml": "<topic id=\"PHP76670\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/nicotine/sublingual-tablet\" basename=\"sublingual-tablet\" title=\"Sublingual tablet\">\n<title>Sublingual tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">26</ph> - Dissolve this medicine under your tongue </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Nicorette Microtab 2mg sublingual tablets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>\n</title>\n<data name=\"ampid\">2833611000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Nicotine (as Nicotine cyclodextrin complex) 2&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;13.12</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;13.12</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3201\" title=\"NICOTINE\" namespace=\"/drugs/nicotine\">NICOTINE</xref>\n</parents>\n</topic>",
+    "id": "PHP76670",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/nicotine/sublingual-tablet",
+    "basename": "sublingual-tablet",
+    "form": "Sublingual tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "26",
+            "textContent": "Dissolve this medicine under your tongue",
+            "html": "Label <ph outputclass=\"labelNumber\">26</ph> - Dissolve this medicine under your tongue"
+        }
+    ],
+    "products": [
+        {
+            "title": "Nicorette Microtab 2mg sublingual tablets (McNeil Products Ltd) ",
+            "header": "Nicorette Microtab 2mg sublingual tablets <ph outputclass=\"manufacturer\">(McNeil Products Ltd)</ph>",
+            "manufacturer": "(McNeil Products Ltd)",
+            "name": "Nicorette Microtab 2mg sublingual tablets",
+            "ampid": "2833611000001105",
+            "strengthOfActiveIngredient": "Nicotine (as Nicotine cyclodextrin complex) 2 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet GSL ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;13.12 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;13.12</ph>",
+                        "nhsIndicativePrice": "&#163;13.12"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;13.12 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;13.12</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;13.12"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3201",
+        "label": "NICOTINE"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "xml": "<topic id=\"PHP74691\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/rabies-vaccine/powder-and-solvent-for-solution-for-injection\" basename=\"powder-and-solvent-for-solution-for-injection\" title=\"Powder and solvent for solution for injection\">\n<title>Powder and solvent for solution for injection</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Neomycin</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Rabipur vaccine powder and solvent for solution for injection 1ml vials <ph outputclass=\"manufacturer\">(Novartis Vaccines and Diagnostics Ltd)</ph>\n</title>\n<data name=\"ampid\">8165311000001107</data>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;28.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP8391\" title=\"RABIES VACCINE\" namespace=\"/drugs/rabies-vaccine\">RABIES VACCINE</xref>\n</parents>\n</topic>",
+    "id": "PHP74691",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/rabies-vaccine/powder-and-solvent-for-solution-for-injection",
+    "basename": "powder-and-solvent-for-solution-for-injection",
+    "form": "Powder and solvent for solution for injection",
+    "excipients": [
+        "Neomycin"
+    ],
+    "products": [
+        {
+            "title": "Rabipur vaccine powder and solvent for solution for injection 1ml vials (Novartis Vaccines and Diagnostics Ltd) ",
+            "header": "Rabipur vaccine powder and solvent for solution for injection 1ml vials <ph outputclass=\"manufacturer\">(Novartis Vaccines and Diagnostics Ltd)</ph>",
+            "manufacturer": "(Novartis Vaccines and Diagnostics Ltd)",
+            "name": "Rabipur vaccine powder and solvent for solution for injection 1ml vials",
+            "ampid": "8165311000001107",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;28.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;28.80</ph>",
+                        "nhsIndicativePrice": "&#163;28.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP8391",
+        "label": "RABIES VACCINE"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "xml": "<topic id=\"PHP81629\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/entocort-capsules\" basename=\"entocort-capsules\" title=\"Entocort capsules\">\n<title>Entocort<tm tmtype=\"reg\"/> capsules</title>\n<topic id=\"PHP83850\" outputclass=\"indicationsAndDose\" rev=\"1.33\" parent=\"/clinical-medicinal-product-information/entocort-capsules\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Mild to moderate Crohn's disease affecting the ileum or ascending colon</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>9&#8239;mg once daily for up to 8 weeks; reduce dose for the last 2&#8211;4 weeks of treatment, to be taken in the morning.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83868\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.9\" parent=\"/clinical-medicinal-product-information/entocort-capsules\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>Dispense modified-release capsules in original container (contains desiccant).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81629",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/entocort-capsules",
+    "basename": "entocort-capsules",
+    "title": "Entocort capsules",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Mild to moderate Crohn's disease affecting the ileum or ascending colon",
+                        "html": "Mild to moderate Crohn's disease affecting the ileum or ascending colon"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "9 mg once daily for up to 8 weeks; reduce dose for the last 2&#8211;4 weeks of treatment, to be taken in the morning.",
+                        "html": "<p>9&#8239;mg once daily for up to 8 weeks; reduce dose for the last 2&#8211;4 weeks of treatment, to be taken in the morning.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Dispense modified-release capsules in original container (contains desiccant).",
+                "html": "<p>Dispense modified-release capsules in original container (contains desiccant).</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

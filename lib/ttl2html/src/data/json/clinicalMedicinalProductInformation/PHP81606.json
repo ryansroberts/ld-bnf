@@ -1,0 +1,48 @@
+{
+    "xml": "<topic id=\"PHP81606\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/citanest-1%\" basename=\"citanest-1%\" title=\"Citanest 1%\">\n<title>Citanest 1%<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP82997\" outputclass=\"indicationsAndDose\" rev=\"1.20\" parent=\"/clinical-medicinal-product-information/citanest-1%\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Infiltration anaesthesia</p>\n<p outputclass=\"therapeuticIndication\">Nerve block</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By regional administration</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>100&#8211;200&#8239;mg/minute, dose adjusted according to site of administration and response, increased if necessary up to 400&#8239;mg, dose may need to be adjusted in elderly or debilitated patients.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81606",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/citanest-1%",
+    "basename": "citanest-1%",
+    "title": "Citanest 1%",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Infiltration anaesthesia",
+                        "html": "Infiltration anaesthesia"
+                    },
+                    {
+                        "textContent": "Nerve block",
+                        "html": "Nerve block"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "regional administration"
+                    ],
+                    "textContent": "By regional administration",
+                    "html": "By regional administration"
+                },
+                "adult": [
+                    {
+                        "textContent": "100&#8211;200 mg/minute, dose adjusted according to site of administration and response, increased if necessary up to 400 mg, dose may need to be adjusted in elderly or debilitated patients.",
+                        "html": "<p>100&#8211;200&#8239;mg/minute, dose adjusted according to site of administration and response, increased if necessary up to 400&#8239;mg, dose may need to be adjusted in elderly or debilitated patients.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

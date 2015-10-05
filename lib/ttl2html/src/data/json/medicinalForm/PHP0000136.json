@@ -1,0 +1,38 @@
+{
+    "xml": "<topic id=\"PHP0000136\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/oxymetholone/medicinal-forms/capsule\" basename=\"capsule\" title=\"Capsule\">\n      <title>Capsule</title>\n      <body>\n       <section outputclass=\"medicinalProduct\"><title>Oxymetholone 50mg capsules <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>\n        </title>\n        <data name=\"ampid\">21876311000001109</data><p outputclass=\"controlledDrugs\">Schedule 4 (CD\n         Anab)</p><p outputclass=\"strengthOfActiveIngredient\">Oxymetholone 50 mg</p><ul outputclass=\"packs\">\n         <li outputclass=\"packSizePriceTariff\"><p outputclass=\"packInfo\"><ph outputclass=\"packSize\">50</ph>&#8239;<ph outputclass=\"unitOfMeasure\">capsule</ph>\n           <ph outputclass=\"legalCategory\">POM</ph></p><p outputclass=\"nhsIndicativeInfo\">\n           <ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n           <ph outputclass=\"priceText\">price =</ph>\n           <ph outputclass=\"nhsIndicativePrice\">&#163;395.00</ph>\n          </p>\n         </li>\n        </ul>\n       </section>\n      </body>\n     <parents><xref format=\"dita\" scope=\"local\" type=\"\" href=\"#PHP104993-medicinalForms\" title=\"\"/></parents></topic>",
+    "id": "PHP0000136",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/oxymetholone/medicinal-forms/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "products": [
+        {
+            "title": "Oxymetholone 50mg capsules (Alliance Pharmaceuticals Ltd) ",
+            "header": "Oxymetholone 50mg capsules <ph outputclass=\"manufacturer\">(Alliance Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Alliance Pharmaceuticals Ltd)",
+            "name": "Oxymetholone 50mg capsules",
+            "ampid": "21876311000001109",
+            "controlledDrugs": "Schedule 4 (CD Anab)",
+            "strengthOfActiveIngredient": "Oxymetholone 50 mg",
+            "packs": [
+                {
+                    "textContent": "50 capsule POM",
+                    "html": "<ph outputclass=\"packSize\">50</ph>&#8239;<ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "50",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;395.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;395.00</ph>",
+                        "nhsIndicativePrice": "&#163;395.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP104993",
+        "label": ""
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "xml": "<topic id=\"PHP77170\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/diamorphine-hydrochloride/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Diamorphine 10mg tablets <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">857211000001104</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Diamorphine hydrochloride 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;25.29</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;24.69</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Diamorphine 10mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>\n</title>\n<data name=\"ampid\">396511000001109</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Diamorphine hydrochloride 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;25.29</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;24.69</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Diamorphine 10mg tablets <ph outputclass=\"manufacturer\">(Martindale Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">295311000001103</data>\n<p outputclass=\"controlledDrugs\">Schedule 2 (CD)</p>\n<p outputclass=\"strengthOfActiveIngredient\">Diamorphine hydrochloride 10&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;25.29</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;24.69</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2699\" title=\"DIAMORPHINE HYDROCHLORIDE\" namespace=\"/drugs/diamorphine-hydrochloride\">DIAMORPHINE HYDROCHLORIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP77170",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/diamorphine-hydrochloride/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "2",
+            "textContent": "Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol",
+            "html": "Label <ph outputclass=\"labelNumber\">2</ph> - Warning: This medicine may make you sleepy. If this happens, do not drive or use tools or machines. Do not drink alcohol"
+        }
+    ],
+    "products": [
+        {
+            "title": "Diamorphine 10mg tablets (A A H Pharmaceuticals Ltd) ",
+            "header": "Diamorphine 10mg tablets <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Diamorphine 10mg tablets",
+            "ampid": "857211000001104",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Diamorphine hydrochloride 10 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;25.29 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;25.29</ph>",
+                        "nhsIndicativePrice": "&#163;25.29"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;24.69 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;24.69</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;24.69"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Diamorphine 10mg tablets (Alliance Healthcare (Distribution) Ltd) ",
+            "header": "Diamorphine 10mg tablets <ph outputclass=\"manufacturer\">(Alliance Healthcare (Distribution) Ltd)</ph>",
+            "manufacturer": "(Alliance Healthcare (Distribution) Ltd)",
+            "name": "Diamorphine 10mg tablets",
+            "ampid": "396511000001109",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Diamorphine hydrochloride 10 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;25.29 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;25.29</ph>",
+                        "nhsIndicativePrice": "&#163;25.29"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;24.69 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;24.69</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;24.69"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Diamorphine 10mg tablets (Martindale Pharmaceuticals Ltd) ",
+            "header": "Diamorphine 10mg tablets <ph outputclass=\"manufacturer\">(Martindale Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(Martindale Pharmaceuticals Ltd)",
+            "name": "Diamorphine 10mg tablets",
+            "ampid": "295311000001103",
+            "controlledDrugs": "Schedule 2 (CD)",
+            "strengthOfActiveIngredient": "Diamorphine hydrochloride 10 mg",
+            "packs": [
+                {
+                    "textContent": " 100 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;25.29 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;25.29</ph>",
+                        "nhsIndicativePrice": "&#163;25.29"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category A) price = &#163;24.69 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category A)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;24.69</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category A)",
+                        "drugTariffPrice": "&#163;24.69"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2699",
+        "label": "DIAMORPHINE HYDROCHLORIDE"
+    }
+}

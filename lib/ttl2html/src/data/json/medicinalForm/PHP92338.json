@@ -1,0 +1,61 @@
+{
+    "xml": "<topic id=\"PHP92338\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/chlorhexidine-with-chlorobutanol/mouthwash\" basename=\"mouthwash\" title=\"Mouthwash\">\n<title>Mouthwash</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Eludril mouthwash <ph outputclass=\"manufacturer\">(Pierre Fabre Ltd)</ph>\n</title>\n<data name=\"ampid\">3858311000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Chlorhexidine gluconate 1&#8239;mg per 1&#8239;ml</p>\n<p outputclass=\"strengthOfActiveIngredient\">Chlorobutanol 5&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">90</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1.36</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">250</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.83</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.06</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP88025\" title=\"CHLORHEXIDINE WITH CHLOROBUTANOL\" namespace=\"/drugs/chlorhexidine-with-chlorobutanol\">CHLORHEXIDINE WITH CHLOROBUTANOL</xref>\n</parents>\n</topic>",
+    "id": "PHP92338",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/chlorhexidine-with-chlorobutanol/mouthwash",
+    "basename": "mouthwash",
+    "form": "Mouthwash",
+    "products": [
+        {
+            "title": "Eludril mouthwash (Pierre Fabre Ltd) ",
+            "header": "Eludril mouthwash <ph outputclass=\"manufacturer\">(Pierre Fabre Ltd)</ph>",
+            "manufacturer": "(Pierre Fabre Ltd)",
+            "name": "Eludril mouthwash",
+            "ampid": "3858311000001103",
+            "strengthOfActiveIngredient": "Chlorobutanol 5 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 90 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">90</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "90",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1.36 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1.36</ph>",
+                        "nhsIndicativePrice": "&#163;1.36"
+                    }
+                },
+                {
+                    "textContent": " 250 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">250</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "250",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.83 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.83</ph>",
+                        "nhsIndicativePrice": "&#163;2.83"
+                    }
+                },
+                {
+                    "textContent": " 500 ml GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.06 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.06</ph>",
+                        "nhsIndicativePrice": "&#163;5.06"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP88025",
+        "label": "CHLORHEXIDINE WITH CHLOROBUTANOL"
+    }
+}

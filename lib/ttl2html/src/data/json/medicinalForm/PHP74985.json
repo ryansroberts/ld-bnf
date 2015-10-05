@@ -1,0 +1,40 @@
+{
+    "xml": "<topic id=\"PHP74985\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/rifampicin/powder-and-solvent-for-solution-for-infusion\" basename=\"powder-and-solvent-for-solution-for-infusion\" title=\"Powder and solvent for solution for infusion\">\n<title>Powder and solvent for solution for infusion</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Rifadin 600mg powder and solvent for solution for infusion vials <ph outputclass=\"manufacturer\">(Sanofi)</ph>\n</title>\n<data name=\"ampid\">4401611000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Rifampicin 600&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;9.20</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3619\" title=\"RIFAMPICIN\" namespace=\"/drugs/rifampicin\">RIFAMPICIN</xref>\n</parents>\n</topic>",
+    "id": "PHP74985",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/rifampicin/powder-and-solvent-for-solution-for-infusion",
+    "basename": "powder-and-solvent-for-solution-for-infusion",
+    "form": "Powder and solvent for solution for infusion",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Rifadin 600mg powder and solvent for solution for infusion vials (Sanofi) ",
+            "header": "Rifadin 600mg powder and solvent for solution for infusion vials <ph outputclass=\"manufacturer\">(Sanofi)</ph>",
+            "manufacturer": "(Sanofi)",
+            "name": "Rifadin 600mg powder and solvent for solution for infusion vials",
+            "ampid": "4401611000001102",
+            "strengthOfActiveIngredient": "Rifampicin 600 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;9.20 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;9.20</ph>",
+                        "nhsIndicativePrice": "&#163;9.20"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3619",
+        "label": "RIFAMPICIN"
+    }
+}

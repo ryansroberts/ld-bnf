@@ -1,0 +1,93 @@
+{
+    "xml": "<topic id=\"PHP76195\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/rufinamide/tablet\" basename=\"tablet\" title=\"Tablet\">\n<title>Tablet</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop </p>\n<p>Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Inovelon 100mg tablets <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>\n</title>\n<data name=\"ampid\">12862111000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Rufinamide 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;5.15</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Inovelon 200mg tablets <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>\n</title>\n<data name=\"ampid\">13123911000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Rufinamide 200&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;61.77</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Inovelon 400mg tablets <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>\n</title>\n<data name=\"ampid\">13124211000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Rufinamide 400&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">60</ph>\n<ph outputclass=\"unitOfMeasure\">tablet</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;102.96</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP2967\" title=\"RUFINAMIDE\" namespace=\"/drugs/rufinamide\">RUFINAMIDE</xref>\n</parents>\n</topic>",
+    "id": "PHP76195",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/rufinamide/tablet",
+    "basename": "tablet",
+    "form": "Tablet",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "8",
+            "textContent": "Warning: Do not stop taking this medicine unless your doctor tells you to stop",
+            "html": "Label <ph outputclass=\"labelNumber\">8</ph> - Warning: Do not stop taking this medicine unless your doctor tells you to stop"
+        },
+        {
+            "number": "21",
+            "textContent": "Take with or just after food, or a meal",
+            "html": "Label <ph outputclass=\"labelNumber\">21</ph> - Take with or just after food, or a meal"
+        }
+    ],
+    "products": [
+        {
+            "title": "Inovelon 100mg tablets (Eisai Ltd) ",
+            "header": "Inovelon 100mg tablets <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>",
+            "manufacturer": "(Eisai Ltd)",
+            "name": "Inovelon 100mg tablets",
+            "ampid": "12862111000001104",
+            "strengthOfActiveIngredient": "Rufinamide 100 mg",
+            "packs": [
+                {
+                    "textContent": " 10 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;5.15 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;5.15</ph>",
+                        "nhsIndicativePrice": "&#163;5.15"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Inovelon 200mg tablets (Eisai Ltd) ",
+            "header": "Inovelon 200mg tablets <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>",
+            "manufacturer": "(Eisai Ltd)",
+            "name": "Inovelon 200mg tablets",
+            "ampid": "13123911000001104",
+            "strengthOfActiveIngredient": "Rufinamide 200 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;61.77 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;61.77</ph>",
+                        "nhsIndicativePrice": "&#163;61.77"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Inovelon 400mg tablets (Eisai Ltd) ",
+            "header": "Inovelon 400mg tablets <ph outputclass=\"manufacturer\">(Eisai Ltd)</ph>",
+            "manufacturer": "(Eisai Ltd)",
+            "name": "Inovelon 400mg tablets",
+            "ampid": "13124211000001106",
+            "strengthOfActiveIngredient": "Rufinamide 400 mg",
+            "packs": [
+                {
+                    "textContent": " 60 tablet POM ",
+                    "html": "<ph outputclass=\"packSize\">60</ph> <ph outputclass=\"unitOfMeasure\">tablet</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "60",
+                    "unitOfMeasure": "tablet",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;102.96 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;102.96</ph>",
+                        "nhsIndicativePrice": "&#163;102.96"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP2967",
+        "label": "RUFINAMIDE"
+    }
+}

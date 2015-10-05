@@ -1,0 +1,128 @@
+{
+    "xml": "<topic id=\"PHP76830\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/aciclovir/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"electrolytes\">\n<title>Electrolytes</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Sodium</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aciclovir 1g/40ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>\n</title>\n<data name=\"ampid\">10067611000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;40.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aciclovir 250mg/10ml solution for infusion vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">18498111000001100</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;50.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aciclovir 250mg/10ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>\n</title>\n<data name=\"ampid\">10067011000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;50.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aciclovir 500mg/20ml solution for infusion vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>\n</title>\n<data name=\"ampid\">19236111000001105</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Aciclovir 500mg/20ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>\n</title>\n<data name=\"ampid\">10067311000001107</data>\n<p outputclass=\"strengthOfActiveIngredient\">Aciclovir (as Aciclovir sodium) 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3843\" title=\"ACICLOVIR\" namespace=\"/drugs/aciclovir\">ACICLOVIR</xref>\n</parents>\n</topic>",
+    "id": "PHP76830",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/aciclovir/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "electrolytes": [
+        "Sodium"
+    ],
+    "products": [
+        {
+            "title": "Aciclovir 1g/40ml solution for infusion vials (Hospira UK Ltd) ",
+            "header": "Aciclovir 1g/40ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>",
+            "manufacturer": "(Hospira UK Ltd)",
+            "name": "Aciclovir 1g/40ml solution for infusion vials",
+            "ampid": "10067611000001102",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;40.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;40.00</ph>",
+                        "nhsIndicativePrice": "&#163;40.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Aciclovir 250mg/10ml solution for infusion vials (A A H Pharmaceuticals Ltd) ",
+            "header": "Aciclovir 250mg/10ml solution for infusion vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Aciclovir 250mg/10ml solution for infusion vials",
+            "ampid": "18498111000001100",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;50.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;50.00</ph>",
+                        "nhsIndicativePrice": "&#163;50.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Aciclovir 250mg/10ml solution for infusion vials (Hospira UK Ltd) ",
+            "header": "Aciclovir 250mg/10ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>",
+            "manufacturer": "(Hospira UK Ltd)",
+            "name": "Aciclovir 250mg/10ml solution for infusion vials",
+            "ampid": "10067011000001109",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;50.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;50.00</ph>",
+                        "nhsIndicativePrice": "&#163;50.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Aciclovir 500mg/20ml solution for infusion vials (A A H Pharmaceuticals Ltd) ",
+            "header": "Aciclovir 500mg/20ml solution for infusion vials <ph outputclass=\"manufacturer\">(A A H Pharmaceuticals Ltd)</ph>",
+            "manufacturer": "(A A H Pharmaceuticals Ltd)",
+            "name": "Aciclovir 500mg/20ml solution for infusion vials",
+            "ampid": "19236111000001105",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>",
+                        "nhsIndicativePrice": "&#163;100.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Aciclovir 500mg/20ml solution for infusion vials (Hospira UK Ltd) ",
+            "header": "Aciclovir 500mg/20ml solution for infusion vials <ph outputclass=\"manufacturer\">(Hospira UK Ltd)</ph>",
+            "manufacturer": "(Hospira UK Ltd)",
+            "name": "Aciclovir 500mg/20ml solution for infusion vials",
+            "ampid": "10067311000001107",
+            "strengthOfActiveIngredient": "Aciclovir (as Aciclovir sodium) 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;100.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;100.00</ph>",
+                        "nhsIndicativePrice": "&#163;100.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3843",
+        "label": "ACICLOVIR"
+    }
+}

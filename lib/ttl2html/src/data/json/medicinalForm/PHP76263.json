@@ -1,0 +1,55 @@
+{
+    "xml": "<topic id=\"PHP76263\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ichthammol/not-applicable\" basename=\"not-applicable\" title=\"Not applicable\">\n<title>Not applicable</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Ichthammol liquid <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>\n</title>\n<data name=\"ampid\">5159411000001101</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ichthammol 1&#8239;mg per 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">100</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;11.42</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;11.42</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">500</ph>\n<ph outputclass=\"unitOfMeasure\">gram</ph>\n<ph outputclass=\"legalCategory\">GSL</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;34.27</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP7690\" title=\"ICHTHAMMOL\" namespace=\"/drugs/ichthammol\">ICHTHAMMOL</xref>\n</parents>\n</topic>",
+    "id": "PHP76263",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ichthammol/not-applicable",
+    "basename": "not-applicable",
+    "form": "Not applicable",
+    "products": [
+        {
+            "title": "Ichthammol liquid (J M Loveridge Ltd) ",
+            "header": "Ichthammol liquid <ph outputclass=\"manufacturer\">(J M Loveridge Ltd)</ph>",
+            "manufacturer": "(J M Loveridge Ltd)",
+            "name": "Ichthammol liquid",
+            "ampid": "5159411000001101",
+            "strengthOfActiveIngredient": "Ichthammol 1 mg per 1 mg",
+            "packs": [
+                {
+                    "textContent": " 100 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">100</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "100",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;11.42 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;11.42</ph>",
+                        "nhsIndicativePrice": "&#163;11.42"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;11.42 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;11.42</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;11.42"
+                    }
+                },
+                {
+                    "textContent": " 500 gram GSL ",
+                    "html": "<ph outputclass=\"packSize\">500</ph> <ph outputclass=\"unitOfMeasure\">gram</ph> <ph outputclass=\"legalCategory\">GSL</ph>",
+                    "packSize": "500",
+                    "unitOfMeasure": "gram",
+                    "legalCategory": "GSL",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;34.27 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;34.27</ph>",
+                        "nhsIndicativePrice": "&#163;34.27"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP7690",
+        "label": "ICHTHAMMOL"
+    }
+}

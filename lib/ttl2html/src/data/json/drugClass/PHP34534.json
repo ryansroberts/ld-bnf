@@ -1,0 +1,497 @@
+{
+    "xml": "<topic id=\"PHP34534\" outputclass=\"drugClass\" rev=\"1.17\" type=\"drugClass\" namespace=\"/drug-classes/cephalosporins\" basename=\"cephalosporins\" title=\"CEPHALOSPORINS\">\n<title>CEPHALOSPORINS</title>\n<topic id=\"PHP71936\" outputclass=\"interactions\" rev=\"1.26\" parent=\"/drug-classes/cephalosporins\">\n<title>Interactions</title>\n<body>\n<section outputclass=\"general\">\n<sectiondiv>\n<p>Appendix 1 (cephalosporins).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71862\" outputclass=\"sideEffects\" rev=\"1.70\" parent=\"/drug-classes/cephalosporins\">\n<title>Side-effects</title>\n<body>\n<section outputclass=\"generalSideEffects\">\n<sectiondiv outputclass=\"frequencies\">\n<sectiondiv outputclass=\"rare\">\n<p outputclass=\"title\">Rare</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Antibiotic-associated colitis</ph>\n</p>\n</sectiondiv>\n<sectiondiv outputclass=\"notKnown\">\n<p outputclass=\"title\">Frequency not known</p>\n<p outputclass=\"sideEffects\">\n<ph outputclass=\"sideEffect\">Abdominal discomfort</ph>; <ph outputclass=\"sideEffect\">agranulocytosis</ph>; <ph outputclass=\"sideEffect\">allergic reactions</ph>; <ph outputclass=\"sideEffect\">anaphylaxis</ph>; <ph outputclass=\"sideEffect\">aplastic anaemia</ph>; <ph outputclass=\"sideEffect\">blood disorders</ph>; <ph outputclass=\"sideEffect\">confusion</ph>; <ph outputclass=\"sideEffect\">diarrhoea</ph>; <ph outputclass=\"sideEffect\">disturbances in liver enzymes</ph>; <ph outputclass=\"sideEffect\">dizziness</ph>; <ph outputclass=\"sideEffect\">eosinophilia</ph>; <ph outputclass=\"sideEffect\">haemolytic anaemia</ph>; <ph outputclass=\"sideEffect\">hallucinations</ph>; <ph outputclass=\"sideEffect\">headache</ph>; <ph outputclass=\"sideEffect\">hyperactivity</ph>; <ph outputclass=\"sideEffect\">hypertonia</ph>; <ph outputclass=\"sideEffect\">leucopenia</ph>; <ph outputclass=\"sideEffect\">nausea</ph>; <ph outputclass=\"sideEffect\">nervousness</ph>; <ph outputclass=\"sideEffect\">pruritus</ph>; <ph outputclass=\"sideEffect\">rashes</ph>; <ph outputclass=\"sideEffect\">reversible interstitial nephritis</ph>; <ph outputclass=\"sideEffect\">serum sickness-like reactions with rashes, fever and arthralgia</ph>; <ph outputclass=\"sideEffect\">sleep disturbances</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">thrombocytopenia</ph>; <ph outputclass=\"sideEffect\">toxic epidermal necrolysis</ph>; <ph outputclass=\"sideEffect\">transient cholestatic jaundice</ph>; <ph outputclass=\"sideEffect\">transient hepatitis</ph>; <ph outputclass=\"sideEffect\">urticaria</ph>; <ph outputclass=\"sideEffect\">vomiting</ph>\n</p>\n</sectiondiv>\n</sectiondiv>\n</section>\n<section outputclass=\"sideEffectsAdvice\">\n<title>Side-effects, further information</title>\n<sectiondiv>\n<p outputclass=\"title\">Antibiotic-associated colitis</p>\n<p>Antibiotic-associated colitis may occur more commonly with second- and third-generation cephalosporins.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP72022\" outputclass=\"allergyAndCrossSensitivity\" rev=\"1.42\" parent=\"/drug-classes/cephalosporins\">\n<title>Allergy and cross-sensitivity</title>\n<body>\n<section outputclass=\"allergyAndCrossSensitivityContraindications\">\n<sectiondiv>\n<p>Contra-indicated in patients with cephalosporin hypersensitivity.</p>\n</sectiondiv>\n</section>\n<section outputclass=\"allergyAndCrossSensitivityCrossSensitivity\">\n<sectiondiv>\n<p outputclass=\"title\">Cross-sensitivity with other beta-lactam antibacterials</p>\n<p>About 0.5&#8211;6.5% of penicillin-sensitive patients will also be allergic to the cephalosporins. Patients with a history of <b>immediate hypersensitivity</b> to penicillin and other beta-lactams should not receive a cephalosporin. Cephalosporins should be used with caution in patients with sensitivity to penicillin and other beta-lactams.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP71815\" outputclass=\"effectOnLaboratoryTests\" rev=\"1.29\" parent=\"/drug-classes/cephalosporins\">\n<title>Effect on laboratory tests</title>\n<body>\n<section>\n<sectiondiv>\n<p>False positive urinary glucose (if tested for reducing substances).</p>\n<p>False positive Coombs&#8217; test.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drugClasses\" href=\"#drugClasses\" title=\"Drug classes\" namespace=\"/drug-classes\">Drug classes</xref>\n</parents>\n<drugs>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP18798\" title=\"CEFTAROLINE FOSAMIL\" namespace=\"/drugs/ceftaroline-fosamil\">CEFTAROLINE FOSAMIL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3365\" title=\"CEFACLOR\" namespace=\"/drugs/cefaclor\">CEFACLOR</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3373\" title=\"CEFADROXIL\" namespace=\"/drugs/cefadroxil\">CEFADROXIL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3376\" title=\"CEFALEXIN\" namespace=\"/drugs/cefalexin\">CEFALEXIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3384\" title=\"CEFOTAXIME\" namespace=\"/drugs/cefotaxime\">CEFOTAXIME</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3382\" title=\"CEFIXIME\" namespace=\"/drugs/cefixime\">CEFIXIME</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3390\" title=\"CEFRADINE\" namespace=\"/drugs/cefradine\">CEFRADINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3393\" title=\"CEFTAZIDIME\" namespace=\"/drugs/ceftazidime\">CEFTAZIDIME</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3397\" title=\"CEFTRIAXONE\" namespace=\"/drugs/ceftriaxone\">CEFTRIAXONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3400\" title=\"CEFUROXIME\" namespace=\"/drugs/cefuroxime\">CEFUROXIME</xref>\n</drugs>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#drugClasses\" href=\"#drugClasses\" namespace=\"/drug-classes\" title=\"Drug classes\" count=\"1\" rel=\"link\">Drug classes</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP18798\" namespace=\"/drugs/ceftaroline-fosamil\" title=\"CEFTAROLINE FOSAMIL\" count=\"1\" rel=\"link\">CEFTAROLINE FOSAMIL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3365\" namespace=\"/drugs/cefaclor\" title=\"CEFACLOR\" count=\"1\" rel=\"link\">CEFACLOR</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3373\" namespace=\"/drugs/cefadroxil\" title=\"CEFADROXIL\" count=\"1\" rel=\"link\">CEFADROXIL</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3376\" namespace=\"/drugs/cefalexin\" title=\"CEFALEXIN\" count=\"1\" rel=\"link\">CEFALEXIN</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3384\" namespace=\"/drugs/cefotaxime\" title=\"CEFOTAXIME\" count=\"1\" rel=\"link\">CEFOTAXIME</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3382\" namespace=\"/drugs/cefixime\" title=\"CEFIXIME\" count=\"1\" rel=\"link\">CEFIXIME</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3390\" namespace=\"/drugs/cefradine\" title=\"CEFRADINE\" count=\"1\" rel=\"link\">CEFRADINE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3393\" namespace=\"/drugs/ceftazidime\" title=\"CEFTAZIDIME\" count=\"1\" rel=\"link\">CEFTAZIDIME</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3397\" namespace=\"/drugs/ceftriaxone\" title=\"CEFTRIAXONE\" count=\"1\" rel=\"link\">CEFTRIAXONE</xref>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3400\" namespace=\"/drugs/cefuroxime\" title=\"CEFUROXIME\" count=\"1\" rel=\"link\">CEFUROXIME</xref>\n</links>\n</topic>",
+    "id": "PHP34534",
+    "outputclass": "drugClass",
+    "rev": "1.17",
+    "type": "drugClass",
+    "namespace": "/drug-classes/cephalosporins",
+    "basename": "cephalosporins",
+    "title": "CEPHALOSPORINS",
+    "interactions": {
+        "general": [
+            {
+                "type": "general",
+                "textContent": "Appendix 1 (cephalosporins).",
+                "html": "<p>Appendix 1 (cephalosporins).</p>"
+            }
+        ]
+    },
+    "sideEffects": {
+        "general": {
+            "frequencies": {
+                "rare": [
+                    {
+                        "type": "rare",
+                        "textContent": "Antibiotic-associated colitis",
+                        "html": "Antibiotic-associated colitis",
+                        "frequency": "rare",
+                        "specificity": {
+                            "textContent": "Rare",
+                            "html": "Rare"
+                        }
+                    }
+                ],
+                "notKnown": [
+                    {
+                        "type": "notKnown",
+                        "textContent": "Abdominal discomfort",
+                        "html": "Abdominal discomfort",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "agranulocytosis",
+                        "html": "agranulocytosis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "allergic reactions",
+                        "html": "allergic reactions",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "anaphylaxis",
+                        "html": "anaphylaxis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "aplastic anaemia",
+                        "html": "aplastic anaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "blood disorders",
+                        "html": "blood disorders",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "confusion",
+                        "html": "confusion",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "diarrhoea",
+                        "html": "diarrhoea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "disturbances in liver enzymes",
+                        "html": "disturbances in liver enzymes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "dizziness",
+                        "html": "dizziness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "eosinophilia",
+                        "html": "eosinophilia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "haemolytic anaemia",
+                        "html": "haemolytic anaemia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hallucinations",
+                        "html": "hallucinations",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "headache",
+                        "html": "headache",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hyperactivity",
+                        "html": "hyperactivity",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "hypertonia",
+                        "html": "hypertonia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "leucopenia",
+                        "html": "leucopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nausea",
+                        "html": "nausea",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "nervousness",
+                        "html": "nervousness",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "pruritus",
+                        "html": "pruritus",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "rashes",
+                        "html": "rashes",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "reversible interstitial nephritis",
+                        "html": "reversible interstitial nephritis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "serum sickness-like reactions with rashes, fever and arthralgia",
+                        "html": "serum sickness-like reactions with rashes, fever and arthralgia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "sleep disturbances",
+                        "html": "sleep disturbances",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "Stevens-Johnson syndrome",
+                        "html": "Stevens-Johnson syndrome",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "thrombocytopenia",
+                        "html": "thrombocytopenia",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "toxic epidermal necrolysis",
+                        "html": "toxic epidermal necrolysis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "transient cholestatic jaundice",
+                        "html": "transient cholestatic jaundice",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "transient hepatitis",
+                        "html": "transient hepatitis",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "urticaria",
+                        "html": "urticaria",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    },
+                    {
+                        "type": "notKnown",
+                        "textContent": "vomiting",
+                        "html": "vomiting",
+                        "frequency": "notKnown",
+                        "specificity": {
+                            "textContent": "Frequency not known",
+                            "html": "Frequency not known"
+                        }
+                    }
+                ]
+            }
+        },
+        "advice": [
+            {
+                "type": "advice",
+                "title": "Antibiotic-associated colitis",
+                "textContent": "Antibiotic-associated colitis may occur more commonly with second- and third-generation cephalosporins.",
+                "html": "<p>Antibiotic-associated colitis may occur more commonly with second- and third-generation cephalosporins.</p>"
+            }
+        ]
+    },
+    "allergyAndCrossSensitivity": {
+        "contraindications": [
+            {
+                "type": "contraindications",
+                "textContent": "Contra-indicated in patients with cephalosporin hypersensitivity.",
+                "html": "<p>Contra-indicated in patients with cephalosporin hypersensitivity.</p>"
+            }
+        ],
+        "crossSensitivity": [
+            {
+                "type": "crossSensitivity",
+                "title": "Cross-sensitivity with other beta-lactam antibacterials",
+                "textContent": "About 0.5&#8211;6.5% of penicillin-sensitive patients will also be allergic to the cephalosporins. Patients with a history of immediate hypersensitivity to penicillin and other beta-lactams should not receive a cephalosporin. Cephalosporins should be used with caution in patients with sensitivity to penicillin and other beta-lactams.",
+                "html": "<p>About 0.5&#8211;6.5% of penicillin-sensitive patients will also be allergic to the cephalosporins. Patients with a history of <b>immediate hypersensitivity</b> to penicillin and other beta-lactams should not receive a cephalosporin. Cephalosporins should be used with caution in patients with sensitivity to penicillin and other beta-lactams.</p>"
+            }
+        ]
+    },
+    "effectOnLaboratoryTests": {
+        "effectOnLaboratoryTests": [
+            {
+                "type": "effectOnLaboratoryTests",
+                "textContent": "False positive urinary glucose (if tested for reducing substances).\n\nFalse positive Coombs&#8217; test.",
+                "html": "<p>False positive urinary glucose (if tested for reducing substances).</p><p>False positive Coombs&#8217; test.</p>"
+            }
+        ]
+    },
+    "drugsInClass": [
+        {
+            "id": "PHP18798",
+            "label": "CEFTAROLINE FOSAMIL",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3365",
+            "label": "CEFACLOR",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3373",
+            "label": "CEFADROXIL",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3376",
+            "label": "CEFALEXIN",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3384",
+            "label": "CEFOTAXIME",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3382",
+            "label": "CEFIXIME",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3390",
+            "label": "CEFRADINE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3393",
+            "label": "CEFTAZIDIME",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3397",
+            "label": "CEFTRIAXONE",
+            "type": "drug"
+        },
+        {
+            "id": "PHP3400",
+            "label": "CEFUROXIME",
+            "type": "drug"
+        }
+    ],
+    "backlinks": {},
+    "links": {
+        "#drugClasses": [
+            {
+                "id": "drugClasses",
+                "label": "Drug classes",
+                "type": "#drugClasses"
+            }
+        ],
+        "drug": [
+            {
+                "id": "PHP18798",
+                "label": "CEFTAROLINE FOSAMIL",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3365",
+                "label": "CEFACLOR",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3373",
+                "label": "CEFADROXIL",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3376",
+                "label": "CEFALEXIN",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3384",
+                "label": "CEFOTAXIME",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3382",
+                "label": "CEFIXIME",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3390",
+                "label": "CEFRADINE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3393",
+                "label": "CEFTAZIDIME",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3397",
+                "label": "CEFTRIAXONE",
+                "type": "drug"
+            },
+            {
+                "id": "PHP3400",
+                "label": "CEFUROXIME",
+                "type": "drug"
+            }
+        ]
+    }
+}

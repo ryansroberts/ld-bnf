@@ -1,0 +1,66 @@
+{
+    "xml": "<topic id=\"PHP75493\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/topotecan/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Hycamtin 1mg capsules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">14226211000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Topotecan (as Topotecan hydrochloride) 1&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;360.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Hycamtin 0.25mg capsules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>\n</title>\n<data name=\"ampid\">14225911000001104</data>\n<p outputclass=\"strengthOfActiveIngredient\">Topotecan (as Topotecan hydrochloride) 250&#8239;microgram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">10</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;75.00</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5571\" title=\"TOPOTECAN\" namespace=\"/drugs/topotecan\">TOPOTECAN</xref>\n</parents>\n</topic>",
+    "id": "PHP75493",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/topotecan/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "25",
+            "textContent": "Swallow this medicine whole. Do not chew or crush",
+            "html": "Label <ph outputclass=\"labelNumber\">25</ph> - Swallow this medicine whole. Do not chew or crush"
+        }
+    ],
+    "products": [
+        {
+            "title": "Hycamtin 1mg capsules (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Hycamtin 1mg capsules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Hycamtin 1mg capsules",
+            "ampid": "14226211000001102",
+            "strengthOfActiveIngredient": "Topotecan (as Topotecan hydrochloride) 1 mg",
+            "packs": [
+                {
+                    "textContent": " 10 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;360.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;360.00</ph>",
+                        "nhsIndicativePrice": "&#163;360.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Hycamtin 0.25mg capsules (Novartis Pharmaceuticals UK Ltd) ",
+            "header": "Hycamtin 0.25mg capsules <ph outputclass=\"manufacturer\">(Novartis Pharmaceuticals UK Ltd)</ph>",
+            "manufacturer": "(Novartis Pharmaceuticals UK Ltd)",
+            "name": "Hycamtin 0.25mg capsules",
+            "ampid": "14225911000001104",
+            "strengthOfActiveIngredient": "Topotecan (as Topotecan hydrochloride) 250 microgram",
+            "packs": [
+                {
+                    "textContent": " 10 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">10</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "10",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;75.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;75.00</ph>",
+                        "nhsIndicativePrice": "&#163;75.00"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5571",
+        "label": "TOPOTECAN"
+    }
+}

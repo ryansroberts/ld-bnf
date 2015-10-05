@@ -1,0 +1,46 @@
+{
+    "xml": "<topic id=\"PHP74666\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/ofloxacin/eye-drops\" basename=\"eye-drops\" title=\"Eye drops\">\n<title>Eye drops</title>\n<body>\n<section outputclass=\"excipients\">\n<title>Excipients</title>\n<p outputclass=\"introductoryText\">May contain</p>\n<p>Benzalkonium chloride</p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Exocin 0.3% eye drops <ph outputclass=\"manufacturer\">(Allergan Ltd)</ph>\n</title>\n<data name=\"ampid\">3679111000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Ofloxacin 3&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">5</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.17</ph>\n</p>\n<p outputclass=\"drugTariffInfo\">\n<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"drugTariffPrice\">&#163;2.17</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP3678\" title=\"OFLOXACIN\" namespace=\"/drugs/ofloxacin\">OFLOXACIN</xref>\n</parents>\n</topic>",
+    "id": "PHP74666",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/ofloxacin/eye-drops",
+    "basename": "eye-drops",
+    "form": "Eye drops",
+    "excipients": [
+        "Benzalkonium chloride"
+    ],
+    "products": [
+        {
+            "title": "Exocin 0.3% eye drops (Allergan Ltd) ",
+            "header": "Exocin 0.3% eye drops <ph outputclass=\"manufacturer\">(Allergan Ltd)</ph>",
+            "manufacturer": "(Allergan Ltd)",
+            "name": "Exocin 0.3% eye drops",
+            "ampid": "3679111000001102",
+            "strengthOfActiveIngredient": "Ofloxacin 3 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 5 ml POM ",
+                    "html": "<ph outputclass=\"packSize\">5</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "5",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.17 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.17</ph>",
+                        "nhsIndicativePrice": "&#163;2.17"
+                    },
+                    "drugTariffInfo": {
+                        "textContent": " Drug Tariff (Part VIIIA Category C) price = &#163;2.17 ",
+                        "html": "<ph outputclass=\"drugTariff\">Drug Tariff (Part VIIIA Category C)</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"drugTariffPrice\">&#163;2.17</ph>",
+                        "drugTariff": "Drug Tariff (Part VIIIA Category C)",
+                        "drugTariffPrice": "&#163;2.17"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP3678",
+        "label": "OFLOXACIN"
+    }
+}

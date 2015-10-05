@@ -1,0 +1,53 @@
+{
+    "xml": "<topic id=\"PHP81568\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/fungizone\" basename=\"fungizone\" title=\"Fungizone\">\n<title>Fungizone<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP83510\" outputclass=\"indicationsAndDose\" rev=\"1.34\" parent=\"/clinical-medicinal-product-information/fungizone\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Systemic fungal infections</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Test dose 1&#8239;mg, to be given over 20&#8211;30 minutes, then 250&#8239;micrograms/kg daily, gradually increased over 2&#8211;4 days, increased if tolerated to 1&#8239;mg/kg daily, max. (severe infection) 1.5&#8239;mg/kg daily or on alternate days. Prolonged treatment usually necessary; if interrupted for longer than 7 days recommence at 250&#8239;micrograms/kg daily and increase gradually.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP83524\" outputclass=\"directionsForAdministration\" rev=\"1.10\" parent=\"/clinical-medicinal-product-information/fungizone\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<b>Amphotericin (as sodium deoxycholate complex)</b>\n</p>\n<p>For <i>intravenous infusion</i> (<i>Fungizone</i>\n<tm tmtype=\"reg\"/>), give intermittently <i>in</i> Glucose 5%. Reconstitute each vial with 10&#8239;mL water of injections and shake immediately to produce a 5&#8239;mg/mL colloidal solution; dilute further in infusion fluid to a concentration of 100&#8239;micrograms/mL; pH of the glucose must not be below 4.2 (check each container&#8212;consult product literature for details of the buffer); infuse over 2&#8211;4 hours, or longer if not tolerated (initial test dose of 1&#8239;mg over 20&#8211;30 minutes); begin infusion immediately after dilution; protect from light; incompatible with sodium chloride solutions, flush existing intravenous line with glucose 5% or use separate line; an in-line filter (pore size no less than 1&#8239;micron) may be used.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP81568",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/fungizone",
+    "basename": "fungizone",
+    "title": "Fungizone",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Systemic fungal infections",
+                        "html": "Systemic fungal infections"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "Test dose 1 mg, to be given over 20&#8211;30 minutes, then 250 micrograms/kg daily, gradually increased over 2&#8211;4 days, increased if tolerated to 1 mg/kg daily, max. (severe infection) 1.5 mg/kg daily or on alternate days. Prolonged treatment usually necessary; if interrupted for longer than 7 days recommence at 250 micrograms/kg daily and increase gradually.",
+                        "html": "<p>Test dose 1&#8239;mg, to be given over 20&#8211;30 minutes, then 250&#8239;micrograms/kg daily, gradually increased over 2&#8211;4 days, increased if tolerated to 1&#8239;mg/kg daily, max. (severe infection) 1.5&#8239;mg/kg daily or on alternate days. Prolonged treatment usually necessary; if interrupted for longer than 7 days recommence at 250&#8239;micrograms/kg daily and increase gradually.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "Amphotericin (as sodium deoxycholate complex)\n\nFor intravenous infusion (Fungizone ), give intermittently in Glucose 5%. Reconstitute each vial with 10 mL water of injections and shake immediately to produce a 5 mg/mL colloidal solution; dilute further in infusion fluid to a concentration of 100 micrograms/mL; pH of the glucose must not be below 4.2 (check each container&#8212;consult product literature for details of the buffer); infuse over 2&#8211;4 hours, or longer if not tolerated (initial test dose of 1 mg over 20&#8211;30 minutes); begin infusion immediately after dilution; protect from light; incompatible with sodium chloride solutions, flush existing intravenous line with glucose 5% or use separate line; an in-line filter (pore size no less than 1 micron) may be used.",
+                "html": "<p>\n<b>Amphotericin (as sodium deoxycholate complex)</b>\n</p><p>For <i>intravenous infusion</i> (<i>Fungizone</i>\n<tm tmtype=\"reg\"/>), give intermittently <i>in</i> Glucose 5%. Reconstitute each vial with 10&#8239;mL water of injections and shake immediately to produce a 5&#8239;mg/mL colloidal solution; dilute further in infusion fluid to a concentration of 100&#8239;micrograms/mL; pH of the glucose must not be below 4.2 (check each container&#8212;consult product literature for details of the buffer); infuse over 2&#8211;4 hours, or longer if not tolerated (initial test dose of 1&#8239;mg over 20&#8211;30 minutes); begin infusion immediately after dilution; protect from light; incompatible with sodium chloride solutions, flush existing intravenous line with glucose 5% or use separate line; an in-line filter (pore size no less than 1&#8239;micron) may be used.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

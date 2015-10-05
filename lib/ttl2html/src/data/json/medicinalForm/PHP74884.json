@@ -1,0 +1,72 @@
+{
+    "xml": "<topic id=\"PHP74884\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/denosumab/solution-for-injection\" basename=\"solution-for-injection\" title=\"Solution for injection\">\n<title>Solution for injection</title>\n<body>\r\n\r\n\r\n\r\n<section outputclass=\"clinicalMedicinalProductInformationGroup\">\n<xref format=\"dita\" href=\"#PHP81596\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/xgeva\">XGEVA<tm tmtype=\"reg\"/>\r\n</xref>\r\n<xref format=\"dita\" href=\"#PHP81595\" outputclass=\"clinicalMedicinalProductInformationXref\" namespace=\"/clinical-medicinal-product-information/prolia\">Prolia<tm tmtype=\"reg\"/>\r\n</xref>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Prolia 60mg/1ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph>\n</title>\n<data name=\"ampid\">17301811000001101</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Denosumab 60&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;183.00</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n<section outputclass=\"medicinalProduct\">\r\n<title>Xgeva 120mg/1.7ml solution for injection vials <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\r\n</title>\n<data name=\"ampid\">19376111000001100</data>\r\n<p outputclass=\"strengthOfActiveIngredient\">Denosumab 70&#8239;mg per 1&#8239;ml</p>\r\n<ul outputclass=\"packs\">\r\n<li outputclass=\"packSizePriceTariff\">\r\n<p outputclass=\"packInfo\">\r\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\r\n</p>\r\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;309.86</ph>\n</p>\n</li>\r\n</ul>\n</section>\r\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP4691\" title=\"DENOSUMAB\" namespace=\"/drugs/denosumab\">DENOSUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP74884",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/denosumab/solution-for-injection",
+    "basename": "solution-for-injection",
+    "form": "Solution for injection",
+    "productInformationGroups": [
+        {
+            "id": "PHP81596",
+            "label": "XGEVA&reg;  ",
+            "html": "XGEVA<tm tmtype=\"reg\"/>"
+        },
+        {
+            "id": "PHP81595",
+            "label": "Prolia&reg;  ",
+            "html": "Prolia<tm tmtype=\"reg\"/>"
+        }
+    ],
+    "products": [
+        {
+            "title": "Prolia 60mg/1ml solution for injection pre-filled syringes (Amgen Ltd) ",
+            "header": "Prolia 60mg/1ml solution for injection pre-filled syringes <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph>",
+            "manufacturer": "(Amgen Ltd)",
+            "name": "Prolia 60mg/1ml solution for injection pre-filled syringes",
+            "ampid": "17301811000001101",
+            "strengthOfActiveIngredient": "Denosumab 60 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 pre-filled disposable injection POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">pre-filled disposable injection</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "pre-filled disposable injection",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;183.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;183.00</ph>",
+                        "nhsIndicativePrice": "&#163;183.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Xgeva 120mg/1.7ml solution for injection vials (Amgen Ltd) &#9660; ",
+            "header": "Xgeva 120mg/1.7ml solution for injection vials <ph outputclass=\"manufacturer\">(Amgen Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Amgen Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Xgeva 120mg/1.7ml solution for injection vials",
+            "ampid": "19376111000001100",
+            "strengthOfActiveIngredient": "Denosumab 70 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;309.86 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;309.86</ph>",
+                        "nhsIndicativePrice": "&#163;309.86"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP4691",
+        "label": "DENOSUMAB"
+    }
+}

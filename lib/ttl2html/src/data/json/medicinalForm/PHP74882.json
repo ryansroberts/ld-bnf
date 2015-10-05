@@ -1,0 +1,49 @@
+{
+    "xml": "<topic id=\"PHP74882\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/polysaccharide-iron-complex/oral-solution\" basename=\"oral-solution\" title=\"Oral solution\">\n<title>Oral solution</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Niferex 100mg/5ml elixir <ph outputclass=\"manufacturer\">(Tillomed Laboratories Ltd)</ph>\n</title>\n<data name=\"ampid\">108911000001109</data>\n<p outputclass=\"strengthOfActiveIngredient\">Iron (as Polysaccharide-iron complex) 100&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">30</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;2.16</ph>\n</p>\n</li>\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">240</ph>\n<ph outputclass=\"unitOfMeasure\">ml</ph>\n<ph outputclass=\"legalCategory\">P</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;6.06</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5853\" title=\"POLYSACCHARIDE-IRON COMPLEX\" namespace=\"/drugs/polysaccharide-iron-complex\">POLYSACCHARIDE-IRON COMPLEX</xref>\n</parents>\n</topic>",
+    "id": "PHP74882",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/polysaccharide-iron-complex/oral-solution",
+    "basename": "oral-solution",
+    "form": "Oral solution",
+    "products": [
+        {
+            "title": "Niferex 100mg/5ml elixir (Tillomed Laboratories Ltd) ",
+            "header": "Niferex 100mg/5ml elixir <ph outputclass=\"manufacturer\">(Tillomed Laboratories Ltd)</ph>",
+            "manufacturer": "(Tillomed Laboratories Ltd)",
+            "name": "Niferex 100mg/5ml elixir",
+            "ampid": "108911000001109",
+            "strengthOfActiveIngredient": "Iron (as Polysaccharide-iron complex) 100 mg",
+            "packs": [
+                {
+                    "textContent": " 30 ml P ",
+                    "html": "<ph outputclass=\"packSize\">30</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "30",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;2.16 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;2.16</ph>",
+                        "nhsIndicativePrice": "&#163;2.16"
+                    }
+                },
+                {
+                    "textContent": " 240 ml P ",
+                    "html": "<ph outputclass=\"packSize\">240</ph> <ph outputclass=\"unitOfMeasure\">ml</ph> <ph outputclass=\"legalCategory\">P</ph>",
+                    "packSize": "240",
+                    "unitOfMeasure": "ml",
+                    "legalCategory": "P",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;6.06 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;6.06</ph>",
+                        "nhsIndicativePrice": "&#163;6.06"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5853",
+        "label": "POLYSACCHARIDE-IRON COMPLEX"
+    }
+}

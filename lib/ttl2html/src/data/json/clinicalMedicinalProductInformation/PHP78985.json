@@ -1,0 +1,45 @@
+{
+    "xml": "<topic id=\"PHP78985\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/propess\" basename=\"propess\" title=\"Propess\">\n<title>Propess<tm tmtype=\"reg\"/>\n</title>\n<topic id=\"PHP79016\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/propess\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Cervical ripening and induction of labour at term</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By vagina</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult female\">\n<p>Adult (female)</p>\n<p>1&#8239;pessary, insert pessary (in retrieval device) high into posterior fornix and remove when cervical ripening adequate; if oxytocin necessary, remove 30 minutes before oxytocin infusion; remove if cervical ripening inadequate after 24 hours (dose not to be repeated).</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78985",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/propess",
+    "basename": "propess",
+    "title": "Propess",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Cervical ripening and induction of labour at term",
+                        "html": "Cervical ripening and induction of labour at term"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "vagina"
+                    ],
+                    "textContent": "By vagina",
+                    "html": "By vagina"
+                },
+                "adult female": [
+                    {
+                        "textContent": "1 pessary, insert pessary (in retrieval device) high into posterior fornix and remove when cervical ripening adequate; if oxytocin necessary, remove 30 minutes before oxytocin infusion; remove if cervical ripening inadequate after 24 hours (dose not to be repeated).",
+                        "html": "<p>1&#8239;pessary, insert pessary (in retrieval device) high into posterior fornix and remove when cervical ripening adequate; if oxytocin necessary, remove 30 minutes before oxytocin infusion; remove if cervical ripening inadequate after 24 hours (dose not to be repeated).</p>",
+                        "ageGroup": "adult (female)"
+                    }
+                ]
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

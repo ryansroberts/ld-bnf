@@ -1,0 +1,71 @@
+{
+    "xml": "<topic id=\"PHP78040\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/tildiem-la\" basename=\"tildiem-la\" title=\"Tildiem LA\">\n<title>Tildiem<tm tmtype=\"reg\"/> LA</title>\n<topic id=\"PHP59489\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/tildiem-la\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Angina</p>\n<p outputclass=\"therapeuticIndication\">Mild to moderate hypertension</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By mouth</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>Initially 200&#8239;mg daily, to be taken with or before food, increased if necessary to 300&#8211;400&#8239;mg daily; maximum 500&#8239;mg per day.</p>\n</li>\n<li outputclass=\"patientGroup adult\">\n<p>Elderly</p>\n<p>Initially 200&#8239;mg daily, increased if necessary to 300&#8239;mg daily.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59485\" outputclass=\"hepaticImpairment\" parent=\"/clinical-medicinal-product-information/tildiem-la\">\n<title>Hepatic impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Dose for angina and mild to moderate hypertension&#8212;initially 200&#8239;mg daily; increased if necessary to 300&#8239;mg daily.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP59480\" outputclass=\"renalImpairment\" parent=\"/clinical-medicinal-product-information/tildiem-la\">\n<title>Renal impairment</title>\n<body>\n<section outputclass=\"doseAdjustments\">\n<sectiondiv>\n<p>Dose for angina and mild to moderate hypertension&#8212;initially 200&#8239;mg daily; increased if necessary to 300&#8239;mg daily.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP78040",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/tildiem-la",
+    "basename": "tildiem-la",
+    "title": "Tildiem LA",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Angina",
+                        "html": "Angina"
+                    },
+                    {
+                        "textContent": "Mild to moderate hypertension",
+                        "html": "Mild to moderate hypertension"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "mouth"
+                    ],
+                    "textContent": "By mouth",
+                    "html": "By mouth"
+                },
+                "adult": [
+                    {
+                        "textContent": "Initially 200 mg daily, to be taken with or before food, increased if necessary to 300&#8211;400 mg daily; maximum 500 mg per day.",
+                        "html": "<p>Initially 200&#8239;mg daily, to be taken with or before food, increased if necessary to 300&#8211;400&#8239;mg daily; maximum 500&#8239;mg per day.</p>"
+                    },
+                    {
+                        "textContent": "Initially 200 mg daily, increased if necessary to 300 mg daily.",
+                        "html": "<p>Initially 200&#8239;mg daily, increased if necessary to 300&#8239;mg daily.</p>",
+                        "ageGroup": "elderly"
+                    }
+                ]
+            }
+        ]
+    },
+    "hepaticImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Dose for angina and mild to moderate hypertension&#8212;initially 200 mg daily; increased if necessary to 300 mg daily.",
+                "html": "<p>Dose for angina and mild to moderate hypertension&#8212;initially 200&#8239;mg daily; increased if necessary to 300&#8239;mg daily.</p>"
+            }
+        ]
+    },
+    "renalImpairment": {
+        "doseAdjustments": [
+            {
+                "type": "doseAdjustments",
+                "textContent": "Dose for angina and mild to moderate hypertension&#8212;initially 200 mg daily; increased if necessary to 300 mg daily.",
+                "html": "<p>Dose for angina and mild to moderate hypertension&#8212;initially 200&#8239;mg daily; increased if necessary to 300&#8239;mg daily.</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

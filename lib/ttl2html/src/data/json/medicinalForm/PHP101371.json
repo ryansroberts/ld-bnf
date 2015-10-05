@@ -1,0 +1,39 @@
+{
+    "xml": "<topic id=\"PHP101371\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/obinutuzumab/solution-for-infusion\" basename=\"solution-for-infusion\" title=\"Solution for infusion\">\n<title>Solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Gazyvaro 1000mg/40ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph>\n<ph outputclass=\"blackTriangle\">&#9660;</ph>\n</title>\n<data name=\"ampid\">25444111000001106</data>\n<p outputclass=\"strengthOfActiveIngredient\">Obinutuzumab 25&#8239;mg per 1&#8239;ml</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3312.00</ph>\n<ph outputclass=\"hospital\">(Hospital only)</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP93593\" title=\"OBINUTUZUMAB\" namespace=\"/drugs/obinutuzumab\">OBINUTUZUMAB</xref>\n</parents>\n</topic>",
+    "id": "PHP101371",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/obinutuzumab/solution-for-infusion",
+    "basename": "solution-for-infusion",
+    "form": "Solution for infusion",
+    "products": [
+        {
+            "title": "Gazyvaro 1000mg/40ml concentrate for solution for infusion vials (Roche Products Ltd) &#9660; ",
+            "header": "Gazyvaro 1000mg/40ml concentrate for solution for infusion vials <ph outputclass=\"manufacturer\">(Roche Products Ltd)</ph> <ph outputclass=\"blackTriangle\">&#9660;</ph>",
+            "manufacturer": "(Roche Products Ltd)",
+            "blackTriangle": "&#9660;",
+            "name": "Gazyvaro 1000mg/40ml concentrate for solution for infusion vials",
+            "ampid": "25444111000001106",
+            "strengthOfActiveIngredient": "Obinutuzumab 25 mg per 1 ml",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3312.00 (Hospital only) ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3312.00</ph> <ph outputclass=\"hospital\">(Hospital only)</ph>",
+                        "nhsIndicativePrice": "&#163;3312.00",
+                        "hospital": "(Hospital only)"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP93593",
+        "label": "OBINUTUZUMAB"
+    }
+}

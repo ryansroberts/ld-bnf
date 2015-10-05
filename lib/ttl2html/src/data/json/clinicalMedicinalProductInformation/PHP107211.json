@@ -1,0 +1,62 @@
+{
+    "xml": "<topic id=\"PHP107211\" outputclass=\"clinicalMedicinalProductInformation\" type=\"clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information/dipeptiven-20g100ml-concentrate-for-solution-for-infusion-bottles\" basename=\"dipeptiven-20g100ml-concentrate-for-solution-for-infusion-bottles\" title=\"Dipeptiven 20g/100ml concentrate for solution for infusion bottles\">\n<title>Dipeptiven 20g/100ml concentrate for solution for infusion bottles</title>\n<topic id=\"PHP107236\" outputclass=\"indicationsAndDose\" rev=\"1.14\" parent=\"/clinical-medicinal-product-information/dipeptiven-20g100ml-concentrate-for-solution-for-infusion-bottles\">\n<title>Indications and dose</title>\n<body>\n<section outputclass=\"indicationAndDoseGroup\">\n<sectiondiv outputclass=\"therapeuticIndications\">\n<p outputclass=\"therapeuticIndication\">Amino acid supplement for hypercatabolic or hypermetabolic states</p>\n</sectiondiv>\n<p outputclass=\"routesOfAdministration\">By intravenous infusion</p>\n<ul outputclass=\"patientGroups\">\n<li outputclass=\"patientGroup adult\">\n<p>Adult</p>\n<p>300&#8211;400&#8239;mg/kg daily, dose not to exceed 20% of total amino acid intake.</p>\n</li>\n</ul>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107303\" outputclass=\"directionsForAdministration\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/dipeptiven-20g100ml-concentrate-for-solution-for-infusion-bottles\">\n<title>Directions for administration</title>\n<body>\n<section>\n<sectiondiv>\n<p>For addition to infusion solutions containing amino acids.</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<topic id=\"PHP107344\" outputclass=\"prescribingAndDispensingInformation\" rev=\"1.8\" parent=\"/clinical-medicinal-product-information/dipeptiven-20g100ml-concentrate-for-solution-for-infusion-bottles\">\n<title>Prescribing and dispensing information</title>\n<body>\n<section>\n<sectiondiv>\n<p>\n<i>Dipeptiven</i>\n<tm tmtype=\"reg\"/> solution contains N(2)-L-alanyl-L-glutamine 200&#8239;mg/mL (providing L-alanine 82&#8239;mg, L-glutamine 134.6&#8239;mg).</p>\n</sectiondiv>\n</section>\n</body>\n</topic>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" title=\"Clinical medicinal product information\" namespace=\"/clinical-medicinal-product-information\">Clinical medicinal product information</xref>\n</parents>\n<backlinks/>\n<links>\n<xref format=\"dita\" scope=\"local\" type=\"#clinicalMedicinalProductInformation\" href=\"#clinicalMedicinalProductInformation\" namespace=\"/clinical-medicinal-product-information\" title=\"Clinical medicinal product information\" count=\"1\" rel=\"link\">Clinical medicinal product information</xref>\n</links>\n</topic>",
+    "id": "PHP107211",
+    "outputclass": "clinicalMedicinalProductInformation",
+    "type": "clinicalMedicinalProductInformation",
+    "namespace": "/clinical-medicinal-product-information/dipeptiven-20g100ml-concentrate-for-solution-for-infusion-bottles",
+    "basename": "dipeptiven-20g100ml-concentrate-for-solution-for-infusion-bottles",
+    "title": "Dipeptiven 20g/100ml concentrate for solution for infusion bottles",
+    "indicationsAndDoses": {
+        "indicationAndDoseGroups": [
+            {
+                "indications": [
+                    {
+                        "textContent": "Amino acid supplement for hypercatabolic or hypermetabolic states",
+                        "html": "Amino acid supplement for hypercatabolic or hypermetabolic states"
+                    }
+                ],
+                "specificity": {
+                    "routes": [
+                        "intravenous infusion"
+                    ],
+                    "textContent": "By intravenous infusion",
+                    "html": "By intravenous infusion"
+                },
+                "adult": [
+                    {
+                        "textContent": "300&#8211;400 mg/kg daily, dose not to exceed 20% of total amino acid intake.",
+                        "html": "<p>300&#8211;400&#8239;mg/kg daily, dose not to exceed 20% of total amino acid intake.</p>"
+                    }
+                ]
+            }
+        ]
+    },
+    "directionsForAdministration": {
+        "directionsForAdministration": [
+            {
+                "type": "directionsForAdministration",
+                "textContent": "For addition to infusion solutions containing amino acids.",
+                "html": "<p>For addition to infusion solutions containing amino acids.</p>"
+            }
+        ]
+    },
+    "prescribingAndDispensingInformation": {
+        "prescribingAndDispensingInformation": [
+            {
+                "type": "prescribingAndDispensingInformation",
+                "textContent": "Dipeptiven solution contains N(2)-L-alanyl-L-glutamine 200 mg/mL (providing L-alanine 82 mg, L-glutamine 134.6 mg).",
+                "html": "<p>\n<i>Dipeptiven</i>\n<tm tmtype=\"reg\"/> solution contains N(2)-L-alanyl-L-glutamine 200&#8239;mg/mL (providing L-alanine 82&#8239;mg, L-glutamine 134.6&#8239;mg).</p>"
+            }
+        ]
+    },
+    "backlinks": {},
+    "links": {
+        "#clinicalMedicinalProductInformation": [
+            {
+                "id": "clinicalMedicinalProductInformation",
+                "label": "Clinical medicinal product information",
+                "type": "#clinicalMedicinalProductInformation"
+            }
+        ]
+    }
+}

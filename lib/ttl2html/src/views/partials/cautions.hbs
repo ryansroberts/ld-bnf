@@ -1,0 +1,12 @@
+{{#each cautions as |level key| }}
+<ul>
+  {{#each level as |frequency| }}
+  <li>
+    {{#if frequency.specificity }}
+      <strong>{{{ frequency.specificity.html }}}:</strong>
+    {{/if}}
+    {{{ frequency.html }}}
+  </li>
+  {{/each }}
+</ul>
+{{/each }}

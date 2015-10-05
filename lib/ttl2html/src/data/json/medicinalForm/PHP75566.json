@@ -1,0 +1,88 @@
+{
+    "xml": "<topic id=\"PHP75566\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/sunitinib/capsule\" basename=\"capsule\" title=\"Capsule\">\n<title>Capsule</title>\n<body>\n<section outputclass=\"cautionaryAndAdvisoryLabels\">\n<title>Cautionary and advisory labels</title>\n<p>Label <ph outputclass=\"labelNumber\">14</ph> - This medicine may colour your urine. This is harmless </p>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sutent 12.5mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">10817411000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sunitinib (as Sunitinib malate) 12.5&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;784.70</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sutent 25mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">10817111000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sunitinib (as Sunitinib malate) 25&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;1569.40</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Sutent 50mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>\n</title>\n<data name=\"ampid\">10816811000001103</data>\n<p outputclass=\"strengthOfActiveIngredient\">Sunitinib (as Sunitinib malate) 50&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">28</ph>\n<ph outputclass=\"unitOfMeasure\">capsule</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;3138.80</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5546\" title=\"SUNITINIB\" namespace=\"/drugs/sunitinib\">SUNITINIB</xref>\n</parents>\n</topic>",
+    "id": "PHP75566",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/sunitinib/capsule",
+    "basename": "capsule",
+    "form": "Capsule",
+    "cautionaryAndAdvisoryLabels": [
+        {
+            "number": "14",
+            "textContent": "This medicine may colour your urine. This is harmless",
+            "html": "Label <ph outputclass=\"labelNumber\">14</ph> - This medicine may colour your urine. This is harmless"
+        }
+    ],
+    "products": [
+        {
+            "title": "Sutent 12.5mg capsules (Pfizer Ltd) ",
+            "header": "Sutent 12.5mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Sutent 12.5mg capsules",
+            "ampid": "10817411000001103",
+            "strengthOfActiveIngredient": "Sunitinib (as Sunitinib malate) 12.5 mg",
+            "packs": [
+                {
+                    "textContent": " 28 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;784.70 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;784.70</ph>",
+                        "nhsIndicativePrice": "&#163;784.70"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sutent 25mg capsules (Pfizer Ltd) ",
+            "header": "Sutent 25mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Sutent 25mg capsules",
+            "ampid": "10817111000001108",
+            "strengthOfActiveIngredient": "Sunitinib (as Sunitinib malate) 25 mg",
+            "packs": [
+                {
+                    "textContent": " 28 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;1569.40 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;1569.40</ph>",
+                        "nhsIndicativePrice": "&#163;1569.40"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Sutent 50mg capsules (Pfizer Ltd) ",
+            "header": "Sutent 50mg capsules <ph outputclass=\"manufacturer\">(Pfizer Ltd)</ph>",
+            "manufacturer": "(Pfizer Ltd)",
+            "name": "Sutent 50mg capsules",
+            "ampid": "10816811000001103",
+            "strengthOfActiveIngredient": "Sunitinib (as Sunitinib malate) 50 mg",
+            "packs": [
+                {
+                    "textContent": " 28 capsule POM ",
+                    "html": "<ph outputclass=\"packSize\">28</ph> <ph outputclass=\"unitOfMeasure\">capsule</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "28",
+                    "unitOfMeasure": "capsule",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;3138.80 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;3138.80</ph>",
+                        "nhsIndicativePrice": "&#163;3138.80"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5546",
+        "label": "SUNITINIB"
+    }
+}

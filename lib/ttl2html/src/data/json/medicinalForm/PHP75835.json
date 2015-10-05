@@ -1,0 +1,59 @@
+{
+    "xml": "<topic id=\"PHP75835\" outputclass=\"medicinalForm\" type=\"medicinalForm\" namespace=\"/drugs/dacarbazine/powder-for-solution-for-infusion\" basename=\"powder-for-solution-for-infusion\" title=\"Powder for solution for infusion\">\n<title>Powder for solution for infusion</title>\n<body>\n<section outputclass=\"medicinalProduct\">\n<title>Dacarbazine 1g powder for solution for infusion vials <ph outputclass=\"manufacturer\">(medac UK)</ph>\n</title>\n<data name=\"ampid\">7323311000001102</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dacarbazine (as Dacarbazine citrate) 1&#8239;gram</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;70.00</ph>\n</p>\n</li>\n</ul>\n</section>\n<section outputclass=\"medicinalProduct\">\n<title>Dacarbazine 500mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(medac UK)</ph>\n</title>\n<data name=\"ampid\">7323511000001108</data>\n<p outputclass=\"strengthOfActiveIngredient\">Dacarbazine (as Dacarbazine citrate) 500&#8239;mg</p>\n<ul outputclass=\"packs\">\n<li outputclass=\"packSizePriceTariff\">\n<p outputclass=\"packInfo\">\n<ph outputclass=\"packSize\">1</ph>\n<ph outputclass=\"unitOfMeasure\">vial</ph>\n<ph outputclass=\"legalCategory\">POM</ph>\n</p>\n<p outputclass=\"nhsIndicativeInfo\">\n<ph outputclass=\"nhsIndicative\">NHS indicative</ph>\n<ph outputclass=\"priceText\">price =</ph>\n<ph outputclass=\"nhsIndicativePrice\">&#163;37.50</ph>\n</p>\n</li>\n</ul>\n</section>\n</body>\n<parents>\n<xref format=\"dita\" scope=\"local\" type=\"drug\" href=\"#PHP5461\" title=\"DACARBAZINE\" namespace=\"/drugs/dacarbazine\">DACARBAZINE</xref>\n</parents>\n</topic>",
+    "id": "PHP75835",
+    "outputclass": "medicinalForm",
+    "type": "medicinalForm",
+    "namespace": "/drugs/dacarbazine/powder-for-solution-for-infusion",
+    "basename": "powder-for-solution-for-infusion",
+    "form": "Powder for solution for infusion",
+    "products": [
+        {
+            "title": "Dacarbazine 1g powder for solution for infusion vials (medac UK) ",
+            "header": "Dacarbazine 1g powder for solution for infusion vials <ph outputclass=\"manufacturer\">(medac UK)</ph>",
+            "manufacturer": "(medac UK)",
+            "name": "Dacarbazine 1g powder for solution for infusion vials",
+            "ampid": "7323311000001102",
+            "strengthOfActiveIngredient": "Dacarbazine (as Dacarbazine citrate) 1 gram",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;70.00 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;70.00</ph>",
+                        "nhsIndicativePrice": "&#163;70.00"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Dacarbazine 500mg powder for solution for infusion vials (medac UK) ",
+            "header": "Dacarbazine 500mg powder for solution for infusion vials <ph outputclass=\"manufacturer\">(medac UK)</ph>",
+            "manufacturer": "(medac UK)",
+            "name": "Dacarbazine 500mg powder for solution for infusion vials",
+            "ampid": "7323511000001108",
+            "strengthOfActiveIngredient": "Dacarbazine (as Dacarbazine citrate) 500 mg",
+            "packs": [
+                {
+                    "textContent": " 1 vial POM ",
+                    "html": "<ph outputclass=\"packSize\">1</ph> <ph outputclass=\"unitOfMeasure\">vial</ph> <ph outputclass=\"legalCategory\">POM</ph>",
+                    "packSize": "1",
+                    "unitOfMeasure": "vial",
+                    "legalCategory": "POM",
+                    "nhsIndicativeInfo": {
+                        "textContent": " NHS indicative price = &#163;37.50 ",
+                        "html": "<ph outputclass=\"nhsIndicative\">NHS indicative</ph> <ph outputclass=\"priceText\">price =</ph> <ph outputclass=\"nhsIndicativePrice\">&#163;37.50</ph>",
+                        "nhsIndicativePrice": "&#163;37.50"
+                    }
+                }
+            ]
+        }
+    ],
+    "parent": {
+        "id": "PHP5461",
+        "label": "DACARBAZINE"
+    }
+}
