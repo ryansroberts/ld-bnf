@@ -172,9 +172,13 @@ Target "NuGet" (fun _ ->
             ReleaseNotes = toLines release.Notes})
 )
 
+let nugetkey = getBuildParamOrDefault "nugetkey" "no key"
+
 Target "PublishNuget" (fun _ ->
-    Paket.Push(fun p -> 
+    Paket.Push(fun p ->
         { p with
+            PublishUrl = "http://nuget.nice.org.uk"
+            ApiKey = nugetkey
             WorkingDir = "bin" })
 )
 

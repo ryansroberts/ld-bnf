@@ -1,23 +1,22 @@
-type project
+type file
+id NICE.ldbnf
 owners
-    Author not set
+    NICE
 authors 
-    Author not set
+    Simon Farrow
 projectUrl
-    http://github.com/nhsevidence/ldbnf
+    http://github.com/nhsevidence/ld-bnf
 iconUrl
-    https://raw.githubusercontent.com/nhsevidence/ldbnf/master/docs/files/img/logo.png
+    https://raw.githubusercontent.com/nhsevidence/ld-bnf/master/docs/files/img/logo.png
 licenseUrl
-    http://github.com/nhsevidence/ldbnf/blob/master/LICENSE.txt
+    http://github.com/nhsevdience/ld-bnf/blob/master/LICENSE.txt
 requireLicenseAcceptance
     false
 copyright
     Copyright 2015
-tags
-    
 summary
-    
+    Build tools for bnf
 description
-    Description not set
-
-
+    Build tools for bnf
+files
+  ../../bin/ldbnf ==> tools
