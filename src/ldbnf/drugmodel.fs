@@ -10,7 +10,10 @@ module Drug =
     type Title = | Title of Paragraph
     type Html = | Html of string
     type Content = | Content of Html
-    type Id = | Id of string
+    type Id =
+      | Id of string
+      override __.ToString() = match __ with | Id x -> x
+
     type Link = {Title:string; Url:string}
 
     type ReferenceableContent = | ReferenceableContent of Content * Id * string

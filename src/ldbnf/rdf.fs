@@ -13,7 +13,10 @@ module DrugRdf =
   let tosys (Sys s) = s
 
   type Uri with
-    static member from (InheritsFromClass l) = !!("base:classification" + l.Url)
+    static member from (x:Drug) = !!("base:drug#" + string x.id )
+    static member from (InheritsFromClass l) = !!("base:classification#"  + l.Url)
+    static member from (Route s) = !!("nicebnf:route#" + s)
+    static member from (Indication s) = !!("nicebnf:indication#" + s)
 
   let (>>=) a b = Option.bind b a
 
@@ -29,19 +32,23 @@ module DrugRdf =
     static member from (x:Drug) =
       let og = Graph.ReallyEmpty ["nicebnf",!!"http://ld.nice.org.uk/ns/bnf/"
                                   "cnt",!!"http://www.w3.org/2011/content#"]
-      
+ 
       let s = [ Some(a !!"nicebnf:drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)]
 
-      let dr r = resource !!(getid x.id) r
+      let dr r = resource (Uri.from x) r
 
       let rd = dr (s |> List.choose id)
       let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
       let il = dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
       let se = dr (x.sections |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
 
-      [rd;rc;il;se] |> Assert.graph og
+      [dr (s |> List.choose id)
+       dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
+       dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
+       dr (x.sections |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)]
+       |> Assert.graph og
 
     static member from (Classification (Id l,is)) =
       let s = is |> Seq.map (Uri.from >> a) |> Seq.toList
@@ -59,11 +66,11 @@ module DrugRdf =
 
     //static member from (DomainOfEffect (n,p,s)) =
 
-    static member from (Route s) =
-      Some(objectProperty !!"nicebnf:route" !!("nicebnf:route#" + s))
+    static member from (x:Route) =
+      Some(objectProperty !!"nicebnf:hasRoute" (Uri.from x))
 
-    static member from (Indication s) =
-      Some(objectProperty !!"nicebnf:indication" !!("nicebnf:indication#" + s))
+    static member from (x:Indication) =
+      Some(objectProperty !!"nicebnf:hasIndication" (Uri.from x))
 
     static member from (Specificity (Paragraph s,r,i)) =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
