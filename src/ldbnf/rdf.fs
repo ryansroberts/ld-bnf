@@ -13,8 +13,9 @@ module DrugRdf =
 
   type Uri with
     static member nicebnf = "http://ld.nice.org.uk/ns/bnf/"
-    static member from (x:Drug) = !!(Uri.nicebnf + "Drug#" + string x.id )
-    static member from (InheritsFromClass l) = !!(Uri.nicebnf + "Classification#"  + l.Url)
+    static member nicesite = "http://bnf.nice.org.uk/"
+    static member from (x:Drug) = !!(Uri.nicesite + "drug/" + string x.id )
+    static member from (InheritsFromClass l) = !!(Uri.nicebnf + "Classification#"  + l)
     static member from (Route s) = !!(Uri.nicebnf + "Route#" + s)
     static member from (Indication s) = !!(Uri.nicebnf + "Indication#" + s)
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
@@ -34,8 +35,8 @@ module DrugRdf =
       let og = Graph.ReallyEmpty ["nicebnf",!!"http://ld.nice.org.uk/ns/bnf/"
                                   "cnt",!!"http://www.w3.org/2011/content#"]
  
-      let s = [ Some(a !!"nicebnf:drug")
-                Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
+      let s = [ Some(a !!"nicebnf:Drug")
+                Some(dataProperty !!"nicebnf:name" ((getval x.name)^^xsd.string))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)]
 
       let dr r = resource (Uri.from x) r
@@ -47,8 +48,10 @@ module DrugRdf =
        |> Assert.graph og
 
     static member from (Classification (Id l,is)) =
-      let s = is |> Seq.map (Uri.from >> a) |> Seq.toList
-      one !!"nicebnf:hasClassification" !!("nicebnf:classification#" + l) ( dataProperty !!"rdfs:label" (l^^xsd.string) :: s)
+      one !!"nicebnf:hasClassification" !!("nicebnf:classification#" + l) (is |> Seq.map (Uri.from >> a) |> Seq.toList)
+      //do the label later
+      //dataProperty !!"rdfs:label" (l^^xsd.string) ::
+
 
     static member from (InteractionLink (l)) =
       objectProperty !!"nicebnf:interaction" !!("nicebnf:interactions#" + l.Url)

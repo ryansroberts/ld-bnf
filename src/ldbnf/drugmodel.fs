@@ -20,7 +20,7 @@ module Drug =
 
     type InteractionLink = | InteractionLink of Link
 
-    type InheritsFromClass = | InheritsFromClass of Link
+    type InheritsFromClass = | InheritsFromClass of string
 
     type Classification = | Classification of Id * InheritsFromClass seq
 
@@ -182,10 +182,6 @@ module DrugParser =
         x.Xrefs |> Array.map Link.from |> Array.tryPick Some
       static member from (x:drugProvider.Sectiondiv) =
         x.Ps |> Array.choose Link.from
-      static member fromd (x:drugProvider.Data) =
-        match x.Xref with
-        |Some(r) -> Some(Link.from r)
-          |None -> None
 
     type Indication with
       static member from (x:drugProvider.Ph) = Indication(x.Value.Value)
@@ -329,10 +325,16 @@ module DrugParser =
         | Some x -> Some(b x)
         | None -> None
 
+    type InheritsFromClass with
+      static member from (x:drugProvider.Data) =
+        match x.String with
+          | Some(s) -> InheritsFromClass s |> Some
+          | None -> None
+
     type Classification with
       static member from (x:drugProvider.Data) =
         let l = x.Datas |> Array.tryPick (Some >=> withname "drugClassification" >=> (fun d -> d.String >>= (Id >> Some)))
-        let i = x.Datas |> Array.choose (Some >=> withname "inheritsFromClass" >=> Link.fromd >>| InheritsFromClass)
+        let i = x.Datas |> Array.choose (Some >=> withname "inheritsFromClass" >=> InheritsFromClass.from)
         match l with
           | Some(l) -> Some( Classification(l,i))
           | None -> None
