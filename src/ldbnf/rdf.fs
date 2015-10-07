@@ -13,8 +13,8 @@ module DrugRdf =
   let tosys (Sys s) = s
 
   type Uri with
-    static member from (x:Drug) = !!("base:drug#" + string x.id )
-    static member from (InheritsFromClass l) = !!("base:classification#"  + l.Url)
+    static member from (x:Drug) = !!("nicebnf:drug#" + string x.id )
+    static member from (InheritsFromClass l) = !!("nicebnf:classification#"  + l.Url)
     static member from (Route s) = !!("nicebnf:route#" + s)
     static member from (Indication s) = !!("nicebnf:indication#" + s)
 
@@ -38,12 +38,7 @@ module DrugRdf =
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)]
 
       let dr r = resource (Uri.from x) r
-
-      let rd = dr (s |> List.choose id)
-      let rc = dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
-      let il = dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
-      let se = dr (x.sections |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
-
+ 
       [dr (s |> List.choose id)
        dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
        dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)

@@ -64,7 +64,7 @@ module Drug =
 
     type SecondaryTheraputicUses = | SecondaryTheraputicUses of Option<TheraputicUse>
 
-    type DomainOfEffect = | DomainOfEffect of string * Option<PrimaryTheraputicUse> * Option<SecondaryTheraputicUses>
+    type DomainOfEffect = | DomainOfEffect of Option<string> * Option<PrimaryTheraputicUse> * Option<SecondaryTheraputicUses>
 
     type PrimaryDomainOfEffect = | PrimaryDomainOfEffect of DomainOfEffect
 
@@ -357,7 +357,7 @@ module DrugParser =
       static member from (x:drugProvider.Data) =
         let p = x.Datas |> Array.tryPick (Some >=> withname "primaryTherapeuticUse" >>| PrimaryTheraputicUse.from)
         let s = x.Datas |> Array.tryPick (Some >=> withname "secondaryTherapeuticUses" >>| SecondaryTheraputicUses.from)
-        DomainOfEffect(x.String.Value,p,s)
+        DomainOfEffect(x.String,p,s)
 
     type PrimaryDomainOfEffect with
       static member from (x:drugProvider.Body) =
