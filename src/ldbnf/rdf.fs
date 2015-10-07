@@ -8,15 +8,16 @@ module DrugRdf =
   open rdf
 
   let getval (DrugName n) = n
-  let getid (Id n) = "http://bnf.nice.org.uk/" + n + ".html"
   let getvtmid (Vtmid i) = Some(string i)
   let tosys (Sys s) = s
 
   type Uri with
-    static member from (x:Drug) = !!("nicebnf:drug#" + string x.id )
-    static member from (InheritsFromClass l) = !!("nicebnf:classification#"  + l.Url)
-    static member from (Route s) = !!("nicebnf:route#" + s)
-    static member from (Indication s) = !!("nicebnf:indication#" + s)
+    static member nicebnf = "http://ld.nice.org.uk/ns/bnf/"
+    static member from (x:Drug) = !!(Uri.nicebnf + "Drug#" + string x.id )
+    static member from (InheritsFromClass l) = !!(Uri.nicebnf + "Classification#"  + l.Url)
+    static member from (Route s) = !!(Uri.nicebnf + "Route#" + s)
+    static member from (Indication s) = !!(Uri.nicebnf + "Indication#" + s)
+    static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
 
   let (>>=) a b = Option.bind b a
 
@@ -47,7 +48,7 @@ module DrugRdf =
 
     static member from (Classification (Id l,is)) =
       let s = is |> Seq.map (Uri.from >> a) |> Seq.toList
-      one !!"nicebnf:classification" !!("nicebnf:classification#" + l) ( dataProperty !!"rdfs:label" (l^^xsd.string) :: s)
+      one !!"nicebnf:hasClassification" !!("nicebnf:classification#" + l) ( dataProperty !!"rdfs:label" (l^^xsd.string) :: s)
 
     static member from (InteractionLink (l)) =
       objectProperty !!"nicebnf:interaction" !!("nicebnf:interactions#" + l.Url)
@@ -55,7 +56,7 @@ module DrugRdf =
     //abandoning this for the time being
     static member from (TheraputicUse (n,u)) =
       //build the child theraputic use
-      one !!"nicebnf:therapeuticUse" (!!("nicebnf:theraputicuse#" + n)) [
+      one !!"nicebnf:therapeuticUse" (Uri.from (TheraputicUse (n,u))) [
         dataProperty !!"rdfs:label" (n^^xsd.string)
         ]
 
@@ -71,7 +72,7 @@ module DrugRdf =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
                r >>= Graph.from
                i >>= Graph.from]
-      blank !!"nicebnf:specificity" (s |> List.choose id)
+      blank !!"nicebnf:#hasSpecificity" (s |> List.choose id)
 
     static member from (GeneralInformation (sd,sp)) =
       let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
