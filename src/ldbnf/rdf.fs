@@ -98,5 +98,5 @@ module DrugRdf =
         | Pregnancy (Id(i),gis) -> Some(Graph.general "pregnancy" i gis)
         | BreastFeeding (Id(i),gis) -> Some(Graph.general "breastfeeding" i gis)
         | HepaticImpairment (Id(i),gis,das) ->
-            Some(one !!"nicebnf:hasHepaticImpairment" !!("nicebnf:HepaticImpairment#" + i) (gis |> Seq.map Graph.from |> Seq.toList))
+            Some(one !!"nicebnf:hasHepaticImpairment" !!("nicebnf:HepaticImpairment#" + i) ((gis |> Seq.map Graph.from |> Seq.toList) @ (das |> Seq.map Graph.from |> Seq.toList)))
         | _ -> None
