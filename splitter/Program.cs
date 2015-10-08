@@ -53,7 +53,7 @@ namespace splitter
             foreach (var fragment in fragments.Where(process))
             {
                 var path = Path.Combine(outputdir, fragment.Id + ".xml");
-                using (var stream = new StreamWriter(path))
+                using (var stream = new StreamWriter(path,false))
                     stream.Write(fragment.Content.ToString());
             }
         }
