@@ -35,7 +35,8 @@ module DrugRdf =
     static member from (x:Drug) =
       let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
                                   "cnt",!!"http://www.w3.org/2011/content#"
-                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"]
+                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                  "bnfsite",!!Uri.nicesite]
  
       let s = [ Some(a !!"nicebnf:Drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
@@ -54,10 +55,10 @@ module DrugRdf =
 
     //the label for this is in another part of the feed so will be created elsewhere
     static member from (Classification (Id l,is)) =
-      one !!"nicebnf:hasClassification" !!("nicebnf:classification#" + l) (is |> Seq.map (Uri.from >> a) |> Seq.toList)
+      one !!"nicebnf:hasClassification" !!("bnfsite:classification#" + l) (is |> Seq.map (Uri.from >> a) |> Seq.toList)
 
     static member from (InteractionLink (l)) =
-      objectProperty !!"nicebnf:interaction" !!("nicebnf:interactions#" + l.Url)
+      objectProperty !!"nicebnf:interaction" !!("bnfsite:interactions#" + l.Url)
 
 
     static member from (TheraputicUse (n,u)) =
