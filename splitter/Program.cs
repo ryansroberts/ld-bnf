@@ -52,7 +52,8 @@ namespace splitter
 
             foreach (var fragment in fragments.Where(process))
             {
-                var path = Path.Combine(outputdir, fragment.Id + ".xml");
+                var typeDir = Path.Combine(outputdir, fragment.Type.Replace("#","_"));
+                var path = Path.Combine(typeDir, fragment.Id + ".xml");
                 using (var stream = new StreamWriter(path,false))
                     stream.Write(fragment.Content.ToString());
             }
