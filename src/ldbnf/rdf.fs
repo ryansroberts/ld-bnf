@@ -36,7 +36,7 @@ module DrugRdf =
                                   "cnt",!!"http://www.w3.org/2011/content#"
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.nicesite]
- 
+
       let s = [ Some(a !!"nicebnf:Drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)]
@@ -45,7 +45,7 @@ module DrugRdf =
 
       //pass in uri construction for sections
       let sec = Graph.fromsec (Uri.fromsec x)
- 
+
       [dr (s |> List.choose id)
        dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
        dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
@@ -57,13 +57,13 @@ module DrugRdf =
       one !!"nicebnf:hasClassification" !!("bnfsite:classification#" + l) (is |> Seq.map (Uri.from >> a) |> Seq.toList)
 
     static member from (InteractionLink (l)) =
-      objectProperty !!"nicebnf:interaction" !!("bnfsite:interactions#" + l.Url)
+      objectProperty !!"nicebnf:interaction" !!("bnfsite:interactions/" + l.Url)
 
 
     static member from (TheraputicUse (n,u)) =
       let s = [Some(dataProperty !!"rdfs:label" (n^^xsd.string))
                u >>= (Graph.from >> Some)]
-      one !!"nicebnf:therapeuticUse" (Uri.from (TheraputicUse (n,u))) (s |> List.choose id)
+      one !!"nicebnf:hasTherapeuticUse" (Uri.from (TheraputicUse (n,u))) (s |> List.choose id)
 
     //static member from (DomainOfEffect (n,p,s)) =
 
@@ -80,30 +80,30 @@ module DrugRdf =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
                r >>= Graph.from
                i >>= Graph.from]
-      blank !!"nicebnf:#hasSpecificity" (s |> List.choose id)
+      blank !!"nicebnf:hasSpecificity" (s |> List.choose id)
 
     static member from (GeneralInformation (sd,sp)) =
       let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
                sp >>= (Graph.from >> Some)]
-      blank !!"nicebnf:generalInformation" (s |> List.choose id)
+      blank !!"nicebnf:hasGeneralInformation" (s |> List.choose id)
 
     static member from (DoseAdjustment (sd,sp)) =
       let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
                sp >>= (Graph.from >> Some)]
-      blank !!"nicebnf:doseadjsutment" (s |> List.choose id)
+      blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
 
     //static member from (Pregnancy (Id(i),gis)) =
-    //  one !!"nicebnf:pregnancy" !!("nicebnf:pregnancy#" + i) (gis |> Seq.map Graph.from |> Seq.toList) 
+    //  one !!"nicebnf:pregnancy" !!("nicebnf:pregnancy#" + i) (gis |> Seq.map Graph.from |> Seq.toList)
 
     static member general n i (gis:seq<GeneralInformation>) =
-      one !!("nicebnf:" + n) i (gis |> Seq.map Graph.from |> Seq.toList)
+      one !!("nicebnf:has" + n) i (gis |> Seq.map Graph.from |> Seq.toList)
 
     static member fromsec sid (x:MonographSection) =
       match x with
-        | Pregnancy (i,gis) -> Some(Graph.general "pregnancy" (sid i) gis)
-        | BreastFeeding (i,gis) -> Some(Graph.general "breastfeeding" (sid i) gis)
+        | Pregnancy (i,gis) -> Some(Graph.general "PregnancyWarning" (sid i) gis)
+        | BreastFeeding (i,gis) -> Some(Graph.general "BreastFeedingWarning" (sid i) gis)
         | HepaticImpairment (i,gis,das) ->
-            Some(one !!"nicebnf:hasHepaticImpairment" (sid i) ((gis |> Seq.map Graph.from |> Seq.toList) @ (das |> Seq.map Graph.from |> Seq.toList)))
+            Some(one !!"nicebnf:hasHepaticImpairmentWarning" (sid i) ((gis |> Seq.map Graph.from |> Seq.toList) @ (das |> Seq.map Graph.from |> Seq.toList)))
         | _ -> None
 
 //figure out how to pass the drug id around, probably a partially executed function
