@@ -46,6 +46,7 @@
   <ItemGroup>
     <None Include="paket.references" />
     <None Include="paket.template" />
+    <Compile Include="Prelude.fs"/>
     <None Include="types.fsx" />
     <Compile Include="drugmodel.fs" />
     <Compile Include="medicinalformmodel.fs" />

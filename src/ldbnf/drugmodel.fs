@@ -117,9 +117,8 @@ module Drug =
                  secondaryDomainsOfEffect : Option<SecondaryDomainsOfEffect>;}
 
 module DrugParser =
+    open prelude
     open Drug
-
-    let (|?) = defaultArg
 
     //all of this needs a refactor
 
@@ -315,15 +314,6 @@ module DrugParser =
     let withname = (|HasName|_|)
     let withclass = (|HasOutputClasso|_|)
 
-    let (>=>) a b x =
-      match (a x) with
-        | Some x -> b x
-        | None -> None
-
-    let (>>|) a b x =
-      match (a x) with
-        | Some x -> Some(b x)
-        | None -> None
 
     type InheritsFromClass with
       static member from (x:drugProvider.Data) =

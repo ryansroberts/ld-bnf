@@ -2,6 +2,7 @@ namespace Bnf
 open FSharp.RDF
 
 module DrugRdf =
+  open prelude
   open resource
   open Bnf.Drug
   open Assertion
@@ -20,8 +21,6 @@ module DrugRdf =
     static member from (Indication s) = !!(Uri.nicebnf + "Indication#" + s)
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
     static member fromsec (x:Drug) (Id i) = !!(Uri.nicesite + "drug/" + string x.id + "#" + i)
-
-  let (>>=) a b = Option.bind b a
 
   //ld.nice.org.uk/ns/bnf/concept#someshitwefishedoutofxml
   //---/classification#PHP106980
