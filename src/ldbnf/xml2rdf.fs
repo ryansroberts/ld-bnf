@@ -54,9 +54,16 @@ module Iterator =
           | XmlDirectory _ -> "Specify a directoy for the source xml"
           | OutputDirectory _ -> "Specify an output directory for the ttl"
 
-  let generate f o =
+  let generate f =
         let d = xmlFromFileSynch f
-        let m = parse d
+        //get the type from the filename, somehow
+        let t = Directory.GetParent(f).Name
+        //parse in different ways for differnt types
+        
+        let m = match t with
+          | "drug" -> parse d
+          | _ -> failwith "no match"
+
         let s = ""
         let sb = new System.Text.StringBuilder(s)
 
@@ -65,12 +72,16 @@ module Iterator =
         graph |> Graph.writeTtl (toString sb) |> ignore
         let fn = Path.GetFileName f
         let nfn = Path.ChangeExtension(fn,"ttl")
-        (sb.ToString(),nfn)
+        (sb.ToString(),nfn,t)
 
   let apply o f =
       printfn "%s" f
-      let (text,fn) = generate f o
-      let fn = (o ++ fn)
+      let (text,fn,t) = generate f
+      let dir = (o ++ t)
+      if (not(Directory.Exists(dir))) then
+        Directory.CreateDirectory(dir) |> ignore
+
+      let fn = (dir ++ fn)
       toFileSynch fn text
       fn
 
@@ -83,7 +94,7 @@ module Iterator =
     let outputDirectory = results.GetResult <@ OutputDirectory @>
     printfn "%s" xmlDirectory
 
-    let fs = Directory.EnumerateFiles xmlDirectory
+    let fs = Directory.EnumerateFiles(xmlDirectory,"*.*",SearchOption.AllDirectories)
     fs |> Seq.map (apply outputDirectory) |> Seq.iter (fun s -> printfn "%s" s)
     //AsyncSeq.ofSeq fs
     //    |> AsyncSeq.map (apply outputDirectory)
