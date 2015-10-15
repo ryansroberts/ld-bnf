@@ -23,14 +23,18 @@ module MedicinalForm =
   type StrengthOfActiveIngredient = | StrengthOfActiveIngredient of mfProvider.P
 
   //To be extended in the future
-  type UnitOfMeasure = | Tablet
+  type UnitOfMeasure =
+    | Tablet
+    | Dunno
 
-  type PackSize = | PackSize of int * UnitOfMeasure
+  type PackSize = | PackSize of decimal
 
   //I'm pretty sure that there will be more of these
-  type LegalCategory = | POM
+  type LegalCategory =
+    | POM
+    | Dunno
 
-  type PackInfo = | PackInfo of PackSize * LegalCategory
+  type PackInfo = | PackInfo of Option<PackSize> * Option<UnitOfMeasure> * Option<LegalCategory>
 
   type PriceText = | PriceText of string
 
@@ -67,8 +71,9 @@ module MedicinalFormParser =
   open prelude
   open MedicinalForm
 
-  let inline withoc n (x:mfProvider.Section) =
-    if (x.Outputclass = n) then Some (x)
+  let inline withoc n x =
+    let oc = (^a : (member Outputclass : string) x)
+    if (oc = n) then Some (x)
     else None
 
   type CautionaryAdvisoryLabel with
@@ -81,6 +86,33 @@ module MedicinalFormParser =
       let ls = x.Ps |> Array.map CautionaryAdvisoryLabel.from
       let t = x.Title.Value >>= (CautionaryAndAdvisoryLabelsTitle >> Some)
       CautionaryAdvisoryLabels(t,ls)
+
+  type PackSize with
+    static member from (x:mfProvider.Ph) = 
+      x.Number >>= (PackSize >> Some)
+
+  type UnitOfMeasure with
+    static member from (x:mfProvider.Ph) =
+      match x.String with
+        | Some(s) -> match s with
+                     | "tablet" -> Tablet
+                     | _ -> Dunno
+        | None -> Dunno
+
+  type LegalCategory with
+    static member from (x:mfProvider.Ph) =
+      match x.String with
+        | Some(s) -> match s with
+                     | "POM" -> POM
+                     | _ -> Dunno
+        | None -> Dunno
+
+  type PackInfo with
+    static member from (x:mfProvider.P) =
+      let ps = x.Phs |> Array.tryPick (withoc "packSize") >>= PackSize.from
+      let uom = x.Phs |> Array.tryPick (withoc "unitOfMeasure") >>= UnitOfMeasure.from
+      let lc = x.Phs |> Array.tryPick (withoc "legalCategory") >>= LegalCategory.from
+      PackInfo(ps,uom,lc)
 
   let parse (x:mfProvider.Topic) =
     let t = match x.Title.Value with
