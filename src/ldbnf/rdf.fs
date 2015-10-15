@@ -96,14 +96,15 @@ module DrugRdf =
     //  one !!"nicebnf:pregnancy" !!("nicebnf:pregnancy#" + i) (gis |> Seq.map Graph.from |> Seq.toList)
 
     static member general n i (gis:seq<GeneralInformation>) =
-      one !!("nicebnf:has" + n) i (gis |> Seq.map Graph.from |> Seq.toList)
+      let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.from |> Seq.toList)
+      one !!("nicebnf:has" + n) i s
 
     static member fromsec sid (x:MonographSection) =
       match x with
         | Pregnancy (i,gis) -> Some(Graph.general "PregnancyWarning" (sid i) gis)
         | BreastFeeding (i,gis) -> Some(Graph.general "BreastFeedingWarning" (sid i) gis)
         | HepaticImpairment (i,gis,das) ->
-            Some(one !!"nicebnf:hasHepaticImpairmentWarning" (sid i) ((gis |> Seq.map Graph.from |> Seq.toList) @ (das |> Seq.map Graph.from |> Seq.toList)))
+            Some(one !!"nicebnf:hasHepaticImpairmentWarning" (sid i) (a !!"nicebnf:HepaticImpairmentWarning" :: (gis |> Seq.map Graph.from |> Seq.toList) @ (das |> Seq.map Graph.from |> Seq.toList)))
         | _ -> None
 
 //figure out how to pass the drug id around, probably a partially executed function
