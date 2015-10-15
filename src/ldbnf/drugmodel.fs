@@ -26,7 +26,7 @@ module Drug =
 
     type DrugName = | DrugName of string
 
-    type Vtmid = | Vtmid of int
+    type Vtmid = | Vtmid of int64
 
     type MedicinalFormLink = | MedicinalFormLink of Link
 
@@ -373,8 +373,8 @@ module DrugParser =
 
     type Vtmid with
       static member from (x:drugProvider.Data) =
-        match x.Number with
-          | Some(n) -> Some(Vtmid(n))
+        match x.String with
+          | Some(n) -> Some(Vtmid(int64 n))
           | None -> None
 
     type MonographSection with
