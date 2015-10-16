@@ -56,14 +56,14 @@ module MedicinalForm =
 
   type MedicinalProduct = {
     title:MedicinalProductTitle;
-    ampid:Ampid;
-    strengthOfActiveIngredient:StrengthOfActiveIngredient;
+    ampid:Option<Ampid>;
+    strengthOfActiveIngredient:Option<StrengthOfActiveIngredient>;
     packs: Pack list}
 
   type MedicinalForm = { title : Option<Title>;
-    cautionaryAdvisoryLabels : Option<CautionaryAdvisoryLabels>; }
-    //medicinalProducts : MedicinalProduct list;
-  //}
+    cautionaryAdvisoryLabels : Option<CautionaryAdvisoryLabels>;
+    medicinalProducts : MedicinalProduct list;
+  }
 
 module MedicinalFormParser =
   open prelude
@@ -146,14 +146,23 @@ module MedicinalFormParser =
       Ampid(x.Value)
 
   type Pack with
+    static member from (x:mfProvider.Ul) =
+      x.Lis |> Array.map Pack.from |> Array.toList
     static member from (x:mfProvider.Li) =
       let pi = x.Ps |> Array.tryPick (withoco "packInfo") >>= (PackInfo.from >> Some)
       let nio = x.Ps |> Array.tryPick (withoco "nhsIndicativeInfo") >>= (NhsIndicativeInfo.from >> Some)
       let dti = x.Ps |> Array.tryPick (withoco "drugTariffInfo") >>= (DrugTariffInfo.from >> Some)
       Pack(pi,nio,dti)
 
-  //type MedicinalProduct with
-  //  static member from (x:mfProvider.Section) =
+  type MedicinalProduct with
+    static member from (x:mfProvider.Section) =
+      let t = MedicinalProductTitle.from x.Title
+      let str = x.Ps |> Array.tryPick (withoco "strengthOfActiveIngredient") >>= (StrengthOfActiveIngredient >> Some)
+      let ps = match x.Ul with
+               | Some x -> Pack.from x
+               | _ -> List.empty<Pack>
+      let a = x.Data >>= (Ampid.from >> Some)
+      {title = t; ampid = a; strengthOfActiveIngredient = str; packs = ps;}
 
   let parse (x:mfProvider.Topic) =
     let t = match x.Title.Value with
@@ -163,5 +172,9 @@ module MedicinalFormParser =
                |> Array.choose (withoc "cautionaryAndAdvisoryLabels")
                |> Array.map (CautionaryAdvisoryLabels.from >> Some)
                |> Array.tryPick id
+    let mps = x.Body.Sections
+               |> Array.choose (withoc "medicinalProduct")
+               |> Array.map (MedicinalProduct.from)
+               |> Array.toList
 
-    {title = t; cautionaryAdvisoryLabels = cals;}
+    {title = t; cautionaryAdvisoryLabels = cals; medicinalProducts = mps}
