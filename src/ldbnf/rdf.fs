@@ -5,8 +5,10 @@ module DrugRdf =
   open prelude
   open resource
   open Bnf.Drug
+  open Bnf.MedicinalForm
   open Assertion
   open rdf
+  open Shared
 
   let getval (DrugName n) = n
   let getvtmid (Vtmid i) = Some(string i)
@@ -22,15 +24,27 @@ module DrugRdf =
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
     static member fromsec (x:Drug) (Id i) = !!(Uri.nicesite + "drug/" + string x.id + "#" + i)
 
-  //ld.nice.org.uk/ns/bnf/concept#someshitwefishedoutofxml
-  //---/classification#PHP106980
+    static member from (x:MedicinalForm) = !!(Uri.nicesite + "drug/" + string x.id )
 
   type Graph with
-    static member ReallyEmpty xp =
-      let vds = new VDS.RDF.Graph()
-      xp |> List.iter (fun (p, (Uri.Sys ns)) -> vds.NamespaceMap.AddNamespace(p, ns))
-      Graph vds
+      static member ReallyEmpty xp =
+        let vds = new VDS.RDF.Graph()
+        xp |> List.iter (fun (p, (Uri.Sys ns)) -> vds.NamespaceMap.AddNamespace(p, ns))
+        Graph vds
 
+
+  type Graph with
+    static member from (x:MedicinalForm)=
+      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                  "bnfsite",!!Uri.nicesite]
+      let s = [ Some(a !!"nicebnf:MedicinalForm")]
+      let dr r = resource (Uri.from x) r
+      [dr (s |> List.choose id)]
+       |> Assert.graph og
+
+  type Graph with
     static member from (x:Drug) =
       let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
                                   "cnt",!!"http://www.w3.org/2011/content#"

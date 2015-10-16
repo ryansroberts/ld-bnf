@@ -1,5 +1,6 @@
 namespace Bnf
 open FSharp.Data
+open Shared
 
 module MedicinalForm =
   type mfProvider = XmlProvider<"supermedicinalform.xml", Global=true>
@@ -60,7 +61,9 @@ module MedicinalForm =
     strengthOfActiveIngredient:Option<StrengthOfActiveIngredient>;
     packs: Pack list}
 
-  type MedicinalForm = { title : Option<Title>;
+  type MedicinalForm = {
+    id : Id;
+    title : Option<Title>;
     cautionaryAdvisoryLabels : Option<CautionaryAdvisoryLabels>;
     medicinalProducts : MedicinalProduct list;
   }
@@ -164,17 +167,18 @@ module MedicinalFormParser =
       let a = x.Data >>= (Ampid.from >> Some)
       {title = t; ampid = a; strengthOfActiveIngredient = str; packs = ps;}
 
-  let parse (x:mfProvider.Topic) =
-    let t = match x.Title.Value with
+  type MedicinalForm with
+    static member parse (x:mfProvider.Topic) =
+      let t = match x.Title.Value with
               | Some(v) -> Some(Title v)
               | None -> None
-    let cals = x.Body.Sections
+      let cals = x.Body.Sections
                |> Array.choose (withoc "cautionaryAndAdvisoryLabels")
                |> Array.map (CautionaryAdvisoryLabels.from >> Some)
                |> Array.tryPick id
-    let mps = x.Body.Sections
+      let mps = x.Body.Sections
                |> Array.choose (withoc "medicinalProduct")
                |> Array.map (MedicinalProduct.from)
                |> Array.toList
 
-    {title = t; cautionaryAdvisoryLabels = cals; medicinalProducts = mps}
+      {id = Id(x.Id); title = t; cautionaryAdvisoryLabels = cals; medicinalProducts = mps}

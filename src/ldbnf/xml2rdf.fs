@@ -18,7 +18,8 @@ open resource
 open Assertion
 open rdf
 open Bnf.DrugRdf
-
+open MedicinalForm
+open MedicinalFormParser
 
 module Iterator =
   let private xmlFromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
@@ -26,6 +27,7 @@ module Iterator =
 
   let private fromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
                                                      return file.ReadToEnd() }
+  let private file (fn:string) = File.OpenText fn
 
   let private xmlFromFileSynch (fileName : string) =
     let file = File.OpenText fileName
@@ -60,7 +62,8 @@ module Iterator =
     let t = Directory.GetParent(f).Name
     //parse in different ways for differnt types
     let m = match t with
-            | "drug" -> parse d |> Some
+            | "drug" -> file f |> drugProvider.Load |> Drug.parse |> Some
+            | "medicinalForm" -> file f |> mfProvider.Load |> MedicinalForm.parse |> Some
             | _ -> None
 
     let s = ""

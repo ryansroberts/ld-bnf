@@ -1,7 +1,14 @@
 namespace Bnf
 open FSharp.Data
 
+module Shared =
+  type Id =
+    | Id of string
+    override __.ToString() = match __ with | Id x -> x
+
+
 module Drug =
+    open Shared
     //sensible compromise to reference the types provided to avoid replication
     type drugProvider = XmlProvider<"SuperDrug.xml", Global=true, SampleIsList=true>
 
@@ -10,9 +17,6 @@ module Drug =
     type Title = | Title of Paragraph
     type Html = | Html of string
     type Content = | Content of Html
-    type Id =
-      | Id of string
-      override __.ToString() = match __ with | Id x -> x
 
     type Link = {Title:string; Url:string}
 
@@ -119,6 +123,7 @@ module Drug =
 module DrugParser =
     open prelude
     open Drug
+    open Shared
 
     //all of this needs a refactor
 
@@ -454,7 +459,8 @@ module DrugParser =
       static member treatmentCessations (x:drugProvider.Topic) =
         TreatmentCessations(Id(x.Id), allsections x |> Array.map TreatmentCessation)
 
-    let parse (x:drugProvider.Topic) =
+    type Drug with
+      static member parse (x:drugProvider.Topic) =
         let name = DrugName(x.Title)
 
         let interactionLinks = match x.Body with
