@@ -55,35 +55,37 @@ module Iterator =
           | OutputDirectory _ -> "Specify an output directory for the ttl"
 
   let generate f =
-        let d = xmlFromFileSynch f
-        //get the type from the filename, somehow
-        let t = Directory.GetParent(f).Name
-        //parse in different ways for differnt types
-        
-        let m = match t with
-          | "drug" -> parse d
-          | _ -> failwith "no match"
+    let d = xmlFromFileSynch f
+    //get the type from the filename, somehow
+    let t = Directory.GetParent(f).Name
+    //parse in different ways for differnt types
+    let m = match t with
+            | "drug" -> parse d |> Some
+            | _ -> None
 
-        let s = ""
-        let sb = new System.Text.StringBuilder(s)
+    let s = ""
+    let sb = new System.Text.StringBuilder(s)
 
-        let graph = Graph.from m
-
-        graph |> Graph.writeTtl (toString sb) |> ignore
-        let fn = Path.GetFileName f
-        let nfn = Path.ChangeExtension(fn,"ttl")
-        (sb.ToString(),nfn,t)
+    match m with
+        | Some x -> 
+            let graph = Graph.from x
+            graph |> Graph.writeTtl (toString sb) |> ignore
+            let fn = Path.GetFileName f
+            let nfn = Path.ChangeExtension(fn,"ttl")
+            Some(sb.ToString(),nfn,t)
+        | _ -> None
 
   let apply o f =
       printfn "%s" f
-      let (text,fn,t) = generate f
-      let dir = (o ++ t)
-      if (not(Directory.Exists(dir))) then
-        Directory.CreateDirectory(dir) |> ignore
-
-      let fn = (dir ++ fn)
-      toFileSynch fn text
-      fn
+      match (generate f) with
+       | Some(text,fn,t) -> 
+           let dir = (o ++ t)
+           if (not(Directory.Exists(dir))) then
+             Directory.CreateDirectory(dir) |> ignore
+           let fn = (dir ++ fn)
+           toFileSynch fn text
+           Some(fn)
+       | None -> None
 
   [<EntryPoint>]
   let main args = 
@@ -95,7 +97,9 @@ module Iterator =
     printfn "%s" xmlDirectory
 
     let fs = Directory.EnumerateFiles(xmlDirectory,"*.*",SearchOption.AllDirectories)
-    fs |> Seq.map (apply outputDirectory) |> Seq.iter (fun s -> printfn "%s" s)
+    fs |> Seq.map (apply outputDirectory)
+       |> Seq.choose id
+       |> Seq.iter (fun s -> printfn "%s" s)
     //AsyncSeq.ofSeq fs
     //    |> AsyncSeq.map (apply outputDirectory)
     //    |> AsyncSeq.iter (fun s -> printfn "%s" (Async.RunSynchronously s))
