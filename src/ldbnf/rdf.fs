@@ -61,6 +61,8 @@ module DrugRdf =
       let sec = Graph.fromsec (Uri.fromsec x)
 
       [dr (s |> List.choose id)
+       dr (x.primaryDomainOfEffect |> Graph.from)
+       dr (x.secondaryDomainsOfEffect |> Graph.from)
        dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
        dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
