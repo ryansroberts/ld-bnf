@@ -62,20 +62,19 @@ module Iterator =
     let t = Directory.GetParent(f).Name
     //parse in different ways for differnt types
     let m = match t with
-            | "drug" -> file f |> drugProvider.Load |> Drug.parse |> Some
-            | "medicinalForm" -> file f |> mfProvider.Load |> MedicinalForm.parse |> Some
+            | "drug" -> file f |> drugProvider.Load |> Drug.parse |> Graph.from |> Some
+            | "medicinalForm" -> file f |> mfProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
             | _ -> None
 
-    let s = ""
-    let sb = new System.Text.StringBuilder(s)
-
     match m with
-        | Some x -> 
-            let graph = Graph.from x
-            graph |> Graph.writeTtl (toString sb) |> ignore
-            let fn = Path.GetFileName f
-            let nfn = Path.ChangeExtension(fn,"ttl")
-            Some(sb.ToString(),nfn,t)
+        | Some graph -> 
+          let s = ""
+          let sb = new System.Text.StringBuilder(s)
+
+          graph |> Graph.writeTtl (toString sb) |> ignore
+          let fn = Path.GetFileName f
+          let nfn = Path.ChangeExtension(fn,"ttl")
+          Some(sb.ToString(),nfn,t)
         | _ -> None
 
   let apply o f =
