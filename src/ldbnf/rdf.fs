@@ -77,15 +77,34 @@ module DrugRdf =
       objectProperty !!"nicebnf:interaction" !!("bnfsite:interactions/" + l.Url)
 
 
-    static member from (TheraputicUse (n,u)) =
-      let s = [Some(dataProperty !!"rdfs:label" (n^^xsd.string))
-               u >>= (Graph.from >> Some)]
-      one !!"nicebnf:hasTherapeuticUse" (Uri.from (TheraputicUse (n,u))) (s |> List.choose id)
+    static member fromtu ((x:TheraputicUse), ?name0:string) =
+      let name = defaultArg name0 "nicebnf:hasTherapeuticUse"
+      let s = match x with | TheraputicUse(n,u) ->
+                               [Some(dataProperty !!"rdfs:label" (n^^xsd.string))
+                                u >>= (Graph.fromtu >> Some)]
+      one !!name (Uri.from x) (s |> List.choose id)
 
-    //static member from (DomainOfEffect (n,p,s)) =
+    static member fromptu (PrimaryTheraputicUse t) =
+      match t with
+        | Some x -> Some(Graph.fromtu (x,"nicebnf:hasPrimaryTherapeuticUse"))
+        | None -> None
 
-    //PrimaryTheraputicUse
-    //SecondaryTheraputicUses
+    static member fromstu (SecondaryTheraputicUses t) =
+      match t with
+        | Some x -> Some(Graph.fromtu (x,"nicebnf:hasSecondaryTherapeuticUses"))
+        | None -> None
+
+    static member from (DomainOfEffect (n,p,s)) =
+      let s = [n >>=  (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
+               p >>= Graph.fromptu
+               s >>= Graph.fromstu]
+      s |> List.choose id
+
+    static member from (PrimaryDomainOfEffect d) =
+      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect" (Graph.from d)
+
+    static member from (SecondaryDomainsOfEffect ds) =
+      ds |> Seq.map (Graph.from >> (one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect"))
 
     static member from (x:Route) =
       Some(objectProperty !!"nicebnf:hasRoute" (Uri.from x))
@@ -93,27 +112,27 @@ module DrugRdf =
     static member from (x:Indication) =
       Some(objectProperty !!"nicebnf:hasIndication" (Uri.from x))
 
-    static member from (Specificity (Paragraph s,r,i)) =
+    static member fromsp (Specificity (Paragraph s,r,i)) =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
                r >>= Graph.from
                i >>= Graph.from]
       blank !!"nicebnf:hasSpecificity" (s |> List.choose id)
 
-    static member from (GeneralInformation (sd,sp)) =
+    static member fromgi (GeneralInformation (sd,sp)) =
       let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
-               sp >>= (Graph.from >> Some)]
+               sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasGeneralInformation" (s |> List.choose id)
 
-    static member from (DoseAdjustment (sd,sp)) =
+    static member fromda (DoseAdjustment (sd,sp)) =
       let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
-               sp >>= (Graph.from >> Some)]
+               sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
 
     //static member from (Pregnancy (Id(i),gis)) =
     //  one !!"nicebnf:pregnancy" !!("nicebnf:pregnancy#" + i) (gis |> Seq.map Graph.from |> Seq.toList)
 
     static member general n i (gis:seq<GeneralInformation>) =
-      let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.from |> Seq.toList)
+      let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.fromgi |> Seq.toList)
       one !!("nicebnf:has" + n) i s
 
     static member fromsec sid (x:MonographSection) =
@@ -121,7 +140,6 @@ module DrugRdf =
         | Pregnancy (i,gis) -> Some(Graph.general "PregnancyWarning" (sid i) gis)
         | BreastFeeding (i,gis) -> Some(Graph.general "BreastFeedingWarning" (sid i) gis)
         | HepaticImpairment (i,gis,das) ->
-            Some(one !!"nicebnf:hasHepaticImpairmentWarning" (sid i) (a !!"nicebnf:HepaticImpairmentWarning" :: (gis |> Seq.map Graph.from |> Seq.toList) @ (das |> Seq.map Graph.from |> Seq.toList)))
+            Some(one !!"nicebnf:hasHepaticImpairmentWarning" (sid i) (a !!"nicebnf:HepaticImpairmentWarning" :: (gis |> Seq.map Graph.fromgi |> Seq.toList) @ (das |> Seq.map Graph.fromda |> Seq.toList)))
         | _ -> None
 
-//figure out how to pass the drug id around, probably a partially executed function

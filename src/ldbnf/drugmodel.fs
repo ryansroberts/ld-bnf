@@ -61,14 +61,14 @@ module Drug =
 
     type GeneralPatientAdvice = | GeneralPatientAdvice of drugProvider.Sectiondiv * Option<Title> * Option<Specificity> 
 
-
-    type TheraputicUse = | TheraputicUse of string * Option<TheraputicUse>
-
+    type TheraputicUse =
+      | TheraputicUse of string * Option<TheraputicUse> 
     type PrimaryTheraputicUse = | PrimaryTheraputicUse of Option<TheraputicUse>
 
     type SecondaryTheraputicUses = | SecondaryTheraputicUses of Option<TheraputicUse>
 
-    type DomainOfEffect = | DomainOfEffect of Option<string> * Option<PrimaryTheraputicUse> * Option<SecondaryTheraputicUses>
+    type DomainOfEffect = | DomainOfEffect of
+                            Option<string> * Option<PrimaryTheraputicUse> * Option<SecondaryTheraputicUses>
 
     type PrimaryDomainOfEffect = | PrimaryDomainOfEffect of DomainOfEffect
 
