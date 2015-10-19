@@ -17,7 +17,9 @@ module MedicinalForm =
 
   type Manufacturer = | Manufacturer of string
 
-  type MedicinalProductTitle = | MedicinalProductTitle of Option<Manufacturer> * mfProvider.Title
+  type BlackTriangle = | BlackTriangle of string
+
+  type MedicinalProductTitle = | MedicinalProductTitle of Option<Manufacturer> * Option<BlackTriangle> * mfProvider.Title
 
   type Ampid = | Ampid of int64
 
@@ -96,10 +98,10 @@ module MedicinalFormParser =
       let t = x.Title.Value >>= (CautionaryAndAdvisoryLabelsTitle >> Some)
       CautionaryAdvisoryLabels(t,ls)
 
-  let fromphn c (x:mfProvider.Ph) = 
+  let fromphn c (x:mfProvider.Ph) =
     x.Number >>= (c >> Some)
 
-  let fromphs c (x:mfProvider.Ph) = 
+  let fromphs c (x:mfProvider.Ph) =
     x.String >>= (c >> Some)
 
   type UnitOfMeasure with
@@ -124,7 +126,7 @@ module MedicinalFormParser =
       let uom = x.Phs |> Array.tryPick (withoc "unitOfMeasure") >>= UnitOfMeasure.from
       let lc = x.Phs |> Array.tryPick (withoc "legalCategory") >>= LegalCategory.from
       PackInfo(ps,uom,lc)
- 
+
   type NhsIndicativeInfo with
     static member from (x:mfProvider.P) =
       let nhsi = x.Phs |> Array.tryPick (withoc "nhsIndicative") >>= (fromphs NhsIndicative)
@@ -141,8 +143,9 @@ module MedicinalFormParser =
 
   type MedicinalProductTitle with
     static member from (x:mfProvider.Title) =
-      let m = x.Ph >>= (fromphs Manufacturer)
-      MedicinalProductTitle(m,x)
+      let m = x.Phs |> Array.tryPick (withoc "manufacturer") >>= (fromphs Manufacturer)
+      let bt = x.Phs |> Array.tryPick (withoc "blackTriangle") >>= (fromphs BlackTriangle)
+      MedicinalProductTitle(m,bt,x)
 
   type Ampid with
     static member from (x:mfProvider.Data) =
