@@ -53,18 +53,24 @@ module DrugRdf =
 
       let s = [ Some(a !!"nicebnf:Drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
-                x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)]
+                x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)
+                x.primaryDomainOfEffect >>= (Graph.frompdoe >> Some)
+                ]
 
       let dr r = resource (Uri.from x) r
 
       //pass in uri construction for sections
       let sec = Graph.fromsec (Uri.fromsec x)
 
+      let sdoe = match x.secondaryDomainsOfEffect with
+                 | Some d -> Graph.fromsdoe d
+                 | None -> Seq.empty<(Predicate * Object)>
+
+
       [dr (s |> List.choose id)
-       dr (x.primaryDomainOfEffect |> Graph.from)
-       dr (x.secondaryDomainsOfEffect |> Graph.from)
-       dr (x.classifications |> Seq.map Graph.from |> Seq.toList)
-       dr (x.interactionLinks |> Seq.map Graph.from |> Seq.toList)
+       dr (sdoe |> Seq.toList)
+       dr (x.classifications |> Seq.map Graph.fromcl |> Seq.toList)
+       dr (x.interactionLinks |> Seq.map Graph.fromil |> Seq.toList)
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
        |> Assert.graph og
 
@@ -72,10 +78,10 @@ module DrugRdf =
       objectProperty !!"nicebnf:drugclass" !!("bnfsite:drugclasses/" + c)
 
     //the label for this is in another part of the feed so will be created elsewhere
-    static member from (Classification (Id l,is)) =
+    static member fromcl (Classification (Id l,is)) =
       one !!"nicebnf:hasClassification" !!("bnfsite:classification#" + l) (is |> Seq.map Graph.fromdc |> Seq.toList)
 
-    static member from (InteractionLink (l)) =
+    static member fromil (InteractionLink (l)) =
       objectProperty !!"nicebnf:interaction" !!("bnfsite:interactions/" + l.Url)
 
 
@@ -96,17 +102,17 @@ module DrugRdf =
         | Some x -> Some(Graph.fromtu (x,"nicebnf:hasSecondaryTherapeuticUses"))
         | None -> None
 
-    static member from (DomainOfEffect (n,p,s)) =
+    static member fromdoe (DomainOfEffect (n,p,s)) =
       let s = [n >>=  (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                p >>= Graph.fromptu
                s >>= Graph.fromstu]
       s |> List.choose id
 
-    static member from (PrimaryDomainOfEffect d) =
-      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect" (Graph.from d)
+    static member frompdoe (PrimaryDomainOfEffect d) =
+      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect" (Graph.fromdoe d)
 
-    static member from (SecondaryDomainsOfEffect ds) =
-      ds |> Seq.map (Graph.from >> (one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect"))
+    static member fromsdoe (SecondaryDomainsOfEffect ds) =
+      ds |> Seq.map (Graph.fromdoe >> (one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect"))
 
     static member from (x:Route) =
       Some(objectProperty !!"nicebnf:hasRoute" (Uri.from x))
