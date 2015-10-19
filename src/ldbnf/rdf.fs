@@ -66,9 +66,12 @@ module DrugRdf =
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
        |> Assert.graph og
 
+    static member fromdc (InheritsFromClass (c)) = 
+      objectProperty !!"nicebnf:drugclass" !!("bnfsite:drugclasses/" + c)
+
     //the label for this is in another part of the feed so will be created elsewhere
     static member from (Classification (Id l,is)) =
-      one !!"nicebnf:hasClassification" !!("bnfsite:classification#" + l) (is |> Seq.map (Uri.from >> a) |> Seq.toList)
+      one !!"nicebnf:hasClassification" !!("bnfsite:classification#" + l) (is |> Seq.map Graph.fromdc |> Seq.toList)
 
     static member from (InteractionLink (l)) =
       objectProperty !!"nicebnf:interaction" !!("bnfsite:interactions/" + l.Url)
