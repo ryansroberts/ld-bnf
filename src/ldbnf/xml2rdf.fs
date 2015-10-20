@@ -57,7 +57,6 @@ module Iterator =
           | OutputDirectory _ -> "Specify an output directory for the ttl"
 
   let generate f =
-    let d = xmlFromFileSynch f
     //get the type from the filename, somehow
     let t = Directory.GetParent(f).Name
     //parse in different ways for differnt types
