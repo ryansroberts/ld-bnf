@@ -112,7 +112,7 @@ module DrugRdf =
       one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect" (Graph.fromdoe d)
 
     static member fromsdoe (SecondaryDomainsOfEffect ds) =
-      ds |> Seq.map (Graph.fromdoe >> (one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect"))
+      ds |> Seq.map (Graph.fromdoe >> (one !!"nicebnf:hasSecondaryDomainOfEffect" !!"nicebnf:SecondaryDomainOfEffect"))
 
     static member from (x:Route) =
       Some(objectProperty !!"nicebnf:hasRoute" (Uri.from x))
