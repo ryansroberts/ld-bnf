@@ -95,7 +95,7 @@ module Drug =
     type TreatmentCessation = | TreatmentCessation of drugProvider.Sectiondiv
 
     type MonographSection =
-        | IndicationsAndDoseGroup of IndicationsAndDose seq
+        | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
         | BreastFeeding of Id * GeneralInformation seq
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
@@ -230,7 +230,7 @@ module DrugParser =
     type MonographSection with
       static member indicationsAndDoseGroup (x:drugProvider.Topic) =
         match x.Body with
-          | Some(b) -> Some(IndicationsAndDoseGroup(b.Sections |> Array.filter (hasOutputclasso "indicationAndDoseGroup") |> Array.map IndicationsAndDose.from))
+          | Some(b) -> Some(IndicationsAndDoseGroup(Id(x.Id),b.Sections |> Array.filter (hasOutputclasso "indicationAndDoseGroup") |> Array.map IndicationsAndDose.from))
           | None -> None
 
     let (>>=) a b = Option.bind b a

@@ -21,6 +21,8 @@ module DrugRdf =
     static member from (InheritsFromClass l) = !!(Uri.nicebnf + "Classification#"  + l)
     static member from (Route s) = !!(Uri.nicebnf + "Route#" + s)
     static member from (Indication s) = !!(Uri.nicebnf + "Indication#" + s)
+    static member fromgrp (s:string) = !!(Uri.nicebnf + "Group#" + s)
+    static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage#" + s)
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
     static member fromsec (x:Drug) (Id i) = !!(Uri.nicesite + "drug/" + string x.id + "#" + i)
 
@@ -109,7 +111,7 @@ module DrugRdf =
       s |> List.choose id
 
     static member frompdoe (PrimaryDomainOfEffect d) =
-      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicebnf:PrimaryDomainOfEffect" (Graph.fromdoe d)
+      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicesite:DomainOfEffect" (Graph.fromdoe d)
 
     static member fromsdoe (SecondaryDomainsOfEffect ds) =
       ds |> Seq.map (Graph.fromdoe >> (one !!"nicebnf:hasSecondaryDomainOfEffect" !!"nicebnf:SecondaryDomainOfEffect"))
@@ -119,6 +121,10 @@ module DrugRdf =
 
     static member from (x:Indication) =
       Some(objectProperty !!"nicebnf:hasIndication" (Uri.from x))
+
+    static member from (x:PatientGroup) = 
+      [Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp x.Group))
+       Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg x.Dosage))]
 
     static member fromsp (Specificity (Paragraph s,r,i)) =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
@@ -136,12 +142,26 @@ module DrugRdf =
                sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
 
-    //static member from (Pregnancy (Id(i),gis)) =
-    //  one !!"nicebnf:pregnancy" !!("nicebnf:pregnancy#" + i) (gis |> Seq.map Graph.from |> Seq.toList)
-
     static member general n i (gis:seq<GeneralInformation>) =
       let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.fromgi |> Seq.toList)
       one !!("nicebnf:has" + n) i s
+
+    //ungroup the patient groups adding a route if available
+    static member from (RouteOfAdministration(r,pgs)) =
+      let patientGrp pg = blank !!"nice:hasRouteOfAdministration"
+                           ([Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp pg.Group))
+                             Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg pg.Dosage))
+                             r >>= Graph.from] |> List.choose id)
+      pgs |> Seq.map patientGrp
+
+    static member from (TheraputicIndication s) =
+      Some(dataProperty !!"nicebnf:hasTheraputicIndication" (s^^xsd.string))
+
+    static member from (IndicationsAndDose(tis,roas)) =
+      let s = (tis |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
+              @ (roas |> Seq.collect Graph.from |> Seq.toList)
+      blank !!"nicebnf:hasIndicationAndDose" s
+
 
     static member fromsec sid (x:MonographSection) =
       match x with
@@ -149,5 +169,6 @@ module DrugRdf =
         | BreastFeeding (i,gis) -> Some(Graph.general "BreastFeedingWarning" (sid i) gis)
         | HepaticImpairment (i,gis,das) ->
             Some(one !!"nicebnf:hasHepaticImpairmentWarning" (sid i) (a !!"nicebnf:HepaticImpairmentWarning" :: (gis |> Seq.map Graph.fromgi |> Seq.toList) @ (das |> Seq.map Graph.fromda |> Seq.toList)))
+        | IndicationsAndDoseGroup (i,g) -> Some(one !!"nicebnf:hasIndicationAndDoseGroup" (sid i) (g |> Seq.map Graph.from |> Seq.toList))
         | _ -> None
 
