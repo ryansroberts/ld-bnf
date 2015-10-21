@@ -129,6 +129,9 @@ module DrugRdf =
       [Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp x.Group))
        Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg x.Dosage))]
 
+    static member fromti (Bnf.Drug.Title (Paragraph s)) =
+      Some(dataProperty !!"rdfs:label" (xsd.string s))
+
     static member fromsp (Specificity (Paragraph s,r,i)) =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
                r >>= Graph.from
@@ -145,9 +148,7 @@ module DrugRdf =
                sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
 
-    static member general n i (gis:seq<GeneralInformation>) =
-      let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.fromgi |> Seq.toList)
-      one !!("nicebnf:has" + n) i s
+    
 
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
@@ -169,6 +170,15 @@ module DrugRdf =
       blank !!"nicebnf:hasAdditionalMonitoringInRenalImpairment"
         [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
+    static member fromgpa (GeneralPatientAdvice (c,t,sp)) =
+      let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(c.ToString())))
+               t >>= Graph.fromti
+               sp >>= (Graph.fromsp >> Some)]
+      blank !!"nicebnf:hasGeneralPatientAdvice" (s |> List.choose id)
+
+    static member frommd (AdviceAroundMissedDoses s) =
+      blank !!"nicebnf:hasGeneralPatientAdvice" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -186,4 +196,6 @@ module DrugRdf =
                                                                                  tostatments Graph.fromamri amri
                                                                                  tostatments Graph.fromda das])
         | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [tostatments Graph.fromidg g])
+        | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [tostatments Graph.frommd md
+                                                                                        tostatments Graph.fromgpa gpa ])
         | _ -> None
