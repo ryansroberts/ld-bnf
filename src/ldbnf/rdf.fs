@@ -162,6 +162,9 @@ module DrugRdf =
               @ (roas |> Seq.collect Graph.from |> Seq.toList)
       blank !!"nicebnf:hasIndicationAndDose" s
 
+    static member fromamri (AdditionalMonitoringInRenalImpairment s) =
+      blank !!"nicebnf:hasAdditionalMonitoringInRenalImpairment"
+        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s))]
 
     static member fromsec sid (x:MonographSection) =
 
@@ -176,5 +179,8 @@ module DrugRdf =
         | BreastFeeding (i,gs) -> Some(sec "BreastFeedingWarning" (sid i) [tostatments Graph.fromgi gs])
         | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [tostatments Graph.fromgi gs
                                                                                        tostatments Graph.fromda das])
+        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairment" (sid i) [tostatments Graph.fromgi gs
+                                                                                 tostatments Graph.fromamri amri
+                                                                                 tostatments Graph.fromda das])
         | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [tostatments Graph.fromidg g])
         | _ -> None

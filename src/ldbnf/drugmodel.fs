@@ -51,7 +51,7 @@ module Drug =
 
     type DoseAdjustment = | DoseAdjustment of drugProvider.Sectiondiv * Option<Specificity>
 
-    type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of Paragraphs
+    type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of string
 
     type LicensingVariationStatement = | LicensingVariationStatement of Paragraphs
 
@@ -297,7 +297,7 @@ module DrugParser =
            let gi = b.Sections |> subsections "generalInformation" GeneralInformation.from
            let am = b.Sections
                     |> Array.filter (hasOutputclasso "additionalMonitoringInRenalImpairment")
-                    |> Array.map (Paragraphs.froms >> AdditionalMonitoringInRenalImpairment)
+                    |> Array.map (string >> AdditionalMonitoringInRenalImpairment)
            let da = b.Sections |> subsections "doseAdjustments" DoseAdjustment.from
            Some(RenalImpairment(Id(x.Id),gi,am,da))
         | None -> None
