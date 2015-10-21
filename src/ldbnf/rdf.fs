@@ -167,7 +167,7 @@ module DrugRdf =
 
     static member fromamri (AdditionalMonitoringInRenalImpairment s) =
       blank !!"nicebnf:hasAdditionalMonitoringInRenalImpairment"
-        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s))]
+        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member fromsec sid (x:MonographSection) =
 
