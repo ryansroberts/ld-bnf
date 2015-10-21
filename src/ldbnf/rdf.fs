@@ -157,18 +157,25 @@ module DrugRdf =
     static member from (TheraputicIndication s) =
       Some(dataProperty !!"nicebnf:hasTheraputicIndication" (s^^xsd.string))
 
-    static member from (IndicationsAndDose(tis,roas)) =
+    static member fromidg (IndicationsAndDose(tis,roas)) =
       let s = (tis |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
               @ (roas |> Seq.collect Graph.from |> Seq.toList)
       blank !!"nicebnf:hasIndicationAndDose" s
 
 
     static member fromsec sid (x:MonographSection) =
+
+      let sec n i st =
+        let s =  a !!("nicebnf:" + n) :: (st |> List.collect id)
+        one !!("nicebnf:has" + n) i s
+
+      let inline tostatments g x = x |> Seq.map g |> Seq.toList
+
       match x with
-        | Pregnancy (i,gis) -> Some(Graph.general "PregnancyWarning" (sid i) gis)
-        | BreastFeeding (i,gis) -> Some(Graph.general "BreastFeedingWarning" (sid i) gis)
-        | HepaticImpairment (i,gis,das) ->
-            Some(one !!"nicebnf:hasHepaticImpairmentWarning" (sid i) (a !!"nicebnf:HepaticImpairmentWarning" :: (gis |> Seq.map Graph.fromgi |> Seq.toList) @ (das |> Seq.map Graph.fromda |> Seq.toList)))
-        | IndicationsAndDoseGroup (i,g) -> Some(one !!"nicebnf:hasIndicationAndDoseGroup" (sid i) (g |> Seq.map Graph.from |> Seq.toList))
+        | Pregnancy (i,gs) -> Some(sec "PregnancyWarning" (sid i) [tostatments Graph.fromgi gs])
+        | BreastFeeding (i,gs) -> Some(sec "BreastFeedingWarning" (sid i) [tostatments Graph.fromgi gs])
+        | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [tostatments Graph.fromgi gs
+                                                                                       tostatments Graph.fromda das])
+        | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [tostatments Graph.fromidg g])
         | _ -> None
 
