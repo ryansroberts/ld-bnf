@@ -22,13 +22,13 @@ module DrugRdf =
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "drug/" + string x.id )
 
-    static member from (InheritsFromClass l) = !!(Uri.nicebnf + "DrugClass/"  + l)
-    static member from (Route s) = !!(Uri.nicebnf + "Route/" + s)
-    static member from (Indication s) = !!(Uri.nicebnf + "Indication/" + s)
-    static member fromgrp (s:string) = !!(Uri.nicebnf + "Group/" + s)
-    static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage/" + s)
-    static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse/" + n)
-    static member from (DomainOfEffect (n,_,_)) = !!(Uri.nicebnf + "DomainOfEffect/" + n.Value)
+    static member fromdc (s:string) = !!(Uri.nicebnf + "DrugClass/"  + s)
+    static member from (Route s) = !!(Uri.nicebnf + "Route#" + s)
+    static member from (Indication s) = !!(Uri.nicebnf + "Indication#" + s)
+    static member fromgrp (s:string) = !!(Uri.nicebnf + "Group#" + s)
+    static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage#" + s)
+    static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
+    static member from (DomainOfEffect (n,_,_)) = !!(Uri.nicebnf + "DomainOfEffect#" + n.Value.Trim())
 
   type Graph with
       static member ReallyEmpty xp =
@@ -78,7 +78,7 @@ module DrugRdf =
        |> Assert.graph og
 
     static member fromdc (InheritsFromClass (c)) =
-      objectProperty !!"nicebnf:inheritsFromClass" (Uri.from c)
+      objectProperty !!"nicebnf:inheritsFromClass" (Uri.fromdc c)
 
     //the label for this is in another part of the feed so will be created elsewhere
     static member fromcl (Classification (Id l,is)) =
@@ -132,9 +132,6 @@ module DrugRdf =
       [Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp x.Group))
        Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg x.Dosage))]
 
-    static member fromti (Bnf.Drug.Title (Paragraph s)) =
-      Some(dataProperty !!"rdfs:label" (xsd.string s))
-
     static member fromsp (Specificity (Paragraph s,r,i)) =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
                r >>= Graph.from
@@ -151,13 +148,15 @@ module DrugRdf =
                sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
 
-    
+    static member general n i (gis:seq<GeneralInformation>) =
+      let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.fromgi |> Seq.toList)
+      one !!("nicebnf:has" + n) i s
 
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
       let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
                            ([Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp pg.Group))
-                             Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg pg.Dosage))
+                             Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
                              r >>= Graph.from] |> List.choose id)
       pgs |> Seq.map patientGrp
 
