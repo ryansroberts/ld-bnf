@@ -77,7 +77,7 @@ module DrugRdf =
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
        |> Assert.graph og
 
-    static member fromdc (InheritsFromClass (c)) =
+    static member fromdc (c:InheritsFromClass) =
       objectProperty !!"nicebnf:inheritsFromClass" (Uri.from c)
 
     //the label for this is in another part of the feed so will be created elsewhere
@@ -157,7 +157,7 @@ module DrugRdf =
     static member from (RouteOfAdministration(r,pgs)) =
       let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
                            ([Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp pg.Group))
-                             Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg pg.Dosage))
+                             Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
                              r >>= Graph.from] |> List.choose id)
       pgs |> Seq.map patientGrp
 
