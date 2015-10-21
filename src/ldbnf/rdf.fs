@@ -28,7 +28,7 @@ module DrugRdf =
     static member fromgrp (s:string) = !!(Uri.nicebnf + "Group/" + s)
     static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage/" + s)
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse/" + n)
-    static member from (DomainOfEffect (n,_,_)) = !!(Uri.nicebnf + "DomainOfEffect/" + n.ToString())
+    static member from (DomainOfEffect (n,_,_)) = !!(Uri.nicebnf + "DomainOfEffect/" + n.Value)
 
   type Graph with
       static member ReallyEmpty xp =
