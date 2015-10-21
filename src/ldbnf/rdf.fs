@@ -148,7 +148,7 @@ module DrugRdf =
 
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
-      let patientGrp pg = blank !!"nice:hasRouteOfAdministration"
+      let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
                            ([Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp pg.Group))
                              Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg pg.Dosage))
                              r >>= Graph.from] |> List.choose id)
