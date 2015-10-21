@@ -24,6 +24,7 @@ module DrugRdf =
     static member fromgrp (s:string) = !!(Uri.nicebnf + "Group#" + s)
     static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage#" + s)
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
+    static member fromdoe (DomainOfEffect (n,_,_)) = !!(Uri.bnfsite + "DomainOfEffect#" + string n)
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
 
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "drug/" + string x.id )
@@ -65,9 +66,8 @@ module DrugRdf =
       let sec = Graph.fromsec (Uri.fromsec x)
 
       let sdoe = match x.secondaryDomainsOfEffect with
-                 | Some d -> Graph.fromsdoe d
+                 | Some d -> Graph.fromsdoes d
                  | None -> Seq.empty<(Predicate * Object)>
-
 
       [dr (s |> List.choose id)
        dr (sdoe |> Seq.toList)
@@ -108,13 +108,16 @@ module DrugRdf =
       let s = [n >>=  (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                p >>= Graph.fromptu
                s >>= Graph.fromstu]
-      s |> List.choose id
+      (a !!"nicebnf:DomainOfEffect" :: (s |> List.choose id))
+
+    static member hasdoe p (d:DomainOfEffect) =
+      one !!("nicebnf:has" + p) (Uri.fromdoe d) (Graph.fromdoe d)
 
     static member frompdoe (PrimaryDomainOfEffect d) =
-      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"bnfsite:DomainOfEffect" (Graph.fromdoe d)
+      d |> (Graph.hasdoe "PrimaryDomainOfEffect")
 
-    static member fromsdoe (SecondaryDomainsOfEffect ds) =
-      ds |> Seq.map (Graph.fromdoe >> (one !!"nicebnf:hasSecondaryDomainOfEffect" !!"nicebnf:SecondaryDomainOfEffect"))
+    static member fromsdoes (SecondaryDomainsOfEffect ds) =
+      ds |> Seq.map (Graph.hasdoe "SecondaryDomainOfEffect")
 
     static member from (x:Route) =
       Some(objectProperty !!"nicebnf:hasRoute" (Uri.from x))
