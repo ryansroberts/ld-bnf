@@ -17,17 +17,18 @@ module DrugRdf =
   type Uri with
     static member nicebnf = "http://ld.nice.org.uk/ns/bnf#"
     static member bnfsite = "http://bnf.nice.org.uk/"
-    static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
-    static member from (InheritsFromClass l) = !!(Uri.nicebnf + "Classification#"  + l)
-    static member from (Route s) = !!(Uri.nicebnf + "Route#" + s)
-    static member from (Indication s) = !!(Uri.nicebnf + "Indication#" + s)
-    static member fromgrp (s:string) = !!(Uri.nicebnf + "Group#" + s)
-    static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage#" + s)
-    static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
-    static member fromdoe (DomainOfEffect (n,_,_)) = !!(Uri.bnfsite + "DomainOfEffect#" + string n)
-    static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
 
+    static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
+    static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "drug/" + string x.id )
+
+    static member from (InheritsFromClass l) = !!(Uri.nicebnf + "DrugClass/"  + l)
+    static member from (Route s) = !!(Uri.nicebnf + "Route/" + s)
+    static member from (Indication s) = !!(Uri.nicebnf + "Indication/" + s)
+    static member fromgrp (s:string) = !!(Uri.nicebnf + "Group/" + s)
+    static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage/" + s)
+    static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse/" + n)
+    static member from (DomainOfEffect (n,_,_)) = !!(Uri.nicebnf + "DomainOfEffect/" + n.Value)
 
   type Graph with
       static member ReallyEmpty xp =
@@ -77,11 +78,11 @@ module DrugRdf =
        |> Assert.graph og
 
     static member fromdc (InheritsFromClass (c)) =
-      objectProperty !!"nicebnf:drugclass" !!("bnfsite:drugclasses/" + c)
+      objectProperty !!"nicebnf:inheritsFromClass" (Uri.from c)
 
     //the label for this is in another part of the feed so will be created elsewhere
     static member fromcl (Classification (Id l,is)) =
-      one !!"nicebnf:hasClassification" !!("bnfsite:classification#" + l) (is |> Seq.map Graph.fromdc |> Seq.toList)
+      one !!"nicebnf:hasClassification" !!("nicebnf:Classification/" + l) (is |> Seq.map Graph.fromdc |> Seq.toList)
 
     static member fromil (InteractionLink (l)) =
       objectProperty !!"nicebnf:interaction" !!("bnfsite:interactions/" + l.Url)
@@ -90,7 +91,8 @@ module DrugRdf =
     static member fromtu ((x:TheraputicUse), ?name0:string) =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"
       let s = match x with | TheraputicUse(n,u) ->
-                               [Some(dataProperty !!"rdfs:label" (n^^xsd.string))
+                               [Some(a !!"nicebnf:TheraputicUse")
+                                Some(dataProperty !!"rdfs:label" (n^^xsd.string))
                                 u >>= (Graph.fromtu >> Some)]
       one !!name (Uri.from x) (s |> List.choose id)
 
@@ -105,13 +107,14 @@ module DrugRdf =
         | None -> None
 
     static member fromdoe (DomainOfEffect (n,p,s)) =
-      let s = [n >>=  (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
+      let s = [Some(a !!"nicebnf:DomainOfEffect")
+               n >>=  (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                p >>= Graph.fromptu
                s >>= Graph.fromstu]
       (a !!"nicebnf:DomainOfEffect" :: (s |> List.choose id))
 
     static member hasdoe p (d:DomainOfEffect) =
-      one !!("nicebnf:has" + p) (Uri.fromdoe d) (Graph.fromdoe d)
+      one !!("nicebnf:has" + p) (Uri.from d) (Graph.fromdoe d)
 
     static member frompdoe (PrimaryDomainOfEffect d) =
       d |> (Graph.hasdoe "PrimaryDomainOfEffect")
