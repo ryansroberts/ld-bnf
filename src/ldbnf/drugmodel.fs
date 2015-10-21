@@ -53,7 +53,7 @@ module Drug =
 
     type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of string
 
-    type LicensingVariationStatement = | LicensingVariationStatement of Paragraphs
+    type LicensingVariationStatement = | LicensingVariationStatement of Html
 
     type PatientResources = | PatientResources of Paragraphs
 
@@ -101,7 +101,7 @@ module Drug =
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
-        | MedicinalForms of Id * Option<LicensingVariationStatement> * Paragraphs * MedicinalFormLink seq
+        | MedicinalForms of Id * Option<LicensingVariationStatement> * Option<Html> * MedicinalFormLink seq
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
         | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
         | ProfessionSpecificInformation of Id *DentalPractitionersFormulary seq
@@ -238,14 +238,15 @@ module DrugParser =
     let lvs (b:drugProvider.Body) =
       b.Sections
       |> Array.filter (hasOutputclasso "licensingVariationStatement")
-      |> Array.map (Paragraphs.froms >> LicensingVariationStatement)
+      |> Array.collect (fun s -> s.Ps)
+      |> Array.map (string >> Html >> LicensingVariationStatement)
       |> Array.tryPick Some
 
     let medicinalForms (x:drugProvider.Topic) =
       let lvs = x.Body >>= lvs
-      let ps = Paragraphs(match x.Body with
-                          | Some(b) -> b.Ps |> Array.map Paragraph.from
-                          | None -> Array.empty<Paragraph>)
+      let ps = match x.Body with
+                          | Some(b) -> Some(Html(b.ToString()))
+                          | None -> None
       let links = x.Xrefs |> Array.map MedicinalFormLink.from
       MedicinalForms(Id(x.Id),lvs,ps,links)
 

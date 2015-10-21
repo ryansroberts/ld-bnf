@@ -182,23 +182,41 @@ module DrugRdf =
     static member frommd (AdviceAroundMissedDoses s) =
       blank !!"nicebnf:hasGeneralPatientAdvice" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
+    static member fromlvs (LicensingVariationStatement(Html(s))) =
+      blank !!"nicebnf:hasLicensingVariationStatement" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+
+    static member fromhtml (Html(s)) =
+      dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))
+
+    static member frommfl (MedicinalFormLink(l)) =
+      blank !!"nicebnf:hasMedicinalFormLink"
+        [dataProperty !!"rdfs:label" (l.Title^^xsd.string)
+         objectProperty !!"nicebnf:medicinalForm" !!l.Url]
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
         let s =  a !!("nicebnf:" + n) :: (st |> List.collect id)
         one !!("nicebnf:has" + n) i s
 
-      let inline tostatments g x = x |> Seq.map g |> Seq.toList
+      let inline statments g x = x |> Seq.map g |> Seq.toList
+      let inline statment g x =
+        match x with
+        | Some(x) -> [g x]
+        | None -> []
 
       match x with
-        | Pregnancy (i,gs) -> Some(sec "PregnancyWarning" (sid i) [tostatments Graph.fromgi gs])
-        | BreastFeeding (i,gs) -> Some(sec "BreastFeedingWarning" (sid i) [tostatments Graph.fromgi gs])
-        | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [tostatments Graph.fromgi gs
-                                                                                       tostatments Graph.fromda das])
-        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairment" (sid i) [tostatments Graph.fromgi gs
-                                                                                 tostatments Graph.fromamri amri
-                                                                                 tostatments Graph.fromda das])
-        | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [tostatments Graph.fromidg g])
-        | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [tostatments Graph.frommd md
-                                                                                        tostatments Graph.fromgpa gpa ])
+        | Pregnancy (i,gs) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs])
+        | BreastFeeding (i,gs) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs])
+        | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
+                                                                                       statments Graph.fromda das])
+        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairment" (sid i) [statments Graph.fromgi gs
+                                                                                 statments Graph.fromamri amri
+                                                                                 statments Graph.fromda das])
+        | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [statments Graph.fromidg g])
+        | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frommd md
+                                                                                        statments Graph.fromgpa gpa ])
+        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [statment Graph.fromlvs lvs
+                                                                                 statment Graph.fromhtml html
+                                                                                 statments Graph.frommfl mfls])
         | _ -> None
