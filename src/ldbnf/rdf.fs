@@ -16,17 +16,17 @@ module DrugRdf =
 
   type Uri with
     static member nicebnf = "http://ld.nice.org.uk/ns/bnf#"
-    static member nicesite = "http://bnf.nice.org.uk/"
-    static member from (x:Drug) = !!(Uri.nicesite + "drug/" + string x.id )
+    static member bnfsite = "http://bnf.nice.org.uk/"
+    static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
     static member from (InheritsFromClass l) = !!(Uri.nicebnf + "Classification#"  + l)
     static member from (Route s) = !!(Uri.nicebnf + "Route#" + s)
     static member from (Indication s) = !!(Uri.nicebnf + "Indication#" + s)
     static member fromgrp (s:string) = !!(Uri.nicebnf + "Group#" + s)
     static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage#" + s)
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
-    static member fromsec (x:Drug) (Id i) = !!(Uri.nicesite + "drug/" + string x.id + "#" + i)
+    static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
 
-    static member from (x:MedicinalForm) = !!(Uri.nicesite + "drug/" + string x.id )
+    static member from (x:MedicinalForm) = !!(Uri.bnfsite + "drug/" + string x.id )
 
   type Graph with
       static member ReallyEmpty xp =
@@ -40,7 +40,7 @@ module DrugRdf =
       let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
                                   "cnt",!!"http://www.w3.org/2011/content#"
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
-                                  "bnfsite",!!Uri.nicesite]
+                                  "bnfsite",!!Uri.bnfsite]
       let s = [ Some(a !!"nicebnf:MedicinalForm")]
       let dr r = resource (Uri.from x) r
       [dr (s |> List.choose id)]
@@ -51,7 +51,7 @@ module DrugRdf =
       let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
                                   "cnt",!!"http://www.w3.org/2011/content#"
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
-                                  "bnfsite",!!Uri.nicesite]
+                                  "bnfsite",!!Uri.bnfsite]
 
       let s = [ Some(a !!"nicebnf:Drug")
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
@@ -76,7 +76,7 @@ module DrugRdf =
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
        |> Assert.graph og
 
-    static member fromdc (InheritsFromClass (c)) = 
+    static member fromdc (InheritsFromClass (c)) =
       objectProperty !!"nicebnf:drugclass" !!("bnfsite:drugclasses/" + c)
 
     //the label for this is in another part of the feed so will be created elsewhere
@@ -111,7 +111,7 @@ module DrugRdf =
       s |> List.choose id
 
     static member frompdoe (PrimaryDomainOfEffect d) =
-      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"nicesite:DomainOfEffect" (Graph.fromdoe d)
+      one !!"nicebnf:hasPrimaryDomainOfEffect" !!"bnfsite:DomainOfEffect" (Graph.fromdoe d)
 
     static member fromsdoe (SecondaryDomainsOfEffect ds) =
       ds |> Seq.map (Graph.fromdoe >> (one !!"nicebnf:hasSecondaryDomainOfEffect" !!"nicebnf:SecondaryDomainOfEffect"))
@@ -122,7 +122,7 @@ module DrugRdf =
     static member from (x:Indication) =
       Some(objectProperty !!"nicebnf:hasIndication" (Uri.from x))
 
-    static member from (x:PatientGroup) = 
+    static member from (x:PatientGroup) =
       [Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp x.Group))
        Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg x.Dosage))]
 
@@ -148,7 +148,7 @@ module DrugRdf =
 
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
-      let patientGrp pg = blank !!"nice:hasRouteOfAdministration"
+      let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
                            ([Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp pg.Group))
                              Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg pg.Dosage))
                              r >>= Graph.from] |> List.choose id)
@@ -178,4 +178,3 @@ module DrugRdf =
                                                                                        tostatments Graph.fromda das])
         | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [tostatments Graph.fromidg g])
         | _ -> None
-
