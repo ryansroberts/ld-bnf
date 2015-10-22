@@ -111,7 +111,7 @@ module DrugRdf =
                n >>=  (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                p >>= Graph.fromptu
                s >>= Graph.fromstu]
-      (a !!"nicebnf:DomainOfEffect" :: (s |> List.choose id))
+      s |> List.choose id
 
     static member hasdoe p (d:DomainOfEffect) =
       one !!("nicebnf:has" + p) (Uri.from d) (Graph.fromdoe d)
@@ -123,7 +123,10 @@ module DrugRdf =
       ds |> Seq.map (Graph.hasdoe "SecondaryDomainOfEffect")
 
     static member from (x:Route) =
-      Some(objectProperty !!"nicebnf:hasRoute" (Uri.from x))
+      let l = match x with | Route r -> r^^xsd.string
+      Some(one !!"nicebnf:hasRoute" (Uri.from x)
+            [dataProperty !!"rdfs:label" l
+             a !!"nicebnf:Route"])
 
     static member from (x:Indication) =
       Some(objectProperty !!"nicebnf:hasIndication" (Uri.from x))
