@@ -94,6 +94,8 @@ module Drug =
 
     type TreatmentCessation = | TreatmentCessation of drugProvider.Sectiondiv
 
+    type DrugAction = | DrugAction of drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -110,6 +112,7 @@ module Drug =
         | LessSuitableForPrescribings of Id * LessSuitableForPrescribing seq
         | HandlingAndStorages of Id * HandlingAndStorage seq
         | TreatmentCessations of Id * TreatmentCessation seq
+        | DrugActions of Id * DrugAction seq
 
 //prescribingAndDispensingInformation
 //unlicensedUse
@@ -472,6 +475,8 @@ module DrugParser =
         HandlingAndStorages(Id(x.Id), allsections x |> Array.map (addSpecificity >> HandlingAndStorage))
       static member treatmentCessations (x:drugProvider.Topic) =
         TreatmentCessations(Id(x.Id), allsections x |> Array.map TreatmentCessation)
+      static member drugActions (x:drugProvider.Topic) =
+        DrugActions(Id(x.Id), allsections x |> Array.map DrugAction)
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
@@ -507,6 +512,7 @@ module DrugParser =
                 | HasOutputClass "handlingAndStorage" _ -> Some(MonographSection.handlingAndStorages x)
                 | HasOutputClass "treatmentCessation" _ -> Some(MonographSection.treatmentCessations x)
                 | HasOutputClass "allergyAndCrossSensitivity" _ -> MonographSection.allergyAndCrossSensitivity x
+                | HasOutputClass "drugAction" _ -> Some(MonographSection.drugActions x)
                 | _ -> None
 
         let sections =
