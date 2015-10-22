@@ -132,6 +132,9 @@ module DrugRdf =
       [Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp x.Group))
        Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg x.Dosage))]
 
+    static member fromti (Bnf.Drug.Title (Paragraph(s))) =
+      Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
+
     static member fromsp (Specificity (Paragraph s,r,i)) =
       let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
                r >>= Graph.from
