@@ -21,7 +21,7 @@ module DrugRdf =
     static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "medicinalform/" + string x.id )
-    static member frommfl (x:Link) = !!(Uri.bnfsite + "medicinalform/" + x.Url.[1..])
+    //static member frommfl (x:Link) = !!(Uri.bnfsite + "medicinalform/" + x.Url.[1..])
 
     static member fromdc (s:string) = !!(Uri.nicebnf + "DrugClass/"  + s)
     static member from (Route s) = !!(Uri.nicebnf + "Route#" + s)
@@ -197,7 +197,7 @@ module DrugRdf =
     static member frommfl (MedicinalFormLink(l)) =
       blank !!"nicebnf:hasMedicinalFormLink"
         [dataProperty !!"rdfs:label" (l.Title^^xsd.string)
-         objectProperty !!"nicebnf:medicinalForm" (Uri.frommfl l)]
+         dataProperty !!"nicebnf:medicinalForm" (Uri.bnfsite + "medicinalform/" + l.Url.[1..])]
 
     static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
       blank !!"nicebnf:hasAllergyAndCrossSensitivityContraindications"
@@ -209,6 +209,8 @@ module DrugRdf =
 
     static member from (x:drugProvider.Sectiondiv) =
       dataProperty !!"cnt:ContentAsXML" (xsd.string(x.ToString()))
+
+    //static member frompair sp,s = 
 
     static member fromexc (ExceptionToLegalCategory (sp,s)) =
       let s = [sp >>= (Graph.fromsp >> Some)
