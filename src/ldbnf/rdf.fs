@@ -215,6 +215,11 @@ module DrugRdf =
                Some(Graph.from s)] |> List.choose id
       blank !!"nicebnf:hasExceptionToLegalCategory" s
 
+    static member fromden (DentalPractitionersFormulary (sp,s)) =
+      let s = [sp >>= (Graph.fromsp >> Some)
+               Some(Graph.from s)] |> List.choose id
+      blank !!"nicebnf:hasDentalPractitionersFormulary" s
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -244,4 +249,5 @@ module DrugRdf =
         | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivity" (sid i) [statment Graph.fromcsc csc
                                                                                                     statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
+        | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
         | _ -> None
