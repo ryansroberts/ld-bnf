@@ -197,7 +197,7 @@ module DrugRdf =
     static member frommfl (MedicinalFormLink(l)) =
       blank !!"nicebnf:hasMedicinalFormLink"
         [dataProperty !!"rdfs:label" (l.Title^^xsd.string)
-         dataProperty !!"nicebnf:medicinalForm" (Uri.bnfsite + "medicinalform/" + l.Url.[1..])]
+         dataProperty !!"nicebnf:medicinalForm" ((Uri.bnfsite + "medicinalform/" + l.Url.[1..])^^xsd.string)]
 
     static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
       blank !!"nicebnf:hasAllergyAndCrossSensitivityContraindications"
@@ -210,17 +210,21 @@ module DrugRdf =
     static member from (x:drugProvider.Sectiondiv) =
       dataProperty !!"cnt:ContentAsXML" (xsd.string(x.ToString()))
 
-    //static member frompair sp,s = 
+    static member frompair (sp,s:drugProvider.Sectiondiv) = 
+      [sp >>= (Graph.fromsp >> Some)
+       Some(Graph.from s)] |> List.choose id
 
     static member fromexc (ExceptionToLegalCategory (sp,s)) =
-      let s = [sp >>= (Graph.fromsp >> Some)
-               Some(Graph.from s)] |> List.choose id
-      blank !!"nicebnf:hasExceptionToLegalCategory" s
+      blank !!"nicebnf:hasExceptionToLegalCategory" (Graph.frompair (sp,s))
 
     static member fromden (DentalPractitionersFormulary (sp,s)) =
-      let s = [sp >>= (Graph.fromsp >> Some)
-               Some(Graph.from s)] |> List.choose id
-      blank !!"nicebnf:hasDentalPractitionersFormulary" s
+      blank !!"nicebnf:hasDentalPractitionersFormulary" (Graph.frompair (sp,s))
+
+    static member fromlsfp (LessSuitableForPrescribing (sp,s))
+      blank !!"nicebnf:hasLessSuitableForPrescribing" (Graph.frompair (sp,s))
+
+      static member fromhas (HandlingAndStorage (sp,s))
+      blank !!"nicebnf:hasHandlingAndStorage" (Graph.frompair (sp,s))
 
     static member fromsec sid (x:MonographSection) =
 
@@ -252,4 +256,9 @@ module DrugRdf =
                                                                                                     statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
         | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
+        | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.from elts])
+        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreenings" (sid i) [statments Graph.from ptss])
+        | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribings" (sid i) [statments Graph.fromlsfp lsfps])
+        | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorages" (sid i) [statments Graph.fromhas hass])
+        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessations" (sid i) [statment Graph.from tcs])
         | _ -> None
