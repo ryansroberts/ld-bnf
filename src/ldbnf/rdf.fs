@@ -220,10 +220,10 @@ module DrugRdf =
     static member fromden (DentalPractitionersFormulary (sp,s)) =
       blank !!"nicebnf:hasDentalPractitionersFormulary" (Graph.frompair (sp,s))
 
-    static member fromlsfp (LessSuitableForPrescribing (sp,s))
+    static member fromlsfp (LessSuitableForPrescribing (sp,s)) =
       blank !!"nicebnf:hasLessSuitableForPrescribing" (Graph.frompair (sp,s))
 
-      static member fromhas (HandlingAndStorage (sp,s))
+    static member fromhas (HandlingAndStorage (sp,s)) =
       blank !!"nicebnf:hasHandlingAndStorage" (Graph.frompair (sp,s))
 
     static member fromsec sid (x:MonographSection) =

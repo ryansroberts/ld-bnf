@@ -111,6 +111,19 @@ module Drug =
         | HandlingAndStorages of Id * HandlingAndStorage seq
         | TreatmentCessations of Id * TreatmentCessation seq
 
+//prescribingAndDispensingInformation
+//unlicensedUse
+//monitoringRequirements
+//conceptionAndContraception
+//cautions - 4
+//importantSafetyInformation
+//drugAction - 1
+//nationalFunding - last
+//directionsForAdministration
+//sideEffects - 2
+//contraindications - 3
+//re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
+
     type Drug = {id : Id;
                  name : DrugName;
                  interactionLinks : InteractionLink seq;
