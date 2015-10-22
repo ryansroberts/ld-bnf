@@ -226,6 +226,11 @@ module DrugRdf =
     static member fromhas (HandlingAndStorage (sp,s)) =
       blank !!"nicebnf:hasHandlingAndStorage" (Graph.frompair (sp,s))
 
+    static member fromelt (EffectOnLaboratoryTest s) = Graph.from s
+    static member frompts (PreTreatmentScreening s) = Graph.from s
+    static member fromtc (TreatmentCessation s) = Graph.from s
+    static member fromdac (DrugAction s) = Graph.from s
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -256,9 +261,10 @@ module DrugRdf =
                                                                                                     statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
         | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
-        | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.from elts])
-        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreenings" (sid i) [statments Graph.from ptss])
+        | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.fromelt elts])
+        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreenings" (sid i) [statments Graph.frompts ptss])
         | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribings" (sid i) [statments Graph.fromlsfp lsfps])
         | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorages" (sid i) [statments Graph.fromhas hass])
-        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessations" (sid i) [statment Graph.from tcs])
+        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessations" (sid i) [statments Graph.fromtc tcs])
+        | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
         | _ -> None
