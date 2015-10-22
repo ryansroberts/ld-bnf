@@ -195,6 +195,14 @@ module DrugRdf =
         [dataProperty !!"rdfs:label" (l.Title^^xsd.string)
          objectProperty !!"nicebnf:medicinalForm" !!l.Url]
 
+    static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
+      blank !!"nicebnf:hasAllergyAndCrossSensitivityContraindications"
+        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+
+    static member fromcscs (AllergyAndCrossSensitivityCrossSensitivity s) =
+      blank !!"nicebnf:hasAllergyAndCrossSensitivityCrossSensitivity"
+        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -221,4 +229,6 @@ module DrugRdf =
         | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [statment Graph.fromlvs lvs
                                                                                  statment Graph.fromhtml html
                                                                                  statments Graph.frommfl mfls])
+        | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivity" (sid i) [statment Graph.fromcsc csc
+                                                                                                    statment Graph.fromcscs cscs])
         | _ -> None

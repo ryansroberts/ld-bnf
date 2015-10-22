@@ -78,7 +78,7 @@ module Drug =
       | AllergyAndCrossSensitivityContraindications of drugProvider.Sectiondiv
 
     type AllergyAndCrossSensitivityCrossSensitivity =
-        | AllergyAndCrossSensitivityCrossSensitivity of Option<Link> * drugProvider.Sectiondiv
+        | AllergyAndCrossSensitivityCrossSensitivity of drugProvider.Sectiondiv
 
     type ExceptionToLegalCategory = | ExceptionToLegalCategory of Option<Specificity> * drugProvider.Sectiondiv
 
@@ -104,7 +104,7 @@ module Drug =
         | MedicinalForms of Id * Option<LicensingVariationStatement> * Option<Html> * MedicinalFormLink seq
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
         | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
-        | ProfessionSpecificInformation of Id *DentalPractitionersFormulary seq
+        | ProfessionSpecificInformation of Id * DentalPractitionersFormulary seq
         | EffectOnLaboratoryTests of Id * EffectOnLaboratoryTest seq
         | PreTreatmentScreenings of Id * PreTreatmentScreening seq
         | LessSuitableForPrescribings of Id * LessSuitableForPrescribing seq
@@ -401,12 +401,12 @@ module DrugParser =
           | None -> None
 
     type AllergyAndCrossSensitivityContraindications with
-      static member from (x:drugProvider.Section) = x.Sectiondivs |> Array.map AllergyAndCrossSensitivityContraindications |> Array.tryPick Some
+      static member from (x:drugProvider.Section) =
+        x.Sectiondivs |> Array.map AllergyAndCrossSensitivityContraindications |> Array.tryPick Some
 
     type AllergyAndCrossSensitivityCrossSensitivity with
-      static member from (x:drugProvider.Section) = 
-        let l = x.Sectiondivs |> Array.collect Link.from |> Array.tryPick Some
-        AllergyAndCrossSensitivityCrossSensitivity(l,x.Sectiondivs.[0])
+      static member from (x:drugProvider.Section) =
+        x.Sectiondivs |> Array.map AllergyAndCrossSensitivityCrossSensitivity |> Array.tryPick Some
 
     type MonographSection with
       static member allergyAndCrossSensitivity (x:drugProvider.Topic) =
@@ -415,7 +415,7 @@ module DrugParser =
             let ac = b.Sections
                      |> Array.tryPick (Some >=> withclass "allergyAndCrossSensitivityContraindications" >=> AllergyAndCrossSensitivityContraindications.from)
             let acss = b.Sections
-                       |> Array.tryPick (Some >=> withclass "allergyAndCrossSensitivityCrossSensitivity" >>| AllergyAndCrossSensitivityCrossSensitivity.from)
+                       |> Array.tryPick (Some >=> withclass "allergyAndCrossSensitivityCrossSensitivity" >=> AllergyAndCrossSensitivityCrossSensitivity.from)
             Some(AllergyAndCrossSensitivity(Id(x.Id),ac,acss))
           | None -> None
 
