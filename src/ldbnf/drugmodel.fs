@@ -96,6 +96,10 @@ module Drug =
 
     type DrugAction = | DrugAction of drugProvider.Sectiondiv
 
+    type SideEffect = | SideEffect of string
+
+    type Frequency = | Frequency of string * SideEffect seq
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -113,6 +117,7 @@ module Drug =
         | HandlingAndStorages of Id * HandlingAndStorage seq
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
+        | SideEffects of Id * Frequency seq
 
 //prescribingAndDispensingInformation
 //unlicensedUse
@@ -120,7 +125,6 @@ module Drug =
 //conceptionAndContraception
 //cautions - 4
 //importantSafetyInformation
-//drugAction - 1
 //nationalFunding - last
 //directionsForAdministration
 //sideEffects - 2
@@ -464,6 +468,12 @@ module DrugParser =
         | Some(b) -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
         | None -> Array.empty<drugProvider.Sectiondiv>
 
+    type Frequency with
+      static member from (x:drugProvider.Sectiondiv) =
+        let c = x.Outputclass.Value
+        let s = x.Sectiondivs.[0].Ps.[0].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
+        Frequency(c,s)
+
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
         EffectOnLaboratoryTests(Id(x.Id),allsections x |> Array.map EffectOnLaboratoryTest)
@@ -477,6 +487,13 @@ module DrugParser =
         TreatmentCessations(Id(x.Id), allsections x |> Array.map TreatmentCessation)
       static member drugActions (x:drugProvider.Topic) =
         DrugActions(Id(x.Id), allsections x |> Array.map DrugAction)
+      static member sideEffects (x:drugProvider.Topic) =
+        let f = match x.Body with
+                 | Some b -> b.Sections
+                              |> Array.choose (withclass "frequencies")
+                              |> Array.map (fun s -> s.Sectiondivs.[0] |> Frequency.from)
+                 | None -> Array.empty<Frequency>
+        SideEffects(Id(x.Id),f)
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
