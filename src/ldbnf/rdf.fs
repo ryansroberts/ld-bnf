@@ -246,6 +246,9 @@ module DrugRdf =
                Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString())))]
       blank !!"nicebnf:hasSideEffectAdvice" (s |> List.choose id)
 
+    static member fromcon (Contraindication ph) =
+      blank !!"nicebnf:hasContraindication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -257,6 +260,8 @@ module DrugRdf =
         match x with
         | Some(x) -> [g x]
         | None -> []
+
+      let xml x = dataProperty !!"cnt:ContentAsXML" (xsd.string(x.ToString()))
 
       match x with
         | Pregnancy (i,gs) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs])
@@ -284,4 +289,6 @@ module DrugRdf =
         | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
         | SideEffects (i,fres,seas) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
                                                                        statments Graph.fromsea seas])
+        | Contraindications (i,cs,ps) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
+                                                                               statments xml ps])
         | _ -> None
