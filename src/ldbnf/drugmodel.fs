@@ -102,6 +102,8 @@ module Drug =
 
     type Frequency = | Frequency of string * SideEffect seq
 
+    type Contraindication = | Contraindication of drugProvider.Ph
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -120,6 +122,7 @@ module Drug =
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
         | SideEffects of Id * Frequency seq * SideEffectAdvice seq
+        | Contraindications of Id * Contraindication seq
 
 //prescribingAndDispensingInformation
 //unlicensedUse
@@ -129,7 +132,6 @@ module Drug =
 //importantSafetyInformation
 //nationalFunding - last
 //directionsForAdministration
-//sideEffects - 2
 //contraindications - 3
 //re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
 
@@ -478,7 +480,12 @@ module DrugParser =
 
     type SideEffectAdvice with
       static member from (x:drugProvider.Sectiondiv) =
-         addSpecificity x |> SideEffectAdvice
+        addSpecificity x |> SideEffectAdvice
+
+    type Contraindication with
+      static member from (x:drugProvider.Section) =
+        let phs = x.Ps |> Array.collect (fun p -> p.Phs)
+        phs |> Array.filter (hasOutputclass "contraindication") |> Array.map Contraindication
 
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
@@ -504,6 +511,15 @@ module DrugParser =
                      |> Array.collect (fun s -> s.Sectiondivs |> Array.map SideEffectAdvice.from)
              SideEffects(Id(x.Id),f,a)
           | None -> SideEffects(Id(x.Id),Array.empty<Frequency>,Array.empty<SideEffectAdvice>) 
+      static member contraindications (x:drugProvider.Topic) =
+        match x.Body with
+          | Some b ->
+            Contraindications(
+              Id(x.Id),
+              b.Sections
+                |> Array.choose (withclass "contraindications")
+                |> Array.collect Contraindication.from)
+          | None -> Contraindications(Id(x.Id), Array.empty<Contraindication>)
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
@@ -541,6 +557,7 @@ module DrugParser =
                 | HasOutputClass "allergyAndCrossSensitivity" _ -> MonographSection.allergyAndCrossSensitivity x
                 | HasOutputClass "drugAction" _ -> Some(MonographSection.drugActions x)
                 | HasOutputClass "sideEffects" _ -> Some(MonographSection.sideEffects x)
+                | HasOutputClass "contraindications" _ -> Some(MonographSection.contraindications x)
                 | _ -> None
 
         let sections =
