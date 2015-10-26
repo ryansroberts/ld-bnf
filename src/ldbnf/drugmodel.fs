@@ -96,6 +96,8 @@ module Drug =
 
     type DrugAction = | DrugAction of drugProvider.Sectiondiv
 
+    type SideEffectAdvice = | SideEffectAdvice of Option<Specificity> * drugProvider.Sectiondiv
+
     type SideEffect = | SideEffect of string
 
     type Frequency = | Frequency of string * SideEffect seq
@@ -117,7 +119,7 @@ module Drug =
         | HandlingAndStorages of Id * HandlingAndStorage seq
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
-        | SideEffects of Id * Frequency seq
+        | SideEffects of Id * Frequency seq * SideEffectAdvice seq
 
 //prescribingAndDispensingInformation
 //unlicensedUse
@@ -474,6 +476,10 @@ module DrugParser =
         let s = x.Sectiondivs.[0].Ps.[0].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
         Frequency(c,s)
 
+    type SideEffectAdvice with
+      static member from (x:drugProvider.Sectiondiv) =
+         addSpecificity x |> SideEffectAdvice
+
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
         EffectOnLaboratoryTests(Id(x.Id),allsections x |> Array.map EffectOnLaboratoryTest)
@@ -488,12 +494,16 @@ module DrugParser =
       static member drugActions (x:drugProvider.Topic) =
         DrugActions(Id(x.Id), allsections x |> Array.map DrugAction)
       static member sideEffects (x:drugProvider.Topic) =
-        let f = match x.Body with
-                 | Some b -> b.Sections
-                              |> Array.choose (withclass "frequencies")
-                              |> Array.map (fun s -> s.Sectiondivs.[0] |> Frequency.from)
-                 | None -> Array.empty<Frequency>
-        SideEffects(Id(x.Id),f)
+        match x.Body with
+          | Some b ->
+             let f = b.Sections
+                     |> Array.choose (withclass "frequencies")
+                     |> Array.map (fun s -> s.Sectiondivs.[0] |> Frequency.from)
+             let a = b.Sections
+                     |> Array.choose (withclass "sideEffectsAdvice")
+                     |> Array.collect (fun s -> s.Sectiondivs |> Array.map SideEffectAdvice.from)
+             SideEffects(Id(x.Id),f,a)
+          | None -> SideEffects(Id(x.Id),Array.empty<Frequency>,Array.empty<SideEffectAdvice>) 
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
@@ -530,6 +540,7 @@ module DrugParser =
                 | HasOutputClass "treatmentCessation" _ -> Some(MonographSection.treatmentCessations x)
                 | HasOutputClass "allergyAndCrossSensitivity" _ -> MonographSection.allergyAndCrossSensitivity x
                 | HasOutputClass "drugAction" _ -> Some(MonographSection.drugActions x)
+                | HasOutputClass "sideEffects" _ -> Some(MonographSection.sideEffects x)
                 | _ -> None
 
         let sections =
