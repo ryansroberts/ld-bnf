@@ -30,6 +30,8 @@ module DrugRdf =
     static member fromdsg (s:string) = !!(Uri.nicebnf + "Dosage#" + s)
     static member from (TheraputicUse (n,_)) = !!(Uri.nicebnf + "TheraputicUse#" + n)
     static member from (DomainOfEffect (n,_,_)) = !!(Uri.nicebnf + "DomainOfEffect#" + n.Value.Trim())
+    static member fromse (SideEffect s) = !!(Uri.nicebnf + "SideEffect#" + s)
+    static member fromfre x = !!(Uri.nicebnf + "Frequency#" + x)
 
   type Graph with
       static member ReallyEmpty xp =
@@ -231,6 +233,19 @@ module DrugRdf =
     static member fromtc (TreatmentCessation s) = Graph.from s
     static member fromdac (DrugAction s) = Graph.from s
 
+    static member fromfre (Frequency (f,ses)) =
+      let s = ses |> Seq.map Graph.from |> Seq.toList
+      let f = one !!"nicebnf:hasFrequency" (Uri.fromfre f) [a !!"nicebnf:Frequency"]
+      blank !!"nicebnf:hasFrequencyGroup" (f :: s)
+
+    static member from (x:SideEffect) =
+      one !!"nicebnf:hasSideEffect" (Uri.fromse x) [a !!"nicebnf:SideEffect"]
+
+    static member fromsea (SideEffectAdvice (sp,s)) =
+      let s = [sp >>= (Graph.fromsp >> Some)
+               Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString())))]
+      blank !!"nicebnf:hasSideEffectAdvice" (s |> List.choose id)
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -267,4 +282,6 @@ module DrugRdf =
         | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorages" (sid i) [statments Graph.fromhas hass])
         | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessations" (sid i) [statments Graph.fromtc tcs])
         | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
+        | SideEffects (i,fres,seas) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
+                                                                       statments Graph.fromsea seas])
         | _ -> None
