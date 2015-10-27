@@ -249,7 +249,7 @@ module DrugRdf =
     static member fromcon (Contraindication ph) =
       blank !!"nicebnf:hasContraindication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]
 
-    static member from (x:CautionsGroup) =
+    static member fromcg (x:CautionsGroup) =
       let cau x = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
       let gen (p,cs) = (dataProperty !!"cnt:ContentAsXML" (xsd.string(p.ToString()))) :: (cs |> List.map cau)
       match x with
@@ -300,4 +300,5 @@ module DrugRdf =
                                                                        statments Graph.fromsea seas])
         | Contraindications (i,cs,ps) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
                                                                                statments xml ps])
+        | Cautions (i,cgs) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs])
         | _ -> None
