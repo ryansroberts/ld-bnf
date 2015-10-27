@@ -249,6 +249,15 @@ module DrugRdf =
     static member fromcon (Contraindication ph) =
       blank !!"nicebnf:hasContraindication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]
 
+    static member from (x:CautionsGroup) =
+      let cau x = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
+      let gen (p,cs) = (dataProperty !!"cnt:ContentAsXML" (xsd.string(p.ToString()))) :: (cs |> List.map cau)
+      match x with
+        | GeneralCautions (p,cs) -> blank !!"nicebnf:hasGeneralCautions" (gen(p,cs))
+        | CautionsWithRoutes (t,p,cs) -> blank !!"nicebnf:hasCautionsWithRoutes"
+                                          (dataProperty !!"nicebnf:hasRoute" (xsd.string(t.ToString()))
+                                           :: gen(p,cs))
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
