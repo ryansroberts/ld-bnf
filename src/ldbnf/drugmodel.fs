@@ -478,11 +478,6 @@ module DrugParser =
         | Some b -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
         | None -> Array.empty<drugProvider.Sectiondiv>
 
-    let firstsection n (x:drugProvider.Topic) =
-      match x.Body with
-        | Some b -> b.Sections |> Array.choose n |> Array.tryPick
-        | None -> None
-
     type Frequency with
       static member from (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
@@ -512,6 +507,10 @@ module DrugParser =
         [|x.Ps |> Array.map gen
           x.Sectiondivs |> Array.filter (hasOutputclasso "additionalCautions") |> Array.collect (fun sd -> sd.Sectiondivs |> Array.map ac) |] |> Array.collect id
 
+    let firstsection n (x:drugProvider.Topic) =
+      match x.Body with
+        | Some b -> b.Sections |> Array.tryPick n
+        | None -> None
 
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
