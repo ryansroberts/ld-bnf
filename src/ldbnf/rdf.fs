@@ -258,6 +258,9 @@ module DrugRdf =
                                           (dataProperty !!"nicebnf:hasRoute" (xsd.string(t.ToString()))
                                            :: gen(p,cs))
 
+    static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
+      blank !!"nicebnf:hasPrescribingAndDispensingInformation" (Graph.frompair (sp,s))
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -301,4 +304,5 @@ module DrugRdf =
         | Contraindications (i,cs,ps) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
                                                                                statments xml ps])
         | Cautions (i,cgs) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs])
+        | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
         | _ -> None

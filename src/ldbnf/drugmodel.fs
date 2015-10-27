@@ -110,6 +110,9 @@ module Drug =
       | GeneralCautions of drugProvider.P * Caution list
       | CautionsWithRoutes of string * drugProvider.P * Caution list
 
+    type PrescribingAndDispensingInformation =
+      | PrescribingAndDispensingInformation of Option<Specificity> * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -130,12 +133,11 @@ module Drug =
         | SideEffects of Id * Frequency seq * SideEffectAdvice seq
         | Contraindications of Id * Contraindication seq * drugProvider.P seq
         | Cautions of Id * CautionsGroup list
+        | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
 
-//prescribingAndDispensingInformation
 //unlicensedUse
 //monitoringRequirements
 //conceptionAndContraception
-//cautions - 4
 //importantSafetyInformation
 //nationalFunding - last
 //directionsForAdministration
@@ -550,6 +552,8 @@ module DrugParser =
         match s with 
           | Some (s) -> Cautions(Id(x.Id), CautionsGroup.from s |> Array.toList)
           | None -> Cautions(Id(x.Id), List.empty<CautionsGroup>)
+      static member prescribingAndDispensingInformation (x:drugProvider.Topic) =
+        PrescribingAndDispensingInformations(Id(x.Id), allsections x |> Array.map (addSpecificity >> PrescribingAndDispensingInformation))
 
 
 
