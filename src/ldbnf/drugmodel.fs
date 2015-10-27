@@ -116,6 +116,11 @@ module Drug =
     type UnlicencedUse =
       | UnlicencedUse of Option<Specificity> * drugProvider.Sectiondiv
 
+    type MonitoringRequirement =
+      | PatientMonitoringProgrammes of Option<Specificity> * drugProvider.Sectiondiv
+      | TheraputicDrugMonitoring of Option<Specificity> * drugProvider.Sectiondiv
+      | MonitoringOfPatientParameters of Option<Specificity> * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -138,8 +143,8 @@ module Drug =
         | Cautions of Id * CautionsGroup list
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
         | UnlicencedUses of Id * UnlicencedUse seq
+        | MonitoringRequirements of Id * MonitoringRequirement seq
 
-//unlicensedUse
 //monitoringRequirements
 //conceptionAndContraception
 //importantSafetyInformation
@@ -518,6 +523,15 @@ module DrugParser =
         | Some b -> b.Sections |> Array.tryPick n
         | None -> None
 
+    type MonitoringRequirement with
+      static member from (x:drugProvider.Section) =
+        let build c = x.Sectiondivs |> Array.map (addSpecificity >> c)
+        match x with
+          | HasOutputClass "patientMonitoringProgrammes" _ -> build PatientMonitoringProgrammes
+          | HasOutputClass "therapeuticDrugMonitoring" _ -> build TheraputicDrugMonitoring
+          | HasOutputClass "monitoringOfPatientParameters" _ -> build MonitoringOfPatientParameters
+
+
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
         EffectOnLaboratoryTests(Id(x.Id),allsections x |> Array.map EffectOnLaboratoryTest)
@@ -560,6 +574,10 @@ module DrugParser =
         PrescribingAndDispensingInformations(Id(x.Id), allsections x |> Array.map (addSpecificity >> PrescribingAndDispensingInformation))
       static member unlicencedUse (x:drugProvider.Topic) =
         UnlicencedUses(Id(x.Id), allsections x |> Array.map (addSpecificity >> UnlicencedUse))
+      static member monitoringRequirements (x:drugProvider.Topic) =
+        match x.Body with
+          | Some b -> MonitoringRequirements(Id(x.Id),b.Sections |> Array.collect MonitoringRequirement.from)
+          | None -> MonitoringRequirements(Id(x.Id), Array.empty<MonitoringRequirement>)
 
 
     type Drug with
@@ -602,6 +620,7 @@ module DrugParser =
                 | HasOutputClass "cautions" _ -> Some(MonographSection.cautions x)
                 | HasOutputClass "prescribingAndDispensingInformation" _ -> Some(MonographSection.prescribingAndDispensingInformation x)
                 | HasOutputClass "unlicencedUse" _ -> Some(MonographSection.unlicencedUse x)
+                | HasOutputClass "monitoringRequirements" _ -> Some(MonographSection.monitoringRequirements x)
                 | _ -> None
 
         let sections =
