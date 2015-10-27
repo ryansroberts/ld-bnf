@@ -260,6 +260,8 @@ module DrugRdf =
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
       blank !!"nicebnf:hasPrescribingAndDispensingInformation" (Graph.frompair (sp,s))
+    static member fromulu (UnlicencedUse (sp,s)) =
+      blank !!"nicebnf:hasUnlicencedUse" (Graph.frompair (sp,s))
 
     static member fromsec sid (x:MonographSection) =
 
@@ -305,4 +307,5 @@ module DrugRdf =
                                                                                statments xml ps])
         | Cautions (i,cgs) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs])
         | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
+        | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
         | _ -> None

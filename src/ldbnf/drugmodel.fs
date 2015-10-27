@@ -113,6 +113,9 @@ module Drug =
     type PrescribingAndDispensingInformation =
       | PrescribingAndDispensingInformation of Option<Specificity> * drugProvider.Sectiondiv
 
+    type UnlicencedUse =
+      | UnlicencedUse of Option<Specificity> * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -134,6 +137,7 @@ module Drug =
         | Contraindications of Id * Contraindication seq * drugProvider.P seq
         | Cautions of Id * CautionsGroup list
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
+        | UnlicencedUses of Id * UnlicencedUse seq
 
 //unlicensedUse
 //monitoringRequirements
@@ -554,7 +558,8 @@ module DrugParser =
           | None -> Cautions(Id(x.Id), List.empty<CautionsGroup>)
       static member prescribingAndDispensingInformation (x:drugProvider.Topic) =
         PrescribingAndDispensingInformations(Id(x.Id), allsections x |> Array.map (addSpecificity >> PrescribingAndDispensingInformation))
-
+      static member unlicencedUse (x:drugProvider.Topic) =
+        UnlicencedUses(Id(x.Id), allsections x |> Array.map (addSpecificity >> UnlicencedUse))
 
 
     type Drug with
@@ -594,6 +599,9 @@ module DrugParser =
                 | HasOutputClass "drugAction" _ -> Some(MonographSection.drugActions x)
                 | HasOutputClass "sideEffects" _ -> Some(MonographSection.sideEffects x)
                 | HasOutputClass "contraindications" _ -> Some(MonographSection.contraindications x)
+                | HasOutputClass "cautions" _ -> Some(MonographSection.cautions x)
+                | HasOutputClass "prescribingAndDispensingInformation" _ -> Some(MonographSection.prescribingAndDispensingInformation x)
+                | HasOutputClass "unlicencedUse" _ -> Some(MonographSection.unlicencedUse x)
                 | _ -> None
 
         let sections =
