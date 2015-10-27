@@ -104,6 +104,12 @@ module Drug =
 
     type Contraindication = | Contraindication of drugProvider.Ph
 
+    type Caution = Caution of drugProvider.Ph
+
+    type CautionsGroup =
+      | GeneralCautions of drugProvider.P * Caution list
+      | CautionsWithRoutes of string * drugProvider.P * Caution list
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -123,6 +129,7 @@ module Drug =
         | DrugActions of Id * DrugAction seq
         | SideEffects of Id * Frequency seq * SideEffectAdvice seq
         | Contraindications of Id * Contraindication seq * drugProvider.P seq
+        | Cautions of Id * CautionsGroup list
 
 //prescribingAndDispensingInformation
 //unlicensedUse
@@ -468,8 +475,13 @@ module DrugParser =
 
     let allsections (x:drugProvider.Topic) =
       match x.Body with
-        | Some(b) -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
+        | Some b -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
         | None -> Array.empty<drugProvider.Sectiondiv>
+
+    let firstsection n (x:drugProvider.Topic) =
+      match x.Body with
+        | Some b -> b.Sections |> Array.choose n |> Array.tryPick
+        | None -> None
 
     type Frequency with
       static member from (x:drugProvider.Sectiondiv) =
@@ -487,6 +499,19 @@ module DrugParser =
         phs |> Array.filter (hasOutputclass "contraindication") |> Array.map Contraindication
       static member content (x:drugProvider.Section) =
         x.Ps
+
+    type Caution with
+      static member from (x:drugProvider.Ph) = Caution x
+    type CautionsGroup with
+      static member from (x:drugProvider.Section) =
+        let gen p = GeneralCautions(p, p.Phs |> Array.map Caution.from |> Array.toList)
+        let ac (x:drugProvider.Sectiondiv) =
+          match x with
+            | HasOutputClasso "cautionsOrContraindicationsWithRoutes" s ->
+                CautionsWithRoutes(s.Ps.[0].Value.Value, s.Ps.[1], s.Ps.[1].Phs |> Array.map Caution.from |> Array.toList)
+        [|x.Ps |> Array.map gen
+          x.Sectiondivs |> Array.filter (hasOutputclasso "additionalCautions") |> Array.collect (fun sd -> sd.Sectiondivs |> Array.map ac) |] |> Array.collect id
+
 
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
@@ -521,6 +546,13 @@ module DrugParser =
                cs |> Array.collect Contraindication.from,
                cs |> Array.collect Contraindication.content)
           | None -> Contraindications(Id(x.Id), Array.empty<Contraindication>, Array.empty<drugProvider.P>)
+      static member cautions (x:drugProvider.Topic) =
+        let s = firstsection (withclass "cautions") x 
+        match s with 
+          | Some (s) -> Cautions(Id(x.Id), CautionsGroup.from s |> Array.toList)
+          | None -> Cautions(Id(x.Id), List.empty<CautionsGroup>)
+
+
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
