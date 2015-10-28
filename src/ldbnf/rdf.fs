@@ -262,6 +262,8 @@ module DrugRdf =
       blank !!"nicebnf:hasPrescribingAndDispensingInformation" (Graph.frompair (sp,s))
     static member fromulu (UnlicencedUse (sp,s)) =
       blank !!"nicebnf:hasUnlicencedUse" (Graph.frompair (sp,s))
+    static member fromcac (ConceptionAndContraception (sp,s)) =
+      blank !!"nicebnf:hasConceptionAndContraception" (Graph.frompair (sp,s))
 
     static member fromsec sid (x:MonographSection) =
 
@@ -308,4 +310,5 @@ module DrugRdf =
         | Cautions (i,cgs) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs])
         | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
         | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
+        | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptions" (sid i) [statments Graph.fromcac cacs])
         | _ -> None

@@ -121,6 +121,9 @@ module Drug =
       | TheraputicDrugMonitoring of Option<Specificity> * drugProvider.Sectiondiv
       | MonitoringOfPatientParameters of Option<Specificity> * drugProvider.Sectiondiv
 
+    type ConceptionAndContraception = 
+      | ConceptionAndContraception of Option<Specificity> * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -144,6 +147,7 @@ module Drug =
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
         | UnlicencedUses of Id * UnlicencedUse seq
         | MonitoringRequirements of Id * MonitoringRequirement seq
+        | ConceptionAndContraceptions of Id * ConceptionAndContraception seq
 
 //conceptionAndContraception
 //importantSafetyInformation
@@ -577,6 +581,8 @@ module DrugParser =
         match x.Body with
           | Some b -> MonitoringRequirements(Id(x.Id),b.Sections |> Array.collect MonitoringRequirement.from)
           | None -> MonitoringRequirements(Id(x.Id), Array.empty<MonitoringRequirement>)
+      static member conceptionAndContraception (x:drugProvider.Topic) =
+        ConceptionAndContraceptions(Id(x.Id), allsections x |> (addSpecificity >> ConceptionAndContraception))
 
 
     type Drug with
@@ -620,6 +626,7 @@ module DrugParser =
                 | HasOutputClass "prescribingAndDispensingInformation" _ -> Some(MonographSection.prescribingAndDispensingInformation x)
                 | HasOutputClass "unlicencedUse" _ -> Some(MonographSection.unlicencedUse x)
                 | HasOutputClass "monitoringRequirements" _ -> Some(MonographSection.monitoringRequirements x)
+                | HasOutputClass "conceptionAndContraception" _ -> Some(MonographSection.conceptionAndContraception x)
                 | _ -> None
 
         let sections =
