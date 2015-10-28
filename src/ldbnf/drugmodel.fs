@@ -128,6 +128,9 @@ module Drug =
     type ImportantSafetyInformation =
       | ImportantSafetyInformation of Option<Title> * Option<Specificity> * drugProvider.Sectiondiv
 
+    type DirectionsForAdministration =
+      | DirectionsForAdministration of Option<Specificity> * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -153,8 +156,8 @@ module Drug =
         | MonitoringRequirements of Id * MonitoringRequirement seq
         | ConceptionAndContraceptions of Id * ConceptionAndContraception seq
         | ImportantSafetyInformations of Id * ImportantSafetyInformation seq
+        | DirectionsForAdministrations of Id * DirectionsForAdministration seq
 
-//importantSafetyInformation
 //nationalFunding - last
 //directionsForAdministration
 //re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
@@ -597,6 +600,9 @@ module DrugParser =
       static member importantSafetyInformation (x:drugProvider.Topic) =
         ImportantSafetyInformations(Id(x.Id), allsections x |> Array.map (addSpecificity >> addTitle >> ImportantSafetyInformation))
 
+      static member directionsForAdministration (x:drugProvider.Topic) =
+        DirectionsForAdministrations(Id(x.Id), allsections x |> Array.map (addSpecificity >> DirectionsForAdministration))
+
     type Drug with
       static member parse (x:drugProvider.Topic) =
         let name = DrugName(x.Title)
@@ -640,6 +646,7 @@ module DrugParser =
                 | HasOutputClass "monitoringRequirements" _ -> Some(MonographSection.monitoringRequirements x)
                 | HasOutputClass "conceptionAndContraception" _ -> Some(MonographSection.conceptionAndContraception x)
                 | HasOutputClass "importantSafetyInformation" _ -> Some(MonographSection.importantSafetyInformation x)
+                | HasOutputClass "directionsForAdministration" _ -> Some(MonographSection.directionsForAdministration x)
                 | _ -> None
 
         let sections =

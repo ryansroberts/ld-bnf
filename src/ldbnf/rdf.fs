@@ -275,6 +275,8 @@ module DrugRdf =
     static member fromisi (ImportantSafetyInformation(t,sp,s)) =
       let st = [t >>= Graph.fromti] |> List.choose id
       blank !!"nicebnf:hasImportantSafetyInformation" (st @ (Graph.frompair (sp,s)))
+    static member fromdfa (DirectionsForAdministration (sp,s)) =
+      blank !!"nicebnf:hasDirectionsForAdministration" (Graph.frompair (sp,s))
 
     static member fromsec sid (x:MonographSection) =
 
@@ -323,4 +325,5 @@ module DrugRdf =
         | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
         | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptions" (sid i) [statments Graph.fromcac cacs])
         | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformations" (sid i) [statments Graph.fromisi isis])
+        | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministrations" (sid i) [statments Graph.fromdfa dfas])
         | _ -> None
