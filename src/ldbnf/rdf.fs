@@ -29,7 +29,7 @@ module DrugRdf =
 
     static member from (Route s) = !!(Uri.nicebnfClass + "Route#" + (NameUtils.niceCamelName s))
     static member from (Indication s) = !!(Uri.nicebnfClass + "Indication#" + (NameUtils.niceCamelName s))
-    static member fromc (Classification (Id s,_)) = !!(Uri.nicebnfClass + "Classification#" + (NameUtils.niceCamelName s))
+    static member fromc (Classification (Id s,_)) = !!(Uri.nicebnfClass + "Classification#" + s)
     static member fromgrp (s:string) = !!(Uri.nicebnfClass + "Group#" + (NameUtils.niceCamelName s))
     static member fromdsg (s:string) = !!(Uri.nicebnfClass + "Dosage#" + (NameUtils.niceCamelName s))
     static member from (TheraputicUse (s,_)) = !!(Uri.nicebnfClass + "TheraputicUse#" + (NameUtils.niceCamelName s))
