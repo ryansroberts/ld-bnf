@@ -582,7 +582,7 @@ module DrugParser =
           | Some b -> MonitoringRequirements(Id(x.Id),b.Sections |> Array.collect MonitoringRequirement.from)
           | None -> MonitoringRequirements(Id(x.Id), Array.empty<MonitoringRequirement>)
       static member conceptionAndContraception (x:drugProvider.Topic) =
-        ConceptionAndContraceptions(Id(x.Id), allsections x |> (addSpecificity >> ConceptionAndContraception))
+        ConceptionAndContraceptions(Id(x.Id), allsections x |> Array.map (addSpecificity >> ConceptionAndContraception))
 
 
     type Drug with
