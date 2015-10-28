@@ -121,8 +121,11 @@ module Drug =
       | TheraputicDrugMonitoring of Option<Specificity> * drugProvider.Sectiondiv
       | MonitoringOfPatientParameters of Option<Specificity> * drugProvider.Sectiondiv
 
-    type ConceptionAndContraception = 
+    type ConceptionAndContraception =
       | ConceptionAndContraception of Option<Specificity> * drugProvider.Sectiondiv
+
+    type ImportantSafetyInformation =
+      | ImportantSafetyInformation of Option<Title> * Option<Specificity> * drugProvider.Sectiondiv
 
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
@@ -148,12 +151,13 @@ module Drug =
         | UnlicencedUses of Id * UnlicencedUse seq
         | MonitoringRequirements of Id * MonitoringRequirement seq
         | ConceptionAndContraceptions of Id * ConceptionAndContraception seq
+        | ImportantSafetyInformations of Id * ImportantSafetyInformation seq
 
-//conceptionAndContraception
 //importantSafetyInformation
 //nationalFunding - last
 //directionsForAdministration
 //re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
+//add revision numbers
 
     type Drug = {id : Id;
                  name : DrugName;
@@ -320,6 +324,9 @@ module DrugParser =
 
     let extractTitle (x:drugProvider.Sectiondiv) =
       x.Ps |> Array.filter (hasOutputclasso "title") |> Array.map Title.from |> Array.tryPick Some
+
+    let addTitle (sp,s) =
+      extractTitle s,sp,s
 
     type GeneralInformation with
       static member from (x:drugProvider.Sectiondiv) =
@@ -583,7 +590,8 @@ module DrugParser =
           | None -> MonitoringRequirements(Id(x.Id), Array.empty<MonitoringRequirement>)
       static member conceptionAndContraception (x:drugProvider.Topic) =
         ConceptionAndContraceptions(Id(x.Id), allsections x |> Array.map (addSpecificity >> ConceptionAndContraception))
-
+      static member importantSafetyInformation (x:drugProvider.Topic) =
+        ImportantSafetyInformations(Id(x.Id), allsections x |> Array.map (addSpecificity >> addTitle >> ImportantSafetyInformation))
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
@@ -627,6 +635,7 @@ module DrugParser =
                 | HasOutputClass "unlicencedUse" _ -> Some(MonographSection.unlicencedUse x)
                 | HasOutputClass "monitoringRequirements" _ -> Some(MonographSection.monitoringRequirements x)
                 | HasOutputClass "conceptionAndContraception" _ -> Some(MonographSection.conceptionAndContraception x)
+                | HasOutputClass "importantSafetyInformation" _ -> Some(MonographSection.importantSafetyInformation x)
                 | _ -> None
 
         let sections =

@@ -264,6 +264,9 @@ module DrugRdf =
       blank !!"nicebnf:hasUnlicencedUse" (Graph.frompair (sp,s))
     static member fromcac (ConceptionAndContraception (sp,s)) =
       blank !!"nicebnf:hasConceptionAndContraception" (Graph.frompair (sp,s))
+    static member fromisi (ImportantSafetyInformation(t,sp,s)) =
+      let st = [t >>= Graph.fromti] |> List.choose id
+      blank !!"nicebnf:hasImportantSafetyInformation" (st @ (Graph.frompair (sp,s)))
 
     static member fromsec sid (x:MonographSection) =
 
@@ -311,4 +314,5 @@ module DrugRdf =
         | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
         | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
         | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptions" (sid i) [statments Graph.fromcac cacs])
+        | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformations" (sid i) [statments Graph.fromisi isis])
         | _ -> None
