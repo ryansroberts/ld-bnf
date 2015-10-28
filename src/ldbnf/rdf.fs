@@ -138,11 +138,17 @@ module DrugRdf =
              a !!"nicebnf:Route"])
 
     static member from (x:Indication) =
-      Some(objectProperty !!"nicebnf:hasIndication" (Uri.from x))
+      let l = match x with | Indication i -> i^^xsd.string
+      Some(one !!"nicebnf:hasIndication" (Uri.from x) [ dataProperty !!"rdfs:label" l
+                                                        a !!"nicebnf:Indication"
+                                                        ])
 
     static member from (x:PatientGroup) =
-      [Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp x.Group))
-       Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg x.Dosage))]
+      [ Some(one !!"nicebnf:hasGroup" (Uri.fromgrp x.Group) [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
+                                                              a !!"nicebnf:PatientGroup"
+                                                              ])
+        Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
+        ]
 
     static member fromti (Bnf.Drug.Title (Paragraph(s))) =
       Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
