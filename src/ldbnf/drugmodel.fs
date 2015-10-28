@@ -109,6 +109,7 @@ module Drug =
     type CautionsGroup =
       | GeneralCautions of drugProvider.P * Caution list
       | CautionsWithRoutes of string * drugProvider.P * Caution list
+      | CautionsWithIndications of string * drugProvider.P * Caution list
 
     type PrescribingAndDispensingInformation =
       | PrescribingAndDispensingInformation of Option<Specificity> * drugProvider.Sectiondiv
@@ -525,6 +526,9 @@ module DrugParser =
           match x with
             | HasOutputClasso "cautionsOrContraindicationsWithRoutes" s ->
                 CautionsWithRoutes(s.Ps.[0].Value.Value, s.Ps.[1], s.Ps.[1].Phs |> Array.map Caution.from |> Array.toList)
+            | HasOutputClasso "cautionsOrContraindicationsWithIndications" s ->
+                CautionsWithIndications(s.Ps.[0].Value.Value, s.Ps.[1], s.Ps.[1].Phs |> Array.map Caution.from |> Array.toList)
+
         [|x.Ps |> Array.map gen
           x.Sectiondivs |> Array.filter (hasOutputclasso "additionalCautions") |> Array.collect (fun sd -> sd.Sectiondivs |> Array.map ac) |] |> Array.collect id
 
