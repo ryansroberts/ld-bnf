@@ -145,7 +145,6 @@ module Drug =
         | UnlicencedUses of Id * UnlicencedUse seq
         | MonitoringRequirements of Id * MonitoringRequirement seq
 
-//monitoringRequirements
 //conceptionAndContraception
 //importantSafetyInformation
 //nationalFunding - last
@@ -527,9 +526,9 @@ module DrugParser =
       static member from (x:drugProvider.Section) =
         let build c = x.Sectiondivs |> Array.map (addSpecificity >> c)
         match x with
-          | HasOutputClass "patientMonitoringProgrammes" _ -> build PatientMonitoringProgrammes
-          | HasOutputClass "therapeuticDrugMonitoring" _ -> build TheraputicDrugMonitoring
-          | HasOutputClass "monitoringOfPatientParameters" _ -> build MonitoringOfPatientParameters
+          | HasOutputClasso "patientMonitoringProgrammes" _ -> build PatientMonitoringProgrammes
+          | HasOutputClasso "therapeuticDrugMonitoring" _ -> build TheraputicDrugMonitoring
+          | HasOutputClasso "monitoringOfPatientParameters" _ -> build MonitoringOfPatientParameters
 
 
     type MonographSection with
