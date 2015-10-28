@@ -257,6 +257,9 @@ module DrugRdf =
         | CautionsWithRoutes (t,p,cs) -> blank !!"nicebnf:hasCautionsWithRoutes"
                                           (dataProperty !!"nicebnf:hasRoute" (xsd.string(t.ToString()))
                                            :: gen(p,cs))
+        | CautionsWithIndications (t,p,cs) -> blank !!"nicebnf:hasCautionsWithIndications"
+                                               (dataProperty !!"nicebnf:hasRoute" (xsd.string(t.ToString()))
+                                                :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
       blank !!"nicebnf:hasPrescribingAndDispensingInformation" (Graph.frompair (sp,s))
