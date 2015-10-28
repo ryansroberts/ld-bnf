@@ -1,5 +1,6 @@
 namespace Bnf
 open FSharp.RDF
+open FSharp.Data.Runtime
 
 module DrugRdf =
   open prelude
@@ -24,16 +25,17 @@ module DrugRdf =
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "medicinalform/" + string x.id )
     //static member frommfl (x:Link) = !!(Uri.bnfsite + "medicinalform/" + x.Url.[1..])
     static member fromdc (s:string) = !!(Uri.bnfsite + "drugclass/"  + s)
+    static member from (InteractionLink (l)) = !!(Uri.bnfsite + "interactions/" + l.Url)
 
-    static member from (Route s) = !!(Uri.nicebnfClass + "Route#" + s)
-    static member from (Indication s) = !!(Uri.nicebnfClass + "Indication#" + s)
-    static member fromc (Classification (Id l,_)) = !!(Uri.nicebnfClass + "Classification#" + l)
-    static member fromgrp (s:string) = !!(Uri.nicebnfClass + "Group#" + s)
-    static member fromdsg (s:string) = !!(Uri.nicebnfClass + "Dosage#" + s)
-    static member from (TheraputicUse (n,_)) = !!(Uri.nicebnfClass + "TheraputicUse#" + n)
-    static member from (DomainOfEffect (n,_,_)) = !!(Uri.nicebnfClass + "DomainOfEffect#" + n.Value.Trim())
-    static member fromse (SideEffect s) = !!(Uri.nicebnfClass + "SideEffect#" + s)
-    static member fromfre x = !!(Uri.nicebnfClass + "Frequency#" + x)
+    static member from (Route s) = !!(Uri.nicebnfClass + "Route#" + (NameUtils.niceCamelName s))
+    static member from (Indication s) = !!(Uri.nicebnfClass + "Indication#" + (NameUtils.niceCamelName s))
+    static member fromc (Classification (Id s,_)) = !!(Uri.nicebnfClass + "Classification#" + s)
+    static member fromgrp (s:string) = !!(Uri.nicebnfClass + "Group#" + (NameUtils.niceCamelName s))
+    static member fromdsg (s:string) = !!(Uri.nicebnfClass + "Dosage#" + (NameUtils.niceCamelName s))
+    static member from (TheraputicUse (s,_)) = !!(Uri.nicebnfClass + "TheraputicUse#" + (NameUtils.niceCamelName s))
+    static member from (DomainOfEffect (s,_,_)) = !!(Uri.nicebnfClass + "DomainOfEffect#" + (NameUtils.niceCamelName (s.Value.Trim())))
+    static member fromse (SideEffect s) = !!(Uri.nicebnfClass + "SideEffect#" + (NameUtils.niceCamelName s))
+    static member fromfre s = !!(Uri.nicebnfClass + "Frequency#" + (NameUtils.niceCamelName s))
 
   type Graph with
       static member ReallyEmpty xp =
@@ -83,7 +85,7 @@ module DrugRdf =
        |> Assert.graph og
 
     static member fromdc (InheritsFromClass (c)) =
-      one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) ([a !!"nicebnf:DrugClass"] |> Seq.toList)
+      one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a !!"nicebnf:DrugClass"]
 
     static member fromc (Classification (_,is)) =
       [a !!"nicebnf:Classification"] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
@@ -92,9 +94,8 @@ module DrugRdf =
     static member fromcl (c:Classification) =
       one !!"nicebnf:hasClassification" (Uri.fromc c) (Graph.fromc c)
 
-    static member fromil (InteractionLink (l)) =
-      objectProperty !!"nicebnf:hasInteraction" !!("bnfsite:interactions/" + l.Url)
-
+    static member fromil (i:InteractionLink) =
+      one !!"nicebnf:hasInteraction" (Uri.from i) [a !!"nicebnf:Interaction"]
 
     static member fromtu ((x:TheraputicUse), ?name0:string) =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"
