@@ -88,7 +88,7 @@ module DrugRdf =
       one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a !!"nicebnf:DrugClass"]
 
     static member fromc (Classification (_,is)) =
-      [a !!"nicebnf:Classification"] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
+      [(objectProperty !!"rdfs:subClassOf" !!"nicebnf:Classification")] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
 
     //the label for this is in another part of the feed so will be created elsewhere
     static member fromcl (c:Classification) =
@@ -101,6 +101,7 @@ module DrugRdf =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"
       let s = match x with | TheraputicUse(n,u) ->
                                [Some(a !!"nicebnf:TheraputicUse")
+                                Some(objectProperty !!"rdfs:subClassOf" !!"nicebnf:TheraputicUse")
                                 Some(dataProperty !!"rdfs:label" (n^^xsd.string))
                                 u >>= (Graph.fromtu >> Some)]
       one !!name (Uri.from x) (s |> List.choose id)
@@ -116,10 +117,11 @@ module DrugRdf =
         | None -> None
 
     static member fromdoe (DomainOfEffect (n,p,s)) =
-      let s = [Some(a !!"nicebnf:DomainOfEffect")
-               n >>= (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
-               p >>= Graph.fromptu
-               s >>= Graph.fromstu]
+      let s = [ Some(a !!"nicebnf:DomainOfEffect")
+                Some(objectProperty !!"rdfs:subClassOf" !!"nicebnf:DomainOfEffect")
+                n >>= (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
+                p >>= Graph.fromptu
+                s >>= Graph.fromstu]
       s |> List.choose id
 
     static member hasdoe p (d:DomainOfEffect) =
@@ -135,22 +137,31 @@ module DrugRdf =
       let l = match x with | Route r -> r^^xsd.string
       Some(one !!"nicebnf:hasRoute" (Uri.from x)
             [dataProperty !!"rdfs:label" l
+             objectProperty !!"rdfs:subClassOf" !!"nicebnf:hasRoute"
              a !!"nicebnf:Route"])
 
     static member from (x:Indication) =
-      Some(objectProperty !!"nicebnf:hasIndication" (Uri.from x))
+      let l = match x with | Indication i -> i^^xsd.string
+      Some(one !!"nicebnf:hasIndication" (Uri.from x) [ dataProperty !!"rdfs:label" l
+                                                        objectProperty !!"rdfs:subClassOf" !!"nicebnf:Indication"
+                                                        a !!"nicebnf:Indication"
+                                                        ])
 
     static member from (x:PatientGroup) =
-      [Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp x.Group))
-       Some(objectProperty !!"nicebnf:hasDosage" (Uri.fromdsg x.Dosage))]
+      [ Some(one !!"nicebnf:hasGroup" (Uri.fromgrp x.Group) [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
+                                                              objectProperty !!"rdfs:subClassOf" !!"nicebnf:PatientGroup"
+                                                              a !!"nicebnf:PatientGroup"
+                                                              ])
+        Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
+        ]
 
     static member fromti (Bnf.Drug.Title (Paragraph(s))) =
       Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
 
     static member fromsp (Specificity (Paragraph s,r,i)) =
-      let s = [Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
-               r >>= Graph.from
-               i >>= Graph.from]
+      let s = [ Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
+                r >>= Graph.from
+                i >>= Graph.from]
       blank !!"nicebnf:hasSpecificity" (s |> List.choose id)
 
     static member fromgi (GeneralInformation (sd,sp)) =
