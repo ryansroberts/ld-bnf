@@ -30,6 +30,7 @@ module DrugRdf =
     static member from (Route s) = !!(Uri.nicebnfClass + "Route#" + (NameUtils.niceCamelName s))
     static member from (Indication s) = !!(Uri.nicebnfClass + "Indication#" + (NameUtils.niceCamelName s))
     static member fromc (Classification (Id s,_)) = !!(Uri.nicebnfClass + "Classification#" + s)
+    static member fromfi (FundingIdentifier s) = !!(Uri.nicebnfClass + "FundingIdentifier#" + s)
     static member fromgrp (s:string) = !!(Uri.nicebnfClass + "Group#" + (NameUtils.niceCamelName s))
     static member fromdsg (s:string) = !!(Uri.nicebnfClass + "Dosage#" + (NameUtils.niceCamelName s))
     static member from (TheraputicUse (s,_)) = !!(Uri.nicebnfClass + "TheraputicUse#" + (NameUtils.niceCamelName s))
@@ -142,10 +143,17 @@ module DrugRdf =
 
     static member from (x:Indication) =
       let l = match x with | Indication i -> i^^xsd.string
-      Some(one !!"nicebnf:hasIndication" (Uri.from x) [ dataProperty !!"rdfs:label" l
-                                                        objectProperty !!"rdfs:subClassOf" !!"nicebnf:Indication"
-                                                        a !!"nicebnf:Indication"
-                                                        ])
+      Some(one !!"nicebnf:hasIndication" (Uri.from x)
+            [dataProperty !!"rdfs:label" l
+             objectProperty !!"rdfs:subClassOf" !!"nicebnf:Indication"
+             a !!"nicebnf:Indication" ])
+
+    static member from (x:FundingIdentifier) =
+      let l = match x with | FundingIdentifier f -> f^^xsd.string
+      Some(one !!"nicebnf:hasRoute" (Uri.fromfi x)
+              [dataProperty !!"rdfs:label" l
+               objectProperty !!"rdfs:subClassOf" !!"nicebnf:hasFundingIdentifier"
+               a !!"nicebnf:FundingIdentifier"])
 
     static member from (x:PatientGroup) =
       [ Some(one !!"nicebnf:hasGroup" (Uri.fromgrp x.Group) [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
@@ -290,6 +298,17 @@ module DrugRdf =
     static member fromdfa (DirectionsForAdministration (sp,s)) =
       blank !!"nicebnf:hasDirectionsForAdministration" (Graph.frompair (sp,s))
 
+    static member fromfd (x:FundingDecision) =
+      match x with
+        | NonNHS(sp,s) -> blank !!"nicebnf:hasNonNHS" (Graph.frompair (sp,s))
+        | SmcDecisions(sp,s) -> blank !!"nicebnf:hasSmcDecisions" (Graph.frompair(sp,s))
+        | NiceTechnologyAppraisals(fi,t,sp,s) ->
+           let s = [sp >>= (Graph.fromsp >> Some)
+                    Some(Graph.from s)
+                    t >>= Graph.fromti
+                    fi >>= Graph.from] |> List.choose id
+           blank !!"nicebnf:hasNiceTechnologyAppraisals" s
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -338,4 +357,5 @@ module DrugRdf =
         | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptions" (sid i) [statments Graph.fromcac cacs])
         | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformations" (sid i) [statments Graph.fromisi isis])
         | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministrations" (sid i) [statments Graph.fromdfa dfas])
+        | NationalFunding (i,fds) -> Some(sec "NationalFunding" (sid i) [statments Graph.fromfd fds])
         | _ -> None
