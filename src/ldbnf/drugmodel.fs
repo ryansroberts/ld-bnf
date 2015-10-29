@@ -131,6 +131,13 @@ module Drug =
     type DirectionsForAdministration =
       | DirectionsForAdministration of Option<Specificity> * drugProvider.Sectiondiv
 
+    type FundingIdentifier = | FundingIdentifier of string
+
+    type FundingDecision =
+      | NonNHS of Specificity option * drugProvider.Sectiondiv
+      | NiceTechnologyAppraisals of FundingIdentifier option * Title option * Specificity option * drugProvider.Sectiondiv
+      | SmcDecisions of Specificity option * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
         | Pregnancy of Id * GeneralInformation seq
@@ -157,9 +164,9 @@ module Drug =
         | ConceptionAndContraceptions of Id * ConceptionAndContraception seq
         | ImportantSafetyInformations of Id * ImportantSafetyInformation seq
         | DirectionsForAdministrations of Id * DirectionsForAdministration seq
+        | NationalFunding of Id * FundingDecision seq
 
 //nationalFunding - last
-//directionsForAdministration
 //re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
 //add revision numbers
 
@@ -548,6 +555,29 @@ module DrugParser =
           | HasOutputClasso "therapeuticDrugMonitoring" _ -> build TheraputicDrugMonitoring
           | HasOutputClasso "monitoringOfPatientParameters" _ -> build MonitoringOfPatientParameters
 
+    type FundingIdentifier with
+      static member from (x:drugProvider.P) =
+        x.Value >>= (FundingIdentifier >> Some)
+
+    type FundingDecision with
+      static member from (x:drugProvider.Sectiondiv) =
+        match x with
+          | HasOutputClasso "niceTechnologyAppraisals" _ ->
+             let fid = function
+                          | HasOutputClasso "fundingIdentifier" p -> FundingIdentifier.from p
+                          | _ -> None
+             let s1 = x.Sectiondivs.[0]
+             let s2 = s1.Sectiondivs.[0]
+             let fi = s1.Ps |> Array.tryPick fid
+             let (t,sp,s) = s2 |> (addSpecificity >> addTitle)
+             NiceTechnologyAppraisals (fi,t,sp,s)
+          | HasOutputClasso "smcDecisions" _ ->
+             let s2 = x.Sectiondivs.[0].Sectiondivs.[0]
+             s2 |> (addSpecificity >> SmcDecisions)
+      static member from (x:drugProvider.Section) =
+        match x with
+          | HasOutputClasso "nonNHS" _ -> x.Sectiondivs |> Array.map (addSpecificity >> NonNHS)
+          | _ -> x.Sectiondivs |> Array.map FundingDecision.from 
 
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
@@ -602,6 +632,11 @@ module DrugParser =
 
       static member directionsForAdministration (x:drugProvider.Topic) =
         DirectionsForAdministrations(Id(x.Id), allsections x |> Array.map (addSpecificity >> DirectionsForAdministration))
+      static member nationalFunding (x:drugProvider.Topic) =
+        let fds =  match x.Body with
+          | Some b -> b.Sections |> Array.collect FundingDecision.from
+          | None -> [||]
+        NationalFunding(Id(x.Id),fds)
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
@@ -647,6 +682,7 @@ module DrugParser =
                 | HasOutputClass "conceptionAndContraception" _ -> Some(MonographSection.conceptionAndContraception x)
                 | HasOutputClass "importantSafetyInformation" _ -> Some(MonographSection.importantSafetyInformation x)
                 | HasOutputClass "directionsForAdministration" _ -> Some(MonographSection.directionsForAdministration x)
+                | HasOutputClass "nationalFunding" _ -> Some(MonographSection.nationalFunding x)
                 | _ -> None
 
         let sections =
