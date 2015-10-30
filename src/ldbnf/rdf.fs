@@ -46,12 +46,28 @@ module DrugRdf =
 
 
   type Graph with
-    static member from (x:MedicinalForm)=
+    static member fromcal (CautionaryAdvisoryLabel(ln,p)) =
+      let s = [Some(dataProperty !!"cnt:ContentAsXML" ((string p)^^xsd.string))
+               ln >>= (string >> xsd.string >> (dataProperty !!"nicebnf:hasLabelNumber") >> Some)]
+               |> List.choose id
+      Some(blank !!"nicebnf:hasCautionaryAdvisoryLabel" s)
+
+    static member fromcals (CautionaryAdvisoryLabels(t,cals)) =
+      let c = cals |> Array.map Graph.fromcal |> Array.toList
+      let s = ((t >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)) :: c)
+               |> List.choose id
+      blank !!"nicebnf:hasCautionaryAdvisoryLabels" s
+
+
+    static member from (x:MedicinalForm) =
       let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
                                   "cnt",!!"http://www.w3.org/2011/content#"
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
-      let s = [ Some(a !!"nicebnf:MedicinalForm")]
+
+      let s = [ Some(a !!"nicebnf:MedicinalForm")
+                x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
+                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)]
       let dr r = resource (Uri.from x) r
       [dr (s |> List.choose id)]
        |> Assert.graph og
