@@ -58,6 +58,56 @@ module DrugRdf =
                |> List.choose id
       blank !!"nicebnf:hasCautionaryAdvisoryLabels" s
 
+    static member dp n = xsd.string >> (dataProperty !!("nicebnf:has" + n))
+
+    static member fromman (Manufacturer x) = Graph.dp "Manufacturer" x |> Some
+    static member frombt (BlackTriangle x) = Graph.dp "BlackTriangle" x |> Some
+    static member frommpt (MedicinalProductTitle(m,bt,t)) =
+      let tc = string >> xsd.string >> (dataProperty !!"cnt:ContentAsXML") >> Some
+      let s = [m >>= Graph.fromman
+               bt >>= Graph.frombt
+               tc t] |> List.choose id
+      blank !!"nicebnf:hasMedicinalProductTitle" s
+
+    //static member fromapmid(Ampid x) =
+
+    static member fromsai(StrengthOfActiveIngredient p) = Graph.dp "StrengthOfActiveIngredient" (string p) |> Some
+
+    static member fromnhsi (NhsIndicative x) = Graph.dp "NhsIndicative" x |> Some
+    static member frompt (PriceText x) = Graph.dp "PriceText" x |> Some
+    static member fromnhsip (NhsIndicativePrice x) = Graph.dp "NhsIndicativePrice" (string x) |> Some
+    static member fromnhsii (NhsIndicativeInfo(nhsi,pt,nhsip)) =
+      let s = [nhsi >>= Graph.fromnhsi
+               pt >>= Graph.frompt
+               nhsip >>= Graph.fromnhsip] |> List.choose id
+      blank !!"nicebnf:hasNhsIndicativeInfo" s |> Some
+
+    static member fromps (PackSize d) = Graph.dp "PackSize" (string d) |> Some
+    static member fromuom u = Graph.dp "UnitOfMeasure" (string u) |> Some
+    static member fromlc lc = Graph.dp "LegalCategory" (string lc) |> Some
+    static member frompackinfo (PackInfo(ps,uom,lc)) =
+      let s = [ps >>= Graph.fromps
+               uom >>= Graph.fromuom
+               lc >>= Graph.fromlc] |> List.choose id
+      blank !!"nicebnf:hasPackInfo" s |> Some
+
+    static member fromdt (DrugTarrif s) = Graph.dp "DrugTarrif" s |> Some
+    static member fromdtp (DrugTariffPrice dtp) = Graph.dp "DrugTariffPrice" dtp |> Some
+    static member fromdti (DrugTariffInfo(dt,pt,dtp)) =
+      let s = [dt >>= Graph.fromdt
+               pt >>= Graph.frompt
+               dtp >>= Graph.fromdtp] |> List.choose id
+      blank !!"nicebnf:hasDrugTarrifInfo" s |> Some
+
+    static member frompack(Pack(pi,nii,dti)) =
+      let s = [pi >>= Graph.frompackinfo
+               nii >>= Graph.fromnhsii
+               dti >>= Graph.fromdti
+               Some(a !!"nicebnf:Pack")] |> List.choose id
+      blank !!"nicebnf:hasPack" s
+
+    //static member from (x:MedicinalProduct) =
+
 
     static member from (x:MedicinalForm) =
       let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf

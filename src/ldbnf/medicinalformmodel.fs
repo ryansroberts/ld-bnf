@@ -5,11 +5,17 @@ open Shared
 module MedicinalForm =
   type mfProvider = XmlProvider<"supermedicinalform.xml", Global=true>
 
-  type Title = | Title of string
+  type Title =
+    | Title of string
+    override __.ToString() = match __ with | Title x -> x
 
-  type LabelNumber = | LabelNumber of decimal
+  type LabelNumber =
+    | LabelNumber of decimal
+    override __.ToString() = match __ with | LabelNumber x -> string x
 
-  type CautionaryAndAdvisoryLabelsTitle = | CautionaryAndAdvisoryLabelsTitle of string
+  type CautionaryAndAdvisoryLabelsTitle =
+    | CautionaryAndAdvisoryLabelsTitle of string
+    override __.ToString() = match __ with | CautionaryAndAdvisoryLabelsTitle x -> x
 
   type CautionaryAdvisoryLabel = | CautionaryAdvisoryLabel of Option<LabelNumber> * mfProvider.P
 
@@ -39,7 +45,6 @@ module MedicinalForm =
 
   type PriceText = | PriceText of string
 
-
   type NhsIndicative = | NhsIndicative of string
 
   type NhsIndicativePrice = | NhsIndicativePrice of decimal
@@ -59,7 +64,7 @@ module MedicinalForm =
 
   type MedicinalProduct = {
     title:MedicinalProductTitle;
-    ampid:Option<Ampid>;
+    ampid:Ampid;
     strengthOfActiveIngredient:Option<StrengthOfActiveIngredient>;
     packs: Pack list}
 
@@ -167,7 +172,9 @@ module MedicinalFormParser =
       let ps = match x.Ul with
                | Some x -> Pack.from x
                | _ -> List.empty<Pack>
-      let a = x.Data >>= (Ampid.from >> Some)
+      let a = match x.Data with
+              | Some d -> Ampid.from d
+              | None -> failwith "MedicinalProduct must have an Ampid"
       {title = t; ampid = a; strengthOfActiveIngredient = str; packs = ps;}
 
   type MedicinalForm with
