@@ -31,12 +31,23 @@ module DrugRdf =
     static member from (Indication s) = !!(Uri.nicebnfClass + "Indication#" + (NameUtils.niceCamelName s))
     static member fromc (Classification (Id s,_)) = !!(Uri.nicebnfClass + "Classification#" + s)
     static member fromfi (FundingIdentifier s) = !!(Uri.nicebnfClass + "FundingIdentifier#" + s)
-    static member fromgrp (s:string) = !!(Uri.nicebnfClass + "Group#" + (NameUtils.niceCamelName s))
-    static member fromdsg (s:string) = !!(Uri.nicebnfClass + "Dosage#" + (NameUtils.niceCamelName s))
+    static member fromgrp (s:string) = !!(Uri.nicebnfClass + "PatientGroup#" + (NameUtils.niceCamelName s))
     static member from (TheraputicUse (s,_)) = !!(Uri.nicebnfClass + "TheraputicUse#" + (NameUtils.niceCamelName s))
     static member from (DomainOfEffect (s,_,_)) = !!(Uri.nicebnfClass + "DomainOfEffect#" + (NameUtils.niceCamelName (s.Value.Trim())))
     static member fromse (SideEffect s) = !!(Uri.nicebnfClass + "SideEffect#" + (NameUtils.niceCamelName s))
     static member fromfre s = !!(Uri.nicebnfClass + "Frequency#" + (NameUtils.niceCamelName s))
+
+    static member ClassificationEntity = !!(Uri.nicebnfClass + "Classification")
+    static member RouteEntity = !!(Uri.nicebnfClass + "Route")
+    static member DomainOfEffectEntity = !!(Uri.nicebnfClass + "DomainOfEffect")
+    static member DrugClassEntity = !!(Uri.nicebnfClass + "DrugClass")
+    static member DrugEntity = !!(Uri.nicebnfClass + "Drug")
+    static member MedicinalFormEntity = !!(Uri.nicebnfClass + "MedicinalForm")
+    static member InteractionEntity = !!(Uri.nicebnfClass + "Interaction")
+    static member TheraputicUseEntity = !!(Uri.nicebnfClass + "TheraputicUse")
+    static member IndicationEntity = !!(Uri.nicebnfClass + "Indication")
+    static member FundingIdentifierEntity = !!(Uri.nicebnfClass + "FundingIdentifier")
+    static member PatientGroupEntity = !!(Uri.nicebnfClass + "PatientGroup")
 
   type Graph with
       static member ReallyEmpty xp =
@@ -115,7 +126,7 @@ module DrugRdf =
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
 
-      let s = [ Some(a !!"nicebnf:MedicinalForm")
+      let s = [ Some(a Uri.MedicinalFormEntity)
                 x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                 x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)]
       let dr r = resource (Uri.from x) r
@@ -129,7 +140,7 @@ module DrugRdf =
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
 
-      let s = [ Some(a !!"nicebnf:Drug")
+      let s = [ Some(a Uri.DrugEntity)
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)
                 x.primaryDomainOfEffect >>= (Graph.frompdoe >> Some)
@@ -152,23 +163,22 @@ module DrugRdf =
        |> Assert.graph og
 
     static member fromdc (InheritsFromClass (c)) =
-      one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a !!"nicebnf:DrugClass"]
+      one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a Uri.DrugClassEntity]
 
     static member fromc (Classification (_,is)) =
-      [(objectProperty !!"rdfs:subClassOf" !!"nicebnf:Classification")] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
+      [(a Uri.ClassificationEntity)] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
 
     //the label for this is in another part of the feed so will be created elsewhere
     static member fromcl (c:Classification) =
       one !!"nicebnf:hasClassification" (Uri.fromc c) (Graph.fromc c)
 
     static member fromil (i:InteractionLink) =
-      one !!"nicebnf:hasInteraction" (Uri.from i) [a !!"nicebnf:Interaction"]
+      one !!"nicebnf:hasInteraction" (Uri.from i) [a Uri.InteractionEntity]
 
     static member fromtu ((x:TheraputicUse), ?name0:string) =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"
       let s = match x with | TheraputicUse(n,u) ->
-                               [Some(a !!"nicebnf:TheraputicUse")
-                                Some(objectProperty !!"rdfs:subClassOf" !!"nicebnf:TheraputicUse")
+                               [Some(a Uri.TheraputicUseEntity)
                                 Some(dataProperty !!"rdfs:label" (n^^xsd.string))
                                 u >>= (Graph.fromtu >> Some)]
       one !!name (Uri.from x) (s |> List.choose id)
@@ -184,8 +194,7 @@ module DrugRdf =
         | None -> None
 
     static member fromdoe (DomainOfEffect (n,p,s)) =
-      let s = [ Some(a !!"nicebnf:DomainOfEffect")
-                Some(objectProperty !!"rdfs:subClassOf" !!"nicebnf:DomainOfEffect")
+      let s = [ Some(a Uri.DomainOfEffectEntity)
                 n >>= (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                 p >>= Graph.fromptu
                 s >>= Graph.fromstu]
@@ -204,28 +213,24 @@ module DrugRdf =
       let l = match x with | Route r -> r^^xsd.string
       Some(one !!"nicebnf:hasRoute" (Uri.from x)
             [dataProperty !!"rdfs:label" l
-             objectProperty !!"rdfs:subClassOf" !!"nicebnf:hasRoute"
-             a !!"nicebnf:Route"])
+             a Uri.RouteEntity])
 
     static member from (x:Indication) =
       let l = match x with | Indication i -> i^^xsd.string
       Some(one !!"nicebnf:hasIndication" (Uri.from x)
             [dataProperty !!"rdfs:label" l
-             objectProperty !!"rdfs:subClassOf" !!"nicebnf:Indication"
-             a !!"nicebnf:Indication" ])
+             a Uri.IndicationEntity ])
 
     static member from (x:FundingIdentifier) =
       let l = match x with | FundingIdentifier f -> f^^xsd.string
-      Some(one !!"nicebnf:hasRoute" (Uri.fromfi x)
+      Some(one !!"nicebnf:hasFundingIdentifier" (Uri.fromfi x)
               [dataProperty !!"rdfs:label" l
-               objectProperty !!"rdfs:subClassOf" !!"nicebnf:hasFundingIdentifier"
-               a !!"nicebnf:FundingIdentifier"])
+               a Uri.FundingIdentifierEntity])
 
     static member from (x:PatientGroup) =
-      [ Some(one !!"nicebnf:hasGroup" (Uri.fromgrp x.Group) [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
-                                                              objectProperty !!"rdfs:subClassOf" !!"nicebnf:PatientGroup"
-                                                              a !!"nicebnf:PatientGroup"
-                                                              ])
+      [ Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp x.Group)  [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
+                                                                      a Uri.PatientGroupEntity
+                                                                      ])
         Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
         ]
 
@@ -255,9 +260,11 @@ module DrugRdf =
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
       let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
-                           ([Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp pg.Group))
-                             Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
-                             r >>= Graph.from] |> List.choose id)
+                            ([Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp pg.Group) [ dataProperty !!"rdfs:label" (pg.Group^^xsd.string)
+                                                                                            a Uri.PatientGroupEntity
+                                                                                            ])
+                              Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
+                              r >>= Graph.from] |> List.choose id)
       pgs |> Seq.map patientGrp
 
     static member from (TheraputicIndication s) =
@@ -279,7 +286,7 @@ module DrugRdf =
       blank !!"nicebnf:hasGeneralPatientAdvice" (s |> List.choose id)
 
     static member frommd (AdviceAroundMissedDoses s) =
-      blank !!"nicebnf:hasGeneralPatientAdvice" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+      blank !!"nicebnf:hasAdviceAroundMissedDoses" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member fromlvs (LicensingVariationStatement(Html(s))) =
       blank !!"nicebnf:hasLicensingVariationStatement" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
@@ -288,7 +295,7 @@ module DrugRdf =
       dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))
 
     static member frommfl (MedicinalFormLink(l)) =
-      blank !!"nicebnf:hasMedicinalFormLink"
+      blank !!"nicebnf:hasMedicinalForm"
         [dataProperty !!"rdfs:label" (l.Title^^xsd.string)
          dataProperty !!"nicebnf:medicinalForm" ((Uri.bnfsite + "medicinalform/" + l.Url.[1..])^^xsd.string)]
 
@@ -394,17 +401,17 @@ module DrugRdf =
         | BreastFeeding (i,gs) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs])
         | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                        statments Graph.fromda das])
-        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairment" (sid i) [statments Graph.fromgi gs
-                                                                                 statments Graph.fromamri amri
-                                                                                 statments Graph.fromda das])
+        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairmentWarning" (sid i) [statments Graph.fromgi gs
+                                                                                        statments Graph.fromamri amri
+                                                                                        statments Graph.fromda das])
         | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [statments Graph.fromidg g])
         | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frommd md
                                                                                         statments Graph.fromgpa gpa ])
-        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [statment Graph.fromlvs lvs
-                                                                                 statment Graph.fromhtml html
-                                                                                 statments Graph.frommfl mfls])
-        | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivity" (sid i) [statment Graph.fromcsc csc
-                                                                                                    statment Graph.fromcscs cscs])
+        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [ statment Graph.fromlvs lvs
+                                                                                  statment Graph.fromhtml html
+                                                                                  statments Graph.frommfl mfls])
+        | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivityWarning" (sid i) [ statment Graph.fromcsc csc
+                                                                                                            statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
         | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
         | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.fromelt elts])
