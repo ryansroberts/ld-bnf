@@ -37,6 +37,18 @@ module DrugRdf =
     static member fromse (SideEffect s) = !!(Uri.nicebnfClass + "SideEffect#" + (NameUtils.niceCamelName s))
     static member fromfre s = !!(Uri.nicebnfClass + "Frequency#" + (NameUtils.niceCamelName s))
 
+    static member ClassificationEntity = !!(Uri.nicebnfClass + "Classification")
+    static member RouteEntity = !!(Uri.nicebnfClass + "Route")
+    static member DomainOfEffectEntity = !!(Uri.nicebnfClass + "DomainOfEffect")
+    static member DrugClassEntity = !!(Uri.nicebnfClass + "DrugClass")
+    static member DrugEntity = !!(Uri.nicebnfClass + "Drug")
+    static member MedicinalFormEntity = !!(Uri.nicebnfClass + "MedicinalForm")
+    static member InteractionEntity = !!(Uri.nicebnfClass + "Interaction")
+    static member TheraputicUseEntity = !!(Uri.nicebnfClass + "TheraputicUse")
+    static member IndicationEntity = !!(Uri.nicebnfClass + "Indication")
+    static member FundingIdentifierEntity = !!(Uri.nicebnfClass + "FundingIdentifier")
+    static member PatientGroupEntity = !!(Uri.nicebnfClass + "PatientGroup")
+
   type Graph with
       static member ReallyEmpty xp =
         let vds = new VDS.RDF.Graph()
@@ -64,7 +76,7 @@ module DrugRdf =
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
 
-      let s = [ Some(a !!"nicebnf:MedicinalForm")
+      let s = [ Some(a Uri.MedicinalFormEntity)
                 x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                 x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)]
       let dr r = resource (Uri.from x) r
@@ -78,7 +90,7 @@ module DrugRdf =
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
 
-      let s = [ Some(a !!"nicebnf:Drug")
+      let s = [ Some(a Uri.DrugEntity)
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)
                 x.primaryDomainOfEffect >>= (Graph.frompdoe >> Some)
@@ -101,22 +113,22 @@ module DrugRdf =
        |> Assert.graph og
 
     static member fromdc (InheritsFromClass (c)) =
-      one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a !!"nicebnf:DrugClass"]
+      one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a Uri.DrugClassEntity]
 
     static member fromc (Classification (_,is)) =
-      [(a !!"nicebnf:Classification")] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
+      [(a Uri.ClassificationEntity)] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
 
     //the label for this is in another part of the feed so will be created elsewhere
     static member fromcl (c:Classification) =
       one !!"nicebnf:hasClassification" (Uri.fromc c) (Graph.fromc c)
 
     static member fromil (i:InteractionLink) =
-      one !!"nicebnf:hasInteraction" (Uri.from i) [a !!"nicebnf:Interaction"]
+      one !!"nicebnf:hasInteraction" (Uri.from i) [a Uri.InteractionEntity]
 
     static member fromtu ((x:TheraputicUse), ?name0:string) =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"
       let s = match x with | TheraputicUse(n,u) ->
-                               [Some(a !!"nicebnf:TheraputicUse")
+                               [Some(a Uri.TheraputicUseEntity)
                                 Some(dataProperty !!"rdfs:label" (n^^xsd.string))
                                 u >>= (Graph.fromtu >> Some)]
       one !!name (Uri.from x) (s |> List.choose id)
@@ -132,7 +144,7 @@ module DrugRdf =
         | None -> None
 
     static member fromdoe (DomainOfEffect (n,p,s)) =
-      let s = [ Some(a !!"nicebnf:DomainOfEffect")
+      let s = [ Some(a Uri.DomainOfEffectEntity)
                 n >>= (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                 p >>= Graph.fromptu
                 s >>= Graph.fromstu]
@@ -151,23 +163,23 @@ module DrugRdf =
       let l = match x with | Route r -> r^^xsd.string
       Some(one !!"nicebnf:hasRoute" (Uri.from x)
             [dataProperty !!"rdfs:label" l
-             a !!"nicebnf:Route"])
+             a Uri.RouteEntity])
 
     static member from (x:Indication) =
       let l = match x with | Indication i -> i^^xsd.string
       Some(one !!"nicebnf:hasIndication" (Uri.from x)
             [dataProperty !!"rdfs:label" l
-             a !!"nicebnf:Indication" ])
+             a Uri.IndicationEntity ])
 
     static member from (x:FundingIdentifier) =
       let l = match x with | FundingIdentifier f -> f^^xsd.string
       Some(one !!"nicebnf:hasFundingIdentifier" (Uri.fromfi x)
               [dataProperty !!"rdfs:label" l
-               a !!"nicebnf:FundingIdentifier"])
+               a Uri.FundingIdentifierEntity])
 
     static member from (x:PatientGroup) =
       [ Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp x.Group)  [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
-                                                                      a !!"nicebnf:PatientGroup"
+                                                                      a Uri.PatientGroupEntity
                                                                       ])
         Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
         ]
@@ -199,7 +211,7 @@ module DrugRdf =
     static member from (RouteOfAdministration(r,pgs)) =
       let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
                             ([Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp pg.Group) [ dataProperty !!"rdfs:label" (pg.Group^^xsd.string)
-                                                                                            a !!"nicebnf:PatientGroup"
+                                                                                            a Uri.PatientGroupEntity
                                                                                             ])
                               Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
                               r >>= Graph.from] |> List.choose id)
