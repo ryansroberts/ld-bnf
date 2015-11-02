@@ -161,7 +161,7 @@ module DrugRdf =
 
     static member from (x:FundingIdentifier) =
       let l = match x with | FundingIdentifier f -> f^^xsd.string
-      Some(one !!"nicebnf:hasRoute" (Uri.fromfi x)
+      Some(one !!"nicebnf:hasFundingIdentifier" (Uri.fromfi x)
               [dataProperty !!"rdfs:label" l
                a !!"nicebnf:FundingIdentifier"])
 
@@ -224,7 +224,7 @@ module DrugRdf =
       blank !!"nicebnf:hasGeneralPatientAdvice" (s |> List.choose id)
 
     static member frommd (AdviceAroundMissedDoses s) =
-      blank !!"nicebnf:hasGeneralPatientAdvice" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+      blank !!"nicebnf:hasAdviceAroundMissedDoses" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member fromlvs (LicensingVariationStatement(Html(s))) =
       blank !!"nicebnf:hasLicensingVariationStatement" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
@@ -233,7 +233,7 @@ module DrugRdf =
       dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))
 
     static member frommfl (MedicinalFormLink(l)) =
-      blank !!"nicebnf:hasMedicinalFormLink"
+      blank !!"nicebnf:hasMedicinalForm"
         [dataProperty !!"rdfs:label" (l.Title^^xsd.string)
          dataProperty !!"nicebnf:medicinalForm" ((Uri.bnfsite + "medicinalform/" + l.Url.[1..])^^xsd.string)]
 
