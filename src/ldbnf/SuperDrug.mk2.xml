@@ -1,5 +1,5 @@
-<topic id="PHP6461" outputclass="drug" rev="1.11">
-  <title>ETHINYLESTRADIOL WITH ETONOGESTREL</title>
+<topic id="SUPERDRUG2" outputclass="drug" rev="1.11">
+  <title>SUPERDRUG ETHINYLESTRADIOL WITH ETONOGESTREL</title>
   <body>
     <data name="doi">doi:10.18578/BNF_778077044</data>
     <p outputclass="interactionsLinks"> List of individual interactants: <xref format="dita" href="bnf_int_783.xml">Ibuprofen</xref></p>
@@ -19,7 +19,7 @@
       <data name="domainOfEffect"> nervous system   </data>
     </data>
     <p outputclass="synonyms">
-      <b>Hydroxyurea</b>
+      <b>Superdrug</b>
       <b>Ethinylestradiol</b>
       <b>Etonogestrel</b>
     </p>
@@ -286,6 +286,14 @@
             <p outputclass="title">Changing from progestogen-only method</p>
             <p>From an implant or intra-uterine progestogen-only device, insert ring on the day implant or intra-uterine progestogen-only device removed; from an injection, insert ring when next injection due; from oral preparation, first ring may be inserted on any day after stopping pill. For all methods additional precautions (barrier methods) should be used concurrently for first 7 days.</p>
           </sectiondiv>
+          <sectiondiv>
+            <p outputclass="specificity">With <ph outputclass="route">intravenous</ph> use in neonates</p>
+            <p>For <i>slow intravenous injection</i>, give over 15 minutes, preferably undiluted. May be diluted with Glucose 5% <i>or</i> Sodium Chloride 0.9%.</p>
+          </sectiondiv>
+          <sectiondiv>
+            <p outputclass="specificity">With <ph outputclass="route">topical</ph> use in adults</p>
+            <p>For topical preparations, apply with gentle massage only.</p>
+          </sectiondiv>
         </sectiondiv>
       </section>
     </body>
@@ -306,6 +314,10 @@
             <li>unable to feel the threads.</li>
           </ul>
           <p>Patients should be informed on how to check their threads and to arrange a check-up if threads cannot be felt, especially if they also have significant pain. Partial perforation may occur even if the threads can be seen; consider this if there is severe pain following insertion and perform an ultrasound.</p>
+        </sectiondiv>
+        <sectiondiv>
+          <p outputclass="title">Restrictions on the use of co-trimoxazole</p>
+          <p>Co-trimoxazole is the drug of choice in the prophylaxis and treatment of <ph outputclass="organism"><i>Pneumocystis jirovecii</i></ph> (<ph outputclass="organism"><i>Pneumocystis carinii</i></ph>) pneumonia; it is also indicated for nocardiasis, <ph outputclass="organism"><i>Stenotrophomonas maltophilia</i></ph> infection [unlicensed indication], and toxoplasmosis. It should only be considered for use in acute exacerbations of chronic bronchitis and infections of the urinary tract when there is bacteriological evidence of sensitivity to co-trimoxazole and good reason to prefer this combination to a single antibacterial; similarly it should only be used in acute otitis media in children when there is good reason to prefer it. Co-trimoxazole is also used for the treatment of infections caused by <ph outputclass="organism"><i>Burkholderia cepacia</i></ph> in cystic fibrosis [unlicensed indication].</p>
         </sectiondiv>
       </section>
     </body>
@@ -392,6 +404,7 @@
               <ph outputclass="routesAndIndications">with <ph outputclass="route">oral</ph> use for contraception</ph>
               <ph outputclass="contraindication">history of breast cancer but can be used after 5 years if no evidence of disease and non-hormonal contraceptive methods unacceptable</ph>; <ph outputclass="contraindication">severe arterial disease</ph>; <ph outputclass="contraindication">undiagnosed vaginal bleeding</ph></p>
           </sectiondiv>
+        </sectiondiv>
       </section>
       <section outputclass="importantAdvice">
         <title>Contra-indications, further information</title>
@@ -576,7 +589,7 @@
               <p>
                 <ph outputclass="sideEffect">atrial fibrillation</ph>; <ph outputclass="sideEffect">cerebrovascular accident</ph>; <ph outputclass="sideEffect">facial oedema</ph>; <ph outputclass="sideEffect">hypersensitivity reactions</ph>; <ph outputclass="sideEffect">priapism</ph>; <ph outputclass="sideEffect">rash</ph>; <ph outputclass="sideEffect">Stevens-Johnson syndrome</ph>; <ph outputclass="sideEffect">syncope</ph></p>
             </sectiondiv>
-          </sectiondiv
+          </sectiondiv>
           <sectiondiv outputclass="veryRare">
             <p outputclass="title">Very rare</p>
             <sectiondiv outputclass="sideEffectsWithRoutes">
@@ -663,17 +676,6 @@
         <sectiondiv>
           <p>Overdosage with ibuprofen may cause nausea, vomiting, epigastric pain, and tinnitus, but more serious toxicity is very uncommon. <xref format="dita" href="PHP182.xml" type="drug">Charcoal, activated</xref> followed by symptomatic measures are indicated if more than 100 mg/kg has been ingested within the preceding hour.</p>
           <p>For details on the management of poisoning, see <xref format="dita" href="PHP78558.xml" type="bookmark">Emergency treatment of poisoning</xref>.</p>
-        </sectiondiv>
-      </section>
-    </body>
-  </topic>
-  <topic id="PHP40380" outputclass="importantSafetyInformation" rev="1.8">
-    <title>Important safety information</title>
-    <body>
-      <section>
-        <sectiondiv>
-          <p outputclass="title">Restrictions on the use of co-trimoxazole</p>
-          <p>Co-trimoxazole is the drug of choice in the prophylaxis and treatment of <ph outputclass="organism"><i>Pneumocystis jirovecii</i></ph> (<ph outputclass="organism"><i>Pneumocystis carinii</i></ph>) pneumonia; it is also indicated for nocardiasis, <ph outputclass="organism"><i>Stenotrophomonas maltophilia</i></ph> infection [unlicensed indication], and toxoplasmosis. It should only be considered for use in acute exacerbations of chronic bronchitis and infections of the urinary tract when there is bacteriological evidence of sensitivity to co-trimoxazole and good reason to prefer this combination to a single antibacterial; similarly it should only be used in acute otitis media in children when there is good reason to prefer it. Co-trimoxazole is also used for the treatment of infections caused by <ph outputclass="organism"><i>Burkholderia cepacia</i></ph> in cystic fibrosis [unlicensed indication].</p>
         </sectiondiv>
       </section>
     </body>
@@ -903,21 +905,6 @@
       </section>
     </body>
   </topic>
-  <topic id="PHP47614" outputclass="directionsForAdministration" rev="1.15">
-    <title>Directions for administration</title>
-    <body>
-      <section>
-        <sectiondiv>
-          <p outputclass="specificity">With <ph outputclass="route">intravenous</ph> use in neonates</p>
-          <p>For <i>slow intravenous injection</i>, give over 15 minutes, preferably undiluted. May be diluted with Glucose 5% <i>or</i> Sodium Chloride 0.9%.</p>
-        </sectiondiv>
-        <sectiondiv>
-          <p outputclass="specificity">With <ph outputclass="route">topical</ph> use in adults</p>
-          <p>For topical preparations, apply with gentle massage only.</p>
-        </sectiondiv>
-      </section>
-    </body>
-  </topic>
   <topic id="PHP60842" outputclass="prescribingAndDispensingInformation" rev="1.29">
     <title>Prescribing and dispensing information</title>
     <body>
@@ -958,12 +945,41 @@
             <xref format="html" href="http://www.medicinesforchildren.org.uk/ibuprofen-for-pain-and-inflammation">www.medicinesforchildren.org.uk/ibuprofen-for-pain-and-inflammation</xref>
           </p>
         </sectiondiv>
+        <sectiondiv>
+          <p outputclass="title">Methotrexate treatment booklets</p>
+          <p>Methotrexate treatment booklets should be issued where appropriate.</p>
+          <p>In <b>England</b>, <b>Wales</b>, and <b>Northern Ireland</b>, they are available for purchase from:</p>
+          <ul outputclass="organization">
+            <li outputclass="thoroughfare">Gorse Street, Chadderton</li>
+            <li outputclass="localityname">Oldham</li>
+            <li outputclass="postalcode">OL9 9QH</li>
+            <li outputclass="contactnumber">Tel: 0845 610 1112</li>
+          </ul>
+          <p>GP practices can obtain supplies through their Local Area Team stores. </p>
+          <p>NHS Hospitals can order supplies from <xref format="html" href="http://www.nhsforms.co.uk">www.nhsforms.co.uk</xref></p>
+          <p>or by emailing nhsforms@mmm.com.</p>
+          <p>In <b>Scotland</b>, treatment booklets can be obtained by emailing stockorders.dppas@theapsgroup.com or by fax on 0131 629 9967.</p>
+          <p>These booklets include advice for adults taking oral methotrexate for inflammatory conditions, and a section for recording results of blood tests and dosage information.</p>
+        </sectiondiv>
+      </section>
+      <section outputclass="generalPatientAdvice">
+        <sectiondiv>
+          <p>Patients should be advised to avoid self-medication with over-the-counter aspirin or ibuprofen.</p>
+          <p>Patients should be counselled on the dose, treatment booklet, and the use of NSAIDs.</p>
+        </sectiondiv>
+        <sectiondiv>
+          <p>Patients and their carers should be warned to report immediately the onset of any feature of blood disorders (e.g. sore throat, bruising, and mouth ulcers), liver toxicity (e.g. nausea, vomiting, abdominal discomfort and dark urine), and respiratory effects (e.g. shortness of breath).</p>
+        </sectiondiv>
       </section>
       <section outputclass="adviceAroundMissedDoses">
         <title>Missed doses</title>
         <sectiondiv>
           <p>When used as an oral contraceptive, the following advice is recommended ‘If you forget a pill, take it as soon as you remember and carry on with the next pill at the right time. If the pill was more than 3 hours overdue you are not protected. Continue normal pill-taking but you must also use another method, such as the condom, for the next 2 days’.</p>
           <p>The Faculty of Sexual and Reproductive Healthcare recommends emergency contraception if one or more progestogen-only contraceptive tablets are missed or taken more than 3 hours late and unprotected intercourse has occurred before 2 further tablets have been correctly taken.</p>
+        </sectiondiv>
+        <sectiondiv>
+          <p outputclass="specificity">With <ph outputclass="route">intramuscular</ph> use</p>
+          <p>For missed doses see product literature.</p>
         </sectiondiv>
       </section>
       <section outputclass="adviceAroundDrivingAndOtherTasks">
@@ -1116,45 +1132,6 @@
         <sectiondiv>
           <p outputclass="specificity">With <ph outputclass="route">topical</ph> use for <ph outputclass="indication">Seborrhoeic dermatitis and dandruff</ph></p>
           <p>Can be sold to the public for the prevention and treatment of dandruff and seborrhoeic dermatitis of the scalp as a shampoo formulation containing ketoconazole maximum 2%, in a pack containing maximum 120 mL and labelled to show a maximum frequency of application of once every 3 days.</p>
-        </sectiondiv>
-      </section>
-    </body>
-  </topic>
-  <topic id="PHP34872" outputclass="patientAndCarerAdvice" rev="1.54">
-    <title>Patient and carer advice</title>
-    <body>
-      <section outputclass="patientResources">
-        <sectiondiv>
-          <p outputclass="title">Methotrexate treatment booklets</p>
-          <p>Methotrexate treatment booklets should be issued where appropriate.</p>
-          <p>In <b>England</b>, <b>Wales</b>, and <b>Northern Ireland</b>, they are available for purchase from:</p>
-          <ul outputclass="organization">
-            <li outputclass="thoroughfare">Gorse Street, Chadderton</li>
-            <li outputclass="localityname">Oldham</li>
-            <li outputclass="postalcode">OL9 9QH</li>
-            <li outputclass="contactnumber">Tel: 0845 610 1112</li>
-          </ul>
-          <p>GP practices can obtain supplies through their Local Area Team stores. </p>
-          <p>NHS Hospitals can order supplies from <xref format="html" href="http://www.nhsforms.co.uk">www.nhsforms.co.uk</xref></p>
-          <p>or by emailing nhsforms@mmm.com.</p>
-          <p>In <b>Scotland</b>, treatment booklets can be obtained by emailing stockorders.dppas@theapsgroup.com or by fax on 0131 629 9967.</p>
-          <p>These booklets include advice for adults taking oral methotrexate for inflammatory conditions, and a section for recording results of blood tests and dosage information.</p>
-        </sectiondiv>
-      </section>
-      <section outputclass="generalPatientAdvice">
-        <sectiondiv>
-          <p>Patients should be advised to avoid self-medication with over-the-counter aspirin or ibuprofen.</p>
-          <p>Patients should be counselled on the dose, treatment booklet, and the use of NSAIDs.</p>
-        </sectiondiv>
-        <sectiondiv>
-          <p>Patients and their carers should be warned to report immediately the onset of any feature of blood disorders (e.g. sore throat, bruising, and mouth ulcers), liver toxicity (e.g. nausea, vomiting, abdominal discomfort and dark urine), and respiratory effects (e.g. shortness of breath).</p>
-        </sectiondiv>
-      </section>
-      <section outputclass="adviceAroundMissedDoses">
-        <title>Missed doses</title>
-        <sectiondiv>
-          <p outputclass="specificity">With <ph outputclass="route">intramuscular</ph> use</p>
-          <p>For missed doses see product literature.</p>
         </sectiondiv>
       </section>
     </body>
