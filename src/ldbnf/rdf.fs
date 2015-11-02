@@ -31,8 +31,7 @@ module DrugRdf =
     static member from (Indication s) = !!(Uri.nicebnfClass + "Indication#" + (NameUtils.niceCamelName s))
     static member fromc (Classification (Id s,_)) = !!(Uri.nicebnfClass + "Classification#" + s)
     static member fromfi (FundingIdentifier s) = !!(Uri.nicebnfClass + "FundingIdentifier#" + s)
-    static member fromgrp (s:string) = !!(Uri.nicebnfClass + "Group#" + (NameUtils.niceCamelName s))
-    static member fromdsg (s:string) = !!(Uri.nicebnfClass + "Dosage#" + (NameUtils.niceCamelName s))
+    static member fromgrp (s:string) = !!(Uri.nicebnfClass + "PatientGroup#" + (NameUtils.niceCamelName s))
     static member from (TheraputicUse (s,_)) = !!(Uri.nicebnfClass + "TheraputicUse#" + (NameUtils.niceCamelName s))
     static member from (DomainOfEffect (s,_,_)) = !!(Uri.nicebnfClass + "DomainOfEffect#" + (NameUtils.niceCamelName (s.Value.Trim())))
     static member fromse (SideEffect s) = !!(Uri.nicebnfClass + "SideEffect#" + (NameUtils.niceCamelName s))
@@ -167,9 +166,9 @@ module DrugRdf =
                a !!"nicebnf:FundingIdentifier"])
 
     static member from (x:PatientGroup) =
-      [ Some(one !!"nicebnf:hasGroup" (Uri.fromgrp x.Group) [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
-                                                              a !!"nicebnf:PatientGroup"
-                                                              ])
+      [ Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp x.Group)  [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
+                                                                      a !!"nicebnf:PatientGroup"
+                                                                      ])
         Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
         ]
 
@@ -199,9 +198,11 @@ module DrugRdf =
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
       let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
-                           ([Some(objectProperty !!"nicebnf:hasGroup" (Uri.fromgrp pg.Group))
-                             Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
-                             r >>= Graph.from] |> List.choose id)
+                            ([Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp pg.Group) [ dataProperty !!"rdfs:label" (pg.Group^^xsd.string)
+                                                                                            a !!"nicebnf:PatientGroup"
+                                                                                            ])
+                              Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
+                              r >>= Graph.from] |> List.choose id)
       pgs |> Seq.map patientGrp
 
     static member from (TheraputicIndication s) =
