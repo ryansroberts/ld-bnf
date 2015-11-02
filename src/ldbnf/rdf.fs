@@ -118,7 +118,6 @@ module DrugRdf =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"
       let s = match x with | TheraputicUse(n,u) ->
                                [Some(a !!"nicebnf:TheraputicUse")
-                                Some(objectProperty !!"rdfs:subClassOf" !!"nicebnf:TheraputicUse")
                                 Some(dataProperty !!"rdfs:label" (n^^xsd.string))
                                 u >>= (Graph.fromtu >> Some)]
       one !!name (Uri.from x) (s |> List.choose id)
@@ -135,7 +134,6 @@ module DrugRdf =
 
     static member fromdoe (DomainOfEffect (n,p,s)) =
       let s = [ Some(a !!"nicebnf:DomainOfEffect")
-                Some(objectProperty !!"rdfs:subClassOf" !!"nicebnf:DomainOfEffect")
                 n >>= (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                 p >>= Graph.fromptu
                 s >>= Graph.fromstu]
@@ -154,26 +152,22 @@ module DrugRdf =
       let l = match x with | Route r -> r^^xsd.string
       Some(one !!"nicebnf:hasRoute" (Uri.from x)
             [dataProperty !!"rdfs:label" l
-             objectProperty !!"rdfs:subClassOf" !!"nicebnf:hasRoute"
              a !!"nicebnf:Route"])
 
     static member from (x:Indication) =
       let l = match x with | Indication i -> i^^xsd.string
       Some(one !!"nicebnf:hasIndication" (Uri.from x)
             [dataProperty !!"rdfs:label" l
-             objectProperty !!"rdfs:subClassOf" !!"nicebnf:Indication"
              a !!"nicebnf:Indication" ])
 
     static member from (x:FundingIdentifier) =
       let l = match x with | FundingIdentifier f -> f^^xsd.string
       Some(one !!"nicebnf:hasRoute" (Uri.fromfi x)
               [dataProperty !!"rdfs:label" l
-               objectProperty !!"rdfs:subClassOf" !!"nicebnf:hasFundingIdentifier"
                a !!"nicebnf:FundingIdentifier"])
 
     static member from (x:PatientGroup) =
       [ Some(one !!"nicebnf:hasGroup" (Uri.fromgrp x.Group) [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
-                                                              objectProperty !!"rdfs:subClassOf" !!"nicebnf:PatientGroup"
                                                               a !!"nicebnf:PatientGroup"
                                                               ])
         Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
