@@ -104,7 +104,7 @@ module DrugRdf =
       one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a !!"nicebnf:DrugClass"]
 
     static member fromc (Classification (_,is)) =
-      [(objectProperty !!"rdfs:subClassOf" !!"nicebnf:Classification")] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
+      [(a !!"nicebnf:Classification")] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
 
     //the label for this is in another part of the feed so will be created elsewhere
     static member fromcl (c:Classification) =
