@@ -339,17 +339,17 @@ module DrugRdf =
         | BreastFeeding (i,gs) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs])
         | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                        statments Graph.fromda das])
-        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairment" (sid i) [statments Graph.fromgi gs
-                                                                                 statments Graph.fromamri amri
-                                                                                 statments Graph.fromda das])
+        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairmentWarning" (sid i) [statments Graph.fromgi gs
+                                                                                        statments Graph.fromamri amri
+                                                                                        statments Graph.fromda das])
         | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [statments Graph.fromidg g])
         | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frommd md
                                                                                         statments Graph.fromgpa gpa ])
-        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [statment Graph.fromlvs lvs
-                                                                                 statment Graph.fromhtml html
-                                                                                 statments Graph.frommfl mfls])
-        | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivity" (sid i) [statment Graph.fromcsc csc
-                                                                                                    statment Graph.fromcscs cscs])
+        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [ statment Graph.fromlvs lvs
+                                                                                  statment Graph.fromhtml html
+                                                                                  statments Graph.frommfl mfls])
+        | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivityWarning" (sid i) [ statment Graph.fromcsc csc
+                                                                                                            statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
         | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
         | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.fromelt elts])
