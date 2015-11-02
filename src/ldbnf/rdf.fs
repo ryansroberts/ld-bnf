@@ -23,7 +23,7 @@ module DrugRdf =
     static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "medicinalform/" + string x.id )
-    //static member frommfl (x:Link) = !!(Uri.bnfsite + "medicinalform/" + x.Url.[1..])
+    static member from (x:MedicinalProduct) = !!(Uri.bnfsite + "medicinalproduct/" + string x.ampid)
     static member fromdc (s:string) = !!(Uri.bnfsite + "drugclass/"  + s)
     static member from (InteractionLink (l)) = !!(Uri.bnfsite + "interactions/" + l.Url)
 
@@ -43,6 +43,7 @@ module DrugRdf =
     static member DrugClassEntity = !!(Uri.nicebnfClass + "DrugClass")
     static member DrugEntity = !!(Uri.nicebnfClass + "Drug")
     static member MedicinalFormEntity = !!(Uri.nicebnfClass + "MedicinalForm")
+    static member MedicinalProductEntity = !!(Uri.nicebnfClass + "MedicinalProduct")
     static member InteractionEntity = !!(Uri.nicebnfClass + "Interaction")
     static member TheraputicUseEntity = !!(Uri.nicebnfClass + "TheraputicUse")
     static member IndicationEntity = !!(Uri.nicebnfClass + "Indication")
@@ -78,7 +79,7 @@ module DrugRdf =
       let s = [m >>= Graph.fromman
                bt >>= Graph.frombt
                tc t] |> List.choose id
-      blank !!"nicebnf:hasMedicinalProductTitle" s
+      blank !!"nicebnf:hasMedicinalProductTitle" s |> Some
 
     //static member fromapmid(Ampid x) =
 
@@ -117,7 +118,14 @@ module DrugRdf =
                Some(a !!"nicebnf:Pack")] |> List.choose id
       blank !!"nicebnf:hasPack" s
 
-    //static member from (x:MedicinalProduct) =
+    static member from (x:MedicinalProduct) =
+      let s = [Some(a Uri.MedicinalProductEntity)
+               Some(x.ampid |> string |> Graph.dp "Ampid")
+               x.title |> Graph.frommpt
+               x.strengthOfActiveIngredient >>= Graph.fromsai
+               ] |> List.choose id
+      let ps = x.packs |> List.map Graph.frompack
+      one !!"nicebnf:hasMedicinalProduct" (Uri.from x) (s @ ps)
 
 
     static member from (x:MedicinalForm) =
@@ -128,9 +136,12 @@ module DrugRdf =
 
       let s = [ Some(a Uri.MedicinalFormEntity)
                 x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
-                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)]
+                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)] |> List.choose id
+
+      let mps = x.medicinalProducts |> List.map Graph.from
       let dr r = resource (Uri.from x) r
-      [dr (s |> List.choose id)]
+      [dr s
+       dr mps]
        |> Assert.graph og
 
   type Graph with

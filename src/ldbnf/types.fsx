@@ -12,6 +12,7 @@
 
 #r "../../packages/Arachne.Uri/lib/net45/Arachne.Uri.dll"
 #r "System.Xml.Linq.dll"
+#load "./prelude.fs"
 #load "./drugmodel.fs"
 #load "./rdf.fs"
 
@@ -20,7 +21,6 @@ open System.IO
 
 open System.Xml.Linq
 open FSharp.Data
-open Arachne.Uri
 open Bnf.Drug
 open Bnf.DrugParser
 open FSharp.RDF

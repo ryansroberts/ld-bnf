@@ -27,7 +27,9 @@ module MedicinalForm =
 
   type MedicinalProductTitle = | MedicinalProductTitle of Option<Manufacturer> * Option<BlackTriangle> * mfProvider.Title
 
-  type Ampid = | Ampid of int64
+  type Ampid =
+    | Ampid of int64
+    override __.ToString() = match __ with | Ampid x -> string x
 
   type StrengthOfActiveIngredient = | StrengthOfActiveIngredient of mfProvider.P
 
