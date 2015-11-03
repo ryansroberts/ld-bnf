@@ -4,7 +4,7 @@ open FSharp.Data
 module Shared =
   type Id =
     | Id of string
-    override __.ToString() = match __ with | Id x -> x
+    override __.ToString () = match __ with | Id x -> x
 
 
 module Drug =
