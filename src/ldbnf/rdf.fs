@@ -415,31 +415,31 @@ module DrugRdf =
         | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                         statments Graph.fromamri amri
                                                                                         statments Graph.fromda das])
-        | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [statments Graph.fromidg g])
+        | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDosageInformation" (sid i) [statments Graph.fromidg g])
         | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frommd md
                                                                                         statments Graph.fromgpa gpa ])
-        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [ statment Graph.fromlvs lvs
-                                                                                  statment Graph.fromhtml html
-                                                                                  statments Graph.frommfl mfls])
+        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalFormInformation" (sid i) [ statment Graph.fromlvs lvs
+                                                                                            statment Graph.fromhtml html
+                                                                                            statments Graph.frommfl mfls])
         | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivityWarning" (sid i) [ statment Graph.fromcsc csc
                                                                                                             statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
         | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
         | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.fromelt elts])
-        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreenings" (sid i) [statments Graph.frompts ptss])
-        | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribings" (sid i) [statments Graph.fromlsfp lsfps])
-        | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorages" (sid i) [statments Graph.fromhas hass])
-        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessations" (sid i) [statments Graph.fromtc tcs])
+        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreeningInformation" (sid i) [statments Graph.frompts ptss])
+        | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribing" (sid i) [statments Graph.fromlsfp lsfps])
+        | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorageInformation" (sid i) [statments Graph.fromhas hass])
+        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessationInformation" (sid i) [statments Graph.fromtc tcs])
         | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
         | SideEffects (i,fres,seas) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
                                                                        statments Graph.fromsea seas])
-        | Contraindications (i,cs,ps) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
+        | Contraindications (i,cs,ps) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cs
                                                                                statments xml ps])
         | Cautions (i,cgs) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs])
-        | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
-        | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
-        | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptions" (sid i) [statments Graph.fromcac cacs])
-        | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformations" (sid i) [statments Graph.fromisi isis])
-        | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministrations" (sid i) [statments Graph.fromdfa dfas])
+        | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformation" (sid i) [statments Graph.frompadi padi])
+        | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUsageInformation" (sid i) [statments Graph.fromulu ulus])
+        | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptionWarning" (sid i) [statments Graph.fromcac cacs])
+        | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformation" (sid i) [statments Graph.fromisi isis])
+        | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministration" (sid i) [statments Graph.fromdfa dfas])
         | NationalFunding (i,fds) -> Some(sec "NationalFunding" (sid i) [statments Graph.fromfd fds])
         | _ -> None
