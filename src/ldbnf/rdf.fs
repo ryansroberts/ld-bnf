@@ -311,11 +311,11 @@ module DrugRdf =
          dataProperty !!"nicebnf:medicinalForm" ((Uri.bnfsite + "medicinalform/" + l.Url.[1..])^^xsd.string)]
 
     static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
-      blank !!"nicebnf:hasAllergyAndCrossSensitivityContraindications"
+      blank !!"nicebnf:hasContraIndications"
         [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member fromcscs (AllergyAndCrossSensitivityCrossSensitivity s) =
-      blank !!"nicebnf:hasAllergyAndCrossSensitivityCrossSensitivity"
+      blank !!"nicebnf:hasCrossSensitivity"
         [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member from (x:drugProvider.Sectiondiv) =
@@ -326,16 +326,16 @@ module DrugRdf =
        Some(Graph.from s)] |> List.choose id
 
     static member fromexc (ExceptionToLegalCategory (sp,s)) =
-      blank !!"nicebnf:hasExceptionToLegalCategory" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasException" (Graph.frompair (sp,s))
 
     static member fromden (DentalPractitionersFormulary (sp,s)) =
       blank !!"nicebnf:hasDentalPractitionersFormulary" (Graph.frompair (sp,s))
 
     static member fromlsfp (LessSuitableForPrescribing (sp,s)) =
-      blank !!"nicebnf:hasLessSuitableForPrescribing" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
 
     static member fromhas (HandlingAndStorage (sp,s)) =
-      blank !!"nicebnf:hasHandlingAndStorage" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
 
     static member fromelt (EffectOnLaboratoryTest s) = Graph.from s
     static member frompts (PreTreatmentScreening s) = Graph.from s
@@ -371,16 +371,16 @@ module DrugRdf =
                                                 :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
-      blank !!"nicebnf:hasPrescribingAndDispensingInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
     static member fromulu (UnlicencedUse (sp,s)) =
-      blank !!"nicebnf:hasUnlicencedUse" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
     static member fromcac (ConceptionAndContraception (sp,s)) =
-      blank !!"nicebnf:hasConceptionAndContraception" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
     static member fromisi (ImportantSafetyInformation(t,sp,s)) =
       let st = [t >>= Graph.fromti] |> List.choose id
-      blank !!"nicebnf:hasImportantSafetyInformation" (st @ (Graph.frompair (sp,s)))
+      blank !!"nicebnf:hasGeneralInformation" (st @ (Graph.frompair (sp,s)))
     static member fromdfa (DirectionsForAdministration (sp,s)) =
-      blank !!"nicebnf:hasDirectionsForAdministration" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
 
     static member fromfd (x:FundingDecision) =
       match x with
