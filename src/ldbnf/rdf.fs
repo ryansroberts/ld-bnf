@@ -384,14 +384,14 @@ module DrugRdf =
 
     static member fromfd (x:FundingDecision) =
       match x with
-        | NonNHS(sp,s) -> blank !!"nicebnf:hasNonNHS" (Graph.frompair (sp,s))
-        | SmcDecisions(sp,s) -> blank !!"nicebnf:hasSmcDecisions" (Graph.frompair(sp,s))
+        | NonNHS(sp,s) -> blank !!"nicebnf:hasNonNHSDecision" (Graph.frompair (sp,s))
+        | SmcDecisions(sp,s) -> blank !!"nicebnf:hasSmcDecision" (Graph.frompair(sp,s))
         | NiceTechnologyAppraisals(fi,t,sp,s) ->
            let s = [sp >>= (Graph.fromsp >> Some)
                     Some(Graph.from s)
                     t >>= Graph.fromti
                     fi >>= Graph.from] |> List.choose id
-           blank !!"nicebnf:hasNiceTechnologyAppraisals" s
+           blank !!"nicebnf:hasNiceTechnologyAppraisalDecision" s
 
     static member fromsec sid (x:MonographSection) =
 
