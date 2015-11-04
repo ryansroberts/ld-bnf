@@ -408,6 +408,9 @@ module DrugRdf =
                     fi >>= Graph.from] |> List.choose id
            blank !!"nicebnf:hasNiceTechnologyAppraisals" s
 
+    static member frominter (Interaction(sp,s)) =
+      blank !!"nicebnf:hasInteraction" (Graph.frompair(sp,s))
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -460,4 +463,5 @@ module DrugRdf =
         | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformations" (sid i) [statments Graph.fromisi isis])
         | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministrations" (sid i) [statments Graph.fromdfa dfas])
         | NationalFunding (i,fds) -> Some(sec "NationalFunding" (sid i) [statments Graph.fromfd fds])
+        | Interactions (i,is) -> Some(sec "Interactions" (sid i) [statments Graph.frominter is])
         | _ -> None

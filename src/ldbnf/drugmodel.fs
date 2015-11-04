@@ -147,6 +147,8 @@ module Drug =
       | NiceTechnologyAppraisals of FundingIdentifier option * Title option * Specificity option * drugProvider.Sectiondiv
       | SmcDecisions of Specificity option * drugProvider.Sectiondiv
 
+    type Interaction = | Interaction of Specificity option * drugProvider.Sectiondiv
+
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq * IndicationsAndDoseSection seq
         | Pregnancy of Id * GeneralInformation seq
@@ -174,6 +176,7 @@ module Drug =
         | ImportantSafetyInformations of Id * ImportantSafetyInformation seq
         | DirectionsForAdministrations of Id * DirectionsForAdministration seq
         | NationalFunding of Id * FundingDecision seq
+        | Interactions of Id * Interaction seq
 
 //re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
 //add revision numbers
@@ -671,9 +674,15 @@ module DrugParser =
         DirectionsForAdministrations(Id(x.Id), allsections x |> Array.map (addSpecificity >> DirectionsForAdministration))
       static member nationalFunding (x:drugProvider.Topic) =
         let fds =  match x.Body with
-          | Some b -> b.Sections |> Array.collect FundingDecision.from
-          | None -> [||]
+                         | Some b -> b.Sections |> Array.collect FundingDecision.from
+                         | None -> [||]
         NationalFunding(Id(x.Id),fds)
+      static member interactions (x:drugProvider.Topic) =
+        let fs = x |> firstsection (withclass "general")
+        let is = match fs with
+                 | Some s -> s.Sectiondivs |> Array.map (addSpecificity >> Interaction)
+                 | None -> [||]
+        Interactions(Id(x.Id),is)
 
     type Drug with
       static member parse (x:drugProvider.Topic) =
@@ -720,6 +729,7 @@ module DrugParser =
                 | HasOutputClass "importantSafetyInformation" _ -> Some(MonographSection.importantSafetyInformation x)
                 | HasOutputClass "directionsForAdministration" _ -> Some(MonographSection.directionsForAdministration x)
                 | HasOutputClass "nationalFunding" _ -> Some(MonographSection.nationalFunding x)
+                | HasOutputClass "interactions" _ -> Some(MonographSection.interactions x)
                 | _ -> None
 
         let sections =
