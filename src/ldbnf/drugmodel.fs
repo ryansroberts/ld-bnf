@@ -111,6 +111,8 @@ module Drug =
 
     type Contraindication = | Contraindication of drugProvider.Ph
 
+    type ImportantAdvice = | ImportantAdvice of Title option * Specificity option * drugProvider.Sectiondiv
+
     type Caution = Caution of drugProvider.Ph
 
     type CautionsGroup =
@@ -163,7 +165,7 @@ module Drug =
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
         | SideEffects of Id * Frequency seq * SideEffectAdvice seq
-        | Contraindications of Id * Contraindication seq * drugProvider.P seq
+        | Contraindications of Id * Contraindication seq * drugProvider.P seq * ImportantAdvice seq
         | Cautions of Id * CautionsGroup list
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
         | UnlicencedUses of Id * UnlicencedUse seq
@@ -372,7 +374,7 @@ module DrugParser =
 
     let subsections cl c s =
       s |> Array.filter (hasOutputclasso cl) |> Array.collect c
-
+   
     let renalImpairment (x:drugProvider.Topic) =
       match x.Body with
         | Some(b) -> 
@@ -529,6 +531,9 @@ module DrugParser =
         | Some b -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
         | None -> Array.empty<drugProvider.Sectiondiv>
 
+    let sectiondivs cl (s:drugProvider.Section[]) =
+      s |> Array.filter (hasOutputclasso cl) |> Array.collect (fun sec -> sec.Sectiondivs)
+
     type Frequency with
       static member from (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
@@ -626,11 +631,15 @@ module DrugParser =
         match x.Body with
           | Some b ->
              let cs = b.Sections |> Array.choose (withclass "contraindications")
+             let ias = b.Sections
+                      |> (sectiondivs "importantAdvice")
+                      |> Array.map (addSpecificity >> addTitle >> ImportantAdvice) 
              Contraindications(
                Id(x.Id),
                cs |> Array.collect Contraindication.from,
-               cs |> Array.collect Contraindication.content)
-          | None -> Contraindications(Id(x.Id), Array.empty<Contraindication>, Array.empty<drugProvider.P>)
+               cs |> Array.collect Contraindication.content,
+               ias)
+          | None -> Contraindications(Id(x.Id), Array.empty<Contraindication>, Array.empty<drugProvider.P>,Array.empty<ImportantAdvice>)
       static member cautions (x:drugProvider.Topic) =
         let s = firstsection (withclass "cautions") x 
         match s with 

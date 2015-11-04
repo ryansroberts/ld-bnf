@@ -334,6 +334,10 @@ module DrugRdf =
       [sp >>= (Graph.fromsp >> Some)
        Some(Graph.from s)] |> List.choose id
 
+    static member fromthree (t,sp,s) =
+      let st = [t >>= Graph.fromti] |> List.choose id
+      st @ (Graph.frompair (sp,s))
+
     static member fromexc (ExceptionToLegalCategory (sp,s)) =
       blank !!"nicebnf:hasExceptionToLegalCategory" (Graph.frompair (sp,s))
 
@@ -367,6 +371,9 @@ module DrugRdf =
     static member fromcon (Contraindication ph) =
       blank !!"nicebnf:hasContraindication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]
 
+    static member fromia (ImportantAdvice (t,sp,s)) =
+      blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
+
     static member fromcg (x:CautionsGroup) =
       let cau x = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
       let gen (p,cs) = (dataProperty !!"cnt:ContentAsXML" (xsd.string(p.ToString()))) :: (cs |> List.map cau)
@@ -386,8 +393,7 @@ module DrugRdf =
     static member fromcac (ConceptionAndContraception (sp,s)) =
       blank !!"nicebnf:hasConceptionAndContraception" (Graph.frompair (sp,s))
     static member fromisi (ImportantSafetyInformation(t,sp,s)) =
-      let st = [t >>= Graph.fromti] |> List.choose id
-      blank !!"nicebnf:hasImportantSafetyInformation" (st @ (Graph.frompair (sp,s)))
+      blank !!"nicebnf:hasImportantSafetyInformation" (Graph.fromthree (t,sp,s))
     static member fromdfa (DirectionsForAdministration (sp,s)) =
       blank !!"nicebnf:hasDirectionsForAdministration" (Graph.frompair (sp,s))
 
@@ -443,8 +449,9 @@ module DrugRdf =
         | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
         | SideEffects (i,fres,seas) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
                                                                        statments Graph.fromsea seas])
-        | Contraindications (i,cs,ps) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
-                                                                               statments xml ps])
+        | Contraindications (i,cs,ps,ias) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
+                                                                                   statments xml ps
+                                                                                   statments Graph.fromia ias])
         | Cautions (i,cgs) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs])
         | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
         | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
