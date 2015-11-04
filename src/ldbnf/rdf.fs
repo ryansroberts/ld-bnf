@@ -369,7 +369,7 @@ module DrugRdf =
       blank !!"nicebnf:hasSideEffectAdvice" (s |> List.choose id)
 
     static member fromcon (Contraindication ph) =
-      blank !!"nicebnf:hasContraindication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]
+      blank !!"nicebnf:hasContraIndication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]
 
     static member fromia (ImportantAdvice (t,sp,s)) =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
@@ -452,7 +452,7 @@ module DrugRdf =
         | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
         | SideEffects (i,fres,seas) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
                                                                        statments Graph.fromsea seas])
-        | Contraindications (i,cs,ps,ias) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
+        | Contraindications (i,cs,ps,ias) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cs
                                                                                    statments xml ps
                                                                                    statments Graph.fromia ias])
         | Cautions (i,cgs,ias) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs
