@@ -355,18 +355,29 @@ module DrugRdf =
     static member fromtc (TreatmentCessation s) = Graph.from s
     static member fromdac (DrugAction s) = Graph.from s
 
-    static member fromfre (Frequency (f,ses)) =
-      let s = ses |> Seq.map Graph.from |> Seq.toList
-      let f = one !!"nicebnf:hasFrequency" (Uri.fromfre f) [a !!"nicebnf:Frequency"]
-      blank !!"nicebnf:hasFrequencyGroup" (f :: s)
 
-    static member from (x:SideEffect) =
+    static member fromse (x:SideEffect) =
       one !!"nicebnf:hasSideEffect" (Uri.fromse x) [a !!"nicebnf:SideEffect"]
 
     static member fromsea (SideEffectAdvice (sp,s)) =
       let s = [sp >>= (Graph.fromsp >> Some)
                Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString())))]
       blank !!"nicebnf:hasSideEffectAdvice" (s |> List.choose id)
+
+    static member fromfre (x:Frequency) =
+        let gf (f,ses) =
+          let s = ses |> Seq.map Graph.fromse |> Seq.toList
+          let fr = one !!"nicebnf:hasFrequency" (Uri.fromfre f) [a !!"nicebnf:Frequency"]
+          (fr :: s)
+        match x with
+          | GeneralFrequency (f,ses) -> 
+            blank !!"nicebnf:hasGeneralFrequencyGroup" (gf(f,ses))
+          | SpecificFrequency (f,ses,t) ->
+            let ti = t >>= Graph.fromti
+            let s = match ti with
+                    | Some t -> t :: gf(f,ses)
+                    | None -> gf(f,ses)
+            blank !!"nicebnf:hasSpecificFrequencyGroup" s
 
     static member fromcon (Contraindication ph) =
       blank !!"nicebnf:hasContraindication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]

@@ -107,7 +107,9 @@ module Drug =
 
     type SideEffect = | SideEffect of string
 
-    type Frequency = | Frequency of string * SideEffect seq
+    type Frequency =
+      | GeneralFrequency of string * SideEffect seq
+      | SpecificFrequency of string * SideEffect seq * Title option
 
     type Contraindication = | Contraindication of drugProvider.Ph
 
@@ -545,10 +547,15 @@ module DrugParser =
           | None -> Array.empty<drugProvider.Sectiondiv>
 
     type Frequency with
-      static member from (x:drugProvider.Sectiondiv) =
+      static member fromge (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
         let s = x.Sectiondivs.[0].Ps.[0].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
-        Frequency(c,s)
+        GeneralFrequency(c,s)
+      static member fromsp (x:drugProvider.Sectiondiv) =
+        let c = x.Outputclass.Value
+        let s = x.Sectiondivs.[0].Ps.[0].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
+        let t = extractTitle x
+        SpecificFrequency(c,s,t)
 
     type SideEffectAdvice with
       static member from (x:drugProvider.Sectiondiv) =
@@ -627,16 +634,15 @@ module DrugParser =
       static member drugActions (x:drugProvider.Topic) =
         DrugActions(Id(x.Id), allsections x |> Array.map DrugAction)
       static member sideEffects (x:drugProvider.Topic) =
-        match x.Body with
-          | Some b ->
-             let f = b.Sections
-                     |> Array.choose (withclass "frequencies")
-                     |> Array.map (fun s -> s.Sectiondivs.[0] |> Frequency.from)
-             let a = b.Sections
-                     |> Array.choose (withclass "sideEffectsAdvice")
-                     |> Array.collect (fun s -> s.Sectiondivs |> Array.map SideEffectAdvice.from)
-             SideEffects(Id(x.Id),f,a)
-          | None -> SideEffects(Id(x.Id),Array.empty<Frequency>,Array.empty<SideEffectAdvice>) 
+        let gse = x |> (somesections "generalSideEffects")
+                    |> Array.filter (hasOutputclasso "frequencies")
+                    |> Array.map Frequency.fromge
+        let sse = x |> (somesections "specificSideEffects")
+                    |> Array.filter (hasOutputclasso "frequencies")
+                    |> Array.map Frequency.fromsp
+        let adv = x |> (somesections "sideEffectsAdvice")
+                    |> Array.map SideEffectAdvice.from
+        SideEffects(Id(x.Id), Array.concat [gse;sse] ,adv) 
       static member contraindications (x:drugProvider.Topic) =
         match x.Body with
           | Some b ->
