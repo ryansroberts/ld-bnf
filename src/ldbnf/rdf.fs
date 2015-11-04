@@ -288,7 +288,7 @@ module DrugRdf =
 
     static member fromidgs (x:IndicationsAndDoseSection) =
       let dp n = string >> xsd.xmlliteral >> (dataProperty !!("nicebnf:has" + n))
-      match x with 
+      match x with
        | Pharmacokinetics s -> s |> dp "Pharmacokinetics"
        | DoseEquivalence s -> s |> dp "DoseEquivalence"
        | DoseAdjustments s -> s |> dp "DoseAdjustments"
@@ -320,11 +320,11 @@ module DrugRdf =
          dataProperty !!"nicebnf:medicinalForm" ((Uri.bnfsite + "medicinalform/" + l.Url.[1..])^^xsd.string)]
 
     static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
-      blank !!"nicebnf:hasAllergyAndCrossSensitivityContraindications"
+      blank !!"nicebnf:hasContraIndication"
         [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member fromcscs (AllergyAndCrossSensitivityCrossSensitivity s) =
-      blank !!"nicebnf:hasAllergyAndCrossSensitivityCrossSensitivity"
+      blank !!"nicebnf:hasCrossSensitivity"
         [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member from (x:drugProvider.Sectiondiv) =
@@ -339,16 +339,16 @@ module DrugRdf =
       st @ (Graph.frompair (sp,s))
 
     static member fromexc (ExceptionToLegalCategory (sp,s)) =
-      blank !!"nicebnf:hasExceptionToLegalCategory" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasException" (Graph.frompair (sp,s))
 
     static member fromden (DentalPractitionersFormulary (sp,s)) =
       blank !!"nicebnf:hasDentalPractitionersFormulary" (Graph.frompair (sp,s))
 
     static member fromlsfp (LessSuitableForPrescribing (sp,s)) =
-      blank !!"nicebnf:hasLessSuitableForPrescribing" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
 
     static member fromhas (HandlingAndStorage (sp,s)) =
-      blank !!"nicebnf:hasHandlingAndStorage" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
 
     static member fromelt (EffectOnLaboratoryTest s) = Graph.from s
     static member frompts (PreTreatmentScreening s) = Graph.from s
@@ -387,26 +387,26 @@ module DrugRdf =
                                                 :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
-      blank !!"nicebnf:hasPrescribingAndDispensingInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
     static member fromulu (UnlicencedUse (sp,s)) =
-      blank !!"nicebnf:hasUnlicencedUse" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
     static member fromcac (ConceptionAndContraception (sp,s)) =
-      blank !!"nicebnf:hasConceptionAndContraception" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
     static member fromisi (ImportantSafetyInformation(t,sp,s)) =
-      blank !!"nicebnf:hasImportantSafetyInformation" (Graph.fromthree (t,sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.fromthree (t,sp,s))
     static member fromdfa (DirectionsForAdministration (sp,s))=
-      blank !!"nicebnf:hasDirectionsForAdministration" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
 
     static member fromfd (x:FundingDecision) =
       match x with
-        | NonNHS(sp,s) -> blank !!"nicebnf:hasNonNHS" (Graph.frompair (sp,s))
-        | SmcDecisions(sp,s) -> blank !!"nicebnf:hasSmcDecisions" (Graph.frompair(sp,s))
+        | NonNHS(sp,s) -> blank !!"nicebnf:hasNonNHSDecision" (Graph.frompair (sp,s))
+        | SmcDecisions(sp,s) -> blank !!"nicebnf:hasSmcDecision" (Graph.frompair(sp,s))
         | NiceTechnologyAppraisals(fi,t,sp,s) ->
            let s = [sp >>= (Graph.fromsp >> Some)
                     Some(Graph.from s)
                     t >>= Graph.fromti
                     fi >>= Graph.from] |> List.choose id
-           blank !!"nicebnf:hasNiceTechnologyAppraisals" s
+           blank !!"nicebnf:hasNiceTechnologyAppraisalDecision" s
 
     static member frominter (Interaction(sp,s)) =
       blank !!"nicebnf:hasInteraction" (Graph.frompair(sp,s))
@@ -433,22 +433,22 @@ module DrugRdf =
         | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                         statments Graph.fromamri amri
                                                                                         statments Graph.fromda das])
-        | IndicationsAndDoseGroup (i,g,gss) -> Some(sec "IndicationAndDoseGroup" (sid i) [statments Graph.fromidg g
-                                                                                          statments Graph.fromidgs gss])
+        | IndicationsAndDoseGroup (i,g,gss) -> Some(sec "IndicationAndDosageInformation" (sid i) [statments Graph.fromidg g
+                                                                                                  statments Graph.fromidgs gss])
         | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frommd md
                                                                                         statments Graph.fromgpa gpa ])
-        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [ statment Graph.fromlvs lvs
-                                                                                  statment Graph.fromhtml html
-                                                                                  statments Graph.frommfl mfls])
+        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalFormInformation" (sid i) [ statment Graph.fromlvs lvs
+                                                                                            statment Graph.fromhtml html
+                                                                                            statments Graph.frommfl mfls])
         | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivityWarning" (sid i) [ statment Graph.fromcsc csc
                                                                                                             statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
         | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
         | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.fromelt elts])
-        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreenings" (sid i) [statments Graph.frompts ptss])
-        | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribings" (sid i) [statments Graph.fromlsfp lsfps])
-        | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorages" (sid i) [statments Graph.fromhas hass])
-        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessations" (sid i) [statments Graph.fromtc tcs])
+        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreeningInformation" (sid i) [statments Graph.frompts ptss])
+        | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribing" (sid i) [statments Graph.fromlsfp lsfps])
+        | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorageInformation" (sid i) [statments Graph.fromhas hass])
+        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessationInformation" (sid i) [statments Graph.fromtc tcs])
         | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
         | SideEffects (i,fres,seas) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
                                                                        statments Graph.fromsea seas])
@@ -457,11 +457,11 @@ module DrugRdf =
                                                                                    statments Graph.fromia ias])
         | Cautions (i,cgs,ias) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs
                                                                statments Graph.fromia ias])
-        | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
-        | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
-        | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptions" (sid i) [statments Graph.fromcac cacs])
-        | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformations" (sid i) [statments Graph.fromisi isis])
-        | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministrations" (sid i) [statments Graph.fromdfa dfas])
+        | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformation" (sid i) [statments Graph.frompadi padi])
+        | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUsageInformation" (sid i) [statments Graph.fromulu ulus])
+        | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptionWarning" (sid i) [statments Graph.fromcac cacs])
+        | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformation" (sid i) [statments Graph.fromisi isis])
+        | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministration" (sid i) [statments Graph.fromdfa dfas])
         | NationalFunding (i,fds) -> Some(sec "NationalFunding" (sid i) [statments Graph.fromfd fds])
         | Interactions (i,is) -> Some(sec "Interactions" (sid i) [statments Graph.frominter is])
         | _ -> None
