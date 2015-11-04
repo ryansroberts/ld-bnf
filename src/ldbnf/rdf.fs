@@ -286,6 +286,15 @@ module DrugRdf =
               @ (roas |> Seq.collect Graph.from |> Seq.toList)
       blank !!"nicebnf:hasIndicationAndDose" s
 
+    static member fromidgs (x:IndicationsAndDoseSection) =
+      let dp n = string >> xsd.xmlliteral >> (dataProperty !!("nicebnf:has" + n))
+      match x with 
+       | Pharmacokinetics s -> s |> dp "Pharmacokinetics"
+       | DoseEquivalence s -> s |> dp "DoseEquivalence"
+       | DoseAdjustments s -> s |> dp "DoseAdjustments"
+       | ExtremesOfBodyWeight s -> s |> dp "ExtremesOfBodyWeight"
+       | Potency s -> s |> dp "Potency"
+
     static member fromamri (AdditionalMonitoringInRenalImpairment s) =
       blank !!"nicebnf:hasAdditionalMonitoringInRenalImpairment"
         [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
@@ -415,7 +424,8 @@ module DrugRdf =
         | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                         statments Graph.fromamri amri
                                                                                         statments Graph.fromda das])
-        | IndicationsAndDoseGroup (i,g) -> Some(sec "IndicationAndDoseGroup" (sid i) [statments Graph.fromidg g])
+        | IndicationsAndDoseGroup (i,g,gss) -> Some(sec "IndicationAndDoseGroup" (sid i) [statments Graph.fromidg g
+                                                                                          statments Graph.fromidgs gss])
         | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frommd md
                                                                                         statments Graph.fromgpa gpa ])
         | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalForms" (sid i) [ statment Graph.fromlvs lvs

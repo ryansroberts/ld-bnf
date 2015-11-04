@@ -45,6 +45,13 @@ module Drug =
 
     type IndicationsAndDose = | IndicationsAndDose  of TheraputicIndication seq * RouteOfAdministration seq
 
+    type IndicationsAndDoseSection =
+      | Pharmacokinetics of drugProvider.Section
+      | DoseEquivalence of drugProvider.Section
+      | DoseAdjustments of drugProvider.Section
+      | ExtremesOfBodyWeight of drugProvider.Section
+      | Potency of drugProvider.Section
+
     type Specificity = | Specificity of Paragraph * Option<Route> * Option<Indication>
 
     type GeneralInformation = | GeneralInformation of drugProvider.Sectiondiv * Option<Specificity>
@@ -139,7 +146,7 @@ module Drug =
       | SmcDecisions of Specificity option * drugProvider.Sectiondiv
 
     type MonographSection =
-        | IndicationsAndDoseGroup of Id * IndicationsAndDose seq
+        | IndicationsAndDoseGroup of Id * IndicationsAndDose seq * IndicationsAndDoseSection seq
         | Pregnancy of Id * GeneralInformation seq
         | BreastFeeding of Id * GeneralInformation seq
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
@@ -166,7 +173,6 @@ module Drug =
         | DirectionsForAdministrations of Id * DirectionsForAdministration seq
         | NationalFunding of Id * FundingDecision seq
 
-//nationalFunding - last
 //re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
 //add revision numbers
 
@@ -286,10 +292,23 @@ module DrugParser =
             | _ -> Array.zip routes groups |> Array.map RouteOfAdministration
          IndicationsAndDose.IndicationsAndDose(theraputicIndications,routesOfAdministration)
 
+    type IndicationsAndDoseSection with
+      static member from (x:drugProvider.Section) =
+        match x with
+          | HasOutputClasso "pharmacokinetics" _ -> Pharmacokinetics x |> Some
+          | HasOutputClasso "doseEquivalence" _ -> DoseEquivalence x |> Some
+          | HasOutputClasso "doseAdjustments" _ -> DoseAdjustments x |> Some
+          | HasOutputClasso "extremesOfBodyWeight" _ -> ExtremesOfBodyWeight x |> Some
+          | HasOutputClasso "potency" _ -> Potency x |> Some
+          | _ -> None
+
     type MonographSection with
       static member indicationsAndDoseGroup (x:drugProvider.Topic) =
         match x.Body with
-          | Some(b) -> Some(IndicationsAndDoseGroup(Id(x.Id),b.Sections |> Array.filter (hasOutputclasso "indicationAndDoseGroup") |> Array.map IndicationsAndDose.from))
+          | Some(b) ->
+             let grps = b.Sections |> Array.filter (hasOutputclasso "indicationAndDoseGroup") |> Array.map IndicationsAndDose.from
+             let idgss = b.Sections |> Array.choose IndicationsAndDoseSection.from
+             Some(IndicationsAndDoseGroup(Id(x.Id),grps,idgss))
           | None -> None
 
     let (>>=) a b = Option.bind b a
