@@ -394,7 +394,7 @@ module DrugRdf =
       blank !!"nicebnf:hasConceptionAndContraception" (Graph.frompair (sp,s))
     static member fromisi (ImportantSafetyInformation(t,sp,s)) =
       blank !!"nicebnf:hasImportantSafetyInformation" (Graph.fromthree (t,sp,s))
-    static member fromdfa (DirectionsForAdministration (sp,s)) =
+    static member fromdfa (DirectionsForAdministration (sp,s))=
       blank !!"nicebnf:hasDirectionsForAdministration" (Graph.frompair (sp,s))
 
     static member fromfd (x:FundingDecision) =
@@ -452,7 +452,8 @@ module DrugRdf =
         | Contraindications (i,cs,ps,ias) -> Some(sec "Contraindications" (sid i) [statments Graph.fromcon cs
                                                                                    statments xml ps
                                                                                    statments Graph.fromia ias])
-        | Cautions (i,cgs) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs])
+        | Cautions (i,cgs,ias) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs
+                                                               statments Graph.fromia ias])
         | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformations" (sid i) [statments Graph.frompadi padi])
         | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUses" (sid i) [statments Graph.fromulu ulus])
         | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptions" (sid i) [statments Graph.fromcac cacs])

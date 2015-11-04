@@ -166,7 +166,7 @@ module Drug =
         | DrugActions of Id * DrugAction seq
         | SideEffects of Id * Frequency seq * SideEffectAdvice seq
         | Contraindications of Id * Contraindication seq * drugProvider.P seq * ImportantAdvice seq
-        | Cautions of Id * CautionsGroup list
+        | Cautions of Id * CautionsGroup list * ImportantAdvice seq
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
         | UnlicencedUses of Id * UnlicencedUse seq
         | MonitoringRequirements of Id * MonitoringRequirement seq
@@ -374,7 +374,7 @@ module DrugParser =
 
     let subsections cl c s =
       s |> Array.filter (hasOutputclasso cl) |> Array.collect c
-   
+ 
     let renalImpairment (x:drugProvider.Topic) =
       match x.Body with
         | Some(b) -> 
@@ -526,6 +526,8 @@ module DrugParser =
                   | None -> Array.empty<DentalPractitionersFormulary>
         ProfessionSpecificInformation(Id(x.Id),psi)
 
+    //these three really need to be recfactored into something more sensible
+
     let allsections (x:drugProvider.Topic) =
       match x.Body with
         | Some b -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
@@ -533,6 +535,11 @@ module DrugParser =
 
     let sectiondivs cl (s:drugProvider.Section[]) =
       s |> Array.filter (hasOutputclasso cl) |> Array.collect (fun sec -> sec.Sectiondivs)
+
+    let somesections cl  (x:drugProvider.Topic) =
+        match x.Body with
+          | Some b -> b.Sections |> (sectiondivs cl)
+          | None -> Array.empty<drugProvider.Sectiondiv>
 
     type Frequency with
       static member from (x:drugProvider.Sectiondiv) =
@@ -642,9 +649,11 @@ module DrugParser =
           | None -> Contraindications(Id(x.Id), Array.empty<Contraindication>, Array.empty<drugProvider.P>,Array.empty<ImportantAdvice>)
       static member cautions (x:drugProvider.Topic) =
         let s = firstsection (withclass "cautions") x 
-        match s with 
-          | Some (s) -> Cautions(Id(x.Id), CautionsGroup.from s |> Array.toList)
-          | None -> Cautions(Id(x.Id), List.empty<CautionsGroup>)
+        let cgs = match s with 
+                   | Some (s) -> CautionsGroup.from s |> Array.toList
+                   | None -> List.empty<CautionsGroup>
+        let ias = x |> (somesections "importantAdvice") |> Array.map (addSpecificity >> addTitle >> ImportantAdvice)
+        Cautions(Id(x.Id), cgs, ias)
       static member prescribingAndDispensingInformation (x:drugProvider.Topic) =
         PrescribingAndDispensingInformations(Id(x.Id), allsections x |> Array.map (addSpecificity >> PrescribingAndDispensingInformation))
       static member unlicencedUse (x:drugProvider.Topic) =
