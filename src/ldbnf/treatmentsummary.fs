@@ -46,13 +46,15 @@ module TreatmentSummaryParser =
 
   let withname = (|HasName|_|)
 
+  let (>>=) a b = Option.bind b a
+
   type Doi with
     static member from (x:tsProvider.Data) = Doi(x.Value) |> Some
 
   type Summary with
     static member from (x:tsProvider.Topic) =
       let t = Title(x.Title)
-      let d = x.Body.Datas |> Array.pick (fun d -> d |> (withname "doi") |> Option.bind Doi.from)
+      let d = x.Body.Datas |> Array.choose (withname "doi") |> Array.pick Doi.from
  //     let bs = BodySystem
 
       {id = Id(x.Id); title = t; doi = d}
