@@ -64,6 +64,9 @@ module Drug =
     type AdditionalMonitoringInPregnancy =
       | AdditionalMonitoringInPregnancy of Option<Specificity> * drugProvider.Sectiondiv
 
+    type AdditionalMonitoringInBreastFeeding =
+      | AdditionalMonitoringInBreastFeeding of Option<Specificity> * drugProvider.Sectiondiv
+
     type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of string
 
     type LicensingVariationStatement = | LicensingVariationStatement of Html
@@ -164,7 +167,7 @@ module Drug =
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq * IndicationsAndDoseSection seq
         | Pregnancy of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInPregnancy seq
-        | BreastFeeding of Id * GeneralInformation seq
+        | BreastFeeding of Id * GeneralInformation seq * AdditionalMonitoringInBreastFeeding seq
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
@@ -506,7 +509,10 @@ module DrugParser =
         let das = x |> (somesections "doseAdjustments") |> Array.map DoseAdjustment.from
         let amps = x|> (somesections "additionalMonitoringInPregnancy") |> Array.map (addSpecificity >> AdditionalMonitoringInPregnancy)
         Pregnancy(Id(x.Id),gis,das,amps)
-      static member breastFeedingFrom = MonographSection.buidgi BreastFeeding
+      static member breastFeedingFrom (x:drugProvider.Topic) =
+        let gis = x |> (somesections "generalInformation") |> Array.map GeneralInformation.from
+        let ambfs = x |> (somesections "additionalMonitoringInBreastFeeding") |> Array.map (addSpecificity >> AdditionalMonitoringInBreastFeeding)
+        BreastFeeding(Id(x.Id),gis,ambfs)
       static member hepaticImparmentFrom (x:drugProvider.Topic) =
         match x.Body with
           | Some(b) ->
@@ -729,7 +735,7 @@ module DrugParser =
             match x with
                 | HasOutputClass "indicationsAndDose" _ -> MonographSection.indicationsAndDoseGroup x
                 | HasOutputClass "pregnancy" _ -> MonographSection.pregnancyfrom x |> Some
-                | HasOutputClass "breastFeeding" _ -> MonographSection.breastFeedingFrom x
+                | HasOutputClass "breastFeeding" _ -> MonographSection.breastFeedingFrom x |> Some
                 | HasOutputClass "hepaticImpairment" _ -> MonographSection.hepaticImparmentFrom x
                 | HasOutputClass "renalImpairment" _ -> renalImpairment x
                 | HasOutputClass "patientAndCarerAdvice" _ -> patientAndCarerAdvice x
