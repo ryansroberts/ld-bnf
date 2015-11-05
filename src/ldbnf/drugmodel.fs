@@ -6,6 +6,9 @@ module Shared =
     | Id of string
     override __.ToString () = match __ with | Id x -> x
 
+  type Doi =
+    | Doi of string
+    override __.ToString () = match __ with | Doi x -> x
 
 module Drug =
     open Shared
