@@ -8,25 +8,34 @@ module TreatmentSummary =
   type Title = | Title of string
   type TargetAudience = | TargetAudience of string
   type Content = | Content of tsProvider.Section * TargetAudience
+  type Doi = | Doi of string
   type BodySystem = | BodySystem of string
 
-  type Summary =
-    | Summary
-//=
-    //{
-    //title:Title;
-    //doi:Doi;
-    //bodySystem:BodySystem;
-    //targetAudience:TargetAudience;
-    //contents:Content seq;
-    //}
+  type Summary = {
+    id:Id;
+    title:Title;
+    doi:Doi;
+//    bodySystem:BodySystem;
+  //contents:Content seq;
+  }
 
   type TreatmentSummary =
-    | ComparativeInformation of Id * Summary
+    | ComparativeInformation of Summary
 
 
-module TratmentSummaryParser =
+module TreatmentSummaryParser =
   open TreatmentSummary
+
+  type Name = | Name of string
+
+  let inline name arg =
+    ( ^a : (member Name : string) arg)
+
+  let inline (|HasName|_|) n x =
+    if (name x) = n then Some(x)
+    else None
+
+  let inline hasName s x = name x = s
 
   let inline outputclass arg = ( ^a : (member Outputclass : string) arg)
 
@@ -35,15 +44,21 @@ module TratmentSummaryParser =
     if (cs |> Array.exists (fun  c -> c = n)) then Some(x)
     else None
 
+  let withname = (|HasName|_|)
+
+  type Doi with
+    static member from (x:tsProvider.Data) = Doi(x.Value) |> Some
 
   type Summary with
-    static member from (x:tsProvider.Topic) = Summary
+    static member from (x:tsProvider.Topic) =
+      let t = Title(x.Title)
+      let d = x.Body.Datas |> Array.pick (fun d -> d |> (withname "doi") |> Option.bind Doi.from)
+ //     let bs = BodySystem
 
+      {id = Id(x.Id); title = t; doi = d}
 
   type TreatmentSummary with
     static member parse (x:tsProvider.Topic) =
-
-
       match x with
-        | HasOutputClass "comparativeInformation" t -> ComparativeInformation(Id(x.Id), Summary.from t)
+        | HasOutputClass "comparativeInformation" t -> Summary.from t |> ComparativeInformation
         | _ -> failwith ( "missed one" + x.Outputclass)

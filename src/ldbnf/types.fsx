@@ -14,33 +14,30 @@
 #r "System.Xml.Linq.dll"
 #load "./prelude.fs"
 #load "./drugmodel.fs"
-#load "./rdf.fs"
+#load "./treatmentsummary.fs"
+(*#load "./rdf.fs"*)
 
 open System
 open System.IO
 
 open System.Xml.Linq
 open FSharp.Data
-open Bnf.Drug
-open Bnf.DrugParser
+open Bnf.prelude
+open Bnf.TreatmentSummary
+open Bnf.TreatmentSummaryParser
 open FSharp.RDF
 
-open resource
-open Assertion
+//open resource
+//open Assertion
+(*
 open rdf
 open Bnf.DrugRdf
+*)
 
 let private xmlFromFileSynch (fileName : string) =
     let file = File.OpenText fileName
-    drugProvider.Load file
+    tsProvider.Load file
 
-let d = xmlFromFileSynch "../../process/PHP2486.xml"
+let d = xmlFromFileSynch "../../../BNF-vNext/artifacts/tmp/xml/treatmentsummary/PHP78335.xml"
 
-let drugModel = parse d
-
-let s = ""
-let sb = new System.Text.StringBuilder(s)
-
-let graph = Graph.from drugModel
-
-graph |> Graph.writeTtl (toString sb) |> ignore
+parse d
