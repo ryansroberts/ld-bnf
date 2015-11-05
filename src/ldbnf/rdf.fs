@@ -423,6 +423,9 @@ module DrugRdf =
     static member frominter (Interaction(sp,s)) =
       blank !!"nicebnf:hasInteraction" (Graph.frompair(sp,s))
 
+    static member fromamp (AdditionalMonitoringInPregnancy(sp,s)) =
+      blank !!"nicebnf:hasAdditionalMonitoringInPregnancy" (Graph.frompair(sp,s))
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -438,7 +441,9 @@ module DrugRdf =
       let xml x = dataProperty !!"cnt:ContentAsXML" (xsd.string(x.ToString()))
 
       match x with
-        | Pregnancy (i,gs) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs])
+        | Pregnancy (i,gs,das,amps) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs
+                                                                            statments Graph.fromda das
+                                                                            statments Graph.fromamp amps])
         | BreastFeeding (i,gs) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs])
         | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                        statments Graph.fromda das])

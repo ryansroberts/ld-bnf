@@ -61,6 +61,9 @@ module Drug =
 
     type DoseAdjustment = | DoseAdjustment of drugProvider.Sectiondiv * Option<Specificity>
 
+    type AdditionalMonitoringInPregnancy =
+      | AdditionalMonitoringInPregnancy of Option<Specificity> * drugProvider.Sectiondiv
+
     type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of string
 
     type LicensingVariationStatement = | LicensingVariationStatement of Html
@@ -160,7 +163,7 @@ module Drug =
 
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq * IndicationsAndDoseSection seq
-        | Pregnancy of Id * GeneralInformation seq
+        | Pregnancy of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInPregnancy seq
         | BreastFeeding of Id * GeneralInformation seq
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
@@ -413,6 +416,22 @@ module DrugParser =
     let withclass = (|HasOutputClasso|_|)
 
 
+//these three really need to be recfactored into something more sensible
+
+    let allsections (x:drugProvider.Topic) =
+     match x.Body with
+      | Some b -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
+      | None -> Array.empty<drugProvider.Sectiondiv>
+
+    let sectiondivs cl (s:drugProvider.Section[]) =
+      s |> Array.filter (hasOutputclasso cl) |> Array.collect (fun sec -> sec.Sectiondivs)
+
+    let somesections cl  (x:drugProvider.Topic) =
+      match x.Body with
+       | Some b -> b.Sections |> (sectiondivs cl)
+       | None -> Array.empty<drugProvider.Sectiondiv>
+
+
     type InheritsFromClass with
       static member from (x:drugProvider.Data) =
         match x.String with
@@ -482,7 +501,11 @@ module DrugParser =
               let gi =b.Sections |> subsections "generalInformation" GeneralInformation.from |> Array.toSeq
               Some(c(Id(x.Id),gi))
           | None -> None
-      static member pregnancyfrom = MonographSection.buidgi Pregnancy
+      static member pregnancyfrom (x:drugProvider.Topic) =
+        let gis = x |> (somesections "generalInformation") |> Array.map GeneralInformation.from
+        let das = x |> (somesections "doseAdjustments") |> Array.map DoseAdjustment.from
+        let amps = x|> (somesections "additionalMonitoringInPregnancy") |> Array.map (addSpecificity >> AdditionalMonitoringInPregnancy)
+        Pregnancy(Id(x.Id),gis,das,amps)
       static member breastFeedingFrom = MonographSection.buidgi BreastFeeding
       static member hepaticImparmentFrom (x:drugProvider.Topic) =
         match x.Body with
@@ -534,22 +557,7 @@ module DrugParser =
                   | Some(b) -> b.Sections |> Array.filter (hasOutputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from
                   | None -> Array.empty<DentalPractitionersFormulary>
         ProfessionSpecificInformation(Id(x.Id),psi)
-
-    //these three really need to be recfactored into something more sensible
-
-    let allsections (x:drugProvider.Topic) =
-      match x.Body with
-        | Some b -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
-        | None -> Array.empty<drugProvider.Sectiondiv>
-
-    let sectiondivs cl (s:drugProvider.Section[]) =
-      s |> Array.filter (hasOutputclasso cl) |> Array.collect (fun sec -> sec.Sectiondivs)
-
-    let somesections cl  (x:drugProvider.Topic) =
-        match x.Body with
-          | Some b -> b.Sections |> (sectiondivs cl)
-          | None -> Array.empty<drugProvider.Sectiondiv>
-
+ 
     type Frequency with
       static member fromge (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
@@ -720,7 +728,7 @@ module DrugParser =
         let inline sectionFn x =
             match x with
                 | HasOutputClass "indicationsAndDose" _ -> MonographSection.indicationsAndDoseGroup x
-                | HasOutputClass "pregnancy" _ -> MonographSection.pregnancyfrom x
+                | HasOutputClass "pregnancy" _ -> MonographSection.pregnancyfrom x |> Some
                 | HasOutputClass "breastFeeding" _ -> MonographSection.breastFeedingFrom x
                 | HasOutputClass "hepaticImpairment" _ -> MonographSection.hepaticImparmentFrom x
                 | HasOutputClass "renalImpairment" _ -> renalImpairment x
