@@ -106,7 +106,11 @@ module Drug =
 
     type DrugAction = | DrugAction of drugProvider.Sectiondiv
 
-    type SideEffectAdvice = | SideEffectAdvice of Option<Specificity> * drugProvider.Sectiondiv
+    type SideEffectAdvice =
+      | SideEffectAdvice of Option<Specificity> * drugProvider.Sectiondiv
+
+    type SideEffectsOverdosageInformation =
+      | SideEffectsOverdosageInformation of Option<Specificity> * drugProvider.Sectiondiv
 
     type SideEffect = | SideEffect of string
 
@@ -171,7 +175,7 @@ module Drug =
         | HandlingAndStorages of Id * HandlingAndStorage seq
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
-        | SideEffects of Id * Frequency seq * SideEffectAdvice seq
+        | SideEffects of Id * Frequency seq * SideEffectAdvice seq * SideEffectsOverdosageInformation seq
         | Contraindications of Id * Contraindication seq * drugProvider.P seq * ImportantAdvice seq
         | Cautions of Id * CautionsGroup list * ImportantAdvice seq
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
@@ -182,9 +186,6 @@ module Drug =
         | DirectionsForAdministrations of Id * DirectionsForAdministration seq
         | NationalFunding of Id * FundingDecision seq
         | Interactions of Id * Interaction seq
-
-//re look at indications and dose group : doseAdjustments,doseEquivalence,extremesOfBodyWeight,pharmacokineticspotency
-//add revision numbers
 
     type Drug = {id : Id;
                  name : DrugName;
@@ -564,6 +565,10 @@ module DrugParser =
       static member from (x:drugProvider.Sectiondiv) =
         addSpecificity x |> SideEffectAdvice
 
+    type SideEffectsOverdosageInformation with
+      static member from (x:drugProvider.Sectiondiv) =
+        addSpecificity x |> SideEffectsOverdosageInformation
+
     type Contraindication with
       static member from (x:drugProvider.Section) =
         let phs = x.Ps |> Array.collect (fun p -> p.Phs)
@@ -645,7 +650,9 @@ module DrugParser =
                     |> Array.map Frequency.fromsp
         let adv = x |> (somesections "sideEffectsAdvice")
                     |> Array.map SideEffectAdvice.from
-        SideEffects(Id(x.Id), Array.concat [gse;sse] ,adv) 
+        let ods = x |> (somesections "sideEffectsOverdosageInformation")
+                    |> Array.map SideEffectsOverdosageInformation.from
+        SideEffects(Id(x.Id), Array.concat [gse;sse] ,adv, ods) 
       static member contraindications (x:drugProvider.Topic) =
         match x.Body with
           | Some b ->

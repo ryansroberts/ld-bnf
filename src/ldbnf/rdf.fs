@@ -360,9 +360,10 @@ module DrugRdf =
       one !!"nicebnf:hasSideEffect" (Uri.fromse x) [a !!"nicebnf:SideEffect"]
 
     static member fromsea (SideEffectAdvice (sp,s)) =
-      let s = [sp >>= (Graph.fromsp >> Some)
-               Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString())))]
-      blank !!"nicebnf:hasSideEffectAdvice" (s |> List.choose id)
+      blank !!"nicebnf:hasSideEffectAdvice" (Graph.frompair (sp,s))
+
+    static member fromod (SideEffectsOverdosageInformation (sp,s)) =
+      blank !!"nicebnf:hasSideEffectsOverdosageInformation" (Graph.frompair (sp,s))
 
     static member fromfre (x:Frequency) =
         let gf (f,ses) =
@@ -461,8 +462,9 @@ module DrugRdf =
         | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorageInformation" (sid i) [statments Graph.fromhas hass])
         | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessationInformation" (sid i) [statments Graph.fromtc tcs])
         | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
-        | SideEffects (i,fres,seas) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
-                                                                       statments Graph.fromsea seas])
+        | SideEffects (i,fres,seas,ods) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
+                                                                           statments Graph.fromsea seas
+                                                                           statments Graph.fromod ods])
         | Contraindications (i,cs,ps,ias) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cs
                                                                                    statments xml ps
                                                                                    statments Graph.fromia ias])
