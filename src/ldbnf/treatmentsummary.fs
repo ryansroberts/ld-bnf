@@ -1,5 +1,7 @@
 namespace Bnf
 open FSharp.Data
+open System.Xml.Linq
+open System.Xml.XPath
 open Shared
 
 module TreatmentSummary =
@@ -7,6 +9,7 @@ module TreatmentSummary =
 
   type Title = | Title of string
   type TargetAudience = | TargetAudience of string
+  type Link = {uri:string;label:string}
   type Content = | Content of tsProvider.Section * TargetAudience
   type Doi = | Doi of string
   type BodySystem = | BodySystem of string
@@ -17,6 +20,7 @@ module TreatmentSummary =
     doi:Doi;
     bodySystem:BodySystem;
     content:Content;
+    links:Link seq
   }
 
   type TreatmentSummary =
@@ -25,8 +29,6 @@ module TreatmentSummary =
 
 module TreatmentSummaryParser =
   open TreatmentSummary
-
-  type Name = | Name of string
 
   let inline name arg =
     ( ^a : (member Name : string) arg)
@@ -57,13 +59,19 @@ module TreatmentSummaryParser =
   type Content with
     static member from (x:tsProvider.Section) = Content(x,TargetAudience x.Outputclass)
 
+  type Link with
+    static member from (x:XElement) = 
+     let uri = x.Attribute(XName.Get "href").Value
+     {uri = uri; label = x.Value}
+
   type Summary with
     static member from (x:tsProvider.Topic) =
+      let ls = x.XElement.XPathSelectElements("//xref") |> Seq.map Link.from
       let t = Title(x.Title)
       let d = x.Body.Datas |> Array.choose (withname "doi") |> Array.pick Doi.from
       let bs = x.Body.Datas |> Array.choose (withname "bodySystem") |> Array.pick BodySystem.from
       let c = x.Body.Section |> Content.from
-      {id = Id(x.Id); title = t; doi = d; bodySystem = bs; content = c}
+      {id = Id(x.Id); title = t; doi = d; bodySystem = bs; content = c; links = ls}
 
   type TreatmentSummary with
     static member parse (x:tsProvider.Topic) =
