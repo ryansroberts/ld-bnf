@@ -102,7 +102,9 @@ module MedicinalFormParser =
   type CautionaryAdvisoryLabels with
     static member from (x:mfProvider.Section) =
       let ls = x.Ps |> Array.map CautionaryAdvisoryLabel.from
-      let t = x.Title.Value >>= (CautionaryAndAdvisoryLabelsTitle >> Some)
+      let t = match x.Title with
+                | Some t -> t.Value >>= (CautionaryAndAdvisoryLabelsTitle >> Some)
+                | None -> failwith "CautionaryAdvisoryLabels must have a Title"
       CautionaryAdvisoryLabels(t,ls)
 
   let fromphn c (x:mfProvider.Ph) =
@@ -169,7 +171,9 @@ module MedicinalFormParser =
 
   type MedicinalProduct with
     static member from (x:mfProvider.Section) =
-      let t = MedicinalProductTitle.from x.Title
+      let t = match x.Title with
+               | Some t -> MedicinalProductTitle.from t
+               | None -> failwith "MedicinalProduct must have a Title"
       let str = x.Ps |> Array.tryPick (withoco "strengthOfActiveIngredient") >>= (StrengthOfActiveIngredient >> Some)
       let ps = match x.Ul with
                | Some x -> Pack.from x
