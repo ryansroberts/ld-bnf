@@ -262,6 +262,10 @@
           </li>
         </ul>
       </section>
+      <section outputclass="potency">
+        <title>Potency</title>
+        <p>Hydrocortisone cream and ointment 0.5 to 2.5%: mild</p>
+      </section>
       <section outputclass="pharmacokinetics">
         <title>Pharmacokinetics</title>
         <p>Vancomycin should <b>not</b> be given by mouth for systemic infections because it is not absorbed significantly.</p>
@@ -273,6 +277,16 @@
       <sectiondiv>
         <p>Initially 5 mg once daily with concomitant fibrate increased if necessary to max. 20 mg daily. For dose adjustments with concomitant atazanavir, clopidogrel, darunavir, dronedarone, eltrombopag, ezetimibe, itraconazole, lopinavir, or tipranavir, consult product literature.</p>
       </sectiondiv>
+      <section outputclass="doseAdjustments">
+        <title>Dose adjustments due to interactions</title>
+        <sectiondiv>
+          <p>Max. 1 <i>Vesomni</i><tm tmtype="reg" /> tablet daily with concomitant potent inhibitors of cytochrome P450 enzyme CYP3A4 (such as itraconazole, ketoconazole, or ritonavir).</p>
+        </sectiondiv>
+      </section>
+      <section outputclass="extremesOfBodyWeight">
+        <title>Doses at extremes of body-weight</title>
+        <p>To avoid excessive dosage in obese patients, dose may need to be calculated on the basis of ideal bodyweight.</p>
+      </section>
     </body>
   </topic>
   <topic id="PHP87039" outputclass="directionsForAdministration" rev="1.19">
@@ -1037,6 +1051,17 @@
           </ul>
         </sectiondiv>
       </section>
+      <section outputclass="patientAdviceInPregnancy">
+        <sectiondiv>
+          <p>Counselling advised on pregnancy.</p>
+        </sectiondiv>
+      </section>
+      <section outputclass="patientAdviceInConceptionAndContraception">
+        <title>Patient advice required around conception and contraception</title>
+        <sectiondiv>
+          <p>Patients planning to conceive should be warned that there is a risk of multiple pregnancy (<i>rarely</i> more than twins).</p>
+        </sectiondiv>
+      </section>
     </body>
   </topic>
   <topic id="PHP47285" outputclass="professionSpecificInformation" rev="1.17">
@@ -1048,6 +1073,13 @@
           <p outputclass="specificity">With <ph outputclass="route">oral</ph> use</p>
           <p>Ibuprofen Oral Suspension Sugar-free may be prescribed.</p>
           <p>Ibuprofen Tablets may be prescribed.</p>
+        </sectiondiv>
+      </section>
+      <section outputclass="adviceForDentalPractitioners">
+        <title>Dental information</title>
+        <sectiondiv>
+          <p>A variety of lidocaine injections with adrenaline is available in dental cartridges.</p>
+          <p>Consult expert dental sources for specific advice in relation to dose of lidocaine for dental anaesthesia.</p>
         </sectiondiv>
       </section>
     </body>
@@ -1198,6 +1230,7 @@
       <section outputclass="licensingVariationStatement">
         <p>There can be variation in the licensing of different medicines containing the same drug.</p>
       </section>
+
       <p>Forms available from special-order manufacturers include: oral suspension</p>
     </body>
     <xref href="PHP77419.xml" rel="medicinalForm">Tablet</xref>
