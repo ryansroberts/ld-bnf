@@ -753,7 +753,7 @@ module DrugParser =
                 | HasOutputClass "contraindications" _ -> Some(MonographSection.contraindications x)
                 | HasOutputClass "cautions" _ -> Some(MonographSection.cautions x)
                 | HasOutputClass "prescribingAndDispensingInformation" _ -> Some(MonographSection.prescribingAndDispensingInformation x)
-                | HasOutputClass "unlicencedUse" _ -> Some(MonographSection.unlicencedUse x)
+                | HasOutputClass "unlicensedUse" _ -> Some(MonographSection.unlicencedUse x)
                 | HasOutputClass "monitoringRequirements" _ -> Some(MonographSection.monitoringRequirements x)
                 | HasOutputClass "conceptionAndContraception" _ -> Some(MonographSection.conceptionAndContraception x)
                 | HasOutputClass "importantSafetyInformation" _ -> Some(MonographSection.importantSafetyInformation x)
