@@ -15,7 +15,7 @@ module TreatmentSummary =
     id:Id;
     title:Title;
     doi:Doi;
-//    bodySystem:BodySystem;
+    bodySystem:BodySystem;
   //contents:Content seq;
   }
 
@@ -51,13 +51,16 @@ module TreatmentSummaryParser =
   type Doi with
     static member from (x:tsProvider.Data) = Doi(x.Value) |> Some
 
+  type BodySystem with
+    static member from (x:tsProvider.Data) = BodySystem(x.Value) |> Some
+
   type Summary with
     static member from (x:tsProvider.Topic) =
       let t = Title(x.Title)
       let d = x.Body.Datas |> Array.choose (withname "doi") |> Array.pick Doi.from
- //     let bs = BodySystem
+      let bs = x.Body.Datas |> Array.choose (withname "bodySystem") |> Array.pick BodySystem.from
 
-      {id = Id(x.Id); title = t; doi = d}
+      {id = Id(x.Id); title = t; doi = d; bodySystem = bs}
 
   type TreatmentSummary with
     static member parse (x:tsProvider.Topic) =
