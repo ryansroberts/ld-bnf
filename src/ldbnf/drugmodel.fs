@@ -207,12 +207,6 @@ module Drug =
                  primaryDomainOfEffect : Option<PrimaryDomainOfEffect>;
                  secondaryDomainsOfEffect : Option<SecondaryDomainsOfEffect>;}
 
-//Monitoring Requirements Topic + 3 sections
-//Patient and Carer advice -> section_adviceAroundDrivingAndOtherTasks
-//Patient and Carer advice -> section_patientResources
-//Patient and Carer advice -> section_patientAdviceInPregnancy
-//Patient and Carer advice -> section_patientAdviceInConceptionAndContraception
-//NationalFunding -> section (no class)
 //Medicinal forms -> <p>
 
 module DrugParser =
