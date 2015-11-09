@@ -81,7 +81,11 @@ module DrugRdf =
                tc t] |> List.choose id
       blank !!"nicebnf:hasMedicinalProductTitle" s |> Some
 
-    //static member fromapmid(Ampid x) =
+    static member fromexc (Excipients e) =
+      dataProperty !!"nicebnf:hasExcipients" ((string e)^^xsd.xmlliteral) |> Some
+
+    static member fromele (Electrolytes e) =
+      dataProperty !!"nicebnf:hasElectrolytes" ((string e)^^xsd.xmlliteral) |> Some
 
     static member fromsai(StrengthOfActiveIngredient p) = Graph.dp "StrengthOfActiveIngredient" (string p) |> Some
 
@@ -136,7 +140,9 @@ module DrugRdf =
 
       let s = [ Some(a Uri.MedicinalFormEntity)
                 x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
-                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)] |> List.choose id
+                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)
+                x.excipients >>= Graph.fromexc
+                x.electrolytes >>= Graph.fromele] |> List.choose id
 
       let mps = x.medicinalProducts |> List.map Graph.from
       let dr r = resource (Uri.from x) r

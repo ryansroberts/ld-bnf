@@ -207,7 +207,6 @@ module Drug =
                  primaryDomainOfEffect : Option<PrimaryDomainOfEffect>;
                  secondaryDomainsOfEffect : Option<SecondaryDomainsOfEffect>;}
 
-//Medicinal forms -> <p>
 
 module DrugParser =
     open prelude

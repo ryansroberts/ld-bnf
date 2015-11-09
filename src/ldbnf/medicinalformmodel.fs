@@ -21,6 +21,10 @@ module MedicinalForm =
 
   type CautionaryAdvisoryLabels = | CautionaryAdvisoryLabels of Option<CautionaryAndAdvisoryLabelsTitle> * CautionaryAdvisoryLabel []
 
+  type Excipients = | Excipients of mfProvider.Section
+
+  type Electrolytes = | Electrolytes of mfProvider.Section
+
   type Manufacturer = | Manufacturer of string
 
   type BlackTriangle = | BlackTriangle of string
@@ -72,8 +76,10 @@ module MedicinalForm =
 
   type MedicinalForm = {
     id : Id;
-    title : Option<Title>;
-    cautionaryAdvisoryLabels : Option<CautionaryAdvisoryLabels>;
+    title : Title option;
+    excipients : Excipients option;
+    electrolytes : Electrolytes option;
+    cautionaryAdvisoryLabels : CautionaryAdvisoryLabels option;
     medicinalProducts : MedicinalProduct list;
   }
 
@@ -194,7 +200,14 @@ module MedicinalFormParser =
                |> Array.tryPick id
       let mps = x.Body.Sections
                |> Array.choose (withoc "medicinalProduct")
-               |> Array.map (MedicinalProduct.from)
+               |> Array.map MedicinalProduct.from
                |> Array.toList
-
-      {id = Id(x.Id); title = t; cautionaryAdvisoryLabels = cals; medicinalProducts = mps}
+      let ex = x.Body.Sections
+               |> Array.choose (withoc "excipients")
+               |> Array.map (Excipients >> Some)
+               |> Array.tryPick id
+      let el = x.Body.Sections
+               |> Array.choose (withoc "electrolytes")
+               |> Array.map (Electrolytes >> Some)
+               |> Array.tryPick id
+      {id = Id(x.Id); title = t; excipients=ex; electrolytes=el; cautionaryAdvisoryLabels = cals; medicinalProducts = mps}
