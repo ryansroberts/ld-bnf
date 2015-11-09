@@ -69,6 +69,8 @@ module Drug =
 
     type AdditionalMonitoringInRenalImpairment = | AdditionalMonitoringInRenalImpairment of string
 
+    type AdditionalMonitoringInHepaticImpairment = | AdditionalMonitoringInHepaticImpairment of Specificity option * drugProvider.Sectiondiv
+
     type LicensingVariationStatement = | LicensingVariationStatement of Html
 
     type PatientResources = | PatientResources of Paragraphs
@@ -168,7 +170,7 @@ module Drug =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq * IndicationsAndDoseSection seq
         | Pregnancy of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInPregnancy seq
         | BreastFeeding of Id * GeneralInformation seq * AdditionalMonitoringInBreastFeeding seq
-        | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq
+        | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInHepaticImpairment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
         | MedicinalForms of Id * Option<LicensingVariationStatement> * Option<Html> * MedicinalFormLink seq
@@ -201,6 +203,15 @@ module Drug =
                  sections : MonographSection seq;
                  primaryDomainOfEffect : Option<PrimaryDomainOfEffect>;
                  secondaryDomainsOfEffect : Option<SecondaryDomainsOfEffect>;}
+
+//HepaticImpairment -> section_additionalMonitoringInHepaticImpairment
+//Monitoring Requirements Topic + 3 sections
+//Patient and Carer advice -> section_adviceAroundDrivingAndOtherTasks
+//Patient and Carer advice -> section_patientResources
+//Patient and Carer advice -> section_patientAdviceInPregnancy
+//Patient and Carer advice -> section_patientAdviceInConceptionAndContraception
+//NationalFunding -> section (no class)
+//Medicinal forms -> <p>
 
 module DrugParser =
     open prelude
@@ -517,7 +528,8 @@ module DrugParser =
         match x.Body with
           | Some(b) ->
                     let hi = b.Sections |> subsections "doseAdjustments" DoseAdjustment.from |> Array.toSeq
-                    let c (i,gi) = HepaticImpairment(i, gi, hi) //build a partial constructor
+                    let am = x |> (somesections "additionalMonitoringInHepaticImpairment") |> Array.map (addSpecificity >> AdditionalMonitoringInHepaticImpairment) |> Array.toSeq
+                    let c (i,gi) = HepaticImpairment(i, gi, hi, am) //build a partial constructor
                     MonographSection.buidgi c x
           | None -> None
 

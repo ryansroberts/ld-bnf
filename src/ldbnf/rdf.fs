@@ -429,6 +429,9 @@ module DrugRdf =
     static member fromambf (AdditionalMonitoringInBreastFeeding(sp,s)) =
       blank !!"nicebnf:hasAdditionalMonitoringInBreastFeeding" (Graph.frompair(sp,s))
 
+    static member fromamhi (AdditionalMonitoringInHepaticImpairment(sp,s)) =
+      blank !!"nicebnf:hasAdditionalMonitoringInHepaticImpairment" (Graph.frompair(sp,s))
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -449,8 +452,9 @@ module DrugRdf =
                                                                             statments Graph.fromamp amps])
         | BreastFeeding (i,gs,ambfs) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs
                                                                                  statments Graph.fromambf ambfs])
-        | HepaticImpairment (i,gs,das) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
-                                                                                       statments Graph.fromda das])
+        | HepaticImpairment (i,gs,das,amhis) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
+                                                                                             statments Graph.fromda das
+                                                                                             statments Graph.fromamhi amhis])
         | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                         statments Graph.fromamri amri
                                                                                         statments Graph.fromda das])
