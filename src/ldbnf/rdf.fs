@@ -350,6 +350,8 @@ module DrugRdf =
 
     static member fromden (DentalPractitionersFormulary (sp,s)) =
       blank !!"nicebnf:hasDentalPractitionersFormulary" (Graph.frompair (sp,s))
+    static member fromadp (AdviceForDentalPractitioners (sp,s)) =
+      blank !!"nicebnf:hasAdviceForDentalPractitioners" (Graph.frompair (sp,s))
 
     static member fromlsfp (LessSuitableForPrescribing (sp,s)) =
       blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
@@ -480,7 +482,8 @@ module DrugRdf =
         | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivityWarning" (sid i) [ statment Graph.fromcsc csc
                                                                                                             statment Graph.fromcscs cscs])
         | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
-        | ProfessionSpecificInformation (i,dps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps])
+        | ProfessionSpecificInformation (i,dps,adps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps
+                                                                                                          statments Graph.fromadp adps])
         | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.fromelt elts])
         | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreeningInformation" (sid i) [statments Graph.frompts ptss])
         | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribing" (sid i) [statments Graph.fromlsfp lsfps])

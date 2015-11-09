@@ -105,6 +105,8 @@ module Drug =
 
     type DentalPractitionersFormulary = | DentalPractitionersFormulary of Option<Specificity> * drugProvider.Sectiondiv
 
+    type AdviceForDentalPractitioners = | AdviceForDentalPractitioners of Specificity option * drugProvider.Sectiondiv
+
     type EffectOnLaboratoryTest = | EffectOnLaboratoryTest of drugProvider.Sectiondiv
 
     type PreTreatmentScreening = | PreTreatmentScreening of drugProvider.Sectiondiv
@@ -179,7 +181,7 @@ module Drug =
         | MedicinalForms of Id * Option<LicensingVariationStatement> * Option<Html> * MedicinalFormLink seq
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
         | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
-        | ProfessionSpecificInformation of Id * DentalPractitionersFormulary seq
+        | ProfessionSpecificInformation of Id * DentalPractitionersFormulary seq * AdviceForDentalPractitioners seq
         | EffectOnLaboratoryTests of Id * EffectOnLaboratoryTest seq
         | PreTreatmentScreenings of Id * PreTreatmentScreening seq
         | LessSuitableForPrescribings of Id * LessSuitableForPrescribing seq
@@ -569,10 +571,9 @@ module DrugParser =
 
     type MonographSection with
       static member professionSpecificInformation (x:drugProvider.Topic) =
-        let psi = match x.Body with
-                  | Some(b) -> b.Sections |> Array.filter (hasOutputclasso "dentalPractitionersFormulary") |> Array.collect DentalPractitionersFormulary.from
-                  | None -> Array.empty<DentalPractitionersFormulary>
-        ProfessionSpecificInformation(Id(x.Id),psi)
+        let psi = x |> somesections "dentalPractitionersFormulary" |> Array.map (addSpecificity >> DentalPractitionersFormulary)
+        let adp = x |> somesections "adviceForDentalPractitioners" |> Array.map (addSpecificity >> AdviceForDentalPractitioners)
+        ProfessionSpecificInformation(Id(x.Id),psi,adp)
  
     type Frequency with
       static member fromge (x:drugProvider.Sectiondiv) =
