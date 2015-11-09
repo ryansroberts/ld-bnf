@@ -73,11 +73,14 @@ module Drug =
 
     type LicensingVariationStatement = | LicensingVariationStatement of Html
 
-    type PatientResources = | PatientResources of Paragraphs
-
-    type AdviceAroundMissedDoses = | AdviceAroundMissedDoses of drugProvider.Sectiondiv
-
-    type GeneralPatientAdvice = | GeneralPatientAdvice of drugProvider.Sectiondiv * Option<Title> * Option<Specificity> 
+    //thinking maybe alias this type?
+    type PatientAndCarerAdvice =
+      | PatientResources of Title option * Specificity option * drugProvider.Sectiondiv
+      | AdviceAroundMissedDoses of Title option * Specificity option * drugProvider.Sectiondiv
+      | GeneralPatientAdvice of Title option * Specificity option * drugProvider.Sectiondiv
+      | AdviceAroundDrivingAndOtherTasks of Title option * Specificity option * drugProvider.Sectiondiv
+      | PatientAdviceInPregnancy of Title option * Specificity option * drugProvider.Sectiondiv
+      | PatientAdviceInConceptionAndContraception of Title option * Specificity option * drugProvider.Sectiondiv
 
     type TheraputicUse =
       | TheraputicUse of string * Option<TheraputicUse> 
@@ -172,7 +175,7 @@ module Drug =
         | BreastFeeding of Id * GeneralInformation seq * AdditionalMonitoringInBreastFeeding seq
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInHepaticImpairment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
-        | PatientAndCarerAdvice of Id * AdviceAroundMissedDoses seq * GeneralPatientAdvice seq
+        | PatientAndCarerAdvices of Id * PatientAndCarerAdvice seq
         | MedicinalForms of Id * Option<LicensingVariationStatement> * Option<Html> * MedicinalFormLink seq
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
         | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
@@ -204,7 +207,6 @@ module Drug =
                  primaryDomainOfEffect : Option<PrimaryDomainOfEffect>;
                  secondaryDomainsOfEffect : Option<SecondaryDomainsOfEffect>;}
 
-//HepaticImpairment -> section_additionalMonitoringInHepaticImpairment
 //Monitoring Requirements Topic + 3 sections
 //Patient and Carer advice -> section_adviceAroundDrivingAndOtherTasks
 //Patient and Carer advice -> section_patientResources
@@ -412,18 +414,21 @@ module DrugParser =
            Some(RenalImpairment(Id(x.Id),gi,am,da))
         | None -> None
 
-    type GeneralPatientAdvice with
-      static member from (x:drugProvider.Sectiondiv) =
-        GeneralPatientAdvice(x,extractTitle x, extractSpecificity x)
-      static member from (x:drugProvider.Section) =
-        x.Sectiondivs |> Array.map GeneralPatientAdvice.from
-
     let patientAndCarerAdvice (x:drugProvider.Topic) =
+      let c (s:drugProvider.Section) =
+        let pca f (s:drugProvider.Section) = s.Sectiondivs |> Array.map (addSpecificity >> addTitle >> f)
+        match s with
+          | HasOutputClasso "patientResources" s -> s |> pca PatientResources
+          | HasOutputClasso "adviceAroundMissedDoses" s -> s |> pca AdviceAroundMissedDoses
+          | HasOutputClasso "generalPatientAdvice" s -> s |> pca GeneralPatientAdvice
+          | HasOutputClasso "adviceAroundDrivingAndOtherTasks" s -> s |> pca AdviceAroundDrivingAndOtherTasks
+          | HasOutputClasso "patientAdviceInPregnancy" s -> s|> pca PatientAdviceInPregnancy
+          | HasOutputClasso "patientAdviceInConceptionAndContraception" s -> s |> pca PatientAdviceInConceptionAndContraception
+          | _ -> failwith ("patientAndCarerAdvice missed " + s.Outputclass.Value)
       match x.Body with
-        | Some(b) -> 
-          let ga = b.Sections |> subsections "generalPatientAdvice" GeneralPatientAdvice.from
-          let am = b.Sections |> subsections "adviceAroundMissedDoses" (fun s -> s.Sectiondivs |> Array.map AdviceAroundMissedDoses) 
-          Some(PatientAndCarerAdvice(Id(x.Id),am,ga))
+        | Some(b) ->
+            let a = b.Sections |> Array.collect c 
+            Some(PatientAndCarerAdvices(Id(x.Id),a))
         | None -> None
 
     let withname = (|HasName|_|)

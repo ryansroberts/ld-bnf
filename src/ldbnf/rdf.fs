@@ -299,14 +299,15 @@ module DrugRdf =
       blank !!"nicebnf:hasAdditionalMonitoringInRenalImpairment"
         [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
-    static member fromgpa (GeneralPatientAdvice (c,t,sp)) =
-      let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(c.ToString())))
-               t >>= Graph.fromti
-               sp >>= (Graph.fromsp >> Some)]
-      blank !!"nicebnf:hasGeneralPatientAdvice" (s |> List.choose id)
-
-    static member frommd (AdviceAroundMissedDoses s) =
-      blank !!"nicebnf:hasAdviceAroundMissedDoses" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+    static member frompca (p:PatientAndCarerAdvice) =
+      let pca n x = blank !!("nicebnf:has" + n) (Graph.fromthree x)
+      match p with
+        | PatientResources (t,sp,s) -> (t,sp,s) |> pca "PatientResources"
+        | AdviceAroundMissedDoses (t,sp,s) -> (t,sp,s) |> pca "AdviceAroundMissedDoses"
+        | GeneralPatientAdvice (t,sp,s) -> (t,sp,s) |> pca "GeneralPatientAdvice"
+        | AdviceAroundDrivingAndOtherTasks (t,sp,s) -> (t,sp,s) |> pca "AdviceAroundDrivingAndOtherTasks"
+        | PatientAdviceInPregnancy  (t,sp,s) -> (t,sp,s) |> pca "PatientAdviceInPregnancy"
+        | PatientAdviceInConceptionAndContraception (t,sp,s) -> (t,sp,s) |> pca "PatientAdviceInConceptionAndContraception"
 
     static member fromlvs (LicensingVariationStatement(Html(s))) =
       blank !!"nicebnf:hasLicensingVariationStatement" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
@@ -460,8 +461,7 @@ module DrugRdf =
                                                                                         statments Graph.fromda das])
         | IndicationsAndDoseGroup (i,g,gss) -> Some(sec "IndicationAndDosageInformation" (sid i) [statments Graph.fromidg g
                                                                                                   statments Graph.fromidgs gss])
-        | PatientAndCarerAdvice (i,md,gpa) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frommd md
-                                                                                        statments Graph.fromgpa gpa ])
+        | PatientAndCarerAdvices (i, pcas) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frompca pcas])
         | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalFormInformation" (sid i) [ statment Graph.fromlvs lvs
                                                                                             statment Graph.fromhtml html
                                                                                             statments Graph.frommfl mfls])
