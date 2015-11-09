@@ -439,6 +439,12 @@ module DrugRdf =
     static member fromamhi (AdditionalMonitoringInHepaticImpairment(sp,s)) =
       blank !!"nicebnf:hasAdditionalMonitoringInHepaticImpairment" (Graph.frompair(sp,s))
 
+    static member frommon (x:MonitoringRequirement) =
+      match x with
+        | PatientMonitoringProgrammes (sp,s) -> blank !!"nicebnf:hasPatientMonitoringProgrammes" (Graph.frompair (sp,s))
+        | TheraputicDrugMonitoring (sp,s) -> blank !!"nicebnf:hasTheraputicDrugMonitoring" (Graph.frompair (sp,s))
+        | MonitoringOfPatientParameters (sp,s) -> blank !!"nicebnf:hasMonitoringOfPatientParameters" (Graph.frompair (sp,s))
+
     static member fromsec sid (x:MonographSection) =
 
       let sec n i st =
@@ -496,4 +502,4 @@ module DrugRdf =
         | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministration" (sid i) [statments Graph.fromdfa dfas])
         | NationalFunding (i,fds) -> Some(sec "NationalFunding" (sid i) [statments Graph.fromfd fds])
         | Interactions (i,is) -> Some(sec "Interactions" (sid i) [statments Graph.frominter is])
-        | _ -> None
+        | MonitoringRequirements (i,mons) -> Some(sec "MonitoringRequirements" (sid i) [statments Graph.frommon mons])
