@@ -11,11 +11,9 @@ module TreatmentSummary =
   type TargetAudience = | TargetAudience of string
   type Link = {uri:string;label:string}
   type Content = | Content of tsProvider.Section * TargetAudience
-  type Doi = | Doi of string
   type BodySystem = | BodySystem of string
 
   type Summary = {
-    id:Id;
     title:Title;
     doi:Doi;
     bodySystem:BodySystem;
@@ -23,9 +21,10 @@ module TreatmentSummary =
     links:Link seq
   }
 
-  type TreatmentSummary =
+  type Treatment =
     | ComparativeInformation of Summary
 
+  type TreatmentSummary = | TreatmentSummary of Id * Treatment
 
 module TreatmentSummaryParser =
   open TreatmentSummary
@@ -71,10 +70,14 @@ module TreatmentSummaryParser =
       let d = x.Body.Datas |> Array.choose (withname "doi") |> Array.pick Doi.from
       let bs = x.Body.Datas |> Array.choose (withname "bodySystem") |> Array.pick BodySystem.from
       let c = x.Body.Section |> Content.from
-      {id = Id(x.Id); title = t; doi = d; bodySystem = bs; content = c; links = ls}
+      Id(x.Id),{title = t; doi = d; bodySystem = bs; content = c; links = ls}
+
+  type TreatmentSummary with
+    static member from (i,s) =
+      TreatmentSummary(i, ComparativeInformation s)
 
   type TreatmentSummary with
     static member parse (x:tsProvider.Topic) =
       match x with
-        | HasOutputClass "comparativeInformation" t -> Summary.from t |> ComparativeInformation
+        | HasOutputClass "comparativeInformation" t -> Summary.from t |> TreatmentSummary.from
         | _ -> failwith ( "missed one" + x.Outputclass)

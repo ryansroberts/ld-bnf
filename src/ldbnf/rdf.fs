@@ -22,6 +22,7 @@ module RdfUris =
   open resource
   open Bnf.Drug
   open Bnf.MedicinalForm
+  open Bnf.TreatmentSummary
   open Assertion
   open rdf
   open Shared
@@ -35,6 +36,7 @@ module RdfUris =
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "medicinalform/" + string x.id )
     static member from (x:MedicinalProduct) = !!(Uri.bnfsite + "medicinalproduct/" + string x.ampid)
+    static member from (x:TreatmentSummary) = match x with | TreatmentSummary (i,_) -> !!(Uri.bnfsite + "treatmentsummary/" + string i)
     static member fromdc (s:string) = !!(Uri.bnfsite + "drugclass/"  + s)
     static member from (InteractionLink (l)) = !!(Uri.bnfsite + "interactions/" + l.Url)
 
@@ -60,3 +62,4 @@ module RdfUris =
     static member IndicationEntity = !!(Uri.nicebnfClass + "Indication")
     static member FundingIdentifierEntity = !!(Uri.nicebnfClass + "FundingIdentifier")
     static member PatientGroupEntity = !!(Uri.nicebnfClass + "PatientGroup")
+    static member TreatmentSummaryEntity = !!(Uri.nicebnfClass + "TreatmentSummary")

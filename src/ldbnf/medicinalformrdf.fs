@@ -2,6 +2,60 @@ namespace Bnf
 open FSharp.RDF
 open FSharp.Data.Runtime
 
+module TreatmentSummaryRdf =
+  open prelude
+  open resource
+  open Bnf.TreatmentSummary
+  open Assertion
+  open rdf
+  open Shared
+  open Rdf
+  open RdfUris
+
+  type Graph with
+    static member from (x:TreatmentSummary) =
+      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                  "bnfsite",!!Uri.bnfsite]
+
+      let s = [a Uri.TreatmentSummaryEntity
+               Graph.secondary x]
+      let p = Graph.fromts x
+      let dr r = resource (Uri.from x) r
+      [dr s
+       dr p] |> Assert.graph og
+
+    static member secondary (TreatmentSummary (_,x)) =
+      match x with
+        | ComparativeInformation _ -> a !!(Uri.nicebnf + "ComparativeInformation")
+
+
+    static member fromti (Title s) =
+      dataProperty !!"nicebnf:hasTitle" (s^^xsd.string)
+    static member fromdoi (Shared.Doi s) =
+      dataProperty !!"nicebnf:hasDoi" (s^^xsd.string)
+    static member frombs (BodySystem s) =
+      dataProperty !!"nicebnf:hasBodySystem" (s^^xsd.string)
+    static member fromta (TargetAudience s) =
+      dataProperty !!"nicebnf:hasTargetAudience" (s^^xsd.string)
+    static member fromcontent (Content(s,ta)) =
+      blank !!"nicebnf:hasContent"
+        [Graph.fromta ta
+         dataProperty !!"cnt:ContentAsXML" ((string s)^^xsd.xmlliteral)]
+    static member fromlinks (x:Link seq) =
+      let ln (x:Link) = dataProperty !!"nicebnf:hasLink" (x.uri^^xsd.string) //this needs to be a uri at some point
+      blank !!"nicebnf:hasLinks" (x |> Seq.map ln |> Seq.toList)
+    static member from (x:Summary) =
+      [Graph.fromti x.title
+       Graph.fromdoi x.doi
+       Graph.frombs x.bodySystem
+       Graph.fromcontent x.content
+       Graph.fromlinks x.links]
+
+    static member fromts (TreatmentSummary (_,x)) =
+      match x with
+        | ComparativeInformation s -> Graph.from s
 
 module MedicinalFormRdf =
   open prelude
@@ -15,6 +69,24 @@ module MedicinalFormRdf =
   open RdfUris
 
   type Graph with
+    static member from (x:MedicinalForm) =
+      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                  "bnfsite",!!Uri.bnfsite]
+
+      let s = [ Some(a Uri.MedicinalFormEntity)
+                x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
+                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)
+                x.excipients >>= Graph.fromexc
+                x.electrolytes >>= Graph.fromele] |> List.choose id
+
+      let mps = x.medicinalProducts |> List.map Graph.from
+      let dr r = resource (Uri.from x) r
+      [dr s
+       dr mps]
+       |> Assert.graph og
+
     static member fromcal (CautionaryAdvisoryLabel(ln,p)) =
       let s = [Some(dataProperty !!"cnt:ContentAsXML" ((string p)^^xsd.xmlliteral))
                ln >>= (string >> xsd.string >> (dataProperty !!"nicebnf:hasLabelNumber") >> Some)]
@@ -87,23 +159,4 @@ module MedicinalFormRdf =
                ] |> List.choose id
       let ps = x.packs |> List.map Graph.frompack
       one !!"nicebnf:hasMedicinalProduct" (Uri.from x) (s @ ps)
-
-
-    static member from (x:MedicinalForm) =
-      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
-                                  "cnt",!!"http://www.w3.org/2011/content#"
-                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
-                                  "bnfsite",!!Uri.bnfsite]
-
-      let s = [ Some(a Uri.MedicinalFormEntity)
-                x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
-                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)
-                x.excipients >>= Graph.fromexc
-                x.electrolytes >>= Graph.fromele] |> List.choose id
-
-      let mps = x.medicinalProducts |> List.map Graph.from
-      let dr r = resource (Uri.from x) r
-      [dr s
-       dr mps]
-       |> Assert.graph og
 
