@@ -264,7 +264,7 @@ module DrugRdf =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
 
     static member fromcg (x:CautionsGroup) =
-      let cau x = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
+      let cau (Caution x) = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
       let gen (p,cs) = (dataProperty !!"cnt:ContentAsXML" (xsd.string(p.ToString()))) :: (cs |> List.map cau)
       match x with
         | GeneralCautions (p,cs) -> blank !!"nicebnf:hasGeneralCautions" (gen(p,cs))
