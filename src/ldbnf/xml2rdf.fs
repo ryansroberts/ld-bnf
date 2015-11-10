@@ -18,6 +18,7 @@ open resource
 open Assertion
 open rdf
 open Bnf.DrugRdf
+open Bnf.MedicinalFormRdf
 open MedicinalForm
 open MedicinalFormParser
 
