@@ -69,17 +69,18 @@ module TreatmentSummaryRdf =
     static member fromta (TargetAudience s) =
       dataProperty !!"nicebnf:hasTargetAudience" (s^^xsd.string)
     static member fromcontent (Content(s,ta)) =
-      blank !!"nicebnf:hasContent"
-        [Graph.fromta ta
-         dataProperty !!"cnt:ContentAsXML" ((string s)^^xsd.xmlliteral)]
+      let s = [ta >>= (Graph.fromta >> Some)
+               Some(dataProperty !!"cnt:ContentAsXML" ((string s)^^xsd.xmlliteral))] |> List.choose id
+      blank !!"nicebnf:hasContent" s
+
     static member from (x:Link) =
       dataProperty !!"nicebnf:hasLink" (x.uri^^xsd.string) //this needs to be a uri at some point
     static member from (x:Summary) =
       let ls = x.links |> Seq.map Graph.from |> Seq.toList
+      let cs = x.content |> List.map Graph.fromcontent
       [Graph.fromti x.title
        Graph.fromdoi x.doi
-       Graph.frombs x.bodySystem
-       Graph.fromcontent x.content] @ ls
+       Graph.frombs x.bodySystem] @ ls @ cs
 
     static member fromts (TreatmentSummary (_,x)) =
       match x with

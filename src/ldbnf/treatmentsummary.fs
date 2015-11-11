@@ -10,14 +10,14 @@ module TreatmentSummary =
   type Title = | Title of string
   type TargetAudience = | TargetAudience of string
   type Link = {uri:string;label:string}
-  type Content = | Content of tsProvider.Section * TargetAudience
+  type Content = | Content of tsProvider.Section * TargetAudience option
   type BodySystem = | BodySystem of string
 
   type Summary = {
     title:Title;
     doi:Doi;
     bodySystem:BodySystem;
-    content:Content;
+    content:Content list;
     links:Link seq
   }
 
@@ -60,20 +60,24 @@ module TreatmentSummaryParser =
     static member from (x:tsProvider.Data) = BodySystem(x.Value) |> Some
 
   type Content with
-    static member from (x:tsProvider.Section) = Content(x,TargetAudience x.Outputclass)
+    static member from (x:tsProvider.Section) =
+      let ta = match x.Outputclass with
+               | Some x -> TargetAudience x |> Some
+               | None -> None
+      Content(x,ta)
 
   type Link with
     static member from (x:XElement) = 
      let uri = x.Attribute(XName.Get "href").Value
      {uri = uri; label = x.Value}
-
+ 
   type Summary with
     static member from (x:tsProvider.Topic) =
       let ls = x.XElement.XPathSelectElements("//xref") |> Seq.map Link.from
       let t = Title(x.Title)
       let d = x.Body.Datas |> Array.choose (withname "doi") |> Array.pick Doi.from
       let bs = x.Body.Datas |> Array.choose (withname "bodySystem") |> Array.pick BodySystem.from
-      let c = x.Body.Section |> Content.from
+      let c = x.Body.Sections |> Array.map Content.from |> Array.toList
       Id(x.Id),{title = t; doi = d; bodySystem = bs; content = c; links = ls}
 
   type TreatmentSummary with
