@@ -39,7 +39,7 @@ module RdfUris =
     static member from (x:TreatmentSummary) = match x with | TreatmentSummary (i,_) -> !!(Uri.bnfsite + "treatmentsummary/" + string i)
     static member fromdc (s:string) = !!(Uri.bnfsite + "drugclass/"  + s)
     static member from (InteractionLink (l)) = !!(Uri.bnfsite + "interactions/" + l.Url)
-
+    static member from (ConstituentDrug (l)) = !!(Uri.bnfsite + "constituentDrug/" + l.Url)
     static member from (Route s) = !!(Uri.nicebnfClass + "Route#" + (NameUtils.niceCamelName s))
     static member from (Indication s) = !!(Uri.nicebnfClass + "Indication#" + (NameUtils.niceCamelName s))
     static member fromc (Classification (Id s,_)) = !!(Uri.nicebnfClass + "Classification#" + s)
@@ -55,6 +55,7 @@ module RdfUris =
     static member MedicinalFormEntity = !!(Uri.nicebnf + "MedicinalForm")
     static member MedicinalProductEntity = !!(Uri.nicebnf + "MedicinalProduct")
     static member InteractionEntity = !!(Uri.nicebnf + "Interaction")
+    static member ConstituentDrugEntity = !!(Uri.nicebnf + "ConstituentDrug")
     static member ClassificationEntity = !!(Uri.nicebnfClass + "Classification")
     static member RouteEntity = !!(Uri.nicebnfClass + "Route")
     static member DomainOfEffectEntity = !!(Uri.nicebnfClass + "DomainOfEffect")

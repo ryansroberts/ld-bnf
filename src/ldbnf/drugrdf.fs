@@ -43,6 +43,7 @@ module DrugRdf =
       [dr (s |> List.choose id)
        dr (sdoe |> Seq.toList)
        dr (x.classifications |> Seq.map Graph.fromcl |> Seq.toList)
+       dr (x.constituentDrugs |> Seq.map Graph.fromcd |> Seq.toList)
        dr (x.interactionLinks |> Seq.map Graph.fromil |> Seq.toList)
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
        |> Assert.graph og
@@ -59,6 +60,9 @@ module DrugRdf =
 
     static member fromil (i:InteractionLink) =
       one !!"nicebnf:hasInteraction" (Uri.from i) [a Uri.InteractionEntity]
+
+    static member fromcd (x:ConstituentDrug) =
+      one !!"nicebnf:hasConstituentDrug" (Uri.from x ) [a Uri.ConstituentDrugEntity]
 
     static member fromtu ((x:TheraputicUse), ?name0:string) =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"

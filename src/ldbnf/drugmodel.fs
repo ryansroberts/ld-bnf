@@ -27,6 +27,8 @@ module Drug =
 
     type InteractionLink = | InteractionLink of Link
 
+    type ConstituentDrug = | ConstituentDrug of Link
+
     type InheritsFromClass = | InheritsFromClass of string
 
     type Classification = | Classification of Id * InheritsFromClass seq
@@ -203,6 +205,7 @@ module Drug =
     type Drug = {id : Id;
                  name : DrugName;
                  interactionLinks : InteractionLink seq;
+                 constituentDrugs : ConstituentDrug seq;
                  classifications : Classification seq;
                  vtmid : Option<Vtmid>;
                  sections : MonographSection seq;
@@ -282,6 +285,9 @@ module DrugParser =
 
     type InteractionLink with
         static member from (x:drugProvider.Xref) = InteractionLink {Url = x.Href ; Title = x.Value}
+
+    type ConstituentDrug with
+        static member from (x:drugProvider.Xref)= ConstituentDrug {Url = x.Href; Title = x.Value}
 
     type MedicinalFormLink with
         static member from (x:drugProvider.Xref) = MedicinalFormLink {Url = x.Href ; Title = x.Value}
@@ -732,8 +738,12 @@ module DrugParser =
         let interactionLinks = match x.Body with
                                | Some(b) -> b.Ps |> Array.filter (hasOutputclasso "interactionsLinks")
                                                  |> Array.collect (fun p -> p.Xrefs |> Array.map InteractionLink.from)
-                               | None -> Array.empty<InteractionLink>
+                               | None -> [||]
 
+        let constituentDrugs = match x.Body with
+                               | Some(b) -> b.Ps |> Array.filter (hasOutputclasso "constituentDrugs")
+                                                 |> Array.collect (fun p -> p.Xrefs |> Array.map ConstituentDrug.from)
+                               | None -> [||]
         let classifications = match x.Body with
                               | Some(b) -> b.Datas
                                            |> Array.filter (hasName "classifications")
@@ -779,4 +789,4 @@ module DrugParser =
         let primaryDomainOfEffect = x.Body >>= PrimaryDomainOfEffect.from
         let secondaryDomainsOfEffect = x.Body >>= SecondaryDomainsOfEffect.from
 
-        {id = Id(x.Id); name = name; interactionLinks = interactionLinks; classifications = classifications; vtmid = vtmid; sections = sections; primaryDomainOfEffect = primaryDomainOfEffect; secondaryDomainsOfEffect = secondaryDomainsOfEffect}
+        {id = Id(x.Id); name = name; interactionLinks = interactionLinks; constituentDrugs = constituentDrugs; classifications = classifications; vtmid = vtmid; sections = sections; primaryDomainOfEffect = primaryDomainOfEffect; secondaryDomainsOfEffect = secondaryDomainsOfEffect}
