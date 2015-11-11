@@ -2,6 +2,31 @@ namespace Bnf
 open FSharp.RDF
 open FSharp.Data.Runtime
 
+
+module DrugClassificationRdf =
+  open prelude
+  open resource
+  open DrugClassification
+  open Assertion
+  open rdf
+  open Rdf
+  open Shared
+  open RdfUris
+
+  type Graph with
+    static member from (DrugClassifications cs) =
+      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                  "bnfsite",!!Uri.bnfsite]
+
+      cs |> List.map Graph.from |> Assert.graph og
+
+    static member from (x:Classification) =
+      resource !!(Uri.nicebnfClass + "Classification#" + x.key)
+         [dataProperty !!"rdfs:Label" (x.value^^xsd.string)]
+
+
 module TreatmentSummaryRdf =
   open prelude
   open resource
