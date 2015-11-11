@@ -14,6 +14,10 @@ open Bnf.Drug
 open Bnf.DrugParser
 open Bnf.TreatmentSummary
 open Bnf.TreatmentSummaryParser
+open Bnf.DrugClassification
+open Bnf.DrugClassificationParser
+open Bnf.MedicinalForm
+open Bnf.MedicinalFormParser
 open FSharp.RDF
 
 open resource
@@ -21,9 +25,10 @@ open Assertion
 open rdf
 open Bnf.DrugRdf
 open Bnf.MedicinalFormRdf
+open Bnf.TreatmentSummary
 open Bnf.TreatmentSummaryRdf
-open MedicinalForm
-open MedicinalFormParser
+open Bnf.DrugClassificationRdf
+
 
 module Iterator =
   let private xmlFromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
@@ -68,6 +73,7 @@ module Iterator =
             | "drug" -> file f |> drugProvider.Load |> Drug.parse |> Graph.from |> Some
             | "medicinalForm" -> file f |> mfProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
             | "treatmentSummary" -> file f |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
+            | "drugClassifications" -> file f |> dcProvider.Load |> DrugClassifications.parse |> Graph.from |> Some
             | _ -> None
 
     match m with
