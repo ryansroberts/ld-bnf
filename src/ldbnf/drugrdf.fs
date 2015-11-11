@@ -248,7 +248,7 @@ module DrugRdf =
           let fr = one !!"nicebnf:hasFrequency" (Uri.fromfre f) [a !!"nicebnf:Frequency"]
           (fr :: s)
         match x with
-          | GeneralFrequency (f,ses) -> 
+          | GeneralFrequency (f,ses) ->
             blank !!"nicebnf:hasGeneralFrequencyGroup" (gf(f,ses))
           | SpecificFrequency (f,ses,t) ->
             let ti = t >>= Graph.fromti
@@ -258,7 +258,7 @@ module DrugRdf =
             blank !!"nicebnf:hasSpecificFrequencyGroup" s
 
     static member fromcon (Contraindication ph) =
-      blank !!"nicebnf:hasContraIndication" [dataProperty !!"cnt:ContentAsXML" (xsd.string(ph.ToString()))]
+      dataProperty !!"nicebnf:hasContraIndication" (xsd.string(ph.ToString()))
 
     static member fromia (ImportantAdvice (t,sp,s)) =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
@@ -269,10 +269,10 @@ module DrugRdf =
       match x with
         | GeneralCautions (p,cs) -> blank !!"nicebnf:hasGeneralCautions" (gen(p,cs))
         | CautionsWithRoutes (t,p,cs) -> blank !!"nicebnf:hasCautionsWithRoutes"
-                                          (dataProperty !!"nicebnf:hasRoute" (xsd.string(t.ToString()))
+                                          (dataProperty !!"nicebnf:hasRouteAsTitle" (xsd.string(t.ToString()))
                                            :: gen(p,cs))
         | CautionsWithIndications (t,p,cs) -> blank !!"nicebnf:hasCautionsWithIndications"
-                                               (dataProperty !!"nicebnf:hasRoute" (xsd.string(t.ToString()))
+                                               (dataProperty !!"nicebnf:hasIndicationAsTitle" (xsd.string(t.ToString()))
                                                 :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
