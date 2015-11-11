@@ -12,6 +12,8 @@ open System.Xml.Linq
 open FSharp.Data
 open Bnf.Drug
 open Bnf.DrugParser
+open Bnf.TreatmentSummary
+open Bnf.TreatmentSummaryParser
 open FSharp.RDF
 
 open resource
@@ -19,6 +21,7 @@ open Assertion
 open rdf
 open Bnf.DrugRdf
 open Bnf.MedicinalFormRdf
+open Bnf.TreatmentSummaryRdf
 open MedicinalForm
 open MedicinalFormParser
 
@@ -64,6 +67,7 @@ module Iterator =
     let m = match t with
             | "drug" -> file f |> drugProvider.Load |> Drug.parse |> Graph.from |> Some
             | "medicinalForm" -> file f |> mfProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
+            | "treatmentSummary" -> file f |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
             | _ -> None
 
     match m with
