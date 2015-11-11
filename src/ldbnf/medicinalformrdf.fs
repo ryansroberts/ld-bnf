@@ -85,6 +85,10 @@ module TreatmentSummaryRdf =
     static member fromts (TreatmentSummary (_,x)) =
       match x with
         | ComparativeInformation s -> Graph.from s
+        | ManagementOfConditions s -> Graph.from s
+        | MedicalEmergenciesBodySystems s -> Graph.from s
+        | TreatmentOfBodySystems s -> Graph.from s
+        | Generic s -> Graph.from s
 
 module MedicinalFormRdf =
   open prelude
@@ -188,4 +192,3 @@ module MedicinalFormRdf =
                ] |> List.choose id
       let ps = x.packs |> List.map Graph.frompack
       one !!"nicebnf:hasMedicinalProduct" (Uri.from x) (s @ ps)
-
