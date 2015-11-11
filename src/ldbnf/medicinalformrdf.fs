@@ -44,8 +44,8 @@ module TreatmentSummaryRdf =
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
 
-      let s = [a Uri.TreatmentSummaryEntity
-               Graph.secondary x]
+      let s = [a Uri.TreatmentSummaryEntity |> Some
+               Graph.secondary x] |> List.choose id
       let p = Graph.fromts x
       let dr r = resource (Uri.from x) r
       [dr s
@@ -53,7 +53,11 @@ module TreatmentSummaryRdf =
 
     static member secondary (TreatmentSummary (_,x)) =
       match x with
-        | ComparativeInformation _ -> a !!(Uri.nicebnf + "ComparativeInformation")
+        | ComparativeInformation _ -> a !!(Uri.nicebnf + "ComparativeInformation") |> Some
+        | ManagementOfConditions _ -> a !!(Uri.nicebnf + "ManagementOfConditions") |> Some
+        | MedicalEmergenciesBodySystems _ -> a !!(Uri.nicebnf + "MedicalEmergenciesBodySystems") |> Some
+        | TreatmentOfBodySystems _ -> a !!(Uri.nicebnf + "TreatmentOfBodySystems") |> Some
+        | Generic _ -> None
 
 
     static member fromti (Title s) =

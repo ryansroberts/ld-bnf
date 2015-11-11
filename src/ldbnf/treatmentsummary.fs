@@ -23,6 +23,10 @@ module TreatmentSummary =
 
   type Treatment =
     | ComparativeInformation of Summary
+    | ManagementOfConditions of Summary
+    | MedicalEmergenciesBodySystems of Summary
+    | TreatmentOfBodySystems of Summary
+    | Generic of Summary
 
   type TreatmentSummary = | TreatmentSummary of Id * Treatment
 
@@ -73,11 +77,14 @@ module TreatmentSummaryParser =
       Id(x.Id),{title = t; doi = d; bodySystem = bs; content = c; links = ls}
 
   type TreatmentSummary with
-    static member from (i,s) =
-      TreatmentSummary(i, ComparativeInformation s)
+    static member from c (i,s) =
+      TreatmentSummary(i, c s)
 
   type TreatmentSummary with
     static member parse (x:tsProvider.Topic) =
       match x with
-        | HasOutputClass "comparativeInformation" t -> Summary.from t |> TreatmentSummary.from
-        | _ -> failwith ( "missed one" + x.Outputclass)
+        | HasOutputClass "comparativeInformation" t -> Summary.from t |> TreatmentSummary.from ComparativeInformation
+        | HasOutputClass "managementOfConditions" t -> Summary.from t |> TreatmentSummary.from ManagementOfConditions
+        | HasOutputClass "medicalEmergenciesBodySystems" t -> Summary.from t |> TreatmentSummary.from MedicalEmergenciesBodySystems
+        | HasOutputClass "treatmentOfBodySystems" t -> Summary.from t |> TreatmentSummary.from TreatmentOfBodySystems
+        | t -> Summary.from t |> TreatmentSummary.from Generic
