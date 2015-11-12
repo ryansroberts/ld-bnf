@@ -72,10 +72,10 @@ module Iterator =
     let m = match t with
             | "drug" -> file f |> drugProvider.Load |> Drug.parse |> Graph.from |> Some
             | "medicinalForm" -> file f |> mfProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
-            | "treatmentSummary" -> file f |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
-            | "drugClassifications" -> file f |> dcProvider.Load |> DrugClassifications.parse |> Graph.from |> Some
-            | "drugClass" -> file f |> drugProvider.Load |> DrugClass.parse |> Graph.from |> Some
-            | "clinicalMedicinalProductInformation" -> file f |> drugProvider.Load |> CMPI.parse |> Graph.from |> Some
+            //| "treatmentSummary" -> file f |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
+            //| "drugClassifications" -> file f |> dcProvider.Load |> DrugClassifications.parse |> Graph.from |> Some
+            //| "drugClass" -> file f |> drugProvider.Load |> DrugClass.parse |> Graph.from |> Some
+            //| "clinicalMedicinalProductInformation" -> file f |> drugProvider.Load |> CMPI.parse |> Graph.from |> Some
             | _ -> None
 
     match m with
