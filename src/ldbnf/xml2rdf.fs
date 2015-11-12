@@ -75,6 +75,7 @@ module Iterator =
             | "treatmentSummary" -> file f |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
             | "drugClassifications" -> file f |> dcProvider.Load |> DrugClassifications.parse |> Graph.from |> Some
             | "drugClass" -> file f |> drugProvider.Load |> DrugClass.parse |> Graph.from |> Some
+            | "clinicalMedicinalProductInformation" -> file f |> drugProvider.Load |> CMPI.parse |> Graph.from |> Some
             | _ -> None
 
     match m with

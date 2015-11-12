@@ -37,6 +37,8 @@ module Drug =
 
     type DrugClassName = | DrugClassName of string
 
+    type CMPIName = | CMPIName of string
+
     type Vtmid = | Vtmid of int64
 
     type MedicinalFormLink = | MedicinalFormLink of Link
@@ -215,8 +217,12 @@ module Drug =
                  secondaryDomainsOfEffect : Option<SecondaryDomainsOfEffect>;}
 
     type DrugClass = {id : Id;
-                      name : DrugClassName;
+                      dcname : DrugClassName;
                       sections : MonographSection seq;}
+
+    type CMPI = {id: Id;
+                 cmpiname : CMPIName;
+                 sections: MonographSection seq;}
 
 module DrugParser =
     open prelude
@@ -768,12 +774,19 @@ module DrugParser =
         | HasOutputClass "interactions" _ -> Some(MonographSection.interactions x)
         | _ -> None
 
+    type CMPI with
+      static member parse (x:drugProvider.Topic) =
+        let name = CMPIName(x.Title)
+        let sections =
+          x.Topics |> Array.map MonographSection.section |> Array.choose id
+        {id = Id(x.Id); cmpiname = name; sections = sections}
+
     type DrugClass with
       static member parse (x:drugProvider.Topic) =
         let name = DrugClassName(x.Title)
         let sections =
           x.Topics |> Array.map MonographSection.section |> Array.choose id
-        {id = Id(x.Id); name = name; sections = sections}
+        {id = Id(x.Id); dcname = name; sections = sections}
 
     type Drug with
       static member parse (x:drugProvider.Topic) =

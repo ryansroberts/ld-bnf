@@ -34,8 +34,10 @@ module RdfUris =
 
     static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
     static member from (x:DrugClass) = !!(Uri.bnfsite + "drugclass/" + string x.id )
+    static member from (x:CMPI) = !!(Uri.bnfsite + "clinicalMedicinalProductInformation/" + string x.id )
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
-    static member fromsecdc (x:DrugClass) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
+    static member fromsecdc (x:DrugClass) (Id i) = !!(Uri.bnfsite + "drugclass/" + string x.id + "#" + i)
+    static member fromseccmpi (x:CMPI) (Id i) = !!(Uri.bnfsite + "clinicalMedicinalProductInformation/" + string x.id + "#" + i)
 
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "medicinalform/" + string x.id )
     static member from (x:MedicinalProduct) = !!(Uri.bnfsite + "medicinalproduct/" + string x.ampid)
@@ -54,6 +56,7 @@ module RdfUris =
     static member fromfre s = !!(Uri.nicebnfClass + "Frequency#" + (NameUtils.niceCamelName s))
 
     static member DrugClassEntity = !!(Uri.nicebnf + "DrugClass")
+    static member CMPIEntity = !!(Uri.nicebnf + "ClinicalMedicinalProductInformation")
     static member DrugEntity = !!(Uri.nicebnf + "Drug")
     static member MedicinalFormEntity = !!(Uri.nicebnf + "MedicinalForm")
     static member MedicinalProductEntity = !!(Uri.nicebnf + "MedicinalProduct")
