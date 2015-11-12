@@ -33,7 +33,10 @@ module RdfUris =
     static member bnfsite = "http://bnf.nice.org.uk/"
 
     static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
+    static member from (x:DrugClass) = !!(Uri.bnfsite + "drugclass/" + string x.id )
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
+    static member fromsecdc (x:DrugClass) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
+
     static member from (x:MedicinalForm) = !!(Uri.bnfsite + "medicinalform/" + string x.id )
     static member from (x:MedicinalProduct) = !!(Uri.bnfsite + "medicinalproduct/" + string x.ampid)
     static member from (x:TreatmentSummary) = match x with | TreatmentSummary (i,_) -> !!(Uri.bnfsite + "treatmentsummary/" + string i)

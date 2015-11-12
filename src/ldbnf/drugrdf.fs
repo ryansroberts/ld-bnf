@@ -17,13 +17,24 @@ module DrugRdf =
   let getvtmid (Vtmid i) = Some(string i)
   let tosys (Sys s) = s
 
-
   type Graph with
+    static member setupGraph = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                                  "bnfsite",!!Uri.bnfsite]
+    static member from (x:DrugClass) =
+      let og = Graph.setupGraph
+      let s = [ Some(a Uri.DrugEntity)] |> List.choose id
+
+      let dr r = resource (Uri.from x) r
+
+      let sec = Graph.fromsec (Uri.fromsecdc x)
+
+      [dr s
+       dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)] |> Assert.graph og
+
     static member from (x:Drug) =
-      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
-                                  "cnt",!!"http://www.w3.org/2011/content#"
-                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
-                                  "bnfsite",!!Uri.bnfsite]
+      let og = Graph.setupGraph
 
       let s = [ Some(a Uri.DrugEntity)
                 Some(dataProperty !!"rdfs:label" ((getval x.name)^^xsd.string))

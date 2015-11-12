@@ -35,6 +35,8 @@ module Drug =
 
     type DrugName = | DrugName of string
 
+    type DrugClassName = | DrugClassName of string
+
     type Vtmid = | Vtmid of int64
 
     type MedicinalFormLink = | MedicinalFormLink of Link
@@ -212,6 +214,9 @@ module Drug =
                  primaryDomainOfEffect : Option<PrimaryDomainOfEffect>;
                  secondaryDomainsOfEffect : Option<SecondaryDomainsOfEffect>;}
 
+    type DrugClass = {id : Id;
+                      name : DrugClassName;
+                      sections : MonographSection seq;}
 
 module DrugParser =
     open prelude
@@ -731,6 +736,45 @@ module DrugParser =
                  | None -> [||]
         Interactions(Id(x.Id),is)
 
+    type MonographSection with
+      static member section x =
+        match x with
+        | HasOutputClass "indicationsAndDose" _ -> MonographSection.indicationsAndDoseGroup x
+        | HasOutputClass "pregnancy" _ -> MonographSection.pregnancyfrom x |> Some
+        | HasOutputClass "breastFeeding" _ -> MonographSection.breastFeedingFrom x |> Some
+        | HasOutputClass "hepaticImpairment" _ -> MonographSection.hepaticImparmentFrom x
+        | HasOutputClass "renalImpairment" _ -> renalImpairment x
+        | HasOutputClass "patientAndCarerAdvice" _ -> patientAndCarerAdvice x
+        | HasOutputClass "medicinalForms" _ -> Some(medicinalForms x)
+        | HasOutputClass "exceptionsToLegalCategory" _ -> Some(MonographSection.exceptionsToLegalCategory x)
+        | HasOutputClass "professionSpecificInformation" _ -> Some(MonographSection.professionSpecificInformation x)
+        | HasOutputClass "effectOnLaboratoryTests" _ -> Some(MonographSection.effectOnLaboratoryTests x)
+        | HasOutputClass "preTreatmentScreening" _ -> Some(MonographSection.preTreatmentScreenings x)
+        | HasOutputClass "lessSuitableForPrescribing" _ -> Some(MonographSection.lessSuitableForPrescribings x)
+        | HasOutputClass "handlingAndStorage" _ -> Some(MonographSection.handlingAndStorages x)
+        | HasOutputClass "treatmentCessation" _ -> Some(MonographSection.treatmentCessations x)
+        | HasOutputClass "allergyAndCrossSensitivity" _ -> MonographSection.allergyAndCrossSensitivity x
+        | HasOutputClass "drugAction" _ -> Some(MonographSection.drugActions x)
+        | HasOutputClass "sideEffects" _ -> Some(MonographSection.sideEffects x)
+        | HasOutputClass "contraindications" _ -> Some(MonographSection.contraindications x)
+        | HasOutputClass "cautions" _ -> Some(MonographSection.cautions x)
+        | HasOutputClass "prescribingAndDispensingInformation" _ -> Some(MonographSection.prescribingAndDispensingInformation x)
+        | HasOutputClass "unlicensedUse" _ -> Some(MonographSection.unlicencedUse x)
+        | HasOutputClass "monitoringRequirements" _ -> Some(MonographSection.monitoringRequirements x)
+        | HasOutputClass "conceptionAndContraception" _ -> Some(MonographSection.conceptionAndContraception x)
+        | HasOutputClass "importantSafetyInformation" _ -> Some(MonographSection.importantSafetyInformation x)
+        | HasOutputClass "directionsForAdministration" _ -> Some(MonographSection.directionsForAdministration x)
+        | HasOutputClass "nationalFunding" _ -> Some(MonographSection.nationalFunding x)
+        | HasOutputClass "interactions" _ -> Some(MonographSection.interactions x)
+        | _ -> None
+
+    type DrugClass with
+      static member parse (x:drugProvider.Topic) =
+        let name = DrugClassName(x.Title)
+        let sections =
+          x.Topics |> Array.map MonographSection.section |> Array.choose id
+        {id = Id(x.Id); name = name; sections = sections}
+
     type Drug with
       static member parse (x:drugProvider.Topic) =
         let name = DrugName(x.Title)
@@ -752,39 +796,8 @@ module DrugParser =
 
         let vtmid = x.Body >>= (fun b ->  b.Datas |> Array.tryPick (Some >=> withname "vtmid" >=> Vtmid.from))
 
-        let inline sectionFn x =
-            match x with
-                | HasOutputClass "indicationsAndDose" _ -> MonographSection.indicationsAndDoseGroup x
-                | HasOutputClass "pregnancy" _ -> MonographSection.pregnancyfrom x |> Some
-                | HasOutputClass "breastFeeding" _ -> MonographSection.breastFeedingFrom x |> Some
-                | HasOutputClass "hepaticImpairment" _ -> MonographSection.hepaticImparmentFrom x
-                | HasOutputClass "renalImpairment" _ -> renalImpairment x
-                | HasOutputClass "patientAndCarerAdvice" _ -> patientAndCarerAdvice x
-                | HasOutputClass "medicinalForms" _ -> Some(medicinalForms x)
-                | HasOutputClass "exceptionsToLegalCategory" _ -> Some(MonographSection.exceptionsToLegalCategory x)
-                | HasOutputClass "professionSpecificInformation" _ -> Some(MonographSection.professionSpecificInformation x)
-                | HasOutputClass "effectOnLaboratoryTests" _ -> Some(MonographSection.effectOnLaboratoryTests x)
-                | HasOutputClass "preTreatmentScreening" _ -> Some(MonographSection.preTreatmentScreenings x)
-                | HasOutputClass "lessSuitableForPrescribing" _ -> Some(MonographSection.lessSuitableForPrescribings x)
-                | HasOutputClass "handlingAndStorage" _ -> Some(MonographSection.handlingAndStorages x)
-                | HasOutputClass "treatmentCessation" _ -> Some(MonographSection.treatmentCessations x)
-                | HasOutputClass "allergyAndCrossSensitivity" _ -> MonographSection.allergyAndCrossSensitivity x
-                | HasOutputClass "drugAction" _ -> Some(MonographSection.drugActions x)
-                | HasOutputClass "sideEffects" _ -> Some(MonographSection.sideEffects x)
-                | HasOutputClass "contraindications" _ -> Some(MonographSection.contraindications x)
-                | HasOutputClass "cautions" _ -> Some(MonographSection.cautions x)
-                | HasOutputClass "prescribingAndDispensingInformation" _ -> Some(MonographSection.prescribingAndDispensingInformation x)
-                | HasOutputClass "unlicensedUse" _ -> Some(MonographSection.unlicencedUse x)
-                | HasOutputClass "monitoringRequirements" _ -> Some(MonographSection.monitoringRequirements x)
-                | HasOutputClass "conceptionAndContraception" _ -> Some(MonographSection.conceptionAndContraception x)
-                | HasOutputClass "importantSafetyInformation" _ -> Some(MonographSection.importantSafetyInformation x)
-                | HasOutputClass "directionsForAdministration" _ -> Some(MonographSection.directionsForAdministration x)
-                | HasOutputClass "nationalFunding" _ -> Some(MonographSection.nationalFunding x)
-                | HasOutputClass "interactions" _ -> Some(MonographSection.interactions x)
-                | _ -> None
-
         let sections =
-          x.Topics |> Array.map sectionFn |> Array.choose id
+          x.Topics |> Array.map MonographSection.section |> Array.choose id
 
         let primaryDomainOfEffect = x.Body >>= PrimaryDomainOfEffect.from
         let secondaryDomainsOfEffect = x.Body >>= SecondaryDomainsOfEffect.from
