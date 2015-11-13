@@ -310,7 +310,10 @@ module DrugParser =
         static member from (x:drugProvider.Topic) = ReferenceableContent(Content.from x,Id(x.Id),x.Title)
 
     type PatientGroup with
-        static member from (x:drugProvider.Li) = {Group = x.Ps.[0].Value |? ""; Dosage = x.Ps.[1].Value |? "";}
+      static member from (x:drugProvider.Li) =
+        match x.Ps with
+          |[| g; p |] -> {Group = g.Value |? ""; Dosage = p.Value |? "";} |> Some
+          | _ -> None
 
     type TheraputicIndication with
       static member from (Paragraph x) = TheraputicIndication x
@@ -326,7 +329,7 @@ module DrugParser =
       static member from (x:drugProvider.Section) =
          let theraputicIndications = x.Sectiondivs.[0] |> ( Paragraphs.fromsd >> TheraputicIndication.from )
          let routes = x |> (Paragraphs.froms >> Route.from >> Seq.toArray) |> Array.map Some
-         let groups = x.Uls |> Array.map (fun u -> u.Lis |> Seq.map PatientGroup.from)
+         let groups = x.Uls |> Array.map (fun u -> u.Lis |> Seq.choose PatientGroup.from)
          //if there are no routes then return something else
          let routesOfAdministration =
             match routes with

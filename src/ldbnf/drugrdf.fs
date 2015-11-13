@@ -19,12 +19,13 @@ module DrugRdf =
   let getvalcmpi (CMPIName n) = n
   let getvtmid (Vtmid i) = Some(string i)
   let tosys (Sys s) = s
-  let setupGraph = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
-                                      "cnt",!!"http://www.w3.org/2011/content#"
-                                      "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
-                                      "bnfsite",!!Uri.bnfsite]
 
   type Graph with
+    static member setupGraph = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                                  "bnfsite",!!Uri.bnfsite]
+
     static member from (x:CMPI) =
       let s = [ Some(a Uri.CMPIEntity)
                 Some(dataProperty !!"rdfs:label" ((getvalcmpi x.cmpiname)^^xsd.string))] |> List.choose id
@@ -32,7 +33,7 @@ module DrugRdf =
       let sec = Graph.fromsec (Uri.fromseccmpi x)
       [dr s
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
-       |> Assert.graph setupGraph
+       |> Assert.graph Graph.setupGraph
 
     static member from (x:DrugClass) =
 
@@ -44,7 +45,7 @@ module DrugRdf =
 
       [dr s
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
-       |> Assert.graph setupGraph
+       |> Assert.graph Graph.setupGraph
 
     static member from (x:Drug) =
 
@@ -68,7 +69,7 @@ module DrugRdf =
        dr (x.constituentDrugs |> Seq.map Graph.fromcd |> Seq.toList)
        dr (x.interactionLinks |> Seq.map Graph.fromil |> Seq.toList)
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
-       |> Assert.graph setupGraph
+       |> Assert.graph Graph.setupGraph
 
     static member fromdc (InheritsFromClass (c)) =
       one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a Uri.DrugClassEntity]

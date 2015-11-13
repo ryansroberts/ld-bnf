@@ -7,6 +7,7 @@ open Nessos.Argu
 open FSharp.Control
 open FSharpx.Control
 open System.Text.RegularExpressions
+open FSharp.Collections.ParallelSeq
 
 open System.Xml.Linq
 open FSharp.Data
@@ -31,11 +32,9 @@ open Bnf.DrugClassificationRdf
 
 
 module Iterator =
-  let private xmlFromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
-                                                        return drugProvider.Load file }
 
-  let private fromFile (fileName : string) = async { use! file = File.AsyncOpenText fileName
-                                                     return file.ReadToEnd() }
+  let private fileasync (fileName : string) = async { use! file = File.AsyncOpenText fileName
+                                                      return file.ReadToEnd() }
   let private file (fn:string) = File.OpenText fn
 
   let private xmlFromFileSynch (fileName : string) =
@@ -68,22 +67,23 @@ module Iterator =
   let generate f =
     //get the type from the filename, somehow
     let t = Directory.GetParent(f).Name
+    use fi = file f
     //parse in different ways for differnt types
     let m = match t with
-            | "drug" -> file f |> drugProvider.Load |> Drug.parse |> Graph.from |> Some
-            | "medicinalForm" -> file f |> mfProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
-            | "treatmentSummary" -> file f |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
-            | "drugClassifications" -> file f |> dcProvider.Load |> DrugClassifications.parse |> Graph.from |> Some
-            | "drugClass" -> file f |> drugProvider.Load |> DrugClass.parse |> Graph.from |> Some
-            | "clinicalMedicinalProductInformation" -> file f |> drugProvider.Load |> CMPI.parse |> Graph.from |> Some
+            | "drug" -> fi |> drugProvider.Load |> Drug.parse |> Graph.from |> Some
+            | "medicinalForm" -> fi |> mfProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
+            | "treatmentSummary" -> fi |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
+            | "drugClassifications" -> fi |> dcProvider.Load |> DrugClassifications.parse |> Graph.from |> Some
+            | "drugClass" -> fi |> drugProvider.Load |> DrugClass.parse |> Graph.from |> Some
+            | "clinicalMedicinalProductInformation" -> fi |> drugProvider.Load |> CMPI.parse |> Graph.from |> Some
             | _ -> None
 
     match m with
-        | Some graph -> 
-          let s = ""
-          let sb = new System.Text.StringBuilder(s)
+        | Some graph ->
+          
+          let sb = new System.Text.StringBuilder()
           use tw = toString sb
-          graph |> Graph.writeTtl (tw) |> ignore
+          graph |> Graph.writeTtl tw |> ignore
           let fn = Path.GetFileName f
           let nfn = Path.ChangeExtension(fn,"ttl")
           Some(sb.ToString(),nfn,t)
@@ -93,7 +93,6 @@ module Iterator =
       printfn "%s" f
       match (generate f) with
        | Some(text,fn,t) ->
-           printfn "text length %i" (String.length text)
            let dir = (o ++ t)
            if (not(Directory.Exists(dir))) then
              Directory.CreateDirectory(dir) |> ignore
