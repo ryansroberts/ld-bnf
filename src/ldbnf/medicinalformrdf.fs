@@ -78,9 +78,10 @@ module TreatmentSummaryRdf =
     static member from (x:Summary) =
       let ls = x.links |> Seq.map Graph.from |> Seq.toList
       let cs = x.content |> List.map Graph.fromcontent
-      [Graph.fromti x.title
-       Graph.fromdoi x.doi
-       Graph.frombs x.bodySystem] @ ls @ cs
+      let s = [Graph.fromti x.title |> Some
+               x.doi >>= (Graph.fromdoi >> Some) 
+               x.bodySystem >>= (Graph.frombs >> Some)] |> List.choose id
+      s @ ls @ cs
 
     static member fromts (TreatmentSummary (_,x)) =
       match x with

@@ -15,8 +15,8 @@ module TreatmentSummary =
 
   type Summary = {
     title:Title;
-    doi:Doi;
-    bodySystem:BodySystem;
+    doi:Doi option;
+    bodySystem:BodySystem option;
     content:Content list;
     links:Link seq
   }
@@ -75,8 +75,8 @@ module TreatmentSummaryParser =
     static member from (x:tsProvider.Topic) =
       let ls = x.XElement.XPathSelectElements("//xref") |> Seq.map Link.from
       let t = Title(x.Title)
-      let d = x.Body.Datas |> Array.choose (withname "doi") |> Array.pick Doi.from
-      let bs = x.Body.Datas |> Array.choose (withname "bodySystem") |> Array.pick BodySystem.from
+      let d = x.Body.Datas |> Array.choose (withname "doi") |> Array.tryPick Doi.from
+      let bs = x.Body.Datas |> Array.choose (withname "bodySystem") |> Array.tryPick BodySystem.from
       let c = x.Body.Sections |> Array.map Content.from |> Array.toList
       Id(x.Id),{title = t; doi = d; bodySystem = bs; content = c; links = ls}
 
