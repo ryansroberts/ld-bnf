@@ -82,8 +82,8 @@ module Iterator =
         | Some graph -> 
           let s = ""
           let sb = new System.Text.StringBuilder(s)
-
-          graph |> Graph.writeTtl (toString sb) |> ignore
+          use tw = toString sb
+          graph |> Graph.writeTtl (tw) |> ignore
           let fn = Path.GetFileName f
           let nfn = Path.ChangeExtension(fn,"ttl")
           Some(sb.ToString(),nfn,t)
@@ -92,7 +92,7 @@ module Iterator =
   let apply o f =
       printfn "%s" f
       match (generate f) with
-       | Some(text,fn,t) -> 
+       | Some(text,fn,t) ->
            let dir = (o ++ t)
            if (not(Directory.Exists(dir))) then
              Directory.CreateDirectory(dir) |> ignore
