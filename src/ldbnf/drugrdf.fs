@@ -284,11 +284,20 @@ module DrugRdf =
                     | None -> gf(f,ses)
             blank !!"nicebnf:hasSpecificFrequencyGroup" s
 
-    static member fromcon (Contraindication ph) =
-      dataProperty !!"nicebnf:hasContraIndication" (xsd.string(ph.ToString()))
-
     static member fromia (ImportantAdvice (t,sp,s)) =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
+
+    static member fromcon (x:ContraindicationsGroup) =
+      let con (Contraindication x) = dataProperty !!"nicebnf:hasContraindication" (xsd.string(x.ToString()))
+      let gen (p,cs) = (dataProperty !!"cnt:ContentAsXML" (xsd.string(p.ToString()))) :: (cs |> List.map con)
+      match x with
+        | GeneralContraindications (p,cs) -> blank !!"nicebnf:hasGeneralContraindications" (gen(p,cs))
+        | ContraindicationWithRoutes (t,p,cs) -> blank !!"nicebnf:hasContraindicationsWithRoutes"
+                                                   (dataProperty !!"nicebnf:hasRouteAsTitle" (xsd.string(t.ToString()))
+                                                    :: gen(p,cs))
+        | ContraindicationWithIndications (t,p,cs) -> blank !!"nicebnf:hasContraindicationsWithIndications"
+                                                       (dataProperty !!"nicebnf:hasIndicationAsTitle" (xsd.string(t.ToString()))
+                                                        :: gen(p,cs))
 
     static member fromcg (x:CautionsGroup) =
       let cau (Caution x) = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
@@ -388,8 +397,7 @@ module DrugRdf =
         | SideEffects (i,fres,seas,ods) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
                                                                            statments Graph.fromsea seas
                                                                            statments Graph.fromod ods])
-        | Contraindications (i,cs,ps,ias) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cs
-                                                                                   statments xml ps
+        | Contraindications (i,cogs, ias) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cogs
                                                                                    statments Graph.fromia ias])
         | Cautions (i,cgs,ias) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs
                                                                statments Graph.fromia ias])

@@ -139,6 +139,11 @@ module Drug =
 
     type Contraindication = | Contraindication of drugProvider.Ph
 
+    type ContraindicationsGroup =
+      | GeneralContraindications of drugProvider.P * Contraindication list
+      | ContraindicationWithRoutes of string * drugProvider.P * Contraindication list
+      | ContraindicationWithIndications of string * drugProvider.P * Contraindication list
+
     type ImportantAdvice = | ImportantAdvice of Title option * Specificity option * drugProvider.Sectiondiv
 
     type Caution = Caution of drugProvider.Ph
@@ -195,7 +200,7 @@ module Drug =
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
         | SideEffects of Id * Frequency seq * SideEffectAdvice seq * SideEffectsOverdosageInformation seq
-        | Contraindications of Id * Contraindication seq * drugProvider.P seq * ImportantAdvice seq
+        | Contraindications of Id * ContraindicationsGroup seq * ImportantAdvice seq
         | Cautions of Id * CautionsGroup list * ImportantAdvice seq
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
         | UnlicencedUses of Id * UnlicencedUse seq
@@ -615,11 +620,19 @@ module DrugParser =
         addSpecificity x |> SideEffectsOverdosageInformation
 
     type Contraindication with
+      static member from (x:drugProvider.Ph) = Contraindication x
+    type ContraindicationsGroup with
       static member from (x:drugProvider.Section) =
-        let phs = x.Ps |> Array.collect (fun p -> p.Phs)
-        phs |> Array.filter (hasOutputclass "contraindication") |> Array.map Contraindication
-      static member content (x:drugProvider.Section) =
-        x.Ps
+        let gen p = GeneralContraindications(p, p.Phs |> Array.map Contraindication.from |> Array.toList)
+        let ac (x:drugProvider.Sectiondiv) =
+          match x with
+            | HasOutputClasso "cautionsOrContraindicationsWithRoutes" s ->
+                ContraindicationWithRoutes(s.Ps.[0].Value.Value, s.Ps.[1], s.Ps.[1].Phs |> Array.map Contraindication.from |> Array.toList)
+            | HasOutputClasso "cautionsOrContraindicationsWithIndications" s ->
+                ContraindicationWithIndications(s.Ps.[0].Value.Value, s.Ps.[1], s.Ps.[1].Phs |> Array.map Contraindication.from |> Array.toList)
+        [|x.Ps |> Array.map gen
+          x.Sectiondivs |> Array.filter (hasOutputclasso "additionalContraindications") |> Array.collect (fun sd -> sd.Sectiondivs |> Array.map ac) |] |> Array.collect id
+
 
     type Caution with
       static member from (x:drugProvider.Ph) = Caution x
@@ -697,20 +710,15 @@ module DrugParser =
                     |> Array.map SideEffectAdvice.from
         let ods = x |> (somesections "sideEffectsOverdosageInformation")
                     |> Array.map SideEffectsOverdosageInformation.from
-        SideEffects(Id(x.Id), Array.concat [gse;sse] ,adv, ods) 
+        SideEffects(Id(x.Id), Array.concat [gse;sse] ,adv, ods)
       static member contraindications (x:drugProvider.Topic) =
-        match x.Body with
-          | Some b ->
-             let cs = b.Sections |> Array.choose (withclass "contraindications")
-             let ias = b.Sections
-                      |> (sectiondivs "importantAdvice")
-                      |> Array.map (addSpecificity >> addTitle >> ImportantAdvice) 
-             Contraindications(
-               Id(x.Id),
-               cs |> Array.collect Contraindication.from,
-               cs |> Array.collect Contraindication.content,
-               ias)
-          | None -> Contraindications(Id(x.Id), Array.empty<Contraindication>, Array.empty<drugProvider.P>,Array.empty<ImportantAdvice>)
+        let s = firstsection (withclass "contraindications") x
+        let cgs = match s with 
+                  | Some (s) -> ContraindicationsGroup.from s |> Array.toList
+                  | None -> List.empty<ContraindicationsGroup>
+        let ias = x |> (somesections "importantAdvice") |> Array.map (addSpecificity >> addTitle >> ImportantAdvice)
+        Contraindications(Id(x.Id), cgs, ias)
+
       static member cautions (x:drugProvider.Topic) =
         let s = firstsection (withclass "cautions") x 
         let cgs = match s with 
