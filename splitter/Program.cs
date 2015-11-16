@@ -55,7 +55,6 @@ namespace splitter
                 var typeDir = Path.Combine(outputdir, fragment.Type.Replace("#","_"));
                 if (!Directory.Exists(typeDir))
                     Directory.CreateDirectory(typeDir);
-                    
                 var path = Path.Combine(typeDir, fragment.Id + ".xml");
                 using (var stream = new StreamWriter(path,false))
                     stream.Write(fragment.Content.ToString());
@@ -130,7 +129,7 @@ namespace splitter
 			"medicalDevice",
 			"medicalDeviceType",
 			"medicinalForm",
-
+			"clinicalMedicinalProductInformation",
 			"#clinicalMedicinalProductInformation",
 
 			"interaction",
