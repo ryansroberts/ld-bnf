@@ -607,8 +607,12 @@ module DrugParser =
         GeneralFrequency(c,s)
       static member fromsp (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
-        let s = x.Ps.[1].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
         let t = extractTitle x
+        let ses (phs:drugProvider.Ph[]) = phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
+        let s = match x.Ps with
+                | [|_;p|] -> p.Phs |> ses
+                | [|p|] -> p.Phs |> ses
+                | _ -> [||]
         SpecificFrequency(c,s,t)
 
     type SideEffectAdvice with
