@@ -460,7 +460,7 @@ module DrugParser =
     let allsections (x:drugProvider.Topic) =
      match x.Body with
       | Some b -> b.Sections |> Array.collect (fun s -> s.Sectiondivs)
-      | None -> Array.empty<drugProvider.Sectiondiv>
+      | None -> [||]
 
     let sectiondivs cl (s:drugProvider.Section[]) =
       s |> Array.filter (hasOutputclasso cl) |> Array.collect (fun sec -> sec.Sectiondivs)
@@ -468,7 +468,7 @@ module DrugParser =
     let somesections cl  (x:drugProvider.Topic) =
       match x.Body with
        | Some b -> b.Sections |> (sectiondivs cl)
-       | None -> Array.empty<drugProvider.Sectiondiv>
+       | None -> [||]
 
 
     type InheritsFromClass with
@@ -603,11 +603,11 @@ module DrugParser =
     type Frequency with
       static member fromge (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
-        let s = x.Sectiondivs.[0].Ps.[0].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
+        let s = x.Ps.[1].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
         GeneralFrequency(c,s)
       static member fromsp (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
-        let s = x.Sectiondivs.[0].Ps.[0].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
+        let s = x.Ps.[1].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
         let t = extractTitle x
         SpecificFrequency(c,s,t)
 
@@ -702,10 +702,10 @@ module DrugParser =
       static member sideEffects (x:drugProvider.Topic) =
         let gse = x |> (somesections "generalSideEffects")
                     |> Array.filter (hasOutputclasso "frequencies")
-                    |> Array.map Frequency.fromge
+                    |> Array.collect (fun f -> f.Sectiondivs |> Array.map Frequency.fromge)
         let sse = x |> (somesections "specificSideEffects")
                     |> Array.filter (hasOutputclasso "frequencies")
-                    |> Array.map Frequency.fromsp
+                    |> Array.collect (fun f -> f.Sectiondivs |> Array.map Frequency.fromsp)
         let adv = x |> (somesections "sideEffectsAdvice")
                     |> Array.map SideEffectAdvice.from
         let ods = x |> (somesections "sideEffectsOverdosageInformation")
