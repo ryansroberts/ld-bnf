@@ -603,18 +603,18 @@ module DrugParser =
         ProfessionSpecificInformation(Id(x.Id),psi,adp)
  
     type Frequency with
+      static member sideEffects (p:drugProvider.P) =
+        match p with
+          | HasOutputClasso "sideEffects" _ -> p.Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
+          | _ -> [||]
       static member fromge (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
-        let s = x.Ps.[1].Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
+        let s = x.Ps |> Array.collect Frequency.sideEffects
         GeneralFrequency(c,s)
       static member fromsp (x:drugProvider.Sectiondiv) =
         let c = x.Outputclass.Value
         let t = extractTitle x
-        let ses (phs:drugProvider.Ph[]) = phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
-        let s = match x.Ps with
-                | [|_;p|] -> p.Phs |> ses
-                | [|p|] -> p.Phs |> ses
-                | _ -> [||]
+        let s = x.Ps |> Array.collect Frequency.sideEffects
         SpecificFrequency(c,s,t)
 
     type SideEffectAdvice with
