@@ -85,7 +85,9 @@ module DrugRdf =
       one !!"nicebnf:hasInteraction" (Uri.from i) [a Uri.InteractionEntity]
 
     static member fromcd (x:ConstituentDrug) =
-      one !!"nicebnf:hasConstituentDrug" (Uri.from x ) [a Uri.ConstituentDrugEntity]
+      one !!"nicebnf:hasConstituentDrug" (Uri.from x )
+       [a Uri.ConstituentDrugEntity
+        dataProperty !!"rdfs:label" ((string x)^^xsd.string)]
 
     static member fromtu ((x:TheraputicUse), ?name0:string) =
       let name = defaultArg name0 "nicebnf:hasTherapeuticUse"

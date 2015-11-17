@@ -27,7 +27,9 @@ module Drug =
 
     type InteractionLink = | InteractionLink of Link
 
-    type ConstituentDrug = | ConstituentDrug of Link
+    type ConstituentDrug =
+      | ConstituentDrug of Link
+      override __.ToString () = match __ with | ConstituentDrug x -> x.Title
 
     type InheritsFromClass = | InheritsFromClass of string
 
