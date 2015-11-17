@@ -263,7 +263,9 @@ module DrugRdf =
 
 
     static member fromse (x:SideEffect) =
-      one !!"nicebnf:hasSideEffect" (Uri.fromse x) [a !!"nicebnf:SideEffect"]
+      let l = match x with | SideEffect s -> s^^xsd.string
+      one !!"nicebnf:hasSideEffect" (Uri.fromse x) [ dataProperty !!"rdfs:label" l
+                                                     a !!"nicebnf:SideEffect" ]
 
     static member fromsea (SideEffectAdvice (sp,s)) =
       blank !!"nicebnf:hasSideEffectAdvice" (Graph.frompair (sp,s))
