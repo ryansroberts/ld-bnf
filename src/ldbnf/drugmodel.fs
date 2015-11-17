@@ -672,23 +672,24 @@ module DrugParser =
 
     type FundingDecision with
       static member from (x:drugProvider.Sectiondiv) =
+        let buildTa (s1:drugProvider.Sectiondiv) =
+          let fid = function
+            | HasOutputClasso "fundingIdentifier" p -> FundingIdentifier.from p
+            | _ -> None
+          let fi = s1.Ps |> Array.tryPick fid
+          let (t,sp,s) = s1.Sectiondivs.[0] |> (addSpecificity >> addTitle)
+          NiceTechnologyAppraisals (fi,t,sp,s)
+        let buildSmc (s1:drugProvider.Sectiondiv) = s1.Sectiondivs.[0] |> (addSpecificity >> SmcDecisions)
         match x with
           | HasOutputClasso "niceTechnologyAppraisals" _ ->
-             let fid = function
-                          | HasOutputClasso "fundingIdentifier" p -> FundingIdentifier.from p
-                          | _ -> None
-             let s1 = x.Sectiondivs.[0]
-             let s2 = s1.Sectiondivs.[0]
-             let fi = s1.Ps |> Array.tryPick fid
-             let (t,sp,s) = s2 |> (addSpecificity >> addTitle)
-             NiceTechnologyAppraisals (fi,t,sp,s)
+             x.Sectiondivs |> Array.map buildTa
           | HasOutputClasso "smcDecisions" _ ->
-             let s2 = x.Sectiondivs.[0].Sectiondivs.[0]
-             s2 |> (addSpecificity >> SmcDecisions)
-      static member from (x:drugProvider.Section) =
+             x.Sectiondivs |> Array.map buildSmc
+          | _ -> sprintf "unmatched type of funding decision %s" x.Outputclass.Value |> failwith
+      static member fromfd (x:drugProvider.Section) =
         match x with
           | HasOutputClasso "nonNHS" _ -> x.Sectiondivs |> Array.map (addSpecificity >> NonNHS)
-          | _ -> x.Sectiondivs |> Array.map FundingDecision.from 
+          | _ -> x.Sectiondivs |> Array.collect FundingDecision.from 
 
     type MonographSection with
       static member effectOnLaboratoryTests (x:drugProvider.Topic) =
@@ -747,7 +748,7 @@ module DrugParser =
         DirectionsForAdministrations(Id(x.Id), allsections x |> Array.map (addSpecificity >> DirectionsForAdministration))
       static member nationalFunding (x:drugProvider.Topic) =
         let fds =  match x.Body with
-                         | Some b -> b.Sections |> Array.collect FundingDecision.from
+                         | Some b -> b.Sections |> Array.collect FundingDecision.fromfd
                          | None -> [||]
         NationalFunding(Id(x.Id),fds)
       static member interactions (x:drugProvider.Topic) =
