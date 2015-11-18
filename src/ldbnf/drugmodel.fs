@@ -133,11 +133,24 @@ module Drug =
     type SideEffectsOverdosageInformation =
       | SideEffectsOverdosageInformation of Option<Specificity> * drugProvider.Sectiondiv
 
-    type SideEffect = | SideEffect of string
+    type SideEffect =
+      | SideEffect of drugProvider.Ph
+      override __.ToString () =
+        match __ with
+          | SideEffect x -> match x.Value with
+                            | Some (s) -> s
+                            | _ -> ""
 
-    type Frequency =
-      | GeneralFrequency of string * SideEffect seq
-      | SpecificFrequency of string * SideEffect seq * Title option
+
+    type Frequency = {
+      frequencyid:string;
+      label:string;
+    }
+
+    type FrequencyGroup =
+      | GeneralFrequency of Frequency * drugProvider.P * SideEffect list
+      | FrequencyWithRoutes of Frequency * Route * drugProvider.P * SideEffect list
+      | FrequencyWithIndications of Frequency * Indication * drugProvider.P * SideEffect list
 
     type Contraindication = | Contraindication of drugProvider.Ph
 
@@ -201,7 +214,7 @@ module Drug =
         | HandlingAndStorages of Id * HandlingAndStorage seq
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
-        | SideEffects of Id * Frequency seq * SideEffectAdvice seq * SideEffectsOverdosageInformation seq
+        | SideEffects of Id * FrequencyGroup seq * SideEffectAdvice seq * SideEffectsOverdosageInformation seq
         | Contraindications of Id * ContraindicationsGroup seq * ImportantAdvice seq
         | Cautions of Id * CautionsGroup list * ImportantAdvice seq
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
@@ -601,21 +614,44 @@ module DrugParser =
         let psi = x |> somesections "dentalPractitionersFormulary" |> Array.map (addSpecificity >> DentalPractitionersFormulary)
         let adp = x |> somesections "adviceForDentalPractitioners" |> Array.map (addSpecificity >> AdviceForDentalPractitioners)
         ProfessionSpecificInformation(Id(x.Id),psi,adp)
- 
-    type Frequency with
+
+    type FrequencyGroup with
       static member sideEffects (p:drugProvider.P) =
         match p with
-          | HasOutputClasso "sideEffects" _ -> p.Phs |> Array.map (fun ph -> SideEffect ph.Value.Value)
-          | _ -> [||]
+          | HasOutputClasso "sideEffects" _ -> Some(p,p.Phs |> Array.map SideEffect |> Array.toList)
+          | _ -> None
+      static member title (x:drugProvider.Sectiondiv) =
+        x.Ps |> Array.pick (fun p -> match p with
+                                                | HasOutputClasso "title" p -> Some(p.Value.Value)
+                                                | _ -> None)
+      static member frequency (x:drugProvider.Sectiondiv) =
+        let l = x |> FrequencyGroup.title
+        match x.Outputclass,l with
+          | Some(c),l -> {frequencyid=c;label=l}
+          | _ -> failwith "missing parts of the frequency"
+
       static member fromge (x:drugProvider.Sectiondiv) =
-        let c = x.Outputclass.Value
-        let s = x.Ps |> Array.collect Frequency.sideEffects
-        GeneralFrequency(c,s)
+        let f = FrequencyGroup.frequency x
+        let p,s = x.Ps |> Array.pick FrequencyGroup.sideEffects
+        GeneralFrequency(f,p,s)
       static member fromsp (x:drugProvider.Sectiondiv) =
-        let c = x.Outputclass.Value
-        let t = extractTitle x
-        let s = x.Ps |> Array.collect Frequency.sideEffects
-        SpecificFrequency(c,s,t)
+        let f = FrequencyGroup.frequency x
+
+        let se' f (s:drugProvider.Sectiondiv) =
+          let i = s |> (FrequencyGroup.title >> f)
+          let f = s |> FrequencyGroup.frequency
+          let p,s = s.Ps |> Array.pick FrequencyGroup.sideEffects
+          (f,i,p,s)
+
+        let se (s:drugProvider.Sectiondiv) =
+          match s with
+            | HasOutputClasso "sideEffectsWithIndications" _ ->
+              FrequencyWithIndications(se' Indication s)
+            | HasOutputClasso "sideEffectsWithRoutes" _ ->
+              FrequencyWithRoutes(se' Route s)
+            | _ -> failwith "unmatched side effect"
+
+        x.Sectiondivs |> Array.map se
 
     type SideEffectAdvice with
       static member from (x:drugProvider.Sectiondiv) =
@@ -709,10 +745,10 @@ module DrugParser =
       static member sideEffects (x:drugProvider.Topic) =
         let gse = x |> (somesections "generalSideEffects")
                     |> Array.filter (hasOutputclasso "frequencies")
-                    |> Array.collect (fun f -> f.Sectiondivs |> Array.map Frequency.fromge)
+                    |> Array.collect (fun f -> f.Sectiondivs |> Array.map FrequencyGroup.fromge)
         let sse = x |> (somesections "specificSideEffects")
                     |> Array.filter (hasOutputclasso "frequencies")
-                    |> Array.collect (fun f -> f.Sectiondivs |> Array.map Frequency.fromsp)
+                    |> Array.collect (fun f -> f.Sectiondivs |> Array.collect FrequencyGroup.fromsp)
         let adv = x |> (somesections "sideEffectsAdvice")
                     |> Array.map SideEffectAdvice.from
         let ods = x |> (somesections "sideEffectsOverdosageInformation")

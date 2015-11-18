@@ -263,7 +263,7 @@ module DrugRdf =
 
 
     static member fromse (x:SideEffect) =
-      let l = match x with | SideEffect s -> s^^xsd.string
+      let l = match x with | SideEffect s -> (string s)^^xsd.string
       one !!"nicebnf:hasSideEffect" (Uri.fromse x) [ dataProperty !!"rdfs:label" l
                                                      a !!"nicebnf:SideEffect" ]
 
@@ -273,20 +273,25 @@ module DrugRdf =
     static member fromod (SideEffectsOverdosageInformation (sp,s)) =
       blank !!"nicebnf:hasSideEffectsOverdosageInformation" (Graph.frompair (sp,s))
 
-    static member fromfre (x:Frequency) =
-        let gf (f,ses) =
+    static member fromfre (x:FrequencyGroup) =
+        let gf (f,p,ses) =
           let s = ses |> Seq.map Graph.fromse |> Seq.toList
-          let fr = one !!"nicebnf:hasFrequency" (Uri.fromfre f) [a !!"nicebnf:Frequency"]
-          (fr :: s)
+          let fs = [a !!"nicebnf:Frequency"
+                    dataProperty !!"rdfs:Literal" ((string p)^^xsd.xmlliteral)]
+          one !!"nicebnf:hasFrequency" (Uri.fromfre f) s::fs
         match x with
-          | GeneralFrequency (f,ses) ->
-            blank !!"nicebnf:hasGeneralFrequencyGroup" (gf(f,ses))
-          | SpecificFrequency (f,ses,t) ->
-            let ti = t >>= Graph.fromti
-            let s = match ti with
-                    | Some t -> t :: gf(f,ses)
-                    | None -> gf(f,ses)
-            blank !!"nicebnf:hasSpecificFrequencyGroup" s
+          | GeneralFrequency (f,p,ses) ->
+            blank !!"nicebnf:hasGeneralFrequency" (gf(f,p,ses))
+          | FrequencyWithRoutes (f,r,p,ses) ->
+            let s = match (r |> Graph.from) with
+                    | Some(r) -> r :: gf(f,p,ses)
+                    | None -> gf(f,p,ses)
+            blank !!"nicebnf:hasFrequencyWithRoutes" s
+          | FrequencyWithIndications (f,i,p,ses) ->
+            let s = match (i |> Graph.from) with
+                     | Some(i) -> i :: gf(f,p,ses)
+                     | None -> gf(f,p,ses)
+            blank !!"nicebnf:hasFrequencyWithIndications" s
 
     static member fromia (ImportantAdvice (t,sp,s)) =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
