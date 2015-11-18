@@ -3,65 +3,40 @@ open FSharp.Data
 open Shared
 
 
-module BorderlineSubstances =
+module BorderlineSubstance =
 
   type bsProvider = XmlProvider<"borderlinesubstances.xml", Global=true>
 
   type Title =
-    | Title of string
-    override __.ToString() = match __ with | Title x -> x
+    | Title of bsProvider.Title
 
   type Link = {Uri:string;Label:string;}
 
-  type Category = | Category of string
+  type Category =
+    | Category of string
+    override __.ToString() = match __ with | Category x -> x
 
   type IntroductionNote = | IntroductionNote of string
 
-  type Formulation = | Formulation of string
 
   [<Measure>] type Kj
   [<Measure>] type Kcal
   [<Measure>] type g
 
-  type EnergyKj = | EnergyKj of int<Kj>
-
-  type EnergyKcal = | EnergyKcal of int<Kcal>
-
-  type ProteinGrams = | ProteinGrams of int<g>
-
-  type ProteinConstituents = | ProteinConstituents of string
-
-  type CarbohydrateGrams = | CarbohydrateGrams of int<g>
-
-  type CarbohydrateConstituents = | CarbohydrateConstituents of string
-
-  type FatGrams = | FatGrams of int<g>
-
-  type FatConstituents = | FatConstituents of string
-
-  type FibreGrams = | FibreGrams of int<g>
-
-  type SpecialCharacteristics = | SpecialCharacteristics of string
-
-  type Acbs = | Acbs of Link
-
-  type Presentation = | Presentation of string
-
-  type Details = {
-    formulation: Formulation option;
-    energyKj: EnergyKj option;
-    energyKcal: EnergyKcal option;
-    proteinGrams: ProteinGrams option;
-    proteinConstituents: ProteinConstituents option;
-    carbohydrateGrams: CarbohydrateGrams option;
-    carbohydrateConstituents: CarbohydrateConstituents option;
-    fatGrams: FatGrams option;
-    fatConstituents: FatConstituents option;
-    fibreGrams: FibreGrams option;
-    specialCharacteristics: SpecialCharacteristics option;
-    acbs: Acbs option;
-    presentation: Presentation option;
-  }
+  type Detail =
+    | Formulation of string
+    | EnergyKj of int<Kj>
+    | EnergyKcal of int<Kcal>
+    | ProteinGrams of int<g>
+    | ProteinConstituents of string
+    | CarbohydrateGrams of int<g>
+    | CarbohydrateConstituents of string
+    | FatGrams of int<g>
+    | FatConstituents of string
+    | FibreGrams of int<g>
+    | SpecialCharacteristics of string
+    | Acbs of bsProvider.P
+    | Presentation of string
 
   type Manufacturer = | Manufacturer of string
 
@@ -92,9 +67,86 @@ module BorderlineSubstances =
   type BorderlineSubstancePrep = | BorderlineSubstancePrep of Title * PackSizePriceTariff list
 
   type BorderlinSubstance = {
+    id:Id;
     title:Title;
     category:Category;
     intro:IntroductionNote;
-    detals:Details;
-    preparations:BorderlineSubstancePrep list;
+    details:Detail list;
+    //preparations:BorderlineSubstancePrep list;
   }
+
+
+module BorderlinSubstanceParser =
+  open prelude
+  open BorderlineSubstance
+
+  let inline withoc n x =
+    let oc = (^a : (member Outputclass : string) x)
+    if (oc = n) then Some (x)
+    else None
+
+  let inline withoco n x =
+    let oc = (^a : (member Outputclass : Option<string>) x)
+    match oc with
+      | Some s ->
+        if (s = n) then Some (x) else None
+      | _ -> None
+
+  let inline (|HasOutputClass|_|) (n:string) x =
+    let oc = (^a : (member Outputclass : string) x)
+    if oc = n then Some(x)
+    else None
+
+  let inline (|HasOutputClasso|_|) (n:string) x =
+    let oc = (^a : (member Outputclass : Option<string>) x)
+    match oc with
+      | Some s -> if s = n then Some(x)
+                  else None
+      | None -> None
+
+  type IntroductionNote with
+    static member from (x:bsProvider.P) =
+      match x with
+        | HasOutputClasso "introductionNote" _ ->
+          x.String >>= (IntroductionNote >> Some)
+        | _ -> None
+
+  let unit<[<Measure>]'u> = int >> LanguagePrimitives.Int32WithMeasure<'u>
+
+  //need to cope with nil as a value????
+
+  type Detail with
+    static member from (x:bsProvider.P) =
+      match x with
+        | HasOutputClasso "formulation" p -> p.String >>= (Formulation >> Some)
+        | HasOutputClasso "energyKj" p -> p.Number >>= (unit<Kj> >> EnergyKj >> Some)
+        | HasOutputClasso "energyKcal" p -> p.Number >>= (unit<Kcal> >> EnergyKcal >> Some)
+        | HasOutputClasso "proteinGrams" p -> p.Number >>= (unit<g> >> ProteinGrams >> Some)
+        | HasOutputClasso "proteinConstituents" p -> p.String >>= (ProteinConstituents >> Some)
+        | HasOutputClasso "carbohydrateGrams" p -> p.Number >>= (unit<g> >> CarbohydrateGrams >> Some)
+        | HasOutputClasso "carbohydrateConstituents" p -> p.String >>= (CarbohydrateConstituents >> Some)
+        | HasOutputClasso "fatGrams" p -> p.Number >>= (unit<g> >> FatGrams >> Some)
+        | HasOutputClasso "fatConstituents" p -> p.String >>= (FatConstituents >> Some)
+        | HasOutputClasso "fibreGrams" p -> p.Number >>= (unit<g> >> FibreGrams >> Some)
+        | HasOutputClasso "specialCharacteristics" p -> p.String >>= (SpecialCharacteristics >> Some)
+        | HasOutputClasso "acbs" p -> p |> (Acbs >> Some)
+        | HasOutputClasso "presentation" p -> p.String >>= (Presentation >> Some)
+        | _ -> None
+    static member from (x:bsProvider.Section) =
+      match x with
+        | HasOutputClass "details" s ->
+          s.Ps |> Array.choose Detail.from |> Array.toList
+        | _ -> []
+
+  type BorderlinSubstance with
+    static member parse (x:bsProvider.Topic) =
+      let t = x.Title |> Title
+      let c = x.Body.Data.Value |> Category
+      let note = x.Body.Ps |> Array.pick IntroductionNote.from
+      let d = x.Body.Section |> Detail.from
+
+      {id = Id(x.Id)
+       title = t;
+       category = c;
+       intro = note;
+       details = d;}
