@@ -643,7 +643,7 @@ module DrugParser =
           (f,i,p,s)
 
         let se (s:drugProvider.Sectiondiv) =
-          let f = s |> FrequencyGroup.frequency
+          let f = x |> FrequencyGroup.frequency
           match s with
             | HasOutputClasso "sideEffectsWithIndications" _ ->
               FrequencyWithIndications(s |> se' Indication f)
