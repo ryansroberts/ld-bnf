@@ -138,6 +138,9 @@ module BorderlinSubstanceParser =
           s.Ps |> Array.choose Detail.from |> Array.toList
         | _ -> []
 
+  //type BorderlineSubstancePrep with
+  //  static member 
+
   type BorderlinSubstance with
     static member parse (x:bsProvider.Topic) =
       let t = x.Title |> Title
