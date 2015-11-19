@@ -214,7 +214,8 @@ module DrugRdf =
         | PatientAdviceInConceptionAndContraception (t,sp,s) -> (t,sp,s) |> pca "PatientAdviceInConceptionAndContraception"
 
     static member fromlvs (LicensingVariationStatement(Html(s))) =
-      blank !!"nicebnf:hasLicensingVariationStatement" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+      blank !!"nicebnf:hasLicensingVariationStatement"
+        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
 
     static member fromhtml (Html(s)) =
       dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))
@@ -252,16 +253,19 @@ module DrugRdf =
       blank !!"nicebnf:hasAdviceForDentalPractitioners" (Graph.frompair (sp,s))
 
     static member fromlsfp (LessSuitableForPrescribing (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
 
     static member fromhas (HandlingAndStorage (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
 
-    static member fromelt (EffectOnLaboratoryTest s) = Graph.from s
-    static member frompts (PreTreatmentScreening s) = Graph.from s
-    static member fromtc (TreatmentCessation s) = Graph.from s
-    static member fromdac (DrugAction s) = Graph.from s
-
+    static member fromelt (EffectOnLaboratoryTest s) =
+      blank !!"nicebnf:hasInformation" (Graph.from s)
+    static member frompts (PreTreatmentScreening s) =
+      blank !!"nicebnf:hasInformation" (Graph.from s)
+    static member fromtc (TreatmentCessation s) =
+      blank !!"nicebnf:hasInformation" (Graph.from s)
+    static member fromdac (DrugAction s) =
+      blank !!"nicebnf:hasInformation" (Graph.from s)
 
     static member fromse (x:SideEffect) =
       let l = match x with | SideEffect s -> (string s)^^xsd.string
@@ -325,15 +329,15 @@ module DrugRdf =
                                                 :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
     static member fromulu (UnlicencedUse (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
     static member fromcac (ConceptionAndContraception (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
     static member fromisi (ImportantSafetyInformation(t,sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.fromthree (t,sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.fromthree (t,sp,s))
     static member fromdfa (DirectionsForAdministration (sp,s))=
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
 
     static member fromfd (x:FundingDecision) =
       match x with
@@ -347,7 +351,7 @@ module DrugRdf =
            blank !!"nicebnf:hasNiceTechnologyAppraisalDecision" s
 
     static member frominter (Interaction(sp,s)) =
-      blank !!"nicebnf:hasInteraction" (Graph.frompair(sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair(sp,s))
 
     static member fromamp (AdditionalMonitoringInPregnancy(sp,s)) =
       blank !!"nicebnf:hasAdditionalMonitoringInPregnancy" (Graph.frompair(sp,s))
