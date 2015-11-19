@@ -152,10 +152,10 @@ module DrugRdf =
       Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
 
     static member fromsp (Specificity (Paragraph s,r,i)) =
-      let s = [ Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
-                r >>= Graph.from
-                i >>= Graph.from]
-      blank !!"nicebnf:hasSpecificity" (s |> List.choose id)
+      let s = [ [dataProperty !!"rdfs:Literal" (s^^xsd.string)]
+                r |> List.choose Graph.from
+                i |> List.choose Graph.from] |> List.collect id
+      blank !!"nicebnf:hasSpecificity" s
 
     static member fromgi (GeneralInformation (sd,sp)) =
       let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))

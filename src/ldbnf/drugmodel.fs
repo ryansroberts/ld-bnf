@@ -63,7 +63,7 @@ module Drug =
       | ExtremesOfBodyWeight of drugProvider.Section
       | Potency of drugProvider.Section
 
-    type Specificity = | Specificity of Paragraph * Option<Route> * Option<Indication>
+    type Specificity = | Specificity of Paragraph * Route list * Indication list
 
     type GeneralInformation = | GeneralInformation of drugProvider.Sectiondiv * Option<Specificity>
 
@@ -403,9 +403,9 @@ module DrugParser =
 
     type Specificity with
       static member from (x:drugProvider.P) =
-        let r = x.Phs |> Array.filter (hasOutputclass "route") |> Array.map Route.from |> Array.tryPick Some 
-        let i = x.Phs |> Array.filter (hasOutputclass "indication") |> Array.map Indication.from |> Array.tryPick Some
-        Specificity(Paragraph.from x,r,i)
+        let rs = x.Phs |> Array.filter (hasOutputclass "route") |> Array.map Route.from |> Array.toList
+        let is = x.Phs |> Array.filter (hasOutputclass "indication") |> Array.map Indication.from |> Array.toList
+        Specificity(Paragraph.from x,rs,is)
 
     let extractSpecificity (x:drugProvider.Sectiondiv) =
       x.Ps |> Array.filter (hasOutputclasso "specificity") |> Array.map Specificity.from |> Array.tryPick Some
