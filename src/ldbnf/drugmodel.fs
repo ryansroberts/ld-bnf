@@ -637,18 +637,18 @@ module DrugParser =
         let p,s = x.Ps |> FrequencyGroup.sideEffects
         GeneralFrequency(f,p,s)
       static member fromsp (x:drugProvider.Sectiondiv) =
-        let se' f (s:drugProvider.Sectiondiv) =
-          let i = s |> (FrequencyGroup.title >> f)
-          let f = s |> FrequencyGroup.frequency
+        let se' fc f (s:drugProvider.Sectiondiv) =
+          let i = s |> (FrequencyGroup.title >> fc)
           let p,s = s.Ps |> FrequencyGroup.sideEffects
           (f,i,p,s)
 
         let se (s:drugProvider.Sectiondiv) =
+          let f = s |> FrequencyGroup.frequency
           match s with
             | HasOutputClasso "sideEffectsWithIndications" _ ->
-              FrequencyWithIndications(se' Indication s)
+              FrequencyWithIndications(s |> se' Indication f)
             | HasOutputClasso "sideEffectsWithRoutes" _ ->
-              FrequencyWithRoutes(se' Route s)
+              FrequencyWithRoutes(s |> se' Route f)
             | _ -> failwith "unmatched side effect"
 
         x.Sectiondivs |> Array.map se
