@@ -40,7 +40,7 @@ module BorderlineSubstance =
 
   type Manufacturer = | Manufacturer of string
 
-  type PreparationTitle = | PreparationTitle of string * Manufacturer option
+  type PreparationTitle = | PreparationTitle of bsProvider.P * Manufacturer option
 
 
   type PackSize = | PackSize of int
@@ -138,8 +138,22 @@ module BorderlinSubstanceParser =
           s.Ps |> Array.choose Detail.from |> Array.toList
         | _ -> []
 
+  type Manufacturer with
+    static member from (x:bsProvider.Ph) =
+      match x with
+        | HasOutputClass "manufacturer" ph -> ph.String >>= (Manufacturer >> Some)
+        | _ -> None
+
+  type PreparationTitle with
+    static member from (x:bsProvider.P) =
+      let m (p:bsProvider.P) = p.Phs |> Array.tryPick Manufacturer.from
+      match x with
+        | HasOutputClasso "title" p -> PreparationTitle(p, m p) |> Some
+        | _ -> None
+
   //type BorderlineSubstancePrep with
-  //  static member 
+  //  static member from (x:bsProvider.Sectiondiv) =
+      
 
   type BorderlinSubstance with
     static member parse (x:bsProvider.Topic) =

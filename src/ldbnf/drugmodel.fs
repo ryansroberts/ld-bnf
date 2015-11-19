@@ -616,10 +616,12 @@ module DrugParser =
         ProfessionSpecificInformation(Id(x.Id),psi,adp)
 
     type FrequencyGroup with
-      static member sideEffects (p:drugProvider.P) =
-        match p with
-          | HasOutputClasso "sideEffects" _ -> Some(p,p.Phs |> Array.map SideEffect |> Array.toList)
-          | _ -> None
+      static member sideEffects (ps:drugProvider.P[]) =
+        let f = function
+          | _,[] -> None
+          | p,s -> Some(p,s)
+        ps |> Array.map (fun p -> p,p.Phs |> Array.map SideEffect |> Array.toList) |> Array.pick f
+
       static member title (x:drugProvider.Sectiondiv) =
         x.Ps |> Array.pick (fun p -> match p with
                                                 | HasOutputClasso "title" p -> Some(p.Value.Value)
@@ -632,15 +634,13 @@ module DrugParser =
 
       static member fromge (x:drugProvider.Sectiondiv) =
         let f = FrequencyGroup.frequency x
-        let p,s = x.Ps |> Array.pick FrequencyGroup.sideEffects
+        let p,s = x.Ps |> FrequencyGroup.sideEffects
         GeneralFrequency(f,p,s)
       static member fromsp (x:drugProvider.Sectiondiv) =
-        let f = FrequencyGroup.frequency x
-
         let se' f (s:drugProvider.Sectiondiv) =
           let i = s |> (FrequencyGroup.title >> f)
           let f = s |> FrequencyGroup.frequency
-          let p,s = s.Ps |> Array.pick FrequencyGroup.sideEffects
+          let p,s = s.Ps |> FrequencyGroup.sideEffects
           (f,i,p,s)
 
         let se (s:drugProvider.Sectiondiv) =
