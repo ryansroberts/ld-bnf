@@ -43,13 +43,13 @@ module BorderlineSubstance =
   type PreparationTitle = | PreparationTitle of bsProvider.P * Manufacturer option
 
 
-  type PackSize = | PackSize of int
+  type PackSize = | PackSize of decimal
 
   type UnitOfMeasure = | UnitOfMeasure of string
 
   type PackAcbs = | PackAcbs of string
 
-  type PackInfo = | PackInfo of PackSize * UnitOfMeasure * PackAcbs
+  type PackInfo = | PackInfo of PackSize option * UnitOfMeasure option * PackAcbs option
 
 
   type NhsIndicative = | NhsIndicative of string
@@ -58,13 +58,13 @@ module BorderlineSubstance =
 
   type NhsIndicativePrice = | NhsIndicativePrice of string
 
-  type NhsIndicativeInfo = | NhsIndicativeInfo of NhsIndicative * PriceText * NhsIndicativePrice
+  type NhsIndicativeInfo = | NhsIndicativeInfo of NhsIndicative option * PriceText option * NhsIndicativePrice option
 
 
-  type PackSizePriceTariff = | PackSizePriceTariff of PackInfo * NhsIndicativeInfo
+  type PackSizePriceTariff = | PackSizePriceTariff of PackInfo option * NhsIndicativeInfo option
 
 
-  type BorderlineSubstancePrep = | BorderlineSubstancePrep of Title * PackSizePriceTariff list
+  type BorderlineSubstancePrep = | BorderlineSubstancePrep of PreparationTitle option * PackSizePriceTariff list
 
   type BorderlinSubstance = {
     id:Id;
@@ -72,7 +72,7 @@ module BorderlineSubstance =
     category:Category;
     intro:IntroductionNote;
     details:Detail list;
-    //preparations:BorderlineSubstancePrep list;
+    preparations:BorderlineSubstancePrep list;
   }
 
 
@@ -113,7 +113,60 @@ module BorderlinSubstanceParser =
 
   let unit<[<Measure>]'u> = int >> LanguagePrimitives.Int32WithMeasure<'u>
 
-  //need to cope with nil as a value????
+  type Manufacturer with
+    static member from (x:bsProvider.Ph) =
+      match x with
+        | HasOutputClass "manufacturer" ph -> ph.String >>= (Manufacturer >> Some)
+        | _ -> None
+
+  type PreparationTitle with
+    static member from (x:bsProvider.P) =
+      let m (p:bsProvider.P) = p.Phs |> Array.tryPick Manufacturer.from
+      match x with
+        | HasOutputClasso "title" p -> PreparationTitle(p, m p) |> Some
+        | _ -> None
+
+  let fromphn c (x:bsProvider.Ph) =
+    x.Number >>= (c >> Some)
+
+  let fromphs c (x:bsProvider.Ph) =
+    x.String >>= (c >> Some)
+
+  type UnitOfMeasure with
+    static member from (x:bsProvider.Ph) =
+      match x.String with
+        | Some(s) -> UnitOfMeasure s |> Some
+        | None -> None
+
+ 
+
+  type PackInfo with
+    static member from (x:bsProvider.P) =
+      let ps = x.Phs |> Array.tryPick (withoc "packSize") >>= (fromphn PackSize)
+      let uom = x.Phs |> Array.tryPick (withoc "unitOfMeasure") >>= UnitOfMeasure.from
+      let acbs = x.Phs |> Array.tryPick (withoc "acbs") >>= (fromphs PackAcbs)
+      PackInfo(ps,uom,acbs)
+
+  type NhsIndicativeInfo with
+    static member from (x:bsProvider.P) =
+      let nhsi = x.Phs |> Array.tryPick (withoc "nhsIndicative") >>= (fromphs NhsIndicative)
+      let pt = x.Phs |> Array.tryPick (withoc "priceText") >>= (fromphs PriceText)
+      let nhsip = x.Phs |> Array.tryPick (withoc "nhsIndicativePrice") >>= (fromphs NhsIndicativePrice)
+      NhsIndicativeInfo(nhsi,pt,nhsip)
+
+  type PackSizePriceTariff with
+    static member from (x:bsProvider.Li) =
+      let pi = x.Ps |> Array.tryPick (withoco "packInfo") >>= (PackInfo.from >> Some)
+      let nhs = x.Ps |> Array.tryPick (withoco "nhsIndicativeInfo") >>= (NhsIndicativeInfo.from >> Some)
+      PackSizePriceTariff(pi,nhs)
+
+  type BorderlineSubstancePrep with
+    static member from (x:bsProvider.Sectiondiv) =
+      let title = x.P >>= PreparationTitle.from
+      let pt = match x.Ul with
+                | Some ul -> ul.Lis |> Array.map PackSizePriceTariff.from |> Array.toList
+                | None -> []
+      BorderlineSubstancePrep(title,pt)
 
   type Detail with
     static member from (x:bsProvider.P) =
@@ -133,37 +186,25 @@ module BorderlinSubstanceParser =
         | HasOutputClasso "presentation" p -> p.String >>= (Presentation >> Some)
         | _ -> None
     static member from (x:bsProvider.Section) =
-      match x with
-        | HasOutputClass "details" s ->
-          s.Ps |> Array.choose Detail.from |> Array.toList
-        | _ -> []
+      let ds = match x with
+               | HasOutputClass "details" s ->
+                 s.Ps |> Array.choose Detail.from |> Array.toList
+                 | _ -> []
+      let bsps = x.Sectiondiv.Sectiondivs |> Array.map BorderlineSubstancePrep.from |> Array.toList
+      ds,bsps
 
-  type Manufacturer with
-    static member from (x:bsProvider.Ph) =
-      match x with
-        | HasOutputClass "manufacturer" ph -> ph.String >>= (Manufacturer >> Some)
-        | _ -> None
-
-  type PreparationTitle with
-    static member from (x:bsProvider.P) =
-      let m (p:bsProvider.P) = p.Phs |> Array.tryPick Manufacturer.from
-      match x with
-        | HasOutputClasso "title" p -> PreparationTitle(p, m p) |> Some
-        | _ -> None
-
-  //type BorderlineSubstancePrep with
-  //  static member from (x:bsProvider.Sectiondiv) =
-      
 
   type BorderlinSubstance with
     static member parse (x:bsProvider.Topic) =
       let t = x.Title |> Title
       let c = x.Body.Data.Value |> Category
       let note = x.Body.Ps |> Array.pick IntroductionNote.from
-      let d = x.Body.Section |> Detail.from
+      let d,bsps = x.Body.Section |> Detail.from
 
       {id = Id(x.Id)
        title = t;
        category = c;
        intro = note;
-       details = d;}
+       details = d;
+       preparations = bsps;
+       }
