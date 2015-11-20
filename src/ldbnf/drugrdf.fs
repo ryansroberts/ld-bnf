@@ -149,10 +149,10 @@ module DrugRdf =
         ]
 
     static member fromti (Bnf.Drug.Title (Paragraph(s))) =
-      Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
+      Some(dataProperty !!"nicebnf:hasTitle" (s^^xsd.string))
 
     static member fromsp (Specificity (Paragraph s,r,i)) =
-      let sp = [ [ dataProperty !!"rdfs:Literal" (s^^xsd.string)
+      let sp = [ [ dataProperty !!"rdfs:label" (s^^xsd.string)
                    a Uri.SpecificityEntity]
                  r |> List.choose Graph.from
                  i |> List.choose Graph.from] |> List.collect id
@@ -284,21 +284,21 @@ module DrugRdf =
                     dataProperty !!"rdfs:Label" (f.label^^xsd.string)]
           let fs = [a !!"nicebnf:FrequencyGroup"
                     one !!"nicebnf:hasFrequency" (Uri.fromfre f) fq
-                    dataProperty !!"rdfs:Literal" ((string p)^^xsd.xmlliteral)] @ (ses |> Seq.map Graph.fromse |> Seq.toList)
+                    dataProperty !!"rdfs:label" ((string p)^^xsd.xmlliteral)] @ (ses |> Seq.map Graph.fromse |> Seq.toList)
           [blank !!"nicebnf:hasFrequencyGroup" fs]
         match x with
           | GeneralFrequency (f,p,ses) ->
-            blank !!"nicebnf:hasGeneralFrequency" (gf(f,p,ses))
+            blank !!"nicebnf:hasGeneralSideEffects" (gf(f,p,ses))
           | FrequencyWithRoutes (f,r,p,ses) ->
             let s = match (r |> Graph.from) with
                     | Some(r) -> r :: gf(f,p,ses)
                     | None -> gf(f,p,ses)
-            blank !!"nicebnf:hasFrequencyWithRoutes" s
+            blank !!"nicebnf:hasSideEffectsWithRoutes" s
           | FrequencyWithIndications (f,i,p,ses) ->
             let s = match (i |> Graph.from) with
                      | Some(i) -> i :: gf(f,p,ses)
                      | None -> gf(f,p,ses)
-            blank !!"nicebnf:hasFrequencyWithIndications" s
+            blank !!"nicebnf:hasSideEffectsWithIndications" s
 
     static member fromia (ImportantAdvice (t,sp,s)) =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
