@@ -280,13 +280,12 @@ module DrugRdf =
 
     static member fromfre (x:FrequencyGroup) =
         let gf (f,p,ses) =
-          let s = ses |> Seq.map Graph.fromse |> Seq.toList
+          let fq = [a !!"nicebnf:Frequency"
+                    dataProperty !!"rdfs:Label" (f.label^^xsd.string)]
           let fs = [a !!"nicebnf:FrequencyGroup"
-                    one !!"nicebnf:hasFrequency" (Uri.fromfre f)
-                     [a !!"nicebnf:Frequency"
-                      dataProperty !!"rdfs:Label" (f.label^^xsd.string)]
-                    dataProperty !!"rdfs:Literal" ((string p)^^xsd.xmlliteral)]
-          blank !!"nicebnf:hasFrequencyGroup" s::fs
+                    one !!"nicebnf:hasFrequency" (Uri.fromfre f) fq
+                    dataProperty !!"rdfs:Literal" ((string p)^^xsd.xmlliteral)] @ (ses |> Seq.map Graph.fromse |> Seq.toList)
+          [blank !!"nicebnf:hasFrequencyGroup" fs]
         match x with
           | GeneralFrequency (f,p,ses) ->
             blank !!"nicebnf:hasGeneralFrequency" (gf(f,p,ses))
