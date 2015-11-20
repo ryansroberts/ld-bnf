@@ -1,2 +1,4 @@
 build:
   image: nice/ld-docker-build
+  commands:
+    - ./build.sh
