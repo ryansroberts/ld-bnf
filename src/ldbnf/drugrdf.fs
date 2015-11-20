@@ -259,13 +259,13 @@ module DrugRdf =
       blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
 
     static member fromelt (EffectOnLaboratoryTest s) =
-      blank !!"nicebnf:hasInformation" (Graph.from s)
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
     static member frompts (PreTreatmentScreening s) =
-      blank !!"nicebnf:hasInformation" (Graph.from s)
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
     static member fromtc (TreatmentCessation s) =
-      blank !!"nicebnf:hasInformation" (Graph.from s)
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
     static member fromdac (DrugAction s) =
-      blank !!"nicebnf:hasInformation" (Graph.from s)
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
 
     static member fromse (x:SideEffect) =
       let l = match x with | SideEffect s -> (string s)^^xsd.string
