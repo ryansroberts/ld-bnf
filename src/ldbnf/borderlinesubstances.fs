@@ -5,7 +5,7 @@ open Shared
 
 module BorderlineSubstance =
 
-  type bsProvider = XmlProvider<"borderlinesubstances.xml", Global=true>
+  type bsProvider = XmlProvider<"borderlinesubstances.xml", Global=true, SampleIsList=true>
 
   type Title =
     | Title of bsProvider.Title
@@ -66,17 +66,18 @@ module BorderlineSubstance =
 
   type BorderlineSubstancePrep = | BorderlineSubstancePrep of PreparationTitle option * PackSizePriceTariff list
 
+  type Details = | Details of Detail list * BorderlineSubstancePrep list
+
   type BorderlineSubstance = {
     id:Id;
     title:Title;
     category:Category;
-    intro:IntroductionNote;
-    details:Detail list;
-    preparations:BorderlineSubstancePrep list;
+    intro:IntroductionNote option;
+    details:Details list;
   }
 
 
-module BorderlinSubstanceParser =
+module BorderlineSubstanceParser =
   open prelude
   open BorderlineSubstance
 
@@ -190,21 +191,22 @@ module BorderlinSubstanceParser =
                | HasOutputClass "details" s ->
                  s.Ps |> Array.choose Detail.from |> Array.toList
                  | _ -> []
-      let bsps = x.Sectiondiv.Sectiondivs |> Array.map BorderlineSubstancePrep.from |> Array.toList
-      ds,bsps
+      let bsps = match x.Sectiondiv with
+                  | Some sd ->  sd.Sectiondivs |> Array.map BorderlineSubstancePrep.from |> Array.toList
+                  | None -> []
+      Details(ds,bsps)
 
 
   type BorderlineSubstance with
     static member parse (x:bsProvider.Topic) =
       let t = x.Title |> Title
       let c = x.Body.Data.Value |> Category
-      let note = x.Body.Ps |> Array.pick IntroductionNote.from
-      let d,bsps = x.Body.Section |> Detail.from
+      let note = x.Body.Ps |> Array.tryPick IntroductionNote.from
+      let ds = x.Body.Sections |> Array.map Detail.from |> Array.toList
 
       {id = Id(x.Id)
        title = t;
        category = c;
        intro = note;
-       details = d;
-       preparations = bsps;
+       details = ds;
        }
