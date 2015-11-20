@@ -66,7 +66,7 @@ module BorderlineSubstance =
 
   type BorderlineSubstancePrep = | BorderlineSubstancePrep of PreparationTitle option * PackSizePriceTariff list
 
-  type BorderlinSubstance = {
+  type BorderlineSubstance = {
     id:Id;
     title:Title;
     category:Category;
@@ -194,7 +194,7 @@ module BorderlinSubstanceParser =
       ds,bsps
 
 
-  type BorderlinSubstance with
+  type BorderlineSubstance with
     static member parse (x:bsProvider.Topic) =
       let t = x.Title |> Title
       let c = x.Body.Data.Value |> Category

@@ -2,6 +2,29 @@ namespace Bnf
 open FSharp.RDF
 open FSharp.Data.Runtime
 
+module BorderlineSubstanceRdf =
+  open prelude
+  open resource
+  open Bnf.BorderlineSubstance
+  open Assertion
+  open rdf
+  open Rdf
+  open Shared
+  open RdfUris
+
+  type Graph with
+    static member from (x:BorderlineSubstance) =
+      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                  "bnfsite",!!Uri.bnfsite]
+
+      let s = [ a Uri.MedicinalFormEntity
+                x.title |> (string >> xsd.string >> (dataProperty !!"rdfs:label"))] 
+
+      let dr r = resource (Uri.from x) r
+      [dr s]
+       |> Assert.graph og
 
 module DrugClassificationRdf =
   open prelude

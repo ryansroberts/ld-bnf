@@ -23,6 +23,7 @@ module RdfUris =
   open Bnf.Drug
   open Bnf.MedicinalForm
   open Bnf.TreatmentSummary
+  open Bnf.BorderlineSubstance
   open Assertion
   open rdf
   open Shared
@@ -35,6 +36,7 @@ module RdfUris =
     static member from (x:Drug) = !!(Uri.bnfsite + "drug/" + string x.id )
     static member from (x:DrugClass) = !!(Uri.bnfsite + "drugclass/" + string x.id )
     static member from (x:CMPI) = !!(Uri.bnfsite + "clinicalMedicinalProductInformation/" + string x.id )
+    static member from (x:BorderlineSubstance) = !!(Uri.bnfsite + "borderlineSubstance/" + string x.id )
     static member fromsec (x:Drug) (Id i) = !!(Uri.bnfsite + "drug/" + string x.id + "#" + i)
     static member fromsecdc (x:DrugClass) (Id i) = !!(Uri.bnfsite + "drugclass/" + string x.id + "#" + i)
     static member fromseccmpi (x:CMPI) (Id i) = !!(Uri.bnfsite + "clinicalMedicinalProductInformation/" + string x.id + "#" + i)
@@ -70,3 +72,4 @@ module RdfUris =
     static member FundingIdentifierEntity = !!(Uri.nicebnfClass + "FundingIdentifier")
     static member PatientGroupEntity = !!(Uri.nicebnfClass + "PatientGroup")
     static member TreatmentSummaryEntity = !!(Uri.nicebnfClass + "TreatmentSummary")
+    static member BorderlineSubstanceEntity = !!(Uri.nicebnfClass + "BorderlineSubstance")
