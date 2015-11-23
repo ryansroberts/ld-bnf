@@ -1,3 +1,4 @@
-image: nice/ld-docker-build:latest
-script:
-  - ./.drone/build.sh
+build:
+  image: nice/ld-docker-build
+  commands:
+    - ./.drone/build.sh $$APIKEY

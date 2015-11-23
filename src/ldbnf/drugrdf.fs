@@ -149,21 +149,22 @@ module DrugRdf =
         ]
 
     static member fromti (Bnf.Drug.Title (Paragraph(s))) =
-      Some(dataProperty !!"rdfs:Literal" (s^^xsd.string))
+      Some(dataProperty !!"nicebnf:hasTitle" (s^^xsd.string))
 
     static member fromsp (Specificity (Paragraph s,r,i)) =
-      let s = [ [dataProperty !!"rdfs:Literal" (s^^xsd.string)]
-                r |> List.choose Graph.from
-                i |> List.choose Graph.from] |> List.collect id
-      blank !!"nicebnf:hasSpecificity" s
+      let sp = [ [ dataProperty !!"rdfs:label" (s^^xsd.string)
+                   a Uri.SpecificityEntity]
+                 r |> List.choose Graph.from
+                 i |> List.choose Graph.from] |> List.collect id
+      one !!"nicebnf:hasSpecificity" (Uri.froms s) sp
 
     static member fromgi (GeneralInformation (sd,sp)) =
-      let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
+      let s = [Some(dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(sd.ToString())))
                sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasGeneralInformation" (s |> List.choose id)
 
     static member fromda (DoseAdjustment (sd,sp)) =
-      let s = [Some(dataProperty !!"cnt:ContentAsXML" (xsd.string(sd.ToString())))
+      let s = [Some(dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(sd.ToString())))
                sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
 
@@ -190,7 +191,8 @@ module DrugRdf =
       blank !!"nicebnf:hasIndicationAndDose" s
 
     static member fromidgs (x:IndicationsAndDoseSection) =
-      let dp n = string >> xsd.xmlliteral >> (dataProperty !!("nicebnf:has" + n))
+      let bn s = [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
+      let dp n s = (blank !!("nicebnf:has" + n) (bn s))
       match x with
        | Pharmacokinetics s -> s |> dp "Pharmacokinetics"
        | DoseEquivalence s -> s |> dp "DoseEquivalence"
@@ -200,7 +202,7 @@ module DrugRdf =
 
     static member fromamri (AdditionalMonitoringInRenalImpairment s) =
       blank !!"nicebnf:hasAdditionalMonitoringInRenalImpairment"
-        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+        [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member frompca (p:PatientAndCarerAdvice) =
       let pca n x = blank !!("nicebnf:has" + n) (Graph.fromthree x)
@@ -213,10 +215,11 @@ module DrugRdf =
         | PatientAdviceInConceptionAndContraception (t,sp,s) -> (t,sp,s) |> pca "PatientAdviceInConceptionAndContraception"
 
     static member fromlvs (LicensingVariationStatement(Html(s))) =
-      blank !!"nicebnf:hasLicensingVariationStatement" [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+      blank !!"nicebnf:hasLicensingVariationStatement"
+        [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member fromhtml (Html(s)) =
-      dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))
+      dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))
 
     static member frommfl (MedicinalFormLink(l)) =
       blank !!"nicebnf:hasMedicinalForm"
@@ -225,14 +228,14 @@ module DrugRdf =
 
     static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
       blank !!"nicebnf:hasContraIndication"
-        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+        [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member fromcscs (AllergyAndCrossSensitivityCrossSensitivity s) =
       blank !!"nicebnf:hasCrossSensitivity"
-        [dataProperty !!"cnt:ContentAsXML" (xsd.string(s.ToString()))]
+        [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member from (x:drugProvider.Sectiondiv) =
-      dataProperty !!"cnt:ContentAsXML" (xsd.string(x.ToString()))
+      dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(x.ToString()))
 
     static member frompair (sp,s:drugProvider.Sectiondiv) =
       [sp >>= (Graph.fromsp >> Some)
@@ -251,16 +254,19 @@ module DrugRdf =
       blank !!"nicebnf:hasAdviceForDentalPractitioners" (Graph.frompair (sp,s))
 
     static member fromlsfp (LessSuitableForPrescribing (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
 
     static member fromhas (HandlingAndStorage (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
 
-    static member fromelt (EffectOnLaboratoryTest s) = Graph.from s
-    static member frompts (PreTreatmentScreening s) = Graph.from s
-    static member fromtc (TreatmentCessation s) = Graph.from s
-    static member fromdac (DrugAction s) = Graph.from s
-
+    static member fromelt (EffectOnLaboratoryTest s) =
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
+    static member frompts (PreTreatmentScreening s) =
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
+    static member fromtc (TreatmentCessation s) =
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
+    static member fromdac (DrugAction s) =
+      blank !!"nicebnf:hasInformation" [(Graph.from s)]
 
     static member fromse (x:SideEffect) =
       let l = match x with | SideEffect s -> (string s)^^xsd.string
@@ -275,33 +281,31 @@ module DrugRdf =
 
     static member fromfre (x:FrequencyGroup) =
         let gf (f,p,ses) =
-          let s = ses |> Seq.map Graph.fromse |> Seq.toList
-          let fs = [a !!"nicebnf:FrequencyGroup"
-                    one !!"nicebnf:hasFrequency" (Uri.fromfre f)
-                     [a !!"nicebnf:Frequency"
-                      dataProperty !!"rdfs:Label" (f.label^^xsd.string)]
-                    dataProperty !!"rdfs:Literal" ((string p)^^xsd.xmlliteral)]
-          blank !!"nicebnf:hasFrequencyGroup" s::fs
+          let fq = [a !!"nicebnf:Frequency"
+                    dataProperty !!"rdfs:label" (f.label^^xsd.string)]
+          [ a !!"nicebnf:FrequencyGroup"
+            one !!"nicebnf:hasFrequency" (Uri.fromfre f) fq
+            dataProperty !!"nicebnf:hasDitaContent" ((string p)^^xsd.xmlliteral)] @ (ses |> Seq.map Graph.fromse |> Seq.toList)
         match x with
           | GeneralFrequency (f,p,ses) ->
-            blank !!"nicebnf:hasGeneralFrequency" (gf(f,p,ses))
+            blank !!"nicebnf:hasGeneralSideEffects" (gf(f,p,ses))
           | FrequencyWithRoutes (f,r,p,ses) ->
             let s = match (r |> Graph.from) with
                     | Some(r) -> r :: gf(f,p,ses)
                     | None -> gf(f,p,ses)
-            blank !!"nicebnf:hasFrequencyWithRoutes" s
+            blank !!"nicebnf:hasSideEffectsWithRoutes" s
           | FrequencyWithIndications (f,i,p,ses) ->
             let s = match (i |> Graph.from) with
                      | Some(i) -> i :: gf(f,p,ses)
                      | None -> gf(f,p,ses)
-            blank !!"nicebnf:hasFrequencyWithIndications" s
+            blank !!"nicebnf:hasSideEffectsWithIndications" s
 
     static member fromia (ImportantAdvice (t,sp,s)) =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
 
     static member fromcon (x:ContraindicationsGroup) =
       let con (Contraindication x) = dataProperty !!"nicebnf:hasContraindication" (xsd.string(x.ToString()))
-      let gen (p,cs) = (dataProperty !!"cnt:ContentAsXML" (xsd.string(p.ToString()))) :: (cs |> List.map con)
+      let gen (p,cs) = (dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))) :: (cs |> List.map con)
       match x with
         | GeneralContraindications (p,cs) -> blank !!"nicebnf:hasGeneralContraindications" (gen(p,cs))
         | ContraindicationWithRoutes (t,p,cs) -> blank !!"nicebnf:hasContraindicationsWithRoutes"
@@ -313,7 +317,7 @@ module DrugRdf =
 
     static member fromcg (x:CautionsGroup) =
       let cau (Caution x) = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
-      let gen (p,cs) = (dataProperty !!"cnt:ContentAsXML" (xsd.string(p.ToString()))) :: (cs |> List.map cau)
+      let gen (p,cs) = (dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))) :: (cs |> List.map cau)
       match x with
         | GeneralCautions (p,cs) -> blank !!"nicebnf:hasGeneralCautions" (gen(p,cs))
         | CautionsWithRoutes (t,p,cs) -> blank !!"nicebnf:hasCautionsWithRoutes"
@@ -324,15 +328,15 @@ module DrugRdf =
                                                 :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
     static member fromulu (UnlicencedUse (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
     static member fromcac (ConceptionAndContraception (sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
     static member fromisi (ImportantSafetyInformation(t,sp,s)) =
-      blank !!"nicebnf:hasGeneralInformation" (Graph.fromthree (t,sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.fromthree (t,sp,s))
     static member fromdfa (DirectionsForAdministration (sp,s))=
-      blank !!"nicebnf:hasGeneralInformation" (Graph.frompair (sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
 
     static member fromfd (x:FundingDecision) =
       match x with
@@ -346,7 +350,7 @@ module DrugRdf =
            blank !!"nicebnf:hasNiceTechnologyAppraisalDecision" s
 
     static member frominter (Interaction(sp,s)) =
-      blank !!"nicebnf:hasInteraction" (Graph.frompair(sp,s))
+      blank !!"nicebnf:hasInformation" (Graph.frompair(sp,s))
 
     static member fromamp (AdditionalMonitoringInPregnancy(sp,s)) =
       blank !!"nicebnf:hasAdditionalMonitoringInPregnancy" (Graph.frompair(sp,s))
@@ -375,7 +379,7 @@ module DrugRdf =
         | Some(x) -> [g x]
         | None -> []
 
-      let xml x = dataProperty !!"cnt:ContentAsXML" (xsd.string(x.ToString()))
+      let xml x = dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(x.ToString()))
 
       match x with
         | Pregnancy (i,gs,das,amps) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs
