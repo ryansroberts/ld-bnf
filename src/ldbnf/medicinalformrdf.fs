@@ -19,7 +19,7 @@ module BorderlineSubstanceRdf =
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
 
-      let s = [ a Uri.MedicinalFormEntity
+      let s = [ a Uri.BorderlineSubstanceEntity
                 x.title |> (string >> xsd.string >> (dataProperty !!"rdfs:label"))] 
 
       let dr r = resource (Uri.from x) r
