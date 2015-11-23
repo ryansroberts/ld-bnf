@@ -289,15 +289,11 @@ module DrugRdf =
         match x with
           | GeneralFrequency (f,p,ses) ->
             blank !!"nicebnf:hasGeneralSideEffects" (gf(f,p,ses))
-          | FrequencyWithRoutes (f,r,p,ses) ->
-            let s = match (r |> Graph.from) with
-                    | Some(r) -> r :: gf(f,p,ses)
-                    | None -> gf(f,p,ses)
+          | FrequencyWithRoutes (f,sp,p,ses) ->
+            let s = (sp |> Graph.fromsp) :: gf(f,p,ses)
             blank !!"nicebnf:hasSideEffectsWithRoutes" s
-          | FrequencyWithIndications (f,i,p,ses) ->
-            let s = match (i |> Graph.from) with
-                     | Some(i) -> i :: gf(f,p,ses)
-                     | None -> gf(f,p,ses)
+          | FrequencyWithIndications (f,sp,p,ses) ->
+            let s = (sp |> Graph.fromsp) :: gf(f,p,ses)
             blank !!"nicebnf:hasSideEffectsWithIndications" s
 
     static member fromia (ImportantAdvice (t,sp,s)) =

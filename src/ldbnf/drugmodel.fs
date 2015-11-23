@@ -149,8 +149,8 @@ module Drug =
 
     type FrequencyGroup =
       | GeneralFrequency of Frequency * drugProvider.P * SideEffect list
-      | FrequencyWithRoutes of Frequency * Route * drugProvider.P * SideEffect list
-      | FrequencyWithIndications of Frequency * Indication * drugProvider.P * SideEffect list
+      | FrequencyWithRoutes of Frequency * Specificity * drugProvider.P * SideEffect list
+      | FrequencyWithIndications of Frequency * Specificity * drugProvider.P * SideEffect list
 
     type Contraindication = | Contraindication of drugProvider.Ph
 
@@ -406,6 +406,8 @@ module DrugParser =
         let rs = x.Phs |> Array.filter (hasOutputclass "route") |> Array.map Route.from |> Array.toList
         let is = x.Phs |> Array.filter (hasOutputclass "indication") |> Array.map Indication.from |> Array.toList
         Specificity(Paragraph.from x,rs,is)
+      static member from (x:string) =
+        Specificity(Paragraph x,[],[])
 
     let extractSpecificity (x:drugProvider.Sectiondiv) =
       x.Ps |> Array.filter (hasOutputclasso "specificity") |> Array.map Specificity.from |> Array.tryPick Some
@@ -646,9 +648,9 @@ module DrugParser =
           let f = x |> FrequencyGroup.frequency
           match s with
             | HasOutputClasso "sideEffectsWithIndications" _ ->
-              FrequencyWithIndications(s |> se' Indication f)
+              FrequencyWithIndications(s |> se' Specificity.from f)
             | HasOutputClasso "sideEffectsWithRoutes" _ ->
-              FrequencyWithRoutes(s |> se' Route f)
+              FrequencyWithRoutes(s |> se' Specificity.from f)
             | _ -> failwith "unmatched side effect"
 
         x.Sectiondivs |> Array.map se
