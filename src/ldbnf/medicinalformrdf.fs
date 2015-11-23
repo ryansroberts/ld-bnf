@@ -77,8 +77,8 @@ module BorderlineSubstanceRdf =
 
     static member fromdetails (Details(ds,bsps)) =
       let dps = ds |> List.map Graph.fromdetail
-
-      blank !!"nicebnf:hasDetails" dps
+      let preps = bsps |> List.map Graph.fromprep
+      blank !!"nicebnf:hasDetails" (dps @ preps)
 
 
 module DrugClassificationRdf =
