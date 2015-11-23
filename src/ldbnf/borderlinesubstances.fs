@@ -9,6 +9,7 @@ module BorderlineSubstance =
 
   type Title =
     | Title of bsProvider.Title
+    override __.ToString() = match __ with | Title x -> string x
 
   type Link = {Uri:string;Label:string;}
 
@@ -16,7 +17,9 @@ module BorderlineSubstance =
     | Category of string
     override __.ToString() = match __ with | Category x -> x
 
-  type IntroductionNote = | IntroductionNote of string
+  type IntroductionNote =
+    | IntroductionNote of string
+    override __.ToString() = match __ with | IntroductionNote x -> x
 
 
   [<Measure>] type Kj

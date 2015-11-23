@@ -19,13 +19,43 @@ module BorderlineSubstanceRdf =
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
 
-      let s = [ a Uri.BorderlineSubstanceEntity
-                x.title |> (string >> xsd.string >> (dataProperty !!"rdfs:label"))
-                x.category |> (string >> xsd.string >> (dataProperty !!"bnfsite:hasCategory"))] 
+      let s = [ a Uri.BorderlineSubstanceEntity |> Some
+                x.title |> (string >> xsd.xmlliteral >> (dataProperty !!"rdfs:label")) |> Some
+                x.category |> (string >> xsd.string >> (dataProperty !!"bnfsite:hasCategory")) |> Some
+                x.intro >>= (string >> xsd.string >> (dataProperty !!"bnf:hasIntroductoryNote") >> Some)] |> List.choose id
+
+      let ds = x.details |> List.map Graph.fromdetails
 
       let dr r = resource (Uri.from x) r
-      [dr s]
+      [dr s
+       dr ds]
        |> Assert.graph og
+
+   // static member fromprep (BorderlineSubstancePrep(title,pt)) = 
+
+
+    static member fromdetail (x:Detail) =
+      let inline dp n s = dataProperty !!("nicebnf:has" + n) ((string s)^^xsd.string)
+      match x with
+        | Formulation s -> s |> dp "Formulation"
+        | EnergyKj e -> e |> dp "EnergyKj"
+        | EnergyKcal e -> e |> dp "EnergyKcal"
+        | ProteinGrams p -> p |> dp "ProteinGrams"
+        | ProteinConstituents p -> p |> dp "ProteinConstituents"
+        | CarbohydrateGrams c -> c |> dp "CarbohydrateGrams"
+        | CarbohydrateConstituents c -> c |> dp "CarbohydrateConstituents"
+        | FatGrams f -> f |> dp "FatGrams"
+        | FatConstituents f -> f |> dp "FatConstituents"
+        | FibreGrams f -> f |> dp "FibreGrams"
+        | SpecialCharacteristics s -> s |> dp "SpecialCharacteristics"
+        | Acbs a -> a |> dp "Acbs"
+        | Presentation p -> p |> dp "Presentation"
+
+    static member fromdetails (Details(ds,bsps)) =
+      let dps = ds |> List.map Graph.fromdetail
+
+      blank !!"nicebnf:hasDetails" dps
+
 
 module DrugClassificationRdf =
   open prelude
