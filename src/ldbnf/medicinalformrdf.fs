@@ -134,14 +134,18 @@ module MedicinalFormRdf =
 
       let s = [ Some(a Uri.MedicinalFormEntity)
                 x.title >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
-                x.cautionaryAdvisoryLabels >>= (Graph.fromcals >> Some)
                 x.excipients >>= Graph.fromexc
                 x.electrolytes >>= Graph.fromele] |> List.choose id
+
+      let cals = match x.cautionaryAdvisoryLabels with
+                 | Some x -> Graph.fromcals x
+                 | None -> []
 
       let mps = x.medicinalProducts |> List.map Graph.from
       let dr r = resource (Uri.from x) r
       [dr s
-       dr mps]
+       dr mps
+       dr cals]
        |> Assert.graph og
 
     static member fromcal (CautionaryAdvisoryLabel(ln,p)) =
@@ -150,11 +154,8 @@ module MedicinalFormRdf =
                |> List.choose id
       Some(blank !!"nicebnf:hasCautionaryAdvisoryLabel" s)
 
-    static member fromcals (CautionaryAdvisoryLabels(t,cals)) =
-      let c = cals |> Array.map Graph.fromcal |> Array.toList
-      let s = ((t >>= (string >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)) :: c)
-               |> List.choose id
-      blank !!"nicebnf:hasCautionaryAdvisoryLabels" s
+    static member fromcals (CautionaryAdvisoryLabels(_,cals)) =
+      cals |> Array.choose Graph.fromcal |> Array.toList
 
     static member dp n = xsd.string >> (dataProperty !!("nicebnf:has" + n))
 
