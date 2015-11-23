@@ -20,7 +20,8 @@ module BorderlineSubstanceRdf =
                                   "bnfsite",!!Uri.bnfsite]
 
       let s = [ a Uri.BorderlineSubstanceEntity
-                x.title |> (string >> xsd.string >> (dataProperty !!"rdfs:label"))] 
+                x.title |> (string >> xsd.string >> (dataProperty !!"rdfs:label"))
+                x.category |> (string >> xsd.string >> (dataProperty !!"bnfsite:hasCategory"))] 
 
       let dr r = resource (Uri.from x) r
       [dr s]
