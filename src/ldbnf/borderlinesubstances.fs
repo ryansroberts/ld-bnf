@@ -41,25 +41,39 @@ module BorderlineSubstance =
     | Acbs of bsProvider.P
     | Presentation of string
 
-  type Manufacturer = | Manufacturer of string
+  type Manufacturer =
+    | Manufacturer of string
+    override __.ToString() = match __ with | Manufacturer x -> string x
 
   type PreparationTitle = | PreparationTitle of bsProvider.P * Manufacturer option
 
 
-  type PackSize = | PackSize of decimal
+  type PackSize =
+    | PackSize of decimal
+    override __.ToString() = match __ with | PackSize x -> string x
 
-  type UnitOfMeasure = | UnitOfMeasure of string
+  type UnitOfMeasure =
+    | UnitOfMeasure of string
+    override __.ToString() = match __ with | UnitOfMeasure x -> string x
 
-  type PackAcbs = | PackAcbs of string
+  type PackAcbs =
+    | PackAcbs of string
+    override __.ToString() = match __ with | PackAcbs x -> x
 
   type PackInfo = | PackInfo of PackSize option * UnitOfMeasure option * PackAcbs option
 
 
-  type NhsIndicative = | NhsIndicative of string
+  type NhsIndicative =
+    | NhsIndicative of string
+    override __.ToString() = match __ with | NhsIndicative x -> x
 
-  type PriceText = | PriceText of string
+  type PriceText =
+    | PriceText of string
+    override __.ToString() = match __ with | PriceText x -> x
 
-  type NhsIndicativePrice = | NhsIndicativePrice of string
+  type NhsIndicativePrice =
+    | NhsIndicativePrice of string
+    override __.ToString() = match __ with | NhsIndicativePrice x -> x
 
   type NhsIndicativeInfo = | NhsIndicativeInfo of NhsIndicative option * PriceText option * NhsIndicativePrice option
 

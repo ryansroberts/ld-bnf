@@ -108,8 +108,9 @@ module DrugRdf =
         | None -> None
 
     static member fromdoe (DomainOfEffect (n,p,s)) =
+      let fettle (s:string) = s.Trim().ToLower()
       let s = [ Some(a Uri.DomainOfEffectEntity)
-                n >>= (xsd.string >> (dataProperty !!"rdfs:label") >> Some)
+                n >>= (fettle >> xsd.string >> (dataProperty !!"rdfs:label") >> Some)
                 p >>= Graph.fromptu
                 s >>= Graph.fromstu]
       s |> List.choose id

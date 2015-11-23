@@ -12,6 +12,8 @@ module BorderlineSubstanceRdf =
   open Shared
   open RdfUris
 
+  let inline dpo n x = x >>= (string >> xsd.string >> (dataProperty !!("nicebnf:has" + n)) >> Some)
+
   type Graph with
     static member from (x:BorderlineSubstance) =
       let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
@@ -31,8 +33,30 @@ module BorderlineSubstanceRdf =
        dr ds]
        |> Assert.graph og
 
-   // static member fromprep (BorderlineSubstancePrep(title,pt)) = 
 
+    static member frompackinfo (PackInfo(ps,uom,acbs)) =
+      [ps |> dpo "PackSize"
+       uom |> dpo "UnitOfMeasure"
+       acbs |> dpo "Acbs"] |> List.choose id
+
+    static member fromnhsindicativeinfo (NhsIndicativeInfo(nhsi,pt,nhsip)) =
+      [nhsi |> dpo "NhsIndicative"
+       pt |> dpo "PriceText"
+       nhsip |> dpo "NhsIndicativePrice"] |> List.choose id
+
+    static member frompricetarrif (PackSizePriceTariff(pi,nhs)) =
+      let s = [pi >>= (Graph.frompackinfo >> Some)
+               nhs >>= (Graph.fromnhsindicativeinfo >> Some)] |> List.choose id |> List.collect id
+      blank !!"nicebnf:hasPackSizePriceTariff" s
+
+    static member fromprep (BorderlineSubstancePrep(t,pts)) =
+      let s = match t with
+              | Some (PreparationTitle(p,m)) ->
+                 [p |> (string >> xsd.xmlliteral >> (dataProperty !!"bnfsite:hasTitle")) |> Some
+                  m >>= (string >> xsd.string >> (dataProperty !!"bnfsite:hasManufacturer") >> Some)] |> List.choose id
+              | None -> []
+      let ts = pts |> List.map Graph.frompricetarrif
+      blank !!"nicebnf:hasBorderlineSubstancePrep" (s @ ts)
 
     static member fromdetail (x:Detail) =
       let inline dp n s = dataProperty !!("nicebnf:has" + n) ((string s)^^xsd.string)
