@@ -24,7 +24,7 @@ module BorderlineSubstanceRdf =
       let s = [ a Uri.BorderlineSubstanceEntity |> Some
                 x.title |> (string >> xsd.xmlliteral >> (dataProperty !!"rdfs:label")) |> Some
                 x.category |> (string >> xsd.string >> (dataProperty !!"bnfsite:hasCategory")) |> Some
-                x.intro >>= (string >> xsd.string >> (dataProperty !!"bnf:hasIntroductoryNote") >> Some)] |> List.choose id
+                x.intro >>= (string >> xsd.string >> (dataProperty !!"nicebnf:hasIntroductoryNote") >> Some)] |> List.choose id
 
       let ds = x.details |> List.map Graph.fromdetails
 
