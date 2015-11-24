@@ -2,6 +2,29 @@ namespace Bnf
 open FSharp.RDF
 open FSharp.Data.Runtime
 
+module InteractionRdf = 
+  open prelude
+  open resource
+  open Bnf.Interaction
+  open Assertion
+  open rdf
+  open Rdf
+  open Shared
+  open RdfUris
+
+  type Graph with
+    static member from (InteractionList(id,t,il)) =
+      let og = Graph.ReallyEmpty ["nicebnf",!!Uri.nicebnf
+                                  "cnt",!!"http://www.w3.org/2011/content#"
+                                  "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
+                                  "bnfsite",!!Uri.bnfsite]
+      let s = [ a Uri.IndicationEntity
+                t |> (string >> xsd.xmlliteral >> (dataProperty !!"rdfs:label"))]
+
+      let dr r = resource (Uri.from(InteractionList(id,t,il))) r
+      [dr s]
+       |> Assert.graph og
+
 module BorderlineSubstanceRdf =
   open prelude
   open resource

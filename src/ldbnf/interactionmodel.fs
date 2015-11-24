@@ -45,6 +45,8 @@ module InteracitonParser =
               | _ -> NotSet
       {id=Id(x.Id); title=t; importance = i;message = p; interactswith = l}
 
-  //type InteractionList with
-  //  static member parse (x:inProvider.Topic) =
+  type InteractionList with
+    static member parse (x:inProvider.Topic) =
+      let is = x.Topics |> Array.map InteractsWith.from |> Array.toList
+      InteractionList(Id(x.Id),Title x.Title,is)
 
