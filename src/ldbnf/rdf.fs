@@ -66,6 +66,7 @@ module RdfUris =
     static member MedicinalProductEntity = !!(Uri.nicebnf + "MedicinalProduct")
     static member InteractionEntity = !!(Uri.nicebnf + "Interaction")
     static member ConstituentDrugEntity = !!(Uri.nicebnf + "ConstituentDrug")
+    static member DosageEntity = !!(Uri.nicebnf + "Dosage")
     static member ClassificationEntity = !!(Uri.nicebnfClass + "Classification")
     static member RouteEntity = !!(Uri.nicebnfClass + "Route")
     static member DomainOfEffectEntity = !!(Uri.nicebnfClass + "DomainOfEffect")
