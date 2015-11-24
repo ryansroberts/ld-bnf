@@ -15,7 +15,7 @@ module Drug =
     //sensible compromise to reference the types provided to avoid replication
     type drugProvider = XmlProvider<"SuperDrug.xml", Global=true, SampleIsList=true>
 
-    type Paragraph = | Paragraph of string
+    type Paragraph = | Paragraph of string * drugProvider.P option
     type Paragraphs = | Paragraphs of Paragraph seq
     type Title = | Title of Paragraph
     type Html = | Html of string
@@ -45,7 +45,7 @@ module Drug =
 
     type MedicinalFormLink = | MedicinalFormLink of Link
 
-    type TheraputicIndication = | TheraputicIndication of string
+    type TheraputicIndication = | TheraputicIndication of string * drugProvider.P
 
     type PatientGroup = {Group:string; Dosage:string; dosageXml:drugProvider.P;}
 
@@ -254,9 +254,6 @@ module DrugParser =
     let inline name arg =
       ( ^a : (member Name : string) arg)
 
-    let inline value arg =
-      ( ^a : (member Value : ^b) arg)
-
     type OutputClass = | OutputClass of Option<string> with
        static member lift (x:Option<string>) = OutputClass(x)
        static member lift (x:string) = OutputClass(Some(x))
@@ -284,22 +281,22 @@ module DrugParser =
     let inline hasOutputclass (s:string) x = outputclass x = OutputClass.lift s
     let inline hasOutputclasso (s:string) x = outputclasso x = OutputClass.lift s
 
+    type Paragraph with
+      static member from (x:drugProvider.P) =
+        Paragraph(x.Value |? "",Some x)
+
     type Paragraphs with
         static member from (x:Option<drugProvider.Sectiondiv>) =
           match x with
             | Some(x) -> Paragraphs.fromsd x
             | None -> Paragraphs Array.empty<Paragraph>
         static member fromsd (x:drugProvider.Sectiondiv) =
-          x.Ps |> Array.map value |> Array.choose id |> Seq.map Paragraph |> Paragraphs
+          x.Ps |> Seq.map Paragraph.from |> Paragraphs
         static member froms (x:drugProvider.Section) =
-          x.Ps |> Array.map value |> Array.choose id |> Seq.map Paragraph |> Paragraphs
-
-    type Paragraph with
-      static member from (x:drugProvider.P) =
-        Paragraph(x.Value |? "")
+          x.Ps |> Seq.map Paragraph.from |> Paragraphs
 
     type Route with
-      static member from (Paragraph x) = Route x
+      static member from (Paragraph(x,_)) = Route x
       static member from (Paragraphs xs) = Seq.map Route.from xs
       static member from (x:drugProvider.Ph) = Route(x.Value.Value)
 
@@ -336,7 +333,12 @@ module DrugParser =
           | _ -> None
 
     type TheraputicIndication with
-      static member from (Paragraph x) = TheraputicIndication x
+      static member from (x:Paragraph) =
+        match x with
+          | Paragraph (s,p) ->
+            match p with
+              | Some p -> TheraputicIndication(s,p)
+              | None -> failwith "Missing paragraph"
       static member from (Paragraphs xs) = Seq.map TheraputicIndication.from xs
 
 
@@ -407,7 +409,7 @@ module DrugParser =
         let is = x.Phs |> Array.filter (hasOutputclass "indication") |> Array.map Indication.from |> Array.toList
         Specificity(Paragraph.from x,rs,is)
       static member from (x:string) =
-        Specificity(Paragraph x,[],[])
+        Specificity(Paragraph(x,None),[],[])
 
     let extractSpecificity (x:drugProvider.Sectiondiv) =
       x.Ps |> Array.filter (hasOutputclasso "specificity") |> Array.map Specificity.from |> Array.tryPick Some

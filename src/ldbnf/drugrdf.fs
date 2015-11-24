@@ -148,10 +148,10 @@ module DrugRdf =
        Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
        Some(dataProperty !!"nicebnf:hasDosageXml" ((string x.dosageXml )^^xsd.xmlliteral))]
 
-    static member fromti (Bnf.Drug.Title (Paragraph(s))) =
+    static member fromti (Bnf.Drug.Title (Paragraph(s,_))) =
       Some(dataProperty !!"nicebnf:hasTitle" (s^^xsd.string))
 
-    static member fromsp (Specificity (Paragraph s,r,i)) =
+    static member fromsp (Specificity (Paragraph(s,_),r,i)) =
       let sp = [ [ dataProperty !!"rdfs:label" (s^^xsd.string)
                    a Uri.SpecificityEntity]
                  r |> List.choose Graph.from
@@ -184,8 +184,9 @@ module DrugRdf =
 
     static member from (x:TheraputicIndication) =
       match x with
-        | TheraputicIndication s -> Some(one !!"nicebnf:hasIndication" (Uri.from x) [ a Uri.IndicationEntity
-                                                                                      dataProperty !!"rdfs:label" (s^^xsd.string)])
+        | TheraputicIndication (s,p) -> Some(one !!"nicebnf:hasIndication" (Uri.from x) [a Uri.IndicationEntity
+                                                                                         dataProperty !!"rdfs:label" (s^^xsd.string)
+                                                                                         dataProperty !!"cnt:ContentAsXml" ((string p)^^xsd.xmlliteral)])
 
     static member fromidg (IndicationsAndDose(tis,roas)) =
       let s = (tis |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
