@@ -23,7 +23,7 @@ module BorderlineSubstanceRdf =
 
       let s = [ a Uri.BorderlineSubstanceEntity |> Some
                 x.title |> (string >> xsd.xmlliteral >> (dataProperty !!"rdfs:label")) |> Some
-                x.category |> (string >> xsd.string >> (dataProperty !!"bnfsite:hasCategory")) |> Some
+                x.category |> (string >> xsd.string >> (dataProperty !!"nicebnf:hasCategory")) |> Some
                 x.intro >>= (string >> xsd.string >> (dataProperty !!"nicebnf:hasIntroductoryNote") >> Some)] |> List.choose id
 
       let ds = x.details |> List.map Graph.fromdetails
@@ -102,7 +102,7 @@ module DrugClassificationRdf =
 
     static member from (x:Classification) =
       resource !!(Uri.nicebnfClass + "Classification#" + x.key)
-         [dataProperty !!"rdfs:Label" (x.value^^xsd.string)]
+         [dataProperty !!"rdfs:label" (x.value^^xsd.string)]
 
 
 module TreatmentSummaryRdf =
@@ -148,7 +148,7 @@ module TreatmentSummaryRdf =
       dataProperty !!"nicebnf:hasTargetAudience" (s^^xsd.string)
     static member fromcontent (Content(s,ta)) =
       let s = [ta >>= (Graph.fromta >> Some)
-               Some(dataProperty !!"cnt:ContentAsXML" ((string s)^^xsd.xmlliteral))] |> List.choose id
+               Some(dataProperty !!"nicebnf:hasDitaContent" ((string s)^^xsd.xmlliteral))] |> List.choose id
       blank !!"nicebnf:hasContent" s
 
     static member from (x:Link) =
@@ -157,7 +157,7 @@ module TreatmentSummaryRdf =
       let ls = x.links |> Seq.map Graph.from |> Seq.toList
       let cs = x.content |> List.map Graph.fromcontent
       let s = [Graph.fromti x.title |> Some
-               x.doi >>= (Graph.fromdoi >> Some) 
+               x.doi >>= (Graph.fromdoi >> Some)
                x.bodySystem >>= (Graph.frombs >> Some)] |> List.choose id
       s @ ls @ cs
 
@@ -204,7 +204,7 @@ module MedicinalFormRdf =
        |> Assert.graph og
 
     static member fromcal (CautionaryAdvisoryLabel(ln,p)) =
-      let s = [Some(dataProperty !!"cnt:ContentAsXML" ((string p)^^xsd.xmlliteral))
+      let s = [Some(dataProperty !!"nicebnf:hasDitaContent" ((string p)^^xsd.xmlliteral))
                ln >>= (string >> xsd.string >> (dataProperty !!"nicebnf:hasLabelNumber") >> Some)]
                |> List.choose id
       Some(blank !!"nicebnf:hasCautionaryAdvisoryLabel" s)
@@ -217,7 +217,7 @@ module MedicinalFormRdf =
     static member fromman (Manufacturer x) = Graph.dp "Manufacturer" x |> Some
     static member frombt (BlackTriangle x) = Graph.dp "BlackTriangle" x |> Some
     static member frommpt (MedicinalProductTitle(m,bt,t)) =
-      let tc = string >> xsd.string >> (dataProperty !!"cnt:ContentAsXML") >> Some
+      let tc = string >> xsd.string >> (dataProperty !!"nicebnf:hasDitaContent") >> Some
       let s = [m >>= Graph.fromman
                bt >>= Graph.frombt
                tc t] |> List.choose id
