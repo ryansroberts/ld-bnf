@@ -143,11 +143,10 @@ module DrugRdf =
                a Uri.FundingIdentifierEntity])
 
     static member from (x:PatientGroup) =
-      [ Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp x.Group)  [ dataProperty !!"rdfs:label" (x.Group^^xsd.string)
-                                                                      a Uri.PatientGroupEntity
-                                                                      ])
-        Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
-        ]
+      [Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp x.Group) [dataProperty !!"rdfs:label" (x.Group^^xsd.string)
+                                                                   a Uri.PatientGroupEntity])
+       Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
+       Some(dataProperty !!"nicebnf:hasDosageXml" ((string x.dosageXml )^^xsd.xmlliteral))]
 
     static member fromti (Bnf.Drug.Title (Paragraph(s))) =
       Some(dataProperty !!"nicebnf:hasTitle" (s^^xsd.string))
