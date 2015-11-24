@@ -183,8 +183,10 @@ module DrugRdf =
                               r >>= Graph.from] |> List.choose id)
       pgs |> Seq.map patientGrp
 
-    static member from (TheraputicIndication s) =
-      Some(dataProperty !!"nicebnf:hasTheraputicIndication" (s^^xsd.string))
+    static member from (x:TheraputicIndication) =
+      match x with
+        | TheraputicIndication s -> Some(one !!"nicebnf:hasIndication" (Uri.from x) [ a Uri.IndicationEntity
+                                                                                      dataProperty !!"rdfs:label" (s^^xsd.string)])
 
     static member fromidg (IndicationsAndDose(tis,roas)) =
       let s = (tis |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
@@ -301,15 +303,17 @@ module DrugRdf =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
 
     static member fromcon (x:ContraindicationsGroup) =
+      let sp t = [a Uri.SpecificityEntity
+                  dataProperty !!"rdfs:label" ((string t)^^xsd.string)]
       let con (Contraindication x) = dataProperty !!"nicebnf:hasContraindication" (xsd.string(x.ToString()))
       let gen (p,cs) = (dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))) :: (cs |> List.map con)
       match x with
         | GeneralContraindications (p,cs) -> blank !!"nicebnf:hasGeneralContraindications" (gen(p,cs))
         | ContraindicationWithRoutes (t,p,cs) -> blank !!"nicebnf:hasContraindicationsWithRoutes"
-                                                   (dataProperty !!"nicebnf:hasRouteAsTitle" (xsd.string(t.ToString()))
+                                                    ((one !!"nicebnf:hasSpecificity" (Uri.froms t) (sp t))
                                                     :: gen(p,cs))
         | ContraindicationWithIndications (t,p,cs) -> blank !!"nicebnf:hasContraindicationsWithIndications"
-                                                       (dataProperty !!"nicebnf:hasIndicationAsTitle" (xsd.string(t.ToString()))
+                                                        ((one !!"nicebnf:hasSpecificity" (Uri.froms t) (sp t))
                                                         :: gen(p,cs))
 
     static member fromcg (x:CautionsGroup) =
