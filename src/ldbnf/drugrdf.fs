@@ -323,12 +323,18 @@ module DrugRdf =
       let gen (p,cs) = (dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))) :: (cs |> List.map cau)
       match x with
         | GeneralCautions (p,cs) -> blank !!"nicebnf:hasGeneralCautions" (gen(p,cs))
-        | CautionsWithRoutes (t,p,cs) -> blank !!"nicebnf:hasCautionsWithRoutes"
-                                          (dataProperty !!"nicebnf:hasRouteAsTitle" (xsd.string(t.ToString()))
-                                           :: gen(p,cs))
-        | CautionsWithIndications (t,p,cs) -> blank !!"nicebnf:hasCautionsWithIndications"
-                                               (dataProperty !!"nicebnf:hasIndicationAsTitle" (xsd.string(t.ToString()))
-                                                :: gen(p,cs))
+        | CautionsWithRoutes (t,p,cs) ->
+            blank !!"nicebnf:hasCautionsWithRoutes"
+                ((one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
+                    [ dataProperty !!"rdfs:label" (xsd.string(t.ToString()))
+                      a Uri.SpecificityEntity])
+                      :: gen(p,cs))
+        | CautionsWithIndications (t,p,cs) ->
+            blank !!"nicebnf:hasCautionsWithIndications"
+                ((one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
+                    [ dataProperty !!"rdfs:label" (xsd.string(t.ToString()))
+                      a Uri.SpecificityEntity])
+                      :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
       blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
