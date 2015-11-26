@@ -159,6 +159,8 @@ module Drug =
 
     type ImportantAdvice = | ImportantAdvice of Title option * Specificity option * drugProvider.Sectiondiv
 
+    type ContraindicationsRenalImpairment = | ContraindicationsRenalImpairment of Title option * Specificity option * drugProvider.Sectiondiv
+
     type Caution = Caution of drugProvider.Ph
 
     type CautionsGroup =
@@ -213,7 +215,7 @@ module Drug =
         | TreatmentCessations of Id * TreatmentCessation seq
         | DrugActions of Id * DrugAction seq
         | SideEffects of Id * FrequencyGroup seq * SideEffectAdvice seq * SideEffectsOverdosageInformation seq
-        | Contraindications of Id * ContraindicationsGroup seq * ImportantAdvice seq
+        | Contraindications of Id * ContraindicationsGroup seq * ImportantAdvice seq * ContraindicationsRenalImpairment seq
         | Cautions of Id * CautionsGroup list * ImportantAdvice seq
         | PrescribingAndDispensingInformations of Id * PrescribingAndDispensingInformation seq
         | UnlicencedUses of Id * UnlicencedUse seq
@@ -759,7 +761,8 @@ module DrugParser =
                   | Some (s) -> ContraindicationsGroup.from s |> Array.toList
                   | None -> List.empty<ContraindicationsGroup>
         let ias = x |> (somesections "importantAdvice") |> Array.map (addSpecificity >> addTitle >> ImportantAdvice)
-        Contraindications(Id(x.Id), cgs, ias)
+        let ciri = x |> (somesections "contraindicationsRenalImpairment") |> Array.map (addSpecificity >> addTitle >> ContraindicationsRenalImpairment)
+        Contraindications(Id(x.Id), cgs, ias, ciri)
 
       static member cautions (x:drugProvider.Topic) =
         let s = firstsection (withclass "cautions") x 

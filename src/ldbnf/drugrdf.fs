@@ -303,6 +303,8 @@ module DrugRdf =
 
     static member fromia (ImportantAdvice (t,sp,s)) =
       blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
+    static member fromciri (ContraindicationsRenalImpairment (t,sp,s)) =
+      blank !!"nicebnf:hasContraindicationsRenalImpairment" (Graph.fromthree (t,sp,s))
 
     static member fromcon (x:ContraindicationsGroup) =
       let sp t = [a Uri.SpecificityEntity
@@ -388,7 +390,6 @@ module DrugRdf =
         | Some(x) -> [g x]
         | None -> []
 
-      let xml x = dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(x.ToString()))
 
       match x with
         | Pregnancy (i,gs,das,amps) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs
@@ -423,8 +424,9 @@ module DrugRdf =
         | SideEffects (i,fres,seas,ods) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
                                                                            statments Graph.fromsea seas
                                                                            statments Graph.fromod ods])
-        | Contraindications (i,cogs, ias) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cogs
-                                                                                   statments Graph.fromia ias])
+        | Contraindications (i,cogs,ias,ciri) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cogs
+                                                                                       statments Graph.fromia ias
+                                                                                       statments Graph.fromciri ciri])
         | Cautions (i,cgs,ias) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs
                                                                statments Graph.fromia ias])
         | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformation" (sid i) [statments Graph.frompadi padi])
