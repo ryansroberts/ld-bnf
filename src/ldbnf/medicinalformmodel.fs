@@ -125,7 +125,9 @@ module MedicinalFormParser =
       match x.String with
         | Some(s) -> match s with
                      | "tablet" -> Some(Tablet)
-                     | _ -> failwith (sprintf "Unknown UnitOfMeasure %s" s)
+                     | _ ->
+                       printf "Unknown UnitOfMeasure %s" s
+                       None
         | None -> None
 
   type LegalCategory with
@@ -134,7 +136,9 @@ module MedicinalFormParser =
         | Some(s) -> match s with
                      | "POM" -> Some(POM)
                      | "P" -> Some(P)
-                     | _ -> failwith (sprintf "Unknown LegalCatgory %s" s)
+                     | _ ->
+                       printf "Unknown LegalCatgory %s" s
+                       None
         | None -> None
 
   type PackInfo with
