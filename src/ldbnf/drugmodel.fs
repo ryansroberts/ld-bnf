@@ -35,7 +35,7 @@ module Drug =
 
     type Classification = | Classification of Id * InheritsFromClass seq
 
-    type DrugName = | DrugName of string
+    type DrugName = | DrugName of drugProvider.Title
 
     type DrugClassName = | DrugClassName of string
 
