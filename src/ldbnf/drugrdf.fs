@@ -164,7 +164,7 @@ module DrugRdf =
                sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasGeneralInformation" (s |> List.choose id)
 
-    static member fromda (DoseAdjustment (sd,sp)) =
+    static member fromda (DoseAdjustment (sp,sd)) =
       let s = [Some(dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(sd.ToString())))
                sp >>= (Graph.fromsp >> Some)]
       blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
@@ -394,8 +394,9 @@ module DrugRdf =
         | Pregnancy (i,gs,das,amps) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs
                                                                             statments Graph.fromda das
                                                                             statments Graph.fromamp amps])
-        | BreastFeeding (i,gs,ambfs) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs
-                                                                                 statments Graph.fromambf ambfs])
+        | BreastFeeding (i,gs,ambfs,das) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs
+                                                                                     statments Graph.fromambf ambfs
+                                                                                     statments Graph.fromda das])
         | HepaticImpairment (i,gs,das,amhis) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
                                                                                              statments Graph.fromda das
                                                                                              statments Graph.fromamhi amhis])

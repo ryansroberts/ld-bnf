@@ -67,7 +67,7 @@ module Drug =
 
     type GeneralInformation = | GeneralInformation of drugProvider.Sectiondiv * Option<Specificity>
 
-    type DoseAdjustment = | DoseAdjustment of drugProvider.Sectiondiv * Option<Specificity>
+    type DoseAdjustment = | DoseAdjustment of Option<Specificity> * drugProvider.Sectiondiv
 
     type AdditionalMonitoringInPregnancy =
       | AdditionalMonitoringInPregnancy of Option<Specificity> * drugProvider.Sectiondiv
@@ -200,7 +200,7 @@ module Drug =
     type MonographSection =
         | IndicationsAndDoseGroup of Id * IndicationsAndDose seq * IndicationsAndDoseSection seq
         | Pregnancy of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInPregnancy seq
-        | BreastFeeding of Id * GeneralInformation seq * AdditionalMonitoringInBreastFeeding seq
+        | BreastFeeding of Id * GeneralInformation seq * AdditionalMonitoringInBreastFeeding seq * DoseAdjustment seq
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInHepaticImpairment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvices of Id * PatientAndCarerAdvice seq
@@ -434,8 +434,7 @@ module DrugParser =
         x.Sectiondivs |> Array.map GeneralInformation.from
 
     type DoseAdjustment with
-      static member from (x:drugProvider.Sectiondiv) =
-        DoseAdjustment(x,extractSpecificity x)
+      static member from (x:drugProvider.Sectiondiv) = x |> (addSpecificity >> DoseAdjustment)
       static member from (x:drugProvider.Section) =
         x.Sectiondivs |> Array.map DoseAdjustment.from
 
@@ -567,7 +566,8 @@ module DrugParser =
       static member breastFeedingFrom (x:drugProvider.Topic) =
         let gis = x |> (somesections "generalInformation") |> Array.map GeneralInformation.from
         let ambfs = x |> (somesections "additionalMonitoringInBreastFeeding") |> Array.map (addSpecificity >> AdditionalMonitoringInBreastFeeding)
-        BreastFeeding(Id(x.Id),gis,ambfs)
+        let das = x |> (somesections "additionalMonitoringInBreastFeeding") |> Array.map (addSpecificity >> DoseAdjustment)
+        BreastFeeding(Id(x.Id),gis,ambfs,das)
       static member hepaticImparmentFrom (x:drugProvider.Topic) =
         match x.Body with
           | Some(b) ->
