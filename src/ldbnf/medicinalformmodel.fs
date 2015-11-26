@@ -1,6 +1,7 @@
 namespace Bnf
 open FSharp.Data
 open Shared
+open prelude
 
 module MedicinalForm =
   type mfProvider = XmlProvider<"supermedicinalform.xml", Global=true>
@@ -40,6 +41,7 @@ module MedicinalForm =
   //To be extended in the future
   type UnitOfMeasure =
     | Tablet
+    override __.ToString() = toString __
 
   type PackSize = | PackSize of decimal
 
@@ -47,6 +49,7 @@ module MedicinalForm =
   type LegalCategory =
     | POM
     | P
+    override __.ToString() = toString __
 
   type PackInfo = | PackInfo of Option<PackSize> * Option<UnitOfMeasure> * Option<LegalCategory>
 
@@ -164,8 +167,14 @@ module MedicinalFormParser =
 
   type MedicinalProductTitle with
     static member from (x:mfProvider.Title) =
-      let m = x.Phs |> Array.tryPick (withoc "manufacturer") >>= (fromphs Manufacturer)
-      let bt = x.Phs |> Array.tryPick (withoc "blackTriangle") >>= (fromphs BlackTriangle)
+      let mph = x.Phs |> Array.tryPick (withoc "manufacturer")
+      let btph = x.Phs |> Array.tryPick (withoc "blackTriangle")
+      if (mph.IsSome) then mph.Value.XElement.Remove() //edit the xml
+      if (btph.IsSome) then btph.Value.XElement.Remove()
+
+      let m =  mph >>= (fromphs Manufacturer)
+      let bt = btph >>= (fromphs BlackTriangle)
+
       MedicinalProductTitle(m,bt,x)
 
   type Ampid with
