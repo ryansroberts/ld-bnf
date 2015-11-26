@@ -46,6 +46,7 @@ module MedicinalForm =
   //I'm pretty sure that there will be more of these
   type LegalCategory =
     | POM
+    | P
 
   type PackInfo = | PackInfo of Option<PackSize> * Option<UnitOfMeasure> * Option<LegalCategory>
 
@@ -124,7 +125,9 @@ module MedicinalFormParser =
       match x.String with
         | Some(s) -> match s with
                      | "tablet" -> Some(Tablet)
-                     | _ -> None
+                     | _ ->
+                       printf "Unknown UnitOfMeasure %s" s
+                       None
         | None -> None
 
   type LegalCategory with
@@ -132,7 +135,10 @@ module MedicinalFormParser =
       match x.String with
         | Some(s) -> match s with
                      | "POM" -> Some(POM)
-                     | _ -> None
+                     | "P" -> Some(P)
+                     | _ ->
+                       printf "Unknown LegalCatgory %s" s
+                       None
         | None -> None
 
   type PackInfo with
