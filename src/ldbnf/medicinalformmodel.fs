@@ -64,11 +64,11 @@ module MedicinalForm =
 
   type DrugTarrif = | DrugTarrif of string
 
-  type DrugTariffPrice = | DrugTariffPrice of string
+  type DrugTariffPrice = | DrugTariffPrice of decimal
 
   type DrugTariffInfo = | DrugTariffInfo of Option<DrugTarrif> * Option<PriceText> * Option<DrugTariffPrice>
 
-
+  type ControlledDrug = | ControlledDrug of mfProvider.P
 
   type Pack = | Pack of Option<PackInfo> * Option<NhsIndicativeInfo> * Option<DrugTariffInfo>
 
@@ -76,6 +76,7 @@ module MedicinalForm =
     title:MedicinalProductTitle;
     ampid:Ampid;
     strengthOfActiveIngredient: StrengthOfActiveIngredient list;
+    controlledDrugs: ControlledDrug list;
     packs: Pack list}
 
   type MedicinalForm = {
@@ -162,7 +163,7 @@ module MedicinalFormParser =
     static member from (x:mfProvider.P) =
       let dt = x.Phs |> Array.tryPick (withoc "drugTariff") >>= (fromphs DrugTarrif)
       let pt = x.Phs |> Array.tryPick (withoc "priceText") >>= (fromphs PriceText)
-      let dtp = x.Phs |> Array.tryPick (withoc "drugTariffPrice") >>= (fromphs DrugTariffPrice)
+      let dtp = x.Phs |> Array.tryPick (withoc "drugTariffPrice") >>= (fromphn DrugTariffPrice)
       DrugTariffInfo(dt,pt,dtp)
 
   type MedicinalProductTitle with
@@ -198,13 +199,16 @@ module MedicinalFormParser =
       let str = x.Ps |> Array.choose (withoco "strengthOfActiveIngredient")
                      |> Array.map StrengthOfActiveIngredient
                      |> Array.toList
+      let con = x.Ps |> Array.choose (withoco "controlledDrugs")
+                     |> Array.map ControlledDrug
+                     |> Array.toList
       let ps = match x.Ul with
                | Some x -> Pack.from x
                | _ -> List.empty<Pack>
       let a = match x.Data with
               | Some d -> Ampid.from d
               | None -> failwith "MedicinalProduct must have an Ampid"
-      {title = t; ampid = a; strengthOfActiveIngredient = str; packs = ps;}
+      {title = t; ampid = a; strengthOfActiveIngredient = str; packs = ps; controlledDrugs = con;}
 
   type MedicinalForm with
     static member parse (x:mfProvider.Topic) =

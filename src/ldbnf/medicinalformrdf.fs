@@ -253,6 +253,7 @@ module MedicinalFormRdf =
       dataProperty !!"nicebnf:hasElectrolytes" ((string e)^^xsd.xmlliteral) |> Some
 
     static member fromsai(StrengthOfActiveIngredient p) = Graph.dp "StrengthOfActiveIngredient" (string p) |> Some
+    static member fromcd(ControlledDrug p) = Graph.dp "ControlledDrug" (string p) |> Some
 
     static member fromnhsi (NhsIndicative x) = Graph.dp "NhsIndicative" x |> Some
     static member frompt (PriceText x) = Graph.dp "PriceText" x |> Some
@@ -273,7 +274,7 @@ module MedicinalFormRdf =
       blank !!"nicebnf:hasPackInfo" s |> Some
 
     static member fromdt (DrugTarrif s) = Graph.dp "DrugTarrif" s |> Some
-    static member fromdtp (DrugTariffPrice dtp) = Graph.dp "DrugTariffPrice" dtp |> Some
+    static member fromdtp (DrugTariffPrice dtp) = Graph.dp "DrugTariffPrice" (string dtp) |> Some
     static member fromdti (DrugTariffInfo(dt,pt,dtp)) =
       let s = [dt >>= Graph.fromdt
                pt >>= Graph.frompt
@@ -289,9 +290,10 @@ module MedicinalFormRdf =
 
     static member from (x:MedicinalProduct) =
       let sais = x.strengthOfActiveIngredient |> List.map Graph.fromsai
+      let cds = x.controlledDrugs |> List.map Graph.fromcd
       let s = [Some(a Uri.MedicinalProductEntity)
                Some(x.ampid |> string |> Graph.dp "Ampid")
-               x.title |> Graph.frommpt] @ sais
+               x.title |> Graph.frommpt] @ sais @ cds
                |> List.choose id
       let ps = x.packs |> List.map Graph.frompack
       one !!"nicebnf:hasMedicinalProduct" (Uri.from x) (s @ ps)
