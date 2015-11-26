@@ -21,7 +21,7 @@ module InteractionRdf =
       let s = [ a Uri.IndicationEntity
                 t |> (string >> xsd.xmlliteral >> (dataProperty !!"rdfs:label"))]
 
-      let dr r = resource (Uri.from(InteractionList(id,t,il))) r
+      let dr r = resource (Uri.fromil(InteractionList(id,t,il))) r
       [dr s]
        |> Assert.graph og
 

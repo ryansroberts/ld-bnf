@@ -24,6 +24,7 @@ module RdfUris =
   open Bnf.MedicinalForm
   open Bnf.TreatmentSummary
   open Bnf.BorderlineSubstance
+  open Bnf.Interaction
   open Assertion
   open rdf
   open Shared
@@ -46,6 +47,7 @@ module RdfUris =
     static member from (x:TreatmentSummary) = match x with | TreatmentSummary (i,_) -> !!(Uri.bnfsite + "treatmentsummary/" + string i)
     static member fromdc (s:string) = !!(Uri.bnfsite + "drugclass/"  + s)
     static member from (InteractionLink (l)) = !!(Uri.bnfsite + "interactions/" + l.Url)
+    static member fromil (InteractionList(id,_,_)) = !!(Uri.bnfsite + "interactions/" + string id)
     static member from (ConstituentDrug (l)) = !!(Uri.bnfsite + "drug/" + l.Url)
     static member from (Route s) = !!(Uri.nicebnfClass + "Route#" + (NameUtils.niceCamelName s))
     static member fromr (s:string) = !!(Uri.nicebnfClass + "Route#" + (NameUtils.niceCamelName s))
