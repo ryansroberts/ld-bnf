@@ -288,10 +288,10 @@ module MedicinalFormRdf =
       blank !!"nicebnf:hasPack" s
 
     static member from (x:MedicinalProduct) =
+      let sais = x.strengthOfActiveIngredient |> List.map Graph.fromsai
       let s = [Some(a Uri.MedicinalProductEntity)
                Some(x.ampid |> string |> Graph.dp "Ampid")
-               x.title |> Graph.frommpt
-               x.strengthOfActiveIngredient >>= Graph.fromsai
-               ] |> List.choose id
+               x.title |> Graph.frommpt] @ sais
+               |> List.choose id
       let ps = x.packs |> List.map Graph.frompack
       one !!"nicebnf:hasMedicinalProduct" (Uri.from x) (s @ ps)

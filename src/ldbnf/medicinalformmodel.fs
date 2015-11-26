@@ -71,7 +71,7 @@ module MedicinalForm =
   type MedicinalProduct = {
     title:MedicinalProductTitle;
     ampid:Ampid;
-    strengthOfActiveIngredient:Option<StrengthOfActiveIngredient>;
+    strengthOfActiveIngredient: StrengthOfActiveIngredient list;
     packs: Pack list}
 
   type MedicinalForm = {
@@ -180,7 +180,9 @@ module MedicinalFormParser =
       let t = match x.Title with
                | Some t -> MedicinalProductTitle.from t
                | None -> failwith "MedicinalProduct must have a Title"
-      let str = x.Ps |> Array.tryPick (withoco "strengthOfActiveIngredient") >>= (StrengthOfActiveIngredient >> Some)
+      let str = x.Ps |> Array.choose (withoco "strengthOfActiveIngredient")
+                     |> Array.map StrengthOfActiveIngredient
+                     |> Array.toList
       let ps = match x.Ul with
                | Some x -> Pack.from x
                | _ -> List.empty<Pack>

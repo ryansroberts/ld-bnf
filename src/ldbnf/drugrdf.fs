@@ -145,8 +145,9 @@ module DrugRdf =
     static member from (x:PatientGroup) =
       [Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp x.Group) [dataProperty !!"rdfs:label" (x.Group^^xsd.string)
                                                                    a Uri.PatientGroupEntity])
-       Some(dataProperty !!"nicebnf:hasDosage" (x.Dosage^^xsd.string))
-       Some(dataProperty !!"nicebnf:hasDosageXml" ((string x.dosageXml )^^xsd.xmlliteral))]
+       Some(dataProperty !!"rdfs:label" (x.Dosage^^xsd.string))
+       Some(dataProperty !!"nicebnf:hasDitaContent" ((string x.dosageXml )^^xsd.xmlliteral))
+       Some(a Uri.DosageEntity)]
 
     static member fromti (Bnf.Drug.Title (Paragraph(s,_))) =
       Some(dataProperty !!"nicebnf:hasTitle" (s^^xsd.string))
@@ -174,11 +175,12 @@ module DrugRdf =
 
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
-      let patientGrp pg = blank !!"nicebnf:hasRouteOfAdministration"
+      let patientGrp pg = blank !!"nicebnf:hasDosage"
                             ([Some(one !!"nicebnf:hasPatientGroup" (Uri.fromgrp pg.Group) [ dataProperty !!"rdfs:label" (pg.Group^^xsd.string)
-                                                                                            a Uri.PatientGroupEntity
-                                                                                            ])
-                              Some(dataProperty !!"nicebnf:hasDosage" (pg.Dosage^^xsd.string))
+                                                                                            a Uri.PatientGroupEntity])
+                              Some(dataProperty !!"rdfs:label" (pg.Dosage^^xsd.string))
+                              Some(dataProperty !!"nicebnf:hasDitaContent" ((string pg.dosageXml )^^xsd.xmlliteral))
+                              Some(a Uri.DosageEntity)
                               r >>= Graph.from] |> List.choose id)
       pgs |> Seq.map patientGrp
 
@@ -186,7 +188,7 @@ module DrugRdf =
       match x with
         | TheraputicIndication (s,p) -> Some(one !!"nicebnf:hasIndication" (Uri.from x) [a Uri.IndicationEntity
                                                                                          dataProperty !!"rdfs:label" (s^^xsd.string)
-                                                                                         dataProperty !!"cnt:ContentAsXml" ((string p)^^xsd.xmlliteral)])
+                                                                                         dataProperty !!"nicebnf:hasDitaContent" ((string p)^^xsd.xmlliteral)])
 
     static member fromidg (IndicationsAndDose(tis,roas)) =
       let s = (tis |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
@@ -321,12 +323,18 @@ module DrugRdf =
       let gen (p,cs) = (dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))) :: (cs |> List.map cau)
       match x with
         | GeneralCautions (p,cs) -> blank !!"nicebnf:hasGeneralCautions" (gen(p,cs))
-        | CautionsWithRoutes (t,p,cs) -> blank !!"nicebnf:hasCautionsWithRoutes"
-                                          (dataProperty !!"nicebnf:hasRouteAsTitle" (xsd.string(t.ToString()))
-                                           :: gen(p,cs))
-        | CautionsWithIndications (t,p,cs) -> blank !!"nicebnf:hasCautionsWithIndications"
-                                               (dataProperty !!"nicebnf:hasIndicationAsTitle" (xsd.string(t.ToString()))
-                                                :: gen(p,cs))
+        | CautionsWithRoutes (t,p,cs) ->
+            blank !!"nicebnf:hasCautionsWithRoutes"
+                ((one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
+                    [ dataProperty !!"rdfs:label" (xsd.string(t.ToString()))
+                      a Uri.SpecificityEntity])
+                      :: gen(p,cs))
+        | CautionsWithIndications (t,p,cs) ->
+            blank !!"nicebnf:hasCautionsWithIndications"
+                ((one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
+                    [ dataProperty !!"rdfs:label" (xsd.string(t.ToString()))
+                      a Uri.SpecificityEntity])
+                      :: gen(p,cs))
 
     static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
       blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
