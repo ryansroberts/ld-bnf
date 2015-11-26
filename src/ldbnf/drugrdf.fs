@@ -137,7 +137,7 @@ module DrugRdf =
              a Uri.IndicationEntity ])
 
     static member from (x:FundingIdentifier) =
-      let l = match x with | FundingIdentifier f -> f^^xsd.string
+      let l = match x with | FundingIdentifier f -> f.Title^^xsd.string
       Some(one !!"nicebnf:hasFundingIdentifier" (Uri.fromfi x)
               [dataProperty !!"rdfs:label" l
                a Uri.FundingIdentifierEntity])

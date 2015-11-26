@@ -188,7 +188,7 @@ module Drug =
     type DirectionsForAdministration =
       | DirectionsForAdministration of Option<Specificity> * drugProvider.Sectiondiv
 
-    type FundingIdentifier = | FundingIdentifier of string
+    type FundingIdentifier = | FundingIdentifier of Link
 
     type FundingDecision =
       | NonNHS of Specificity option * drugProvider.Sectiondiv
@@ -705,15 +705,17 @@ module DrugParser =
           | HasOutputClasso "therapeuticDrugMonitoring" _ -> build TheraputicDrugMonitoring
           | HasOutputClasso "monitoringOfPatientParameters" _ -> build MonitoringOfPatientParameters
 
+    //build function to create the funding identifier
     type FundingIdentifier with
-      static member from (x:drugProvider.P) =
-        x.Value >>= (FundingIdentifier >> Some)
+      static member from l (x:drugProvider.P) =
+        let fi v = FundingIdentifier {Title=v;Url=l}
+        x.Value >>= (fi >> Some)
 
     type FundingDecision with
       static member from (x:drugProvider.Sectiondiv) =
         let buildTa (s1:drugProvider.Sectiondiv) =
           let fid = function
-            | HasOutputClasso "fundingIdentifier" p -> FundingIdentifier.from p
+            | HasOutputClasso "fundingIdentifier" p -> p |> FundingIdentifier.from s1.Xref.Value.Href
             | _ -> None
           let fi = s1.Ps |> Array.tryPick fid
           let (t,sp,s) = s1.Sectiondivs.[0] |> (addSpecificity >> addTitle)
