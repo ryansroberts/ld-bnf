@@ -23,8 +23,6 @@ module Drug =
 
     type Link = {Title:string; Url:string}
 
-    type ReferenceableContent = | ReferenceableContent of Content * Id * string
-
     type InteractionLink = | InteractionLink of Link
 
     type ConstituentDrug =
@@ -37,9 +35,9 @@ module Drug =
 
     type DrugName = | DrugName of drugProvider.Title
 
-    type DrugClassName = | DrugClassName of string
+    type DrugClassName = | DrugClassName of drugProvider.Title
 
-    type CMPIName = | CMPIName of string
+    type CMPIName = | CMPIName of drugProvider.Title
 
     type Vtmid = | Vtmid of int64
 
@@ -322,9 +320,6 @@ module DrugParser =
 
     type Content with
         static member from x = Content(Html(x.ToString()))
-
-    type ReferenceableContent with
-        static member from (x:drugProvider.Topic) = ReferenceableContent(Content.from x,Id(x.Id),x.Title)
 
     type PatientGroup with
       static member from (x:drugProvider.Li) =

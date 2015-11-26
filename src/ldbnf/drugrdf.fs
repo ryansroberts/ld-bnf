@@ -14,9 +14,9 @@ module DrugRdf =
   open RdfUris
 
   //shoudl replace these with tostring
-  let getvald (DrugName n) = n
-  let getvaldc (DrugClassName n) = n
-  let getvalcmpi (CMPIName n) = n
+  let getvald (DrugName n) = string n
+  let getvaldc (DrugClassName n) = string n
+  let getvalcmpi (CMPIName n) = string n
   let getvtmid (Vtmid i) = Some(string i)
   let tosys (Sys s) = s
 
@@ -28,7 +28,7 @@ module DrugRdf =
 
     static member from (x:CMPI) =
       let s = [ Some(a Uri.CMPIEntity)
-                Some(dataProperty !!"rdfs:label" ((getvalcmpi x.cmpiname)^^xsd.string))] |> List.choose id
+                Some(dataProperty !!"rdfs:label" ((getvalcmpi x.cmpiname)^^xsd.xmlliteral))] |> List.choose id
       let dr r = resource (Uri.from x) r
       let sec = Graph.fromsec (Uri.fromseccmpi x)
       [dr s
@@ -38,7 +38,7 @@ module DrugRdf =
     static member from (x:DrugClass) =
 
       let s = [ Some(a Uri.DrugClassEntity)
-                Some(dataProperty !!"rdfs:label" ((getvaldc x.dcname)^^xsd.string))] |> List.choose id
+                Some(dataProperty !!"rdfs:label" ((getvaldc x.dcname)^^xsd.xmlliteral))] |> List.choose id
 
       let dr r = resource (Uri.from x) r
       let sec = Graph.fromsec (Uri.fromsecdc x)
@@ -50,7 +50,7 @@ module DrugRdf =
     static member from (x:Drug) =
 
       let s = [ Some(a Uri.DrugEntity)
-                Some(dataProperty !!"rdfs:label" ((getvald x.name)^^xsd.string))
+                Some(dataProperty !!"rdfs:label" ((getvald x.name)^^xsd.xmlliteral))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)
                 x.primaryDomainOfEffect >>= (Graph.frompdoe >> Some)
                 ]
