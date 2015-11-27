@@ -65,7 +65,7 @@ module DrugRdf =
 
       [dr (s |> List.choose id)
        dr (sdoe |> Seq.toList)
-       dr (x.classifications |> Seq.map Graph.fromcl |> Seq.toList)
+       dr (x.classifications |> Seq.map Graph.fromcl |> Seq.toList |> List.collect id)
        dr (x.constituentDrugs |> Seq.map Graph.fromcd |> Seq.toList)
        dr (x.interactionLinks |> Seq.map Graph.fromil |> Seq.toList)
        dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
@@ -74,12 +74,11 @@ module DrugRdf =
     static member fromdc (InheritsFromClass (c)) =
       one !!"nicebnf:inheritsFromClass" (Uri.fromdc c) [a Uri.DrugClassEntity]
 
-    static member fromc (Classification (_,is)) =
-      [(a Uri.ClassificationEntity)] @ (is |> Seq.map Graph.fromdc |> Seq.toList)
-
     //the label for this is in another part of the feed so will be created elsewhere
-    static member fromcl (c:Classification) =
-      one !!"nicebnf:hasClassification" (Uri.fromc c) (Graph.fromc c)
+    static member fromcl (Classification(id,ifcs)) =
+      let ifs = ifcs |> Seq.map Graph.fromdc |> Seq.toList
+      let cl = one !!"nicebnf:hasClassification" (Classification(id,ifcs) |> Uri.fromc) [(a Uri.ClassificationEntity)]
+      cl :: ifs
 
     static member fromil (i:InteractionLink) =
       one !!"nicebnf:hasInteraction" (Uri.from i) [a Uri.InteractionEntity]
