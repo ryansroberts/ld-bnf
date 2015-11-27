@@ -259,33 +259,30 @@ module MedicinalFormRdf =
     static member frompt (PriceText x) = Graph.dp "PriceText" x |> Some
     static member fromnhsip (NhsIndicativePrice x) = Graph.dp "NhsIndicativePrice" (string x) |> Some
     static member fromnhsii (NhsIndicativeInfo(nhsi,pt,nhsip)) =
-      let s = [nhsi >>= Graph.fromnhsi
-               pt >>= Graph.frompt
-               nhsip >>= Graph.fromnhsip] |> List.choose id
-      blank !!"nicebnf:hasNhsIndicativeInfo" s |> Some
+      [nhsi >>= Graph.fromnhsi
+       pt >>= Graph.frompt
+       nhsip >>= Graph.fromnhsip] |> List.choose id
 
     static member fromps (PackSize d) = Graph.dp "PackSize" (string d) |> Some
     static member fromuom u = Graph.dp "UnitOfMeasure" (string u) |> Some
     static member fromlc lc = Graph.dp "LegalCategory" (string lc) |> Some
     static member frompackinfo (PackInfo(ps,uom,lc)) =
-      let s = [ps >>= Graph.fromps
-               uom >>= Graph.fromuom
-               lc >>= Graph.fromlc] |> List.choose id
-      blank !!"nicebnf:hasPackInfo" s |> Some
+      [ps >>= Graph.fromps
+       uom >>= Graph.fromuom
+       lc >>= Graph.fromlc] |> List.choose id
 
     static member fromdt (DrugTarrif s) = Graph.dp "DrugTarrif" s |> Some
     static member fromdtp (DrugTariffPrice dtp) = Graph.dp "DrugTariffPrice" (string dtp) |> Some
     static member fromdti (DrugTariffInfo(dt,pt,dtp)) =
-      let s = [dt >>= Graph.fromdt
-               pt >>= Graph.frompt
-               dtp >>= Graph.fromdtp] |> List.choose id
-      blank !!"nicebnf:hasDrugTarrifInfo" s |> Some
+      [dt >>= Graph.fromdt
+       pt >>= Graph.frompt
+       dtp >>= Graph.fromdtp] |> List.choose id
 
     static member frompack(Pack(pi,nii,dti)) =
-      let s = [pi >>= Graph.frompackinfo
-               nii >>= Graph.fromnhsii
-               dti >>= Graph.fromdti
-               Some(a !!"nicebnf:Pack")] |> List.choose id
+      let s = [pi >>= (Graph.frompackinfo >> Some)
+               nii >>= (Graph.fromnhsii >> Some)
+               dti >>= (Graph.fromdti >> Some)
+               Some([ a !!"nicebnf:Pack" ])] |> List.choose id |> List.collect id
       blank !!"nicebnf:hasPack" s
 
     static member from (x:MedicinalProduct) =
