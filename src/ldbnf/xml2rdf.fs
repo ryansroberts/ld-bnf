@@ -21,6 +21,8 @@ open Bnf.MedicinalForm
 open Bnf.MedicinalFormParser
 open Bnf.BorderlineSubstance
 open Bnf.BorderlineSubstanceParser
+open Bnf.Interaction
+open Bnf.InteracitonParser
 open FSharp.RDF
 
 open resource
@@ -32,6 +34,7 @@ open Bnf.TreatmentSummary
 open Bnf.TreatmentSummaryRdf
 open Bnf.DrugClassificationRdf
 open Bnf.BorderlineSubstanceRdf
+open Bnf.InteractionRdf
 
 
 module Iterator =
@@ -80,6 +83,7 @@ module Iterator =
             | "drugClass" -> fi |> drugProvider.Load |> DrugClass.parse |> Graph.from |> Some
             | "clinicalMedicinalProductInformation" -> fi |> drugProvider.Load |> CMPI.parse |> Graph.from |> Some
             | "borderlineSubstance" -> fi |> bsProvider.Load |> BorderlineSubstance.parse |> Graph.from |> Some
+            | "interaction" -> fi |> inProvider.Load |> InteractionList.parse |> Graph.from |> Some
             | _ -> None
 
     match m with
