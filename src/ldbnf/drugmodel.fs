@@ -715,7 +715,7 @@ module DrugParser =
       static member from (x:drugProvider.Sectiondiv) =
         let buildTa (s1:drugProvider.Sectiondiv) =
           let fid = function
-            | HasOutputClasso "fundingIdentifier" p -> p |> FundingIdentifier.from s1.Xref.Value.Href
+            | HasOutputClasso "fundingIdentifier" p -> p |> FundingIdentifier.from s1.Xref.Value.Value
             | _ -> None
           let fi = s1.Ps |> Array.tryPick fid
           let (t,sp,s) = s1.Sectiondivs.[0] |> (addSpecificity >> addTitle)

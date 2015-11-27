@@ -130,7 +130,7 @@ module MedicinalFormParser =
         | Some(s) -> match s with
                      | "tablet" -> Some(Tablet)
                      | _ ->
-                       printf "Unknown UnitOfMeasure %s" s
+                       printfn "Unknown UnitOfMeasure %s" s
                        None
         | None -> None
 
@@ -141,7 +141,7 @@ module MedicinalFormParser =
                      | "POM" -> Some(POM)
                      | "P" -> Some(P)
                      | _ ->
-                       printf "Unknown LegalCatgory %s" s
+                       printfn "Unknown LegalCatgory %s" s
                        None
         | None -> None
 
