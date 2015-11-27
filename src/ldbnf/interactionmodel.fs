@@ -1,6 +1,7 @@
 namespace Bnf
 open FSharp.Data
 open Shared
+open prelude
 
 module Interaction =
   type inProvider = XmlProvider<"superinteraction.xml", Global=true>
@@ -14,6 +15,7 @@ module Interaction =
   type Importance =
     | High
     | NotSet
+    override __.ToString() = toString __
 
   type InteractsWith =
     {id:Id;

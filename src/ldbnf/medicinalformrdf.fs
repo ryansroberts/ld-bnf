@@ -31,8 +31,8 @@ module InteractionRdf =
 
       let interactionDetail i = one !!"nicebnf:hasInteraction" (iwuri i)
                                  [a Uri.InteractionDetailEntity
-                                  dataProperty !!"cnt:ContentAsXml" ((string i.message)^^xsd.xmlliteral)]
-
+                                  dataProperty !!"cnt:ContentAsXml" ((string i.message)^^xsd.xmlliteral)
+                                  dataProperty !!"nicebnf:hasImportance" ((string i.importance)^^xsd.string)]
 
       let dr r = resource (Uri.fromil id) r
       [dr s
