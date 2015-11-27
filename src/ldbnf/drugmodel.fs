@@ -562,8 +562,8 @@ module DrugParser =
         Pregnancy(Id(x.Id),gis,das,amps)
       static member breastFeedingFrom (x:drugProvider.Topic) =
         let gis = x |> (somesections "generalInformation") |> Array.map GeneralInformation.from
-        let ambfs = x |> (somesections "doseAdjustments") |> Array.map (addSpecificity >> AdditionalMonitoringInBreastFeeding)
-        let das = x |> (somesections "") |> Array.map (addSpecificity >> DoseAdjustment)
+        let ambfs = x |> (somesections "additionalMonitoringInBreastFeeding") |> Array.map (addSpecificity >> AdditionalMonitoringInBreastFeeding)
+        let das = x |> (somesections "doseAdjustments") |> Array.map (addSpecificity >> DoseAdjustment)
         BreastFeeding(Id(x.Id),gis,ambfs,das)
       static member hepaticImparmentFrom (x:drugProvider.Topic) =
         match x.Body with
