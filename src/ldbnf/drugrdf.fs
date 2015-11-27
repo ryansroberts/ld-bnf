@@ -227,9 +227,7 @@ module DrugRdf =
       dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))
 
     static member frommfl (MedicinalFormLink(l)) =
-      blank !!"nicebnf:hasMedicinalForm"
-        [dataProperty !!"rdfs:label" (l.Title^^xsd.string)
-         dataProperty !!"nicebnf:medicinalForm" ((Uri.bnfsite + "medicinalform/" + l.Url)^^xsd.string)]
+      one !!"nicebnf:hasMedicinalForm" (!!(Uri.bnfsite + "medicinalform/" + l.Url)) [dataProperty !!"rdfs:label" (l.Title^^xsd.string)]
 
     static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
       blank !!"nicebnf:hasContraIndication"
