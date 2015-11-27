@@ -18,11 +18,26 @@ module InteractionRdf =
                                   "cnt",!!"http://www.w3.org/2011/content#"
                                   "rdfs",!!"http://www.w3.org/2000/01/rdf-schema#"
                                   "bnfsite",!!Uri.bnfsite]
-      let s = [ a Uri.IndicationEntity
+      let s = [ a Uri.InteractionEntity
                 t |> (string >> xsd.xmlliteral >> (dataProperty !!"rdfs:label"))]
 
-      let dr r = resource (Uri.fromil(InteractionList(id,t,il))) r
-      [dr s]
+
+      let interactsWith i =
+        match i.importance with
+          | High -> objectProperty !!"nicebnf:interactsWithImportant" (Uri.fromiwl i)
+          | NotSet -> objectProperty !!"nicebnf:interactsWith" (Uri.fromiwl i)
+
+      let iwuri = Uri.fromiw id
+
+      let interactionDetail i = one !!"nicebnf:hasInteraction" (iwuri i)
+                                 [a Uri.InteractionDetailEntity
+                                  dataProperty !!"cnt:ContentAsXml" ((string i.message)^^xsd.xmlliteral)]
+
+
+      let dr r = resource (Uri.fromil id) r
+      [dr s
+       dr (il |> List.map interactsWith)
+       dr (il |> List.map interactionDetail)]
        |> Assert.graph og
 
 module BorderlineSubstanceRdf =
