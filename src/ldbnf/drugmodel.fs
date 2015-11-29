@@ -312,13 +312,13 @@ module DrugParser =
       static member from (x:drugProvider.Ph) = Indication(x.Value.Value)
 
     type InteractionLink with
-        static member from (x:drugProvider.Xref) = InteractionLink {Url = x.Href ; Title = x.Value}
+        static member from (x:drugProvider.Xref) = InteractionLink {Url = x.Href.Replace(".xml", "") ; Title = x.Value}
 
     type ConstituentDrug with
-        static member from (x:drugProvider.Xref)= ConstituentDrug {Url = x.Href; Title = x.Value}
+        static member from (x:drugProvider.Xref)= ConstituentDrug {Url = x.Href.Replace(".xml", ""); Title = x.Value}
 
     type MedicinalFormLink with
-        static member from (x:drugProvider.Xref) = MedicinalFormLink {Url = x.Href ; Title = x.Value}
+        static member from (x:drugProvider.Xref) = MedicinalFormLink {Url = x.Href.Replace(".xml", ""); Title = x.Value}
 
     type Content with
         static member from x = Content(Html(x.ToString()))
