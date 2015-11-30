@@ -21,22 +21,22 @@ module InteractionRdf =
       let s = [ a Uri.InteractionEntity
                 t |> (string >> xsd.xmlliteral >> (dataProperty !!"rdfs:label"))]
 
-
-      let interactsWith i =
-        match i.importance with
-          | High -> objectProperty !!"nicebnf:interactsWithImportant" (Uri.fromiwl i)
-          | NotSet -> objectProperty !!"nicebnf:interactsWith" (Uri.fromiwl i)
-
       let iwuri = Uri.fromiw id
+
+      let importance i =
+        match i.importance with
+          | High -> dataProperty !!"nicebnf:hasImportance" ("High"^^xsd.string)
+          | NotSet -> dataProperty !!"nicebnf:hasImportance" ("NotSet"^^xsd.string)
 
       let interactionDetail i = one !!"nicebnf:hasInteraction" (iwuri i)
                                  [a Uri.InteractionDetailEntity
+                                  objectProperty !!"nicebnf:interactsWith" (Uri.fromiwl i)
+                                  importance i
                                   dataProperty !!"cnt:ContentAsXml" ((string i.message)^^xsd.xmlliteral)
                                   dataProperty !!"nicebnf:hasImportance" ((string i.importance)^^xsd.string)]
 
       let dr r = resource (Uri.fromil id) r
       [dr s
-       dr (il |> List.map interactsWith)
        dr (il |> List.map interactionDetail)]
        |> Assert.graph og
 
