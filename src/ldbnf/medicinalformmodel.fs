@@ -40,8 +40,8 @@ module MedicinalForm =
 
   //To be extended in the future
   type UnitOfMeasure =
-    | Tablet
-    override __.ToString() = toString __
+    | UnitOfMeasure of string
+    override __.ToString() = match __ with | UnitOfMeasure x -> x
 
   type PackSize = | PackSize of decimal
 
@@ -49,6 +49,7 @@ module MedicinalForm =
   type LegalCategory =
     | POM
     | P
+    | GSL
     override __.ToString() = toString __
 
   type PackInfo = | PackInfo of Option<PackSize> * Option<UnitOfMeasure> * Option<LegalCategory>
@@ -127,11 +128,7 @@ module MedicinalFormParser =
   type UnitOfMeasure with
     static member from (x:mfProvider.Ph) =
       match x.String with
-        | Some(s) -> match s with
-                     | "tablet" -> Some(Tablet)
-                     | _ ->
-                       printfn "Unknown UnitOfMeasure %s" s
-                       None
+        | Some(s) -> UnitOfMeasure s |> Some
         | None -> None
 
   type LegalCategory with
