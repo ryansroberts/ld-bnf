@@ -9,6 +9,8 @@ open FSharpx.Control
 open System.Text.RegularExpressions
 open FSharp.Collections.ParallelSeq
 
+open Shared
+
 open System.Xml.Linq
 open FSharp.Data
 open Bnf.Drug
@@ -77,7 +79,7 @@ module Iterator =
     //parse in different ways for differnt types
     let m = match t with
             | "drug" -> fi |> drugProvider.Load |> Drug.parse |> Graph.from |> Some
-            | "medicinalForm" -> fi |> mfProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
+            | "medicinalForm" -> fi |> drugProvider.Load |> MedicinalForm.parse |> Graph.from |> Some
             | "treatmentSummary" -> fi |> tsProvider.Load |> TreatmentSummary.parse |> Graph.from |> Some
             | "drugClassifications" -> fi |> dcProvider.Load |> DrugClassifications.parse |> Graph.from |> Some
             | "drugClass" -> fi |> drugProvider.Load |> DrugClass.parse |> Graph.from |> Some

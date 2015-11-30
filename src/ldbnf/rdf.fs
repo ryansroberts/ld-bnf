@@ -62,7 +62,7 @@ module RdfUris =
     static member fromgrp (s:string) = !!(Uri.nicebnfClass + "PatientGroup#" + (NameUtils.niceCamelName s))
     static member from (TheraputicUse (s,_)) = !!(Uri.nicebnfClass + "TheraputicUse#" + (NameUtils.niceCamelName s))
     static member from (DomainOfEffect (s,_,_)) = !!(Uri.nicebnfClass + "DomainOfEffect#" + (NameUtils.niceCamelName (s.Value.Trim())))
-    static member fromse (SideEffect s) = !!(Uri.nicebnfClass + "SideEffect#" + (NameUtils.niceCamelName s.Value.Value))
+    static member fromse (SideEffect s) = !!(Uri.nicebnfClass + "SideEffect#" + (NameUtils.niceCamelName s.String.Value))
     static member fromfre (f:Frequency) = !!(Uri.nicebnfClass + "Frequency#" + (NameUtils.niceCamelName f.frequencyid))
 
     static member DrugClassEntity = !!(Uri.nicebnf + "DrugClass")

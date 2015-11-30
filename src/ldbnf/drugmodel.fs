@@ -10,10 +10,11 @@ module Shared =
     | Doi of string
     override __.ToString () = match __ with | Doi x -> x
 
+  //sensible compromise to reference the types provided to avoid replication
+  type drugProvider = XmlProvider<"SuperDrug.xml", Global=true, SampleIsList=true>
+
 module Drug =
     open Shared
-    //sensible compromise to reference the types provided to avoid replication
-    type drugProvider = XmlProvider<"SuperDrug.xml", Global=true, SampleIsList=true>
 
     type Paragraph = | Paragraph of string * drugProvider.P option
     type Paragraphs = | Paragraphs of Paragraph seq
@@ -135,7 +136,7 @@ module Drug =
       | SideEffect of drugProvider.Ph
       override __.ToString () =
         match __ with
-          | SideEffect x -> match x.Value with
+          | SideEffect x -> match x.String with
                             | Some (s) -> s
                             | _ -> ""
 
@@ -298,27 +299,27 @@ module DrugParser =
     type Route with
       static member from (Paragraph(x,_)) = Route x
       static member from (Paragraphs xs) = Seq.map Route.from xs
-      static member from (x:drugProvider.Ph) = Route(x.Value.Value)
+      static member from (x:drugProvider.Ph) = Route(x.String.Value)
 
     type Link with
       static member from (r:drugProvider.Xref) =
-        {Url = r.Href; Title = r.Value}
+        {Url = r.Href; Title = r.Value |? ""}
       static member from (x:drugProvider.P) =
         x.Xrefs |> Array.map Link.from |> Array.tryPick Some
       static member from (x:drugProvider.Sectiondiv) =
         x.Ps |> Array.choose Link.from
 
     type Indication with
-      static member from (x:drugProvider.Ph) = Indication(x.Value.Value)
+      static member from (x:drugProvider.Ph) = Indication(x.String.Value)
 
     type InteractionLink with
-        static member from (x:drugProvider.Xref) = InteractionLink {Url = x.Href.Replace(".xml", "") ; Title = x.Value}
+        static member from (x:drugProvider.Xref) = InteractionLink {Url = x.Href.Replace(".xml", "") ; Title = x.Value |? ""}
 
     type ConstituentDrug with
-        static member from (x:drugProvider.Xref)= ConstituentDrug {Url = x.Href.Replace(".xml", ""); Title = x.Value}
+        static member from (x:drugProvider.Xref)= ConstituentDrug {Url = x.Href.Replace(".xml", ""); Title = x.Value |? ""}
 
     type MedicinalFormLink with
-        static member from (x:drugProvider.Xref) = MedicinalFormLink {Url = x.Href.Replace(".xml", ""); Title = x.Value}
+        static member from (x:drugProvider.Xref) = MedicinalFormLink {Url = x.Href.Replace(".xml", ""); Title = x.Value |? ""}
 
     type Content with
         static member from x = Content(Html(x.ToString()))
@@ -715,7 +716,7 @@ module DrugParser =
       static member from (x:drugProvider.Sectiondiv) =
         let buildTa (s1:drugProvider.Sectiondiv) =
           let fid = function
-            | HasOutputClasso "fundingIdentifier" p -> p |> FundingIdentifier.from s1.Xref.Value.Value
+            | HasOutputClasso "fundingIdentifier" p -> p |> FundingIdentifier.from s1.Xref.Value.Value.Value
             | _ -> None
           let fi = s1.Ps |> Array.tryPick fid
           let (t,sp,s) = s1.Sectiondivs.[0] |> (addSpecificity >> addTitle)
