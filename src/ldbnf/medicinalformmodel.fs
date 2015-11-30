@@ -137,6 +137,7 @@ module MedicinalFormParser =
         | Some(s) -> match s with
                      | "POM" -> Some(POM)
                      | "P" -> Some(P)
+                     | "GSL" -> Some(GSL)
                      | _ ->
                        printfn "Unknown LegalCatgory %s" s
                        None
