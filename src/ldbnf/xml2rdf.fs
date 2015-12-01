@@ -25,6 +25,8 @@ open Bnf.BorderlineSubstance
 open Bnf.BorderlineSubstanceParser
 open Bnf.Interaction
 open Bnf.InteracitonParser
+open Bnf.MedicalDeviceType
+open Bnf.MedicalDeviceTypeParser
 open FSharp.RDF
 
 open resource
@@ -37,6 +39,7 @@ open Bnf.TreatmentSummaryRdf
 open Bnf.DrugClassificationRdf
 open Bnf.BorderlineSubstanceRdf
 open Bnf.InteractionRdf
+open Bnf.MedicalDeviceTypeRdf
 
 
 module Iterator =
@@ -86,11 +89,11 @@ module Iterator =
             | "clinicalMedicinalProductInformation" -> fi |> drugProvider.Load |> CMPI.parse |> Graph.from |> Some
             | "borderlineSubstance" -> fi |> bsProvider.Load |> BorderlineSubstance.parse |> Graph.from |> Some
             | "interaction" -> fi |> inProvider.Load |> InteractionList.parse |> Graph.from |> Some
+            | "medicalDeviceType" -> fi |> drugProvider.Load |> MedicalDeviceType.parse |> Graph.from |> Some
             | _ -> None
 
     match m with
         | Some graph ->
-          
           let sb = new System.Text.StringBuilder()
           use tw = toString sb
           graph |> Graph.writeTtl tw |> ignore
