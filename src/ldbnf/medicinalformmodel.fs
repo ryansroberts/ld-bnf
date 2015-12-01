@@ -37,14 +37,12 @@ module MedicinalForm =
 
   type StrengthOfActiveIngredient = | StrengthOfActiveIngredient of drugProvider.P
 
-  //To be extended in the future
   type UnitOfMeasure =
     | UnitOfMeasure of string
     override __.ToString() = match __ with | UnitOfMeasure x -> x
 
   type PackSize = | PackSize of decimal
 
-  //I'm pretty sure that there will be more of these
   type LegalCategory =
     | POM
     | P
