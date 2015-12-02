@@ -55,10 +55,12 @@
     <Compile Include="drugclassifications.fs" />
     <Compile Include="borderlinesubstances.fs" />
     <Compile Include="interactionmodel.fs"/>
+    <Compile Include="woundmanagmentmodel.fs"/>
     <Compile Include="rdf.fs" />
     <Compile Include="drugrdf.fs" />
     <Compile Include="medicinalformrdf.fs" />
     <Compile Include="medicaldevicetyperdf.fs"/>
+    <Compile Include="woundmanagmentrdf.fs"/>
     <Compile Include="xml2rdf.fs" />
   </ItemGroup>
   <PropertyGroup>
