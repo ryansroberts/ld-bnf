@@ -14,6 +14,7 @@ module DrugRdf =
   open RdfUris
 
   //shoudl replace these with tostring
+  let getDrugLabel (DrugName n) = string n.Value.Value
   let getvald (DrugName n) = string n
   let getvaldc (DrugClassName n) = string n
   let getvalcmpi (CMPIName n) = string n
@@ -50,8 +51,9 @@ module DrugRdf =
     static member from (x:Drug) =
 
       let s = [ Some(a Uri.DrugEntity)
-                Some(dataProperty !!"rdfs:label" ((getvald x.name)^^xsd.xmlliteral))
-                x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:vtmid" >> Some)
+                Some(dataProperty !!"rdfs:label" ((getDrugLabel x.name)^^xsd.string))
+                Some(dataProperty !!"nicebnf:hasTitle" ((getvald x.name)^^xsd.xmlliteral))
+                x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:hasVtmid" >> Some)
                 x.primaryDomainOfEffect >>= (Graph.frompdoe >> Some)
                 ]
 
