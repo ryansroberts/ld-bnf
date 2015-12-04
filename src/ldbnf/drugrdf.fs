@@ -14,9 +14,11 @@ module DrugRdf =
   open RdfUris
 
   //shoudl replace these with tostring
-  let getDrugLabel (DrugName n) = string n.Value.Value
+  let getlabeld (DrugName n) = string n.Value.Value
   let getvald (DrugName n) = string n
+  let getlabeldc (DrugClassName n) = string n.Value.Value
   let getvaldc (DrugClassName n) = string n
+  let getlabelcmpi (CMPIName n) = string n.Value.Value
   let getvalcmpi (CMPIName n) = string n
   let getvtmid (Vtmid i) = Some(string i)
   let tosys (Sys s) = s
@@ -29,7 +31,8 @@ module DrugRdf =
 
     static member from (x:CMPI) =
       let s = [ Some(a Uri.CMPIEntity)
-                Some(dataProperty !!"rdfs:label" ((getvalcmpi x.cmpiname)^^xsd.xmlliteral))] |> List.choose id
+                Some(dataProperty !!"rdfs:label" ((getlabelcmpi x.cmpiname)^^xsd.string))
+                Some(dataProperty !!"nicebnf:hasTitle" ((getvalcmpi x.cmpiname)^^xsd.xmlliteral))] |> List.choose id
       let dr r = resource (Uri.from x) r
       let sec = Graph.fromsec (Uri.fromseccmpi x)
       [dr s
@@ -37,9 +40,9 @@ module DrugRdf =
        |> Assert.graph Graph.setupGraph
 
     static member from (x:DrugClass) =
-
       let s = [ Some(a Uri.DrugClassEntity)
-                Some(dataProperty !!"rdfs:label" ((getvaldc x.dcname)^^xsd.xmlliteral))] |> List.choose id
+                Some(dataProperty !!"rdfs:label" ((getlabeldc x.dcname)^^xsd.string))
+                Some(dataProperty !!"nicebnf:hasTitle" ((getvaldc x.dcname)^^xsd.xmlliteral))] |> List.choose id
 
       let dr r = resource (Uri.from x) r
       let sec = Graph.fromsec (Uri.fromsecdc x)
@@ -51,7 +54,7 @@ module DrugRdf =
     static member from (x:Drug) =
 
       let s = [ Some(a Uri.DrugEntity)
-                Some(dataProperty !!"rdfs:label" ((getDrugLabel x.name)^^xsd.string))
+                Some(dataProperty !!"rdfs:label" ((getlabeld x.name)^^xsd.string))
                 Some(dataProperty !!"nicebnf:hasTitle" ((getvald x.name)^^xsd.xmlliteral))
                 x.vtmid >>= getvtmid >>= (xsd.string >> dataProperty !!"nicebnf:hasVtmid" >> Some)
                 x.primaryDomainOfEffect >>= (Graph.frompdoe >> Some)
