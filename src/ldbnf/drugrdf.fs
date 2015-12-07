@@ -36,7 +36,7 @@ module DrugRdf =
       let dr r = resource (Uri.from x) r
       let sec = Graph.fromsec (Uri.fromseccmpi x)
       [dr s
-       dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
+       dr (x.sections |> Seq.map sec |> Seq.collect id |> Seq.toList)]
        |> Assert.graph Graph.setupGraph
 
     static member from (x:DrugClass) =
@@ -48,7 +48,7 @@ module DrugRdf =
       let sec = Graph.fromsec (Uri.fromsecdc x)
 
       [dr s
-       dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
+       dr (x.sections |> Seq.map sec |> Seq.collect id |> Seq.toList)]
        |> Assert.graph Graph.setupGraph
 
     static member from (x:Drug) =
@@ -73,7 +73,7 @@ module DrugRdf =
        dr (x.classifications |> Seq.map Graph.fromcl |> Seq.toList |> List.collect id)
        dr (x.constituentDrugs |> Seq.map Graph.fromcd |> Seq.toList)
        dr (x.interactionLinks |> Seq.map Graph.fromil |> Seq.toList)
-       dr (x.sections |> Seq.map sec |> Seq.choose id |> Seq.toList)]
+       dr (x.sections |> Seq.map sec |> Seq.collect id |> Seq.toList)]
        |> Assert.graph Graph.setupGraph
 
     static member fromdc (InheritsFromClass (c)) =
@@ -166,16 +166,16 @@ module DrugRdf =
     static member fromgi (GeneralInformation (sd,sp)) =
       let s = [Some(dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(sd.ToString())))
                sp >>= (Graph.fromsp >> Some)]
-      blank !!"nicebnf:hasGeneralInformation" (s |> List.choose id)
+      s |> List.choose id
 
     static member fromda (DoseAdjustment (sp,sd)) =
       let s = [Some(dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(sd.ToString())))
                sp >>= (Graph.fromsp >> Some)]
-      blank !!"nicebnf:hasDoseAdjustment" (s |> List.choose id)
+      s |> List.choose id
 
-    static member general n i (gis:seq<GeneralInformation>) =
-      let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.fromgi |> Seq.toList)
-      one !!("nicebnf:has" + n) i s
+    //static member general n i (gis:seq<GeneralInformation>) =
+    //  let s = a !!("nicebnf:" + n) :: (gis |> Seq.map Graph.fromgi |> Seq.toList)
+    //  one !!("nicebnf:has" + n) i s
 
     //ungroup the patient groups adding a route if available
     static member from (RouteOfAdministration(r,pgs)) =
@@ -195,13 +195,12 @@ module DrugRdf =
                                                                                          dataProperty !!"nicebnf:hasDitaContent" ((string p)^^xsd.xmlliteral)])
 
     static member fromidg (IndicationsAndDose(tis,roas)) =
-      let s = (tis |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
+      (tis |> Seq.map Graph.from |> Seq.choose id |> Seq.toList)
               @ (roas |> Seq.collect Graph.from |> Seq.toList)
-      blank !!"nicebnf:hasIndicationAndDose" s
 
     static member fromidgs (x:IndicationsAndDoseSection) =
-      let bn s = [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
-      let dp n s = (blank !!("nicebnf:has" + n) (bn s))
+      let dp n s = [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))
+                    dataProperty !!"nicebnf:hasSubject" (n^^xsd.string)]
       match x with
        | Pharmacokinetics s -> s |> dp "Pharmacokinetics"
        | DoseEquivalence s -> s |> dp "DoseEquivalence"
@@ -210,11 +209,10 @@ module DrugRdf =
        | Potency s -> s |> dp "Potency"
 
     static member fromamri (AdditionalMonitoringInRenalImpairment s) =
-      blank !!"nicebnf:hasAdditionalMonitoringInRenalImpairment"
-        [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
+      [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member frompca (p:PatientAndCarerAdvice) =
-      let pca n x = blank !!("nicebnf:has" + n) (Graph.fromthree x)
+      let pca n x = dataProperty !!"nicebnf:hasSubject" (n^^xsd.string) :: Graph.fromthree x
       match p with
         | PatientResources (t,sp,s) -> (t,sp,s) |> pca "PatientResources"
         | AdviceAroundMissedDoses (t,sp,s) -> (t,sp,s) |> pca "AdviceAroundMissedDoses"
@@ -224,21 +222,18 @@ module DrugRdf =
         | PatientAdviceInConceptionAndContraception (t,sp,s) -> (t,sp,s) |> pca "PatientAdviceInConceptionAndContraception"
 
     static member fromlvs (LicensingVariationStatement(Html(s))) =
-      blank !!"nicebnf:hasLicensingVariationStatement"
         [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member fromhtml (Html(s)) =
-      dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))
+      [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member frommfl (MedicinalFormLink(l)) =
-      one !!"nicebnf:hasMedicinalForm" (!!(Uri.bnfsite + "medicinalform/" + l.Url)) [dataProperty !!"rdfs:label" (l.Title^^xsd.string)]
+      [one !!"nicebnf:hasMedicinalForm" (!!(Uri.bnfsite + "medicinalform/" + l.Url)) [dataProperty !!"rdfs:label" (l.Title^^xsd.string)]]
 
     static member fromcsc (AllergyAndCrossSensitivityContraindications s) =
-      blank !!"nicebnf:hasContraIndication"
         [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member fromcscs (AllergyAndCrossSensitivityCrossSensitivity s) =
-      blank !!"nicebnf:hasCrossSensitivity"
         [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
 
     static member from (x:drugProvider.Sectiondiv) =
@@ -252,39 +247,27 @@ module DrugRdf =
       let st = [t >>= Graph.fromti] |> List.choose id
       st @ (Graph.frompair (sp,s))
 
-    static member fromexc (ExceptionToLegalCategory (sp,s)) =
-      blank !!"nicebnf:hasException" (Graph.frompair (sp,s))
+    static member fromexc (ExceptionToLegalCategory (sp,s)) = Graph.frompair (sp,s)
+    static member fromden (DentalPractitionersFormulary (sp,s)) = Graph.frompair (sp,s)
+    static member fromadp (AdviceForDentalPractitioners (sp,s)) = Graph.frompair (sp,s)
 
-    static member fromden (DentalPractitionersFormulary (sp,s)) =
-      blank !!"nicebnf:hasDentalPractitionersFormulary" (Graph.frompair (sp,s))
-    static member fromadp (AdviceForDentalPractitioners (sp,s)) =
-      blank !!"nicebnf:hasAdviceForDentalPractitioners" (Graph.frompair (sp,s))
+    static member fromlsfp (LessSuitableForPrescribing (sp,s)) = Graph.frompair (sp,s)
 
-    static member fromlsfp (LessSuitableForPrescribing (sp,s)) =
-      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
+    static member fromhas (HandlingAndStorage (sp,s)) = Graph.frompair (sp,s)
 
-    static member fromhas (HandlingAndStorage (sp,s)) =
-      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
-
-    static member fromelt (EffectOnLaboratoryTest s) =
-      blank !!"nicebnf:hasInformation" [(Graph.from s)]
-    static member frompts (PreTreatmentScreening s) =
-      blank !!"nicebnf:hasInformation" [(Graph.from s)]
-    static member fromtc (TreatmentCessation s) =
-      blank !!"nicebnf:hasInformation" [(Graph.from s)]
-    static member fromdac (DrugAction s) =
-      blank !!"nicebnf:hasInformation" [(Graph.from s)]
+    static member fromelt (EffectOnLaboratoryTest s) = [(Graph.from s)]
+    static member frompts (PreTreatmentScreening s) = [(Graph.from s)]
+    static member fromtc (TreatmentCessation s) = [(Graph.from s)]
+    static member fromdac (DrugAction s) = [(Graph.from s)]
 
     static member fromse (x:SideEffect) =
       let l = match x with | SideEffect s -> ((string s).ToLower())^^xsd.string
-      one !!"nicebnf:hasSideEffect" (Uri.fromse x) [ dataProperty !!"rdfs:label" l
-                                                     a !!"nicebnf:SideEffect" ]
+      one !!"nicebnf:hasSideEffect" (Uri.fromse x) [dataProperty !!"rdfs:label" l
+                                                    a !!"nicebnf:SideEffect" ]
 
-    static member fromsea (SideEffectAdvice (sp,s)) =
-      blank !!"nicebnf:hasSideEffectAdvice" (Graph.frompair (sp,s))
+    static member fromsea (SideEffectAdvice (sp,s)) = Graph.frompair (sp,s)
 
-    static member fromod (SideEffectsOverdosageInformation (sp,s)) =
-      blank !!"nicebnf:hasSideEffectsOverdosageInformation" (Graph.frompair (sp,s))
+    static member fromod (SideEffectsOverdosageInformation (sp,s)) = Graph.frompair (sp,s)
 
     static member fromfre (x:FrequencyGroup) =
         let gf (f,p,ses) =
@@ -295,18 +278,16 @@ module DrugRdf =
             dataProperty !!"nicebnf:hasDitaContent" ((string p)^^xsd.xmlliteral)] @ (ses |> Seq.map Graph.fromse |> Seq.toList)
         match x with
           | GeneralFrequency (f,p,ses) ->
-            blank !!"nicebnf:hasGeneralSideEffects" (gf(f,p,ses))
+            dataProperty !!"nicebnf:hasSubject" ("GeneralSideEffects"^^xsd.string) :: (gf(f,p,ses))
           | FrequencyWithRoutes (f,sp,p,ses) ->
             let s = (sp |> Graph.fromsp) :: gf(f,p,ses)
-            blank !!"nicebnf:hasSideEffectsWithRoutes" s
+            dataProperty !!"nicebnf:hasSubject" ("SideEffectsWithRoutes"^^xsd.string) :: s
           | FrequencyWithIndications (f,sp,p,ses) ->
             let s = (sp |> Graph.fromsp) :: gf(f,p,ses)
-            blank !!"nicebnf:hasSideEffectsWithIndications" s
+            dataProperty !!"nicebnf:hasSubject" ("SideEffectsWithIndications"^^xsd.string) :: s
 
-    static member fromia (ImportantAdvice (t,sp,s)) =
-      blank !!"nicebnf:hasImportantAdvice" (Graph.fromthree (t,sp,s))
-    static member fromciri (ContraindicationsRenalImpairment (t,sp,s)) =
-      blank !!"nicebnf:hasContraindicationsRenalImpairment" (Graph.fromthree (t,sp,s))
+    static member fromia (ImportantAdvice (t,sp,s)) = Graph.fromthree (t,sp,s)
+    static member fromciri (ContraindicationsRenalImpairment (t,sp,s)) = Graph.fromthree (t,sp,s)
 
     static member fromcon (x:ContraindicationsGroup) =
       let sp t = [a Uri.SpecificityEntity
@@ -314,71 +295,63 @@ module DrugRdf =
       let con (Contraindication x) = dataProperty !!"nicebnf:hasContraindication" (xsd.string(x.ToString()))
       let gen (p,cs) = (dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))) :: (cs |> List.map con)
       match x with
-        | GeneralContraindications (p,cs) -> blank !!"nicebnf:hasGeneralContraindications" (gen(p,cs))
-        | ContraindicationWithRoutes (t,p,cs) -> blank !!"nicebnf:hasContraindicationsWithRoutes"
-                                                    ((one !!"nicebnf:hasSpecificity" (Uri.froms t) (sp t))
+        | GeneralContraindications (p,cs) -> dataProperty !!"nicebnf:hasSubject" ("GeneralContraindications"^^xsd.string)
+                                               ::  (gen(p,cs))
+        | ContraindicationWithRoutes (t,p,cs) -> dataProperty !!"nicebnf:hasSubject" ("ContraindicationWithRoutes"^^xsd.string)
+                                                    :: ((one !!"nicebnf:hasSpecificity" (Uri.froms t) (sp t))
                                                     :: gen(p,cs))
-        | ContraindicationWithIndications (t,p,cs) -> blank !!"nicebnf:hasContraindicationsWithIndications"
-                                                        ((one !!"nicebnf:hasSpecificity" (Uri.froms t) (sp t))
+        | ContraindicationWithIndications (t,p,cs) -> dataProperty !!"nicebnf:hasSubject" ("ContraindicationWithIndications"^^xsd.string)
+                                                        :: ((one !!"nicebnf:hasSpecificity" (Uri.froms t) (sp t))
                                                         :: gen(p,cs))
 
     static member fromcg (x:CautionsGroup) =
       let cau (Caution x) = dataProperty !!"nicebnf:hasCaution" (xsd.string(x.ToString()))
       let gen (p,cs) = (dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))) :: (cs |> List.map cau)
       match x with
-        | GeneralCautions (p,cs) -> blank !!"nicebnf:hasGeneralCautions" (gen(p,cs))
+        | GeneralCautions (p,cs) -> dataProperty !!"nicebnf:hasSubject" ("GeneralCautions"^^xsd.string) :: (gen(p,cs))
         | CautionsWithRoutes (t,p,cs) ->
-            blank !!"nicebnf:hasCautionsWithRoutes"
-                ((one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
-                    [ dataProperty !!"rdfs:label" (xsd.string(t.ToString()))
+                dataProperty !!"nicebnf:hasSubject" ("CautionsWithRoutes"^^xsd.string)
+                :: (one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
+                     [dataProperty !!"rdfs:label" (xsd.string(t.ToString()))
                       a Uri.SpecificityEntity])
-                      :: gen(p,cs))
+                      :: gen(p,cs)
         | CautionsWithIndications (t,p,cs) ->
-            blank !!"nicebnf:hasCautionsWithIndications"
-                ((one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
+                dataProperty !!"nicebnf:hasSubject" ("CautionsWithIndications"^^xsd.string)
+                 :: (one !!"nicebnf:hasSpecificity" (Uri.froms(t.ToString()))
                     [ dataProperty !!"rdfs:label" (xsd.string(t.ToString()))
                       a Uri.SpecificityEntity])
-                      :: gen(p,cs))
+                      :: gen(p,cs)
 
-    static member frompadi (PrescribingAndDispensingInformation (sp,s)) =
-      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
-    static member fromulu (UnlicencedUse (sp,s)) =
-      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
-    static member fromcac (ConceptionAndContraception (sp,s)) =
-      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
-    static member fromisi (ImportantSafetyInformation(t,sp,s)) =
-      blank !!"nicebnf:hasInformation" (Graph.fromthree (t,sp,s))
-    static member fromdfa (DirectionsForAdministration (sp,s))=
-      blank !!"nicebnf:hasInformation" (Graph.frompair (sp,s))
+    static member frompadi (PrescribingAndDispensingInformation (sp,s)) = Graph.frompair (sp,s)
+    static member fromulu (UnlicencedUse (sp,s)) = Graph.frompair (sp,s)
+    static member fromcac (ConceptionAndContraception (sp,s)) = Graph.frompair (sp,s)
+    static member fromisi (ImportantSafetyInformation(t,sp,s)) = Graph.fromthree (t,sp,s)
+    static member fromdfa (DirectionsForAdministration (sp,s))= Graph.frompair (sp,s)
 
     static member fromfd (x:FundingDecision) =
       match x with
-        | NonNHS(sp,s) -> blank !!"nicebnf:hasNonNHSDecision" (Graph.frompair (sp,s))
-        | SmcDecisions(sp,s) -> blank !!"nicebnf:hasSmcDecision" (Graph.frompair(sp,s))
+        | NonNHS(sp,s) -> dataProperty !!"nicebnf:hasSubject" ("NonNHS"^^xsd.string) :: (Graph.frompair (sp,s))
+        | SmcDecisions(sp,s) -> dataProperty !!"nicebnf:hasSubject" ("SmcDecisions"^^xsd.string) :: (Graph.frompair(sp,s))
         | NiceTechnologyAppraisals(fi,t,sp,s) ->
            let s = [sp >>= (Graph.fromsp >> Some)
                     Some(Graph.from s)
                     t >>= Graph.fromti
                     fi >>= Graph.from] |> List.choose id
-           blank !!"nicebnf:hasNiceTechnologyAppraisalDecision" s
+           dataProperty !!"nicebnf:hasSubject" ("NiceTechnologyAppraisals"^^xsd.string) :: s
 
-    static member frominter (Interaction(sp,s)) =
-      blank !!"nicebnf:hasInformation" (Graph.frompair(sp,s))
+    static member frominter (Interaction(sp,s)) = Graph.frompair(sp,s)
 
-    static member fromamp (AdditionalMonitoringInPregnancy(sp,s)) =
-      blank !!"nicebnf:hasAdditionalMonitoringInPregnancy" (Graph.frompair(sp,s))
+    static member fromamp (AdditionalMonitoringInPregnancy(sp,s)) = Graph.frompair(sp,s)
 
-    static member fromambf (AdditionalMonitoringInBreastFeeding(sp,s)) =
-      blank !!"nicebnf:hasAdditionalMonitoringInBreastFeeding" (Graph.frompair(sp,s))
+    static member fromambf (AdditionalMonitoringInBreastFeeding(sp,s)) = Graph.frompair(sp,s)
 
-    static member fromamhi (AdditionalMonitoringInHepaticImpairment(sp,s)) =
-      blank !!"nicebnf:hasAdditionalMonitoringInHepaticImpairment" (Graph.frompair(sp,s))
+    static member fromamhi (AdditionalMonitoringInHepaticImpairment(sp,s)) = Graph.frompair(sp,s)
 
     static member frommon (x:MonitoringRequirement) =
       match x with
-        | PatientMonitoringProgrammes (sp,s) -> blank !!"nicebnf:hasPatientMonitoringProgrammes" (Graph.frompair (sp,s))
-        | TheraputicDrugMonitoring (sp,s) -> blank !!"nicebnf:hasTheraputicDrugMonitoring" (Graph.frompair (sp,s))
-        | MonitoringOfPatientParameters (sp,s) -> blank !!"nicebnf:hasMonitoringOfPatientParameters" (Graph.frompair (sp,s))
+        | PatientMonitoringProgrammes (sp,s) -> dataProperty !!"nicebnf:hasSubject" ("PatientMonitoringProgrammes"^^xsd.string) :: (Graph.frompair (sp,s))
+        | TheraputicDrugMonitoring (sp,s) -> dataProperty !!"nicebnf:hasSubject" ("TheraputicDrugMonitoring"^^xsd.string) :: (Graph.frompair (sp,s))
+        | MonitoringOfPatientParameters (sp,s) -> dataProperty !!"nicebnf:hasSubject" ("MonitoringOfPatientParameters"^^xsd.string) :: (Graph.frompair (sp,s))
 
 
     static member bob (GeneralInformation (sd,sp)) =
@@ -389,6 +362,11 @@ module DrugRdf =
 
     static member fromsec sid (x:MonographSection) =
 
+      let rec applyTo a xs = 
+        match xs with
+         | [] -> []
+         | x::xs -> x a::applyTo a xs
+
       //take the list, add hasSubject and type
       let add f x (sub,uri) =
         let s = f x
@@ -398,66 +376,66 @@ module DrugRdf =
                     [a !!("nicebnf:" + sub)]]
         blank !!("nicebnf:has" + n) (s @ s')
 
-      let sec n i st =
-        let s =  a !!("nicebnf:" + n) :: (st |> List.collect id)
-        one !!("nicebnf:has" + n) i s
+      //let sec n i st =
+      //  let s =  a !!("nicebnf:" + n) :: (st |> List.collect id)
+      //  one !!("nicebnf:has" + n) i s
 
-      let sec2 n i stf =
-        stf (n,i) |> List.collect id
+      let inline sec n i stf =
+        let fs = stf |> List.collect id
+        fs |> applyTo (n,i)
 
-      let inline statments g x = x |> Seq.map g |> Seq.toList
+      //let inline statments g x = x |> Seq.map g |> Seq.toList
 
-      let inline statments2 g x = x |> Seq.map (add g) |> Seq.toList
+      let inline statements g x = x |> Seq.map (add g) |> Seq.toList
 
-      let inline statment g x =
+      let inline statement g x =
         match x with
-        | Some(x) -> [g x]
+        | Some(x) -> [x |> add g]
         | None -> []
 
-
       match x with
-        | Pregnancy (i,gs,das,amps) -> Some(sec "PregnancyWarning" (sid i) [statments Graph.fromgi gs
-                                                                            statments Graph.fromda das
-                                                                            statments Graph.fromamp amps])
-        | BreastFeeding (i,gs,ambfs,das) -> Some(sec "BreastFeedingWarning" (sid i) [statments Graph.fromgi gs
-                                                                                     statments Graph.fromambf ambfs
-                                                                                     statments Graph.fromda das])
-        | HepaticImpairment (i,gs,das,amhis) -> Some(sec "HepaticImpairmentWarning" (sid i) [statments Graph.fromgi gs
-                                                                                             statments Graph.fromda das
-                                                                                             statments Graph.fromamhi amhis])
-        | RenalImpairment (i,gs,amri,das) -> Some(sec "RenalImpairmentWarning" (sid i) [statments Graph.fromgi gs
-                                                                                        statments Graph.fromamri amri
-                                                                                        statments Graph.fromda das])
-        | IndicationsAndDoseGroup (i,g,gss) -> Some(sec "IndicationAndDosageInformation" (sid i) [statments Graph.fromidg g
-                                                                                                  statments Graph.fromidgs gss])
-        | PatientAndCarerAdvices (i, pcas) -> Some(sec "PatientAndCarerAdvice" (sid i) [statments Graph.frompca pcas])
-        | MedicinalForms (i,lvs,html,mfls) -> Some(sec "MedicinalFormInformation" (sid i) [ statment Graph.fromlvs lvs
-                                                                                            statment Graph.fromhtml html
-                                                                                            statments Graph.frommfl mfls])
-        | AllergyAndCrossSensitivity (i,csc,cscs) -> Some(sec "AllergyAndCrossSensitivityWarning" (sid i) [ statment Graph.fromcsc csc
-                                                                                                            statment Graph.fromcscs cscs])
-        | ExceptionsToLegalCategory (i,es) -> Some(sec "ExceptionsToLegalCategory" (sid i) [statments Graph.fromexc es])
-        | ProfessionSpecificInformation (i,dps,adps) -> Some(sec "ProfessionSpecificInformation" (sid i) [statments Graph.fromden dps
-                                                                                                          statments Graph.fromadp adps])
-        | EffectOnLaboratoryTests (i,elts) -> Some(sec "EffectOnLaboratoryTests" (sid i) [statments Graph.fromelt elts])
-        | PreTreatmentScreenings (i,ptss) -> Some(sec "PreTreatmentScreeningInformation" (sid i) [statments Graph.frompts ptss])
-        | LessSuitableForPrescribings (i,lsfps) -> Some(sec "LessSuitableForPrescribing" (sid i) [statments Graph.fromlsfp lsfps])
-        | HandlingAndStorages (i,hass) -> Some(sec "HandlingAndStorageInformation" (sid i) [statments Graph.fromhas hass])
-        | TreatmentCessations (i,tcs) -> Some(sec "TreatmentCessationInformation" (sid i) [statments Graph.fromtc tcs])
-        | DrugActions (i,das) -> Some(sec "DrugActions" (sid i) [statments Graph.fromdac das])
-        | SideEffects (i,fres,seas,ods) -> Some(sec "SideEffects" (sid i) [statments Graph.fromfre fres
-                                                                           statments Graph.fromsea seas
-                                                                           statments Graph.fromod ods])
-        | Contraindications (i,cogs,ias,ciri) -> Some(sec "ContraIndications" (sid i) [statments Graph.fromcon cogs
-                                                                                       statments Graph.fromia ias
-                                                                                       statments Graph.fromciri ciri])
-        | Cautions (i,cgs,ias) -> Some(sec "Cautions" (sid i) [statments Graph.fromcg cgs
-                                                               statments Graph.fromia ias])
-        | PrescribingAndDispensingInformations (i,padi) -> Some(sec "PrescribingAndDispensingInformation" (sid i) [statments Graph.frompadi padi])
-        | UnlicencedUses (i,ulus) -> Some(sec "UnlicencedUsageInformation" (sid i) [statments Graph.fromulu ulus])
-        | ConceptionAndContraceptions (i,cacs) -> Some(sec "ConceptionAndContraceptionWarning" (sid i) [statments Graph.fromcac cacs])
-        | ImportantSafetyInformations (i,isis) -> Some(sec "ImportantSafetyInformation" (sid i) [statments Graph.fromisi isis])
-        | DirectionsForAdministrations (i,dfas) -> Some(sec "DirectionsForAdministration" (sid i) [statments Graph.fromdfa dfas])
-        | NationalFunding (i,fds) -> Some(sec "NationalFunding" (sid i) [statments Graph.fromfd fds])
-        | Interactions (i,is) -> Some(sec "Interactions" (sid i) [statments Graph.frominter is])
-        | MonitoringRequirements (i,mons) -> Some(sec "MonitoringRequirements" (sid i) [statments Graph.frommon mons])
+        | Pregnancy (i,gs,das,amps) -> sec "PregnancyWarning" (sid i) [statements Graph.fromgi gs
+                                                                       statements Graph.fromda das
+                                                                       statements Graph.fromamp amps]
+        | BreastFeeding (i,gs,ambfs,das) -> sec "BreastFeedingWarning" (sid i) [statements Graph.fromgi gs
+                                                                                statements Graph.fromambf ambfs
+                                                                                statements Graph.fromda das]
+        | HepaticImpairment (i,gs,das,amhis) -> sec "HepaticImpairmentWarning" (sid i) [statements Graph.fromgi gs
+                                                                                        statements Graph.fromda das
+                                                                                        statements Graph.fromamhi amhis]
+        | RenalImpairment (i,gs,amri,das) -> sec "RenalImpairmentWarning" (sid i) [statements Graph.fromgi gs
+                                                                                   statements Graph.fromamri amri
+                                                                                   statements Graph.fromda das]
+        | IndicationsAndDoseGroup (i,g,gss) -> sec "IndicationAndDosageInformation" (sid i) [statements Graph.fromidg g
+                                                                                             statements Graph.fromidgs gss]
+        | PatientAndCarerAdvices (i, pcas) -> sec "PatientAndCarerAdvice" (sid i) [statements Graph.frompca pcas]
+        | MedicinalForms (i,lvs,html,mfls) -> sec "MedicinalFormInformation" (sid i) [ statement Graph.fromlvs lvs
+                                                                                       statement Graph.fromhtml html
+                                                                                       statements Graph.frommfl mfls]
+        | AllergyAndCrossSensitivity (i,csc,cscs) -> sec "AllergyAndCrossSensitivityWarning" (sid i) [ statement Graph.fromcsc csc
+                                                                                                       statement Graph.fromcscs cscs]
+        | ExceptionsToLegalCategory (i,es) -> sec "ExceptionsToLegalCategory" (sid i) [statements Graph.fromexc es]
+        | ProfessionSpecificInformation (i,dps,adps) -> sec "ProfessionSpecificInformation" (sid i) [statements Graph.fromden dps
+                                                                                                     statements Graph.fromadp adps]
+        | EffectOnLaboratoryTests (i,elts) -> sec "EffectOnLaboratoryTests" (sid i) [statements Graph.fromelt elts]
+        | PreTreatmentScreenings (i,ptss) -> sec "PreTreatmentScreeningInformation" (sid i) [statements Graph.frompts ptss]
+        | LessSuitableForPrescribings (i,lsfps) -> sec "LessSuitableForPrescribing" (sid i) [statements Graph.fromlsfp lsfps]
+        | HandlingAndStorages (i,hass) -> sec "HandlingAndStorageInformation" (sid i) [statements Graph.fromhas hass]
+        | TreatmentCessations (i,tcs) -> sec "TreatmentCessationInformation" (sid i) [statements Graph.fromtc tcs]
+        | DrugActions (i,das) -> sec "DrugActions" (sid i) [statements Graph.fromdac das]
+        | SideEffects (i,fres,seas,ods) -> sec "SideEffects" (sid i) [statements Graph.fromfre fres
+                                                                      statements Graph.fromsea seas
+                                                                      statements Graph.fromod ods]
+        | Contraindications (i,cogs,ias,ciri) -> sec "ContraIndications" (sid i) [statements Graph.fromcon cogs
+                                                                                  statements Graph.fromia ias
+                                                                                  statements Graph.fromciri ciri]
+        | Cautions (i,cgs,ias) -> sec "Cautions" (sid i) [statements Graph.fromcg cgs
+                                                          statements Graph.fromia ias]
+        | PrescribingAndDispensingInformations (i,padi) -> sec "PrescribingAndDispensingInformation" (sid i) [statements Graph.frompadi padi]
+        | UnlicencedUses (i,ulus) -> sec "UnlicencedUsageInformation" (sid i) [statements Graph.fromulu ulus]
+        | ConceptionAndContraceptions (i,cacs) -> sec "ConceptionAndContraceptionWarning" (sid i) [statements Graph.fromcac cacs]
+        | ImportantSafetyInformations (i,isis) -> sec "ImportantSafetyInformation" (sid i) [statements Graph.fromisi isis]
+        | DirectionsForAdministrations (i,dfas) -> sec "DirectionsForAdministration" (sid i) [statements Graph.fromdfa dfas]
+        | NationalFunding (i,fds) -> sec "NationalFunding" (sid i) [statements Graph.fromfd fds]
+        | Interactions (i,is) -> sec "Interactions" (sid i) [statements Graph.frominter is]
+        | MonitoringRequirements (i,mons) -> sec "MonitoringRequirements" (sid i) [statements Graph.frommon mons]

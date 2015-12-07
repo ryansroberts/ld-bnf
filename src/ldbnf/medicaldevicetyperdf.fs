@@ -38,7 +38,7 @@ module MedicalDeviceTypeRdf =
 
       let sec = Graph.fromsec uri
 
-      let ss = x.sections |> List.choose sec
+      let ss = x.sections |> List.collect sec
       let mps = x.products |> List.map Graph.from
 
       one !!"bnfsite:hasClinicalMedicalDeviceInformationGroup" (uri x.id) (s @ ss @ mps)
