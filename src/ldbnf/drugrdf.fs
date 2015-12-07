@@ -380,13 +380,35 @@ module DrugRdf =
         | TheraputicDrugMonitoring (sp,s) -> blank !!"nicebnf:hasTheraputicDrugMonitoring" (Graph.frompair (sp,s))
         | MonitoringOfPatientParameters (sp,s) -> blank !!"nicebnf:hasMonitoringOfPatientParameters" (Graph.frompair (sp,s))
 
+
+    static member bob (GeneralInformation (sd,sp)) =
+      let s = [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(sd.ToString())) |> Some
+               sp >>= (Graph.fromsp >> Some)]
+      s |> List.choose id
+
+
     static member fromsec sid (x:MonographSection) =
+
+      //take the list, add hasSubject and type
+      let add f x (sub,uri) =
+        let s = f x
+        let n = x.GetType().Name
+        let s' = [a !!("nicebnf:" + n)
+                  one !!"nicebnf:hasSubject" uri
+                    [a !!("nicebnf:" + sub)]]
+        blank !!("nicebnf:has" + n) (s @ s')
 
       let sec n i st =
         let s =  a !!("nicebnf:" + n) :: (st |> List.collect id)
         one !!("nicebnf:has" + n) i s
 
+      let sec2 n i stf =
+        stf (n,i) |> List.collect id
+
       let inline statments g x = x |> Seq.map g |> Seq.toList
+
+      let inline statments2 g x = x |> Seq.map (add g) |> Seq.toList
+
       let inline statment g x =
         match x with
         | Some(x) -> [g x]
