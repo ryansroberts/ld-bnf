@@ -19,8 +19,6 @@ module Drug =
     type Paragraph = | Paragraph of string * drugProvider.P option
     type Paragraphs = | Paragraphs of Paragraph seq
     type Title = | Title of Paragraph
-    type Html = | Html of string
-    type Content = | Content of Html
 
     type Link = {Title:string; Url:string}
 
@@ -78,7 +76,7 @@ module Drug =
 
     type AdditionalMonitoringInHepaticImpairment = | AdditionalMonitoringInHepaticImpairment of Specificity option * drugProvider.Sectiondiv
 
-    type LicensingVariationStatement = | LicensingVariationStatement of Html
+    type LicensingVariationStatement = | LicensingVariationStatement of drugProvider.P
 
     //thinking maybe alias this type?
     type PatientAndCarerAdvice =
@@ -205,7 +203,7 @@ module Drug =
         | HepaticImpairment of Id * GeneralInformation seq * DoseAdjustment seq * AdditionalMonitoringInHepaticImpairment seq
         | RenalImpairment of Id * GeneralInformation seq * AdditionalMonitoringInRenalImpairment seq * DoseAdjustment seq
         | PatientAndCarerAdvices of Id * PatientAndCarerAdvice seq
-        | MedicinalForms of Id * Option<LicensingVariationStatement> * Option<Html> * MedicinalFormLink seq
+        | MedicinalForms of Id * Option<LicensingVariationStatement> * Option<drugProvider.Body> * MedicinalFormLink seq
         | AllergyAndCrossSensitivity of Id * Option<AllergyAndCrossSensitivityContraindications> * Option<AllergyAndCrossSensitivityCrossSensitivity>
         | ExceptionsToLegalCategory of Id * ExceptionToLegalCategory seq
         | ProfessionSpecificInformation of Id * DentalPractitionersFormulary seq * AdviceForDentalPractitioners seq
@@ -321,9 +319,6 @@ module DrugParser =
     type MedicinalFormLink with
         static member from (x:drugProvider.Xref) = MedicinalFormLink {Url = x.Href.Replace(".xml", ""); Title = x.Value |? ""}
 
-    type Content with
-        static member from x = Content(Html(x.ToString()))
-
     type PatientGroup with
       static member from (x:drugProvider.Li) =
         match x.Ps with
@@ -382,16 +377,13 @@ module DrugParser =
       b.Sections
       |> Array.filter (hasOutputclasso "licensingVariationStatement")
       |> Array.collect (fun s -> s.Ps)
-      |> Array.map (string >> Html >> LicensingVariationStatement)
+      |> Array.map LicensingVariationStatement
       |> Array.tryPick Some
 
     let medicinalForms (x:drugProvider.Topic) =
       let lvs = x.Body >>= lvs
-      let ps = match x.Body with
-                          | Some(b) -> Some(Html(b.ToString()))
-                          | None -> None
       let links = x.Xrefs |> Array.map MedicinalFormLink.from
-      MedicinalForms(Id(x.Id),lvs,ps,links)
+      MedicinalForms(Id(x.Id),lvs,x.Body,links)
 
     let inline optn t f x = Some (t (f x))
 

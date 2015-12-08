@@ -221,11 +221,11 @@ module DrugRdf =
         | PatientAdviceInPregnancy  (t,sp,s) -> (t,sp,s) |> pca "PatientAdviceInPregnancy"
         | PatientAdviceInConceptionAndContraception (t,sp,s) -> (t,sp,s) |> pca "PatientAdviceInConceptionAndContraception"
 
-    static member fromlvs (LicensingVariationStatement(Html(s))) =
-        [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
+    static member fromlvs (LicensingVariationStatement(p)) =
+        [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(p.ToString()))]
 
-    static member fromhtml (Html(s)) =
-      [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(s.ToString()))]
+    static member fromhtml (b:drugProvider.Body) =
+      [dataProperty !!"nicebnf:hasDitaContent" (xsd.xmlliteral(b.ToString()))]
 
     static member frommfl (MedicinalFormLink(l)) =
       [one !!"nicebnf:hasMedicinalForm" (!!(Uri.bnfsite + "medicinalform/" + l.Url)) [dataProperty !!"rdfs:label" (l.Title^^xsd.string)]]
@@ -376,15 +376,9 @@ module DrugRdf =
                     [a !!("nicebnf:" + sub)]]
         blank !!("nicebnf:has" + n) (s @ s')
 
-      //let sec n i st =
-      //  let s =  a !!("nicebnf:" + n) :: (st |> List.collect id)
-      //  one !!("nicebnf:has" + n) i s
-
       let inline sec n i stf =
         let fs = stf |> List.collect id
         fs |> applyTo (n,i)
-
-      //let inline statments g x = x |> Seq.map g |> Seq.toList
 
       let inline statements g x = x |> Seq.map (add g) |> Seq.toList
 
